@@ -9,12 +9,12 @@
 
 Run Infos
 
-    ansible-playbook &lt;YAML&gt; --list-hosts
-    ansible-playbook &lt;YAML&gt; --list-tasks
+    ansible-playbook <YAML> --list-hosts
+    ansible-playbook <YAML> --list-tasks
 
 Syntax Check
 
-    ansible-playbook --syntax-check &lt;YAML&gt;
+    ansible-playbook --syntax-check <YAML>
 
 ### Remote Execution
 
@@ -29,6 +29,10 @@ Execute arbitrary commands
 
 List facts and state of a host
 
-    ansible <host> -m setup
-    ansible <host> -m setup -a &#39;filter=ansible_eth*&#39;
+    ansible <host> -m setup                            # All facts for one host
+    ansible <host> -m setup -a 'filter=ansible_eth*'   # Only ansible fact for one host
+    ansible all -m setup -a 'filter=facter_*'          # Only facter facts but for all hosts
 
+Save facts to per-host files in /tmp/facts
+
+    ansible all -m setup --tree /tmp/facts
