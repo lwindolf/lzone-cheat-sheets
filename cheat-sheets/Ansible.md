@@ -29,6 +29,7 @@ Execute arbitrary commands
 
 List facts and state of a host
 
-    ansible <host> -m setup
-    ansible <host> -m setup -a &#39;filter=ansible_eth*&#39;
+    ansible <host> -m setup                            # All facts for one host
+    ansible <host> -m setup -a 'filter=ansible_eth*'   # Only ansible fact for one host
+    ansible all -m setup -a 'filter=facter_*'          # Only facter facts but for all hosts
 
