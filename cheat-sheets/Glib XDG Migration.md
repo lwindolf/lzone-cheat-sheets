@@ -12,9 +12,9 @@ access the correct paths using Glib.
 Determine what types of data you have. The specification knows three
 major directories:
 
-1.  \$XDG\_DATA\_HOME: usually \~/.local/share
-2.  \$XDG\_CONFIG\_HOME: usually \~/.config
-3.  \$XDG\_CACHE\_HOME: usually \~/.cache
+1.  $XDG\_DATA\_HOME: usually \~/.local/share
+2.  $XDG\_CONFIG\_HOME: usually \~/.config
+3.  $XDG\_CACHE\_HOME: usually \~/.cache
 
 In each of the directories your application should create a subfolder
 with the unique name of the application and place relevant files there.
@@ -37,11 +37,11 @@ support since GTK uses Glib and Glib 2.6 introduced support for the XDG
 base directory specification. So with Glib use the following methods to
 find the target directories:
 
-  --------------------- -----------------------------
-  \$XDG\_DATA\_HOME     g\_get\_user\_data\_dir()
-  \$XDG\_CONFIG\_HOME   g\_get\_user\_config\_dir()
-  \$XDG\_CACHE\_HOME    g\_get\_user\_cache\_dir()
-  --------------------- -----------------------------
+  -------------------|-----------------------------
+  $XDG\_DATA\_HOME   |  g\_get\_user\_data\_dir()
+  $XDG\_CONFIG\_HOME | g\_get\_user\_config\_dir()
+  $XDG\_CACHE\_HOME  | g\_get\_user\_cache\_dir()
+  -------------------|------------------------------
 
 Given your application being named "coolApp" and you want to create a
 cache file named "render.dat" you could use the following C snippet:
@@ -58,9 +58,9 @@ class](http://docs.wxwidgets.org/2.8/wx_wxstandardpaths.html). The
 methods are
 
   --------------------- ------------------------------------
-  \$XDG\_DATA\_HOME     wxStandardPaths::GetDataDir()
-  \$XDG\_CONFIG\_HOME   wxStandardPaths::GetConfigDir()
-  \$XDG\_CACHE\_HOME    wxStandardPaths::GetLocalDataDir()
+  $XDG\_DATA\_HOME     wxStandardPaths::GetDataDir()
+  $XDG\_CONFIG\_HOME   wxStandardPaths::GetConfigDir()
+  $XDG\_CACHE\_HOME    wxStandardPaths::GetLocalDataDir()
   --------------------- ------------------------------------
 
 ### 2.3 With KDE
