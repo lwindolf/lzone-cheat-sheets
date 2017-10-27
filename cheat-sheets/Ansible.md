@@ -33,3 +33,6 @@ List facts and state of a host
     ansible <host> -m setup -a 'filter=ansible_eth*'   # Only ansible fact for one host
     ansible all -m setup -a 'filter=facter_*'          # Only facter facts but for all hosts
 
+Save facts to per-host files in /tmp/facts
+
+    ansible all -m setup --tree /tmp/facts
