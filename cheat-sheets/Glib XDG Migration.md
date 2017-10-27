@@ -37,12 +37,11 @@ support since GTK uses Glib and Glib 2.6 introduced support for the XDG
 base directory specification. So with Glib use the following methods to
 find the target directories:
 
-  | Directory          | Method
-  | ------------------ | ----------------------------
-  | $XDG\_DATA\_HOME   | g\_get\_user\_data\_dir()
-  | $XDG\_CONFIG\_HOME | g\_get\_user\_config\_dir()
-  | $XDG\_CACHE\_HOME  | g\_get\_user\_cache\_dir()
-  | ------------------ | ------------------------------
+  | Directory        | Method
+  | ---------------- | ----------------------------
+  | $XDG_DATA_HOME   | g_get_user_data_dir()
+  | $XDG_CONFIG_HOME | g_get_user_config_dir()
+  | $XDG_CACHE_HOME  | g_get_user_cache_dir()
 
 Given your application being named "coolApp" and you want to create a
 cache file named "render.dat" you could use the following C snippet:
@@ -58,11 +57,11 @@ When programming for wxWidgets you need to use the [wxStandardPaths
 class](http://docs.wxwidgets.org/2.8/wx_wxstandardpaths.html). The
 methods are
 
-  --------------------- ------------------------------------
-  $XDG\_DATA\_HOME     wxStandardPaths::GetDataDir()
-  $XDG\_CONFIG\_HOME   wxStandardPaths::GetConfigDir()
-  $XDG\_CACHE\_HOME    wxStandardPaths::GetLocalDataDir()
-  --------------------- ------------------------------------
+  Directory        | Method
+  ---------------- | ------------------------------------
+  $XDG_DATA_HOME   | wxStandardPaths::GetDataDir()
+  $XDG_CONFIG_HOME | wxStandardPaths::GetConfigDir()
+  $XDG_CACHE_HOME  | wxStandardPaths::GetLocalDataDir()
 
 ### 2.3 With KDE
 
