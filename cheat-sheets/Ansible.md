@@ -9,12 +9,12 @@
 
 Run Infos
 
-    ansible-playbook &lt;YAML&gt; --list-hosts
-    ansible-playbook &lt;YAML&gt; --list-tasks
+    ansible-playbook <YAML> --list-hosts
+    ansible-playbook <YAML> --list-tasks
 
 Syntax Check
 
-    ansible-playbook --syntax-check &lt;YAML&gt;
+    ansible-playbook --syntax-check <YAML>
 
 ### Remote Execution
 
