@@ -37,6 +37,7 @@ support since GTK uses Glib and Glib 2.6 introduced support for the XDG
 base directory specification. So with Glib use the following methods to
 find the target directories:
 
+  | Directory          | Method
   | ------------------ | ----------------------------
   | $XDG\_DATA\_HOME   | g\_get\_user\_data\_dir()
   | $XDG\_CONFIG\_HOME | g\_get\_user\_config\_dir()
