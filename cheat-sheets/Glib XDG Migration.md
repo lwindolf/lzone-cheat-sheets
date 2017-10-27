@@ -37,11 +37,11 @@ support since GTK uses Glib and Glib 2.6 introduced support for the XDG
 base directory specification. So with Glib use the following methods to
 find the target directories:
 
-  -------------------|-----------------------------
-  $XDG\_DATA\_HOME   |  g\_get\_user\_data\_dir()
-  $XDG\_CONFIG\_HOME | g\_get\_user\_config\_dir()
-  $XDG\_CACHE\_HOME  | g\_get\_user\_cache\_dir()
-  -------------------|------------------------------
+  | ------------------ | ----------------------------
+  | $XDG\_DATA\_HOME   | g\_get\_user\_data\_dir()
+  | $XDG\_CONFIG\_HOME | g\_get\_user\_config\_dir()
+  | $XDG\_CACHE\_HOME  | g\_get\_user\_cache\_dir()
+  | ------------------ | ------------------------------
 
 Given your application being named "coolApp" and you want to create a
 cache file named "render.dat" you could use the following C snippet:
