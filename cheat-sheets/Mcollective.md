@@ -1,5 +1,3 @@
-See also: <?add topic="Mcollective"?>
-
 ### Finding Hosts
 
     mco ping
