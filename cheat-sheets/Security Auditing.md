@@ -1,4 +1,4 @@
-See Also:
+See Also: <?add topic='Package Vulnerabilities'?>
 
 ### Server Scanners
 
@@ -29,7 +29,7 @@ See Also:
 
 ### Website Scanners
 
-See for HTTPS configuration and certificate checkers.
+See <?add topic='HTTPS'?> for HTTPS configuration and certificate checkers.
 
 -   Nessus (commercial)
 -   [Nmap NSE scripts](https://nmap.org/nsedoc/)
