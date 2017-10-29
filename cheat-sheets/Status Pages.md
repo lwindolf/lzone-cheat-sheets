@@ -5,3 +5,7 @@ This is a list of status pages where you can query outages per provider
 - [Google Cloud Platform](https://status.cloud.google.com)
 - [AWS Status](https://status.aws.amazon.com/)
 - [AWS Status Info](https://aws-status.info/) 3rd party aggregator
+
+## Hoster
+
+- [Hetzner](https://www.hetzner-status.de/)
