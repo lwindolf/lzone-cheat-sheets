@@ -5,8 +5,9 @@ which misses Linux specific feeds. The idea is for you to grab the links
 below and drop those you need in your favourite feed reader (even
 Thunderbird will do). Alternatively you can pay
 [others](http://www.linuxsecurity.com/component/option,com_rss_feeds/)
-to do it for you :-) If you find broken links please post a comment
-below!
+to do it for you :-)
+
+If you find broken links please use the edit button above!
 
 ### Unix / Linux Distributions
 
