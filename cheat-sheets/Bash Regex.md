@@ -1,3 +1,5 @@
+See also <?add topic='Bash'?>
+
 ### Regexp Matching
 
 Use conditions with doubled [] and the =\~ operator. Ensure not to quote
