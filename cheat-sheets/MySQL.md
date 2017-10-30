@@ -279,6 +279,6 @@ time some developer claims the DB doesn't respond fast enough!
 
 ### Further Reading
 
-If you think about buying MySQL books...
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=&marketplace=amazon&region=DE&placement=1449314287&asins=1449314287&linkId=223bb3b5cc9a4d331e33217e39556903&show_border=true&link_opens_in_new_window=true"></iframe>
 
  
