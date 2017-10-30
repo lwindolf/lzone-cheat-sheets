@@ -1,4 +1,4 @@
-See also <?add topic='See also Mcollective'?>
+See also <?add topic='Mcollective'?>
 
 ### Puppet CLI
 
