@@ -177,3 +177,5 @@ the \$ like this:
 #### git-write-tree: error building trees
 
     git reset --mixed
+
+<?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
