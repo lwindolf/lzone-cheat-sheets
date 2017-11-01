@@ -20,6 +20,10 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
         RewriteCond %{HTTP_USER_AGENT} (iPhone|iPad)
 
+-   Rewrite and add environment variable to request (for example pass along remote user)
+
+        RewriteRule .* - [E=PROXY_USER:%{LA-U:REMOTE_USER}]
+
 -   [Exception
     Hook](http://people.apache.org/~trawick/exception_hook.html): Since
     2.0.49 Apache has an exception hook to handle crashes.
