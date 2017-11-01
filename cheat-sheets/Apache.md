@@ -38,6 +38,12 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
         SetEnv VARNAME somevalue
 
+#### Authentication
+
+-   Skip authentication for certain URIs
+
+        Require expr %{REQUEST_URI} =~ m#<some pattern>#
+
 #### Log Rotation
 
 -   Pipe CustomLog to a script:
