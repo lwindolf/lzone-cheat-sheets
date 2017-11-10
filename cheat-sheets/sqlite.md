@@ -1,0 +1,69 @@
+### CLI
+
+You can access any sqlite database file, as long there is no other
+client locking it, using the command line client to perform SQL
+commands:
+
+    sqlite3 <database file>
+
+### List Schema
+
+To list the schema of a sqlite database run
+
+    SELECT name FROM sqlite_master;
+
+It will dump all schema elements. One field of the result table contains
+the SQL used to create each schema element. If you only want a list of
+tables use the client command ".tables"
+
+    .tables
+
+### Exporting
+
+#### Dump Database as SQL
+
+To dump the entire database content in SQL for example for a backup run:
+
+    sqlite3 <database file> .dump >output.sql
+
+See the next sections how to dump a single table or in SQL.
+
+#### Dump Table as SQL
+
+To dump the SQL to create a table and its values run the command line
+client using the ".dump" command an redirect the output:
+
+    sqlite3 <database file> ".dump <table name>" >output.sql
+
+#### Dump Table as CSV
+
+To dump the SQL to create a table and its values run the command line
+client using the ".mode" command to enable CSV output and then to
+perform a "SELECT" on the table you want to dump. By echoing this to the
+CLI you can easily redirect the output:
+
+    echo ".mode csv
+    select * from <table name>;" | sqlite3 >output.sql
+
+### Cleanup with Vacuum
+
+To run a one time cleanup just run the following command on an sqlite
+database file. Ensure there is no program accessing the database file.
+If there is it will fail and do nothing:
+
+    sqlite3 my.db "VACUUM;"
+
+### Configure Auto-Vacuum
+
+If you want sqlite to perform vacuum on-demand you can set the
+"auto\_vacuum" pragma to either "INCREMENTAL" or "FULL":
+
+    PRAGMA auto_vacuum = INCREMENTAL;
+    PRAGMA auto_vacuum = FULL;
+
+To quere the current "auto\_vacuum setting run
+
+    PRAGMA auto_vacuum
+
+Read more in this [detailed post](/How%20to%20Vacuum%20SQLite) about
+sqlite vacuuming!
