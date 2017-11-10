@@ -71,44 +71,12 @@ Synching without a distributed filesystem
 
 #### Distributed Filesystems
 
-Name
-
-Vendor
-
-Distinguishing Features
-
-[Ceph](http://ceph.com)
-
-Inktank Storage
-
-Object store with NFS mounting and S3 API
-
-[DRBD](http://www.drbd.org/)
-
-Linbit
-
-More a replication mechanism
-
-[GlusterFS](http://gluster.org)
-
-Redhat
-
-NFS drop-in
-
-GridFS
-
-[HDFS](http://hadoop.apache.org/)
-
-Hadoop
-
-FUSE mountable
-
-Lustre
-
-Oracle
-
-abandoned, used in HPC
-
-MooseFS
-
-NFS drop-in
+| Name | Vendor | Distinguishing Features |
+| ---- | ------ | ----------------------- |
+| [Ceph](http://ceph.com) | Inktank Storage | Object store with NFS mounting and S3 API |
+| [DRBD](http://www.drbd.org/) | Linbit | More a replication mechanism |
+| [GlusterFS](http://gluster.org) | Redhat | NFS drop-in |
+| GridFS | | |
+| [HDFS](http://hadoop.apache.org/) | Hadoop | FUSE mountable |
+| Lustre | Oracle | abandoned, used in HPC |
+| MooseFS | | NFS drop-in |
