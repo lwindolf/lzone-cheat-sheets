@@ -68,3 +68,6 @@ Start command
 -   [Container Hardening
     Script](https://gist.github.com/jumanjiman/f9d3db977846c163df12)
 
+### Best Practices for Images
+
+- When using ext4: disable journaling
