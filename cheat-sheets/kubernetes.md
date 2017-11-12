@@ -30,6 +30,10 @@
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
+### Migration Stories
+
+- Saltside: https://engineering.saltside.se/migrating-to-kubernetes-day-20-problems-fbbda4905c23
+
 ### Misc
 
 -   ebook: [OpenShift for
