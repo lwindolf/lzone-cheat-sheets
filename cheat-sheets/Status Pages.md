@@ -6,6 +6,7 @@ This is a list of status pages where you can query outages per provider
 - https://statuspage.io
 - https://pingdom.com
 - https://cachethq.io/
+- https://statusgator.com/
 
 ## Important Status Pages
 Also check out the automatic status page aggregator on the start page of this site https://lzone.de
