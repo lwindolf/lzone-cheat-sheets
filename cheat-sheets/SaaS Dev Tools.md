@@ -17,3 +17,6 @@
 -   [galenframework.com](http://galenframework.com/): Responsive Design
     Layout testing frontend for Saucelabs/Browserstack
 
+### SaaS Discovery
+
+- https://www.blissfully.com/
