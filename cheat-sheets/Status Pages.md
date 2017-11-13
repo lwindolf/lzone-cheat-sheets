@@ -1,8 +1,16 @@
 This is a list of status pages where you can query outages per provider
 
+## Status Page SaaS
+
+- https://status.io
+- https://statuspage.io
+- https://pingdom.com
+- https://cachethq.io/
+
+## Important Status Pages
 Also check out the automatic status page aggregator on the start page of this site https://lzone.de
 
-## Cloud / PaaS
+### Cloud / PaaS
 
 - [Google Cloud Platform](https://status.cloud.google.com)
 - [AWS Status](https://status.aws.amazon.com/)
@@ -11,10 +19,10 @@ Also check out the automatic status page aggregator on the start page of this si
 - [Heroku](https://status.heroku.com/)
 - [Cloud Sigma](http://status.cloudsigma.com/)
 
-## CDN
+### CDN
 
 - [Cloudflare](https://www.cloudflarestatus.com/)
 
-## Hoster
+### Hoster
 
 - [Hetzner](https://www.hetzner-status.de/)
