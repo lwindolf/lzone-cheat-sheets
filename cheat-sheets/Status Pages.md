@@ -19,6 +19,10 @@ Also check out the automatic status page aggregator on the start page of this si
 - [Heroku](https://status.heroku.com/)
 - [Cloud Sigma](http://status.cloudsigma.com/)
 
+### API
+
+- [Salesforce](https://status.salesforce.com/status)
+
 ### CDN
 
 - [Cloudflare](https://www.cloudflarestatus.com/)
