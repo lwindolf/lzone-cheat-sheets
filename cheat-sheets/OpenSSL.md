@@ -17,6 +17,11 @@ See Also: <?add topic='SSL-Certificates'?>
         openssl rsa -in my.key -check
         openssl pkcs12 -info -in keystore.p12
 
+- Check for expiration
+
+        openssl x509 -enddate -noout -in file.pem            # prints something like 'notAfter=Nov  3 22:23:50 2014 GMT'
+        openssl x509 -checkend 86400 -noout -in file.pem     # gives exitcode 0 if not expired
+
 -   Testing SSL webserver
 
         openssl s_client -connect example.com:443
