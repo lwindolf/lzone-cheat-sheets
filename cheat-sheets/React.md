@@ -51,3 +51,4 @@ Using a stateless component
         
         componentWillUpdate() {}
         componentDidUpdate() {}
+}
