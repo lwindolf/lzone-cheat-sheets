@@ -1,3 +1,5 @@
+See also <?add topic='React'?>
+
 ## Minimal application
 
     import React from 'react'
