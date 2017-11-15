@@ -29,16 +29,13 @@ Here is a table of available PropTypes
 For complex objects or real validation use those constructs
 
 | Construct                  | Description  |
----------------------------------------------
+|----------------------------|--------------|
 | PropTypes.instanceOf(obj)  | Ensure instance of specific class |
 | PropTypes.oneOf(array)     | Enum, ensure property matches one of the values in the array |
 | PropTypes.oneOfType(array) | Enum, ensure property matches one of the types in the array |
 | PropTypes.arrayOf(type)    | Ensure property matches an array of elements of a given type |
 | PropTypes.shape({ })       | Ensure object of certain shape with proptypes given as parameter |
 | xxx.isRequired | Require the property xxx |
-
-
-
 
 ## Declaring Property Types
 
@@ -55,4 +52,13 @@ Simply add a propTypes member to your React.Component and declare the types for 
     // Add proptype for "value"
     MyApp.propTypes = {
        value: PropTypes.number
-    }
+    };
+
+## Adding Defaults
+
+To add some defaults declare a "defaultProps" member like this
+
+    MyApp.defaultProps = {
+        name: 'Julia',
+        age: 18
+    };
