@@ -1,4 +1,4 @@
-See also <?add topic='React'?>
+See also <?add topic='React PropTypes'?>
 
 ## Minimal application
 
