@@ -34,8 +34,17 @@ For complex objects or real validation use those constructs
 | PropTypes.oneOf(array)     | Enum, ensure property matches one of the values in the array |
 | PropTypes.oneOfType(array) | Enum, ensure property matches one of the types in the array |
 | PropTypes.arrayOf(type)    | Ensure property matches an array of elements of a given type |
+| PropTypes.objectOf(type)   | Ensure property matches an object (hash) of elements of a given type |
 | PropTypes.shape({ })       | Ensure object of certain shape with proptypes given as parameter |
 | xxx.isRequired | Require the property xxx |
+
+If this is not enough use functions passed to PropTypes.arrayOf() and PropTypes.objectOf() to declare real exotic types
+
+    myStrangeProp: PropTypes.arrayOf(function(propValue, key, componentName, location, propFullName) {
+      if (doSomeSpecialValidation(propValue[key])) {
+         return new Error('Invalid prop `' + propFullName + '` supplied to' + ' `' + componentName + '`. Validation failed.'
+      );
+    }
 
 ## Declaring Property Types
 
