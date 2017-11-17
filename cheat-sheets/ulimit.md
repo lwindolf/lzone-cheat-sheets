@@ -1,10 +1,36 @@
 This cheat sheet provides a systematic way to debug problems with system limits. Follow those steps and you can be sure that you find the problem or prove that there is no limit related problem.
 
-## 1. Always Check Effective Limit using prlimit
+## 1. Do not rely on ulimit anymore
 
-Using one of those two commands:
+This is the most important takeaway. Given that modern init systems (systemd, upstart, start-stop-daemon) do not care about /etc/security/limits.conf anymore **it is not safe to rely on ulimit anymore!**
+
+No matter what 
+
+    ulimit -a
+
+and 
+
+    cat /etc/security/limits.conf
+    cat /etc/security/limits.d/*.conf
+   
+might still tell you it affects only process you directly start from your shell.
+
+As soon as you use a command like
+
+    systemctl <name> restart
+    service restart <name> 
+    /etc/init.d/<name> restart
+
+those limits **probably** won't have any effect.
+
+## 2. Always Check Effective Limit using prlimit
+
+Check the per-process limit using
 
     prlimit --pid=<pid>
+
+or
+
     cat /proc/<pid>/limits
 
 prlimit has the more readable output:
@@ -33,7 +59,7 @@ responsible for launching services might be ignoring
 /etc/security/limits.conf as this is a configuration file for PAM only
 and is applied on login only per default.
 
-## 2. Always Check Global File Limit
+## 3. Always Check Global File Limit
 
 If you suspect a limit hit on a system with many processes also check
 the global limit:
@@ -48,7 +74,7 @@ third is the maximum. If you need to increase the maximum run:
 
 Ensure to persist this in /etc/sysctl.conf to not loose the setting on next reboot.
 
-## 3. Check "nofile" Per Process
+## 4. Check "nofile" Per Process
 
 Just checking the number of files per process often helps to identify
 bottlenecks. For every process you can count open files from using lsof:
@@ -113,7 +139,7 @@ returns
      34 / 1024 saslauthd (PID 3156)
      34 / 1024 saslauthd (PID 3146)
 
-## Consider Typical Pitfalls with Limits
+## 5. Consider Typical Pitfalls with Limits
 
 ### Systemd ignores /etc/security/limits.conf
 
