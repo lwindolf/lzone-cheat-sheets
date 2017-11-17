@@ -1,10 +1,6 @@
-This is a check list of all you can do wrong when trying to set limits
-on Debian/Ubuntu. The hints might apply to other distros too, but I
-didn't check. If you have additional suggestions please leave a comment!
+This cheat sheet provides a systematic way to debug problems with system limits. Follow those steps and you can be sure that you find the problem or prove that there is no limit related problem.
 
-### Checking Limits
-
-#### Always Check Effective Limit
+## 1. Always Check Effective Limit using prlimit
 
 Using one of those two commands:
 
@@ -37,25 +33,22 @@ responsible for launching services might be ignoring
 /etc/security/limits.conf as this is a configuration file for PAM only
 and is applied on login only per default.
 
- 
-
-#### Do Not Forget The OS File Limit
+## 2. Always Check Global File Limit
 
 If you suspect a limit hit on a system with many processes also check
 the global limit:
 
     $ cat /proc/sys/fs/file-nr
     7488    0   384224
-    $
 
 The first number is the number of all open files of all processes, the
-third is the maximum. If you need to increase the maximum:
+third is the maximum. If you need to increase the maximum run:
 
     # sysctl -w fs.file-max=500000
 
-Ensure to persist this in /etc/sysctl.conf to not loose it on reboot.
+Ensure to persist this in /etc/sysctl.conf to not loose the setting on next reboot.
 
-#### Check "nofile" Per Process
+## 3. Check "nofile" Per Process
 
 Just checking the number of files per process often helps to identify
 bottlenecks. For every process you can count open files from using lsof:
@@ -66,7 +59,7 @@ So a quick check on a burning system might be:
 
     lsof -n 2>/dev/null | awk '{print $1 " (PID " $2 ")"}' | sort | uniq -c | sort -nr | head -25
 
-whic returns the top 25 file descriptor eating processes
+whic returns the top 25 file descriptor "eating" processes
 
      139 mysqld (PID 2046)
      105 httpd2-pr (PID 25956)
@@ -120,11 +113,9 @@ returns
      34 / 1024 saslauthd (PID 3156)
      34 / 1024 saslauthd (PID 3146)
 
- 
+## Consider Typical Pitfalls with Limits
 
-### Usual Pitfalls
-
-#### Systemd Unit Files
+### Systemd ignores /etc/security/limits.conf
 
 When using systemd /etc/security/limits.conf doesn't apply anymore.
 **Workaround:** The only way to increase limits is in the systemd unit
@@ -139,28 +130,28 @@ like below:
 The old ulimit names match to Limit\<upper case limit name\> fields and
 the value "unlimited" now is called "infinity"
 
-#### Init Skripts with start-stop-daemon
+### Init Skripts with start-stop-daemon ignore /etc/security/limits.conf
 
 A typical mistake is trying to set limits for a daemon starting by a
-Debian start script using "start-stop-daemon" which isn't integrated
-with PAM and isn't affected by /etc/security/limits.conf.
+Debian start script using "start-stop-daemon" which on modern distros just
+delegates to systemd or on older distros isn't integrated with PAM and for
+both reasons isn't affected by /etc/security/limits.conf.
 
-**Workaround:** Set the limits manually in the start script.
+**Workaround:** 
+- On systemd: Set Limit in the systemd unit file
+- Otherwise: Set the limits manually in the start script.
 
-#### Upstart doesn't care about limits.conf!
+### Upstart ignores /etc/security/limits.conf
 
-The most common mistake is believing upstart behaves like the Debian
-init script handling. When on Ubuntu a service is being started by
-upstart /etc/security/limits.conf will never apply! To get upstart to
+On older Ubuntu releases services are started by upstart which similar to 
+systemd ignores /etc/security/limits.conf. To get upstart to
 change the limits of a managed service you need to insert a line like
 
     limit nofile 10000 20000
 
 into the upstart job file in /etc/init.
 
- 
-
-#### Special Debian Apache Handling
+### Special Debian Apache Handling
 
 The Debian Apache package which is also included in Ubuntu has a
 separate way of configuring "nofile" limits. If you run the default
@@ -170,116 +161,11 @@ configured elsewhere. This is because Apache defaults to 8192 files. If
 you want another setting for "nofile" then you need to [edit
 /etc/apache2/envvars](http://www.lzone.de/Ubuntu+Apache+and+ulimit).
 
-### Workarounds
+## Login Session Workarounds
 
-#### When changing limits.conf re-login!
+### When changing limits.conf re-login!
 
 After you apply a change to /etc/security/limits.conf you need to login
 again to have the change applied to your next shell instance by PAM.
-Alternatively you can use [sudo
--i](http://lzone.de/apply+limits+immediately) to switch to user whose
-limits you modified and simulate a login.
-
-#### For Emergencies: prlimit!
-
-Starting with util-linux-2.21 there will be a [new "prlimit"
-tool](http://karelzak.blogspot.de/2012/01/prlimit1.html) which allows
-you to easily get/set limits for running processes. Sadly Debian is and
-will be for some time on util-linux-2.20. So what do we do in the
-meantime? The prlimit(2) manpage which is for the system call prlimit()
-gives a hint: at the end of the page there is a code snippet to change
-the CPU time limit. You can adapt it to any limit you want by replacing
-RLIMIT\_CPU with any of
-
--   RLIMIT\_NOFILE
--   RLIMIT\_OFILE
--   RLIMIT\_AS
--   RLIMIT\_NPROC
--   RLIMIT\_MEMLOCK
--   RLIMIT\_LOCKS
--   RLIMIT\_SIGPENDING
--   RLIMIT\_MSGQUEUE
--   RLIMIT\_NICE
--   RLIMIT\_RTPRIO
--   RLIMIT\_RTTIME
--   RLIMIT\_NLIMITS
-
-You might want to check "/usr/include/\$(uname
--i)-linux-gnu/bits/resource.h". Check the next section for an ready made
-example for "nofile".
-
- 
-
-#### Build Your Own set\_nofile\_limit
-
-The per-process limit most often hit is propably "nofile". Imagine you
-production database suddenly running out of files. Imagine a tool that
-can instant-fix it without restarting the DB! Copy the following code to
-a file "set\_limit\_nofile.c"
-
-    #define _GNU_SOURCE
-    #define _FILE_OFFSET_BITS 64
-    #include <stdio.h>
-    #include <time.h>
-    #include <stdlib.h>
-    #include <unistd.h>
-    #include <sys/resource.h>
-
-    #define errExit(msg) do { perror(msg); exit(EXIT_FAILURE); \
-     } while (0)
-
-    int
-    main(int argc, char *argv[])
-    {
-     struct rlimit old, new;
-     struct rlimit *newp;
-     pid_t pid;
-
-     if (!(argc == 2 || argc == 4)) {
-     fprintf(stderr, "Usage: %s <pid> [<new-soft-limit> "
-     "<new-hard-limit>]\n", argv[0]);
-     exit(EXIT_FAILURE);
-     }
-
-     pid = atoi(argv[1]); /* PID of target process */
-
-     newp = NULL;
-     if (argc == 4) {
-     new.rlim_cur = atoi(argv[2]);
-     new.rlim_max = atoi(argv[3]);
-     newp = &new;
-     }
-
-     if (prlimit(pid, RLIMIT_NOFILE, newp, &old) == -1)
-     errExit("prlimit-1");
-     printf("Previous limits: soft=%lld; hard=%lld\n",
-     (long long) old.rlim_cur, (long long) old.rlim_max);
-
-     if (prlimit(pid, RLIMIT_NOFILE, NULL, &old) == -1)
-     errExit("prlimit-2");
-     printf("New limits: soft=%lld; hard=%lld\n",
-     (long long) old.rlim_cur, (long long) old.rlim_max);
-
-     exit(EXIT_FAILURE);
-    }
-
-and compile it with
-
-    gcc -o set_nofile_limit set_nofile_limit.c
-
-And now you have a tool to change any processes "nofile" limit. To dump
-the limit just pass a PID:
-
-    $ ./set_limit_nofile 17006
-    Previous limits: soft=1024; hard=1024
-    New limits: soft=1024; hard=1024
-    $
-
-To change limits pass PID and two limits:
-
-    # ./set_limit_nofile 17006 1500 1500
-    Previous limits: soft=1024; hard=1024
-    New limits: soft=1500; hard=1500
-    # 
-
-And the production database is saved.
+Alternatively you can use [sudo -i](http://lzone.de/apply+limits+immediately) to 
+switch to user whose limits you modified and simulate a login.
