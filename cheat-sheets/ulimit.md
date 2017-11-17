@@ -1,6 +1,6 @@
 This cheat sheet provides a systematic way to debug problems with system limits. Follow those steps and you can be sure that you find the problem or prove that there is no limit related problem.
 
-## 1. Do not rely on ulimit anymore
+## 1. Do not rely on ulimit anymore!
 
 This is the most important takeaway. Given that modern init systems (systemd, upstart, start-stop-daemon) do not care about /etc/security/limits.conf anymore **it is not safe to rely on ulimit anymore!**
 
