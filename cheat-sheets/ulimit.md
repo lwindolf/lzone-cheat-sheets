@@ -59,6 +59,19 @@ responsible for launching services might be ignoring
 /etc/security/limits.conf as this is a configuration file for PAM only
 and is applied on login only per default.
 
+### Live update limits with prlimit
+
+If you identified processes with a limit issue you can increase the limits without restarting by using prlimit.
+Here are some examples
+
+    prlimit --pid <pid> --nofile=15000:15000        # Increase nr of files to 15000
+    prlimit --pid <pid> --core=100000000:100000000  # Allow ~100MB core dump
+
+General syntax is
+
+    prlimit --pid <pid> --<resource>=<soft limit>:<hard limit>
+    
+
 ## 3. Always Check Global File Limit
 
 If you suspect a limit hit on a system with many processes also check
