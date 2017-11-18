@@ -98,7 +98,7 @@ So a quick check on a burning system might be:
 
     lsof -n 2>/dev/null | awk '{print $1 " (PID " $2 ")"}' | sort | uniq -c | sort -nr | head -25
 
-whic returns the top 25 file descriptor "eating" processes
+which returns the top 25 file descriptor "eating" processes
 
      139 mysqld (PID 2046)
      105 httpd2-pr (PID 25956)
@@ -169,7 +169,7 @@ like below:
 The old ulimit names match to Limit\<upper case limit name\> fields and
 the value "unlimited" now is called "infinity"
 
-### Init Skripts with start-stop-daemon ignore /etc/security/limits.conf
+### Init Scripts with start-stop-daemon ignore /etc/security/limits.conf
 
 A typical mistake is trying to set limits for a daemon starting by a
 Debian start script using "start-stop-daemon" which on modern distros just
