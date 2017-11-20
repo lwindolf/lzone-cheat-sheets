@@ -48,7 +48,7 @@ As the error label indicates this can have other causes. In such a case check ou
 
 If you got this you probably forgot to install the Ruby GEM. Fix it by running
 
-gem install hiera-eyaml-gpg
+    gem install hiera-eyaml-gpg
 
 ### [hiera-eyaml-core] GPG command (gpg --homedir /home/lars/.gnupg --quiet --no-secmem-warning --no-permission-warning --no-tty --yes --decrypt) failed with: gpg: Sorry, no terminal at all requested - can't get input
 
