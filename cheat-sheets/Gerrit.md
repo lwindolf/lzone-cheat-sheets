@@ -2,8 +2,8 @@
 
 #### Easily Checkout Changes
 
-Changes correspond to branches with the naming schema "gerrit\_\<change
-number\>". So you can
+Changes correspond to branches with the naming schema "gerrit_&lt;change
+number>". So you can
 
     git checkout gerrit_12345
 
@@ -47,4 +47,4 @@ via the GUI and only by admins
     ssh <gerrit hxost>:29418 gerrit query xxx
 
     # Abandon the change
-    ssh $lt;gerrit host>:29418 gerrit gsql -c "update changes set open='\''N'\'',status='\''A'\'' where change_id=<id>;"
+    ssh <gerrit host>:29418 gerrit gsql -c "update changes set open='N',status='A' where change_id=<id>;"
