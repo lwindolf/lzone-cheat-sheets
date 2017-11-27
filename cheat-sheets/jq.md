@@ -5,7 +5,11 @@ simple examples here...
 
 If you do only care about output formatting (pretty print) run
 
-    cat my.json | jq '.'
+    cat my.json | jq
+
+Note: for redirection you need to pass a filter too to avoid a syntax error:
+
+    cat my.json | jq . >output.json
 
 ### Simple Extraction
 
