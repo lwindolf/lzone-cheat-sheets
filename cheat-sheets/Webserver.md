@@ -124,5 +124,6 @@ See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?
 -   Determine redirect URLs
 
         curl -Ls -w %{url_effective} -o /dev/null <URL>
-
+- [Favicon Standards](https://css-tricks.com/favicon-quiz/)
+- [Favicon Generator / Checker](https://realfavicongenerator.net/)
 
