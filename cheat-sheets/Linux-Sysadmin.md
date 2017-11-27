@@ -122,19 +122,18 @@ Machine readable: you need to use sadf
         script /dev/null
         screen -x
 
--   Avoid leap second problems:\
-     Variant 1: Disable NTP, skip over second
+-   Avoid leap second problems:
+    - Variant 1: Disable NTP, skip over second
 
-        # before leap second
-        /etc/init.d/ntp stop
+          # before leap second
+          /etc/init.d/ntp stop
 
-        # after leap second
-        date -s "$(LC_ALL=C date)"    Note: check correct locale!
-        /etc/init.d/ntp start
+          # after leap second
+          date -s "$(LC_ALL=C date)"    Note: check correct locale!
+          /etc/init.d/ntp start
 
-    Variant 2: Ensure NTP is up-to-date and running with -x\
-     Variant 3: [Converging
-    solution](http://syslog.me/2015/06/04/a-humble-attempt-to-work-around-the-leap-second-2015-edition/)
+    -   Variant 2: Ensure NTP is up-to-date and running with -x
+    -   Variant 3: [Converging solution](http://syslog.me/2015/06/04/a-humble-attempt-to-work-around-the-leap-second-2015-edition/)
 
 -   rsyslog - Modify rate imux limiting
 
