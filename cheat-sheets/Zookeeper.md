@@ -8,3 +8,9 @@
     get <path>
     set <path> 
     delete <path>
+
+### Four Letter Commands
+
+(https://zookeeper.apache.org/doc/trunk/zookeeperAdmin.html#The+Four+Letter+Words)
+
+    echo cons | nc localhost 2181
