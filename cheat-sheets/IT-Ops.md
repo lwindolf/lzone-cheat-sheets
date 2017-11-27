@@ -100,23 +100,16 @@ Real Time Metrics
     [who-hosts.com](http://who-hosts.com/)
 -   [iplist.net](http://iplist.net): Simple reverse lookup of neighbour
     IPs
--   Status Channels for different hosters:
-      ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      Akamai       No public feeds.
-      CloudFlare   [Twitter @CloudFlareSys](https://twitter.com/CloudFlareSys) [Status Page](https://www.cloudflarestatus.com/) ([Feed](https://www.cloudflarestatus.com/history.atom))
-      DreamHost    [Twitter @dhstatus](https://twitter.com/dhstatus), [Status Page](http://www.dreamhoststatus.com/) ([Feed](http://www.dreamhoststatus.com/category/system-outages/))
-      Heroku       [Status Page](https://status.heroku.com) ([Feed](https://status.heroku.com/#rss-notification))
-      Hetzner      [Twitter @hetznerstatus](https://twitter.com/hetznerstatus)
-      Linode       [Status Page](http://status.linode.com/) ([Feed](http://status.linode.com/history.atom))
-      QSC          Only via customer portal.
-      Rackspace    [Twitter @RackStatus](https://twitter.com/RackStatus)
-      ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 -   Meta Status: [downdetector.com](https://downdetector.com/),
     [cloudharmony.com](https://cloudharmony.com)
 -   [Cloud Provider Directory](https://cloudharmony.com/cloudsquare)
 -   [Cloud Calculator](http://www.thecloudcalculator.com/) (compares
     self-hosting with cloud pricing)
+
+### API Documentation
+
+- RAML
+- [Swagger](http://editor.swagger.io)
 
 ### Software Architecture
 
