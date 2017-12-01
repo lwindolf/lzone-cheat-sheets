@@ -6,8 +6,7 @@ since 2003) recently. Also when creating a new application you might ask
 yourself where to put the user data. This post tries to describe how to
 access the correct paths using Glib.
 
-1. Preparation: Categorize your data
-------------------------------------
+## 1. Preparation: Categorize your data
 
 Determine what types of data you have. The specification knows three
 major directories:
@@ -21,8 +20,7 @@ with the unique name of the application and place relevant files there.
 While volatile cache files go into \~/.cache, persistent important data
 should go to \~/.local/share and all configuration to \~/.config.
 
-2. Migrate the code
--------------------
+## 2. Migrate the code
 
 The simple task is to rewrite the old code creating directory paths some
 arbitrary way to use XDG style directory paths now. As the specification
