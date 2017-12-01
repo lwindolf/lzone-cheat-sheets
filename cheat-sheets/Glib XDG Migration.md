@@ -39,9 +39,9 @@ find the target directories:
 
   | Directory        | Method
   | ---------------- | ----------------------------
-  | $XDG_DATA_HOME   | g_get_user_data_dir()
-  | $XDG_CONFIG_HOME | g_get_user_config_dir()
-  | $XDG_CACHE_HOME  | g_get_user_cache_dir()
+  | $XDG\_DATA\_HOME   | g\_get\_user_data_dir()
+  | $XDG\_CONFIG\_HOME | g\_get\_user_config_dir()
+  | $XDG\_CACHE\_HOME  | g\_get\_user_cache_dir()
 
 Given your application being named "coolApp" and you want to create a
 cache file named "render.dat" you could use the following C snippet:
@@ -59,9 +59,9 @@ methods are
 
   Directory        | Method
   ---------------- | ------------------------------------
-  $XDG_DATA_HOME   | wxStandardPaths::GetDataDir()
-  $XDG_CONFIG_HOME | wxStandardPaths::GetConfigDir()
-  $XDG_CACHE_HOME  | wxStandardPaths::GetLocalDataDir()
+  $XDG\_DATA\_HOME   | wxStandardPaths::GetDataDir()
+  $XDG\_CONFIG\_HOME | wxStandardPaths::GetConfigDir()
+  $XDG\_CACHE\_HOME  | wxStandardPaths::GetLocalDataDir()
 
 ### 2.3 With KDE
 
