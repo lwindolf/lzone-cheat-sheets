@@ -1,13 +1,9 @@
 ## Basic Debugging 
 
--   PHP - Value Dumping
+Value Dumping
 
-        print_r($someArray);      # Print flat arrays
-        var_dump($var);           # Nested printing of arbitrary structures
-
--   Python - Value Dumping
-
-        print vars(somevar)
+    print_r($someArray);      # Print flat arrays
+    var_dump($var);           # Nested printing of arbitrary structures
 
 ## Handling Exceptions
 
