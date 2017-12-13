@@ -1,4 +1,15 @@
-## PHP Exceptions Handling
+## Basic Debugging 
+
+-   PHP - Value Dumping
+
+        print_r($someArray);      # Print flat arrays
+        var_dump($var);           # Nested printing of arbitrary structures
+
+-   Python - Value Dumping
+
+        print vars(somevar)
+
+## Handling Exceptions
 
 To catch exceptions do
 
@@ -16,9 +27,9 @@ into catchable exceptions:
         throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
     });
 
-## Regular Expressings in PHP
+## Regular Expressings
 
-- For details check <?add topic='PHP preg_match'?> and <?add topic='PHP preg_replace'?>
+- For details check <?add topic='PHP preg\_match'?> and <?add topic='PHP preg\_replace'?>
 - [PHP - strpos vs. preg\_match](http://lzone.de/articles/php-string-search.htm):
     In-depth comparison of PHP string operation methods (strpos, strstr,
     stripos) with different PHP5 interpreters and compared to the C
@@ -28,7 +39,7 @@ into catchable exceptions:
 
         preg_match("/(?P\d{4})-(?P\d{2})-(?P\d{2})/", "2012-10-20")
 
-## PHP Infrastructure
+## Infrastructure
 
 -   [PHP - Frameworks Overview](http://www.phpframeworks.com/)
 -   [PHP - Composer: dependency manangement](https://getcomposer.org/)
@@ -38,16 +49,4 @@ into catchable exceptions:
 
 -   [PHP - php.ini Hardening](http://www.madirish.net/199)
 -   [PHP - php.ini Security Check](http://phpsec.org/projects/phpsecinfo/index.html)
-
-## Basic Debugging 
-
--   PHP - Value Dumping
-
-        print_r($someArray);      # Print flat arrays
-        var_dump($var);           # Nested printing of arbitrary structures
-
--   Python - Value Dumping
-
-        print vars(somevar)
-
 
