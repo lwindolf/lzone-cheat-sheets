@@ -3,7 +3,7 @@
 To catch exceptions do
 
     try {
-        // do something
+        # do something
     } catch(Exception $e) {
         print "$e\n";
     }
