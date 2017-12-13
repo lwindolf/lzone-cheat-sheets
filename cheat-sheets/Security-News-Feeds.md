@@ -13,8 +13,8 @@ If you find broken links please use the edit button above!
 
 ### Unix / Linux Distributions
 
--   [Debian - Security Advisories](http://www.debian.org/security/dsa) (type tags only)
--   [Debian - Security Advisories](http://www.debian.org/security/dsa-long) (detailed description)
+-   [Debian - Security Advisories](https://www.debian.org/security/dsa) (type tags only)
+-   [Debian - Security Advisories](https://www.debian.org/security/dsa-long) (detailed description)
 -   [Debian - Backports Security Announce](http://rss.gmane.org/messages/excerpts/gmane.linux.debian.backports.security.announce)
 -   [Fedora - Security Updates](https://bodhi.fedoraproject.org/rss/updates/?type=security)
 -   [Gentoo - Linux Security Advisories](http://www.gentoo.org/rdf/en/glsa-index.rdf)
