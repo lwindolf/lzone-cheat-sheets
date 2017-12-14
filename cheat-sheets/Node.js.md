@@ -76,8 +76,8 @@ PM2 Process Manager
     pm2 describe <id>
     pm2 monit
 
-pm2 prettylist        \# For complete JSON process infos including\
-                                \# memory, CPU, restart, latency metrics
+    pm2 prettylist    # For complete JSON process infos including
+                      # memory, CPU, restart, latency metrics
 
 Install PM2 as Systemd service:
 
