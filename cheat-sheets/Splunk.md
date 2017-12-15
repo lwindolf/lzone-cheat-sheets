@@ -2,19 +2,30 @@
 
 ### Basic Searching Concepts
 
-Simple searches look like the following examples. Note that there are
-literals with and without quoting and that there are field selections
-with an "=":
-
-    Exception                # just the word
-    One Two Three            # those three words in any order
-    "One Two Three"          # the exact phrase
-
-    # Filter all lines where field "status" has value 500 from access.log
-    source="/var/log/apache/access.log" status=500
-
-    # Give me all fatal errors from syslog of the blog host
-    host="myblog" source="/var/log/syslog" Fatal
+---------------- | ---------------------------------------------------------
+Full Text Search | Simple searches look like the following examples. 
+                 | Note that there are literals with and without 
+                 | quoting and that there are field selections with an "=":
+                 |
+                 |    Exception                # just the word
+                 |    One Two Three            # those three words in any order
+                 |    "One Two Three"          # the exact phrase
+                 |
+---------------- | ---------------------------------------------------------
+Filter by fields | For example all lines where the field "status" 
+                 | has value 500 from the file /var/log/apache/access.log
+                 |
+                 |    source="/var/log/apache/access.log" status=500
+                 |
+---------------- | ---------------------------------------------------------
+Filter by host   |  Give me all fatal errors from syslog of the blog host
+                 |
+                 |    host="myblog" source="/var/log/syslog" Fatal
+---------------- | ---------------------------------------------------------
+Selecting an     | Access a specific index like this
+index            |
+                 |    index="secretStuff" password
+---------------- | ---------------------------------------------------------
 
 ### Basic Filtering
 
