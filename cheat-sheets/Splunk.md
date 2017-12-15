@@ -1,6 +1,6 @@
-### SPL Syntax
+## SPL Syntax
 
-#### Basic Searching Concepts
+### Basic Searching Concepts
 
 Simple searches look like the following examples. Note that there are
 literals with and without quoting and that there are field selections
@@ -16,7 +16,7 @@ with an "=":
     # Give me all fatal errors from syslog of the blog host
     host="myblog" source="/var/log/syslog" Fatal
 
-#### Basic Filtering
+### Basic Filtering
 
 Two important filters are "rex" and "regex". "rex" is for extraction a
 pattern and storing it as a new field. This is why you need to specifiy
@@ -38,7 +38,7 @@ to
 and get the same result. The syntax of "regex" is simply "=". Using it
 makes sense once you want to filter for a specific field.
 
-#### Calculations
+### Calculations
 
 Sum up a field and do some arithmetics:
 
@@ -49,7 +49,7 @@ and p90() functions are returning the 10 and 90 percentiles:
 
     | eval raw_len=len(_raw) | stats avg(raw_len), p10(raw_len), p90(raw_len) by sourcetype
 
-#### Simple Useful Examples
+### Simple Useful Examples
 
 Splunk usually auto-detects access.log fields so you can do queries
 like:
@@ -63,20 +63,20 @@ like:
     source="/var/log/nginx/access.log" | head 1000 | top 50 method
     ...
 
-#### Emailing Results
+### Emailing Results
 
 By appending "sendemail" to any query you get the result by mail!
 
     ... | sendemail to="john@example.com"
 
-#### Timecharts
+### Timecharts
 
 Create a timechart from a single field that should be summed up
 
     ... | table _time, <field> | timechart span=1d sum(<field>)
     ... | table _time, <field>, name | timechart span=1d sum(<field>) by name
 
-### Index Statistics
+## Index Statistics
 
 List All Indices
 
@@ -99,7 +99,7 @@ MB per day per indexer / index
 
     index=_internal metrics kb series!=_* "group=per_index_thruput" monthsago=1 | eval indexed_mb = kb / 1024 | timechart fixedrange=t span=1d sum(indexed_mb) by series | rename sum(indexed_mb) as totalmb
 
-### Reload apps
+## Reload apps
 
 Load base URL with appended
 
@@ -109,7 +109,7 @@ Load base URL with appended
 
 * * * * *
 
-### Debug Traces
+## Debug Traces
 
 You can enable traces per trace topic listed in splunkd.log. To change
 permanently edit /opt/splunk/etc/log.cfg and change the trace level from
@@ -120,7 +120,7 @@ permanently edit /opt/splunk/etc/log.cfg and change the trace level from
 The same can be achieved non-persistent and on-the-fly in the "System
 Settings" GUI.
 
-### Configuration
+## Configuration
 
 To list effective configuration
 
@@ -130,17 +130,17 @@ To check configuration syntax
 
     $SPLUNK_HOME/bin/splunk btool check
 
-#### Inputs
+### Inputs
 
     splunk _internal call /data/inputs/tcp/raw
     splunk _internal call /data/inputs/tcp/raw -get:search sourcetype=foo
     splunk _internal call /servicesNS/nobody/search/data/inputs/tcp/raw/7092 -post:sourcetype bar -post:index bardata
 
-#### Licenses
+### Licenses
 
     splunk list licenses
 
-#### User Management
+### User Management
 
 To reload authentication config from command line:
 
@@ -156,7 +156,7 @@ To list
     splunk _internal call /services/authentication/users -get:search john.smith
     splunk _internal call /services/authentication/users/john.smith -method DELETE
 
-### Capacity Planning
+## Capacity Planning
 
 There is a great online calculator at
 [splunk-sizing.appspot.com](https://splunk-sizing.appspot.com).
