@@ -1,3 +1,7 @@
+## DKMS Setup
+
+    apt-get install build-essential dkms 
+
 ## Commands
 
 List managed DKMS modules
