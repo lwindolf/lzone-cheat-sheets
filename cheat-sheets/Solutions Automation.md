@@ -2,13 +2,13 @@ See also
 
 ### Classical Automation Tools
 
-| Framework | DSL | CM | CM Encryption | Drift Management |Job Scheduling | Orchestration |
-|-----------|-----|----|---------------|------------------|---------------|---------------|
-|[Ansible](http://www.ansible.com/home)|Propietary|Built-in|Built-in|?|Ansible Tower|Ansible Tower|
-|[cfengine](https://cfengine.com/)|Propietary|?|?|?|Enterprise Only|?|
-|[Puppet](http://puppetlabs.com/)|Ruby|[Hiera](https://docs.puppetlabs.com/hiera/1/)|[Hiera Eyaml](https://github.com/TomPoulton/hiera-eyaml)|Foreman, PuppetDB, Polscan|Puppet Enterprise|Puppet Enterprise, [mcollective](http://puppetlabs.com/mcollective)|
-|[Chef](https://opscode.com)|Ruby|[Builtin](https://docs.getchef.com/essentials_data_bags.html)|[Builtin](https://docs.getchef.com/essentials_data_bags.html#encrypt-a-data-bag-item)|-|[Pushy](https://www.getchef.com/blog/2013/12/16/getting-pushy-with-chef/), (knife plugin + ZeroMQ)|%|
-|[Saltstack](http://www.saltstack.com/community/)|Python|Builtin|Builtin|?|[salt-run](https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html#orchestrate-runner)|Saltstack Enterprise|
+| Framework | DSL | Push/Pull | CM | CM Encryption | Drift Management |Job Scheduling | Orchestration |
+|-----------|-----|-----------|----|---------------|------------------|---------------|---------------|
+|[Ansible](http://www.ansible.com/home)|Propietary|Push|Built-in|Built-in|?|Ansible Tower|Ansible Tower|
+|[cfengine](https://cfengine.com/)|Propietary|Push/Pull|?|?|?|Enterprise Only|?|
+|[Puppet](http://puppetlabs.com/)|Ruby|Push/Pull|[Hiera](https://docs.puppetlabs.com/hiera/1/)|[Hiera Eyaml](https://github.com/TomPoulton/hiera-eyaml)|Foreman, PuppetDB, Polscan|Puppet Enterprise|Puppet Enterprise, [mcollective](http://puppetlabs.com/mcollective)|
+|[Chef](https://opscode.com)|Ruby|Push/Pull|[Builtin](https://docs.getchef.com/essentials_data_bags.html)|[Builtin](https://docs.getchef.com/essentials_data_bags.html#encrypt-a-data-bag-item)|-|[Pushy](https://www.getchef.com/blog/2013/12/16/getting-pushy-with-chef/), (knife plugin + ZeroMQ)|%|
+|[Saltstack](http://www.saltstack.com/community/)|Python|Push|Builtin|Builtin|?|[salt-run](https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html#orchestrate-runner)|Saltstack Enterprise|
 
 #### Smaller automation tools
 
