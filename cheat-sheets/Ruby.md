@@ -1,6 +1,6 @@
 See also <?add topic='Ruby Bundler'?>
 
-### Using Gem
+## Using Gem
 
     gem env
     gem list
@@ -9,7 +9,7 @@ See also <?add topic='Ruby Bundler'?>
     gem install <name> [-v <version>]
     gem uninstall <name>
 
-### Test with RSpec
+## Test with RSpec
 
     # There are a lot of rspec launch variants:
     autotest
@@ -17,7 +17,7 @@ See also <?add topic='Ruby Bundler'?>
     rspec <path to directory>
     bundle exec rspec <path to .rb spec file>
 
-### Interactive Shell
+## Interactive Shell
 
     $ irb
     irb(main):001:0>
@@ -39,7 +39,7 @@ Print as YAML
 
     y <something>
 
-### Data Types
+## Data Types
 
 Debugging
 
@@ -52,7 +52,27 @@ Checking for Undef
        puts "undef"
     end
 
-#### Hashes
+### Arrays
+
+    arr = []
+    arr.push("a")
+    arr.pop()
+    arr.insert(0, "b")    # Add b at index 0
+    arr.insert(-1, "c")   # Add c at the end
+    arr << "c"            # Add c at the end
+
+Accessing ranges
+
+    arr[3:4]        # 4th and 5th element
+    arr[1000:-1]    # Everything starting at 1001 element to the end
+   
+Iterating arrays
+
+    array.each do |value|
+        # do something
+    end   
+
+### Hashes
 
 To merge hashes
 
@@ -68,7 +88,7 @@ To get key-value pairs in order
         # do something
     end
 
-### I/O
+## I/O
 
 Write file
 
