@@ -12,10 +12,10 @@ List installed DKMS Debian packages
 
 Prepare sources:
 
-    git clone &lt;some repo> src
+    git clone <some repo> src
     cd src
-    NAME=&lt;module name>
-    VERSION=&lt;module version>
+    NAME=<module name>
+    VERSION=<module version>
     mkdir /usr/src/${NAME}-${VERSION}
     git archive driver-${VERSION} | tar -x -C /usr/src/${NAME}-${VERSION}
 
@@ -29,4 +29,4 @@ Finally check if "dkms status" lists the module with state "installed" for your 
 
 ## Uninstalling
 
-    dkms remove &lt;module name>/&lt;module version> --all
+    dkms remove <module name>/<module version> --all
