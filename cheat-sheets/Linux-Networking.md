@@ -38,12 +38,21 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
     sheets](http://packetlife.net/library/cheat-sheets/) for all network
     protocols (PDFs)
 
-### DNS RR
+### DNS
 
--   warpsrv - CLI wrapper for DNS RR connections
+- DNS RR - warpsrv: CLI wrapper for DNS RR connections
 
         apt-get install -y wrapsrv netcat
         export eval $(wrapsrv <DNS name> "netcat -z %h %p && echo http_proxy=http://%h:%p")
+
+- DNS - [CAA Support](https://sslmate.com/caa/support): Providers and Tools
+
+- DNS Servers
+  - Bind
+  - PowerDNS
+  - NSD
+  - ldns
+
 
 ### Configuration
 
