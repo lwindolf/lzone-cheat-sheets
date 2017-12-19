@@ -1,69 +1,16 @@
 See also
 
-### Products
+### Classical Automation Tools
 
-Framework
+| Framework | DSL | CM | CM Encryption | Drift Management |Job Scheduling | Orchestration |
+|-----------|-----|----|---------------|------------------|---------------|---------------|
+|[Ansible](http://www.ansible.com/home)|Propietary|Built-in|Built-in|?|Ansible Tower|Ansible Tower|
+|[cfengine](https://cfengine.com/)|Propietary|?|?|?|Enterprise Only|?|
+|[Puppet](http://puppetlabs.com/)|Ruby|[Hiera](https://docs.puppetlabs.com/hiera/1/)|[Hiera Eyaml](https://github.com/TomPoulton/hiera-eyaml)|Foreman, PuppetDB, Polscan|Puppet Enterprise|Puppet Enterprise, [mcollective](http://puppetlabs.com/mcollective)|
+|[Chef](https://opscode.com)|Ruby|[Builtin](https://docs.getchef.com/essentials_data_bags.html)|[Builtin](https://docs.getchef.com/essentials_data_bags.html#encrypt-a-data-bag-item)|-|[Pushy](https://www.getchef.com/blog/2013/12/16/getting-pushy-with-chef/), (knife plugin + ZeroMQ)|%|
+|[Saltstack](http://www.saltstack.com/community/)|Python|Builtin|Builtin|[salt-run](https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html#orchestrate-runner)|%|
 
-DSL
-
-CM
-
-CM Encryption
-
-Orchestration
-
-[Ansible](http://www.ansible.com/home)
-
-Propietary
-
-Built-in
-
-Built-in
-
-?
-
-[cfengine](https://cfengine.com/)
-
-Propietary
-
-?
-
-?
-
-Enterprise Only
-
-[Puppet](http://puppetlabs.com/)
-
-Ruby
-
-[Hiera](https://docs.puppetlabs.com/hiera/1/)
-
-[Hiera Eyaml](https://github.com/TomPoulton/hiera-eyaml)
-
-[mcollective](http://puppetlabs.com/mcollective)
-
-[Chef](https://opscode.com)
-
-Ruby
-
-[Builtin](https://docs.getchef.com/essentials_data_bags.html)
-
-[Builtin](https://docs.getchef.com/essentials_data_bags.html#encrypt-a-data-bag-item)
-
-[Pushy](https://www.getchef.com/blog/2013/12/16/getting-pushy-with-chef/)
-(knife plugin + ZeroMQ)
-
-[Saltstack](http://www.saltstack.com/community/)
-
-Python
-
-Builtin
-
-Builtin
-
-[Builtin](http://docs.saltstack.com/en/latest/topics/tutorials/states_pt5.html#orchestrate-runner)
-
-#### Other tools
+#### Smaller automation tools
 
 -   [Bcfg2](http://trac.mcs.anl.gov/projects/bcfg2/): Alternative to
     puppet and cfengine by Argonne National Laboratory. (IMO out-dated)
@@ -88,8 +35,11 @@ for other less known and new tools!
 
 ### Drift Management
 
--   [ScriptRock Guard](https://www.scriptrock.com/)
--   [Debian Policy Scanner](https://github.com/lwindolf/polscan)
+- [ScriptRock Guard](https://www.scriptrock.com/)
+- for Puppet
+   - PuppetDB
+   - Foreman
+   - [Debian Policy Scanner](https://github.com/lwindolf/polscan)
 
 ### Misc
 
