@@ -6,6 +6,9 @@
     kubectl get pods
     kubectl get rc      # replication controllers
 
+    kubectl get namespaces
+    kubectl describe namespaces <ns>
+
     kubectl get services
     kubectl describe services <service>
 
