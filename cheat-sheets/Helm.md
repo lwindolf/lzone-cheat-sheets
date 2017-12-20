@@ -1,4 +1,4 @@
-See also <?add topic='Openshift'?>
+See also <?add topic='Openshift'?> <?add topic='kubernetes'?>
 
 ## Setup
 
