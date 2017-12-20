@@ -19,3 +19,8 @@ To list charts (packages)
 ## List installed releases
 
     helm list
+
+## Install package
+
+    helm install stable/<name> --namespace <ns>     # Install from repo
+    helm install ./<file name> --namespace <ns>     # Install from archive
