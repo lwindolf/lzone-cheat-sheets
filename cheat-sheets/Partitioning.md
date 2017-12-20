@@ -16,6 +16,12 @@ Where to find different partition types
     /dev/disk/by-uuid      -> MBR partitions
     /dev/disk/by-partuuid  -> GPT partitions
 
+## UEFI Secure Boot
+
+Diagnose with
+
+    efibootmgr -v
+
 ### Misc
 
 -   Grub Config Update
