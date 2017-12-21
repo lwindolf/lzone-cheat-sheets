@@ -32,4 +32,4 @@ To list charts (packages)
 
 ## Misc
 
-- [https://kubeapps.com/]: Web GUI for installing Helm charts
+- https://kubeapps.com/: Web GUI for installing Helm charts
