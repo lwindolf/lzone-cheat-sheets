@@ -29,3 +29,7 @@ To list charts (packages)
 
     helm install stable/<name> --namespace <ns>     # Install from repo
     helm install ./<file name> --namespace <ns>     # Install from archive
+
+## Misc
+
+- [https://kubeapps.com/]: Web GUI for installing Helm charts
