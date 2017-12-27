@@ -1,6 +1,6 @@
-### Branches
+## Branches
 
-#### Create New Branch
+### Create New Branch
 
 Create a new git branch and switch to it
 
@@ -10,7 +10,7 @@ and create it on origin too
 
     git push --set-upstream origin <branch name>
 
-#### Tracking Remote Branches
+### Tracking Remote Branches
 
 To follow additional branches in your local repo follow these steps:
 
@@ -20,7 +20,7 @@ To follow additional branches in your local repo follow these steps:
     # And track one of them locally
     git branch --set-upstream-to  
 
-#### Remove Branch
+### Remove Branch
 
 Remove git branch locally with
 
@@ -33,39 +33,39 @@ and remove on origin too
 
 Alternatively remove on origin and then prune locally.
 
-#### Remove stale
+### Remove stale
 
 When remote branches disappear clean them from your local repo with
 
     git remote prune origin
 
-#### Rebasing
+### Rebasing
 
 To rebase on master
 
     git rebase master 
 
-#### Solve Merge Conflicts
+### Solve Merge Conflicts
 
 When a rebase fails manually fix files and
 
     git add 
     git rebase --continue
 
-#### Move commits onto new branch
+### Move commits onto new branch
 
     git branch 
     git reset --hard HEAD~1      # 1 to move 1 commit
     git checkout 
 
-### Commits
+## Commits
 
-#### Amending changes
+### Amending changes
 
     git add 
     git commit --amend
 
-#### Apply patches
+### Apply patches
 
 A detailed description can be found
 [here](http://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git).
@@ -75,13 +75,13 @@ You should always run the following commands:
     git apply --check cool_feature.patch   # Check if the patch fails
     git am --signoff < cool_feature.patch
 
-#### Create patches
+### Create patches
 
     git format-patch -1     # Creates one patch file for the commit
     git format-patch -2 HEAD           # Creates two patch files for last two commits on HEAD
     git format-patch -3 HEAD --stdout  # Print last 3 commit changes on stdout
 
-#### Solving Mistakes
+### Solving Mistakes
 
 Accidental "git add"
 
@@ -96,7 +96,7 @@ Accidental commit of too many files
 
     # Commit afterwards
 
-#### Stashing Changes
+### Stashing Changes
 
 For a detailed explanation check
 [here](http://ariejan.net/2008/04/23/git-using-the-stash/). This feature
@@ -121,37 +121,37 @@ Here are the commands:
     git add 
     git stash --keep-index
 
-#### List Commits in One Line Each
+### List Commits in One Line Each
 
     git rev-list --all --pretty=oneline
 
-#### Search in Commits
+### Search in Commits
 
 To search all commits for lines containing a certain change:
 
     git log -p -S -- 
     git log -p -G -- 
 
-### Misc
+## Misc
 
-#### Update submodules
+### Update submodules
 
     git submodule update --init --recursive
 
-#### Enable git password Caching
+### Enable git password Caching
 
 To keep passwords for 1h run
 
     git config --global credential.helper 'cache --timeout=3600'
 
-#### Remove all repo files from a directory
+### Remove all repo files from a directory
 
 If you ever need to remove all git related files from a local working
 repo and make it just a normal directory:
 
     git clean -ffrx
 
-#### List Branch in Bash Prompt PS1
+### List Branch in Bash Prompt PS1
 
 There are several documentations online e.g. [this
 one](http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt). In
@@ -170,12 +170,28 @@ the \$ like this:
 
     john@server:~/project/src(master)$ 
 
-#### Push Dry Run
+### Push Dry Run
 
     git push --dry-run --porcelain
 
-#### git-write-tree: error building trees
+### git-write-tree: error building trees
 
     git reset --mixed
+
+### Merge two repos
+
+One simple way to (merge two repos)[https://bneijt.nl/blog/post/merge-a-subdirectory-of-another-repository-with-git/]
+is to add one repo (repo1) into a subdirectory of another repository (repo2)
+
+    cd repo2
+    git remote add repo1 <path to repo1>
+    git fetch repo1
+    git merge -s ours --no-commit repo1/master
+    # Ignore the merge error!
+    
+    git read-tree --prefix=<subdir> -u repo1/master
+    git commit
+
+That's it. Check "git log" to see if changes of repo1 appear.
 
 <?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
