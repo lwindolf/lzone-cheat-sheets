@@ -13,4 +13,5 @@
 
 https://zookeeper.apache.org/doc/trunk/zookeeperAdmin.html#The+Four+Letter+Words
 
+    echo dump | nc localhost 2181
     echo cons | nc localhost 2181
