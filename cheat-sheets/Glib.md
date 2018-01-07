@@ -157,3 +157,13 @@ Testing for GConf -\> DConf schema migration:
 
     # Check for conversion using 
     gsettings-data-convert --verbose --dry-run <.convert file name> 
+    
+### GTK Inspector
+
+For some GNOME core apps you can enable a "Help" menu entry to start the inspector using
+
+    gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
+    
+For all other applications explicitely start the inspector
+
+    GTK_DEBUG=interactive <program>
