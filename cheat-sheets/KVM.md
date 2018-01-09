@@ -1,9 +1,10 @@
-### Commands
+## Commands
 
     virsh list                # List running
     virsh list --all          # List all
 
-    # Control instances
+### Control instances
+
     virsh start <instance>
     virsh shutdown <instance>
     virsh destroy <instance>
@@ -12,7 +13,7 @@
 
     virsh console <instance>
 
-    # Define instances
+### Define instances
     virsh dumpxml <instance> >dump.xml
     virsh create dump.xml   # Create from XML
     virsh edit <instance>
@@ -25,6 +26,12 @@
     virsh nodeinfo
 
     virsh quit   # Leave CLI
+    
+### Check CPU Features
+
+Especially important to have [pcid CPU flag present in guests](https://groups.google.com/forum/m/#!topic/mechanical-sympathy/L9mHTbeQLNU)
+
+    virsh capabilities | grep feature
 
 ### Misc
 
