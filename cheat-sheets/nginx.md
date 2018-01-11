@@ -1,9 +1,9 @@
-### Config Syntax
+## Config Syntax
 
 Validate config with [gixy](https://github.com/yandex/gixy) (static
 config analyzer)
 
-#### Proxy Pass + Rewrite
+### Proxy Pass + Rewrite
 
 For example strip a path before proxy passing...
 
@@ -12,7 +12,7 @@ For example strip a path before proxy passing...
        proxy_pass http://127.0.0.1:8080;
     }
 
-#### Proxy Pass + Host Header
+### Proxy Pass + Host Header
 
 By default proxy pass doesn't pass the header. This needs to be said
 explicitly:
@@ -22,7 +22,7 @@ explicitly:
         proxy_set_header Host $host;
     }
 
-#### Complex Conditions
+### Complex Conditions
 
 As nginx does not support complex logic in if() conditions you need to
 set flags in a smart way to workaround it.
@@ -44,17 +44,17 @@ set flags in a smart way to workaround it.
         # Trigger intended behaviour
     }
 
-### Mitigation
+## Mitigation
 
 A general description on secure nginx configuration can be found here:
 [https://raymii.org/s/tutorials/Strong\_SSL\_Security\_On\_nginx.html](https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html)
 
-#### BEAST
+### BEAST
 
     ssl_ciphers RC4:HIGH:!aNULL:!MD5;
     ssl_prefer_server_ciphers on;
 
-#### DH downgrade
+### DH downgrade
 
 Create unique DH group
 
@@ -66,7 +66,7 @@ Enable it in config
 
 And set [sane ciphers](#Sane%20Ciphers).
 
-#### Sane Ciphers
+### Sane Ciphers
 
 Suggestion from 22.5.2015 by
 [weakdh.org](https://weakdh.org/sysadmin.html):
@@ -75,9 +75,9 @@ Suggestion from 22.5.2015 by
 
     ssl_prefer_server_ciphers on;
 
-### Enabling Features
+## Enabling Features
 
-#### FPC with memcached
+### FPC with memcached
 
 Full Page Cache (FPC) with memcached
 
@@ -87,7 +87,7 @@ Full Page Cache (FPC) with memcached
         error_page 404 = @nocache;
     }
 
-#### FastCGI caching
+### FastCGI caching
 
     set $nocache "";
     if ($http_cookie ~ SESS) {
@@ -99,7 +99,7 @@ Full Page Cache (FPC) with memcached
     fastcgi_cache_bypass $nocache;
     fastcgi_no_cache $nocache;
 
-#### OSCP Stapling
+### OSCP Stapling
 
 Available starting with nginx 1.3.7
 
