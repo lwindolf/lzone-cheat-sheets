@@ -34,4 +34,5 @@ To extract name and age of each "results" item
 
 Filter this by attribute
 
-    jq '.results[] | select(.name == "John") | {age}'
+    jq '.results[] | select(.name == "John") | {age}'      # Get age for 'John'
+    jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
