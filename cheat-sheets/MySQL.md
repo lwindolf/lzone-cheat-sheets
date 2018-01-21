@@ -193,6 +193,14 @@ example will only print replication connections:
     \P grep system
     show processlist;
 
+Find top long running queries
+
+    SELECT id,host,state,command,time,left(replace(info,'\n','<lf>'),120)
+    FROM information_schema.processlist
+    WHERE command <> 'Sleep' 
+    AND info NOT LIKE '%PROCESSLIST%'
+    ORDER BY time DESC LIMIT 25;
+
 To abort/terminate a statement determine it's id and kill it:
 
     kill <id>;    # Kill running queries by id from process listing
