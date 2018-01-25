@@ -160,10 +160,12 @@ Testing for GConf -\> DConf schema migration:
     
 ### GTK Inspector
 
-For some GNOME core apps you can enable a "Help" menu entry to start the inspector using
+Enable GTK Inspector by configuring the following setting:
 
     gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
     
-For all other applications explicitely start the inspector
+Some GNOME core apps now have a "Help" menu entry to start the inspector. Alternatively launch the inspector by pressing Ctrl-Shift-I or Crtl-Shift-D
+    
+Or explicitely start the application with open inspector
 
     GTK_DEBUG=interactive <program>
