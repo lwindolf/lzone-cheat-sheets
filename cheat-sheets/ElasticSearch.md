@@ -72,6 +72,14 @@ Just a simple search example to explain query building
 
 ### Tuning
 
--   [codecentric.de Tuning
-    Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
+Blog Post:
 
+- [codecentric.de Tuning
+    Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
+- [Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
+
+General hints:
+
+- Disable transparent huge pages
+- Disable numad
+- Do not optimized JVM, ensure not to give more than 32GB RAM
