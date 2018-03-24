@@ -58,6 +58,10 @@ about the quoting, but know there are quotes
 
     sed '/conditional pattern/{s/pattern/replacement/g}'
 
+#### Prefix files with a boilerplate using sed
+
+    sed -i '1s/^/# DO NOT TOUCH THIS FILE!\n\n/' *
+
 #### Removing Newlines with sed
 
 The only way to remove new line is this:
