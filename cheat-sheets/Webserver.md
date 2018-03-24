@@ -118,7 +118,7 @@ See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?
         passenger-status
         passenger-memory-stats
 
--   [Squid - Quick Test Proxy Setup](blog/quick-test-proxy-setup)
+-   [Squid - Quick Test Proxy Setup](blog/How to Quickly Set up Squid)
 -   Wordpress - Hardening Scanner
     [wpscan](https://github.com/wpscanteam/wpscan)
 -   Determine redirect URLs
