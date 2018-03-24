@@ -43,12 +43,6 @@ See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?
 ### memcached
 
 -   <?add topic='memcached'?>
--   [memcached - List of Monitoring
-    Solutions](/memcache+monitoring+GUIs)
--   [memcached - How to Dump Keys](/dump+memcache+keys)
-
-        stats cachedump <slab class> <number of keys to dump>
-
 -   [memcached - Key Dump Tool
     "memdump"](http://search.cpan.org/~dmaki/Memcached-libmemcached-0.4202/src/libmemcached/docs/memdump.pod)
 -   [memcached - Persistent
