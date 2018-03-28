@@ -18,7 +18,7 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
         setfacl -m user:joe:rwx dir # Modify ACL
         ls -ld <file>            # Check for active ACL (indicates a "+")
 
--   [uNetBootin](http://unetbootin.sourceforge.net/): Create bootable
+https://oss.oracle.com/projects/ocfs2/-   [uNetBootin](http://unetbootin.sourceforge.net/): Create bootable
     media for any distribution. Most useful with USB sticks.
 -   rsync - --delete doesn't work: It happens when you call rsync
     without a trailing slash in the source path like this:
@@ -73,10 +73,11 @@ Synching without a distributed filesystem
 
 | Name | Vendor | Distinguishing Features |
 | ---- | ------ | ----------------------- |
-| [Ceph](http://ceph.com) | Redhat | Object store with NFS mounting and S3 API, Docker support |
-| [DRBD](http://www.drbd.org/) | Linbit | More a replication mechanism |
-| [GlusterFS](http://gluster.org) | Redhat | NFS drop-in, S3, Docker support |
+| [Ceph](http://ceph.com) | Redhat | NFS, Posix, S3, Docker support |
+| [DRBD](http://www.drbd.org/) | Linbit | Block replication |
+| [GlusterFS](http://gluster.org) | Redhat | NFS, Posix, S3, Docker support |
 | GridFS | | |
-| [HDFS](http://hadoop.apache.org/) | Hadoop | FUSE mountable |
+| [OCFS2](https://oss.oracle.com/projects/ocfs2/) | Oracle | Posix, often used with DRBD |
+| [HDFS](http://hadoop.apache.org/) | Hadoop | FUSE, NFS, HFTP, S3 |
 | [Lustre](http://lustre.org/) | Oracle | abandoned, used in HPC |
 | [MooseFS](https://moosefs.com/) | | NFS drop-in |
