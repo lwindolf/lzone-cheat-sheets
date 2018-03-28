@@ -73,10 +73,10 @@ Synching without a distributed filesystem
 
 | Name | Vendor | Distinguishing Features |
 | ---- | ------ | ----------------------- |
-| [Ceph](http://ceph.com) | Inktank Storage | Object store with NFS mounting and S3 API |
+| [Ceph](http://ceph.com) | Redhat | Object store with NFS mounting and S3 API, Docker support |
 | [DRBD](http://www.drbd.org/) | Linbit | More a replication mechanism |
-| [GlusterFS](http://gluster.org) | Redhat | NFS drop-in |
+| [GlusterFS](http://gluster.org) | Redhat | NFS drop-in, S3, Docker support |
 | GridFS | | |
 | [HDFS](http://hadoop.apache.org/) | Hadoop | FUSE mountable |
-| Lustre | Oracle | abandoned, used in HPC |
-| MooseFS | | NFS drop-in |
+| [Lustre](http://lustre.org/) | Oracle | abandoned, used in HPC |
+| [MooseFS](https://moosefs.com/) | | NFS drop-in |
