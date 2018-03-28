@@ -73,11 +73,9 @@ Synching without a distributed filesystem
 
 | Name | Vendor | Distinguishing Features |
 | ---- | ------ | ----------------------- |
-| [Ceph](http://ceph.com) | Redhat | NFS, Posix, S3, Docker support |
-| [DRBD](http://www.drbd.org/) | Linbit | Block replication |
-| [GlusterFS](http://gluster.org) | Redhat | NFS, Posix, S3, Docker support |
-| GridFS | | |
-| [OCFS2](https://oss.oracle.com/projects/ocfs2/) | Oracle | Posix, often used with DRBD |
 | [HDFS](http://hadoop.apache.org/) | Hadoop | FUSE, NFS, HFTP, S3 |
-| [Lustre](http://lustre.org/) | Oracle | abandoned, used in HPC |
-| [MooseFS](https://moosefs.com/) | | NFS drop-in |
+| [Ceph](http://ceph.com) | Redhat | NFS, POSIX, S3, Swift, Fuse, Docker support |
+| [GlusterFS](http://gluster.org) | Redhat | NFS, POSIX, S3, Docker support, also as "Redhat Storage Server" |
+| [OCFS2](https://oss.oracle.com/projects/ocfs2/) | Oracle | POSIX, often used with [DRBD](http://www.drbd.org/)  Block replication |
+| [Lustre](http://lustre.org/) | Oracle | POSIX, abandoned, used in HPC |
+| [MooseFS](https://moosefs.com/) | Core Technology | POSIX, NFS drop-in |
