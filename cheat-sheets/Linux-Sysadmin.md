@@ -1,11 +1,10 @@
 See also: <?add topic='Debian'?> <?add topic='Filesystem'?> <?add topic='Linux-HA'?> <?add topic="Linux-Networking"?> <?add topic="Linux-Virtualization"?> <?add topic="LVM"?> <?add topic="Package Management"?> <?add topic="Partitioning"?> <?add topic='RAID'?> <?add topic='Shell-Scripting'?> <?add topic='SSH'?> <?add topic='Security'?>
 
+## Hardware
 
-### Hardware
+### Info
 
-#### Info
-
--   Commands
+Commands
 
         lsusb
         lspci
@@ -15,13 +14,9 @@ See also: <?add topic='Debian'?> <?add topic='Filesystem'?> <?add topic='Linux-H
         hdparm -I /dev/....
         smartctl -a /dev/...
 
--   HP - Find Installed Memory:
+### Performance
 
-        dmidecode 2>&1 |grep -A17 -i "Memory Device" |egrep "Memory Device|Locator: PROC|Size" |grep -v "No Module Installed" |grep -A1 -B1 "Size:"
-
-#### Performance
-
-##### I/O
+#### I/O
 
 -   [fio](http://www.bluestop.org/fio/): Synthetic IO stress test
 -   [iozone](http://www.iozone.org/): Synthetic FS benchmark
@@ -29,13 +24,13 @@ See also: <?add topic='Debian'?> <?add topic='Filesystem'?> <?add topic='Linux-H
 
         echo deadline > /sys/block/sda/queue/scheduler
 
-##### CPU
+#### CPU
 
 -   [whetstone](http://www.roylongbottom.org.uk/whetstone.htm)
 -   [dhrystone](http://www.netlib.org/benchmark/dhry-c)
 -   [stress](https://packages.debian.org/sid/stress)
 
-##### Metrics
+#### Metrics
 
 Human readable sar output
 
@@ -144,7 +139,7 @@ Machine readable: you need to use sadf
 
         echo "$hosts" | xargs --replace={} -t -n 1 -P 15 sh -c "ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=publickey {} date || :"
 
-### Runlevel
+## Runlevel
 
 -   update-rc.d Examples
 
