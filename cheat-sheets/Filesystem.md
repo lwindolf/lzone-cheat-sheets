@@ -18,7 +18,7 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
         setfacl -m user:joe:rwx dir # Modify ACL
         ls -ld <file>            # Check for active ACL (indicates a "+")
 
-https://oss.oracle.com/projects/ocfs2/-   [uNetBootin](http://unetbootin.sourceforge.net/): Create bootable
+-   [uNetBootin](http://unetbootin.sourceforge.net/): Create bootable
     media for any distribution. Most useful with USB sticks.
 -   rsync - --delete doesn't work: It happens when you call rsync
     without a trailing slash in the source path like this:
