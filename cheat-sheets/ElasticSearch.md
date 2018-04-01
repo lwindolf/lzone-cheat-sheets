@@ -78,7 +78,7 @@ Just a simple search example to explain query building
 - Monitoring:
   - by Elastic: Marvel, XPack
 
-## Tuning
+## ELK Scaling Cheat Sheet
 
 ### Sizing Examples
 
@@ -104,6 +104,7 @@ Just a simple search example to explain query building
    - Ingest: 10^9 loglines/day, 400k/s peak
    - Elasticsearch:
       - 6 clusters, 141 Nodes (overall 4200 CPU Cores, 36TB)
+      - 
 
 ### Posts on Scaling:
 
@@ -126,6 +127,12 @@ Just a simple search example to explain query building
 
 Note: credits for all those go to the post above. Consider this a compilation for ES begiinners.
 
+- Set CPU scaling governor 'performance'
+- Use SSDs with RAID 0
+- Use HTTP transport protocol
+- Change default mapping
+  - Avoid raw fields
+  - or make raw field "not_analyzed"
 - Disable transparent huge pages
 - Disable numad
 - Disable swap, lock memory with
@@ -149,7 +156,7 @@ Note: credits for all those go to the post above. Consider this a compilation fo
 ## Resilience
 
 - Avoid split-brain by setting [discovery.zen.minimum_master_nodes](https://qbox.io/blog/split-brain-problem-elasticsearch)
-- Monitor value key cache to avoid running in OOM killing your cluster
+- Monitor fielddata cache to avoid running in OOM killing your cluster
 
 ## Monitoring
 
