@@ -72,7 +72,7 @@ Just a simple search example to explain query building
 
 ### Tuning
 
-Blog Post:
+Blog Posts on Scaling:
 
 - [codecentric.de Tuning
     Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
@@ -82,7 +82,7 @@ General hints:
 
 - Disable transparent huge pages
 - Disable numad
-- Do not optimized JVM, ensure not to give more than 32GB RAM
+- Do not optimize JVM settings, ensure not to give more than 32GB RAM
 
 ## Monitoring
 
