@@ -77,6 +77,12 @@ Posts on Scaling:
 - [codecentric.de Tuning
     Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
 - [Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
+- [hipages Engineering - Scaling ES](https://medium.com/hipages-engineering/scaling-elasticsearch-b63fa400ee9e)
+  - Scaling on index size (metrics: documents per shard, documents per node)
+   - Change shards to trade search response time for search concurrency
+   - Change nodes to trade resilience for memory usage
+  - Scaling on search time and througput
+   - [Scalability Model](https://docs.google.com/spreadsheets/d/1F6AlBLR0F9D1SD2upTsHMiJpD7Sz50P_nurosP-WeUs/edit?usp=sharing)
 - [Determining the Number of Shards](https://www.elastic.co/guide/en/elasticsearch/guide/current/capacity-planning.html)
 
 General hints:
