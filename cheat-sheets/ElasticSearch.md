@@ -83,6 +83,11 @@ Posts on Scaling:
     - Change nodes to trade resilience for memory usage
   - Scaling on search time and througput
     - [Scalability Model](https://docs.google.com/spreadsheets/d/1F6AlBLR0F9D1SD2upTsHMiJpD7Sz50P_nurosP-WeUs/edit?usp=sharing)
+- [Evolution of an ELK Setup](https://www.sumologic.com/wp-content/uploads/elk-stack-vs-sumologic.pdf)
+   # ELK with 1 Logstash
+   # ELK with loadbalanced horizontally scaled Logstash
+   # Kafka in front of logstash to buffer spikes ELK
+   # Separation of client, data and master Elasticsearch nodes
 - [Determining the Number of Shards](https://www.elastic.co/guide/en/elasticsearch/guide/current/capacity-planning.html)
 
 General hints:
