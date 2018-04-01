@@ -124,6 +124,7 @@ Just a simple search example to explain query building
    - Try to live with 4GB heap
    - Ensure not to give more than 30GB RAM (sometimes only as much as 26GB) as JVM heap address compression stops with larger RAM
    - Check heap address mode by running with -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode and if you see "zero based Compressed Oops" you are fine
+   - Check your heap usage curve. If you have a sawtooth give back the memory to the FS cache.
 
 ## Resilience
 
