@@ -1,5 +1,4 @@
-HTTP API
---------
+## REST API
 
 ### Cluster Status
 
@@ -70,13 +69,25 @@ Just a simple search example to explain query building
        "_source": ["field1", "field2"]
     }
 
-### Tuning
+## Tuning
+
+Sizing Examples
+
+- [Viki: ](https://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-at-25k-events-per-second/)
+  - 25k/s Access Logs
+  - haproxy as Logstash LB
+  - Logstash single-threaded filters, 4 Nodes (8 CPU, 16GB)
+  - Logstash Forwarder Client with buffer log
+  - Elasticsearch:
+     - 20 Nodes (12 i7-3930k, 64GB, 3TB RAID0)
+     - 20 shards, 4 replicas
+     - 30GB heap
+- [Meltwater: Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
 
 Posts on Scaling:
 
 - [codecentric.de Tuning
     Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
-- [Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
 - [hipages Engineering - Scaling ES](https://medium.com/hipages-engineering/scaling-elasticsearch-b63fa400ee9e)
   - Scaling on index size (metrics: documents per shard, documents per node)
     - Change shards to trade search response time for search concurrency
@@ -94,7 +105,9 @@ General hints:
 
 - Disable transparent huge pages
 - Disable numad
-- Do not optimize JVM settings, ensure not to give more than 32GB RAM
+- Disable swap, lock memory with
+    bootstrap.mlockall: true
+- Do not optimize JVM settings, ensure not to give more than 30GB RAM as JVM compression stops with larger RAM
 
 ## Monitoring
 
