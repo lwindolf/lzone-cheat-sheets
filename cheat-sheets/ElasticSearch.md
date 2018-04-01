@@ -81,7 +81,7 @@ Just a simple search example to explain query building
 ### Sizing Examples
 
 - [Viki: ](https://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-at-25k-events-per-second/)
-  - 25k/s Access Logs
+  - Ingest: 25k/s Access Logs
   - haproxy as Logstash LB
   - Logstash single-threaded filters, 4 Nodes (8 CPU, 16GB)
   - Logstash Forwarder Client with buffer log
@@ -90,6 +90,12 @@ Just a simple search example to explain query building
      - 20 shards, 4 replicas
      - 30GB heap
 - [Meltwater: Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
+  - Search Volume: 3k/min complex search requests
+  - Index Size: 3\*10^6 articles, 100\*10^6 social posts, 200TB 
+  - Elastischsearch:
+     - 430 data nodes: i3.2xlarge, 64GB RAM
+     - 3 master nodes
+     - 26GB heap
 
 ### Posts on Scaling:
 
@@ -114,7 +120,15 @@ Just a simple search example to explain query building
 - Disable numad
 - Disable swap, lock memory with
      bootstrap.mlockall: true
-- Do not optimize JVM settings, ensure not to give more than 30GB RAM as JVM compression stops with larger RAM
+- [Do not optimize JVM settings for max memory usage!](https://www.elastic.co/blog/a-heap-of-trouble)
+   - Try to live with 4GB heap
+   - Ensure not to give more than 30GB RAM (sometimes only as much as 26GB) as JVM heap address compression stops with larger RAM
+   - Check heap address mode by running with -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode and if you see "zero based Compressed Oops" you are fine
+
+## Resilience
+
+- Avoid split-brain by setting [discovery.zen.minimum_master_nodes](https://qbox.io/blog/split-brain-problem-elasticsearch)
+- Monitor value key cache to avoid running in OOM killing your cluster
 
 ## Monitoring
 
