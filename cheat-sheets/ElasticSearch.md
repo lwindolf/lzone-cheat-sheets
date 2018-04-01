@@ -95,6 +95,7 @@ Just a simple search example to explain query building
   - Elastischsearch:
      - 430 data nodes: i3.2xlarge, 64GB RAM
      - 3 master nodes
+     - 40k shards, 100MB cluster state!
      - 26GB heap
 
 ### Posts on Scaling:
@@ -116,6 +117,8 @@ Just a simple search example to explain query building
 
 ### General hints:
 
+Note: credits for all those go to the post above. Consider this a compilation for ES begiinners.
+
 - Disable transparent huge pages
 - Disable numad
 - Disable swap, lock memory with
@@ -125,6 +128,10 @@ Just a simple search example to explain query building
    - Ensure not to give more than 30GB RAM (sometimes only as much as 26GB) as JVM heap address compression stops with larger RAM
    - Check heap address mode by running with -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode and if you see "zero based Compressed Oops" you are fine
    - Check your heap usage curve. If you have a sawtooth give back the memory to the FS cache.
+ - When profiling
+   - check for >15% ParNewGC
+   - check SerialGC pauses
+     - ensure you do not have the G1 garbage collector active
 
 ## Resilience
 
