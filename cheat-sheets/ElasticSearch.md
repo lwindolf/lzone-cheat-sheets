@@ -83,3 +83,7 @@ General hints:
 - Disable transparent huge pages
 - Disable numad
 - Do not optimized JVM, ensure not to give more than 32GB RAM
+
+## Monitoring
+
+- [Logstash Pipeline Monitoring](https://logz.io/blog/logstash-pipelines/) using XPack + Kibana
