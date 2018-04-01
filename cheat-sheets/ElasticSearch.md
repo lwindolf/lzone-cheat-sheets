@@ -72,11 +72,12 @@ Just a simple search example to explain query building
 
 ### Tuning
 
-Blog Posts on Scaling:
+Posts on Scaling:
 
 - [codecentric.de Tuning
     Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
 - [Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
+- [Determining the Number of Shards](https://www.elastic.co/guide/en/elasticsearch/guide/current/capacity-planning.html)
 
 General hints:
 
