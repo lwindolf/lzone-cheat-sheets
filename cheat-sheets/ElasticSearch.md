@@ -69,9 +69,16 @@ Just a simple search example to explain query building
        "_source": ["field1", "field2"]
     }
 
+## Management Tools
+
+- Index retention: Curator
+- Webadmin: Cerebro
+- Monitoring:
+  - by Elastic: Marvel, XPack
+
 ## Tuning
 
-Sizing Examples
+### Sizing Examples
 
 - [Viki: ](https://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-at-25k-events-per-second/)
   - 25k/s Access Logs
@@ -84,7 +91,7 @@ Sizing Examples
      - 30GB heap
 - [Meltwater: Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
 
-Posts on Scaling:
+### Posts on Scaling:
 
 - [codecentric.de Tuning
     Hints](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
@@ -101,12 +108,12 @@ Posts on Scaling:
    4. Separation of client, data and master Elasticsearch nodes
 - [Determining the Number of Shards](https://www.elastic.co/guide/en/elasticsearch/guide/current/capacity-planning.html)
 
-General hints:
+### General hints:
 
 - Disable transparent huge pages
 - Disable numad
 - Disable swap, lock memory with
-    bootstrap.mlockall: true
+     bootstrap.mlockall: true
 - Do not optimize JVM settings, ensure not to give more than 30GB RAM as JVM compression stops with larger RAM
 
 ## Monitoring
