@@ -73,6 +73,7 @@ Just a simple search example to explain query building
 
 - Index retention: Curator
 - Webadmin: Cerebro
+- Auth: "Security" (previously "Shield"), SearchGuard
 - Monitoring:
   - by Elastic: Marvel, XPack
 
