@@ -82,7 +82,7 @@ Just a simple search example to explain query building
 
 ### Sizing Examples
 
-- [Viki: ](https://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-at-25k-events-per-second/)
+- [Viki 2015](https://engineering.viki.com/blog/2015/log-processing-at-scale-elk-cluster-at-25k-events-per-second/)
   - Ingest: 25k/s Access Logs
   - haproxy as Logstash LB
   - Logstash single-threaded filters, 4 Nodes (8 CPU, 16GB)
@@ -91,7 +91,7 @@ Just a simple search example to explain query building
      - 20 Nodes (12 i7-3930k, 64GB, 3TB RAID0)
      - 20 shards, 4 replicas
      - 30GB heap
-- [Meltwater: Running a 400+ cluster](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
+- [Meltwater 2018](http://underthehood.meltwater.com/blog/2018/02/06/running-a-400+-node-es-cluster/)
   - Search Volume: 3k/min complex search requests
   - Index Size: 3\*10^6 articles, 100\*10^6 social posts, 200TB 
   - Elastischsearch:
@@ -99,6 +99,11 @@ Just a simple search example to explain query building
      - 3 master nodes
      - 40k shards, 100MB cluster state!
      - 26GB heap
+- [Etsy 2016](https://www.slideshare.net/avleenvig/elk-mooseively-scaling-your-log-system)
+   - Index Size: overall 1.5PB
+   - Ingest: 10^9 loglines/day, 400k/s peak
+   - Elasticsearch:
+      - 6 clusters, 141 Nodes (overall 4200 CPU Cores, 36TB)
 
 ### Posts on Scaling:
 
@@ -134,6 +139,12 @@ Note: credits for all those go to the post above. Consider this a compilation fo
    - check for >15% ParNewGC
    - check SerialGC pauses
      - ensure you do not have the G1 garbage collector active
+ - Logstash:
+   - On HW consider turning off hyperthreading
+   - Increase flush_size
+   - Increase idle_flush_time
+   - Increase output workers
+   - Finally increase pipeline batch size
 
 ## Resilience
 
