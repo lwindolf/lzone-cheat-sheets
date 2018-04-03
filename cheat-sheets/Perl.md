@@ -75,6 +75,6 @@ List CPAN installed modules
 
 -   Ad-hoc JSON filtering with XPath
 
-        lwp-request https://icc.eu.idealo.com/status/check | perl -MJSON::XS -MData::DPath=dpath -E 'say join(",", dpath("//status")->match(decode_json(join("",<STDIN>))))'
+        lwp-request https://example.com/api-endpoint | perl -MJSON::XS -MData::DPath=dpath -E 'say join(",", dpath("//status")->match(decode_json(join("",<STDIN>))))'
 
 
