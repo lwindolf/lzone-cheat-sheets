@@ -1,11 +1,25 @@
-### Syntax
+## Syntax
 
 ![](/images/perl-language-overview.svg)
 
 You can also download the cheat sheet as
 [PDF](/upload/perl-regex-reference.pdf)!
 
-### Misc
+## Installing Modules from CPAN
+
+Invoke CPAN shell
+
+    perl -MCPAN -e shell 
+
+Install a module
+
+    cpan[1]> install Some::Package
+
+List CPAN installed modules
+
+    $ cpan -l
+
+## Misc
 
 -   [Proper UTF-8 CGI
     handling](http://blog.thewebsitepeople.org/2012/06/perl-default-to-utf-8-encoding/)
@@ -40,10 +54,6 @@ You can also download the cheat sheet as
 -   Perl - Random Values:
 
         int(rand(10))
-
--   Perl - List Installed Modules:
-
-        cpan -l
 
 -   Perl - Value Dumping
 
