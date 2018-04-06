@@ -65,5 +65,5 @@ To quere the current "auto\_vacuum setting run
 
     PRAGMA auto_vacuum
 
-Read more in this [detailed post](/How%20to%20Vacuum%20SQLite) about
+Read more in this [detailed post](/blog/How%20to%20Vacuum%20SQLite) about
 sqlite vacuuming!
