@@ -78,11 +78,10 @@ connection add "-S" to the ssh invocation.
 
 #### Use Gateway/Jumphost
 
-This can be achieved using
-[ProxyCommand:](http://www.statusq.org/archives/2008/07/03/1916/)
+You can configure jumphosts using ProxyCommand and netcat:
 
     Host unreachable_host
-      ProxyCommand ssh gateway_host exec nc %h %p
+      ProxyCommand ssh -e none gateway_host exec nc %h %p
 
 #### Automatic Jump Host Proxying
 
