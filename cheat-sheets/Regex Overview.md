@@ -2,22 +2,18 @@
 
 As the actual use of regular expressions is quite language specific there are separate cheat sheets:
 
-*   ### [Regular Expressions in Bash](Bash+Regex)
-
-*   ### [Regular Expressions in Perl](Perl)
-
-*   ### Regular Expressions in PHP
-
+*   [Bash](Bash+Regex)
+*   [Perl](Perl)
+*   PHP
     *   [preg_match() Examples](/examples/PHP+preg_match)
     *   [preg_match() vs strpos() Performance](/articles/php-string-search.htm)
     *   [preg_replace() Examples](/examples/PHP+preg_replace)
-*   ### Regular Expressions in Python
-
+*   Python
     *   [Python re.match Examples](/examples/Python+re.match)
     *   [Python re.sub Examples](/examples/Python+re.sub)
-*   ### [Regular Expressions in Ruby](Ruby+Regex)
-
-*   ### [Regular Expressions in C and Glib 2.14+](/examples/GLib+GRegex) (GTK, GNOME)
+*   [Ruby](Ruby+Regex)
+*   [Javascript](/examples/Javascript+RegExp)
+*   [C and Glib 2.14+](/examples/GLib+GRegex) (GTK, GNOME)
 
 ## Standards
 
