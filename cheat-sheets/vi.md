@@ -1,53 +1,82 @@
-+--------------------------------------+--------------------------------------+
-| ### DOS Line Breaks                  | Insert line break on command line    |
-|                                      |                                      |
-|                                      |     Ctrl-v + Ctrl-M                  |
-+--------------------------------------+--------------------------------------+
-| ### Navigation                       |     55r         # 55 columns to the  |
-|                                      | right                                |
-|                                      |     20l         # 20 columns to the  |
-|                                      | left                                 |
-|                                      |     !1000       # go to column 1000  |
-|                                      |     :20         # go to line 20      |
-+--------------------------------------+--------------------------------------+
-| ### File Open At Position            |     vi <file> +<line nr>             |
-+--------------------------------------+--------------------------------------+
-| ### Vim Modelines                    | Enable them in \~/.vimrc             |
-|                                      |                                      |
-|                                      |     :set modelines                   |
-|                                      |                                      |
-|                                      | Examples:                            |
-|                                      |                                      |
-|                                      |     <!-- vim: set ts=4 sw=4: -->     |
-|                                      |                                      |
-|                                      |     // vim: noai:ts=4:sw=4           |
-|                                      |                                      |
-|                                      |     /* vim: set noai ts=4 sw=4: */   |
-|                                      |                                      |
-|                                      |     # vim: set expandtab:            |
-|                                      |                                      |
-|                                      | To re-indent all press               |
-|                                      |                                      |
-|                                      |     gg=G                             |
-|                                      |                                      |
-|                                      | More hints:                          |
-|                                      | [http://vim.wikia.com/wiki/Modeline\ |
-|                                      | _magic](http://vim.wikia.com/wiki/Mo |
-|                                      | deline_magic)                        |
-+--------------------------------------+--------------------------------------+
-| ### Vim Addon Manager                |     apt-get install vim-nox          |
-|                                      |       # ensures scripting support    |
-|                                      |     apt-get install vim-addon-manage |
-|                                      | r                                    |
-|                                      |                                      |
-|                                      |     vim-addon-manager install <addon |
-|                                      | >                                    |
-|                                      |     vim-addon-manager show <addon>   |
-|                                      |       # check installation           |
-|                                      |     vim-addon-manager enable <addon> |
-|                                      |       # some addons need enabling    |
-+--------------------------------------+--------------------------------------+
-| ### Vim Enable Mouse Cursor Moving   |     set mouse=a                      |
-+--------------------------------------+--------------------------------------+
+<table border="1" cellpadding="6" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<h3>DOS Line Breaks</h3>
+			</td>
+			<td>
+Insert line break on command line
 
+    Ctrl-v + Ctrl-M
+</td>
+		</tr>
+		<tr>
+			<td>
+			<h3>Navigation</h3>
+			</td>
+			<td>
+			<pre>
+55r         # 55 columns to the right
+20l         # 20 columns to the left
+!1000       # go to column 1000
+:20         # go to line 20
+</pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3>File Open At Position</h3>
+			</td>
+			<td>
+			<pre>
+vi &lt;file&gt; +&lt;line nr&gt;</pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3>Vim Modelines</h3>
+			</td>
+			<td>
+			Enable them in ~/.vimrc with
 
+    :set modelines
+
+Examples:
+
+    &lt;!-- vim: set ts=4 sw=4: --&gt;
+    // vim: noai:ts=4:sw=4
+    /* vim: set noai ts=4 sw=4: */
+    \# vim: set expandtab:</pre>
+
+To re-indent all press
+
+    gg=G
+
+More hints: <a href="http://vim.wikia.com/wiki/Modeline_magic">http://vim.wikia.com/wiki/Modeline_magic</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3>Vim Addon Manager</h3>
+			</td>
+			<td>
+			<pre>
+apt-get install vim-nox               # ensures scripting support
+apt-get install vim-addon-manager
+
+vim-addon-manager install &lt;addon&gt;
+vim-addon-manager show &lt;addon&gt;        # check installation
+vim-addon-manager enable &lt;addon&gt;      # some addons need enabling
+</pre>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<h3>Vim Enable Mouse Cursor Moving</h3>
+			</td>
+			<td>
+			<pre>set mouse=a</pre>
+			</td>
+		</tr>
+	</tbody>
+</table>
