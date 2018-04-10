@@ -1,4 +1,4 @@
-### Commands
+## Commands
 
     kubectl cluster-info
 
@@ -49,10 +49,10 @@
             cpu: 2
             memory: 4Gi
 
-### Migration Stories
+## Migration Stories
 
 - Saltside: https://engineering.saltside.se/migrating-to-kubernetes-day-20-problems-fbbda4905c23
 
-### Use Cases
+## Use Cases
 
 -  [Web Caching with Kubernetes](https://github.com/Financial-Times?utf8=%E2%9C%93&q=varnish)
