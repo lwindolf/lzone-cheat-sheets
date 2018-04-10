@@ -33,6 +33,22 @@
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
+## Defining Quotas
+
+    apiVersion: v1
+    kind: Template
+    objects:
+    - apiVersion: v1
+      kind: BuildConfig      # or any other...
+      spec:
+        resources:
+          requests:
+            cpu: 1
+            memory: 2Gi
+          limits:
+            cpu: 2
+            memory: 4Gi
+
 ### Migration Stories
 
 - Saltside: https://engineering.saltside.se/migrating-to-kubernetes-day-20-problems-fbbda4905c23
