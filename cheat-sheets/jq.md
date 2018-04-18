@@ -1,7 +1,7 @@
 Example-wise the jq manpage is not really helpful. Let's document some
 simple examples here...
 
-### Output Formatting
+## Output Formatting
 
 If you do only care about output formatting (pretty print) run
 
@@ -11,7 +11,7 @@ Note: for redirection you need to pass a filter too to avoid a syntax error:
 
     cat my.json | jq . >output.json
 
-### Simple Extraction
+## Simple Extraction
 
 Consider this example document
 
@@ -38,14 +38,17 @@ Filter this by attribute
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
 
 
-### Using jq in Shell Scripts
+## Using jq in Shell Scripts
 
-When parsing JSON from STDIN you can parse right into env variables like this
-(https://www.terraform.io/docs/providers/external/data_source.html):
+From https://www.terraform.io/docs/providers/external/data_source.html
+
+### Parsing JSON into env vars
+
+To fill environment variables from JSON object keys (e.g. $FOO from jq query ".foo")
 
     eval "$(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')"
     
-### Creating JSON with jq
+### JSON template using env vars
 
 To create proper JSON from a shell script and properly escape variables:
 
