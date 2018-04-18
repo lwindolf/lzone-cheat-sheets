@@ -36,3 +36,17 @@ Filter this by attribute
 
     jq '.results[] | select(.name == "John") | {age}'      # Get age for 'John'
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
+
+
+### Using jq in Shell Scripts
+
+When parsing JSON from STDIN you can parse right into env variables like this
+(https://www.terraform.io/docs/providers/external/data_source.html):
+
+    eval "$(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')"
+    
+### Creating JSON with jq
+
+To create proper JSON from a shell script and properly escape variables:
+
+    jq -n --arg foobaz "$FOOBAZ" '{"foobaz":$foobaz}'
