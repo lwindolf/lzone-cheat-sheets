@@ -1,4 +1,4 @@
-# Container Scheduler Solutions
+## Container Scheduler Solutions
 
 - Amazon ACS
 - CoreOS Fleet
@@ -10,14 +10,14 @@
 
 See also <?add topic='kubernetes'?>
 
-# Container Source To Image Solutions
+## Container Source To Image Solutions
 
 - Cloud Foundry
 - Openshift
 
 See also <?add topic='Openshift'?>
 
-# Kubernetes Infrastructure as Code
+## Kubernetes Infrastructure as Code
 
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
