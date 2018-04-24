@@ -2,7 +2,7 @@ See also <?add topic='React'?>
 
 ## Importing PropTypes module
 
-Sicne v15.5 React.PropTypes has moved into a different package named ["prop-types"](https://www.npmjs.com/package/prop-types). Import it with
+Since v15.5, React.PropTypes has moved into a different package named ["prop-types"](https://www.npmjs.com/package/prop-types). Import it with
 
      import PropTypes from 'prop-types';
      
