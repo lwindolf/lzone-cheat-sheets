@@ -1,0 +1,4 @@
+rkt,http://rocket.readthedocs.org/en/latest/Documentation/commands/
+DC/OS,https://docs.mesosphere.com/1.11/cli/command-reference/
+gcloud,https://github.com/JeffDeCola/my-cheat-sheets/tree/master/google-compute-engine-cheat-sheet
+CloudFormation,https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
