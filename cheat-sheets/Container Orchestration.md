@@ -24,6 +24,7 @@ See also <?add topic='Openshift'?>
 - Helmsman (Helm based cluster manager)
 - Terraform official kubernetes provider (only a few resource types, missing Deployments/Routes/...)
 - Terraform 3rd party kubernetes providers... (FIXME: resource provider)
+- [Exekube](https://github.com/exekube/exekube) (projects mapped using terraform+helm)
 - [WeaveCloud/flux](https://github.com/weaveworks/flux) (SaaS)
 
 See also <?add topic='Helm'?> <?add topic='kubernetes'?>
