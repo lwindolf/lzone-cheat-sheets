@@ -31,6 +31,8 @@ See also <?add topic='Openshift'?>
 
 ### Kubernetes
 
+See also <?add topic='Helm'?> <?add topic='kubernetes'?>
+
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
 - Helmsman (Helm based cluster manager)
@@ -43,5 +45,9 @@ See also <?add topic='Openshift'?>
 
 - [Terraform](https://github.com/hashicorp/terraform-guides/tree/master/infrastructure-as-code/k8s-cluster-gke) official module
 
+### Multi-PaaS IaC Tools
 
-See also <?add topic='Helm'?> <?add topic='kubernetes'?>
+At least supporting Azure, AWS and GCE 
+
+- Terraform
+- Ubuntu Juju (also Openstack, Rackspace, vSphere)
