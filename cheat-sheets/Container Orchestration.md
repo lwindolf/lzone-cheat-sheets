@@ -1,6 +1,6 @@
 ## Container Scheduler Solutions
 
-- Amazon ACS
+- Amazon ACS (supports DC/OS, Swarm, Kubernetes)
 - CoreOS Fleet
 - Cloud Foundry Diego
 - Docker Swarm
@@ -17,7 +17,19 @@ See also <?add topic='kubernetes'?>
 
 See also <?add topic='Openshift'?>
 
-## Kubernetes Infrastructure as Code
+## Infrastructure as Code
+
+### Amazon ECS
+
+- [ECS in CloudFormation](https://stelligent.com/2016/05/26/automating-ecs-provisioning-in-cloudformation-part-1/)
+
+### Azure
+
+- [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)
+- [Azure Resource Manager (ARM)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview)
+- [Terraform ARM provider](https://www.terraform.io/docs/providers/azurerm/)
+
+### Kubernetes
 
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
@@ -26,5 +38,10 @@ See also <?add topic='Openshift'?>
 - Terraform 3rd party kubernetes providers... (FIXME: resource provider)
 - [Exekube](https://github.com/exekube/exekube) (projects mapped using terraform+helm)
 - [WeaveCloud/flux](https://github.com/weaveworks/flux) (SaaS)
+
+#### GKE
+
+- [Terraform](https://github.com/hashicorp/terraform-guides/tree/master/infrastructure-as-code/k8s-cluster-gke) official module
+
 
 See also <?add topic='Helm'?> <?add topic='kubernetes'?>
