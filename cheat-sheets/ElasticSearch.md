@@ -24,6 +24,20 @@ Further introspection:
     PUT http://<server>:9200/<index name>
     DELETE http://<server>:9200/<index name>
 
+### Shard Allocation
+
+List unassigned shards
+
+    curl -s "<server>:9200/_cat/shards?v" | grep -E "UNASSIGNED|prirep"
+
+Get info when shards are not allocated
+
+    GET http://<server>:9200/_cluster/allocation/explain
+
+Retry allocation of shards (after retry limit reached)
+
+    GET http://<server>:9200/_cluster/reroute?retry_failed=true
+
 ### Documents
 
     GET http://<server>:9200/<index name>/external/1?pretty
