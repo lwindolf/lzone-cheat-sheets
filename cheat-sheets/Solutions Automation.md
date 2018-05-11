@@ -1,6 +1,8 @@
-See also
+See also <?add topic='Ansible'?>
+<?add topic='Chef'?>
+<?add topic='Puppet'?>
 
-### Classical Automation Tools
+## Classical Automation Tools
 
 | Framework | DSL | Push/Pull | CM | CM Encryption | Drift Management |Job Scheduling | Orchestration |
 |-----------|-----|-----------|----|---------------|------------------|---------------|---------------|
@@ -10,7 +12,7 @@ See also
 |[Chef](https://opscode.com)|Ruby|Push/Pull|[Builtin](https://docs.getchef.com/essentials_data_bags.html)|[Builtin](https://docs.getchef.com/essentials_data_bags.html#encrypt-a-data-bag-item)|-|[Pushy](https://www.getchef.com/blog/2013/12/16/getting-pushy-with-chef/), (knife plugin + ZeroMQ)|%|
 |[Saltstack](http://www.saltstack.com/community/)|Python|Push|Builtin|Builtin|?|[salt-run](https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html#orchestrate-runner)|Saltstack Enterprise|
 
-#### Smaller automation tools
+### Smaller automation tools
 
 -   [Bcfg2](http://trac.mcs.anl.gov/projects/bcfg2/): Alternative to
     puppet and cfengine by Argonne National Laboratory. (IMO out-dated)
@@ -33,7 +35,7 @@ Finally it is worth to check the [Wikipedia Comparison
 Chart](http://en.wikipedia.org/wiki/Comparison_of_open_source_configuration_management_software)
 for other less known and new tools!
 
-### Drift Management
+## Automation Drift Management
 
 - [ScriptRock Guard](https://www.scriptrock.com/)
 - for Puppet
@@ -41,7 +43,11 @@ for other less known and new tools!
    - Foreman
    - [Debian Policy Scanner](https://github.com/lwindolf/polscan)
 
-### Misc
+## Testing
+
+- [ServerSpec](https://serverspec.org/): RSpec for server configurations
+
+## Misc
 
 -   [Augeas](http://delicious.com/redirect?url=http%3A//packages.debian.org/wheezy/augeas-tools):
     Very flexible file editor to be used with Puppet or standalone.
