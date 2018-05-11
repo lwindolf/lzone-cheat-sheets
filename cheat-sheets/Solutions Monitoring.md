@@ -68,7 +68,7 @@ See also this
 - Scout
 - Sysdig Cloud
 
-#### External Website Monitoring
+## External Website Monitoring
 
 -   [gomez.com](http://www.gomez.com/) (now dynatrace)
 -   [yottaa.com](http://www.yottaa.com/)
@@ -77,11 +77,11 @@ See also this
 -   [Ruxit](https://ruxit.com/) (RUM)
 -   [uptrends.com](http://www.uptrends.com/)
 
-#### Status Page Hosting
+## Status Page Hosting
 
 -   [statuspage.io](https://www.statuspage.io)
 
-#### Event Correlation
+## Event Correlation
 
 -   [SEC - Simple Event
     Correlation](http://simple-evcorr.sourceforge.net)
