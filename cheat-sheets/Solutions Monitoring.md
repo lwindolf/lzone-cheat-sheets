@@ -1,6 +1,6 @@
-See also
+See also <?add topic="Monitoring"?>
 
-#### Alarming / Paging / SMS Notification
+## Alarming / Paging / SMS Notification
 
 All SaaS
 
@@ -11,12 +11,12 @@ All SaaS
 -   AlertOps
 -   iLert
 
-#### DNS, Ping
+## DNS, Ping
 
 -   [SmokePing - Monitoring network latency and
     loss](http://oss.oetiker.ch/smokeping/)
 
-#### Network Mapping
+## Network Mapping
 
 Mapping Solutions
 
@@ -33,7 +33,7 @@ Network Forensics
 -   [TNV: network visualizer](http://tnv.sourceforge.net/)
 -   [Netgrok](http://www.cs.umd.edu/projects/netgrok/)
 
-#### Host-based Service Monitoring
+## Host-based Service Monitoring
 
 Self-hosted:
 
@@ -56,17 +56,17 @@ APM](https://www.quora.com/What-are-the-affordable-alternatives-to-NewRelic)
 -   Ruxit
 -   Sysdig Cloud
 
-#### Docker/Kubernetes
+## Docker/Kubernetes
 
 See also this
 [review](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
 
--   Prometheus
--   InfluxDB
--   DataDog (SaaS)
--   Sensu
--   Scout
--   Sysdig Cloud
+- Prometheus
+- Hawkular
+- DataDog (SaaS)
+- Sensu
+- Scout
+- Sysdig Cloud
 
 #### External Website Monitoring
 
@@ -85,25 +85,3 @@ See also this
 
 -   [SEC - Simple Event
     Correlation](http://simple-evcorr.sourceforge.net)
-
-#### Tool / Service Support Matrix
-
-This is a list of good plugins per service and monitoring solution
-
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                Munin                                                                                                               Graphite                                                                Other
-  ------------- ------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ------------------------------------------------------------------------
-  Apache        built-in                                                                                                            built-in                                                                 
-
-  Couchbase     ?                                                                                                                   [couchbase\_collector](https://github.com/zooldk/couchbase_collector)   Couchbase itself
-
-  Node.js       [nodejs-munin\                                                                                                      [node-graphite](https://github.com/felixge/node-graphite)               [Joyent Cloud Analytics](https://github.com/etsy/statsd) (Saas)\
-                 Request Count Monitoring](https://github.com/benbuckman/nodejs-munin)                                                                                                                       [Etsy statsd\
-                                                                                                                                                                                                             Appdynamics nodejs-monitoring](https://github.com/etsy/statsd) (SaaS)
-
-  Node.js PM2   %                                                                                                                   ?                                                                       [Keymetrics](https://app.keymetrics.io/#/register) (SaaS)
-
-  Tomcat        [Munin contrib - jstat\_\_heap](https://github.com/munin-monitoring/contrib/blob/master/plugins/java/jstat__heap)   ?                                                                        
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
