@@ -77,4 +77,12 @@ List CPAN installed modules
 
         lwp-request https://example.com/api-endpoint | perl -MJSON::XS -MData::DPath=dpath -E 'say join(",", dpath("//status")->match(decode_json(join("",<STDIN>))))'
 
+## Debugging
 
+nyprof is a good debugger that supports flame graphs and a very useful static HTML client. To create HTML from a trace
+
+    nytprofhtml --file trace.out --open trace.out --out result
+
+To run CGIs with ad-hoc request parameters
+
+    QUERY_STRING='<some query>' REQUEST_METHOD=GET REMOTE_USER=<user> perl -d:NYTProf <cgi script>
