@@ -75,6 +75,7 @@ Alternatives to avoid tracking users by IP:
 - Completely remove IPs: Replace %h in you LogFormat with "-", this ensures all log reading tools can still parse the logs
 - Use a piped CustomLog and replace the IP ad-hoc
 - Replace the IPs during log rotation
+- Truncate the IP using rewrite rules, by extracting all but the last octect of the IP using RewriteCond regex and overwrite REMOTE_ADDR with the last octect set to 0 (see (StackOverflow)[https://stackoverflow.com/questions/19452624/apply-a-mask-to-ip-with-logformat])
 
 ## Mitigating security issues
 
