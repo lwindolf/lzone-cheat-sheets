@@ -77,7 +77,10 @@ Suggestion from 22.5.2015 by
 
 ## Data Privacy
 
-- (Mask IP Addresses to be more GDPR compliant)[https://www.nginx.com/blog/data-masking-user-privacy-nginscript/], deterministically replace IPs with same but anonymous value using JS plugin
+Alternatives to avoid tracking users by IP to be more GDPR compliant: 
+
+- (Mask IP Addresses)[https://www.nginx.com/blog/data-masking-user-privacy-nginscript/], deterministically replace IPs with same but anonymous value using JS plugin
+- (Match all but the last octect of $remote_addr with regex)[https://stackoverflow.com/questions/6477239/anonymize-ip-logging-in-nginx] and insert variable in custom log_format 
 
 ## Enabling Features
 
