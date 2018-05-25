@@ -79,9 +79,24 @@ Suggestion from 22.5.2015 by
 
 Alternatives to avoid tracking users by IP to be more GDPR compliant: 
 
-- (Mask IP Addresses)[https://www.nginx.com/blog/data-masking-user-privacy-nginscript/], deterministically replace IPs with same but anonymous value using JS plugin
-- (Match all but the last octect of $remote_addr with regex)[https://stackoverflow.com/questions/6477239/anonymize-ip-logging-in-nginx] and insert variable in custom log_format 
+- [Mask IP Addresses](https://www.nginx.com/blog/data-masking-user-privacy-nginscript/), deterministically replace IPs with same but anonymous value using JS plugin
+- [Match all but the last octect of $remote_addr with regex](https://stackoverflow.com/questions/6477239/anonymize-ip-logging-in-nginx) and insert variable in custom log_format 
 
+      # Note: add another/extend regex for IPv6
+      if ($remote_addr ~ (\d+).(\d+).(\d+).(\d+)) {
+         set $truncated_ip $1.$2.0.1;
+      }
+      log_format  main  '[$time_local] $truncated_ip "$request" $status $body_bytes_sent $request_time "$http_referer" "$http_user_agent"';
+      
+- Starting with nginx 1.11 [use "map" to apply regex patterns and extract the result](https://stackoverflow.com/questions/6477239/anonymize-ip-logging-in-nginx)
+
+      map $remote_addr $truncated_ip {
+         ~(?P<ip>\d+\.\d+\.\d+)\.    $ip.0;
+         ~(?P<ip>[^:]+:[^:]+):       $ip::;
+         default                     0.0.0.0;
+      }
+      log_format  main  '[$time_local] $truncated_ip "$request" $status $body_bytes_sent $request_time "$http_referer" "$http_user_agent"';
+      
 ## Enabling Features
 
 ### FPC with memcached
