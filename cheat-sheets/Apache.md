@@ -24,8 +24,8 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
         RewriteRule .* - [E=PROXY_USER:%{LA-U:REMOTE_USER}]
 
-- (Injecting cookies with RewriteRule and CO flag](https://wiki.apache.org/httpd/RewriteFlags/CO) 
-- (Get X-Forwarded-For IPs in log](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)
+- [Injecting cookies with RewriteRule and CO flag](https://wiki.apache.org/httpd/RewriteFlags/CO) 
+- [Get X-Forwarded-For IPs in log](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)
 
       # Define a LogFormat printing X-Forwaded-For IPs
       LogFormat "%{X-Forwarded-For}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" proxy
