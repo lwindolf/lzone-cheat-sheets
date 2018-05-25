@@ -87,8 +87,11 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 Alternatives to avoid tracking users by IP:
 
 - Completely remove IPs: Replace %h in you LogFormat with "-", this ensures all log reading tools can still parse the logs
+- Truncate/replace the IPs during log rotation. Here is a simple IPv4 only example with sed
 - Use a piped CustomLog and replace the IP ad-hoc
-- Replace the IPs during log rotation
+
+      CustomLog "|$/bin/sed 's/^\([^.]*\.[^.]*\.[^.]*\.\)[0-9][0-9]* \(.*\)$/\1.0 \2/' >>logs/access_log" truncated_ip
+
 - Truncate the IP using rewrite rules, by extracting all but the last octect of the IP using RewriteCond regex and save  the result with the last octect set to 0 in an env variable in a RewriteRule, finally use the env variable in the LogFormat (see (StackOverflow)[https://stackoverflow.com/questions/19452624/apply-a-mask-to-ip-with-logformat])
 
       # Note: also needs a IPv6 pattern
