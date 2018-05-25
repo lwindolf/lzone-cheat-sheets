@@ -93,7 +93,8 @@ Alternatives to avoid tracking users by IP:
 
       # Note: also needs a IPv6 pattern
       RewriteCond %{REMOTE_ADDR} ^(\d+\.\d+\.\d+\.)\d+$
-      RewriteRule 
+      RewriteRule "^/.*" "/$1" [E=truncated_ip:%1]
+      LogFormat "%{ENV:truncated_ip} %l %u %t \"%r\" %>s %b ..." truncated_ip
 
 ## Mitigating security issues
 
