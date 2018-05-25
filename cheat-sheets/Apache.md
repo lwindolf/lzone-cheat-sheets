@@ -1,6 +1,6 @@
 See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
-### Misc
+## Misc
 
 -   [Apache vs. Lighttpd Rewrite Rules](/articles/rewrite-migrate.htm):
     How to migrate.
@@ -38,13 +38,13 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
         SetEnv VARNAME somevalue
 
-#### Authentication
+### Authentication
 
 -   Skip authentication for certain URIs
 
         Require expr %{REQUEST_URI} =~ m#<some pattern>#
 
-#### Log Rotation
+### Log Rotation
 
 -   Pipe CustomLog to a script:
 
@@ -68,18 +68,26 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
     evaluated all the time so that over time cronolog writes into
     different files according to your pattern.
 
-### Mitigation
+## Data Privacy
 
-#### Hide Server Name
+Alternatives to avoid tracking users by IP:
+
+- Completely remove IPs: Replace %h in you LogFormat with "-", this ensures all log reading tools can still parse the logs
+- Use a piped CustomLog and replace the IP ad-hoc
+- Replace the IPs during log rotation
+
+## Mitigating security issues
+
+### Hide Server Name
 
     ServerSignature Off
     ServerTokens Prod
 
-#### Disable SSLv2 and SSLv3
+### Disable SSLv2 and SSLv3
 
     SSLProtocol all -SSLv2 -SSLv3
 
-#### DH downgrade
+### DH downgrade
 
 Create a unique DH group
 
@@ -91,7 +99,7 @@ and load it from Apache config
 
 finally load [sane ciphers](#Sane%20Ciphers).
 
-#### Sane Ciphers
+### Sane Ciphers
 
 Suggestion from 22.5.2015 by
 [weakdh.org](https://weakdh.org/sysadmin.html):
