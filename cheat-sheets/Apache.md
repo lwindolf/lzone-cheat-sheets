@@ -24,6 +24,19 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 
         RewriteRule .* - [E=PROXY_USER:%{LA-U:REMOTE_USER}]
 
+- (Injecting cookies with RewriteRule and CO flag](https://wiki.apache.org/httpd/RewriteFlags/CO) 
+- (Get X-Forwarded-For IPs in log](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)
+
+      # Define a LogFormat printing X-Forwaded-For IPs
+      LogFormat "%{X-Forwarded-For}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" proxy
+      
+      # Check if the header is set to an IP
+      SetEnvIf X-Forwarded-For "^.*\..*\..*\..*" forwarded
+      
+      # Depending on the check flag 'forwarded' switch between standard and XFF LogFormat
+      CustomLog "logs/access_log" combined env=!forwarded
+      CustomLog "logs/access_log" proxy env=forwarded
+
 -   [Exception
     Hook](http://people.apache.org/~trawick/exception_hook.html): Since
     2.0.49 Apache has an exception hook to handle crashes.
@@ -37,6 +50,7 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 -   environment variables via .htaccess:
 
         SetEnv VARNAME somevalue
+        
 
 ### Authentication
 
@@ -75,7 +89,11 @@ Alternatives to avoid tracking users by IP:
 - Completely remove IPs: Replace %h in you LogFormat with "-", this ensures all log reading tools can still parse the logs
 - Use a piped CustomLog and replace the IP ad-hoc
 - Replace the IPs during log rotation
-- Truncate the IP using rewrite rules, by extracting all but the last octect of the IP using RewriteCond regex and overwrite REMOTE_ADDR with the last octect set to 0 (see (StackOverflow)[https://stackoverflow.com/questions/19452624/apply-a-mask-to-ip-with-logformat])
+- Truncate the IP using rewrite rules, by extracting all but the last octect of the IP using RewriteCond regex and save  the result with the last octect set to 0 in an env variable in a RewriteRule, finally use the env variable in the LogFormat (see (StackOverflow)[https://stackoverflow.com/questions/19452624/apply-a-mask-to-ip-with-logformat])
+
+      # Note: also needs a IPv6 pattern
+      RewriteCond %{REMOTE_ADDR} ^(\d+\.\d+\.\d+\.)\d+$
+      RewriteRule 
 
 ## Mitigating security issues
 
