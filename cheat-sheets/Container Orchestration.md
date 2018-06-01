@@ -41,6 +41,7 @@ See also <?add topic='Openshift'?>
 
 See also <?add topic='Helm'?> <?add topic='kubernetes'?>
 
+- [komposer](http://kompose.io/) (Docker Compose for kubernetes and Openshift)
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
 - Helmsman (Helm based cluster manager)
