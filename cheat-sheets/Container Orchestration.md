@@ -37,6 +37,7 @@ See also <?add topic='Helm'?> <?add topic='kubernetes'?>
 - Helm (recipe repo manager, upstream chart repo)
 - Helmsman (Helm based cluster manager)
 - [Armada](http://armada-helm.readthedocs.io/en/latest/readme.html) (Helm based central configuration, including lifecycle hooks)
+- [Landscaper](https://github.com/Eneco/landscaper) (Helm charts based resource definition)
 - Terraform official kubernetes provider (only a few resource types, missing Deployments/Routes/...)
 - Terraform 3rd party kubernetes providers... (FIXME: resource provider)
 - [Exekube](https://github.com/exekube/exekube) (projects mapped using terraform+helm)
