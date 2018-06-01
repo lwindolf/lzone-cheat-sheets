@@ -12,10 +12,11 @@ See also <?add topic='kubernetes'?>
 
 ## Container Source To Image Solutions / CaaS
 
-- Integrated Products
+Integrated Products:
   - Cloud Foundry
   - Openshift
-- Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948)
+
+Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948):
   - Draft
   - Gitkube
   - Helm
