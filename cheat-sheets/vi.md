@@ -39,18 +39,18 @@ vi &lt;file&gt; +&lt;line nr&gt;</pre>
 			<td>
 			Enable them in ~/.vimrc with
 
-    :set modelines
+<pre>:set modelines</pre>
 
 Examples:
 
-    &lt;!-- vim: set ts=4 sw=4: --&gt;
-    // vim: noai:ts=4:sw=4
-    /* vim: set noai ts=4 sw=4: */
-    \# vim: set expandtab:</pre>
+<pre>&lt;!-- vim: set ts=4 sw=4: --&gt;
+// vim: noai:ts=4:sw=4
+/* vim: set noai ts=4 sw=4: */
+# vim: set expandtab:</pre>
 
 To re-indent all press
 
-    gg=G
+<pre>gg=G</pre>
 
 More hints: <a href="http://vim.wikia.com/wiki/Modeline_magic">http://vim.wikia.com/wiki/Modeline_magic</a>
 			</td>
