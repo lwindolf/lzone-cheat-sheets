@@ -23,6 +23,28 @@ Further introspection:
     GET http://<server>:9200/<index name>?pretty
     PUT http://<server>:9200/<index name>
     DELETE http://<server>:9200/<index name>
+    
+[Copying indices using "reindex"](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/docs-reindex.html#reindex-from-remote): It is possible to copy indices partially/fully from local as well as from remote indices:
+
+    POST _reindex
+    {
+      "source": {
+        "remote": {
+          "host": "http://otherhost:9200",
+          "username": "user",
+          "password": "pass"
+        },
+        "index": "source",
+        "query": {
+          "match": {
+            "test": "data"
+          }
+        }
+      },
+      "dest": {
+        "index": "dest"
+      }
+    }
 
 ### Shard Allocation
 
