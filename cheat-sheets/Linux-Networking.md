@@ -2,6 +2,23 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
 
 ### Basics
 
+-   netcat Commands
+
+        nc -l -p <port>       # Listen on port
+        nc -w3 <ip> <port>  # Listen for connection from IP on port
+
+        # Search banners
+        echo | nc -v -n -w1 <ip> <port min>-<port max>
+
+        # Port scan
+        nc –v –n –z –w1 <ip> <port min>-<port max>
+
+-   [paketlife.net cheet
+    sheets](http://packetlife.net/library/cheat-sheets/) for all network
+    protocols (PDFs)
+
+### DNS
+
 -   Resolve a name via nsswitch
 
         getent hosts <host name>
@@ -23,23 +40,6 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
 
         dig -f input.txt +noall +answer
 
--   netcat Commands
-
-        nc -l -p <port>       # Listen on port
-        nc -w3 <ip> <port>  # Listen for connection from IP on port
-
-        # Search banners
-        echo | nc -v -n -w1 <ip> <port min>-<port max>
-
-        # Port scan
-        nc –v –n –z –w1 <ip> <port min>-<port max>
-
--   [paketlife.net cheet
-    sheets](http://packetlife.net/library/cheat-sheets/) for all network
-    protocols (PDFs)
-
-### DNS
-
 - DNS RR - warpsrv: CLI wrapper for DNS RR connections
 
         apt-get install -y wrapsrv netcat
@@ -53,6 +53,11 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
   - NSD
   - ldns
 
+- DNS over HTTPS resolvers
+  - [stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
+  - [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/)
+  - [nss-tls](https://github.com/dimkr/nss-tls)
+  
 
 ### Configuration
 
