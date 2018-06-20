@@ -1,7 +1,7 @@
 The following gives a quick overview on the different GlusterFS
 administration tools.
 
-### Add/Remove Peers
+## Add/Remove Peers
 
     # Add peer
     gluster peer probe <host name>
@@ -9,17 +9,17 @@ administration tools.
     # Remove peer
     gluster peer detach <host name>
 
-### Print Cluster Status
+## Print Cluster Status
 
 You can list the status of all known peers by running.
 
     gluster peer status
 
-### Print all GlusterFS Volumes
+## Print all GlusterFS Volumes
 
     gluster volume info all
 
-### Mounting Volumes
+## Mounting Volumes
 
 You can do standard Unix mounting
 
@@ -33,7 +33,7 @@ So the volume info file doesn't need to be on the volume servers. Also
 remember as with NFS consider noatime mount options when you have many
 small files accessed often.
 
-#### Problems on Ubuntu 12.04
+### Problems on Ubuntu 12.04
 
 When adding GlusterFS share to /etc/fstab do not forget to add
 "\_netdev" to the mount options. Otherwise on next boot your system will
@@ -46,31 +46,30 @@ As a side-note: do not forget that Ubuntu 12.04 doesn't care about the
 an additional upstart task or init script is needed anyway. But you need
 "\_netdev" to prevent hanging on boot.
 
-### Monitoring Using Nagios
+## Monitoring
+### Nagios
 
 Best use the glfs-health.sh script from
 [http://www.sirgroane.net/2010/04/monitoring-gluster-with-nagios/](http://www.sirgroane.net/2010/04/monitoring-gluster-with-nagios/)
 but you can also write a Nagios check just based on the GlusterFS
 reported cluster status you get from "gluster peer info".
 
-### Monitoring Using Munin
+### Munin
 
 You can enable monitoring using Munin for example to track protocol
 command statistics with this Munin plugin
 [https://github.com/acrollet/munin-glusterfs](https://github.com/acrollet/munin-glusterfs).
 
-### Healing Split Brain
+## Healing Split Brain
 
 Check a helper Python script from here:
 [http://www.gluster.org/2012/06/healing-split-brain/](http://www.gluster.org/2012/06/healing-split-brain/)
 
-### Suggested Readings
+## Suggested Readings
 
 To learn more on GlusterFS ensure to read the [Gluster File System
 Administration
 Guide](http://www.gluster.org/wp-content/uploads/2012/05/Gluster_File_System-3.3.0-Administration_Guide-en-US.pdf)
 (PDF) from the official website. You might also want to check out the
-GlusterFS chapter in [OpenStack Cloud Computing Cookbook - Second
-Edition](http://www.amazon.com/gp/product/1782167587/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1782167587&linkCode=as2&tag=lz08-20&linkId=RMAWEB42R32AHRPH)![](http://ir-na.amazon-adsystem.com/e/ir?t=lz08-20&l=as2&o=1&a=1782167587).
 
-![](http://wms-na.amazon-adsystem.com/20070822/US/img/noscript.gif?tag=lz08-20&linkId=S7Z5GFOHG5V6HSFJ)
+
