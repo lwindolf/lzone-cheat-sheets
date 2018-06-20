@@ -57,3 +57,6 @@
 
 - [Web Caching with Kubernetes](https://github.com/Financial-Times?utf8=%E2%9C%93&q=varnish)
 - [MongoDB Replicas as Stateful Sets in GKE](https://pauldone.blogspot.de/2017/06/deploying-mongodb-on-kubernetes-gke25.html)
+- Operators
+   - [Kafka](https://github.com/strimzi/strimzi-kafka-operator)
+   - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
