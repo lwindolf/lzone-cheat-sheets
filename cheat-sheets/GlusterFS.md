@@ -19,6 +19,10 @@ You can list the status of all known peers by running.
 
     gluster volume info all
 
+## Check free space per Node
+
+    gluster volume status <volume> detail
+
 ## Mounting Volumes
 
 You can do standard Unix mounting
