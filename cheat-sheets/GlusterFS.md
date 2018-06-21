@@ -67,7 +67,8 @@ Check a helper Python script from here:
 
 ## Suggested Readings
 
-To learn more on GlusterFS ensure to read the [Gluster File System
+- [Migrate existing data](https://rosenha.in/blog/2016/10/migrating-to-gluster-with-existing-data/)
+- To learn more on GlusterFS ensure to read the [Gluster File System
 Administration
 Guide](http://www.gluster.org/wp-content/uploads/2012/05/Gluster_File_System-3.3.0-Administration_Guide-en-US.pdf)
 (PDF) from the official website. You might also want to check out the
