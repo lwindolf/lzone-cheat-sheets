@@ -1,4 +1,4 @@
-### CLI Commands for Kafka Topics
+## CLI Commands for Kafka Topics
 
 List existing topics
 
@@ -16,7 +16,7 @@ Try to write to a topic on one or more brokers
 
     echo "Test data" | /usr/bin/kafka-console-producer --broker-list <broker1 host:port>,<broker2 host:port> --topic <name>
 
-### Checking Kafka Consumers
+## Checking Kafka Consumers
 
 Show consumer group configuration
 
@@ -25,3 +25,8 @@ Show consumer group configuration
 To read messages read/written including lag per consumer in a consumer group
 
     /usr/bin/kafka-consumer-offset-checker --group <group name> --topic <name> --zookeeper <zookeeper host:port>
+
+
+## Syslog to Kafka
+
+- Using rsyslog: https://www.drivenbycode.com/how-truecar-uses-kafka-for-high-volume-logging-part-2/
