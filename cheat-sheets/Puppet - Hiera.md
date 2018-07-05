@@ -12,6 +12,22 @@ On Puppet master:
     # To dump complex data
     hiera -a <array key>
     hiera -h <hash key>
+    
+## Escaping Hiera Literals
+
+When passing string in Hiera you can use Hiera/Puppet functions with %{}
+
+    key: "value %{lookup('something')}"
+    
+If you actually need a "%{" literal you should use the function "literal" to insert it. So instead of writing
+
+    time_format: "%{YYYY-MM-dd}"
+    
+write
+
+    time_format: "%{literal('%')}{YYYY-MM-dd}"
+
+Effectively replace each occurence of '%' with %{literal('%')}
 
 ## Encryption with eyaml
 
