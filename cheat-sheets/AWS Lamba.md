@@ -15,6 +15,10 @@ in this case add a "--system" switch to your call, e.g.
 
     pip install <module name> --system -t <package path>
 
+## Import/Export
+
+Import is possible in the code editor (File menu). Export is possible via the global "Actions" menu.
+
 ## Misc
 
 - [Lambkin](https://github.com/jarpy/lambkin): CLI helper for creating and uploading lambdas
