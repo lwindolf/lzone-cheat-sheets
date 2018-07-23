@@ -1,3 +1,23 @@
+### Repacking
+
+#### Extracting Audio Stream
+
+Combine "-vn" (for no video) with "-acodec copy". Note that the output file 
+extension must match the audio codec in the input file for "-acodec copy" to
+work.
+
+    ffmpeg -i file.mp4 -vn -acodec copy output.aac 
+
+#### Resample/Convert Audio
+
+    ffmpeg -i file.aac -acodec mp3 -ar 44100 -ab 128000 output.mp3
+
+#### Switching Containers
+
+Change container from MKV to MP4
+
+    ffmpeg -i file.mkv -acodec copy -vcodec copy file.mp4
+
 ### Codec Issues
 
 AAC: "channel element not allocated"
