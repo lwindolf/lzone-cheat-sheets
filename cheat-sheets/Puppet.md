@@ -2,11 +2,11 @@ See also <?add topic='Mcollective'?> <?add topic='Puppet - Hiera'?>
 
 ### Puppet CLI
 
--   Bootstrap client
+- Bootstrap client
 
         puppet agent -t --server <puppet master> [<options>]
 
--   Display facts:
+- Display facts:
 
         facter              # All system facts
         facter -p           # All system and Puppet facts
@@ -19,6 +19,10 @@ See also <?add topic='Mcollective'?> <?add topic='Puppet - Hiera'?>
         facter memoryfree
         facter is_virtual processor0
 
+- Injecting Facts:
+
+      env FACTER_<fact name>=<fact value> puppet apply site.pp
+     
 -   Find out effective classes on a node
 
         cat /var/lib/puppet/classes.txt
