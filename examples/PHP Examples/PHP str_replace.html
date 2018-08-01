@@ -1,0 +1,40 @@
+<h3>Syntax</h3>
+
+<pre>$result = str_replace ($pattern, $replacement, $string);</pre>
+
+For case-insensitive replacement:
+
+<pre>$result = str_ireplace ($pattern, $replacement, $string);</pre>
+
+<h3>Multiple Replacements</h3>
+
+If you have a list of replacements you can perform it like this
+
+<pre>
+$pattern      = array('ä', 'ü', 'ö');
+$replacements = array('&amp;auml;', '&amp;uuml;', '&amp;ouml;');
+
+$result = str_replace($pattern, $replacements, $string);
+</pre>
+
+<h3>Count Replacements</h3>
+
+To get the number of substitutions pass a 4th call by reference
+parameter:
+
+<pre>$result = str_replace($pattern, $replacement, $string, $count);</pre>
+
+<h3>Alternative Methods</h3>
+
+As str_replace doesn't suit all use cases you sometimes have to
+switch to other PHP methods:
+
+<ul>
+<li>Matching with regex: see <?add topic='PHP preg_replace'?></li>
+<li>Limit to n substitutions: <ul>
+	<li><?add topic='PHP preg_replace'?></li>
+	<li><?add topic='PHP explode'?> + <?add topic='PHP implode'?></li>
+	<li>strpos + substr_replace</li>
+</ul></li>
+</ul>
+

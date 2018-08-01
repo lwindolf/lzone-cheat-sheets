@@ -1,0 +1,50 @@
+<h3>Syntax of ini_set()</h3>
+
+The <a href="http://php.net/manual/en/function.ini-set.php">ini_set() syntax</a> is simple:
+
+<pre class="brush:php">string ini_set ( string $varname , string $newvalue )</pre>
+
+it is just a key value setter. The important question is <b>which</b> values can be set. Below you find a list of working examples. Please note that you cannot change all php.ini options especially those that need to be set before PHP initializes.
+
+<h3>Useful Working ini_set() Examples</h3>
+
+<h4>1. Enabling error display</h4>
+
+On production sites you typically do not show errors in the page for usability and security reasons. But when you when you debug something live you might want to enable it temporarily and just for you:
+
+<pre class="brush:php">
+# Assuming 5.44.33.22 is your IP...
+if ( $_SERVER["REMOTE_ADDR"] == "5.44.33.22") {
+    ini_set('display_errors', '1');
+}
+</pre>
+
+Note: you may want to combine this with
+
+<pre class="brush:php">error_reporting(E_ALL | E_STRICT);</pre>
+
+<h4>2. Changing Memory Limit</h4>
+
+When you need to increase memory from within the code:
+
+<pre class="brush:php">ini_set("memory_limit","1000M");</pre>
+
+Note though that this might be prevent by a Suhosin hardended PHP installation.
+
+<h4>3. Adding include paths</h4>
+
+Normally this shouldn't be necessary. It is way cleaner to do it in php.ini, but if you bundle libraries and you administrator doesn't know:
+
+<pre class="brush:php">&lt;?php ini_set('include_path',ini_get('include_path').':../my-libs:');  ?></pre>
+
+<h3>When You Cannot Use ini_set()</h3>
+
+For most php.ini settings you can't use ini_set(). To workaround consider deploying a .htaccess along with your code as this .htaccess can provide all PHP options to overwrite the default php.ini settings.
+
+For example to change the HTTP POST limit add this line to a .htaccess read by your webserver:
+
+<pre>php_value post_max_size 2500000</pre>
+
+Note how the "php_value" prefix indicates settings for PHP. So simple syntax is
+
+<pre>php_value &lt;key name> &lt;value></pre>

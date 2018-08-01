@@ -1,0 +1,47 @@
+See also <?add topic='Nodejs'?>
+
+<h2>Generate Express project</h2>
+
+<pre>
+npm install express-generator -g
+
+express <name>        # Create boiler plate
+</pre>
+
+<h2>Enabling CORS in Express</h2>
+
+To set CORS headers add an app.use() block like this
+
+<pre>
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', 'http://server:8080');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
+</pre>
+
+<h2>Debugging Express Applications</h2>
+
+Ensure to install the 'debug' module
+
+<pre>npm install debug</pre>
+
+And the run with debugging enabled by setting the DEBUG environment variable like this
+
+<pre>DEBUG=express:* node index.js
+DEBUG=http,mail,express:* node index.js
+
+DEBUG=&lt;app name>  node ./bin/www
+
+DEBUG_FD=3 node index.js 3> logfile</pre>
+
+Debugging code would look like
+
+<pre>
+    d = debug('http:instance1');
+
+    d('Some logged event');
+    d('Another logged event');
+</pre>

@@ -1,0 +1,21 @@
+<h3>Creating Go Channels</h3>
+
+Channels in Golang are like Unix pipes. Create channels using 'make()' and the 'chan' keyword by passing the data type
+
+<pre>my_pipe := make(chan string)</pre>
+
+<h3>Reading from Go Channels</h3>
+
+To read from a Go channel use the "&lt;-" operator
+
+<pre>value := <-my_pipe</pre>
+
+<h3>Writing to Go Channels</h3>
+
+To write to a Go channel use "write()"
+
+<pre>write(my_pipe, 1000)</pre>
+
+<h3>Don't write on closed channels</h3>
+
+When you write on a closed channels you will trigger an error!

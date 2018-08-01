@@ -1,0 +1,46 @@
+Use stripos() to do case insensitive substring matching in PHP.
+When using stripos() ensure to do the comparison the right way.
+
+<h2>Important: Use Correct Comparsion Operator!</h3>
+
+Only ever compare with the identical operators "===" , "!==" and only ever compare with false
+
+<h3>Postive match</h3>
+<pre>
+if (stripos($str, $substr) !== false) {
+     echo("Does match!")
+}
+</pre>
+
+<h3>Negative match</h3>
+<pre>
+if (stripos($str, $substr) === false) {
+     echo("Does not match.")
+}
+</pre>
+
+Check out <?add topic='PHP strpos'?> for more details
+
+<h3>Search From Offset</h3>
+
+If you want to continue a search or want to skip something at the start use an offset as third parameter:
+
+<pre>if (stripos($str, $substr, 5) === false) {</pre>
+
+By using the return value of strpos() you can do repeated searches:
+
+<pre>$pos1 = stripos($str, $substr);
+$pos2 = stripos($str, $substr, $pos1 + strlen($pos1));
+</pre>
+
+<h3>Search Backwards</h3>
+
+For backwards searching there is another special method strripos() with the same signature:
+
+<pre>
+if (strripos($str, $substr) === false) {
+     echo("Does not match.")
+}
+</pre>
+
+

@@ -1,0 +1,117 @@
+Use preg_match() to match strings with regular expressions. Check
+the return value for true to see if the expression did match.
+
+<h2>1. Syntax of preg_match</h2>
+
+While full syntax is
+
+<pre class="brush:php">int preg_match ( string $pattern , string $subject 
+     [, array &$matches [, int $flags = 0 [, int $offset = 0 ]]] )</pre>
+
+you propably will use preg_match() mostly with two parameters for simply matching checks or with three to extract matches. 
+
+You probably won't use the 4th and 5th parameter which can be used to return match offsets and limit matching to a given offset in the string.
+
+<h2>2. Simple String Checks</h2>
+
+Here are some syntax examples that check strings for certain content:
+
+<b>Basic matching</b>
+<pre class="brush:php">
+preg_match("/PHP/", "PHP")       # Match for an unbound literal
+preg_match("/^PHP/", "PHP")      # Match literal at start of string
+preg_match("/PHP$/", "PHP")      # Match literal at end of string
+preg_match("/^PHP$/", "PHP")     # Match for exact string content
+preg_match("/^$/", "")           # Match empty string
+</pre>
+<b>Using different regex delimiters</b>
+<pre class="brush:php">
+preg_match("/PHP/", "PHP")                # / as commonly used delimiter
+preg_match("@PHP@", "PHP")                # @ as delimiter
+preg_match("!PHP!", "PHP")                # ! as delimiter
+</pre>
+<b>Changing the delimiter becomes useful in some cases</b>
+<pre class="brush:php">
+preg_match("/http:\/\//", "http://");     # match http:// protocol prefix with / delimiter
+preg_match("#http://#",   "http://")      # match http:// protocol prefix with # delimiter
+</pre>
+<b>Case sensitivity</b>
+<pre class="brush:php">
+preg_match("/PHP/", "PHP")                # case sensitive string matching
+preg_match("/php/i", "PHP")               # case in-sensitive string matching
+</pre>
+<b>Matching with wildcards</b>
+<pre class="brush:php">
+preg_match("/P.P/",     "PHP")            # match a single character
+preg_match("/P.*P/",    "PHP")            # match multipe characters
+preg_match("/P[A-Z]P/", "PHP")            # match from character range A-Z
+preg_match("/[PH]*/",   "PHP")            # match from character set P and H
+preg_match("/P\wP/",    "PHP")            # match one word character
+preg_match("/\bPHP\b/", "regex in PHP")   # match the word "PHP", but not "PHP" as larger string
+</pre>
+<b>Using quantifiers</b>
+<pre class="brush:php">
+preg_match("/[PH]{3}/",   "PHP")          # match exactly 3 characters from set [PH]
+preg_match("/[PH]{3,3}/", "PHP")          # match exactly 3 characters from set [PH]
+preg_match("/[PH]{,3}/",  "PHP")          # match at most 3 characters from set [PH]
+preg_match("/[PH]{3,}/",  "PHP")          # match at least 3 characters from set [PH]
+</pre>
+
+<h2>3. Extracting Data</h2>
+
+To extract data using regular expression we have to use capture/grouping syntax. 
+
+<p>Some basic examples</p>
+
+<pre class="brush:php">
+# Extract everything after the literal "START"
+preg_match("/START(.*)/", $string, $results)   
+
+# Extract the number from a date string 
+preg_match("/(\d{4})-(\d{2})-(\d{2})/", "2012-10-20", $results)
+
+# Nesting of capture groups, extract full name, and both parts...
+preg_match("/name is ((\w+), (\w+))/", "name is Doe, John", $results)
+</pre>
+
+So you basically just enclose the sub patterns you want to extract with braces and fetch the results by passing a third parameter which preg_match() will fill as an array.
+
+<p>Named Capture Groups</p>
+
+<pre class="brush:php">
+# Extract the number from a date string 
+preg_match("/(?P&lt;year>\d{4})-(?P&lt;month>\d{2})-(?P&lt;day>\d{2})/", "2012-10-20", $results)
+</pre>
+
+Now the $result array will additionally to the position matches 1, 2 and 3 contain the keys "year", "month" and "day". The advantage is never having to think of the capture positions anymore when you modify the expression!
+
+<h2>4. Check Processing Errors!</h2>
+
+While it might often be unimportant be aware that applying a regular expression might fail due to <a href="http://www.php.net/manual/en/function.preg-last-error.php">PCRE constraints</a>. This usually happens when matching overly long strings or strings with faulty encoding.
+
+The only way to notice that preg_match() was not able to check the string is by calling
+
+<pre class="brush:php">preg_last_error()</pre>
+
+Only if it returns PREG_NO_ERROR you got a safe result! Consider this when using preg_match() for security purposes.
+
+<hr/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Top Memcache -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3885525830723411"
+     data-ad-slot="4912570252"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr/>
+
+
+<h2>5. Suggested Reading</h2>
+
+<a href="https://www.amazon.de/Regular-Expression-Pocket-Reference-Expressions/dp/0596514271/ref=as_li_ss_il?s=books-intl-de&ie=UTF8&qid=1509402246&sr=1-1&keywords=php+regular+expressions&linkCode=li3&tag=lzone04-21&linkId=ef88a1018bc76512ceded94172f603e0" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0596514271&Format=_SL250_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=lzone04-21" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=lzone04-21&l=li3&o=3&a=0596514271" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="https://www.amazon.de/PHP-Pocket-Reference-your-pocket/dp/1491969091/ref=as_li_ss_il?s=books-intl-de&ie=UTF8&qid=1509402246&sr=1-5&keywords=php+regular+expressions&linkCode=li3&tag=lzone04-21&linkId=b19a6d2b9e501a2db36770b028ed72dc" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1491969091&Format=_SL250_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=lzone04-21" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=lzone04-21&l=li3&o=3&a=1491969091" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<?youtube,5lGyFE-UFfA,Learn how to use pgreg_match()?>
+<?youtube,6pqhDjQKWng,Demystifying Regular Expressions?>

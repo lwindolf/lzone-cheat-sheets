@@ -1,0 +1,22 @@
+<h3>Syntax</h3>
+
+Use implode() in one of the following syntax variants with $delimiter being the separator string.
+
+<pre>$array = explode($delimiter, $string);
+$array = explode($delimiter, $string, $limit);
+</pre>
+
+<h3>Simple Examples</h3>
+
+<pre>$fields = explode(',', $csv);
+$lines = implode('\n', $text);
+</pre>
+
+<h3>Advanced Usage</h3>
+
+explode() is often used in conjuction with <a href="PHP implode">implode()</a> to do something really useful.
+
+<pre>
+# Replace separator ';' with ','
+$result = implode(',', explode(';', $input));
+</pre>

@@ -1,0 +1,65 @@
+<p>See also <?add topic='Python re.sub'?></p>
+
+<b>Note that re.match() matches from the start of the string. Use re.search() when you want to match anywhere in a string.</b>
+
+<ul>
+<li>Use re.search() if you want to search anywhere inside a string</li>
+<li>Use <a href='Python re.sub'>re.sub()</a> if you want to substitute substrings.</li>
+<li>Use re.split() if you want to extract fields when you have a common field separator.</li>
+</ul>
+
+<h3>Syntax</h3>
+
+<h4>Ad-hoc match</h4>
+
+<pre class="brush:python">
+import re
+
+result = re.match(pattern, string, flags=0);
+</pre>
+
+<h4>Pre-compiled pattern</h4>
+
+Use this if you use a pattern multiple times.
+
+<pre class="brush:python">
+import re
+
+pattern = re.compile('some pattern')
+result = pattern.match(string [, pos [, end]]);
+</pre>
+
+<h3>Simple Examples</h3>
+
+<pre class="brush:python">
+result = re.match(r'abc', input)               # Check for substring 'abc'
+result = re.match(r'^\w+$', input)             # Ensure string is one word
+
+pattern = re.compile('abc')                    # Same as first example
+result = pattern.match(input)
+</pre>
+
+<!--
+<h3>Advance Usage</h3>
+<h4>Replacement Function</h4>
+
+Instead of a replacement string you can provide a function performing dynamic replacements based on the match string like this:
+
+<pre class="brush:python">
+def my_replace(m):
+    if <some condition>:
+       return &lt;replacement variant 1>
+    return &lt;replacement variant 2>
+
+result = re.sub("\w+", my_replace, input)
+</pre>
+
+<h4>Count Replacements</h4>
+
+When you want to know how many replacements did happen use re.subn() instead:
+
+<pre class="brush:python">result = re.sub(pattern, replacement, input)
+print ('Result: ', result[0])
+print ('Replacements: ', result[1])
+</pre>
+-->

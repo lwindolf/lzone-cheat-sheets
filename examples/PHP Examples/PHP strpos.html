@@ -1,0 +1,83 @@
+When using strpos() ensure to do the comparison the right way.
+
+<h3>Important: use the correct comparsion operator!</h3>
+
+With strpos() functions always use the identical operator "===" or "!==" and compare to "false"
+
+<table>
+<tr><td><b style="color:#4a4">CORRECT</b></td><td>
+<pre>if (strpos($str, $substr) === false) {</pre>
+<pre>if (strpos($str, $substr) !== false) {</pre>
+</td></tr>
+<tr><td><b style="color:red">WRONG</b></td><td>
+<pre>if (strpos($str, $substr) != false) {</pre>
+<pre>if (strpos($str, $substr) == false) {</pre>
+</td></tr>
+</table>
+
+The reason for using the identical operators (that also check for the type of the value) "===" or "!==" is that strpos() might return "0" for match at the beginning or "false" for no match which cannot be distinguished by "==" or "!=". 
+
+<h3>Case Sensitivity</h3>
+
+Simply use stripos() instead of strpos()
+
+<table>
+<tr>
+<td><b>strpos()</b></td><td>case sensitive searching</td>
+</tr><tr>
+<td><b>stripos()</b></td><td>case insensitive searching</td>
+</tr>
+</table>
+
+<h3>Search From Offset</h3>
+
+If you want to continue a search or want to skip something at the start use an offset as third parameter:
+
+<pre>if (strpos($str, $substr, 5) === false) {</pre>
+
+By using the return value of strpos() you can do repeated searches:
+
+<pre>$pos1 = strpos($str, $substr);
+$pos2 = strpos($str, $substr, $pos1 + strlen($pos1));
+</pre>
+
+<h3>Search Backwards</h3>
+
+There is an additional set of methods for backwards searching:
+
+<table>
+<tr>
+<td><b>strrpos()</b></td><td>case sensitive backwards searching</td>
+</tr><tr>
+<td><b>strripos()</b></td><td>case insensitive backwards searching</td>
+</tr>
+</table>
+
+<h3>Extract Found Strings</h3>
+
+If you want to extract a string at the position you've found you need to use the substr() method.
+
+An example:
+<pre>$pos = strpos($str, $substr);
+$result = substr($str, $pos);
+</pre>
+
+<h3>When not to use strpos()?</h3>
+
+Do not use strpos() if you want to do the following things:
+
+<ol>
+<li>Test for a pattern at the start or end of a string -&gt; <a href="http://lzone.de/PHP+preg_match+Examples">use preg_match()</a></li>
+<li>Extract multiple substrings -&gt; use <a href="http://lzone.de/PHP+preg_match+Examples">preg_match()</a></li>
+<li>Match a string for a complex pattern -&gt; use <a href="http://lzone.de/PHP+preg_match+Examples">preg_match()</a></li>
+<li>If you want to split a string a delimiters -&gt; use <a href="http://de3.php.net/manual/en/function.strpbrk.php">strpbrk()</a></li>
+</ol>
+
+<h3>About Performance</h3>
+
+If you are wondering how fast strpos() is compared to using regular expressions check this post: <a href="http://lzone.de/articles/php-string-search.htm">strpos() vs preg_match()</a>
+
+<h3>Related Functions</h3>
+
+<p>See also <?add topic='PHP stripos'?> <?add topic='PHP strrpos'?> <?add topic='PHP strripos'?> 
+</p>
