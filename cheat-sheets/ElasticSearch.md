@@ -1,30 +1,32 @@
 ## REST API
 
+Generic endpoint is on port 9200
+
 ### Cluster Status
 
-    http://<server>:9200/_cat/health?v
-    http://<server>:9200/_cat/nodes?v
-    http://<server>:9200/_cat/indices?v
+    /_cat/health?v
+    /_cat/nodes?v
+    /_cat/indices?v
 
 Further introspection:
 
-    http://<server>:9200/_nodes/
-    http://<server>:9200/_nodes/process
-    http://<server>:9200/_nodes/settings
-    http://<server>:9200/_aliases
-    http://<server>:9200/_warmers
-    http://<server>:9200/_mappings
+    /_nodes/
+    /_nodes/process
+    /_nodes/settings
+    /_aliases
+    /_warmers
+    /_mappings
 
 ### Indexes
 
-    GET http://<server>:9200/_cat/indices?v
-    GET http://<server>:9200/<index name>?pretty
-    PUT http://<server>:9200/<index name>
-    DELETE http://<server>:9200/<index name>
+    GET /_cat/indices?v
+    GET /<index name>?pretty
+    PUT /<index name>
+    DELETE /<index name>
     
 [Copying indices using "reindex"](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/docs-reindex.html#reindex-from-remote): It is possible to copy indices partially/fully from local as well as from remote indices:
 
-    POST _reindex
+    POST /_reindex
     {
       "source": {
         "remote": {
@@ -44,6 +46,30 @@ Further introspection:
       }
     }
 
+### Index Aliases
+
+Endpoints for index aliases are quite messy
+
+    GET /_aliases?pretty    
+    POST /_aliases 
+    {
+        "actions" : [
+            { "add" : { "index" : "<index>-000001", "alias" : "my-<index>-alias" } }
+        ]
+     }
+     DELETE /{index}/_alias/{name}
+
+Trigger index rollover
+
+    POST /<alias>/_rollover
+    {
+        "conditions": [
+             "max_age": "3d",
+             "max_docs": 1000000,
+             "max_size": "30g"
+        ]
+     }
+    
 ### Shard Allocation
 
 List unassigned shards
@@ -52,34 +78,34 @@ List unassigned shards
 
 Get info when shards are not allocated
 
-    GET http://<server>:9200/_cluster/allocation/explain
+    GET /_cluster/allocation/explain
 
 Retry allocation of shards (after retry limit reached)
 
-    GET http://<server>:9200/_cluster/reroute?retry_failed=true
+    GET /_cluster/reroute?retry_failed=true
 
 ### Documents
 
-    GET http://<server>:9200/<index name>/external/1?pretty
+    GET /<index name>/external/1?pretty
 
     # Insert/Replace
-    PUT http://<server>:9200/<index name>/external/1
+    PUT /<index name>/external/1
     { 'key': 'value' }
 
     # Update
-    POST http://<server>:9200/<index name>/external/1
+    POST /<index name>/external/1
     { "doc": { 'count': 5 } }
 
-    POST http://<server>:9200/<index name>/external/1
+    POST /<index name>/external/1
     { "script": "ctxt._source.count += 1" }
 
-    DELETE http://<server>:9200/<index name>/external/1
-    DELETE http://<server>:9200/<index name>/external/_query
+    DELETE /<index name>/external/1
+    DELETE /<index name>/external/_query
     { "query": { "match": { 'key': 'value' } }
 
 Batch processing
 
-    POST http://<server>:9200/<index name>/external/_bulk
+    POST /<index name>/external/_bulk
     {"index":{"_id":"1"}}
     {"key1": "value1"}
     {"index":{"_id":"2"}}
@@ -93,8 +119,8 @@ Batch processing
 
 Just a simple search example to explain query building
 
-    GET http://<server>:9200/<index name>/external/_search?q=*
-    POST http://<server>:9200/<index name>/external/_search
+    GET /<index name>/external/_search?q=*
+    POST /<index name>/external/_search
     {
        "query": { "match": { "field1": "abcdef" } },
        "sort": { "balance": { "order": "desc" } },
