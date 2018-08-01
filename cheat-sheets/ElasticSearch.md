@@ -12,8 +12,6 @@ Further introspection:
     http://<server>:9200/_nodes/process
     http://<server>:9200/_nodes/settings
     http://<server>:9200/_aliases
-
-    # Starting with 1.4
     http://<server>:9200/_warmers
     http://<server>:9200/_mappings
 
