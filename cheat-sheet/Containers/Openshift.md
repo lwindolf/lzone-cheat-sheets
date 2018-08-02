@@ -29,6 +29,10 @@ to declare those parameters.
 
 - [Using Terraform with Openshift](https://medium.com/@fabiojose/platform-as-code-with-openshift-terraform-1da6af7348ce)
 
+## Migrating Services to Openshift
+
+- [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
+
 ## Misc
 
 -   ebook: [OpenShift for
