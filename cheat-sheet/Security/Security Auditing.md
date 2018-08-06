@@ -1,4 +1,4 @@
-See Also: <?add topic='Package Vulnerabilities'?>
+See Also: <?add topic='Package Vulnerabilities'?> <?add topic='auditd'?>
 
 ### Server Scanners
 
@@ -19,11 +19,7 @@ See Also: <?add topic='Package Vulnerabilities'?>
 -   File Checksum Tools
     -   rkhunter
     -   Tripwire
--   auditd
-
-        auditctl -a always,exit -F arch=b64 -F pid=<pid> -S open -k <trace name>
-        ausearch -k <trace name>
-
+-   <?add topic='auditd'?>
 -   [Detecting Linux Kernel
     Rootkits](http://la-samhna.de/library/rootkits/detect.html)
 
