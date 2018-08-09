@@ -5,6 +5,11 @@
     terraform show
     terraform destroy
     
+    terraform validate     # validate .tf file
+    
+    terraform taint        # mark resource for recreation
+    terraform untaint
+    
 Change verbosity by setting environment variable TF_LOG
 
     export TF_LOG=INFO
