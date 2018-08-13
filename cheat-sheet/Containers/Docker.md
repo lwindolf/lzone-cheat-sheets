@@ -70,6 +70,12 @@ Start command
     USER jsmith
     WORKDIR /home/jsmith/
     ENTRYPOINT bin/my-start-script.sh
+    
+[Setting timezone](https://serverfault.com/a/683651)
+
+    ENV TZ=America/Los_Angeles
+    RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 
 ### Misc
 
