@@ -36,6 +36,31 @@ as import only imports into a local state file, even if you have an S3 bucket de
 
 To avoid this use S3 bucket with versioning enabled for keeping state.
 
+## Drift Management
+
+Terraform [doesn't really do](https://www.hashicorp.com/blog/detecting-and-managing-drift-with-terraform)
+much drift management. Only some resource attributes are checked.
+
+Fix drift
+
+    terraform refresh
+    terraform apply
+
+Manually detect drift
+
+    terraform show >before
+    terraform refresh
+    terraform show >after
+   
+    diff -u before after
+ 
+Prevent auto-destroy:
+
+     lifecycle {
+        prevent_destroy = true
+     }
+
+
 ## Bulk Imports
 
 Check out https://github.com/jmcgill/formation
