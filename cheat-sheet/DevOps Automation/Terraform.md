@@ -10,6 +10,8 @@
     terraform taint        # mark resource for recreation
     terraform untaint
     
+    terraform state push   # e.g. force push state to S3 bucket
+    
 Change verbosity by setting environment variable TF_LOG
 
     export TF_LOG=INFO
@@ -18,7 +20,7 @@ Change verbosity by setting environment variable TF_LOG
 
 One of the worst things that you happen is [loosing the terraform state](https://www.reddit.com/r/devops/comments/93cee5/if_you_lost_your_terraform_state_you_will_lose/). In such a case you can
 
-    terraform import
+    terraform import <address> <id>
     
 to let terraform reconstruct the resource state. 
 
