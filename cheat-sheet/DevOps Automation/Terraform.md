@@ -39,9 +39,9 @@ To avoid this use S3 bucket with versioning enabled for keeping state.
 ## Drift Management
 
 Terraform [doesn't really do](https://www.hashicorp.com/blog/detecting-and-managing-drift-with-terraform)
-much drift management. Only some resource attributes are checked.
+much drift management. Only some resource attributes are checked. All detected drift is fixed by "apply".
 
-Manually detect drift
+Manually dump drift
 
     terraform show >before
     terraform refresh
