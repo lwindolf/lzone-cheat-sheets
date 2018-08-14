@@ -2,6 +2,7 @@
 
     terraform plan         # dry run
     terraform apply
+    terraform refresh      # sync state with remote resources
     terraform show
     terraform destroy
     
