@@ -11,6 +11,7 @@
     terraform untaint
     
     terraform state push   # e.g. force push state to S3 bucket
+    terraform state pull > terraform.tfstate  # create a local state copy
     
 Change verbosity by setting environment variable TF_LOG
 
