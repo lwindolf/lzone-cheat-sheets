@@ -23,6 +23,10 @@ One of the worst things that you happen is [loosing the terraform state](https:/
 
     terraform import <address> <id>
     
+    # for example
+    terraform import aws_instance.myec2instance i-075c8d21cc91308dc
+
+    
 to let terraform reconstruct the resource state. Finally perform a
 
     terraform state push
