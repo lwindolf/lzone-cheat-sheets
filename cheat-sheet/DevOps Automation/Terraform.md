@@ -41,11 +41,6 @@ To avoid this use S3 bucket with versioning enabled for keeping state.
 Terraform [doesn't really do](https://www.hashicorp.com/blog/detecting-and-managing-drift-with-terraform)
 much drift management. Only some resource attributes are checked.
 
-Fix drift
-
-    terraform refresh
-    terraform apply
-
 Manually detect drift
 
     terraform show >before
