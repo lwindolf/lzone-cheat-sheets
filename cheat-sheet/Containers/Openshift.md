@@ -36,8 +36,9 @@ to declare those parameters.
 
 ## Misc
 
--   ebook: [OpenShift for
+- [Securing inter-service communication with certificates](https://docs.openshift.com/container-platform/3.6/dev_guide/secrets.html#service-serving-certificate-secrets): done via annotations at the service indicating a TLS cert/key in a secret
+- ebook: [OpenShift for
     Developers](https://www.openshift.com/promotions/for-developers.html)
--   OpenShift Cheat Sheets
+- OpenShift Cheat Sheets
     -   [http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/](http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/)
     -   https://monodot.co.uk/openshift-cheatsheet/
