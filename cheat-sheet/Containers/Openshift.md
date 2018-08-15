@@ -38,6 +38,13 @@ to declare those parameters.
 ## Misc
 
 - [Securing inter-service communication with certificates](https://docs.openshift.com/container-platform/3.6/dev_guide/secrets.html#service-serving-certificate-secrets): done via annotations at the service indicating a TLS cert/key in a secret
+    
+      apiVersion: v1
+        kind: Service
+        metadata:
+          annotations:
+            service.alpha.openshift.io/serving-cert-secret-name: <name>
+    
 - ebook: [OpenShift for
     Developers](https://www.openshift.com/promotions/for-developers.html)
 - OpenShift Cheat Sheets
