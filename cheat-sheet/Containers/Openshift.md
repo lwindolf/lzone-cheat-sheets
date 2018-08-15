@@ -32,6 +32,7 @@ to declare those parameters.
 ## Migrating Services to Openshift
 
 - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
+- [Nodejs Application](https://github.com/sclorg/nodejs-ex)
 - [Spring Boot Stack](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#software-stack)
 
 ## Misc
