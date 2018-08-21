@@ -30,3 +30,9 @@ To read messages read/written including lag per consumer in a consumer group
 ## Syslog to Kafka
 
 - Using rsyslog: https://www.drivenbycode.com/how-truecar-uses-kafka-for-high-volume-logging-part-2/
+
+## Monitoring Tools
+
+- Kafka Monitor (no auth support)
+- Kafka Manager (by Yahoo)
+- Burrows (JSON endpoint only, with good lag health prediction)
