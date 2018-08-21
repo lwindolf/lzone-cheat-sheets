@@ -33,6 +33,6 @@ To read messages read/written including lag per consumer in a consumer group
 
 ## Monitoring Tools
 
-- Kafka Monitor (no auth support)
-- Kafka Manager (by Yahoo)
-- Burrows (JSON endpoint only, with good lag health prediction)
+- [Kafka Monitor](https://github.com/linkedin/kafka-monitor) (Linkedin, no auth support, unmaintained)
+- [Kafka Manager](https://github.com/yahoo/kafka-manager) (by Yahoo)
+- [Burrow](https://github.com/linkedin/Burrow) (by LinkedIn, JSON endpoint only, with good lag health prediction)
