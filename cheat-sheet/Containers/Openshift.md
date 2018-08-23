@@ -15,6 +15,14 @@ Note: all Kubernetes commands work with the oc client. So also check <?add topic
     oc projects              # List projects
     oc project <project>     # Switch project
 
+## Cluster Administration
+
+Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
+
+### Print per cluster node resource usage
+
+    oc get nodes --no-headers | awk '{print $1}' | xargs -I {} sh -c 'echo {}; oc describe node {} | grep Allocated -A 5 | grep -ve Event -ve Allocated -ve percent -ve -- ; echo'
+
 ## Working with Templates
 
 Create a template from an existing project
