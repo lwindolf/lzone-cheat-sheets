@@ -27,6 +27,8 @@ Further introspection:
     PUT /<index name>
     DELETE /<index name>
     
+    GET /_settings             # Print config for all indices
+    
 [Copying indices using "reindex"](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/docs-reindex.html#reindex-from-remote): It is possible to copy indices partially/fully from local as well as from remote indices:
 
     POST /_reindex
