@@ -7,7 +7,9 @@ Generic endpoint is on port 9200
     /_cat/health?v
     /_cat/nodes?v
     /_cat/indices?v
+    
     /_cluster/health
+    /_cluster/state            # gives elected master and shard initialisation status
     /_cluster/settings
 
 Further introspection:
@@ -16,6 +18,7 @@ Further introspection:
     /_nodes/process
     /_nodes/settings
     /_nodes/stats
+    
     /_aliases
     /_warmers
     /_mappings
