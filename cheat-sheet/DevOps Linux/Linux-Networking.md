@@ -170,28 +170,26 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
 
 ### Troubleshooting
 
--   Black Hole Route: To block IPs create route on loopback
+- Black Hole Route: To block IPs create route on loopback
 
         route add -net 91.65.16.0/24 gw 127.0.0.1 lo   # for a subnet
         route add  91.65.16.4 gw 127.0.0.1 lo   # for a single IP
 
--   Quick Access Log IP Top List
+- Quick Access Log IP Top List
 
         tail -100000 access.log | awk '{print $1}' | sort | uniq -c |sort -nr|head -25
 
--   Find out if IP is used before configuring it
+- Find out if IP is used before configuring it
 
         arping <IP>
 
--   Traceroute with AS and network name lookup
+- Traceroute with AS and network name lookup
 
         lft -AN www.google.de
 
--   Manually lookup AS
-
-     
-
--   [dailychanges.com](http://www.dailychanges.com/): Tracks DNS changes
+- Manually lookup AS    
+- [dailychanges.com](http://www.dailychanges.com/): Tracks DNS changes
+- [Tuning network settings](https://russ.garrett.co.uk/2009/01/01/linux-kernel-tuning/)
 
 ### Measuring
 
