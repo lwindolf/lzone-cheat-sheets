@@ -2,22 +2,20 @@
 
     kubectl cluster-info
 
+    # In general query resource typs with
+    #
+    # kubectl get <type>
+    # kubectl describe namespaces <ns>
+    
     kubectl get nodes
     kubectl get pods
-    kubectl get rc      # replication controllers
-
+    kubectl get rc                     # replication controllers
     kubectl get namespaces
-    kubectl describe namespaces <ns>
-
     kubectl get services
-    kubectl describe services <service>
-
     kubectl get deployments <application>
-    kubectl describe deployments <application>
-
     kubectl get replicasets
-    kubectl describe replicasets
-
+    kubectl get sa                     # secret attachements
+    
     kubectl create -f some.json
 
     kubectl get rc <node> -o yaml >some.yaml
