@@ -41,16 +41,16 @@ Under Debian use the pg\_wrapper command
 
 #### Show Blocking Locks
 
-     SELECT bl.pid AS blocked_pid, a.usename AS blocked_user, 
-             kl.pid AS blocking_pid, ka.usename AS blocking_user, a.current_query AS blocked_statement
-      FROM pg_catalog.pg_locks bl
-           JOIN pg_catalog.pg_stat_activity a
-           ON bl.pid = a.procpid
-           JOIN pg_catalog.pg_locks kl
-                JOIN pg_catalog.pg_stat_activity ka
-                ON kl.pid = ka.procpid
-           ON bl.transactionid = kl.transactionid AND bl.pid != kl.pid
-      WHERE NOT bl.granted ;
+ SELECT bl.pid AS blocked_pid, a.usename AS blocked_user, 
+         kl.pid AS blocking_pid, ka.usename AS blocking_user
+  FROM pg_catalog.pg_locks bl
+       JOIN pg_catalog.pg_stat_activity a
+       ON bl.pid = a.pid
+       JOIN pg_catalog.pg_locks kl
+            JOIN pg_catalog.pg_stat_activity ka
+            ON kl.pid = ka.pid
+       ON bl.transactionid = kl.transactionid AND bl.pid != kl.pid
+  WHERE NOT bl.granted ;
 
 #### Show Table Usage
 
