@@ -14,6 +14,8 @@ Manually adding rules
 
     auditctl -a always,exit -F arch=b64 -F pid=<pid> -S open -k <trace name>
 
+Best pratices rules: https://gist.github.com/Neo23x0/9fe88c0c5979e017a389b90fd19ddfee
+
 ## Querying traces
 
     ausearch -k <trace name>
