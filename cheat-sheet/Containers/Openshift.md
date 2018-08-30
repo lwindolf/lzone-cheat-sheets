@@ -41,6 +41,7 @@ to declare those parameters.
 
 - Middleware
   - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
+  - [Kafka](https://www.nearform.com/blog/benchmarking-apache-kafka-deployed-on-openshift-with-helm/) (using Helm)
 - Runtimes
   - [Nodejs](https://github.com/openshift/nodejs-ex.git)
   - [Ruby](https://github.com/openshift/ruby-ex.git)
