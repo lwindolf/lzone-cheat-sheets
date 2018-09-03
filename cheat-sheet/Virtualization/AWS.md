@@ -11,6 +11,13 @@ See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
 
 ## CloudFormation
 
+- Nesting Templates with [AWS::Include](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/create-reusable-transform-function-snippets-and-add-to-your-template-with-aws-include-transform.html)
+
+      Transform:
+        Name: 'AWS::Include'
+        Parameters:
+        Location: 's3://MyAmazonS3BucketName/MyFileName.yaml'
+
 - Automation with Ansible
    - [How-To Create Stacks](http://darrylcauldwell.com/aws-cloudformation/)
    - [Define Stacks in YAML using Jinja](https://gist.github.com/jheller/c4fa0075e4eccf094769)
