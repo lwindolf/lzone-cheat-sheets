@@ -57,6 +57,8 @@ Log directory is /var/log/journal
 
     journalctl                       # Print all log entries
     journalctl -b                    # Print everything since boot
+    journalctl -e                    # Print last page of the journal
+    journalctl -f                    # Print last 10 entries and continues (like tail -f)
     journalctl -u <unit>             # Print for unit only
     journalctl --no-pager            # Non-interactive mode
 
