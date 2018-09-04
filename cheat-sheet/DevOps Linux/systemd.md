@@ -7,6 +7,9 @@
 
     systemctl enable <unit>
     systemctl disable <unit>
+    
+    systemctl enable --now <unit>  # Enable and start in one go
+    systemctl disable --now <unit> # Disable and stop in one go
 
     systemctl start <unit>
     systemctl stop <unit>
