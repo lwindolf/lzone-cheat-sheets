@@ -1,6 +1,6 @@
 See also: <?add topic='NFS'?> <?add topic='SSH'?>
 
-### Basics
+## Basics
 
 -   netcat Commands
 
@@ -17,7 +17,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
     sheets](http://packetlife.net/library/cheat-sheets/) for all network
     protocols (PDFs)
 
-### DNS
+## DNS
 
 -   Resolve a name via nsswitch
 
@@ -59,7 +59,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
   - [nss-tls](https://github.com/dimkr/nss-tls)
   
 
-### Configuration
+## Configuration
 
 -   ethtool - Usage
 
@@ -104,7 +104,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
     Secrets](https://speakerdeck.com/gnb/130-lca2008-nfs-tuning-secrets-d7):
     SGI Slides on NFS Performance
 
-#### iptables
+### iptables
 
 -   [ipsets vs. iptables
     Performance](http://daemonkeeper.net/781/mass-blocking-ip-addresses-with-ipset/)
@@ -168,7 +168,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
         fail2ban-client status
         fail2ban-client status <jail name>
 
-### Troubleshooting
+## Troubleshooting
 
 - Black Hole Route: To block IPs create route on loopback
 
@@ -191,7 +191,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
 - [dailychanges.com](http://www.dailychanges.com/): Tracks DNS changes
 - [Tuning network settings](https://russ.garrett.co.uk/2009/01/01/linux-kernel-tuning/)
 
-### Measuring
+## Measuring
 
 -   vnstat - Short term measurement bytes/packets min/avg/max:
 
@@ -207,11 +207,23 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
 
         vnstat -t       # top 10 days
 
--   curl - Time details on HTTP requests:
 
-        curl -w "DNS: %{time_namelookup} Connect: %{time_connect} start:  %{time_starttransfer} total:  %{time_total}\n" -o /dev/null -s http://example.com
+### Using curl metrics
 
-### Discovery
+You can use curl to measure resolving, time to connect, time to first byte and total time like this:
+
+- Issue sequential requests (each with new connection)
+
+      while true; do
+	 curl -w "$(date +%FT%T)    dns %{time_namelookup}    connect %{time_connect}   firstbyte %{time_starttransfer}   total %{time_total}   HTTP %{http_code}\n" -o /dev/null -s "https://example.com"
+	sleep 1
+      done
+
+- Issue sequential HTTP/1.1 requests on 1 connection
+
+      curl -w "$(date +%FT%T)    dns %{time_namelookup}    connect %{time_connect}   firstbyte %{time_starttransfer}   total %{time_total}   HTTP %{http_code}\n" --keepalive -K <(printf 'url="https://example.com/"\n%.0s' {1..10000})
+
+## Discovery
 
 -   LLDP
 
@@ -247,7 +259,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?>
         nmap -sF <ip>
         nmap -sX <ip>
 
-### Debugging
+## Debugging
 
 -   [X-Trace - Multi-protocol tracing
     framework](http://x-trace.net/pubs/nsdi-html/xtrace.html)
