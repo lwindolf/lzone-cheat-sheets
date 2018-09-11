@@ -1,4 +1,4 @@
-See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Arrays'?> <?add topic='Bash Functions'?>
+See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add topic='Bash Functions'?>
 
 ### Syntax
 
