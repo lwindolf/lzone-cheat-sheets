@@ -64,6 +64,8 @@ APM](https://www.quora.com/What-are-the-affordable-alternatives-to-NewRelic)
 -   Stackify Retrace
 -   Ruxit
 -   Sysdig Cloud
+- [SignalFX](https://signalfx.com/)
+
 
 ## Docker/Kubernetes
 
