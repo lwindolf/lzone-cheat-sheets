@@ -1,5 +1,14 @@
 See also <?add topic="Monitoring"?>
 
+## Concepts
+
+- [4 golden monitoring signals](https://www.infoq.com/articles/monitoring-SRE-golden-signals)
+   - Request Rate
+   - Error Rate
+   - Latency 
+   - Saturation
+   - Utilization
+
 ## Alarming / Paging / SMS Notification
 
 All SaaS
