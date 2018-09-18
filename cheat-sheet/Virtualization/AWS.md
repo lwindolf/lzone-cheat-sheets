@@ -18,6 +18,27 @@ See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
         Parameters:
         Location: 's3://MyAmazonS3BucketName/MyFileName.yaml'
 
+- CLI Stack Handling
+
+      # Check if stack exists
+      if aws cloudformation describe-stacks --stack-name "$STACK_NAME" >/dev/null 2>/dev/null; then
+         echo "$STACK_NAME exists!"
+      fi
+      
+      # Delete stack and wait for completion
+      aws cloudformation delete-stack --stack-name "$STACK_NAME"
+      aws cloudformation wait stack-delete-complete --stack-name "$STACK_NAME"
+      
+      # Create stack and wait for completion
+      aws cloudformation create-stack \
+         --region "$AWS_REGION" \
+         --stack-name "$STACK_NAME" \
+         --template-body "file://mytemplate.yaml" \
+         --parameters <parameters>
+         ...
+      aws cloudformation wait stack-create-complete --stack-name "$STACK_NAME"
+      
+
 - Automation with Ansible
    - [How-To Create Stacks](http://darrylcauldwell.com/aws-cloudformation/)
    - [Define Stacks in YAML using Jinja](https://gist.github.com/jheller/c4fa0075e4eccf094769)
