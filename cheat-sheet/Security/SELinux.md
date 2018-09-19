@@ -1,6 +1,4 @@
-See Also:
-
-### Commands
+## Commands
 
 Show SELinux labels on files
 
