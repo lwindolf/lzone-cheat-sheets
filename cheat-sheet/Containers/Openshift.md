@@ -1,6 +1,6 @@
 <?add topic='Helm'?>
 
-## Setup
+## Client Setup
 
     # Follow instructions from GUI setup and download client
     oc login
@@ -18,6 +18,12 @@ Note: all Kubernetes commands work with the oc client. So also check <?add topic
 ## Cluster Administration
 
 Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
+
+### Set initial admin pwd
+
+On master
+
+    sudo htpasswd -b /etc/openshift/openshift-passwd admin <your_pass>
 
 ### Print per cluster node resource usage
 
