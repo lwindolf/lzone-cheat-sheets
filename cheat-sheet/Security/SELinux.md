@@ -4,6 +4,10 @@ Show SELinux labels on files
 
     ls -Z
 
+Check if SELinux is on
+
+    getenforce
+
 Disable temporarily
 
     echo 0 >/selinux/enforce
