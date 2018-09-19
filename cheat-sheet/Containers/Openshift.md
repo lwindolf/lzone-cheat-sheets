@@ -21,7 +21,11 @@ Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resou
 
 ### Set initial admin pwd
 
-On master
+Either use
+
+    oc login -u system:admin
+
+or create credential on master
 
     sudo htpasswd -b /etc/openshift/openshift-passwd admin <your_pass>
 
