@@ -22,3 +22,4 @@ Import is possible in the code editor (File menu). Export is possible via the gl
 ## Misc
 
 - [Lambkin](https://github.com/jarpy/lambkin): CLI helper for creating and uploading lambdas
+- [Unused EBS Cleanup](https://codingsans.com/blog/cleanup-unused-ebs-volumes): Lamdba example to cleanup EBS volumes
