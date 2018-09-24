@@ -84,6 +84,10 @@ For example to find out which packages are not from the debian repos:
     # Remove a diversion again (remove file first!)
     dpkg-divert --rename --remove <file path>
 
+**Add another architecture**
+
+    dpkg --add-architecture i386
+
 #### Unattended Upgrades
 
     apt-get install unattended-upgrades
