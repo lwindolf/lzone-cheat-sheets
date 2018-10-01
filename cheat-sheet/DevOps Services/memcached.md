@@ -2,21 +2,21 @@
 <?youtube,UH7wkvcf0ys,Facebook Tech Talk?>
 <?youtube,-h9q2FmX4eo,Caching Best Practices?>
 
-### Telnet Interface
+## Telnet Interface
 
 This is a short summary of everything important that helps to inspect a
 running [memcached](http://www.danga.com/memcached/) instance. You need
 to know that memcached requires you to connect to it via telnet. The
 following post describes the usage of this interface.
 
-#### How To Connect
+### How To Connect
 
 Use "ps -ef" to find out which IP and port was passed when memcached was
 started and use the same with telnet to connect to memcache. Example:
 
     telnet 10.0.0.2 11211
 
-#### Supported Commands
+### Supported Commands
 
 The supported commands (the official ones and some unofficial) are
 documented in the
@@ -28,139 +28,31 @@ command listing the existing commands would be much better. Here is an
 overview of the commands you can find in the
 [source](https://github.com/memcached/memcached) (as of 16.12.2008):
 
-Command
+| Command | Description | Example |
+|---------|-------------|---------|
+| get     | Reads a value | ```get mykey``` |
+| set     | Set a key unconditionally | ```set mykey <flags> <ttl> <size>```<br/><br/><p>Ensure to use \r\n als line breaks when using Unix CLI tools. For example</p> ```printf "set mykey 0 60 4\r\ndata\r\n" \| nc localhost 11211``` |
+| add     | Add a new key | ```add newkey 0 60 5``` |
+| replace | Overwrite existing key | ```replace key 0 60 5``` |
+| append  | Append data to existing key | ```append key 0 60 15``` |
+| prepend | Prepend data to existing key | ```prepend key 0 60 15``` |
+| incr    | Increments numerical key value by given number | ```incr mykey 2``` |
+| decr    | Decrements numerical key value by given number | ```decr mykey 5``` |
+| delete  | Deletes an existing key | ```delete mykey``` |
+| flush_all | Invalidate all items immediately | ```flush_all``` |
+| flush_all | Invalidate all items in n seconds | ```flush_all 900``` |
+| stats | Prints general statistics | ```stats``` |
+|  | Prints memory statistics | ```stats slabs``` |
+|  | Print higher level allocation statistics | ```stats malloc``` |
+|  | Print info on items | ```stats items``` |
+|  |  | ```stats detail``` |
+|  |  | ```stats sizes``` |
+|  | Resets statistics counters | ```stats reset``` |
+| version | Prints server version. | ```version```  |
+| verbosity | Increases log level | ```verbosity``` |
+| quit | Terminate session | ```quit``` |
 
-Description
-
-Example
-
-get
-
-Reads a value
-
-get mykey
-
-set
-
-Set a key unconditionally
-
-set mykey 0 60 5\
- \
- \# Meaning:\
- 0 = \> no flags\
- 60 =\> TTL in [s]\
- 5 =\> size in byte\
- \
- Ensure to use \\r\\n als line breaks when using\
- Unix CLI tools. For example\
-  
-
-    printf "set mykey 0 60 4\r\ndata\r\n" |\
-    nc localhost 11211
-
-add
-
-Add a new key
-
-add newkey 0 60 5
-
-replace
-
-Overwrite existing key
-
-replace key 0 60 5
-
-append
-
-Append data to existing key
-
-append key 0 60 15
-
-prepend
-
-Prepend data to existing key
-
-prepend key 0 60 15
-
-incr
-
-Increments numerical key value\
- by given number
-
-incr mykey 2
-
-decr
-
-Decrements numerical key value\
- by given number
-
-decr mykey 5
-
-delete
-
-Deletes an existing key
-
-delete mykey
-
-flush\_all
-
-Invalidate specific items immediately
-
-flush\_all
-
-Invalidate all items in n seconds
-
-flush\_all 900
-
-stats
-
-Prints general statistics
-
-stats
-
-Prints memory statistics
-
-stats slabs
-
-Prints memory statistics
-
-stats malloc
-
-Print higher level allocation statistics
-
-stats items
-
- 
-
-stats detail
-
- 
-
-stats sizes
-
-Resets statistics
-
-stats reset
-
-version
-
-Prints server version.
-
-version
-
-verbosity
-
-Increases log level
-
-verbosity
-
-quit
-
-Terminate telnet session
-
-quit
-
-#### Traffic Statistics
+### Traffic Statistics
 
 You can query the current traffic statistics using the command
 
@@ -195,7 +87,7 @@ Example Output:
     STAT threads 1
     END
 
-#### Memory Statistics
+### Memory Statistics
 
 You can query the current memory statistics using
 
@@ -227,7 +119,7 @@ always look out for the "evictions" counters given by the "stats"
 command. If you have enough memory for the instance the "evictions"
 counter should be 0 or at least not increasing.
 
-#### Which Keys Are Used?
+### Which Keys Are Used?
 
 There is no builtin function to directly determine the current set of
 keys. However you can use the
@@ -249,14 +141,14 @@ from a PHP script that already does the memcache access you can use the
 PHP code from
 [100days.de](http://100days.de/serendipity/archives/55-Dumping-MemcacheD-Content-Keys-with-PHP.html).
 
-### Troubleshooting
+## Troubleshooting
 
-#### 1MB Data Limit
+### 1MB Data Limit
 
 Note that prio to memcached 1.4 you cannot store objects larger than 1MB
 due to the default maximum slab size.
 
-#### Never Set a Timeout \> 30 Days!
+### Never Set a Timeout \> 30 Days!
 
 If you try to "set" or "add" a key with a timeout bigger than the
 allowed maximum you might not get what you expect because memcached then
@@ -268,13 +160,13 @@ So if you want to use the maximum lifetime specify 2592000. Example:
     set my_key 0 2592000 1
     1
 
-#### Disappearing Keys on Overflow
+### Disappearing Keys on Overflow
 
 Despite the documentation saying something about wrapping around 64bit
 overflowing a value using "incr" causes the value to disappear. It needs
 to be created using "add"/"set" again.
 
-### Replication
+## Replication
 
 memcached itself does not support replication. If you really need it you
 need to use 3rd party solutions:
@@ -288,11 +180,7 @@ need to use 3rd party solutions:
 -   [twemproxy](https://github.com/twitter/twemproxy) (aka nutcracker):
     proxy with memcached support
 
-* * * * *
-
-* * * * *
-
-### Monitoring
+## Monitoring
 
 When using [memcached](http://memcached.org) or memcachedb everything is
 fine as long as it is running. But from an operating perspective
@@ -409,7 +297,7 @@ Below you find a screenshot of what stats-proxy looks like:
 
 [![](/images/stats-proxy.png)](/images/stats-proxy.png)
 
-#### memcache.php
+### memcache.php
 
 Using [this PHP
 script](http://livebookmark.net/journal/2008/05/21/memcachephp-stats-like-apcphp/)
@@ -423,11 +311,7 @@ this script ensure access is protected and not to trigger the
 refrain from dumping the keys as it might cause some load on your
 server.
 
-* * * * *
-
-* * * * *
-
-### Memcached Bindings
+## Memcached Bindings
 
 -   Tomcat:
     [memcached-session-manager](https://code.google.com/p/memcached-session-manager/wiki/SerializationStrategies)
@@ -443,7 +327,7 @@ server.
     [https://pypi.python.org/pypi/pylibmc/1.4.1](https://pypi.python.org/pypi/pylibmc/1.4.1)
     (implemented in C)
 
-#### Dumping Memcache Keys
+### Dumping Memcache Keys
 
 You spent already 50GB on the memcache cluster, but you still see many
 evictions and the cache hit ratio doesn't look good since a few days.
@@ -579,7 +463,7 @@ creation. Given the key name you can now also dump its value using
 This is it: iterate over all slabs classes you want, extract the key
 names and if need dump there contents.
 
-##### Dumping Tools
+#### Dumping Tools
 
 There are different dumping tools sometimes just scripts out there that
 help you with printing memcache keys:
@@ -623,7 +507,7 @@ help you with printing memcache keys:
 |                          |                          | dump **all** keys.       |
 +--------------------------+--------------------------+--------------------------+
 
-#### Using Consistent Hashing
+### Using Consistent Hashing
 
 Papers:
 
@@ -633,7 +517,7 @@ Papers:
     Trees](http://www.akamai.com/dl/technical_publications/ConsistenHashingandRandomTreesDistributedCachingprotocolsforrelievingHotSpotsontheworldwideweb.pdf)
     (PDF)
 
-##### nginx
+#### nginx
 
      upstream somestream {
           consistent_hash $request_uri;
@@ -642,7 +526,7 @@ Papers:
           ...
         }
 
-##### PHP
+#### PHP
 
 Note: the order of setOption() and addServers() is important. When using
 OPT\_LIBKETAMA\_COMPATIBLE the hashing is compatible with all other
@@ -653,7 +537,7 @@ runtimes using libmemcached.
     $memcached->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);
     $memcached->addServers($servers);
 
-##### Perl
+#### Perl
 
     $m = new Memcached('mymemcache');
     $m->setOptions(array(
@@ -664,7 +548,7 @@ runtimes using libmemcached.
     ));
     $m->addServers(...);
 
-### Memcache Alternatives
+## Memcache Alternatives
 
 Below is a list of tools competing with memcached in some manner and a
 probably subjective rating of each.
@@ -744,7 +628,7 @@ There are many more key-value stores. If you wonder what else is out
 there look at the [db-engines.com](http://db-engines.com/en/ranking)
 rankings.
 
-### Suggested Reading
+## Suggested Reading
 
 -   [Scaling Memcache at
     Facebook](https://www.usenix.org/sites/default/files/conference/protected-files/nishtala_nsdi13_slides.pdf)
