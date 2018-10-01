@@ -14,6 +14,20 @@ Note: all Kubernetes commands work with the oc client. So also check <?add topic
     oc login [<cluster>]
     oc projects              # List projects
     oc project <project>     # Switch project
+    oc new-project <project>
+    
+Creating application from remote repo
+
+    oc new-app https://github.com/name/project
+    oc new-app https://github.com/name/project --context-dir=<build dir>
+    
+    # For actual builds from a directory
+    # Careful! If this is a git repo this won't work as the remote git repo will be used!
+    oc new-app .
+    oc start-build <application> --from-dir .
+    
+    # List available S2I templates
+    oc new-app --list                              
 
 ## Cluster Administration
 
