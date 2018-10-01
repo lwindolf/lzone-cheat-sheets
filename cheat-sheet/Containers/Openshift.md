@@ -21,13 +21,18 @@ Creating application from remote repo
     oc new-app https://github.com/name/project
     oc new-app https://github.com/name/project --context-dir=<build dir>
     
-    # For actual builds from a directory
-    # Careful! If this is a git repo this won't work as the remote git repo will be used!
-    oc new-app .
+For actual builds from a directory. *Careful! If this is a git repo this won't work as the remote git repo will be used!*
+
+    oc new-app --name=<application> .
     oc start-build <application> --from-dir .
     
-    # List available S2I templates
-    oc new-app --list                              
+List available S2I templates
+
+    oc new-app --list
+
+Use specific template
+
+    oc new-app https://github.com/name/project --template=<template>
 
 ## Cluster Administration
 
