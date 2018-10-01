@@ -47,6 +47,10 @@
             cpu: 2
             memory: 4Gi
 
+## Accessing Kubernetes API from pods
+
+     curl -k -v --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" https://<mycluster>
+
 ## Migration Stories
 
 - Saltside: https://engineering.saltside.se/migrating-to-kubernetes-day-20-problems-fbbda4905c23
