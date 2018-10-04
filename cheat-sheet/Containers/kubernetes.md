@@ -65,5 +65,5 @@
 - [MongoDB Replicas as Stateful Sets in GKE](https://pauldone.blogspot.de/2017/06/deploying-mongodb-on-kubernetes-gke25.html)
 - [nginx SSL sidecar](https://vorozhko.net/kubernetes-sidecar-pattern-nginx-ssl-proxy-for-nodejs)
 - Operators
-   - [Kafka](https://github.com/strimzi/strimzi-kafka-operator)
-   - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
+     - [Kafka](https://github.com/strimzi/strimzi-kafka-operator)
+     - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
