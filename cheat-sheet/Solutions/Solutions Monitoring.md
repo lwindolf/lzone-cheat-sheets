@@ -13,6 +13,7 @@ See also <?add topic="Monitoring"?>
      - Google SRE
      - USE Method
      - RED Method
+- [TSZ Compression Technique](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf) (Facebook Paper)
      
 ## TSDBs (Time Series DBs)
 
