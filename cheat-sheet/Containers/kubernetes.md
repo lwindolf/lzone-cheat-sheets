@@ -31,7 +31,9 @@
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
-## Defining Quotas
+## Defining Limits and Quotas
+
+Conceptionally "quotas" limit the resource usage per namespace while "limits" are maximum allocation amounts per resource type (e.g. cpu, memory, storage, network policies...)
 
     apiVersion: v1
     kind: Template
