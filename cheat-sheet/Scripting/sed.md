@@ -15,6 +15,12 @@ See Also: <?add topic='awk'?>
 
     /abc/{s/def/ghi)}   # Conditional replace
 
+Appending lines
+
+    aHallo                   # Append 'Hallo' after each line
+    5 aHallo                 # Append 'Hallo' after line #5
+    $ aHallo                 # Append 'Hallo' to end of file
+
 ### Advanced use of sed
 
 #### In-place Editing
