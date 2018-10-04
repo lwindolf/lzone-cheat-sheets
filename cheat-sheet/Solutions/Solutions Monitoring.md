@@ -2,13 +2,29 @@ See also <?add topic="Monitoring"?>
 
 ## Concepts
 
-- [4 golden monitoring signals](https://www.infoq.com/articles/monitoring-SRE-golden-signals)
-   - Request Rate
-   - Error Rate
-   - Latency 
-   - Saturation
-   - Utilization
+- ["4" golden monitoring signals](https://www.infoq.com/articles/monitoring-SRE-golden-signals)
+   - Metrics to choose from
+     - Request Rate
+     - Error Rate
+     - Latency 
+     - Saturation
+     - Utilization
+   - Golden Signals variants
+     - Google SRE
+     - USE Method
+     - RED Method
+     
+## TSDBs (Time Series DBs)
 
+- [M3](https://vimeo.com/274821002) (Prometheus, etcd, replication, Scale at Uber: 500Mio/s, Billions Storage)
+- InfluxDB (commercial, replication, good scale)
+- eXtremeDB (commericial)
+- TimescaleDB (Postgres, replication)
+- Graphite/Whisper (no replication)
+- Prometheus
+- DalmatinerDB
+- Riak-TS
+  
 ## Alarming / Paging / SMS Notification
 
 All SaaS
@@ -52,18 +68,18 @@ Self-hosted:
 -   Shinken
 -   Splunk
 -   [Sensu](https://sensuapp.org/)
--   Groundworks
+-   Groundworks 
 
-[SaaS
-APM](https://www.quora.com/What-are-the-affordable-alternatives-to-NewRelic)
+Saas APMs:
 
--   NewRelic
--   AppDynamics
--   DataDog
--   Dynatrace
--   Stackify Retrace
--   Ruxit
--   Sysdig Cloud
+- NewRelic
+- AppDynamics
+- DataDog
+- Dynatrace
+- Stackify Retrace
+- Ruxit
+- Sysdig Cloud
+- Instana
 - [SignalFX](https://signalfx.com/)
 
 
