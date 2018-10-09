@@ -17,6 +17,8 @@ See also <?add topic="Monitoring"?>
      
 ## TSDBs (Time Series DBs)
 
+[Wide-range TSDB Comparison](https://docs.google.com/spreadsheets/d/1sMQe9oOKhMhIVw9WmuCEWdPtAoccJ4a-IuZv4fXDHxM/edit#gid=0)
+
 - [M3](https://vimeo.com/274821002) (Prometheus, etcd, replication, Scale at Uber: 500Mio/s, Billions Storage)
 - [Thanos](https://github.com/improbable-eng/thanos) (Prometheus, federation)
 - InfluxDB (commercial, replication, good scale)
