@@ -85,6 +85,7 @@ Saas APMs:
 - Sysdig Cloud
 - Instana
 - [SignalFX](https://signalfx.com/)
+- [SemaText](https://sematext.com/) (Metrics & Logs combined, correlation, Influx DB API for metrics, Elasticsearch API for logs)
 
 
 ## Docker/Kubernetes
