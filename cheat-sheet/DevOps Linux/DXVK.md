@@ -1,6 +1,7 @@
 This is a cheat sheet on how to correctly setup Mesa / OpenGL + Vulkan + DXVK 
 
 Helpful tutorials online
+- https://github.com/lutris/lutris/wiki/How-to:-DXVK
 - https://linuxconfig.org/improve-your-wine-gaming-on-linux-with-dxvk
 - https://www.reddit.com/r/wine_gaming/comments/8f5awl/tutorial_installing_dxvk_in_playonlinux/
 
@@ -12,7 +13,11 @@ Always install the following
 
 ## Instructions per GPU vendor
 
+A general support matrix can be found here https://en.wikipedia.org/wiki/Vulkan_(API)#Compatibility
+
 ### Intel Graphics
+
+Intel support starts with i3-/i5-/i7-3000 chipsets.
 
 When using Intel this means using Mesa
 
@@ -28,6 +33,8 @@ Use this PPA
     apt install vulkan
 
 ### AMD
+
+Note: the "radeon" driver won't work with vulkan.
 
 FIXME
 
