@@ -12,16 +12,16 @@ Always install the following
 
 When using Intel this means using Mesa
 
-   apt install mesa-vulkan-drivers
+    apt install mesa-vulkan-drivers
 
 ### Nvidia
 
 Use this PPA
 
-   add-apt-repository ppa:graphics-drivers/ppa
-   apt update
-   apt upgrade
-   apt install vulkan
+    add-apt-repository ppa:graphics-drivers/ppa
+    apt update
+    apt upgrade
+    apt install vulkan
 
 ### AMD
 
