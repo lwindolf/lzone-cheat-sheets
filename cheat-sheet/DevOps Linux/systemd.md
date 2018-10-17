@@ -1,10 +1,10 @@
 ### Commands
 
-    systemctl               # Lists all units
+    systemctl                   # Lists all units
     systemctl --failed          # List failed
     systemctl status
     systemctl status <unit>
-
+    
     systemctl enable <unit>
     systemctl disable <unit>
     
@@ -21,6 +21,11 @@
     systemctl reload <unit>
 
     systemctl reset-failed [<unit>]
+
+Find unit definitions
+
+    systemctl show <unit>                   # Show configuration
+    systemctl show -p FragmentPath <unit>   # Show configuration path
 
 Change unit definitions with
 
