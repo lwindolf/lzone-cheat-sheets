@@ -158,6 +158,6 @@ Check if CFS is default scheduler
 
     grep cfs_rq /proc/sched_debug
     
-Check if there are processes not running with CFS (SCHEDULE_OTHER)
+Check if there are processes not running with CFS (SCHED_OTHER)
 
     ps -ef|grep [0-9]|awk '\{system("chrt -p " $2);print $0}' | grep -Ev 'priority|SCHED_OTHER' |grep -A1 SCHED
