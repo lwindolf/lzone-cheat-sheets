@@ -152,4 +152,12 @@ Machine readable: you need to use sadf
 
         update-rc.d -f apache2 remove             # Cleanup
 
+## Linux CPU Scheduler
 
+Check if CFS is default scheduler
+
+    grep cfs_rq /proc/sched_debug
+    
+Check if there are processes not running with CFS (SCHEDULE_OTHER)
+
+    ps -ef|grep [0-9]|awk '\{system("chrt -p " $2);print $0}' | grep -Ev 'priority|SCHED_OTHER' |grep -A1 SCHED
