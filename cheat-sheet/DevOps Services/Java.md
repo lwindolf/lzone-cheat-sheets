@@ -32,3 +32,7 @@ forwarding
 
     ssh targethost -L 3334:localhost:3334 -f -N
     ssh targethost -L 3333:localhost:3333 -f -N
+
+## Setting defaults from environment
+
+When you want to merge user passed settings with some defaults use JAVA_TOOL_OPTIONS. Options from the JVM CLI overrule any options also specified in JAVA_TOOL_OPTIONS.
