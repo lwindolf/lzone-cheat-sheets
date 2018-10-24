@@ -54,6 +54,8 @@ Conceptionally "quotas" limit the resource usage per namespace while "limits" ar
           limits:
             cpu: 2
             memory: 4Gi
+            
+JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/understanding-linux-container-scheduling
 
 ## Online Tutorials
 
