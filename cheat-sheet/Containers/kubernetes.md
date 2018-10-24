@@ -31,6 +31,12 @@
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
+## Testing kubectl Commands
+
+Several commands allow passing "--dry-run" to test impact
+
+    kubectl run --dry-run [...]
+
 ## Defining Limits and Quotas
 
 Conceptionally "quotas" limit the resource usage per namespace while "limits" are maximum allocation amounts per resource type (e.g. cpu, memory, storage, network policies...)
