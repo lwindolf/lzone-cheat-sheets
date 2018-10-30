@@ -18,7 +18,7 @@ To follow additional branches in your local repo follow these steps:
     git branch -r
 
     # And track one of them locally
-    git branch --set-upstream-to  
+    git branch --track <local name> origin/<name>
 
 ### Remove Branch
 
