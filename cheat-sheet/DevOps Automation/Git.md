@@ -194,7 +194,7 @@ is to add one repo (repo1) into a subdirectory of another repository (repo2)
 
 That's it. Check "git log" to see if changes of repo1 appear.
 
-## Comfort merging with opening PRs in a browser
+### Comfort merging with opening PRs in a browser
 
 This can be done via git command aliases invoking xdg-open. An example solution
 
