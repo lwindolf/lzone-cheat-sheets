@@ -28,7 +28,9 @@ write
     time_format: "%{literal('%')}{YYYY-MM-dd}"
 
 Effectively replace the occurence of '%{' with %{literal('%{')}. **You can't use literal() multiple times 
-in the same string!** If you need to try replacing all % with %%{::}.
+in the same string!** If you need to try replacing all % with %%{::} for example
+
+    value: '%%{::}{REQUEST_URI} %%{::}{SERVER}'
 
 ## Encryption with eyaml
 
