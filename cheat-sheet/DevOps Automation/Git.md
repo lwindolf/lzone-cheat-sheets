@@ -194,4 +194,15 @@ is to add one repo (repo1) into a subdirectory of another repository (repo2)
 
 That's it. Check "git log" to see if changes of repo1 appear.
 
+## Comfort merging with opening PRs in a browser
+
+This can be done via git command aliases invoking xdg-open. An example solution
+
+    [alias]
+      curbranch = rev-parse --symbolic-full-name --abbrev-ref HEAD
+      bpush = !sh -c 'git push origin $(git curbranch) 2>&1 |grep -o "https://.*" |xargs -r xdg-open'
+      bp = !sh -c 'echo "Pull" && git pull origin master && echo "Push" && git bpush'
+
+with now "git bp" pulling, pushing and opening the PR for further review work.
+
 <?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
