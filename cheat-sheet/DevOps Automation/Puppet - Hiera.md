@@ -27,7 +27,8 @@ write
 
     time_format: "%{literal('%')}{YYYY-MM-dd}"
 
-Effectively replace each occurence of '%' with %{literal('%')}
+Effectively replace the occurence of '%{' with %{literal('%{')}. **You can't use literal() multiple times 
+in the same string!** If you need to try replacing all % with %%{::}.
 
 ## Encryption with eyaml
 
