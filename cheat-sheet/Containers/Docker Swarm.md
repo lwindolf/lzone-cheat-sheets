@@ -46,8 +46,9 @@ Undrain
     docker service create <image>
     docker service create --name <name> --replicas <number of replicas> <image>
     docker service scale <name>=<number of replicas>
-    docker service rm <service id>
-    docker service ls
-    docker service ps <service id>
+    docker service rm <service id|name>
+    docker service ls                                                    # list all services
+    docker service ps <service id|name>                                  # list all tasks for given service (includes shutdown/failed)
+    docker service ps --filter desired-state=running <service id|name>   # list running (acitve) tasks for given service
     
-    docker service logs
+    docker service logs --follow <service id|name>                       # print console log of a service
