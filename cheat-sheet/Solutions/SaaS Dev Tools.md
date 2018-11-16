@@ -1,6 +1,7 @@
 ### Online Tools
 
 -   [Free jQuery CDN Hoster](http://www.jsdelivr.com/)
+-   [Image Tools](http://imgops.com)
 -   [Scrutinizer](https://scrutinizer-ci.com/): Online code scanner
     (SaaS, PHP, Ruby, Python)
 -   [Coverity](https://scan.coverity.com/): Online code scanner (SaaS,
