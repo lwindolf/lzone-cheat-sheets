@@ -28,7 +28,7 @@
 
 Forced rebalance (dangerous)
 
-    docker service ls -q > dkr_svcs && for i in `cat dkr_svcs`; do docker service update "$i" --detach=false --force ; done
+    for svc in $(docker service ls -q) ; do docker service update $svc --force ; done
 
 Draining a node
 
