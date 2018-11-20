@@ -12,7 +12,7 @@ If you do not know a remote schema query all existing types like this
 
 For a given type query all attributes like this
 
-    {
+    query {
       __type(name: "Author") {
         name
         description
