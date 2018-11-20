@@ -1,3 +1,4 @@
+
 ## Schema Queries
 
 If you do not know a remote schema query all existing types like this
@@ -18,3 +19,7 @@ For a given type query all attributes like this
         description
       }
     }
+
+## Tools
+
+- [GraphQL IDE](https://github.com/prisma/graphql-playground)
