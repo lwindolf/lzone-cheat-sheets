@@ -77,3 +77,8 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 - Operators
      - [Kafka](https://github.com/strimzi/strimzi-kafka-operator)
      - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
+
+
+## Misc
+
+- [Issues when monitoring with Prometheus](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
