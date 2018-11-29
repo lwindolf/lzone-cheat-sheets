@@ -86,5 +86,9 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 
       cat /proc/net/tcp             # gives you raw data with hex numbers :-(
       
+      # Local endpoints
+      grep -v "rem_address" /proc/net/tcp  | awk  '{x=strtonum("0x"substr($2,index($2,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($2,i,2))}{print x":"strtonum("0x"substr($2,index($2,":")+1,4))}'
+      
+      # Remote clients
       grep -v "rem_address" /proc/net/tcp  | awk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
       
