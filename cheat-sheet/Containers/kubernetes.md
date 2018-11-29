@@ -82,3 +82,9 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 ## Misc
 
 - [Issues when monitoring with Prometheus](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
+- [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
+
+      cat /proc/net/tcp             # gives you raw data with hex numbers :-(
+      
+      grep -v "rem_address" /proc/net/tcp  | awk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
+      
