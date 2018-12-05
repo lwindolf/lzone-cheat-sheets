@@ -4,9 +4,10 @@
      valac -v myfile.vala                                 # Verbose output
      
      valac --pkg json-glib-1.0 --pkg gtk+-3.0 *.vala      # Link to JSON and GTK libs
+     valac --vapidir=src --pkg MyNamespace *.vala         # Link to VAPI in your source
      
      valac --gir=Gtk-3.0 *.vala                           # Compile with GObject Introspection bindings
-     valac --girdir=src --gir MyNamespace-1.0.gir *.vala  # Compile against special GObject Introspection bindings
+     valac --girdir=src --gir MyNamespace-1.0.gir *.vala  # Compile against your own GObject Introspection bindings
      
 ## Creating Bindings
 
