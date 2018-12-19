@@ -52,6 +52,7 @@ See also <?add topic='Helm'?> <?add topic='kubernetes'?>
 - Terraform 3rd party kubernetes providers... (FIXME: resource provider)
 - [Exekube](https://github.com/exekube/exekube) (projects mapped using terraform+helm)
 - [WeaveCloud/flux](https://github.com/weaveworks/flux) (SaaS)
+- [Mesosphere Maestro](https://mesosphere.com/blog/announcing-maestro-a-declarative-no-code-approach-to-kubernetes-day-2-operators/) (declarative universal operator)
 
 #### GKE
 
