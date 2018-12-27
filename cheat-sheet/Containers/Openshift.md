@@ -15,6 +15,7 @@ Note: all Kubernetes commands work with the oc client. So also check <?add topic
     oc projects              # List projects
     oc project <project>     # Switch project
     oc new-project <project>
+    oc whoami -t             # Get current session API token
     
 Creating application from remote repo
 
