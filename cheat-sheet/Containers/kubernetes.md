@@ -63,7 +63,7 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 
 ## Accessing Kubernetes API from pods
 
-     curl -k -v --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" https://<mycluster>
+     curl -v --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" https://<mycluster>
 
 ## Migration Stories
 
