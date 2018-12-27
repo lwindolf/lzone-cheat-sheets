@@ -25,7 +25,9 @@ Creating application from remote repo
 For actual builds from a directory. *Careful! If this is a git repo this won't work as the remote git repo will be used!*
 
     oc new-app --name=<application> .
-    oc start-build <application> --from-dir .
+    oc start-build <application> --from-dir .    # Force build from dir (even if it is a git repo)
+    oc start-build <application> -F              # Wait for completion and print full build log
+    oc start-build <application> -w              # Wait for completion
     
 List available S2I templates
 
