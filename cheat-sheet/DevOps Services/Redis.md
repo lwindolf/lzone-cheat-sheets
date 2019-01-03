@@ -9,9 +9,9 @@ for sysadmins.
 #### CLI
 
 First thing to know is that you can use "telnet" (usually on Redis
-default port 6397)
+default port 6379)
 
-    telnet localhost 6397
+    telnet localhost 6379
 
 or the Redis CLI client
 
