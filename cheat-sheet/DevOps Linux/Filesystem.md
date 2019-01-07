@@ -79,3 +79,12 @@ Synching without a distributed filesystem
 | [OCFS2](https://oss.oracle.com/projects/ocfs2/) | Oracle | POSIX, often used with [DRBD](http://www.drbd.org/)  Block replication |
 | [Lustre](http://lustre.org/) | Oracle | POSIX, abandoned, used in HPC |
 | [MooseFS](https://moosefs.com/) | Core Technology | POSIX, NFS drop-in |
+
+Cloud/SaaS
+
+
+| Name | Vendor | Distinguishing Features |
+| ---- | ------ | ----------------------- |
+| Elastifile ECFS |    | Google Cloud, AWS, Azure |
+| Nooba | Redhat | End-user easy cluster on any cloud storage |
+| Azure Netapp Files |   | Azure, Google Cloud |
