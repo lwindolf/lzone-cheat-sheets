@@ -76,6 +76,23 @@ Start command
     ENV TZ=America/Los_Angeles
     RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+### Multi-stage Dockerfiles
+
+Starting with Docker 17.05 you can do [https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds](multi-stage builds) by having multiple FROM commands in one Dockerfile
+
+    FROM image1
+    ...
+    
+    FROM image2
+    ...
+    
+Above syntax example will automatically trigger two builds. Stages also can be named:
+
+    FROM image1 as stage1
+    
+and explicitely called on the CLI
+
+    docker build --target stage1 ...
 
 ### Misc
 
