@@ -5,3 +5,4 @@ SysRq, https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html
 Sysctl - Net,https://www.frozentux.net/ipsysctl-tutorial/ipsysctl-tutorial.html#AEN398
 Linux Insides,https://github.com/0xAX/linux-insides/blob/master/SUMMARY.md
 UEFI Install,https://wiki.ubuntuusers.de/EFI_USB-Stick/
+fail2ban,https://www.fail2ban.org/wiki/index.php/Commands
