@@ -31,6 +31,13 @@
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
+## Cluster Administration
+
+Removing/Readding nodes
+
+    kubectl drain <node>         # Evacuates all pods with replication controllers
+    kubectl uncordon <node>      # Readd node for pod scheduling
+
 ## Testing kubectl Commands
 
 Several commands allow passing "--dry-run" to test impact
