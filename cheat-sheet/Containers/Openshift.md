@@ -67,7 +67,8 @@ or create credential on master
 Creating a "root" service account:
 
     oc create serviceaccount <name>
-    oc adm policy add-role-to-user cluster-admin -z <name>
+    oc adm policy add-cluster-role-to-user cluster-admin -z <name>
+    oc sa get-token <name>
 
 ## Working with Templates
 
