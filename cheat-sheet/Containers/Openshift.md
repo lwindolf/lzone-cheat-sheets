@@ -39,6 +39,13 @@ Use specific template
 
 ## Cluster Administration
 
+Removing/Readding nodes
+
+    oc adm drain <node>         # Evacuates all pods with replication controllers
+    oc adm uncordon <node>      # Readd node for pod scheduling
+
+## Initial Setup
+
 Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
 
 ### Set initial admin pwd
