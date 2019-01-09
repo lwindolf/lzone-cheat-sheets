@@ -43,8 +43,12 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
 -   inotify - Detect file access
 
         apt-get install inotify-tools
-        inotifywait -m -r /var/log
-        inotifywait -m /var/log/auth.log
+        
+        inotifywait -m -r /var/log           # Show all activity in all subdirs
+        inotifywait -m -e create -r /data    # Show all file/dir creations
+        inotifywait -m -e isdir -r /data     # Show all subdir accesses (e.g. before mkdir)
+        
+        inotifywait -m /var/log/auth.log     # Show all access to single file
 
 -   losetup
 
