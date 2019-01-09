@@ -1,3 +1,7 @@
+## Problems of Prometheus
+
+- [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
+
 ## Scaling Prometheus
 
 ### Self-hosted
