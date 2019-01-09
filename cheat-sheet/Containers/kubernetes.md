@@ -88,7 +88,6 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 
 ## Misc
 
-- [Issues when monitoring with Prometheus](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
 - [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
 
       cat /proc/net/tcp             # gives you raw data with hex numbers :-(
