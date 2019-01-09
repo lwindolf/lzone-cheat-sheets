@@ -16,6 +16,7 @@ List rules with numbers
 
 Create new table and chain:
 
+    nft add table    inet table1
     nft create chain inet table1 { type filter hook input priority 0\; }
     nft add rule     inet table1 chain1 iif lo accept
     
