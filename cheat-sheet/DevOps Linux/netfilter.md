@@ -35,3 +35,9 @@ Default drop policy
 ### Convert iptables to nftables
 
 Check out [iptables-translate](https://wiki.nftables.org/wiki-nftables/index.php/Moving_from_iptables_to_nftables)
+
+## Debug rule changes
+
+    nft monitor               # Reports all rule changes live
+    nft monitor new tables
+    nft monitor destroy rules
