@@ -33,7 +33,7 @@ From https://prometheus.io/docs/prometheus/latest/querying/examples/
 ### Self-hosted
 
 - [Cortex, OpenSource](https://www.cncf.io/blog/2018/12/18/cortex-a-multi-tenant-horizontally-scalable-prometheus-as-a-service/)
-- [M3DB](https://github.com/m3db)
+- [M3DB](https://github.com/m3db), see also [Quick Setup HowTo](https://lzone.de/blog/Prometheus+and+M3DB+in+Docker+in+5min)
 
 ## SaaS
 
