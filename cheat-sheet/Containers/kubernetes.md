@@ -2,11 +2,13 @@
 
     kubectl cluster-info
 
-    # In general query resource typs with
-    #
-    # kubectl get <type>
-    # kubectl describe namespaces <ns>
-    
+In general query resource types with
+
+    kubectl get <type>
+    kubectl describe <type plural> <name>
+
+Useful "get" commands
+
     kubectl get nodes
     kubectl get pods
     kubectl get rc                     # replication controllers
