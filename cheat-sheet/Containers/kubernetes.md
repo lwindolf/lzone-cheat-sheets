@@ -98,3 +98,6 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
       # Remote clients
       grep -v "rem_address" /proc/net/tcp  | awk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
       
+
+<?speakerdeck,d25dce78d1d64f039b7e23bedd95d4f6,Security Best Practices?>
+<?speakerdeck,ee213c61e742426693f965ba13850bd8,Multi-Tenancy?>
