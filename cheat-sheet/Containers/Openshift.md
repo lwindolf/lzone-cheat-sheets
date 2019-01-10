@@ -74,7 +74,7 @@ Creating a "root" service account:
 
 Create a template from an existing project
 
-    oc export all --as-template my_project_template >template.json
+    oc export all [-l app=<name>] --as-template my_project >template.json
     
 Note that the resulting JSON will have no parameters yet. You'll have to 
 identify places to replace with parameters (syntax is "${PARAMETER}") and
