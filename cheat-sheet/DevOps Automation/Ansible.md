@@ -36,3 +36,5 @@ List facts and state of a host
 Save facts to per-host files in /tmp/facts
 
     ansible all -m setup --tree /tmp/facts
+
+<?speakerdeck,dacfbe2fca344ffda3b93a5abcd155c7,Introduction to Ansible?>
