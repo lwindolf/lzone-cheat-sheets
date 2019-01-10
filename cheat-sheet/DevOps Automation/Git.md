@@ -205,4 +205,8 @@ This can be done via git command aliases invoking xdg-open. An example solution
 
 with now "git bp" pulling, pushing and opening the PR for further review work.
 
+### Checkout at a specific time
+
+    git checkout 'master@{2019-01-01 01:00:00}'
+
 <?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
