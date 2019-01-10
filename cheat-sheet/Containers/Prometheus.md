@@ -1,3 +1,33 @@
+## Enable Scraping in Kubernetes
+
+Scraping is either enabled globally or explicitly.
+
+For explicit scraping add the following annotation for Pods or services.
+
+    ---
+    apiVersion: v1
+    kind: Service
+    metadata:
+       name: my-service
+       annotations:
+         prometheus.io/scrape: "true"
+         prometheus.io/path: "/metrics"            # optional
+         prometheus.io/port: "9102"
+         
+Note that for Daemonsets you have to put the annotation in the template spec:
+
+    ---
+    apiVersion: apps/v1beta2
+    kind: DaemonSet
+    spec:
+      [...]
+      template:
+        metadata:
+          [...]
+          annotations:
+            prometheus.io/scrape: 'true'
+            prometheus.io/port: '9102'
+
 ## Query Syntax
 
 From https://prometheus.io/docs/prometheus/latest/querying/examples/
