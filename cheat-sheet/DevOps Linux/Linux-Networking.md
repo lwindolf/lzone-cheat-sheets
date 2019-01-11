@@ -48,17 +48,20 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 - [DNSSEC - Verisign Online Tester](https://dnssec-debugger.verisignlabs.com/)
 - DNS - [CAA Support](https://sslmate.com/caa/support): Providers and Tools
 
-- DNS Servers
-  - Bind
-  - PowerDNS
-  - NSD
-  - ldns
+* DNS Servers
+  * Bind
+  * PowerDNS
+  * NSD
+  * ldns
 
-- DNS over HTTPS resolvers
-  - [stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
-  - [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/)
-  - [nss-tls](https://github.com/dimkr/nss-tls)
-  
+* DNS over TLS/HTTPS resolvers
+  * [stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
+  * [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/)
+  * [nss-tls](https://github.com/dimkr/nss-tls)
+
+* DNS over TLS servers
+  * Google
+  * https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers
 
 ## Configuration
 
