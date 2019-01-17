@@ -147,6 +147,10 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 
         vnstat -t       # top 10 days
 
+### Benchmarks
+
+- iperf3
+- [Ethr](https://github.com/Microsoft/ethr)
 
 ### Using curl metrics
 
