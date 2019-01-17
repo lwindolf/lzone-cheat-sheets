@@ -111,6 +111,8 @@ and explicitely called on the CLI
     Checks](https://github.com/OpenSCAP/container-compliance)
 -   [Container Hardening
     Script](https://gist.github.com/jumanjiman/f9d3db977846c163df12)
+-   [dive: Image Layer Traversal](https://github.com/wagoodman/dive)
+-   [Add CVE scanning to Docker build](https://www.tigera.io/blog/adding-cve-scanning-to-a-ci-cd-pipeline/)
 
 ### Best Practices for Images
 
