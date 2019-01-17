@@ -35,4 +35,4 @@ forwarding
 
 ## Setting defaults from environment
 
-When you want to merge user passed settings with some defaults use JAVA_TOOL_OPTIONS. Options from the JVM CLI overrule any options also specified in JAVA_TOOL_OPTIONS.
+When you want to merge user passed settings with some defaults use JAVA\_TOOL\_OPTIONS. Options from the JVM CLI overrule any options also specified in JAVA\_TOOL\_OPTIONS.
