@@ -15,6 +15,7 @@ See also <?add topic='kubernetes'?>
 Integrated Products:
   - Cloud Foundry
   - Openshift
+  - Heroku
 
 Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948):
   - Draft
@@ -23,6 +24,7 @@ Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft
   - Ksonnet
   - Metaparticle
   - Skaffold
+  - [kubevirt.io](https://kubevirt.io/)
 
 See also <?add topic='Openshift'?>
 
