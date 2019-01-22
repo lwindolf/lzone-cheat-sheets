@@ -92,3 +92,8 @@ Cloud/SaaS
 | Elastifile ECFS |    | Google Cloud, AWS, Azure |
 | Nooba | Redhat | End-user easy cluster on any cloud storage |
 | Azure Netapp Files |   | Azure, Google Cloud |
+
+## SSD Erase
+
+    hdparm --user-master u --security-set-pass ctmagazin /dev/sdX
+    hdparm --user-master u --security-erase ctmagazin /dev/sdX
