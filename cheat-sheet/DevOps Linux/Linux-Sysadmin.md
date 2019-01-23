@@ -30,6 +30,26 @@ Commands
 -   [dhrystone](http://www.netlib.org/benchmark/dhry-c)
 -   [stress](https://packages.debian.org/sid/stress)
 
+#### CPU Scheduler
+
+Check and change scheduler settings with schedtool
+
+    schedtool <pid>                  # Print settings for given PID
+    schedtool -r                     # Show scheduler class prio ranges
+    schedtool -R -p 20 -e <command>  # Run command with SCHED_RR and nice 20
+        
+List per-process scheduler settings 
+
+    ps -wweALo pid,spid,user,priority,ni,pcpu,vsize,time,args
+
+Check CPU freq governor
+
+    cat /sys/devices/system/cpu/cpufreq/policy*/scaling_governor
+
+Check SCHED_ISO settings
+
+    cat /proc/sys/kernel/iso_cpu
+
 #### Metrics
 
 Human readable sar output
