@@ -20,9 +20,18 @@ Commands
 
 -   [fio](http://www.bluestop.org/fio/): Synthetic IO stress test
 -   [iozone](http://www.iozone.org/): Synthetic FS benchmark
--   Configure Linux disk IO scheduler
 
-        echo deadline > /sys/block/sda/queue/scheduler
+#### I/O Scheduler
+
+Get available and selected disk I/O scheduler
+
+    cat /sys/block/sda/queue/scheduler
+    
+Set Linux disk IO scheduler
+
+    echo deadline > /sys/block/sda/queue/scheduler
+
+[How to enable BFQ scheduler with udev](https://community.chakralinux.org/t/how-to-enable-the-bfq-i-o-scheduler-on-kernel-4-12/6418/16)
 
 #### CPU
 
