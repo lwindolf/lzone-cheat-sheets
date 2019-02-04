@@ -1,6 +1,6 @@
 See Also: <?add topic='LVM'?>
 
-### Disks
+## Disks
 
 Setting/Listing disk UUIDs
 
@@ -16,17 +16,23 @@ Where to find different partition types
     /dev/disk/by-uuid      -> MBR partitions
     /dev/disk/by-partuuid  -> GPT partitions
 
-## UEFI Secure Boot
+## Bootloader
+
+### UEFI Secure Boot
 
 Diagnose with
 
     efibootmgr -v
 
-### Misc
+### initramfs Update
 
--   Grub Config Update
+    update-initramfs -u
 
-        update-grub
+###  Grub Config Update
+
+    update-grub
+
+## Misc
 
 -   [Convert ext2 to
     ext3](http://www.troubleshooters.com/linux/ext2toext3.htm):
