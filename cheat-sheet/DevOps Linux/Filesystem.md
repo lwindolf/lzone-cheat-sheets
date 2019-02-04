@@ -29,7 +29,7 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
 
         rsync -az -e ssh --delete /data/ server:/data
 
--   List physical disk serial number
+- List physical disk serial number
 
         # As root
         hdparm -I /dev/sda | grep Serial
@@ -39,8 +39,14 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
 
         # As user
         /sbin/udevadm info --query=property --name=sda |grep SERIAL
+        
+- Debug drive events
 
--   inotify - Detect file access
+        udevadm monitor            # Track any changes
+        
+        udevadm test /devices/pci0000:00/<id>
+
+- inotify - Detect file access
 
         apt-get install inotify-tools
         
