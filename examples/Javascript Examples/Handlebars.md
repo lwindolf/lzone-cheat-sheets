@@ -48,7 +48,7 @@ Traverse nested objects
 
 ## Helper Callbacks
 
-Any expression with the following form {{<helper> <path>}} invokes a helper callback.
+Any expression with the following form {{\<helper> \<path>}} invokes a helper callback.
 
 Register a helper callback:
 
