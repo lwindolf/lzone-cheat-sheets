@@ -88,6 +88,19 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
      - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
 
 
+## Authn/Authz
+
+List of auth proxy implementations
+
+- [Openshift OAuth proxy](https://github.com/openshift/oauth-proxy) (forked from bitly, work with plain k8s too)
+- [pusher OAuth2 proxy](https://github.com/pusher/oauth2_proxy) (continued work of bitly)
+- [Buzzfeed OAuth2 SSO](https://github.com/buzzfeed/sso) 
+- linkerd
+- [Envoy](https://github.com/envoyproxy/envoy) (Istio)
+- [Ambassador](https://github.com/datawire/ambassador) (Envoy based)
+- Conjur + Auth Proxy
+- [keyclock-proxy](https://github.com/keycloak/keycloak-gatekeeper) (deprecated)
+
 ## Misc
 
 - [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
