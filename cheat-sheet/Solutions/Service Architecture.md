@@ -7,3 +7,9 @@
 ## Documentation
 
 - Pivio: [Documenting Microservices](http://pivio.io/)
+
+## Workflow Managers
+
+- Apache Airflow
+- Oozie (Hadoop)
+- Azkaban
