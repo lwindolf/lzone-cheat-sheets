@@ -9,7 +9,7 @@ Settings are stored in ~/.kube/config
 
 ## CLI Commands
 
-Note: all Kubernetes commands work with the oc client. So also check <?add topic='Kubernetes'?>
+Note: all Kubernetes commands work with the oc client. So also check <?add topic='kubernetes'?>
 
     oc login [<cluster>]
     oc projects              # List projects
@@ -102,13 +102,13 @@ to declare those parameters.
       oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
     
 - [Securing inter-service communication with certificates](https://docs.openshift.com/container-platform/3.6/dev_guide/secrets.html#service-serving-certificate-secrets): done via annotations at the service indicating a TLS cert/key in a secret
-    
+```
       apiVersion: v1
         kind: Service
         metadata:
           annotations:
             service.alpha.openshift.io/serving-cert-secret-name: <name>
-    
+```
 - ebook: [OpenShift for
     Developers](https://www.openshift.com/promotions/for-developers.html)
 - OpenShift Cheat Sheets
