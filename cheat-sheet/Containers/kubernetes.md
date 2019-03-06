@@ -1,4 +1,9 @@
-## Commands
+## Handling multiple clusters
+
+    kubectl config view                    # Short list of clusters in ~/.kube/config
+    kubectl config use-context <context>   # Switch to another context
+
+## Cluster commands
 
     kubectl cluster-info
 
