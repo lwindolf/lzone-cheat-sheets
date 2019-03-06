@@ -1,5 +1,9 @@
 See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
 
+## EC2 CLI Commands
+
+    aws ec2 reboot-instances --instance-ids <ids>
+
 ## EBS
 
 - [Calculate EBS pricing](https://www.reddit.com/r/aws/comments/90j5zy/programmaticaly_get_price_of_ebs_volumes/)
