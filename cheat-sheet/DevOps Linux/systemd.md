@@ -73,6 +73,16 @@ Log directory is /var/log/journal
     journalctl --vacuum-size=100M    # Remove logs until <100MB is used
     journalctl --vacuum-time=2weeks  # Remove logs older 2 weeks
 
+### DNS
+
+    systemd-resolve --status
+    
+Config is in /etc/systemd/resolved.conf where might want to make changes like those
+
+    [Resolve]
+    DNS=8.8.8.8 8.8.44                # Set explicit nameservers
+    Cache=no                          # Disable caching responses
+
 ### Other
 
     hostnamectl
