@@ -27,7 +27,7 @@ Useful "get" commands
     kubectl create -f some.json
 
     kubectl get rc <node> -o yaml >some.yaml
-    kubectl uptate -f some.yaml
+    kubectl update -f some.yaml
 
     kubectl delete pod -l name=<name>
     kubectl delete services &lt;service>
