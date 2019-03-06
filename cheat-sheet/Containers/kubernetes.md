@@ -51,6 +51,10 @@ Removing/Readding nodes
 Several commands allow passing "--dry-run" to test impact
 
     kubectl run --dry-run [...]
+    
+## Debugging in Pods
+
+    kubectl exec <pod> [-n <namespace>] <command>
 
 ## Defining Limits and Quotas
 
