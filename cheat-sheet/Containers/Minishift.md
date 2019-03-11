@@ -6,6 +6,8 @@
     minishift addons list
     minishift addons enable <name>
     
+    minishift ssh               # Enters the virtual host
+    
 ## Install admin user addon
 
     minishift addons install --defaults
