@@ -98,9 +98,9 @@ to declare those parameters.
 ## Misc
 
 - Turning off sticky sessions: 
-
+```
       oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
-    
+``` 
 - [Securing inter-service communication with certificates](https://docs.openshift.com/container-platform/3.6/dev_guide/secrets.html#service-serving-certificate-secrets): done via annotations at the service indicating a TLS cert/key in a secret
 ```
       apiVersion: v1
