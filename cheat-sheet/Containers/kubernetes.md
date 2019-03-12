@@ -55,6 +55,8 @@ Several commands allow passing "--dry-run" to test impact
 ## Debugging in Pods
 
     kubectl exec <pod> [-n <namespace>] <command>
+    
+    kubectl exec <pod> -it bash      # Note some commands need a proper TTY (so add "-it")
 
 ## Defining Limits and Quotas
 
