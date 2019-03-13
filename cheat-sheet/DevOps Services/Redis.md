@@ -379,3 +379,10 @@ For example
     SLOWLOG GET 25
 
 and get the 25 slowest command during this time.
+
+## Sharding with proxies
+
+There are two major proxy solutions
+
+- Twemproxy (aka nutcracker, by Twitter)
+- Codis
