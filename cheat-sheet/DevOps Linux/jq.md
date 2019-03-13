@@ -50,7 +50,7 @@ To fill environment variables from JSON object keys (e.g. $FOO from jq query ".f
     export $(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')
 
 To make a bash array
-   read -a bash_array < <(jq -r .[]|objects|select(.!=null)|@tsv)
+   read -a bash_array < <(jq -r .|arrays|select(.!=null)|@tsv)
     
 ### JSON template using env vars
 
