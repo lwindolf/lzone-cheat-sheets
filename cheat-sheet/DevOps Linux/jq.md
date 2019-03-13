@@ -6,11 +6,11 @@ To test queries live use https://jqplay.org/
 
 If you do only care about output formatting (pretty print) run
 
-    cat my.json | jq
+    jq . my.json
 
 Note: for redirection you need to pass a filter too to avoid a syntax error:
 
-    cat my.json | jq . >output.json
+    jq . my.json > output.json
 
 ## Simple Extraction
 
@@ -47,7 +47,7 @@ From https://www.terraform.io/docs/providers/external/data_source.html
 
 To fill environment variables from JSON object keys (e.g. $FOO from jq query ".foo")
 
-    eval "$(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')"
+    export $(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')
     
 ### JSON template using env vars
 
