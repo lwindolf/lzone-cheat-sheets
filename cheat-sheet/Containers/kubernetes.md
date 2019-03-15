@@ -64,6 +64,10 @@ Forwarding ports to pods
 
     kubectl port-forward -n <namespace> <pod> <remote port>:<local port>
 
+For debugging network stuff it is always helpful to start a busybox pod
+    
+    kubectl run -it busysbox --replicas=1 --image=busybox --restart=Never
+
 ## Defining Limits and Quotas
 
 Conceptionally "quotas" limit the resource usage per namespace while "limits" are maximum allocation amounts per resource type (e.g. cpu, memory, storage, network policies...)
