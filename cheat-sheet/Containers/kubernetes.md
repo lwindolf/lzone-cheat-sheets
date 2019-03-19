@@ -88,12 +88,19 @@ Conceptionally "quotas" limit the resource usage per namespace while "limits" ar
             
 JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/understanding-linux-container-scheduling
 
-## Cron
+## Cron & Jobs
 
 Trigger cron manually right now
 
      kubectl create job --from=cronjob/<the name of cron to run> <job name>
-     
+
+Automatically clean up cron job invocations
+
+Either limit the history via optional spec fields:
+
+    .spec.successfulJobsHistoryLimit 
+    .spec.failedJobsHistoryLimit
+
 ## Online Tutorials
 
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
