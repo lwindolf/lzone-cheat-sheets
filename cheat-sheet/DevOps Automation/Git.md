@@ -49,7 +49,7 @@ To rebase on master
 
 When a rebase fails manually fix files and
 
-    git add 
+    git add <files>
     git rebase --continue
 
 ### Move commits onto new branch
@@ -91,8 +91,8 @@ Accidental commit of too many files
 
     git reset --soft HEAD^
 
-    git status      # to list all added files
-    git reset   # to remove incorrectly added files
+    git status         # to list all added files
+    git reset <files>  # to remove incorrectly added files
 
     # Commit afterwards
 
@@ -118,7 +118,7 @@ Here are the commands:
 
     # Stash just some files by adding all others first 
     # and using --keep-index
-    git add 
+    git add <files>
     git stash --keep-index
 
 ### List Commits in One Line Each
