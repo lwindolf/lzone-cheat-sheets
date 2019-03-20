@@ -2,7 +2,7 @@
 
 ### Encrypting
 
-    gpg -e [-u ""] -r "" <infile>
+    gpg -e [-u "<user>"] -r "<recipient>" <infile>
     gpg -se -r <Name> <infile>      # with signing
 
 ## Managing Keys
