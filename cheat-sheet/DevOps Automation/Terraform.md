@@ -19,20 +19,21 @@ Change verbosity by setting environment variable TF_LOG
     export TF_LOG=INFO
     
 ## Workspace Management 
-## Terraform workspaces allow for the management of two or more different environments i.e. Dev or Prod separately without affecting the state of either environment.
-    
-    terraform workspace new dev
-    
-    terraform workspace new test
-    
-    terraform workspace new prod
-    
-    terraform workspace select dev
-    
-    terraform workspace select default
-    
-    terraform workspace select prod
 
+Terraform workspaces allow for the management of two or more different environments i.e. Dev or Prod separately without affecting the state of either environment.
+    
+    terraform workspace new dev   
+    terraform workspace new test
+    terraform workspace new prod
+    terraform workspace select dev
+    terraform workspace select default  
+    terraform workspace select prod
+    
+More on using terraform workspaces as environments: https://medium.com/capital-one-tech/deploying-multiple-environments-with-terraform-kubernetes-7b7f389e622
+
+## Managing Multi-Region Deployments
+
+https://medium.com/capital-one-tech/multi-region-deployments-with-terraform-kubernetes-a1f51bb96974
 
 ## Recovering Lost State
 
