@@ -97,10 +97,6 @@ and explicitely called on the CLI
 
 ### Misc
 
--   [kubernetes](https://github.com/googlecloudplatform/kubernetes):
-    Docker container cluster management
--   [CoreOS Rocket](https://coreos.com/blog/rocket/) (commercial Docker
-    alternative)
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
     container support on AWS
 -   [Docker Patterns](http://www.hokstad.com/docker/patterns) -
