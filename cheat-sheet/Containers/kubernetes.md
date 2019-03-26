@@ -101,6 +101,18 @@ Either limit the history via optional spec fields:
     .spec.successfulJobsHistoryLimit 
     .spec.failedJobsHistoryLimit
 
+## Shorter CLI 
+
+With those two bash lines
+
+    function ns { export KUBECTL_NAMESPACE=$1; }
+    alias k='kubectl "--context=${KUBECTL_CONTEXT:-$(kubectl config current-context)}" ${KUBECTL_NAMESPACE/[[:alnum:]-]*/--namespace=${KUBECTL_NAMESPACE}}'
+
+you can do stuff like
+
+    ns myapp
+    k get pods
+
 ## Online Tutorials
 
 - [Katacoda](https://www.katacoda.com/courses/kubernetes)
