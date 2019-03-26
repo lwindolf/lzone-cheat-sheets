@@ -23,8 +23,18 @@ Useful "get" commands
     kubectl get deployments <application>
     kubectl get replicasets
     kubectl get sa                     # secret attachements
-    
+
+A complete list of all ressource and CRDs you can get with
+
+    kubectl api-resources
+    kubectl api-resources --namespaced=false      # List only cluster-wide resources
+
+Creating/manipulating resources
+
     kubectl create -f some.json
+    kubectl delete -f some.json                   # Useful to delete the same resources with the same YAML!
+    
+    kubectl edit <type> <resource>                # Edit live, will automatically restart stuff
 
     kubectl get rc <node> -o yaml >some.yaml
     kubectl update -f some.yaml
