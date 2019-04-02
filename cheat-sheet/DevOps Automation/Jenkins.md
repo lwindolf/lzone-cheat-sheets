@@ -1,4 +1,4 @@
-### JSON API Calls
+## JSON API Calls
 
     # Print name of all known jobs
     GET /api/json?tree=jobs[name]&pretty=true
@@ -12,7 +12,13 @@
     # Run job with parameters
     POST /<name>/buildWithParameters?<params>
 
-### Tracking builds
+## List all job paths
+
+    Jenkins.instance.getAllItems(AbstractItem.class).each {
+  	  println(it.fullName)
+    };
+
+## Tracking builds
 
 Jenkins 1.x
 
