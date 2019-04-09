@@ -200,7 +200,7 @@ This can be done via git command aliases invoking xdg-open. An example solution
 
     [alias]
       curbranch = rev-parse --symbolic-full-name --abbrev-ref HEAD
-      bpush = !sh -c 'git push origin $(git curbranch) 2>&1 |grep -o "https://.*" |xargs -r xdg-open'
+      bpush = !sh -c 'git push origin $(git curbranch) 2>&1 |grep -o "https://.*" |xargs xdg-open'
       bp = !sh -c 'echo "Pull" && git pull origin master && echo "Push" && git bpush'
 
 with now "git bp" pulling, pushing and opening the PR for further review work.
