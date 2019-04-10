@@ -160,6 +160,7 @@ List of auth proxy implementations
 
 ## Misc
 
+- [Dumping nginx-ingress config](https://kubernetes.github.io/ingress-nginx/troubleshooting/#using-gdb-with-nginx)
 - [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
 
       cat /proc/net/tcp             # gives you raw data with hex numbers :-(
