@@ -36,6 +36,10 @@ Getting infos on the cluster
     kops get secrets <name> -oplaintext
     
     kops get <cluster name> [-o yaml]
+    
+Set kubecfg cluster context
+
+    kops export kubecfg <cluster name>
 
 ## Resizing
 
