@@ -79,7 +79,7 @@ Start command
 
 ### Multi-stage Dockerfiles
 
-Starting with Docker 17.05 you can do [https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds](multi-stage builds) by having multiple FROM commands in one Dockerfile
+Starting with Docker 17.05 you can do [multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds) by having multiple FROM commands in one Dockerfile
 
     FROM image1
     ...
