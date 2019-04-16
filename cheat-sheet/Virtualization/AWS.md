@@ -1,5 +1,19 @@
 See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
 
+## Configuring Profiles
+
+    aws configure set help
+
+    aws configure set aws_access_key_id <key id>
+    aws configure set aws_secret_access_key <secret>
+    aws configure set default.region <region>
+    aws configure set region <region>
+
+To query/configure specific profiles prefix the profile to the config key
+
+    aws configure get <profile>.region
+    aws configure set <profile>.region <region>
+
 ## EC2 CLI Commands
 
     aws ec2 reboot-instances --instance-ids <ids>
