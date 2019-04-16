@@ -127,7 +127,6 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 
         lft -AN www.google.de
 
-- Manually lookup AS    
 - [dailychanges.com](http://www.dailychanges.com/): Tracks DNS changes
 - [Tuning network settings](https://russ.garrett.co.uk/2009/01/01/linux-kernel-tuning/)
 
