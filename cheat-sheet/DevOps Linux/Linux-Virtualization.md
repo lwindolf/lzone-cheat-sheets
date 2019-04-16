@@ -14,8 +14,6 @@ Most of the content is now in separate cheat sheets:
 
 ### Misc
 
--   [AWS - Using Chef to manage EC2
-    instances](http://gerhardlazu.com/2010/08/using-chef-to-manage-amazon-ec2-instances-part1/)
 -   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN
     article
 
