@@ -115,7 +115,9 @@ Either limit the history via optional spec fields:
 
 With those two bash lines
 
-    function ns { kubectl config set-context --current --namespace=$1 >/dev/null }
+    ns() {
+        kubectl config set-context --current --namespace=$1 >/dev/null
+    }
     alias k='kubectl "--context=${KUBECTL_CONTEXT:-$(kubectl config current-context)}"'
 
 you can do stuff like
