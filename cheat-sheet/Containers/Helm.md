@@ -28,6 +28,12 @@ To list charts (packages)
     helm install stable/<name> --namespace <ns>     # Install from repo
     helm install ./<file name> --namespace <ns>     # Install from archive
 
+## Creating packages
+
+    helm create mychart                                    # Create boilerplate
+    
+    helm install mychart-0.1.0.tgz --dry-run --debug       # Test installing
+
 ## Misc
 
 - https://kubeapps.com/: Web GUI for installing Helm charts
