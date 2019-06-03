@@ -18,6 +18,13 @@
   	  println(it.fullName)
     };
 
+## Dump Plugin Versions
+
+    Jenkins.instance.pluginManager.plugins.each{
+      plugin -> 
+        println("${plugin.getShortName()}:${plugin.getVersion()}")
+    }
+
 ## Tracking builds
 
 Jenkins 1.x
