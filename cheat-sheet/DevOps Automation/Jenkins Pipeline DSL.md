@@ -19,6 +19,20 @@ When running job as Kubernetes pods you need to specify/inherit [podTemplates](h
       }
     }
 
+Instead of explicitely specifying the pod template you can inherit templates and overwrite only some of the
+values...
+
+    podTemplate(label: 'mypod', inheritFrom: 'basepod) {
+      ...
+    }
+
+### Understand the internals!
+
+Keep in mind the following:
+
+- there is always a container 'jnlp' which runs the Jenkins agent
+- when you do not use `container('...') {}` you are running inside the 'jnlp' container
+- you can override the 'jnlp' container by defining your own `containerTemplate(name:'jnlp', ...)`
 
 ### Docker-in-Docker
 
