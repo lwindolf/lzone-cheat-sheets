@@ -1,6 +1,6 @@
 ## Using Kubernetes
 
-When running job as Kubernetes pods you need to specify/inherit [podTemplates](https://github.com/jenkinsci/kubernetes-plugin)
+When running jobs as Kubernetes pods you need to specify/inherit [podTemplates](https://github.com/jenkinsci/kubernetes-plugin)
 
     def label = "mypod-${UUID.randomUUID().toString()}"    // ugly necessary workaround
     podTemplate(label: label, containers: [
