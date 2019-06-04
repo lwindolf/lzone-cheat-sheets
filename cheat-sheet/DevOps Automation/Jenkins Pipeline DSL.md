@@ -33,6 +33,7 @@ Keep in mind the following:
 - there is always a container 'jnlp' which runs the Jenkins agent
 - when you do not use `container('...') {}` you are running inside the 'jnlp' container
 - you can override the 'jnlp' container by defining your own `containerTemplate(name:'jnlp', ...)`
+- SCM checkout *always* happens in the 'jnlp' container!
 
 ### Docker-in-Docker
 
@@ -48,6 +49,16 @@ If you want to build docker images you have to run docker on-top of kubernetes. 
         }
       }
     }
+
+## SCM Checkout
+
+For Jenkinsfiles located in the repo perform checkout like this
+
+    checkout scm
+
+To check out other repos not provide automatically by the SCM plugin
+
+    git credentialsId: 'github', url: ${REPO_URL}, branch: 'master'
 
 ## Credentials
 
