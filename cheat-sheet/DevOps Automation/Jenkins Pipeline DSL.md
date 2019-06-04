@@ -3,11 +3,22 @@
 ### Username and Password
 
 Fetch user and password into env variables
+
+    withCredentials([usernamePassword(
+                       credentialsId: 'myCredentials',
+                       usernameVariable: 'USER',
+                       passwordVariable: 'PASSWORD'
+                   )]) {
+      sh 'echo user "$USER" pasword "$PASSWORD"'
+    }
+ 
+ or
  
     withCredentials([[$class: 'UsernamePasswordMultiBinding',
                       credentialsId: 'myCredentials', 
                       usernameVariable: 'USER', 
-                      passwordVariable: 'PASSWORD']]) {
+                      passwordVariable: 'PASSWORD'
+                    ]]) {
       sh 'echo user "$USER" pasword "$PASSWORD"'
     }
     
