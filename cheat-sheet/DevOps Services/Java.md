@@ -1,4 +1,15 @@
-### JDBC Problems
+## Heapsize calculation
+
+You can print the effective heap size and RAM settions by using -XX:+PrintFlagsFinal. Below is an example for a 8GB host of which Java per default 1/4 (MaxRAMFraction) uses 2GB:
+
+    java -XX:+PrintFlagsFinal $MY_PARAMS -version | grep -Ei "maxheapsize|maxram"
+      size_t MaxHeapSize                              = 2061500416                                {product} {ergonomic}
+    uint64_t MaxRAM                                   = 137438953472                           {pd product} {default}
+       uintx MaxRAMFraction                           = 4                                         {product} {default}
+      double MaxRAMPercentage                         = 25.000000                                 {product} {default}
+
+
+## JDBC Problems
 
 Oracle JDBC hanging and timing out when run on VMs: this can indicate
 missing entropy **Workaround**: Note that this reduces security! Use
@@ -6,15 +17,15 @@ urandom as RNG by adding the following JVM option
 
     -Djava.security.egd=file:///dev/urandom
 
-### Check if you are using Oracle JDK (and need a valid license)
+## Check if you are using Oracle JDK (and need a valid license)
 
     pgrep -fl java | grep -q "+UnlockCommercialFeatures"
 
-### Default Keystore Location
+## Default Keystore Location
 
     readlink -e $(dirname $(readlink -e $(which keytool)))/../lib/security/cacerts
 
-### JMX Remote JConsole via SSH tunnel
+## JMX Remote JConsole via SSH tunnel
 
 Enable JMX and JConsole:
 
