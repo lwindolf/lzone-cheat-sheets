@@ -8,6 +8,18 @@ You can print the effective heap size and RAM settions by using -XX:+PrintFlagsF
        uintx MaxRAMFraction                           = 4                                         {product} {default}
       double MaxRAMPercentage                         = 25.000000                                 {product} {default}
 
+## Java RAM and containers
+
+When running Java in containers you need to ensure Java see the real amount of RAM it has available.
+Before Java 11 it usually sees the total amount of RAM available to the host system. Basing usage 
+on this amount often causes OOM kills.
+
+| Java Version          | Solution                                                          |
+| --------------------- | ----------------------------------------------------------------- |
+| Java <8u131           | Calculate correct memory size and set using -Xms/-Xmx             |
+| Java 8u131+, Java 9   | -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap |
+| Java 10+              | -XX:+UseContainerSupport -XX:MaxRAMPercentage                     |
+
 
 ## JDBC Problems
 
