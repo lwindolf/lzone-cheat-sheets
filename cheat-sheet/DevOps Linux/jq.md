@@ -37,6 +37,7 @@ Filter this by attribute
 
     jq '.results[] | select(.name == "John") | {age}'      # Get age for 'John'
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
+    jq '.results[] | select(.name | test("Joe\s+Smith"))'  # Get complete records for all names matching PCRE regex 'Joe\+Smith'
 
 
 ## Using jq in Shell Scripts
