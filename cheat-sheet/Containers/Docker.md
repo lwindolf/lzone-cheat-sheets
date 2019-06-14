@@ -1,4 +1,4 @@
-### Commands
+## Commands
 
 Note \<container> is either a container id, or a container name (if such is given to a container with the --name option on start). Both can be obtained with the "docker ps -a" command. <image> is either an image id, or an image name. Both can be obtained with the "docker image" command. Do not confuse with container id/name!
 
@@ -40,7 +40,7 @@ Note \<container> is either a container id, or a container name (if such is give
     docker history <image>              # Shows image creation history. Useful if you want to "recreate" the Dockerfile of an image -
                                         # in cases where you are interested how the image has been created.
 
-### Dockerfile Examples
+## Dockerfile Examples
 
 Installing packages
 
@@ -77,7 +77,7 @@ Start command
     ENV TZ=America/Los_Angeles
     RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-### Multi-stage Dockerfiles
+## Multi-stage Dockerfiles
 
 Starting with Docker 17.05 you can do [multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds) by having multiple FROM commands in one Dockerfile
 
@@ -95,7 +95,14 @@ and explicitely called on the CLI
 
     docker build --target stage1 ...
 
-### Misc
+## Docker Registry v2 API
+
+https://docs.docker.com/registry/spec/api/
+
+    /v2/_catalog                # List repositories
+    /v2/<repository>/tags/list  # List tags for a given repo
+
+## Misc
 
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
     container support on AWS
