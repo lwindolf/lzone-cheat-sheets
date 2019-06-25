@@ -98,6 +98,10 @@ In Dockerfile use syntax with /
 
     FROM <server>/<image>:<tag>
 
+Define a variable registry in FROM clause and pass the hostname with `--build-arg MY_REGISTRY=docker.example.com`
+
+    ARG MY_REGISTRY=
+    FROM ${MY_REGISTRY}/myimage
 
 ## Multi-stage Dockerfiles
 
