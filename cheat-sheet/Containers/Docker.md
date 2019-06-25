@@ -12,13 +12,16 @@ Note \<container> is either a container id, or a container name (if such is give
     docker diff    <container>          # Shows changes on container's filesystem. Will produce a list of files and folders prefixed by a
                                         # character. "A" is for "added", "C" is for changed.
     docker stats   <container>          # Shows the consumed by the container resources (memory, CPU, network bandwidth)
-    
+
+### Building Images
+
     docker build .
-    docker build -f Dockerfile.test .                    # Use another Dockerfile file name
+    docker build -f Dockerfile.test .                     # Use another Dockerfile file name
     docker build --target <stage> .                       # Build specific target of a multi-stage Dockerfile
     docker build --build-arg MYARG=myvalue .              # Pass variables with --build-arg
     docker build --add-host <hostname>:<target> .         # Inject hostnames
-                                          
+
+### Container Lifecycle
 
     docker run -i -t ubuntu /bin/bash   # New instance from image. "-i" is for "interactive" and "t" is for terminal. Without "it" it
                                         # won't be interactive - you will get a shell/terminal, but will not be able to type anything onto 
