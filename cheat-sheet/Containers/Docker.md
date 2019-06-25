@@ -85,6 +85,12 @@ Using variables
     
 Pass those variables using `--build-arg JAR_DOWNLOAD=... --build-arg JAVA_OPTS="-D..."`
 
+## Working with private registries
+
+In Dockerfile use syntax with /
+
+    FROM <server>/<image>:<tag>
+
 
 ## Multi-stage Dockerfiles
 
