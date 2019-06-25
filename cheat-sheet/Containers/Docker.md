@@ -76,6 +76,15 @@ Start command
 
     ENV TZ=America/Los_Angeles
     RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+    
+Using variables
+
+    RUN curl $JAR_DOWNLOAD
+    ...
+    CMD java ${JAVA_OPTS} ...
+    
+Pass those variables using `--build-arg JAR_DOWNLOAD=... --build-arg JAVA_OPTS="-D..."`
+
 
 ## Multi-stage Dockerfiles
 
