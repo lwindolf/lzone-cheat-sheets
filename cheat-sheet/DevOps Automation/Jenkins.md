@@ -17,6 +17,14 @@
     Jenkins.instance.getAllItems(AbstractItem.class).each {
   	  println(it.fullName)
     };
+    
+## Cancel all jobs
+
+    import hudson.model.*
+    
+    def q = Jenkins.instance.queue
+    
+    q.items.each { q.cancel(it.task) }
 
 ## Dump Plugin Versions
 
