@@ -39,7 +39,7 @@ vi &lt;file&gt; +&lt;line nr&gt;</pre>
 			<td>
 			Enable them in ~/.vimrc with
 
-<pre>:set modelines</pre>
+<pre>set modeline</pre>
 
 Examples:
 
