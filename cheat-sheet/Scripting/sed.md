@@ -20,6 +20,10 @@ Appending lines
     aHallo                   # Append 'Hallo' after each line
     5 aHallo                 # Append 'Hallo' after line #5
     $ aHallo                 # Append 'Hallo' to end of file
+    
+Prepending lines
+
+    sed -i '1s;^;new line 1\nanother new line 2\n;' <file>
 
 ### Advanced use of sed
 
