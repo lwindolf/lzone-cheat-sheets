@@ -76,7 +76,7 @@ Forwarding ports to pods
 
 For debugging network stuff it is always helpful to start a busybox pod
     
-    kubectl run -it busysbox --replicas=1 --image=busybox --restart=Never
+    kubectl run -it busybox --replicas=1 --image=busybox --restart=Never
 
 ## Defining Limits and Quotas
 
