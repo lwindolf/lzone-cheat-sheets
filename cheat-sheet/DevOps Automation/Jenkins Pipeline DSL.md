@@ -50,6 +50,19 @@ If you want to build docker images you have to run docker on-top of kubernetes. 
       }
     }
 
+## Handling the environment
+
+Query all env variables
+
+    node {
+      echo sh(returnStdout: true, script: 'env | sort')
+    }
+
+Access an env variable
+
+    echo env.BUILD_ID
+    echo "My build is is ${env.BUILD_ID}"
+
 ## SCM Checkout
 
 For Jenkinsfiles located in the repo perform checkout like this
