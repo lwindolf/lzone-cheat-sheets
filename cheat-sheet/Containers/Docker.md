@@ -92,6 +92,10 @@ Using variables
     
 Pass those variables using `--build-arg JAR_DOWNLOAD=... --build-arg JAVA_OPTS="-D..."`
 
+For longer commands use CMD array syntax
+
+    CMD [ "java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", <...>]
+
 ## Working with private registries
 
 In Dockerfile use syntax with /
