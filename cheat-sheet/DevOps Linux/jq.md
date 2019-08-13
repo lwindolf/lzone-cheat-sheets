@@ -39,6 +39,15 @@ Filter this by attribute
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
     jq '.results[] | select(.name | test("Joe\s+Smith"))'  # Get complete records for all names matching PCRE regex 'Joe\+Smith'
 
+## Handle Empty Arrays
+
+When you want to iterate and an array you access is empty you get something like
+
+    jq: error (at <stdin>:3): Cannot iterate over null (null)
+
+To workaround the optional array protect the access with
+
+    select(.my_array | length > 0)
 
 ## Using jq in Shell Scripts
 
