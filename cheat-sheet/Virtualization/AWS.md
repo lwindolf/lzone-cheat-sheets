@@ -16,7 +16,13 @@ To query/configure specific profiles prefix the profile to the config key
 
 ## EC2 CLI Commands
 
+    aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
+
+## STS
+
+    aws sts get-caller-identity | jq -r '.Account'                      # Resolve your account id
+    aws sts assume-role --role-arn <arn> --role-session-name <any name>
 
 ## EBS
 
