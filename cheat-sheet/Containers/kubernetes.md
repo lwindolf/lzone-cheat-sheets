@@ -39,7 +39,7 @@ Creating/manipulating resources
     kubectl get rc <node> -o yaml >some.yaml
     kubectl update -f some.yaml
     
-    kubectl annotate <type> <name> key=value
+    kubectl annotate <type> <name> [--overwrite=true] key=value
 
     kubectl delete pod -l name=<name>
     kubectl delete services &lt;service>
