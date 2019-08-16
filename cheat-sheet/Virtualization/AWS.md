@@ -28,6 +28,7 @@ To query/configure specific profiles prefix the profile to the config key
     
     aws iam get-role --role-name <name>
     aws iam create-role --role-name <name> --asume-role-policy-document '<text>'
+    aws iam delete-role --role-name                      # Note: you need to detach all policies first!
     
  To list policies you need 2 commands, as there are 2 types of policies: attached policies and inline policies
     
