@@ -1,3 +1,4 @@
+
 See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
 
 ## Configuring Profiles
@@ -18,6 +19,33 @@ To query/configure specific profiles prefix the profile to the config key
 
     aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
+
+## IAM
+
+    aws iam list-roles
+    aws iam list-roles | jq -r '.Roles[].RoleName'       # Print role names
+    aws iam list-roles | jq -r '.Roles[].Arn'            # Print ARNs
+    
+    aws iam get-role --role-name <name>
+    aws iam create-role --role-name <name> --asume-role-policy-document '<text>'
+    
+ To list policies you need 2 commands, as there are 2 types of policies: attached policies and inline policies
+    
+    # For attached policies
+    aws iam list-attached-role-policies --role-name <name>
+    
+    # For inline policies
+    aws iam list-role-policies --role-name <name>
+
+To add/remove an inline policy
+
+    aws iam put-role-policy --role-name <role name> --policy-name <policy name> --policy-document '<text>'
+    aws iam delete-role-policy --role-name <role name> --policy-name <policy name>
+
+To attach/detach an existing policy
+
+    aws iam attach-role-policy --role-name <role name> --policy-arn <policy arn>
+    aws iam detach-role-policy -q-role-name <role name> --policy-arn <policy arn>
 
 ## STS
 
