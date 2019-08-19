@@ -100,6 +100,43 @@ Conceptionally "quotas" limit the resource usage per namespace while "limits" ar
             
 JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/understanding-linux-container-scheduling
 
+## Downward API
+
+Using the [https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/](downward API) you can expose pod resource infos to the pod itself via environment variables ...
+
+    spec:
+      containers:
+      - env:
+        - name: MY_CPU_REQUEST
+          valueFrom:
+            resourceFieldRef:
+              resource: requests.cpu
+        - name: MY_MEM_REQUEST
+          valueFrom:
+            resourceFieldRef:
+              resource: requests.memory
+
+... or a volume mount
+
+    spec:
+      containers: 
+        [...]
+        volumeMounts:
+        - name: podinfo
+          mountPath: /etc/podinfo
+          readOnly: false
+      volumes:
+      - name: podinfo
+        downwardAPI:
+          items:
+          - path: "labels"
+            fieldRef:
+              fieldPath: metadata.labels
+          - path: "annotations"
+            fieldRef:
+              fieldPath: metadata.annotations
+
+
 ## Cron & Jobs
 
 Trigger cron manually right now
