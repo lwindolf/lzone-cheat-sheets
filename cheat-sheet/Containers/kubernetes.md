@@ -102,7 +102,7 @@ JVM and CFS problems/solutions: https://engineering.squarespace.com/blog/2017/un
 
 ## Downward API
 
-Using the [https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/](downward API) you can expose pod resource infos to the pod itself via environment variables ...
+Using the (https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/)[downward API] you can expose pod resource infos to the pod itself via environment variables ...
 
     spec:
       containers:
