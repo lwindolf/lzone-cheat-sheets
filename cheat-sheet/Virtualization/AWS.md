@@ -1,6 +1,10 @@
 
 See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
 
+## Drawing AWS Architectures
+
+Use the AWS library for draw.io: https://www.draw.io/?splash=0&libs=aws3
+
 ## Configuring Profiles
 
     aws configure set help
@@ -90,7 +94,6 @@ To attach/detach an existing policy
          --parameters <parameters>
          ...
       aws cloudformation wait stack-create-complete --stack-name "$STACK_NAME"
-      
 
 - Automation with Ansible
    - [How-To Create Stacks](http://darrylcauldwell.com/aws-cloudformation/)
