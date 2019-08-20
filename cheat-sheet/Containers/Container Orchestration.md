@@ -47,6 +47,7 @@ See also <?add topic='Helm'?> <?add topic='kubernetes'?>
 - [komposer](http://kompose.io/) (Docker Compose for kubernetes and Openshift)
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
+- Helmfile (orchestrate Helm chart releases, config + secret management)
 - Helmsman (Helm based cluster manager)
 - [Armada](http://armada-helm.readthedocs.io/en/latest/readme.html) (Helm based central configuration, including lifecycle hooks)
 - [Landscaper](https://github.com/Eneco/landscaper) (Helm charts based resource definition)
