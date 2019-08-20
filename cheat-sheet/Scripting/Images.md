@@ -2,7 +2,7 @@ This sheet cheat is about manipulating images (as in pictures).
 
 ## ImageMagick
 
-In the commands below <input> is the name of the input file and output of the output file to be created
+In the commands below &lt;input> is the name of the input file and output of the output file to be created
 
 ### Resizing
 
