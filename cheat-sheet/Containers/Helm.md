@@ -4,14 +4,20 @@ See also <?add topic='Openshift'?> <?add topic='kubernetes'?>
 
 For instructions check [here](https://docs.helm.sh/using_helm/#quickstart-guide)
 
-    oc login       # Connect to Kubernetes/Openshift
-    helm init
+    helm init   
     helm repo update
     
     # To get access to unstable charts
     helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
 
 For Openshift there is an [RBAC compatible installation proceduce](https://blog.openshift.com/getting-started-helm-openshift/).
+
+## Setup Troubleshooting
+
+    helm init --client-only                      # (Helm 2.x only) do not initialize tiller
+    helm init --upgrade --service-account tiller # (Helm 2.x only) ensure to sync client/server versions
+ 
+    helm version       # Client/server versions should be equal
 
 ## List available packages
 
