@@ -25,8 +25,17 @@ To list charts (packages)
 
 ## Install package
 
-    helm install stable/<name> --namespace <ns>     # Install from repo
-    helm install ./<file name> --namespace <ns>     # Install from archive
+Helm 2
+
+    helm install <chart> [--namespace <ns>]         # Choose release name for you
+    helm install --name <name> <chart>              # Install chart as release <name>
+    
+    helm install ./<chart dir> --namespace <ns>     # Install from local archive
+ 
+Helm 3
+
+    helm install <name> <chart> [--namespace <ns>]  # Per-default you need to provide a release name
+    helm install -g <chart>     [--namespace <ns>]  # Helm 2 like generated release name
 
 ## Creating packages
 
