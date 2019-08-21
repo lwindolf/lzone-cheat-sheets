@@ -37,7 +37,12 @@ Helm 3
     helm install <name> <chart> [--namespace <ns>]  # Per-default you need to provide a release name
     helm install -g <chart>     [--namespace <ns>]  # Helm 2 like generated release name
 
-## Creating packages
+## Working with plugins
+
+    helm plugin list
+    helm plugin install <plugin URL>
+
+## Creating chart packages
 
     helm create mychart                                    # Create boilerplate
     
