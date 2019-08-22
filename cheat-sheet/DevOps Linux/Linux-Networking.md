@@ -19,12 +19,16 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 
 ## DNS
 
--   Resolve a name via nsswitch
+- Resolve own IP
 
-        getent hosts <host name>
+      dig +short myip.opendns.com @resolver1.opendns.com
 
--   [CloudShark](http://www.cloudshark.org): Sharing network traces
--   DNS Lookup
+- Resolve a name via nsswitch
+
+      getent hosts <host name>
+
+- [CloudShark](http://www.cloudshark.org): Sharing network traces
+- DNS Lookup
 
         dig <domain>
         dig <domain> +noall +answer
