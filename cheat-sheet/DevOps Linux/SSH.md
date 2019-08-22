@@ -1,4 +1,4 @@
-### OpenSSH Commands
+## OpenSSH Commands
 
 Copy Keys
 
@@ -39,19 +39,21 @@ Extract Public Key from Private Key
 Use ssh-keygen
 
     ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+    
+    ssh-keygen -t rsa -N ""          # Create new keys without prompting for passphrase
 
-### ssh\_config
+## ssh\_config
 
 Read the [authorized\_keys
 HowTo](http://www.eng.cam.ac.uk/help/jpmg/ssh/authorized_keys_howto.html)
 to learn about syntax and options...
 
-#### Per Host Keys
+### Per Host Keys
 
     Host example.com
     IdentityFile ~/.ssh/example.com_id_rsa
 
-#### Agent Forwarding
+### Agent Forwarding
 
 [Agent
 Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
@@ -60,7 +62,7 @@ explained with pictures! Configured in /etc/ssh\_config with
     Host *
     ForwardAgent yes
 
-#### Multiplexing Connections
+### Multiplexing Connections
 
 This is done using a "ControlMaster". This means the first SSH sessions
 connection will be used for all following ones saving you the connection
@@ -76,14 +78,14 @@ Create \~/.ssh/tmp before using below snippet
 If you are using such an SSH configuration and want a real new
 connection add "-S" to the ssh invocation.
 
-#### Use Gateway/Jumphost
+### Use Gateway/Jumphost
 
 You can configure jumphosts using ProxyCommand and netcat:
 
     Host unreachable_host
       ProxyCommand ssh -e none gateway_host exec nc %h %p
 
-#### Automatic Jump Host Proxying
+### Automatic Jump Host Proxying
 
     Host <your jump host>
       ForwardAgent yes
@@ -96,21 +98,21 @@ You can configure jumphosts using ProxyCommand and netcat:
       User <your user name on all these hosts>
       ProxyCommand ssh -q <your jump host> nc -q0 %h 22
 
-#### Automatic Port Knocking
+### Automatic Port Knocking
 
     Host myserver
        User myuser
        Host myserver.com
        ProxyCommand bash -c '/usr/bin/knock %h 1000 2000 3000 4000; sleep 1; exec /bin/nc %h %p'
 
-### Troubleshooting
+## Troubleshooting
 
-#### Pseudo-terminal will not be allocated...
+### Pseudo-terminal will not be allocated...
 
 This happens when piping shell commands through SSH. Try adding "-T" or
 "-t -t" when doing sudo.
 
-### Misc
+## Misc
 
 -   [SFTP chroot with
     umask](http://jeff.robbins.ws/articles/setting-the-umask-for-sftp-transactions):
@@ -144,7 +146,7 @@ This happens when piping shell commands through SSH. Try adding "-T" or
 
         monkeysphere subkey-to-ssh-agent -t 3600
 
-#### Port Knocking
+### Port Knocking
 
 Setup server:
 
@@ -165,7 +167,7 @@ e.g.
 
     knock example.com 7000 8000 9000
 
-#### "Secret" Hot Keys
+### "Secret" Hot Keys
 
 SSH Escape Key: Pressing "\~?" (directly following a newline) gives a
 menu for escape sequences:
@@ -182,7 +184,7 @@ menu for escape sequences:
       ~~  - send the escape character by typing it twice
     (Note that escapes are only recognized immediately after newline.)
 
-#### SSHFS
+### SSHFS
 
 To mount a remote home dir
 
