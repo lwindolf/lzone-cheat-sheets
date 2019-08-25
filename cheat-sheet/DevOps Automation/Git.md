@@ -180,7 +180,7 @@ the \$ like this:
 
 ### Merge two repos
 
-One simple way to (merge two repos)[https://bneijt.nl/blog/post/merge-a-subdirectory-of-another-repository-with-git/]
+One simple way to [merge two repos](https://bneijt.nl/blog/post/merge-a-subdirectory-of-another-repository-with-git/)
 is to add one repo (repo1) into a subdirectory of another repository (repo2)
 
     cd repo2
