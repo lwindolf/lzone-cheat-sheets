@@ -95,6 +95,17 @@ Pass those variables using `--build-arg JAR_DOWNLOAD=... --build-arg JAVA_OPTS="
 For longer commands use CMD array syntax
 
     CMD [ "java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", <...>]
+    
+Ensure pipe errors to break the build
+
+    SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+Clear apt cache
+
+    RUN apt-get update \
+      && apt-get install --no-install-recommends -y <packages> \
+      && apt-get clean \
+      && rm -rf /var/lib/apt/lists/*
 
 ## Working with private registries
 
