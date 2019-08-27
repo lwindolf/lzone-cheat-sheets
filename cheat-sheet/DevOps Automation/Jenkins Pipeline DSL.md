@@ -50,6 +50,14 @@ If you want to build docker images you have to run docker on-top of kubernetes. 
       }
     }
 
+## Accessing the workspace
+
+Check if a file exists
+
+    if (fileExists('file')) {
+       // ...
+    }
+
 ## Handling the environment
 
 Query all env variables
