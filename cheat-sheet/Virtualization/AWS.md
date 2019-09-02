@@ -21,6 +21,8 @@ To query/configure specific profiles prefix the profile to the config key
 
 ## EC2 CLI Commands
 
+Instance types overview https://aws.amazon.com/ec2/instance-types/
+
     aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
 
