@@ -210,3 +210,11 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
     git checkout 'master@{2019-01-01 01:00:00}'
 
 <?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
+
+### cherrypick changes in a specific commit from branch 'A' to branch 'B'
+    
+    git checkout B
+    git cherry-pick <commit hash from branch A>
+
+### know what changed on a specific commit
+    git show <commit hash>
