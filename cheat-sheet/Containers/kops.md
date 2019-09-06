@@ -41,6 +41,17 @@ Set kubecfg cluster context
 
     kops export kubecfg <cluster name>
 
+## Removing a node
+
+    kubectl drain <node>
+    kubectl drain <node> --ignore-daemonsets --delete-local-data         # If needed
+    
+    kops edit ig nodes     # Set node count to 1 less than before
+    
+    kubectl delete node <node>
+    
+    kops update cluster --yes
+
 ## Resizing
 
     kops ig edit nodes  [...]       # Edit definition of instance group "nodes"
