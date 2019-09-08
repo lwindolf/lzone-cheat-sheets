@@ -132,6 +132,20 @@ To search all commits for lines containing a certain change:
     git log -p -S -- 
     git log -p -G -- 
 
+## Tags
+
+    git fetch --all --tags --prune
+
+    git checkout tag/<tag> -b <branch>
+    git clone <repo> --branch=<tag>
+    
+    git tag                    # List all tags
+    git tag <tag>              # Create tag
+    git tag -a <tag> -m <msg>  # Create annotated tag
+    
+    git tag -d <tag>         # Deletes tag in your local repo
+    git push origin :<tag>   # Deletes tag remote
+
 ## Misc
 
 ### Update submodules
