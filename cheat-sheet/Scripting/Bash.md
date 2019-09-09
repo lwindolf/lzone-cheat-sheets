@@ -13,6 +13,20 @@ See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add
     ${str/%pattern/replacement} # pattern replace at end
     ${str//pattern/replacement} # global pattern replace
 
+## Parameter Substituion
+
+    ${str-default}             # set 'default' if not set
+    ${str:-default}            # set 'default' if not set (even if declared null)
+    
+    ${str=default}             # set 'default' if not set
+    ${str:=default}            # set 'default' if not set (even if declared null)
+    
+    ${str+value}               # set 'value' if $str is set, otherwise set null
+    ${str:+value}              # set 'value' if $str is set (even if declared null), otherwise set null
+    
+    ${str?error}               # abort with 'error' if not set
+    ${str:?error}              # abort with 'error' if not set (and not null)
+
 ## Arrays
 
 Indexed arrays require no declaration
