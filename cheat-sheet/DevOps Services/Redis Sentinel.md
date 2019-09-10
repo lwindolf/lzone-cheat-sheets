@@ -1,8 +1,8 @@
 ## Commands
 
-Use "redis-cli" with port 26739 to connect to sentinel. Note: you always want to tail the /var/log/sentinel/sentinel.log on all sentinels to see the cluster interaction.
+Use "redis-cli" with port 26379 to connect to sentinel. Note: you always want to tail the /var/log/sentinel/sentinel.log on all sentinels to see the cluster interaction.
 
-    redis-cli -p 26739
+    redis-cli -p 26379
    
 Dump information
 
