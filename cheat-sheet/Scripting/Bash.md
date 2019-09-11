@@ -253,6 +253,10 @@ Via https://spin.atomicobject.com/2017/08/24/start-stop-bash-background-process/
     background_something &
     
     wait
+    
+### Kill childs on exit
+
+    trap 'kill $(jobs -p)' EXIT
 
 ### Command Completion
 
