@@ -58,6 +58,17 @@ Check if a file exists
        // ...
     }
 
+## Getting shell output
+
+Either via reading from file
+
+    sh "echo something >output.txt";
+    def output =readFile('output.txt').trim()
+
+or using the sh plugin
+
+    def output = sh(returnStdout: true, script: 'echo something').trim()
+
 ## Handling the environment
 
 Query all env variables
