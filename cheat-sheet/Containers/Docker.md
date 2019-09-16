@@ -21,6 +21,16 @@ Note \<container> is either a container id, or a container name (if such is give
     docker build --build-arg MYARG=myvalue .              # Pass variables with --build-arg
     docker build --add-host <hostname>:<target> .         # Inject hostnames
 
+### Releasing Images
+
+    docker tag <source>[:<tag>] <target>:<tag>
+    docker push <target>:<tag>
+    
+To a private/remote registry
+
+    docker tag <source>[:<tag>] <remote registry>/<target>:<tag>
+    docker push <remote registry>/<target>:<tag>
+
 ### Container Lifecycle
 
     docker run -i -t ubuntu /bin/bash   # New instance from image. "-i" is for "interactive" and "t" is for terminal. Without "it" it
