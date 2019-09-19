@@ -468,44 +468,14 @@ names and if need dump there contents.
 There are different dumping tools sometimes just scripts out there that
 help you with printing memcache keys:
 
-+--------------------------+--------------------------+--------------------------+
-| PHP                      | [simple                  | Prints key names.        |
-|                          | script](http://snipt.org |                          |
-|                          | /xtP)                    |                          |
-+--------------------------+--------------------------+--------------------------+
-| Perl                     | [simple                  | Prints keys and values   |
-|                          | script](https://wiki.jas |                          |
-|                          | ig.org/download/attachme |                          |
-|                          | nts/13572172/memcached-c |                          |
-|                          | lean.pl?version=1&modifi |                          |
-|                          | cationDate=1229693957401 |                          |
-|                          | )                        |                          |
-+--------------------------+--------------------------+--------------------------+
-| Ruby                     | [simple                  | Prints key names.        |
-|                          | script](https://gist.git |                          |
-|                          | hub.com/1365005)         |                          |
-+--------------------------+--------------------------+--------------------------+
-| Perl                     | [memdump](http://search. | Tool in CPAN module      |
-|                          | cpan.org/~dmaki/Memcache | [Memcached-libmemcached] |
-|                          | d-libmemcached-0.4202/sr | (http://search.cpan.org/ |
-|                          | c/libmemcached/docs/memd | ~dmaki/Memcached-libmemc |
-|                          | ump.pod)                 | ached/)                  |
-+--------------------------+--------------------------+--------------------------+
-| PHP                      | [memcache.php](http://li | Memcache Monitoring GUI  |
-|                          | vebookmark.net/journal/2 | that also allows dumping |
-|                          | 008/05/21/memcachephp-st | keys                     |
-|                          | ats-like-apcphp/)        |                          |
-+--------------------------+--------------------------+--------------------------+
-| libmemcached             | [peep](http://blog.evanw | **Does freeze your       |
-|                          | eaver.com/2009/04/20/pee | memcached process!!!**   |
-|                          | ping-into-memcached/)    |                          |
-|                          |                          | Be careful when using    |
-|                          |                          | this in production.      |
-|                          |                          | Still using it you can   |
-|                          |                          | workaround the 1MB       |
-|                          |                          | limitation and really    |
-|                          |                          | dump **all** keys.       |
-+--------------------------+--------------------------+--------------------------+
+| Programming Languages | Tools | Functionality |
+|---|---|---|
+| PHP                      | [simple script](http://snipt.org/xtP) | Prints key names. |
+| Perl                     | [simple script](https://wiki.jasig.org/download/attachments/13572172/memcached-clean.pl?version=1&modificationDate=1229693957401) | Prints keys and values   |
+| Ruby                     | [simple script](https://gist.github.com/1365005)             | Prints key names.        |
+| Perl                     | [memdump](http://search.cpan.org/~dmaki/Memcached-libmemcached-0.4202/src/libmemcached/docs/memdump.pod) | Tool in CPAN module      | [Memcached-libmemcached](http://search.cpan.org/~dmaki/Memcached-libmemc)                 | ached/)                  |
+| PHP                      | [memcache.php](http://livebookmark.net/journal/2008/05/21/memcachephp-stats-like-apcphp/) | Memcache Monitoring GUI that also allows dumping keys  |
+| libmemcached             | [peep](http://blog.evanweaver.com/2009/04/20/peeping-into-memcached/) | **Does freeze your memcached process!!!** Be careful when using this in production. Still using it you can workaround the 1MB limitation and really dump **all** keys.      |
 
 ### Using Consistent Hashing
 
