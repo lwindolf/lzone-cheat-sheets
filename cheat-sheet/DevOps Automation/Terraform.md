@@ -17,7 +17,12 @@
 Change verbosity by setting environment variable TF_LOG
 
     export TF_LOG=INFO
-    
+
+For linting
+
+     terraform fmt <file>           # reformat .tf file
+     terraform fmt --check <file>   # check for correct formatting
+     
 ## Workspace Management 
 
 Terraform workspaces allow for the management of two or more different environments i.e. Dev or Prod separately without affecting the state of either environment.
