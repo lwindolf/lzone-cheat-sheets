@@ -93,10 +93,10 @@ Note that YAML heredocs are the way to escape special characters:
 
 
      code: 
-        url: https://example.com        # sub key "url"
+        url: "https://example.com"        # sub key "url" with value 'https://...'
 
-     code: |-                           # versus key "code" having value "url: https..."
-        url: https://example.com
+     code: |-                             # versus key "code" having value 'url: "https://..."'
+        url: "https://example.com"
 
 ### Multiple Documents
 
