@@ -89,6 +89,15 @@ _folded style_: folded newlines are preserved
        over "multiple lines" stopping
        after indentation changes...
 
+Note that YAML heredocs are the way to escape special characters:
+
+
+     code: 
+        url: https://example.com        # sub key "url"
+
+     code: |-                           # versus key "code" having value "url: https..."
+        url: https://example.com
+
 ### Multiple Documents
 
 A YAML file can have multiple documents, this is why every document needs to start with a "---" line
