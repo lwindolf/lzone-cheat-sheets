@@ -53,6 +53,20 @@ To attach/detach an existing policy
 
     aws iam attach-role-policy --role-name <role name> --policy-arn <policy arn>
     aws iam detach-role-policy -q-role-name <role name> --policy-arn <policy arn>
+    
+### IAM Roles in ~/.aws/credentials
+
+From other credential
+
+    [marketingadmin]
+    role_arn = arn:aws:iam::123456789012:role/marketingadminrole
+    source_profile = user1
+
+From within EC2 instance
+
+    [profile marketingadmin]
+    role_arn = arn:aws:iam::123456789012:role/marketingadminrole
+    credential_source = Ec2InstanceMetadata
 
 ## STS
 
