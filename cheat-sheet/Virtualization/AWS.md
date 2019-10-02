@@ -68,6 +68,18 @@ From within EC2 instance
     role_arn = arn:aws:iam::123456789012:role/marketingadminrole
     credential_source = Ec2InstanceMetadata
 
+### IAM via EC2
+
+Inside an instance perform a call against the metadata API
+
+    curl http://169.254.169.254/latest/meta-data/iam/security-credentials/
+    
+to see your active role, and run
+
+    curl http://169.254.169.254/latest/meta-data/iam/security-credentials/<role>
+
+to fetch credentials
+
 ## STS
 
     aws sts get-caller-identity | jq -r '.Account'                      # Resolve your account id
