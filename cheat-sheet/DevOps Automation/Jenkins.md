@@ -47,6 +47,11 @@ Jenkins 1.x
 
         GET /<job name>//api/json
 
+
+## CasC Plugin
+
+- [CaSC Example Setup](https://ifritltd.com/2018/03/18/advanced-jenkins-setup-creating-jenkins-configuration-as-code-and-applying-changes-without-downtime-with-java-groovy-docker-vault-consul-template-and-jenkins-job/)
+
 ## Scripted API Calls
 
 [How to use API tokens with scripts](https://wiki.jenkins.io/display/JENKINS/Authenticating+scripted+clients)
