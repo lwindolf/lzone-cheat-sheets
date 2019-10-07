@@ -43,6 +43,10 @@ Delete units
     systemctl daemon-reload
     systemctl reset-failed
 
+### Job Processing
+
+    systemctl list-jobs
+
 ### Listing Processes / Containers
 
 To help identify cgroup/process relations run
