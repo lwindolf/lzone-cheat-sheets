@@ -190,6 +190,7 @@ Just a simple search example to explain query building
     3. Kafka in front of logstash to buffer spikes ELK
     4. Separation of client, data and master Elasticsearch nodes
 - [Determining the Number of Shards](https://www.elastic.co/guide/en/elasticsearch/guide/current/capacity-planning.html)
+- [Tuning Logstash](https://webuild.envato.com/blog/building-a-scalable-elk-stack/)
 
 ### General hints:
 
