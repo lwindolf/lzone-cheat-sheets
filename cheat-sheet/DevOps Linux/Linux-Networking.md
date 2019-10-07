@@ -107,9 +107,12 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 -   Enable Jumbo Frames
 
         ifconfig eth1 mtu 9000
+        
+- Allow binding IP that does not exist
 
--   [NFS - Tuning
-    Secrets](https://speakerdeck.com/gnb/130-lca2008-nfs-tuning-secrets-d7):
+        sysctl -w net.ipv4.ip_nonlocal_bind=1
+
+- [NFS - Tuning Secrets](https://speakerdeck.com/gnb/130-lca2008-nfs-tuning-secrets-d7):
     SGI Slides on NFS Performance
 
 ## Troubleshooting
