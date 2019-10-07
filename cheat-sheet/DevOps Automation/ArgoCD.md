@@ -58,15 +58,8 @@ You can also use kubectl
 Execution of the defined steps happens by traversing the list tree. All elements of a tree leaf run in parallel
 while the first level list does define the steps sequence. 
 
-## Loop on a step
+## Steps with Loops
 
-apiVersion: argoproj.io/v1alpha1
-kind: Workflow
-[...]
-spec:
-  [...]
-  templates:
-  - name: loop-example
     steps:
     - - name: print-message
         template: whalesay
@@ -77,3 +70,30 @@ spec:
         withItems:              # invoke whalesay once for each item in parallel
         - hello world           # item 1
         - goodbye world         # item 2
+ 
+ ## Steps: Conditional Execution
+ 
+     steps:
+        # flip a coin
+        - - name: flip-coin
+            template: flip-coin
+        # evaluate the result in parallel
+        - - name: heads
+            template: heads                 # call heads template if "heads"
+            when: "{{steps.flip-coin.outputs.result}} == heads"
+          - name: tails
+            template: tails                 # call tails template if "tails"
+            when: "{{steps.flip-coin.outputs.result}} == tails"
+
+## Steps: Running scripts
+
+    spec:
+      templates:
+      - name: flip-coin
+        script:
+          image: python:alpine3.6
+          command: [python]
+          source: |
+            import random
+            result = "heads" if random.randint(0,1) == 0 else "tails"
+            print(result)
