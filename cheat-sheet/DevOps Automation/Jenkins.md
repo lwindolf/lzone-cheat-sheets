@@ -47,4 +47,6 @@ Jenkins 1.x
 
         GET /<job name>//api/json
 
+## Scripted API Calls
 
+[How to use API tokens with scripts](https://wiki.jenkins.io/display/JENKINS/Authenticating+scripted+clients)
