@@ -71,6 +71,14 @@ or using the sh plugin
 
 ## Handling the environment
 
+Setting env variables
+
+    pipeline {
+      environment {
+         FOO = "BAR"
+      }
+    }
+
 Query all env variables
 
     node {
