@@ -1,4 +1,4 @@
-See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?add topic='iptables'?>
+See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?add topic='iptables'?> <?add topic='tcpdump'?>
 
 ## Basics
 
@@ -250,40 +250,5 @@ You can use curl to measure resolving, time to connect, time to first byte and t
 
 -   [Hurricane Electric - BGP Tools](http://bgp.he.net/): Statistics on
     all AS as well as links to their looking glasses.
--   tcpdump - Be verbose and print full package hex dumps:
-
-         tcpdump -i eth0 -nN -vvv -xX -s 1500 port <some port>
-
--   tcpdump - Non-promiscuous mode to list only traffic that the network
-    stack processes:
-
-        tcpdump -e ...
-
--   [tcpdump -
-    Tutorial](http://delicious.com/redirect?url=http%3A//dmiessler.com/study/tcpdump/):
-    Many usage examples.
-
-        # Filter port
-        tcpdump port 80
-        tcpdump src port 1025 
-        tcpdump dst port 389
-        tcpdump portrange 21-23
-
-        # Filter source or destination IP
-        tcpdump src 10.0.0.1
-        tcpdump dest 10.0.0.2
-
-        # Filter  everything on network 
-        tcpdump net 1.2.3.0/24
-
-        # Logically operators
-        tcpdump src port 1025 and tcp 
-
-        # Provide full hex dump of captured HTTP packages
-        tcpdump -s0 -x port 80
-
-        # Filter TCP flags (e.g. RST)
-        tcpdump 'tcp[13] & 4!=0'
-
 -   [darkstat](https://unix4lyfe.org/darkstat/) - libpcap monitoring
 
