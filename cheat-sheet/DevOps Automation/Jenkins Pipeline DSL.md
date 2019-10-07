@@ -50,6 +50,13 @@ If you want to build docker images you have to run docker on-top of kubernetes. 
       }
     }
 
+## Different DSL Syntax types
+
+- Declarative Pipeline (always has a 'stages' block, no loops/arithmetics/string processing)
+- Scripted Pipeline (always has a 'node' block, full Groovy features)
+- Mixed Pipelines (using a 'script' block, do full Groovy inside a declarative pipeline)
+- JobDSL (always has something like a 'pipelineJob', otherwise full Groovy features) 
+
 ## Accessing the workspace
 
 Check if a file exists
