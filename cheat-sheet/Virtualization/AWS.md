@@ -19,9 +19,12 @@ To query/configure specific profiles prefix the profile to the config key
     aws configure get <profile>.region
     aws configure set <profile>.region <region>
 
-## EC2 CLI Commands
+## EC2 Instance Types
 
-[Instance types overview](https://aws.amazon.com/ec2/instance-types/)
+- [Instance types overview](https://aws.amazon.com/ec2/instance-types/)
+- [Instance types by region](https://www.ec2instances.info/?region=eu-central-1)
+
+## EC2 CLI Commands
 
     aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
