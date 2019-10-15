@@ -4,7 +4,7 @@
 
 Create a new git branch and switch to it
 
-    git checkout -b 
+    git checkout -b <branch name>
 
 and create it on origin too
 
