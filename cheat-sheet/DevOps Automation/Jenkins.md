@@ -45,7 +45,7 @@ Jenkins 1.x
 
 4.  Once you have the build id poll the status with
 
-        GET /<job name>//api/json
+        GET /<job name>/<buildNumber>/api/json
 
 
 ## CasC Plugin
