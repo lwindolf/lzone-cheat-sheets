@@ -98,6 +98,8 @@ Note that YAML heredocs are the way to escape special characters:
      code: |-                             # versus key "code" having value 'url: "https://..."'
         url: "https://example.com"
 
+There is a good online previewer for the different heredoc modes: https://yaml-multiline.info/
+
 ### Multiple Documents
 
 A YAML file can have multiple documents, this is why every document needs to start with a "---" line
