@@ -1,5 +1,10 @@
 ## Usage Examples
 
+### Wifi Troubleshooting
+
+    netsh winsock reset
+    netsh int ip reset
+
 ### Interface Configuration
 
 Show/dump/import active config
