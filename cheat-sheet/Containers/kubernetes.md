@@ -211,6 +211,11 @@ List of auth proxy implementations
       
       # Remote clients
       grep -v "rem_address" /proc/net/tcp  | awk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
+  
+- Print all node ports using a Go template
+
+      kubectl get svc --all-namespaces -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}{{end}}'
+      
       
 
 <?speakerdeck,d25dce78d1d64f039b7e23bedd95d4f6,Security Best Practices?>
