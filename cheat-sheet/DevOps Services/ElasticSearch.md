@@ -92,6 +92,18 @@ Get info when shards are not allocated
 Retry allocation of shards (after retry limit reached)
 
     GET /_cluster/reroute?retry_failed=true
+    curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute?retry_failed=true
+
+Manual recovery
+    curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute -d '{
+        "commands": [ { 
+            "allocate_replica": { 
+                "index": "logstash-2019.10.13", 
+                "shard": 0, 
+                "node": "instance-0000000009" 
+            } 
+        } ]
+    }'
 
 ### Documents
 

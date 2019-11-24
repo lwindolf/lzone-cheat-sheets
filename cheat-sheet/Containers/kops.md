@@ -60,3 +60,7 @@ Set kubecfg cluster context
 When the size of existing nodes was changed also
 
     kops rolling-update cluster --yes [...]
+
+
+### Instance Groups
+    https://github.com/kubernetes/kops/blob/master/docs/instance_groups.md

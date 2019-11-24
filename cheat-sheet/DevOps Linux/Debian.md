@@ -76,6 +76,9 @@ You can access arbitrary older releases via
     deb     http://snapshot.debian.org/archive/debian-security/20091004T121501Z/ lenny/updates main
     deb-src http://snapshot.debian.org/archive/debian-security/20091004T121501Z/ lenny/updates main
 
+### APT Cheat sheet
+        https://blog.packagecloud.io/eng/2015/03/30/apt-cheat-sheet/
+
 ### Ubuntu
 
 -   Ubuntu - Access Repositories for older releases. Once a release is

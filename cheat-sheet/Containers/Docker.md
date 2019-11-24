@@ -12,6 +12,10 @@ Note \<container> is either a container id, or a container name (if such is give
     docker diff    <container>          # Shows changes on container's filesystem. Will produce a list of files and folders prefixed by a
                                         # character. "A" is for "added", "C" is for changed.
     docker stats   <container>          # Shows the consumed by the container resources (memory, CPU, network bandwidth)
+    docker export --output="latest.tar" <container> #Export a container’s filesystem as a tar archive
+    docker network create --subnet=172.18.0.0/16 elknet #Create a network
+    docker run --net elknet --ip 172.18.0.22 -it ubuntu bash #Assign static IP from network    
+
 
 ### Building Images
 
