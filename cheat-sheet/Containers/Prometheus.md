@@ -44,6 +44,7 @@ From https://prometheus.io/docs/prometheus/latest/querying/examples/
 
     # Aggregate and group by
     sum(rate(http_requests_total[5m])) by (job)
+    sum by(a,b)(mymetric{field="value")
     
     # Math
     (instance_memory_limit_bytes - instance_memory_usage_bytes) / 1024 / 1024
