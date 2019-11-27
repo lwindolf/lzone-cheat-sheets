@@ -232,3 +232,15 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 
 ### know what changed on a specific commit
     git show <commit hash>
+
+### Resync git repo
+    git fetch origin && git reset --hard origin/master && git clean -f -d
+
+### Resync forked repo
+    git remote add upstream https://github.com/lwindolf/lzone-cheat-sheets.git
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+
+### Delete remote branch
+    git push origin --delete <branch>

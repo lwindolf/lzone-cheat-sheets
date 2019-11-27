@@ -29,6 +29,9 @@ To query/configure specific profiles prefix the profile to the config key
     aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
 
+Find instances by name
+    aws ec2 describe-tags --region us-east-1 | jq -r '.Tags[]|select(.Key == "Name") | select( .Value | contains("<part of name>") )| .Value'
+
 ## IAM
 
     aws iam list-roles
