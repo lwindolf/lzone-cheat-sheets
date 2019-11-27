@@ -59,6 +59,10 @@ From https://prometheus.io/docs/prometheus/latest/querying/examples/
 
 - [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
 
+## Great Dashboards
+
+- [Grafana k8s Cost Report](https://grafana.com/grafana/dashboards/8670)
+
 ## Scaling Prometheus
 
 ### Self-hosted
