@@ -144,3 +144,35 @@ Do this using the docker plugin, not via the credential-binding plugin!
     docker.withRegistry('docker.example.com', 'myCredential') {
       docker.build(...)
     }
+
+## Jenkins Shared Libraries
+
+### Script Security
+
+- Use global shared libraries to by-pass script security
+- Use per-folder libraries for enforced script security
+
+### Including Shared Libraries
+
+#### From repo
+
+     library(
+       identifier: 'jenkins-shared-library@1.0',
+       retriever: modernSCM([
+         $class: 'GitSCMSource',
+         remote: 'https://github.com/myrepo/jenkins-shared-library.git'
+       ])
+     )
+
+#### From local Jenkins
+
+For this to work you have to configure a global or per-folder shared library which you can then include by name
+
+     @Library('my-shared-library') _
+     @Library('my-shared-library@1.0') _
+     @Library(['my-shared-library', 'otherlib@abc1234']) _
+
+Note the underscore for importing in contrast to importing classes
+
+     @Library('somelib')
+     import com.mycorp.pipeline.somelib.Helper
