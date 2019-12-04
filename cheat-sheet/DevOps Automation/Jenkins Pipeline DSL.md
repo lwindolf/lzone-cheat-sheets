@@ -103,6 +103,31 @@ For Jenkinsfiles located in the repo perform checkout like this
 
     checkout scm
 
+For advanced checkout specifics of the SCM provider can be overwritten like this
+
+    checkout([$class: 'GitSCM', 
+        branches: [[name: '*/master']], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[]]
+    ])
+
+For example git LFS support can be enabled like this
+
+    checkout([$class: 'GitSCM', 
+        ...
+        extensions = [
+          [$class: 'GitLFSPull'],
+          [$class: 'CloneOption',
+          depth: 0,
+          noTags: false,
+          shallow: true,
+          timeout: 10]
+        ],
+        ...
+     ])
+
 To check out other repos not provide automatically by the SCM plugin
 
     git credentialsId: 'github', url: ${REPO_URL}, branch: 'master'
