@@ -128,7 +128,16 @@ For example git LFS support can be enabled like this
         ...
      ])
 
-To check out other repos not provide automatically by the SCM plugin
+To get checkout details catch the result of 'checkout'
+
+     def scmVars = checkout scm
+     
+     println scmVars.GIT_BRANCH
+     println scmVars.GIT_COMMIT
+     println scmVars.GIT_URL
+     ...
+
+Alternatetivly checkout repos directly using the git plugin anywhere in your pipeline as needed
 
     git credentialsId: 'github', url: ${REPO_URL}, branch: 'master'
 
