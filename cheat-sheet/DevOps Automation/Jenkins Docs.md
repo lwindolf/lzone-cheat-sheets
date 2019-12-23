@@ -14,3 +14,4 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 # Cloud
 
 - [Jenkins with Kubernetes](https://github.com/jenkinsci/kubernetes-plugin)
+- [Jenkins as Code](https://fishi.devtail.io/weblog/2019/01/06/jenkins-as-code-part-1/)
