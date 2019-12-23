@@ -9,6 +9,7 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 
 ## SCM Integration
 
+- [Github](http://engineering.curalate.com/2016/09/29/programmatic-jenkins-jobs.html)
 - [Gitlab](https://github.com/jenkinsci/gitlab-plugin)
 
 ## Authentication
