@@ -15,6 +15,7 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 ## Authentication
 
 - [How Credentials work in Jenkins](https://github.com/jenkinsci/credentials-plugin/blob/master/docs/user.adoc)
+- [Authenticate against AWS ECR](https://foxutech.com/setup-jenkins-with-amazon-elastic-container-registry/)
 
 ## Cloud
 
