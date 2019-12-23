@@ -5,6 +5,7 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 
 - [Syntax Tour in the User Handbook](https://jenkins.io/doc/pipeline/tour/environment/)
 - [JobDSL API Index](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob-parameters)
+- [JobDSL Tutorial](https://github.com/jenkinsci/job-dsl-plugin/wiki/Tutorial---Using-the-Jenkins-Job-DSL)
 
 # Authentication
 
