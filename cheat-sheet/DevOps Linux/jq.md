@@ -39,6 +39,22 @@ Filter this by attribute
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
     jq '.results[] | select(.name | test("Joe\s+Smith"))'  # Get complete records for all names matching PCRE regex 'Joe\+Smith'
 
+## Changing values
+
+Merging/overwriting keys
+
+    echo '{ "a": 1, "b": 2 }' |\
+    jq '. |= . + {
+      "c": 3
+    }'
+
+Adding elements to lists
+
+    echo '{ "names": ["Marie", "Sophie"] }' |\
+    jq '.names |= .+ [
+       "Natalie"
+    ]'   
+
 ## Handle Empty Arrays
 
 When you want to iterate and an array you access is empty you get something like
