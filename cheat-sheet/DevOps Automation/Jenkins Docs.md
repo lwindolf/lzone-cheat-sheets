@@ -36,4 +36,5 @@ Also see JobDSL links under "Syntax" above!
 
 ## Advanced
 
+- [Groovy Init Scripts](https://wiki.jenkins.io/display/JENKINS/Post-initialization+script)
 - [Sandbox Workaround for system groovy](https://issues.jenkins-ci.org/browse/JENKINS-43700?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel)
