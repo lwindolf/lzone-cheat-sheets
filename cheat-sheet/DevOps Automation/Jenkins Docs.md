@@ -20,6 +20,7 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 
 - [Jenkins with Kubernetes](https://github.com/jenkinsci/kubernetes-plugin)
 - [Docker in Docker in Kubernetes](https://medium.com/hootsuite-engineering/building-docker-images-inside-kubernetes-42c6af855f25)
+- [kubectl in jobs](https://github.com/jenkinsci/kubernetes-cli-plugin)
 
 ## Infrastructure as Code
 
