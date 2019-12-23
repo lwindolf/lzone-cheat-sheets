@@ -14,4 +14,5 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 # Cloud
 
 - [Jenkins with Kubernetes](https://github.com/jenkinsci/kubernetes-plugin)
-- [Jenkins as Code](https://fishi.devtail.io/weblog/2019/01/06/jenkins-as-code-part-1/)
+- [Jenkins Infrstructure as Code](https://fishi.devtail.io/weblog/2019/01/06/jenkins-as-code-part-1/)
+- [Jenkins Infrastructure as Code #2](https://www.reddit.com/r/devops/comments/886xj8/is_it_possible_to_configure_jenkins_without_ever/)
