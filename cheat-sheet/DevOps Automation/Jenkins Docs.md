@@ -13,6 +13,7 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 
 - [Github](http://engineering.curalate.com/2016/09/29/programmatic-jenkins-jobs.html)
 - [Gitlab](https://github.com/jenkinsci/gitlab-plugin)
+- [Get SCM Infos on checkout](https://stackoverflow.com/questions/39589360/how-to-access-git-branch-name-from-pipeline-job/48567672#48567672)
 
 ## Authentication
 
