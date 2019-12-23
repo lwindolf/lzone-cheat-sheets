@@ -15,8 +15,10 @@ those not helpful plugin pages and CloudBees/Stackoverflow support tickets.
 ## Authentication
 
 - [How Credentials work in Jenkins](https://github.com/jenkinsci/credentials-plugin/blob/master/docs/user.adoc)
-- [Authenticate against AWS ECR](https://foxutech.com/setup-jenkins-with-amazon-elastic-container-registry/)
-- [Static AWS ECR k8s Credentials](https://medium.com/@xynova/keeping-aws-registry-pull-credentials-fresh-in-kubernetes-2d123f581ca6)
+- [AWS ECR: Authenticate from within job](https://foxutech.com/setup-jenkins-with-amazon-elastic-container-registry/)
+- [AWS ECR: Authenticate using Token Updater](http://pietervogelaar.nl/jenkins-amazon-ecr-token-update)
+- [AWS ECR: Static k8s Credentials](https://medium.com/@xynova/keeping-aws-registry-pull-credentials-fresh-in-kubernetes-2d123f581ca6)
+
 
 ## Cloud
 
