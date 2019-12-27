@@ -67,7 +67,7 @@ List CPAN installed modules
         print Dumper(\@var);           # array variable
         print Dumper(%var);            # hash as simple list
         print Dumper(\%var);           # hash nicely indented
-        print Dumper($var);            # arbitrary referenc
+        print Dumper($var);            # arbitrary reference
 
 -   Perl - Fix for "perl: warning: Setting locale failed."
 
