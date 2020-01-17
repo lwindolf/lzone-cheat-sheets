@@ -6,10 +6,10 @@
 
 ## Using the wrapper
 
-Generate the gradlew wrapper for your project
+Generate the gradlew wrapper from inside your project directory
 
       gradle wrapper
 
-Run the wrapper
+Use the wrapper
 
-      gradlew <gradle options>
+      ./gradlew <gradle options>
