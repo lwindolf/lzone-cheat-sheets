@@ -38,6 +38,18 @@ Filter this by attribute
     jq '.results[] | select(.name == "John") | {age}'      # Get age for 'John'
     jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
     jq '.results[] | select(.name | test("Joe\s+Smith"))'  # Get complete records for all names matching PCRE regex 'Joe\+Smith'
+    
+## "Deep" Value Extraction
+
+If you want to combine subkeys at different levels it won't work like this
+
+    jq '.items[] | { metadata["created"], name }'
+
+Instead you can access values like this
+
+    jq '.items[] | .metadata["created"], .name'
+
+The drawback being, that you do not get a JSON output, but each value on a new line.
 
 ## Changing values
 
