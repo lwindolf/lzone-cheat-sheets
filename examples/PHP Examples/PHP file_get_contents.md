@@ -19,7 +19,7 @@
     $context = stream_context_create($opts);
     echo file_get_contents('http://www.example.com/', false, $context);
 
-## Basic Auth with HTTP POST
+## Send Form with HTTP POST
 
     $postdata = http_build_query(['username'=>'jane.doe', 'password'=>'12345']);
     $opts = array(
