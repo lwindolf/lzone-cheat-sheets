@@ -24,38 +24,22 @@ interface and command line history.
 
 Here is a short list of some basic data extraction commands:
 
+| Type                                 | Syntax and Explanation                            |
+| ------------------------------------ | ------------------------------------------------- |
+| Tracing                              | `monitor` Watch current live commands. Use with care when on production. Cancel with Ctrl-C. |
+| Slow Queries                         | `slowlog get 25` Print top 25 slow queries        |
+|                                      | `slowlog len`                                     |
+|                                      | `slowlog reset`                                   |
+| Search / List All Keys               | `keys <pattern` Use with care when on production! |
+|                                      | `keys myprefix*`                                  |
+|                                      | `keys *pattern*`                                  |
+|                                      | `keys *mysuffix`                                  |
+|                                      | `keys [a-c]*` Use grep like expressions           |
+| Generic Key Handling                 | `del <key>` Delete key                            |
+|                                      | `dump <key>` Serialize key                        |
+|                                      | `exists <key>` Check for key                      |
+|                                      | `expire <key> <seconds>` Set key TTL              |
 
-    +--------------------------------------+--------------------------------------+
-    | Type                                 | Syntax and Explanation               |
-    +======================================+======================================+
-    | Tracing                              | Watch current live commands. Use     |
-    |                                      | this with care on production. Cancel |
-    |                                      | with Ctrl-C.                         |
-    |                                      |     monitor                          |
-    +--------------------------------------+--------------------------------------+
-    | Slow Queries                         |     slowlog get 25      # print top  |
-    |                                      | 25 slow queries                      |
-    |                                      |     slowlog len                      |
-    |                                      |     slowlog reset                    |
-    +--------------------------------------+--------------------------------------+
-    | Search Keys                          |     keys pattern        # Find key m |
-    |                                      | atching exactly                      |
-    |                                      |     keys pattern*       # Find keys  |
-    |                                      | matching in back                     |
-    |                                      |     keys *pattern*      # Find keys  |
-    |                                      | matching somewhere                   |
-    |                                      |     keys pattern*       # Find keys  |
-    |                                      | matching in front                    |
-    |                                      |                                      |
-    |                                      | On production servers use "KEYS"     |
-    |                                      | with care as it causes a full scan   |
-    |                                      | of all keys!                         |
-    +--------------------------------------+--------------------------------------+
-    | Generic                              |     del <key>                        |
-    |                                      |     dump <key>       # Serialize key |
-    |                                      |     exists <key>                     |
-    |                                      |     expire <key> <seconds>           |
-    +--------------------------------------+--------------------------------------+
     | Scalars                              |     get <key>                        |
     |                                      |     set <key> <value>                |
     |                                      |     setnx <key> <value>   # Set key  |
