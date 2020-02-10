@@ -9,6 +9,10 @@ The following will create a 640x480 sized output video by copying a correspondin
 ### Scaling
 
     ffmpeg -i <input> -vf scale=640:480 <output>
+    
+### Cutting a video part
+
+    ffmpeg -i <input> -ss 00:01:45 -t 00:02:35 -vcodec copy -acodec copy <output>ffmpeg -ss 00:00:30 -i orginalfile.mpg -t 00:00:05 -vcodec copy -acodec copy newfile.mpg
 
 ## Repacking
 
