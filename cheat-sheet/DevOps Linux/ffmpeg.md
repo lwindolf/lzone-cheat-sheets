@@ -18,6 +18,12 @@ Change container from MKV to MP4
 
     ffmpeg -i file.mkv -acodec copy -vcodec copy file.mp4
 
+#### Video from Images
+
+If you have multiple numbered images image1.jpg, image2.jpg... create a video from them like this
+
+    ffmpeg -f image2 -i image%d.jpg video.mp4
+
 ### Codec Issues
 
 AAC: "channel element not allocated"
