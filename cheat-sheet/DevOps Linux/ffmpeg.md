@@ -1,36 +1,51 @@
-### Repacking
+## Video Editing
 
-#### Extracting Audio Stream
+### Cropping
+
+The following will create a 640x480 sized output video by copying a corresponding window at offset x=100px y=25px from the input video
+
+    ffmpeg -i <input> -filter:v "crop=640:480:100:25" <output>
+
+## Repacking
+
+### Extracting Audio Stream
 
 Combine "-vn" (for no video) with "-acodec copy". Note that the output file 
 extension must match the audio codec in the input file for "-acodec copy" to
 work.
 
     ffmpeg -i file.mp4 -vn -acodec copy output.aac 
+    
+    
+## Creating Thumbnails
 
-#### Resample/Convert Audio
+To create thumbnails every n seconds use "-vf fps=1/n" for example
+
+    ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
+
+### Resample/Convert Audio
 
     ffmpeg -i file.aac -acodec mp3 -ar 44100 -ab 128000 output.mp3
 
-#### Switching Containers
+### Switching Containers
 
 Change container from MKV to MP4
 
     ffmpeg -i file.mkv -acodec copy -vcodec copy file.mp4
 
-#### Video from Images
+### Video from Images
 
 If you have multiple numbered images image1.jpg, image2.jpg... create a video from them like this
 
     ffmpeg -f image2 -i image%d.jpg video.mp4
 
-#### Split Video to Images
+### Split Video to Images
 
     ffmpeg -i video.mp4 image%d.jpg
 
-### Codec Issues
+## Codec Issues
 
-AAC: "channel element not allocated"
+### AAC: "channel element not allocated"
 
 **Update:** The workaround for the problem doesn't work for ffmpeg
 versions more recent than 20.06.2011 as libfaad support was dropped in
@@ -81,7 +96,7 @@ but which decodes the AAC without complaining. For example:
 The "-acodec" preceding the "-i" option only influences the input audio
 decoding, not the audio encoding.
 
-#### AAC: "Can not resample 6 channels"
+### AAC: "Can not resample 6 channels"
 
 When you try to encode with ffmpeg and you end up with such an error
 
@@ -114,31 +129,11 @@ The third solution can be done as following:
 **Update**: As hinted by a fellow commenter the big disadvantage is the
 quality loss as faad can only convert into PCM 16bit.
 
-#### SVQ3: "does not support multithreaded"
+## Fixing Async Video
 
-Try decoding a video with SVQ3 video codec with multithreading enabled
-(e.g. -threads 4) ffmpeg r25526 simply refuses to decode it:
+### Correcting Audio that is too slow/fast
 
-    Stream #0.0(eng): Video: svq3, yuvj420p, 640x476, 1732 kb/s, 25 fps, 25 tbr, 600 tbn, 600 tbc
-    ...
-    [svq3 @ 0x806bfe0] SVQ3 does not support multithreaded decoding, patch welcome! (check latest SVN too)
-    ...
-    Error while opening decoder for input stream #0.0
-
-Instead of simply just using only one thread and just working ffmpeg
-bails. What a pain. You need to specify "-threads 1" or no threads
-option at all for decoding to work.
-
-* * * * *
-
-* * * * *
-
-### Fixing Async Video
-
-#### Correcting Audio that is too slow/fast
-
-This can be done using the ["-async"
-switch](http://ffmpeg-users.933282.n4.nabble.com/async-td935787.html) of
+This can be done using the ["-async" switch](http://ffmpeg-users.933282.n4.nabble.com/async-td935787.html) of
 ffmpeg which according to the documentation *"Stretches/squeezes" the
 audio stream to match the timestamps*. The parameter takes a numeric
 value for the samples per seconds to enforce. Example:
@@ -147,7 +142,7 @@ value for the samples per seconds to enforce. Example:
 
 Try slowly increasing the -async value until audio and video matches.
 
-#### Correcting Time-Shift (Variant 1)
+### Correcting Time-Shift (Variant 1)
 
 Case 1: Audio ahead of video: As a special case the "-async" switch
 auto-corrects the start of the audio stream when passed as "-async 1".
@@ -163,7 +158,7 @@ specify the stream to sync against. Interestingly Google shows people
 using -aync and -vsync together. So it might be worth experimenting a
 bit to achieve the intended result :-)
 
-#### Correcting Time-Shift (Variant 2)
+### Correcting Time-Shift (Variant 2)
 
 If you have a constantly shifted sound/video track that the previous fix
 doesn't work with, but you know the time shift that needs to be
@@ -188,13 +183,7 @@ and before the mapping options. Otherwise one runs into mapping errors.
 that he needed a different mapping with a more recent version of ffmpeg.
 The commands above were tested using ffmpeg 0.5/0.6
 
-### Thumbnails
-
-To create thumbnails every n seconds use "-vf fps=1/n" for example
-
-    ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
-
-### Frame Exact Splitting
+## Frame Exact Splitting
 
 When preparing videos for Apples HTTP streaming for iPad/iPhone you need
 to split your video into 10s chunks and provide a play list for
@@ -229,7 +218,7 @@ Note: It is important to watch the resulting muxing overhead which might
 lower the effective bitrate a lot! The resulting output files should be
 safe to be passed to the Apple segmenter.
 
-### Metadata Tagging Tools
+## Metadata Tagging Tools
 
 This post is a comparison of the performance of different tools
 available to tag FLV and MP4 containers with specific metadata (e.g.
@@ -303,15 +292,15 @@ There are several possible reasons for the error message
 The above was caused by problem three. After a lot of trying I found
 that the target directory did not exist. Quite confusing.
 
-### Compilation Issues
+## Compilation Issues
 
-#### x264: sched\_getaffinity()
+### x264: sched\_getaffinity()
 
 If compilation fails with an error about the numbers of parameters in
 common/cpu.c you need to check which glibc version is used. Remove the
 second parameter to sched\_getaffinity() if necessary and recompile.
 
-#### x264: Linking
+### x264: Linking
 
 ffmpeg configure fails with:
 
@@ -337,7 +326,7 @@ This can be caused by two effects:
     "x264\_encoder\_open\_78" instead of "x264\_encoder\_open" (given
     that 78 is the libx264 version you use).
 
-#### x264: AMD64
+### x264: AMD64
 
 ffmpeg compilation fails on AMD64 with:
 
@@ -356,7 +345,7 @@ ffmpeg compilation fails on AMD64 with:
 This [post](https://www.x86-64.org/pipermail/bugs/2001-May/000397.html)
 explains that this is related to a glibc issue and how to patch it.
 
-#### x264: x264\_init
+### x264: x264\_init
 
 ffmpeg compilation fails with:
 
@@ -369,7 +358,7 @@ ffmpeg compilation fails with:
 This means you are using incompatible ffmpeg and libx264 versions. Try
 to upgrade ffmpeg or to downgrade libx264.
 
-#### video4linux
+### video4linux
 
     /usr/include/linux/videodev.h:55: error: syntax error before "ulong"
     /usr/include/linux/videodev.h:71: error: syntax error before '}' token
@@ -391,7 +380,7 @@ http://www.winehq.org/pipermail/wine-devel/2005-June/037400.html oder
 Workaround: --disable-demuxer=v4l --disable-muxer=v4l
 --disable-demuxer=v4l2 --disable-muxer=v4l2
 
-#### Old make
+### Old make
 
     make: *** No rule to make target `libavdevice/libavdevice.so', needed by `all'.  Stop.
 
