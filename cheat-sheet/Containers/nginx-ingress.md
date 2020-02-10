@@ -29,6 +29,13 @@ When using Bitly's oauth2_proxy running as service "oauth2_proxy" you can create
         auth_request /oauth2/auth;
         error_page 401 = /oauth2/start?rd=/;
 
+### List of Auth Solutions
+
+- Dex
+- Keycloak Proxy
+- Bitly oauth2_proxy
+- Openshift oauth2_proxy
+
 ## Reverse Proxy
 
 [Reddit Reverse Proxy for Deployment](https://www.reddit.com/r/kubernetes/comments/f1iery/reverse_proxy_in_front_of_kubernetes_deployment/)
