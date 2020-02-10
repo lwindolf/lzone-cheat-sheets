@@ -5,6 +5,10 @@
 The following will create a 640x480 sized output video by copying a corresponding window at offset x=100px y=25px from the input video
 
     ffmpeg -i <input> -filter:v "crop=640:480:100:25" <output>
+    
+### Scaling
+
+    ffmpeg -i <input> -vf scale=640:480 <output>
 
 ## Repacking
 
