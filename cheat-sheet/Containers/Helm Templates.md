@@ -30,6 +30,8 @@ Note how string manipulation works using the pipeline operator |
     
     {{ randAlphaNum 5 }}              # Produce random string 5 chars long
     
+    {{ "Hello" | repeat 3 }}          # "HelloHelloHello"
+    
     # Use format strings with printf
     {{- printf "%s (%d)\n" .Values.param1 .Values.param2 .Values.param3 }}
 
@@ -50,6 +52,25 @@ Perform complex concatenations using pipelines in braces "( x | y )" which will 
     {{- range .Values.mylist }}
     {{- printf "list element: %s\n" . }}     # access element with "."
     {{- end }}
+
+## Conditions
+
+    {{- if <pipeline> }}
+       conditional block
+    {{ else }}
+       other block
+    {{- end }}
+
+Example pipelines to use as conditions
+
+    hasKey .Values.mymap "mykey"      # Check hash for key
+    gt .Values.replicaCount 2.0       # replicaCount > 2.0
+    lt .Values.replicaCount 5.0       # replicaCount < 5.0
+    eq .Values.replicaCount 1.0       # replicaCount exactly 1.0
+    
+Complex conditions using nested pipelines
+
+    and (hasKey .Values.mymap "mykey") (lt .Values.replicaCount 2.0)
 
 ## Reading files
 
