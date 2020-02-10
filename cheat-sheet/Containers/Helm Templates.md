@@ -9,8 +9,9 @@ which provides additional functions that you can use.
 
 ## Chart Value Replacing
 
-    {{ .Values.param1 }}           # Will insert the value of "param1" passed to your helm chart release
-    {{ $value1  }}                 # Will insert the value of variable "value1"
+    {{ .Values.param1 }}                   # Will insert the value of "param1" passed to your helm chart release
+    {{ .Values.param2 | default "abc" }}   # Insert value or default value
+    {{ $value1  }}                         # Will insert the value of variable "value1"
 
 You can enforce value replacement (instead of getting empty defaults) with "required"
 
