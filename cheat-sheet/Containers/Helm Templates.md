@@ -10,6 +10,7 @@ which provides additional functions that you can use.
 ## Chart Value Replacing
 
     {{ .Values.param1 }}           # Will insert the value of "param1" passed to your helm chart release
+    {{ $value1  }}                 # Will insert the value of variable "value1"
 
 You can enforce value replacement (instead of getting empty defaults) with "required"
 
@@ -19,10 +20,15 @@ You can enforce value replacement (instead of getting empty defaults) with "requ
 
 Note how string manipulation works using the pipeline operator |
 
-    {{ .Values.param1 | quote }}   # You usually want to quote strings
-    {{ .Values.passwd | b64enc }}  # Base64 encoding
-    {{ .Values.param | upper }}    # Uppercase everthing
-    {{ .Values.param | lower }}    # Lowercase everything
+    {{ .Values.param1 | quote }}      # You usually want to quote strings
+    {{ .Values.passwd | b64enc }}     # Base64 encoding
+    {{ .Values.param | upper }}       # Uppercase everthing
+    {{ .Values.param | lower }}       # Lowercase everything
+    
+    {{ .Values.param | indent 16 }}   # Print with additional 16 leading spaces
+    {{ .Values.param | nindent 16 }}  # Ensure total indentation is 16 (useful when template code is indented)
+    
+    {{ randAlphaNum 5 }}              # Produce random string 5 chars long
     
     # Use format strings with printf
     {{- printf "%s (%d)\n" .Values.param1 .Values.param2 .Values.param3 }}
@@ -30,6 +36,24 @@ Note how string manipulation works using the pipeline operator |
 Perform complex concatenations using pipelines in braces "( x | y )" which will catch the output of the pipeline
 
     {{- printf "plain password: %s\nbase64 password %s\n" .Values.password (.Values.password | b64enc) }}
+
+## Accessing complex data structure
+
+    {{ .Values.hash.key1 }}        # Access single hash key
+    
+    # Iterate a hash
+    {{- range $key, $value := .Values.myhash }}
+    {{- printf "key %s: value %s\n" $key $value }}
+    {{- end }}
+    
+    # Iterate a list
+    {{- range .Values.mylist }}
+    {{- printf "list element: %s\n" . }}     # access element with "."
+    {{- end }}
+
+## Reading files
+
+    {{ print $.Template.BasePath "/configmap.yaml" }}
 
 ## Reusing code with include
 
