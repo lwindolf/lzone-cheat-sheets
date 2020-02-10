@@ -77,7 +77,7 @@ Example pipelines to use as conditions
     
 Complex conditions using nested pipelines
 
-    and (hasKey .Values.mymap "mykey") (lt .Values.replicaCount 2.0)
+    not (and (hasKey .Values.mymap "mykey") (lt .Values.replicaCount 2.0))
 
 ## Reading files
 
