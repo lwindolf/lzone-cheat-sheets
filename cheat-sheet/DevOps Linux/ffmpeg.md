@@ -17,7 +17,7 @@ work.
     ffmpeg -i file.mp4 -vn -acodec copy output.aac 
     
     
-## Creating Thumbnails
+### Creating Thumbnails
 
 To create thumbnails every n seconds use "-vf fps=1/n" for example
 
