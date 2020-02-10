@@ -24,6 +24,10 @@ If you have multiple numbered images image1.jpg, image2.jpg... create a video fr
 
     ffmpeg -f image2 -i image%d.jpg video.mp4
 
+#### Split Video to Images
+
+    ffmpeg -i video.mp4 image%d.jpg
+
 ### Codec Issues
 
 AAC: "channel element not allocated"
