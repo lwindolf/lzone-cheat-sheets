@@ -1,4 +1,4 @@
-See also <?add topic='Openshift'?> <?add topic='kubernetes'?>
+See also <?add topic='Helm Templates'?> <?add topic='kubernetes'?> <?add topic='Openshift'?> 
 
 ## Setup
 
