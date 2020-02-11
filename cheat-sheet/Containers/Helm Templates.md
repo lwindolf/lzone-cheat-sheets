@@ -1,3 +1,5 @@
+See also <?add topic='Helm'?> 
+
 Note that while Helm uses Go templates it does so by using the 
 [Sprig templating library](https://masterminds.github.io/sprig/) 
 which provides additional functions that you can use.
