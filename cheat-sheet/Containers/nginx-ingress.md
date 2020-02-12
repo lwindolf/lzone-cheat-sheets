@@ -1,5 +1,7 @@
 ## Auth Variants
 
+For a list of OAuth proxies for use with k8s check out the <?add topic='kubernetes'?> sheet. 
+
 ### Basic Auth
 
 Create an ingress annotation like this:
@@ -29,13 +31,10 @@ When using Bitly's oauth2_proxy running as service "oauth2_proxy" you can create
         auth_request /oauth2/auth;
         error_page 401 = /oauth2/start?rd=/;
 
-### List of Auth Solutions
-
-- Dex
-- Keycloak Proxy
-- Bitly oauth2_proxy
-- Openshift oauth2_proxy
-
 ## Reverse Proxy
 
 [Reddit Reverse Proxy for Deployment](https://www.reddit.com/r/kubernetes/comments/f1iery/reverse_proxy_in_front_of_kubernetes_deployment/)
+
+## Debugging
+
+- [Dumping nginx-ingress config](https://kubernetes.github.io/ingress-nginx/troubleshooting/#using-gdb-with-nginx)
