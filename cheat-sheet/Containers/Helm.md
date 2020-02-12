@@ -28,6 +28,7 @@ To list charts (packages)
 ## List installed releases
 
     helm list
+    helm get values <release>           # Print the values the release was installed with
 
 ## Install package
 
