@@ -12,7 +12,7 @@ result = re.sub(pattern, repl, string, count=0, flags=0);
 <pre class="brush:python">
 result = re.sub('abc',  '',    input)           # Delete pattern abc
 result = re.sub('abc',  'def', input)           # Replace pattern abc -> def
-result = re.sub(r'\s+', ' ',   input)           # Eliminate duplicate whitespaces
+result = re.sub(r'\s+', ' ',   input)           # Eliminate duplicate whitespaces using wildcards
 result = re.sub('abc(def)ghi', r'\1', input)    # Replace a string with a part of itself
 </pre>
 
