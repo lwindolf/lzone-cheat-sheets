@@ -57,7 +57,10 @@ Helm 3
 ## Misc
 
 - https://kubeapps.com/: Web GUI for installing Helm charts
-- https://github.com/Praqma/helmsman: Helmsman, Helm charts as Code, Terraform like plan/apply
+- Infrastructure as Code solutions for Helm:
+   - [helmfile](https://github.com/roboll/helmfile)
+   - [Helmsman](https://github.com/Praqma/helmsman)
+   - Terraform
 - Solutions to host helm charts yourself:
    - chartmuseum
    - harbour
