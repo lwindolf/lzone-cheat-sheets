@@ -55,7 +55,7 @@ Hash with JSON syntax (mixing is possible)
 
      my_hash: {nr1: 5, nr2: 6}
      
-### YAML HereDoc
+### YAML HereDoc (multiline strings)
 
 _Block notation_: Newlines become spaces
 
