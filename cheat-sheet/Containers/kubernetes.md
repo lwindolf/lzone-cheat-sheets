@@ -199,7 +199,8 @@ List of auth proxy implementations
 - [Envoy](https://github.com/envoyproxy/envoy) (Istio)
 - [Ambassador](https://github.com/datawire/ambassador) (Envoy based)
 - Conjur + Auth Proxy
-- [keyclock-proxy](https://github.com/keycloak/keycloak-gatekeeper) (deprecated)
+- [keyclock gatekeeper](https://github.com/keycloak/keycloak-gatekeeper)
+- [Dex](https://github.com/dexidp/dex)
 
 ## Misc
 
