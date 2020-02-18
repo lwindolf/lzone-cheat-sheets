@@ -44,6 +44,11 @@ Helm 3
     helm install <name> <chart> [--namespace <ns>]  # Per-default you need to provide a release name
     helm install -g <chart>     [--namespace <ns>]  # Helm 2 like generated release name
 
+## Upgrading releases
+
+    helm upgrade <name>
+    helm upgrade --wait <name>                      # Wait for pods to come up
+
 ## Working with plugins
 
     helm plugin list
