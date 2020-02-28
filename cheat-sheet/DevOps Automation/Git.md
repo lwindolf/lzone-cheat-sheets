@@ -142,6 +142,7 @@ To search all commits for lines containing a certain change:
     git tag                    # List all tags
     git tag <tag>              # Create tag
     git tag -a <tag> -m <msg>  # Create annotated tag
+    git push --tags            # Push tags to remote
     
     git tag -d <tag>         # Deletes tag in your local repo
     git push origin :<tag>   # Deletes tag remote
