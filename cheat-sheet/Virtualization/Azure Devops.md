@@ -8,3 +8,7 @@ Set default organization and project
 ## Login
 
     az devops login --organization="https://dev.azure.com/MY-ORG"
+
+## Accessing Pipelines
+
+    az pipelines build show --id 1 --open
