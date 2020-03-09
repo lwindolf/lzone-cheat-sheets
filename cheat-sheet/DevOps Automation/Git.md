@@ -8,7 +8,7 @@ Create a new git branch and switch to it
 
 and create it on origin too
 
-    git push --set-upstream origin <branch name>
+    git push --set-upstream origin/<branch name> <branch name>
 
 ### Tracking Remote Branches
 
