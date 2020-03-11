@@ -1,6 +1,6 @@
 Example-wise the jq manpage is not really helpful. Let's document some simple examples here...
 
-To test queries live use https://jqplay.org/
+To test queries live use [jqplay.org](https://jqplay.org/)
 
 ## Output Formatting
 
