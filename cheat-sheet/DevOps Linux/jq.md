@@ -100,4 +100,4 @@ To create proper JSON from a shell script and properly escape variables:
 ### URL Encode
 Quick easy way to url encode something
  
-   date | jq -sRr @uri
+    date | jq -sRr @uri
