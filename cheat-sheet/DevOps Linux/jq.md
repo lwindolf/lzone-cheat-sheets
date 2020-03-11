@@ -8,6 +8,10 @@ If you do only care about output formatting (pretty print) run
 
     jq . my.json
 
+or when reading from a pipeline
+
+    cat my.json | jq
+
 Note: for redirection you need to pass a filter too to avoid a syntax error:
 
     jq . my.json > output.json
