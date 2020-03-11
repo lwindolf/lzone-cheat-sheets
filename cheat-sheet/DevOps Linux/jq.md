@@ -12,7 +12,7 @@ Note: for redirection you need to pass a filter too to avoid a syntax error:
 
     jq . my.json > output.json
 
-## Simple Extraction
+## jq Extraction Examples
 
 Consider this example document
 
@@ -51,7 +51,7 @@ Instead you can access values like this
 
 The drawback being, that you do not get a JSON output, but each value on a new line.
 
-## Changing values
+## Changing values with jq
 
 Merging/overwriting keys
 
