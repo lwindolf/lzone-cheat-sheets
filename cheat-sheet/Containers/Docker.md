@@ -24,6 +24,21 @@ Note `<container>` is either a container id, or a container name (if such is giv
     docker build --target <stage> .                       # Build specific target of a multi-stage Dockerfile
     docker build --build-arg MYARG=myvalue .              # Pass variables with --build-arg
     docker build --add-host <hostname>:<target> .         # Inject hostnames
+    
+### Using BuildKit
+
+BuildKit is Docker next-gen build derived from Moby BuildKit. In Docker v18 and v19 it needs to be 
+explicitely enabled. There are two ways to use it.
+
+1.) via environment
+
+    export DOCKER_BUILDKIT=1
+
+2.) via new ["buildx"](https://docs.docker.com/buildx/working-with-buildx/) command (v19+ only)
+
+    docker buildx build <build args>
+
+Note: here "buildx" just serves as a wrapper to provide compatible build commands.
 
 ### Releasing Images
 
