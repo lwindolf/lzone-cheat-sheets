@@ -62,7 +62,7 @@ Helm 3
 
 ## Best Practices
 
-See [Helm Best Practices](/blog/Helm Best Practices)
+See [Helm Best Practices](/blog/Helm+Best+Practices)
 
 ## Misc
 
