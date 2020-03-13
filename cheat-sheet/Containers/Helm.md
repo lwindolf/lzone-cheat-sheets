@@ -60,6 +60,10 @@ Helm 3
     
     helm install mychart-0.1.0.tgz --dry-run --debug       # Test installing
 
+## Best Practices
+
+See [Helm Best Practices](/blog/Helm Best Practices)
+
 ## Misc
 
 - https://kubeapps.com/: Web GUI for installing Helm charts
