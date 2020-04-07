@@ -28,7 +28,8 @@ To query/configure specific profiles prefix the profile to the config key
 
 Find instances by name
 
-    aws ec2 describe-tags --region us-east-1 | jq -r '.Tags[]|select(.Key == "Name") | select( .Value | contains("<part of name>") )| .Value'
+    aws ec2 describe-tags --region us-east-1 |\
+    jq -r '.Tags[]|select(.Key == "Name") | select( .Value | contains("<part of name>") )| .Value'
 
 List instances by name and selected properties
 
