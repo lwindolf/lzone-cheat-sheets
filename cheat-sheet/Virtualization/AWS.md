@@ -19,18 +19,27 @@ To query/configure specific profiles prefix the profile to the config key
     aws configure get <profile>.region
     aws configure set <profile>.region <region>
 
-## EC2 Instance Types
-
-- [Instance types overview](https://aws.amazon.com/ec2/instance-types/)
-- [Instance types by region](https://www.ec2instances.info/?region=eu-central-1)
-
 ## EC2 CLI Commands
 
     aws ec2 describe-instances                           # List all
     aws ec2 reboot-instances --instance-ids <ids>
 
+## EC2 Instance Lookup
+
 Find instances by name
+
     aws ec2 describe-tags --region us-east-1 | jq -r '.Tags[]|select(.Key == "Name") | select( .Value | contains("<part of name>") )| .Value'
+
+List instances by name and selected properties
+
+     aws ec2 describe-instances |\
+     jq '.Reservations[].Instances[] | .InstanceId, .State["Name"], .InstanceType, .Placement.AvailabilityZone, .PublicIpAddress' |\
+     xargs -n 5
+
+## EC2 Instance Types
+
+- [Instance types overview](https://aws.amazon.com/ec2/instance-types/)
+- [Instance types by region](https://www.ec2instances.info/?region=eu-central-1)
 
 ## IAM
 
