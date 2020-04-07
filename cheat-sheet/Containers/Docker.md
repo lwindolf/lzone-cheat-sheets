@@ -28,7 +28,7 @@ List machine readable:
 
 ### Starting containers
 
-Start a container with default entrypoint
+Start a container with default entrypoint and in background
 
     docker start -it ubuntu
 
