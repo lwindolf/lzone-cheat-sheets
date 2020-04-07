@@ -2,7 +2,7 @@
 
 ### Container vs image ids
 
-Note `<container>` is either a container id, or a container name (if such is given to a container with the --name option on start). Both can be obtained with `docker ps -a`. &lt;image> is either an image id, or an image name. Those can be obtained with the `docker image` command. Do not confuse with container id/name!
+Note in the following examples `<container>` is either a container id, or a container name (if such is given to a container with the --name option on start). Both can be obtained with `docker ps -a`. &lt;image> is either an image id, or an image name. Those can be obtained with the `docker image` command. Do not confuse with container id/name!
 
 ### Listing Containers
 
