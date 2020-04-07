@@ -2,20 +2,27 @@
 
 Note `<container>` is either a container id, or a container name (if such is given to a container with the --name option on start). Both can be obtained with the "docker ps -a" command. <image> is either an image id, or an image name. Both can be obtained with the "docker image" command. Do not confuse with container id/name!
 
-    docker ps                           # List running instances
     docker exec -it <container> bash    # Log into container bash environment
-    docker ps -a                        # List all instances
     docker inspect <container>          # Instance details
     docker top     <container>          # Instance processes
     docker logs    <container>          # Instance console log
     docker port    <container>          # Shows container's port mapping. The same can be seen with "docker ps" though (row - "PORTS")
     docker diff    <container>          # Shows changes on container's filesystem. Will produce a list of files and folders prefixed by a
                                         # character. "A" is for "added", "C" is for changed.
-    docker stats   <container>          # Shows the consumed by the container resources (memory, CPU, network bandwidth)
+    docker stats   <container>          # Shows the consumed resources (memory, CPU, network bandwidth)
     docker export --output="latest.tar" <container> #Export a container’s filesystem as a tar archive
     docker network create --subnet=172.18.0.0/16 elknet #Create a network
     docker run --net elknet --ip 172.18.0.22 -it ubuntu bash #Assign static IP from network    
 
+### Listing Containers
+
+    docker ps                           # List running containers
+    docker ps -a                        # List all containers
+    docker ps -s                        # List running containers including CPU/memory size
+
+List machine readable:
+
+    docker ps -a --format "{{.ID}},{{.Names}},{{.Status}},{{.Image}},{{.Ports}}"
 
 ### Building Images
 
