@@ -76,6 +76,11 @@ or using the sh plugin
 
     def output = sh(returnStdout: true, script: 'echo something').trim()
 
+## Getting time
+
+    currentBuild.startTimeInMillis    # current build start time in ms
+    System.currentTimeMillis()        # current time in ms
+
 ## Handling the environment
 
 Setting env variables
