@@ -12,6 +12,11 @@ Simple XPath expressions you can use a beginner
    
     //input[@class='someclass' and @name='searchtext']   # find by multiple attributes
 
+Relative queries are possible using '.'
+
+    .//a             # all <a> tags below current node
+    ./div            # all direct <div> children
+
 ## Get node contents
 
 All those expressions return nodes. When you directly want to access a nodes content do use **text()**
