@@ -74,6 +74,9 @@ Log directory is /var/log/journal
     journalctl -u <unit>             # Print for unit only
     journalctl --no-pager            # Non-interactive mode
 
+    journalctl --disk-usage          # Show space used by logs
+    journalctl --rotate              # Force log rotation
+
     journalctl --vacuum-size=100M    # Remove logs until <100MB is used
     journalctl --vacuum-time=2weeks  # Remove logs older 2 weeks
 
