@@ -33,6 +33,10 @@ and remove on origin too
 
 Alternatively remove on origin and then prune locally.
 
+### Rename Local Branch
+
+    git branch -m <new name>
+
 ### Remove stale
 
 When remote branches disappear clean them from your local repo with
