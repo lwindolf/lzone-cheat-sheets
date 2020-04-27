@@ -31,3 +31,6 @@ Quick Search
 
     # Reverse dependency lookup
     jfrog rt cl /api/search/dependency?sha1=<checksum>
+    
+    # Get list of repos
+    jfrog rt cl /api/repositories
