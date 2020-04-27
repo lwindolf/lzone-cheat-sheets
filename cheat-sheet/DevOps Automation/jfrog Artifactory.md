@@ -12,3 +12,13 @@
     
     jfrog rt cl /api/storage/<path>           # File listing
     jfrog rt cl /api/compliance/<path>        # Compliance details
+
+## API Search Queries
+
+Quick Search
+
+    # Any artifact in a folder
+    jfrog rt cl /api/search/artifact?name=<file name>&repos=<repo name>
+    
+    # Maven artifact
+    jfrog rt cl /api/search/gavc?g=<group>&a=<artifact>&v=<version>&c=<classifier>&repos=<repo>
