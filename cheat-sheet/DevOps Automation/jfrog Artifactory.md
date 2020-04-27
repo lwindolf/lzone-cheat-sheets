@@ -24,3 +24,7 @@ Quick Search
     
     # Maven artifact
     jfrog rt cl /api/search/gavc?g=<group>&a=<artifact>&v=<version>&c=<classifier>&repos=<repo>
+
+    # Pattern search
+    jfrog rt cl /api/search/pattern?pattern=<repo>:<ant pattern>
+    jfrog rt cl /api/search/pattern?pattern=libs-release-local:killer/*/ninja/*/*.jar
