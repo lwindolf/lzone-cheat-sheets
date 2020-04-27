@@ -4,6 +4,8 @@
 
 ## API Queries
 
+[jfrog API docs](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
+
     jfrog rt cl <API path>                    # Run curl commands using stored credentials
     
     jfrog rt cl /api/build                    # List builds
