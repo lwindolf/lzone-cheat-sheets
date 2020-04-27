@@ -28,3 +28,6 @@ Quick Search
     # Pattern search
     jfrog rt cl /api/search/pattern?pattern=<repo>:<ant pattern>
     jfrog rt cl /api/search/pattern?pattern=libs-release-local:killer/*/ninja/*/*.jar
+
+    # Reverse dependency lookup
+    jfrog rt cl /api/search/dependency?sha1=<checksum>
