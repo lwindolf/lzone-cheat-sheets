@@ -249,3 +249,7 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 
 ### Delete remote branch
     git push origin --delete <branch>
+    
+### Ignore invalid certificates
+
+    git -c http.sslVerify=false <command> 
