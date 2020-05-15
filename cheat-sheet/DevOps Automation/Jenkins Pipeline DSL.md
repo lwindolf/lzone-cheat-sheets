@@ -81,6 +81,16 @@ or using the sh plugin
     currentBuild.startTimeInMillis    # current build start time in ms
     System.currentTimeMillis()        # current time in ms
 
+## Pipeline job parameters
+
+    properties([
+        parameters([
+            string(name: "myparam1",
+                   defaultValue: "default for 1",
+                   description: "Please provide value of param1")
+        ])
+    ])
+
 ## Handling the environment
 
 Setting env variables
