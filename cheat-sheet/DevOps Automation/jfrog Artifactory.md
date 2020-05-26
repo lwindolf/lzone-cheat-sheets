@@ -78,3 +78,8 @@ Alternatively to quick search you can perform complex queries using [AQL](https:
     // Pagination
     items.find(...).limit(100)
     items.find(...).offset(100).limit(50)
+
+### Advanced
+
+    // Negativ matching
+    items.find({"name":{"$nmatch":"<pattern>"}})
