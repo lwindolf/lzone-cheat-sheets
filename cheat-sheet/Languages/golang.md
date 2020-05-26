@@ -10,3 +10,7 @@
     go get -u                   # Update all dependencies
     
     goimports -w .              # Install dependencies
+
+## Package Index
+
+https://pkg.go.dev/
