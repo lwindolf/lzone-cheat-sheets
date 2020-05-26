@@ -83,3 +83,6 @@ Alternatively to quick search you can perform complex queries using [AQL](https:
 
     // Negativ matching
     items.find({"name":{"$nmatch":"<pattern>"}})
+    
+    // List all properties
+    items.find(...).include("repo", "name", "path", "properties.*")
