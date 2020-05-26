@@ -8,3 +8,5 @@
     go build <source file>
     go get <module>
     go get -u                   # Update all dependencies
+    
+    goimports -w .              # Install dependencies
