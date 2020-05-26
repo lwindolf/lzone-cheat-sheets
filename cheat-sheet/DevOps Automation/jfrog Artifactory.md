@@ -35,7 +35,7 @@ Quick Search
     # Get list of repos
     jfrog rt cl /api/repositories
 
-## AQL Query Examples
+## jfrog AQL Examples
 
 Alternatively to quick search you can perform complex queries using [AQL](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API#ArtifactoryRESTAPI-ArtifactoryQueryLanguage(AQL))
 
