@@ -39,11 +39,20 @@ Quick Search
 
 Alternatively to quick search you can perform complex queries using [AQL](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API#ArtifactoryRESTAPI-ArtifactoryQueryLanguage(AQL))
 
-    # Find packages by name matching
+    // Find packages by name matching
     items.find({"name":{"$match":"mypackage-*"}})
     
-    # Find packages by type
+    // Find packages by type
     items.find({"type":{"$eq":"conan"}})
     
-    # Find repo by name
+    // Find repo by name
     items.find({"repo":{"$eq":"libs-release-local"}})
+
+    // Return all artifacts of the "artifactory" build.
+    items.find({"@build.name":{"$eq":"artifactory"}})
+
+    // Return all builds that have a dependency with a license that is not Apache.
+    builds.find({"module.dependency.item.@license":{"$nmatch":"Apache-*"}})
+
+    // Return all archives containing a file called "org/artifactory/Main.class".
+    items.find({"archive.entry.name":{"$eq":"Main.class"} , "archive.entry.path":{"$eq":"org/artifactory"}})
