@@ -34,3 +34,16 @@ Quick Search
     
     # Get list of repos
     jfrog rt cl /api/repositories
+
+## AQL Query Examples
+
+Alternatively to quick search you can perform complex queries using [AQL](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API#ArtifactoryRESTAPI-ArtifactoryQueryLanguage(AQL))
+
+    # Find packages by name matching
+    items.find({"name":{"$match":"mypackage-*"}})
+    
+    # Find packages by type
+    items.find({"type":{"$eq":"conan"}})
+    
+    # Find repo by name
+    items.find({"repo":{"$eq":"libs-release-local"}})
