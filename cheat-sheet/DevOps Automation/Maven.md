@@ -1,8 +1,10 @@
--   [POM Syntax](http://maven.apache.org/pom.html)
--   [Sonatype Nexus](http://www.sonatype.org/nexus/): self-hosting a
-    Maven repository
+## Maven Configuration
 
-### Commands
+- [pom.xml](http://maven.apache.org/pom.html)
+- [settings.xml](http://maven.apache.org/settings.html)
+- [Sonatype Nexus](http://www.sonatype.org/nexus/): self-hosting a Maven repository
+
+## Maven CLI Commands
 
 General command structure
 
