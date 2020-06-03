@@ -1,7 +1,11 @@
 ## Commands
 
       gradle build
+      gradle build --scan   # Create code scan
+      
       gradle tasks          # List build targets
+      gradle tasks --all
+      
       gradle cleanup
 
 ## Using the wrapper
