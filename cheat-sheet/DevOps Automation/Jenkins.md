@@ -33,6 +33,25 @@
         println("${plugin.getShortName()}:${plugin.getVersion()}")
     }
 
+## Search all build logs
+
+    for (job in Jenkins.instance.getAllItems()) {
+      try {
+        if (job.hasProperty("builds")) {
+          if (!job.builds.isEmpty()) {
+            // Search latest build log
+            if (job.builds[-1].hasProperty("log")) {
+              if (job.builds[-1].log =~ /pattern/) {
+                println "${job.name}: ${job.builds[-1].id}"
+              }
+            }
+          }
+        }
+      } catch (Exception e) {
+        println "Skipping ${job.name}"
+      }
+    }
+
 ## Tracking builds
 
 Jenkins 1.x
