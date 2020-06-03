@@ -40,15 +40,15 @@
         if (job.hasProperty("builds")) {
           if (!job.builds.isEmpty()) {
             // Search latest build log
-            if (job.builds[-1].hasProperty("log")) {
-              if (job.builds[-1].log =~ /pattern/) {
-                println "${job.name}: ${job.builds[-1].id}"
+            if (job.builds[0].hasProperty("log")) {
+              if (job.builds[0].log =~ /pattern/) {
+                println "${job.fullName}: ${job.builds[-1].id}"
               }
             }
           }
         }
       } catch (Exception e) {
-        println "Skipping ${job.name}"
+        println "Skipping ${job.fullName}"
       }
     }
 
