@@ -34,6 +34,14 @@ Quick Search
     
     # Get list of repos
     jfrog rt cl /api/repositories
+    
+## AQL Searches
+
+AQL searches can be performed via API as POST request against `/api/search/aql`. For example with curl:
+
+    curl "<server>/api/search/aql" \
+        -H "Content-Type: text/plain" \
+        -d 'items.find({ "repo":{"$eq":"libs-release-local"} })'
 
 ## jfrog AQL Examples
 
