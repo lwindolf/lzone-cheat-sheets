@@ -107,9 +107,9 @@ Installing packages
 
 Copy files
 
-    COPY sourcefile.txt .
-    COPY sourcefile.txt targetfile.ini
-    COPY dir1 dir2 file1 src/
+    COPY sourcefile.txt /app
+    COPY sourcefile.txt config.ini /app/           # Note the trailing slash on target with multiple files 
+    COPY dir1 /app
 
 Adding users
 
