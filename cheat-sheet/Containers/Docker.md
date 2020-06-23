@@ -105,6 +105,12 @@ Installing packages
     RUN apt-get update
     RUN apt-get -y install python git
 
+Copy files
+
+    COPY sourcefile.txt .
+    COPY sourcefile.txt targetfile.ini
+    COPY dir1 dir2 file1 src/
+
 Adding users
 
     RUN useradd jsmith -u 1001 -s /bin/bash
