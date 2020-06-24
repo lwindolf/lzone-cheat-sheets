@@ -41,6 +41,10 @@ Start a container with a command like `/bin/bash`
     docker run -i -t --rm ubuntu /bin/bash # If you need a one-time container, then use the --rm option. Thus, once you exit the container,
                                         # it will be removed                                  
 
+Start with port forwarding
+
+    docker run -p 8080:8080 myserver
+
 Create a network and start container in this network
 
     docker network create --subnet=172.18.0.0/16 elknet        # Create a network 'elknet'
