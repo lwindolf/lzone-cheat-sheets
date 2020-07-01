@@ -22,6 +22,7 @@ See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?ad
 - Resolve own IP
 
       dig +short myip.opendns.com @resolver1.opendns.com
+      curl ifconfig.me
 
 - Resolve a name via nsswitch
 
