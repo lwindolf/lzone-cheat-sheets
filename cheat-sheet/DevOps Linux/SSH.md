@@ -31,13 +31,13 @@ Start SOCKS proxy
 
     ssh -D 44444 <remote host>
 
-Extract Public Key from Private Key
-
-Use ssh-keygen
+Extract public key from private key using ssh-keygen
 
     ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
     
-    ssh-keygen -t rsa -N ""          # Create new keys without prompting for passphrase
+Enfore no passphrase
+    
+    ssh-keygen -t rsa -N ""
 
 ## ssh\_config
 
