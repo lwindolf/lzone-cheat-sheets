@@ -31,6 +31,8 @@ Start SOCKS proxy
 
     ssh -D 44444 <remote host>
 
+## ssh\_keygen
+
 Extract public key from private key using ssh-keygen
 
     ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
