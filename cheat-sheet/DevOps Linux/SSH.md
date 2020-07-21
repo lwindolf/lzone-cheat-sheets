@@ -27,12 +27,9 @@ Multi-Hop](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html)
 
     ssh host1 -A -t host2 -A -t host3 ...
 
-[How to use a SOCKS
-Proxy](http://magicmonster.com/kb/net/ssh/socks_proxy.html)
+Start SOCKS proxy
 
-On the client start proxy by
-
-    ssh -D <port> <remote host>
+    ssh -D 44444 <remote host>
 
 Extract Public Key from Private Key
 
