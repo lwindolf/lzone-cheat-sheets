@@ -85,7 +85,19 @@ Prevent auto-destroy:
              "wget https://example.com/something"
         ]
     }
-             
+
+## Heredoc
+
+    resource "aws_iam_policy" "mypolicy" {
+       name = "mypolicy"
+       policy = <<EOF
+    {
+        "Version": "2020-07-01",
+        "Statement": ...
+    }
+    EOF
+    }
+    }
 
 ## Bulk Imports
 
