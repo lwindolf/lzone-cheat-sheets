@@ -77,6 +77,15 @@ Prevent auto-destroy:
         prevent_destroy = true
      }
 
+## Remote Exec
+
+    provisioner "remote-exec" {
+        inline = [
+             "apt install wget",
+             "wget https://example.com/something"
+        ]
+    }
+             
 
 ## Bulk Imports
 
