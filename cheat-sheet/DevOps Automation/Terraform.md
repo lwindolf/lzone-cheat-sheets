@@ -97,7 +97,6 @@ Prevent auto-destroy:
     }
     EOF
     }
-    }
 
 ## Bulk Imports
 
