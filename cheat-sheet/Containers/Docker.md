@@ -106,6 +106,9 @@ To a private/remote registry
 Installing packages
 
     FROM debian:wheezy
+    
+    ENV DEBIAN_FRONTEND=noninteractive             # Always have this on Debian-based distros!
+    
     RUN apt-get update
     RUN apt-get -y install python git
 
