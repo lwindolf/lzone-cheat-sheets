@@ -109,8 +109,10 @@ Installing packages
     
     ENV DEBIAN_FRONTEND=noninteractive             # Always have this on Debian-based distros!
     
-    RUN apt-get update
-    RUN apt-get -y install python git
+    # Always combine update + install to avoid apt caching issues!
+    # Always disable recommends to get no extra packages!
+    RUN apt-get update \
+     && apt-get install -y --no-install-recommends python git
 
 Copy files
 
