@@ -5,6 +5,9 @@
     kubectl config use-context <context>   # Switch to another context
     
     kubectl config unset current-context   # Clear context (useful for safety in scripts)
+    
+    # Merging 2 kube configs
+    KUBECONFIG=~/.kube/config:/some/path/other-config kubectl config view --flatten > ~/.kube/config
 
 ## Cluster commands
 
