@@ -79,7 +79,7 @@ Running commands in pods
 
 Forwarding ports to pods
 
-    kubectl port-forward -n <namespace> <pod> <remote port>:<local port>
+    kubectl port-forward -n <namespace> <pod> <local port>:<remote port>
 
 For debugging network stuff it is always helpful to start a busybox pod
     
