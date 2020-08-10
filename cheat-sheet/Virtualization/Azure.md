@@ -20,5 +20,9 @@
         }
         $Result = Get-AzResourceGroupDeploymentWhatIfResult @Parameters
         $Result
+        
+     or
+     
+        az deployment group what-if -g <group> -f <template file> -p <parameters>
   
 - [Pester: Template deployment validation](https://medium.com/charot/test-arm-templates-using-pester-azure-devops-837b5006c30c)
