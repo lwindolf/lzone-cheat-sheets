@@ -9,6 +9,7 @@
 
     az resource list
     az resource list --name <name>
+    az resource list -g <resource group>
     
     az group list
     
