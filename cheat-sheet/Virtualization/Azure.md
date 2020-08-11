@@ -8,7 +8,13 @@
 ## Resources / Groups
 
     az resource list
+    az resource list --name <name>
+    
     az group list
+    
+    az resource show   --name MySubnet --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"
+    az resource delete --name MyVm --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"     
+
 
 ## ARM
 
