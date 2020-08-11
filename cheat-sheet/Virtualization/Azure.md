@@ -5,6 +5,11 @@
 
     az aks get-credentials --resource-group <group name> --name <name>
 
+## Resources / Groups
+
+    az resource list
+    az group list
+
 ## ARM
 
 - [arm-ttk: Template validation](https://dev.to/omiossec/how-to-test-your-azure-arm-template-with-arm-template-toolkit-arm-ttk-2492)
