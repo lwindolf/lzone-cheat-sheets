@@ -18,6 +18,9 @@
     az resource show   --name MySubnet --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"
     az resource delete --name MyVm --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"     
 
+## AKS
+
+    az aks create --name <name> --resource-group <group> --enable-managed-identity [--enable-private-cluster] 
 
 ## ARM
 
