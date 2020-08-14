@@ -2,7 +2,9 @@
 ## CLI
 
     az login
-
+    
+    az account set --subscription <name|id>
+    
     az aks get-credentials --resource-group <group name> --name <name>
 
 ## Resources / Groups
