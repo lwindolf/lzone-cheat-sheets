@@ -18,3 +18,7 @@ Set default organization and project
 ## Accessing Pipelines
 
     az pipelines build show --id 1 --open
+
+## Managing Service Endpoints
+
+    az devops service-endpoint list
