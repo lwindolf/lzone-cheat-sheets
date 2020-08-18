@@ -1,6 +1,10 @@
 
 ## Configure
 
+Install CLI extension
+
+    az extension add --name azure-devops
+
 Set default organization and project
 
     az devops configure --defaults organization=https://dev.azure.com/MY-ORG project=MyProject
