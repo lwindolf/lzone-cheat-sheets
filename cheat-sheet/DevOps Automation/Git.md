@@ -136,6 +136,15 @@ To search all commits for lines containing a certain change:
     git log -p -S -- 
     git log -p -G -- 
 
+### Disecting
+
+    git disect start <recent commit> <older commit>
+    
+    git disect good
+    git disect bad
+    
+    git disect reset
+
 ## Tags
 
     git fetch --all --tags --prune
