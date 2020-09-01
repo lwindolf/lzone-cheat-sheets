@@ -1,6 +1,6 @@
 ## CLI Commands
 
-### Cluster Management
+### Swarm Management
 
     docker swarm init --advertise-addr <ip>   # Set up master
     docker swarm init --force-new-cluster -advertise-addr <ip>   # Force manager on broken cluster
@@ -16,13 +16,21 @@
                                               # daemon restart when autolock is on
                                               
     docker swarm unlock-key                   # Print key needed for 'unlock'
-    
+
+### Handling nodes
+
     docker node ls                            # Print swarm node list
     docker node rm <node id>
     docker node inspect --pretty <node id>
     
     docker node promote <node id>             # Promote node to manager
     docker node demote <node id>
+
+### Labelling nodes
+
+    docker node update --label-add <key>=<value> <node>       # Add label
+    docker node update --label-rm <key> <node>                # Remove label
+    docker node inspect <node> | grep Labels -C5              # List labels
 
 ### Rebalancing
 
