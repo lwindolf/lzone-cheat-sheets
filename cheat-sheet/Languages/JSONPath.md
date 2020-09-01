@@ -1,3 +1,5 @@
+<?add topic='jq'?>
+
 ## Syntax
 
 Depending on the client used JSONPath expressions do start with `$.` indicating the root element.
