@@ -26,3 +26,7 @@ Some clients omit the leading `$.`.
      $.customer[?(@.car)]                      # Only "customer"s that have attribute "car"
      $.customer[?(@.car == 'Ford Fiesta')]     # Only "customer"s with "Ford Fiesta"s
      $.customer[?(@.age > 18)]                 # Only adults
+
+## Output Mapping
+
+     $.[].{Name:name, Age:age, Hobbies:details.hobbies}        # Mapping fields/nested fields to new set
