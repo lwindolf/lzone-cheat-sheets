@@ -5,6 +5,8 @@
     docker swarm init --advertise-addr <ip>   # Set up master
     docker swarm init --force-new-cluster -advertise-addr <ip>   # Force manager on broken cluster
     
+    docker swarm init –autolock               # Enable auto lock
+    
     docker swarm join-token worker            # Get token to join workers
     docker swarm join-token manager           # Get token to join new manager
     
