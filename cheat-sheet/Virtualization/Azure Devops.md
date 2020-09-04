@@ -14,6 +14,7 @@ Set default organization and project
     export AZURE_DEVOPS_EXT_PAT=xxxxxxxxxx         # Provide your access token via env
 
     az devops login --organization="https://dev.azure.com/MY-ORG"
+    az devops login --project=MY-PROJECT
 
 ## Accessing Pipelines
 
