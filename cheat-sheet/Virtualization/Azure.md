@@ -18,6 +18,12 @@
     az resource show   --name MySubnet --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"
     az resource delete --name MyVm --resource-group MyResourceGroup --resource-type "Microsoft.Compute/virtualMachines"     
 
+## Activity Log
+
+Dump operations needed for creating custom AD roles
+
+    az monitor activity-log list --start-time 2020-09-08 --offset 7d | jq -r '.[] | .operationName["value"] ' | sort -u
+
 ## AKS
 
     az aks create --name <name> --resource-group <group> --enable-managed-identity [--enable-private-cluster] 
