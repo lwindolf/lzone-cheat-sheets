@@ -26,6 +26,11 @@ Dump operations needed for creating custom AD roles
 
 ## AKS
 
+    az aks list
+    az aks list | jq -r '.[].name'      # Just names
+    
+    az aks get-credentials --resource-group <resource group> --name <name>      # Get kubectl context
+    
     az aks create --name <name> --resource-group <group> --enable-managed-identity [--enable-private-cluster] 
 
 ## ARM
