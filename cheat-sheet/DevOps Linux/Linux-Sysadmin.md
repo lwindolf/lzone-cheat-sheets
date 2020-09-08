@@ -83,6 +83,10 @@ Machine readable: you need to use sadf
 
 ### Misc
 
+- Find broken links
+
+      find . -xtype l
+
 -   Check for pending leap seconds:
 
         ntpq -c"rv 0 leap"
