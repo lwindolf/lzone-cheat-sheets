@@ -44,6 +44,10 @@ List CPAN installed modules
             close STDOUT;
             close STDERR;
         }
+        
+- Case-insensitive sorting
+
+       sort { "\L$a" cmp "\L$b" } @mylist
 
 -   Regex - Always use named capture groups and %+, for example:
 
