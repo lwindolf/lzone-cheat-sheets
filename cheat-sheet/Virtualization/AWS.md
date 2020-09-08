@@ -96,6 +96,10 @@ to see your active role, and run
 
 to fetch credentials
 
+## Logging IAM Roles/Policies
+
+- [Logging changes in CloudWatch](https://docs.fugue.co/FG_R00063.html)
+
 ## STS
 
     aws sts get-caller-identity | jq -r '.Account'                      # Resolve your account id
