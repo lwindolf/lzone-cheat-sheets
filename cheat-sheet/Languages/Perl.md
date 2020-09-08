@@ -1,10 +1,3 @@
-## Syntax
-
-![](/images/perl-language-overview.svg)
-
-You can also download the cheat sheet as
-[PDF](/upload/perl-regex-reference.pdf)!
-
 ## Installing Modules from CPAN
 
 Invoke CPAN shell
