@@ -33,7 +33,7 @@ Expression examples
 
 ### Accessing Pipelines
 
-    az pipelines run --name <pipeline name>
+    az pipelines run --name <pipeline name> [--branch <branch>]
     az pipelines run --name <pipeline name> | jq .id         # Start pipeline and get build id
       
     # Get result status of a pipeline
