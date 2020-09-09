@@ -163,7 +163,8 @@ standard parameter handling. Example:
 
 -   Timeouts in shell:
 
-        timeout <nr seconds> <cmd>
+        timeout <nr seconds> <cmd>       # SIGTERM after <nr seconds>
+        timeout -k 15 5 <cmd>            # SIGTERM after 5s + SIGKILL after 15s
 
 -   Convert encodings (HTTP URI encoding, HTML entity encoding...)
 
