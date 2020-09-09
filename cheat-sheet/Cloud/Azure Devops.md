@@ -33,7 +33,16 @@ Expression examples
 
 ### Accessing Pipelines
 
-    az pipelines build show --id 1 --open
+    az pipelines run --name <pipeline name>
+    az pipelines run --name <pipeline name> | jq .id         # Start pipeline and get build id
+      
+    # Get result status of a pipeline
+    az pipelines runs show --id "$1" 2>/dev/null | jq -r .result
+    
+    # Tag a pipeline build
+    az pipelines runs tag add --run-id <id> --tags "mytag"
+    
+    az pipelines build show --id <id> --open
 
 ### Managing Service Endpoints
 
