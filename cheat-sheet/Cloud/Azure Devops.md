@@ -29,6 +29,7 @@ Expression examples
 
     ${{ myparam != '' }}
     $[ ne(result, 0) ]
+    $[ eq(variables['Build.SourceBranch'], 'refs/heads/master') ]
 
 ### Accessing Pipelines
 
