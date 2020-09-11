@@ -100,6 +100,20 @@ To create proper JSON from a shell script and properly escape variables:
 
     jq -n --arg foobaz "$FOOBAZ" '{"foobaz":$foobaz}'
 
+### Extracting key names
+
+Given an JSON object like this
+
+    {
+       "animals": [
+           "dog": { },
+           "cat": { }
+         ]
+    }
+
+you can extract the names of the animals using
+
+    jq '.animals | keys'   
 
 ### URL Encode
 Quick easy way to url encode something
