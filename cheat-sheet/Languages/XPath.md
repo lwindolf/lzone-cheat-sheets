@@ -1,6 +1,6 @@
 ## Simple node selection
 
-Simple XPath expressions you can use a beginner
+Simple XPath expressions you can use as a beginner
 
     //article         # find all <article> tags
     //article/h1      # find all <h1> tags directly below an <article>
