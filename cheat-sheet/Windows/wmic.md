@@ -2,13 +2,14 @@
 
 Getting to know the system
 
-    wmic bios get Manufacturer,Name,Version    # BIOS info,
-    wmic diskdrive get model,name,size         # physical disks,
-    wmic logicaldisk get name                  # logical disks,
-    wmic process list full                     # processes,
-    wmic printer list status                   # printers,
-    wmci printerconfig list                    # printer config,
-    wmic os list brief                         # Wubdiws version incl. serial
+    wmic bios get Manufacturer,Name,Version
+    wmic diskdrive get model,name,size         # physical disks
+    wmic logicaldisk get name                  # logical disks
+    wmic process list
+    wmic process list full
+    wmic printer list status
+    wmci printerconfig list
+    wmic os list brief                         # Windows version incl. serial
     wmic product list brief                    # installed programs  
 
 For interactive mode just run
@@ -16,6 +17,16 @@ For interactive mode just run
     wmic
 
 from there use "quit" or "exit" to terminate again.
+
+## Remote Queries
+
+Any query can be performed remote like this
+   
+    wmic /user:<remote user> /password:<password> /node:<ip or host name> <QUERY COMMAND> <QUERY PARAMS>
+
+## User Management
+
+    wmic group list brief
 
 ## Remote Access
 
