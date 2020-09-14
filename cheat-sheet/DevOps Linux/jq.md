@@ -80,6 +80,26 @@ When you want to iterate and an array you access is empty you get something like
 To workaround the optional array protect the access with
 
     select(.my_array | length > 0)
+    
+## Testing Types
+
+    $ echo '[true, null, 42, "hello", []]' | ./jq 'map(type)'
+    ["boolean","null","number","string","array"]
+    
+## Extracting key names
+
+Given an JSON object like this
+
+    {
+       "animals": [
+           "dog": { },
+           "cat": { }
+         ]
+    }
+
+you can extract the names of the animals using
+
+    jq '.animals | keys'   
 
 ## Using jq in Shell Scripts
 
@@ -99,21 +119,6 @@ To make a bash array
 To create proper JSON from a shell script and properly escape variables:
 
     jq -n --arg foobaz "$FOOBAZ" '{"foobaz":$foobaz}'
-
-### Extracting key names
-
-Given an JSON object like this
-
-    {
-       "animals": [
-           "dog": { },
-           "cat": { }
-         ]
-    }
-
-you can extract the names of the animals using
-
-    jq '.animals | keys'   
 
 ### URL Encode
 Quick easy way to url encode something
