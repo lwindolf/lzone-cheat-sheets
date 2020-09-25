@@ -39,9 +39,10 @@ To extract name and age of each "results" item
 
 Filter this by attribute
 
-    jq '.results[] | select(.name == "John") | {age}'      # Get age for 'John'
-    jq '.results[] | select(.name | contains("Jo"))'       # Get complete records for all names with 'Jo'
-    jq '.results[] | select(.name | test("Joe\s+Smith"))'  # Get complete records for all names matching PCRE regex 'Joe\+Smith'
+    jq '.results[] | select(.name == "John") | {age}'          # Get age for 'John'
+    jq '.results[] | select((.name == "Joe") and (.age = 10))' # Get complete records for all 'Joe' aged 10
+    jq '.results[] | select(.name | contains("Jo"))'           # Get complete records for all names with 'Jo'
+    jq '.results[] | select(.name | test("Joe\s+Smith"))'      # Get complete records for all names matching PCRE regex 'Joe\+Smith'
     
 ## "Deep" Value Extraction
 
@@ -112,7 +113,8 @@ To fill environment variables from JSON object keys (e.g. $FOO from jq query ".f
     export $(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')
 
 To make a bash array
-   read -a bash_array < <(jq -r .|arrays|select(.!=null)|@tsv)
+ 
+    read -a bash_array < <(jq -r .|arrays|select(.!=null)|@tsv)
     
 ### JSON template using env vars
 
