@@ -31,7 +31,7 @@ Consider this example document
 
 To extract top level attributes "timestamp" and "report"
 
-    jq '.[] | {timestamp,report}'
+    jq '. | {timestamp,report}'
 
 To extract name and age of each "results" item
 
