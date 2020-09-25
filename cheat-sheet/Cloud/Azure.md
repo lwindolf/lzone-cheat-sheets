@@ -4,6 +4,7 @@
     az login
     
     az account set --subscription <name|id>
+    az account show  # To see active subscription
     
     az aks get-credentials --resource-group <group name> --name <name>
 
