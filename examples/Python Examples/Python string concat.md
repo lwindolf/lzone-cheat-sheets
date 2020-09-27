@@ -10,7 +10,7 @@ Often it might be good to just format strings using the '%' operator
 
      print("1:%s 2:%s" % (s1, s2))
 
-Using '%Ä with explicit positions
+Using '%' with explicit positions
 
      print("1:%{s1} 2:%{s2}" % (s1, s2))
      
@@ -20,4 +20,18 @@ Using '%Ä with explicit positions
     
 Using 'format' with explicit positions
 
-    '2:{s2} 1:{s1}'.format(s1, s2)
+    '2:{s2} 1:{s1}'.format(s1=s1, s2=s2)
+    
+## String Interpolation
+
+    a=3
+    b=4
+    f'{a} * {b} = {a * b}'
+
+Will result in
+
+    '3 * 4 = 12'
+
+## Best Practices
+
+Its best to always use positional formatting. Note how it can be used to pass objects
