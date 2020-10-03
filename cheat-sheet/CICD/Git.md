@@ -43,7 +43,7 @@ When remote branches disappear clean them from your local repo with
 
     git remote prune origin
 
-### Rebasing
+## Rebasing
 
 To rebase on master
 
@@ -61,6 +61,10 @@ When a rebase fails manually fix files and
     git branch 
     git reset --hard HEAD~1      # 1 to move 1 commit
     git checkout 
+
+### Squash Commits
+
+    git rebase -i <commit after which to rebase>
 
 ## Commits
 
