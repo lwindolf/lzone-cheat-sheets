@@ -38,3 +38,9 @@ Save facts to per-host files in /tmp/facts
     ansible all -m setup --tree /tmp/facts
 
 <?speakerdeck,dacfbe2fca344ffda3b93a5abcd155c7,Introduction to Ansible?>
+
+### Ansible Module
+
+Ansible modules are standalone scripts that can be used inside an Ansible playbook. You can use these modules to run whatever commands it needs to get its job done.
+
+Ansible modules are categorized into various groups based on their functionality. There are hundreds of Ansible modules are available. You should read [Ansible Module](https://linuxbuz.com/linuxhowto/what-is-ansible-modules-and-how-to-use-it) for detail information of each module.
