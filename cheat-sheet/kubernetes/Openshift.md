@@ -84,16 +84,11 @@ to declare those parameters.
 
 - [Using Terraform with Openshift](https://medium.com/@fabiojose/platform-as-code-with-openshift-terraform-1da6af7348ce)
 
-## Migrating Services to Openshift
+## Configuring Registries
 
-- Middleware
-  - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
-  - [Kafka](https://www.nearform.com/blog/benchmarking-apache-kafka-deployed-on-openshift-with-helm/) (using Helm)
-- Runtimes
-  - [Nodejs](https://github.com/openshift/nodejs-ex.git)
-  - [Ruby](https://github.com/openshift/ruby-ex.git)
-- Frameworks
-  - [Spring Boot Stack](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#software-stack)
+- https://docs.openshift.com/container-platform/4.4/openshift_images/image-configuration.html (whitelisting/blacklisting external registry domains)
+- http://uncontained.io/articles/external-container-registry-integration/ (configuring insecure registries)
+
 
 ## Misc
 
