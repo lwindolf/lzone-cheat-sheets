@@ -1,5 +1,9 @@
 See Also: <?add topic='Package Vulnerabilities'?> <?add topic='auditd'?>
 
+## Threat Modelling
+
+- [Microsoft Stride](https://docs.microsoft.com/de-de/azure/security/develop/threat-modeling-tool-getting-started) 
+
 ### Server Scanners
 
 -   Nessus (commercial)
