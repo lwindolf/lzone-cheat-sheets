@@ -31,6 +31,15 @@ Enable fatal warnings/criticals and other checks
 
     g_free (s);
 
+#### String Replace
+
+Split text separated by literal ";;;" and join fields using new separator "|||"
+
+    char **split = g_strsplit(text, ";;;", -1);
+    g_free(text);
+    text = g_strjoinv("|||", split);
+    g_strfreev(split);
+
 #### String Buffer
 
     GString *s = g_string_new ();
