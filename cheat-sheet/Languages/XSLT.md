@@ -17,3 +17,7 @@ or a more exact one to account for attributes
     <xsl:template match="*[not(@*) and not(*) and (not(text())]"/>
     
 See also: [Stackoverflow](https://stackoverflow.com/questions/4404491/xslt-to-remove-empty-nodes-and-nodes-with-1)
+
+## XML Gettext Translation
+
+Check out the XSLT translation stylesheet used in [Liferea](https://github.com/lwindolf/liferea/blob/master/xslt/i18n-filter.xslt)
