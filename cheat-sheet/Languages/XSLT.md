@@ -1,3 +1,8 @@
+## Output mode
+
+    <xsl:output method="xml" version="1.0"/>
+    <xsl:output omit-xml-declaration="yes" indent="yes"/>
+
 ## Drop all empty nodes
 
 Use this copy template
