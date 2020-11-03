@@ -1,8 +1,10 @@
 ### Command Overview
 
-    bundle      # installs
-    bundle install
-    bundle install --path <some other path>
+
+    
+
+    bundle install <gem>
+    bundle config set path <some path>
 
     bundle update
     bundle outdated
