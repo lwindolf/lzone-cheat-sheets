@@ -1,3 +1,8 @@
+---
+parent: cheat-sheet
+title: kubernetes
+has_children: true
+---
 ## Handling multiple clusters
 
     kubectl config view                    # Short list of clusters in ~/.kube/config
@@ -210,6 +215,7 @@ List of auth proxy implementations
 
 - [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
 
+{% raw %}
       cat /proc/net/tcp             # gives you raw data with hex numbers :-(
       
       # Local endpoints
@@ -217,11 +223,14 @@ List of auth proxy implementations
       
       # Remote clients
       grep -v "rem_address" /proc/net/tcp  | gawk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
+{% endraw %}
   
 - Print all node ports using a Go template
 
+{% raw %}
       kubectl get svc --all-namespaces -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}{{end}}'
       
+{% endraw %}
       
 
 <?speakerdeck,d25dce78d1d64f039b7e23bedd95d4f6,Security Best Practices?>

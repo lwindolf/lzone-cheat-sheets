@@ -1,3 +1,4 @@
+{% raw %}
 See also <?add topic='Helm'?> 
 
 Note that while Helm uses Go templates it does so by using the 
@@ -107,3 +108,4 @@ our pass values
     {{ myOtherFunc "scalar" }}
     {{ myOtherFunc 64 }}
     {{ myOtherFunc . }}           # Provide current context to pass multiple values
+{% endraw %}

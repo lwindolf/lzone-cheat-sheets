@@ -1,3 +1,4 @@
+{% raw %}
 ## Path expressions
 
     {{somekey}}               # Extract the the value of somekey in current context
@@ -70,3 +71,4 @@ Use a partial
 For it to work register it:
 
      Handlebars.registerPartial('mySnippet', 'Some template expression {{param1}}');
+{% endraw %}

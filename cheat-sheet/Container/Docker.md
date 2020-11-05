@@ -12,7 +12,9 @@ Note in the following examples `<container>` is either a container id, or a cont
 
 List machine readable:
 
+{% raw %}
     docker ps -a --format "{{.ID}},{{.Names}},{{.Status}},{{.Image}},{{.Ports}}"
+{% endraw %}
 
 ### Inspecting containers
 

@@ -19,6 +19,7 @@ Set default organization and project
 
 ### Syntax
 
+{% raw %}
 Working with variables
 
     $(myvar)            # normal variable value replacement
@@ -30,6 +31,7 @@ Expression examples
     ${{ myparam != '' }}
     $[ ne(result, 0) ]
     $[ eq(variables['Build.SourceBranch'], 'refs/heads/master') ]
+{% endraw %}
 
 ### Accessing Pipelines
 
