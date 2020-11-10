@@ -25,6 +25,13 @@ Dump operations needed for creating custom AD roles
 
     az monitor activity-log list --start-time 2020-09-08 --offset 7d | jq -r '.[] | .operationName["value"] ' | sort -u
 
+## VMs
+
+Get managed identity token via API
+
+    $response = Invoke-WebRequest -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com/' -Method GET -Headers @{Metadata="true"}
+
+
 ## AKS
 
     az aks list
