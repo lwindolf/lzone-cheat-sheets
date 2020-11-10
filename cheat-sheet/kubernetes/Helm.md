@@ -12,6 +12,12 @@ For instructions check [here](https://docs.helm.sh/using_helm/#quickstart-guide)
 
 For Openshift there is an [RBAC compatible installation proceduce](https://blog.openshift.com/getting-started-helm-openshift/).
 
+## Setup Docker Registry as Helm Chart Repo
+
+For Helm3 
+
+    export HELM_EXPERIMENTAL_OCI=1
+
 ## Setup Troubleshooting
 
     helm init --client-only                      # (Helm 2.x only) do not initialize tiller
