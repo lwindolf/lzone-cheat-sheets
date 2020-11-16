@@ -60,3 +60,7 @@ the pipeline which allow specifying branches
 
 Note though that this will not allow to modify YAML based variable definitions, as they
 are executed long before this step!
+
+## Setup Private Build Agents
+
+E.g. with Terraform and ACI https://github.com/Azure/terraform-azurerm-aci-devops-agent
