@@ -18,13 +18,6 @@ For Openshift there is an [RBAC compatible installation proceduce](https://blog.
 
     export HELM_EXPERIMENTAL_OCI=1
 
-## Setup Troubleshooting
-
-    helm init --client-only                      # (Helm 2.x only) do not initialize tiller
-    helm init --upgrade --service-account tiller # (Helm 2.x only) ensure to sync client/server versions
- 
-    helm version       # Client/server versions should be equal
-
 ## List available packages
 
 To list charts (packages)
@@ -35,6 +28,7 @@ To list charts (packages)
 
     helm list                           # List releases in current namespace
     helm list -A                        # List all releases in all namespaces
+    helm list -A | grep -v deployed     # Find releases in unexpected state
     helm get values <release>           # Print the values the release was installed with
 
 ## Install package
