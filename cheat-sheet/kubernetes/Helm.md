@@ -26,9 +26,12 @@ To list charts (packages)
 
 ## List installed releases
 
-    helm list                           # List releases in current namespace
-    helm list -A                        # List all releases in all namespaces
-    helm list -A | grep -v deployed     # Find releases in unexpected state
+    helm ls                           # List releases in current namespace
+    helm ls -A                        # List all releases in all namespaces
+    
+    # Find releases in unexpected state
+    helm ls -A -o json | jq  -r '.[] | select(.status = "deployed") | .name'
+    
     helm get values <release>           # Print the values the release was installed with
 
 ## Install package
