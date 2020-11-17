@@ -8,11 +8,7 @@ For instructions check [here](https://docs.helm.sh/using_helm/#quickstart-guide)
 
     helm init   
     helm repo update
-    
-    # To get access to unstable charts
-    helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
-
-For Openshift there is an [RBAC compatible installation proceduce](https://blog.openshift.com/getting-started-helm-openshift/).
+    helm repo add <repo> <url>
 
 ## Setup Docker Registry as Helm Chart Repo
 
