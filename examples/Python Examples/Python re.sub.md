@@ -1,5 +1,6 @@
 ---
-related-examples: [ 'Python re.match', 'Regex Overview']
+related:
+  examples: [ 'Python re.match', 'Regex Overview']
 ---
 
 ## Syntax
