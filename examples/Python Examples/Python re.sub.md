@@ -1,5 +1,4 @@
 ---
-title: Python re.sub
 related-examples: [ 'Python re.match', 'Regex Overview']
 ---
 
@@ -26,8 +25,8 @@ Instead of a replacement string you can provide a function performing dynamic re
 
     def my_replace(m):
         if <some condition>:
-            return &lt;replacement variant 1>
-        return &lt;replacement variant 2>
+            return <replacement variant 1>
+        return <replacement variant 2>
     
     result = re.sub("\w+", my_replace, input)
 
@@ -53,5 +52,5 @@ For named backreferences define a named capture group (?<name>) and
 reference using \g<name>. Again ensure to add the 'r' prefix on the
 backreference string.
 
-    result = re.sub("(?&lt;number>\d+) (?&lt;word>\w+)", r"\g&lt;word> \g&lt;number>")
+    result = re.sub("(?<number>\d+) (?<word>\w+)", r"\g<word> \g<number>")
 
