@@ -1,4 +1,7 @@
-See Also: <?add topic='awk'?>
+---
+related:
+  cheat-sheet: ['awk']
+---
 
 ### Command Syntax
 
