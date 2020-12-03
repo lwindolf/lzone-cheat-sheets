@@ -5,7 +5,7 @@ related:
 
 This sheet cheat covers IT Ops solutions, roughly organized per process.
 For a similar index have a look at
-[http://sysadmin.it-landscape.info/](http://sysadmin.it-landscape.info/).
+[https://sysadmin.it-landscape.info/](https://sysadmin.it-landscape.info/).
 
 ### Software Firewalls, LBs
 
