@@ -1,4 +1,7 @@
-See Also: <?add topic='sed'?>
+---
+related:
+  cheat-sheet: ['sed']
+---
 
 ### Matching
 
