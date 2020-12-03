@@ -1,6 +1,9 @@
-See also: <?add topic='gdb'?> <?add topic='Debugging'?>
+---
+related:
+  cheat-sheet: ['gdb', 'Debugging']
+--
 
-### HowTo
+## HowTo
 
 -   Mix Static and Dynamic Linking
 
@@ -42,7 +45,7 @@ See also: <?add topic='gdb'?> <?add topic='Debugging'?>
 
         gcc -dumpspecs
 
-### Reading List
+## Reading List
 
 -   [https://matt.sh/howto-c](https://matt.sh/howto-c)
 
