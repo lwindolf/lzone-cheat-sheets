@@ -2,7 +2,7 @@
 
 ### Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 
-Ensure systemd unit is configured correctly and has TCP socker configured. 
+Ensure systemd unit is configured correctly and has TCP socket configured. 
 If not edit with `sudo systemctl edit docker.service` and provide
 
     [Service]
