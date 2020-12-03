@@ -1,4 +1,7 @@
-See Also: <?add topic='Package Management'?>
+---
+related:
+  cheat-sheet: ['Package Management']
+---
 
 ### Debian
 
