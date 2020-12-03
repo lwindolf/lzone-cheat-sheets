@@ -1,4 +1,7 @@
-See also <?add topic='Puppet'?>
+---
+related:
+   cheat-sheet: [ 'Puppet' ]
+---
 
 ## Hiera Queries
 
