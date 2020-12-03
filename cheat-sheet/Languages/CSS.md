@@ -1,43 +1,43 @@
-<h3>Ressources</h3>
+## Ressources
 
-<ul>
-<li><a rel="nofollow" href="http://learnlayout.com/">CSS Layouts</a> Introduction</li>
-<li>Web - Javascript Online IDE: <a href="http://jsfiddle.net/">JSFiddle</a></li>
-<li>Standard Clearfix <pre>
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</pre>
-<li>External Link Indicators <pre>
-// Set for all links
-.content a[href^="//"]:after, 
-.content a[href^="http://"]:after, 
-.content a[href^="https://"]:after {
-	content: url(/images/Icon_External_Link.png);
-	margin: 0 0 0 5px;
-}
+- [CSS Layouts Introduction](http://learnlayout.com/)
+- [JSFiddle - Javascript Online IDE](http://jsfiddle.net)
+- Standard Clearfix
 
-// Exclude local links
-.content a[href^="//lzone.de/"]:after, 
-.content a[href^="http://lzone.de/"]:after, 
-.content a[href^="https://lzone.de/"]:after {
-	content: '';
-	margin: 0;
-}
-</pre></li>
-<li>Image Inlining <pre>&lt;img src="data:image/png;base64,[IMAGE_DATA_STRING]" /></pre></li>
-<li>CSS Pre-Processors
-<ul>
-<li><a href="http://lesscss.org/">Less</a></li>
-<li><a href="http://sass-lang.com/">Sass</a></li>
-<li><a href="https://learnboost.github.io/stylus/">Stylus</a></li>
-</ul>
-</li>
-</ul>
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
 
-<h3>Advanced CSS Style Overview</h3>
+- External Link Indicators
+
+        // Set for all links
+        .content a[href^="//"]:after, 
+        .content a[href^="http://"]:after, 
+        .content a[href^="https://"]:after {
+            content: url(/images/Icon_External_Link.png);
+            margin: 0 0 0 5px;
+        }
+
+        // Exclude local links
+        .content a[href^="//lzone.de/"]:after, 
+        .content a[href^="http://lzone.de/"]:after, 
+        .content a[href^="https://lzone.de/"]:after {
+            content: '';
+            margin: 0;
+        }
+
+- Image Inlining
+
+        <img src="data:image/png;base64,[IMAGE_DATA_STRING]" />
+
+- CSS Pre-Processors
+   - [Less](http://lesscss.org)
+   - [Sass](http://sass-lang.com)
+   - [Stylus](https://learnboost.github.io/stylus/)
+
+## Advanced CSS Style Overview
 
 <table>
 <tr><td>CSS 1</td><td>No Wrapping		</td><td><pre>white-space: nowrap;</pre></td></tr>
