@@ -1,4 +1,7 @@
-See also <?add topic='Zookeeper'?>
+---
+releated:
+  cheat-sheet: ['Zookeeper']
+---
 
 ## CLI Commands for Kafka Topics
 
