@@ -1,6 +1,6 @@
 ## Auth Variants
 
-For a list of OAuth proxies for use with k8s check out the <?add topic='kubernetes'?> sheet. 
+For a list of OAuth proxies for use with k8s check out the [kubernetes cheat sheet](/cheat-sheet/kubernetes). 
 
 ### Basic Auth
 
