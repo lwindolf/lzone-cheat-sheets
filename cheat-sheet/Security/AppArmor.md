@@ -1,4 +1,7 @@
-See Also: <?add topic='SELinux'?>
+---
+related:
+  cheat-sheet: ['SELinux']
+---
 
 ### Basics
 
