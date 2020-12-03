@@ -1,4 +1,7 @@
-See also <?add topic="Monitoring"?>
+---
+related:
+  cheat-sheet: ["Monitoring"]
+---
 
 ## Concepts
 
