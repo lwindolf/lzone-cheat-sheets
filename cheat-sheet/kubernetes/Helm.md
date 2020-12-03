@@ -1,4 +1,7 @@
-See also <?add topic='Helm Templates'?> <?add topic='kubernetes'?> <?add topic='Openshift'?> 
+---
+related:
+  cheat-sheet: ['Helm Templates', 'kubernetes', 'Openshift']
+---
 
 Note: this cheat sheet is now Helm3 only
 
