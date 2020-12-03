@@ -1,6 +1,7 @@
 ## Heapsize calculation
 
-You can print the effective heap size and RAM settions by using -XX:+PrintFlagsFinal. Below is an example for a 8GB host of which Java per default 1/4 (MaxRAMFraction) uses 2GB:
+You can print the effective heap size and RAM settions by using `-XX:+PrintFlagsFinal`. 
+Below is an example for a 8GB host of which Java per default 1/4 (MaxRAMFraction) uses 2GB:
 
     java -XX:+PrintFlagsFinal $MY_PARAMS -version | grep -Ei "maxheapsize|maxram"
       size_t MaxHeapSize                              = 2061500416                                {product} {ergonomic}
@@ -58,4 +59,4 @@ forwarding
 
 ## Setting defaults from environment
 
-When you want to merge user passed settings with some defaults use JAVA\_TOOL\_OPTIONS. Options from the JVM CLI overrule any options also specified in JAVA\_TOOL\_OPTIONS.
+When you want to merge user passed settings with some defaults use `JAVA_TOOL_OPTIONS`. Options from the JVM CLI overrule any options also specified in `JAVA_TOOL_OPTIONS`.
