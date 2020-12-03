@@ -1,10 +1,13 @@
-See Also: <?add topic='Package Vulnerabilities'?> <?add topic='auditd'?>
+---
+related:
+  cheat-sheet: ['Package Vulnerabilities', 'auditd']
+---
 
 ## Threat Modelling
 
 - [Microsoft Stride](https://docs.microsoft.com/de-de/azure/security/develop/threat-modeling-tool-getting-started) 
 
-### Server Scanners
+## Server Scanners
 
 -   Nessus (commercial)
 -   [OpenVAS - Security Scanner](http://www.openvas.org/index.html)
@@ -27,9 +30,9 @@ See Also: <?add topic='Package Vulnerabilities'?> <?add topic='auditd'?>
 -   [Detecting Linux Kernel
     Rootkits](http://la-samhna.de/library/rootkits/detect.html)
 
-### Website Scanners
+## Website Scanners
 
-See <?add topic='HTTPS'?> for HTTPS configuration and certificate checkers.
+See [HTTPS](/cheat-sheet/HTTPS) for HTTPS configuration and certificate checkers.
 
 -   Nessus (commercial)
 -   [Nmap NSE scripts](https://nmap.org/nsedoc/)
@@ -38,8 +41,9 @@ See <?add topic='HTTPS'?> for HTTPS configuration and certificate checkers.
     scanner](http://www.unmaskparasites.com/)
 -   [Wordpress Vulnerability Scanner](http://wpscan.org/)
 -   [https://www.netsparker.com/](https://www.netsparker.com/)
+- [GDPR Scanner](https://www.immuniweb.com/websec/)
 
-### Standards and Guides
+## Standards and Guides
 
 -   [NIST XCCDF Format](http://scap.nist.gov/specifications/xccdf/)
 -   [PCI DSS Standards
@@ -59,27 +63,23 @@ See <?add topic='HTTPS'?> for HTTPS configuration and certificate checkers.
     hardening](https://github.com/lfit/itpol/blob/master/linux-workstation-security.md)
 -   [mkpasswd - Create Passwords](http://lzone.de/node/20)
 
-### OpenVAS
+## OpenVAS
 
-#### Setup
+### Setup
 
 Create initial GUI user for Debian OpenVAS
 
     # openvasmd --create-user admin
     User created with password '3e1e7f50-1bc3-4f38-9d48-2ac410dd37cf'.
 
-#### Updating
+### Updating
 
     openvas-nvt-sync
     openvas-scapdata-sync
     openvas-certdata-sync
 
- 
-
-### Threat Sharing
+## Threat Sharing
 
 -   MISP: http://www.misp-project.org/features.html
 
-### GDPR Testing
 
-- Website Scanner: https://www.immuniweb.com/websec/
