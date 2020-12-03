@@ -1,5 +1,7 @@
-
-See also <?add topic='AWS Lambda'?> <?add topic='S3'?>
+---
+related:
+  cheat-sheet: ['AWS Lambda', 'S3']
+---
 
 ## Drawing AWS Architectures
 
