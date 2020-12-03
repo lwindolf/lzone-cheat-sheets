@@ -60,13 +60,14 @@ See [Helm Best Practices](/blog/Helm+Best+Practices)
 
 ## Misc
 
-- https://kubeapps.com/: Web GUI for installing Helm charts
+- [https://kubeapps.com/](https://kubeapps.com/): Web GUI for installing Helm charts
 - Infrastructure as Code solutions for Helm:
    - [helmfile](https://github.com/roboll/helmfile)
    - [Helmsman](https://github.com/Praqma/helmsman)
-   - Terraform
+   - [Terraform](https://github.com/hashicorp/terraform-provider-helm)
 - Solutions to host helm charts yourself:
    - chartmuseum
    - harbour
    - Nexus
    - jFrog Artifactory
+   - any Docker registry (experimental feature)
