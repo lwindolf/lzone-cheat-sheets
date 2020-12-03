@@ -1,5 +1,8 @@
+---
+related:
+  cheat-sheet: ['Helm']
+---
 {% raw %}
-See also <?add topic='Helm'?> 
 
 Note that while Helm uses Go templates it does so by using the 
 [Sprig templating library](https://masterminds.github.io/sprig/) 
