@@ -1,4 +1,7 @@
-<?add topic='jq'?>
+---
+related:
+  cheat-sheet: ['jq']
+---
 
 ## Syntax
 
