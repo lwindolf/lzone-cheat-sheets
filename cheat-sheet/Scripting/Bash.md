@@ -1,4 +1,7 @@
-See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add topic='Bash Functions'?>
+---
+related:
+  cheat-sheet: ['Bash Regex', 'Bash Associative Array', 'Bash Functions']
+---
 
 ## String Manipulation
 
