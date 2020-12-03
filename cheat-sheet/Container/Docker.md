@@ -210,6 +210,10 @@ https://docs.docker.com/registry/spec/api/
     /v2/_catalog                # List repositories
     /v2/<repository>/tags/list  # List tags for a given repo
 
+## DockerHub Rate Limits + Solutions
+
+https://inlets.dev/blog/2020/10/29/preparing-docker-hub-rate-limits.html
+
 ## Misc
 
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker

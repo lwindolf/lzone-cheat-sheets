@@ -12,6 +12,9 @@ See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add
     ${str/#pattern/replacement} # pattern replace at front
     ${str/%pattern/replacement} # pattern replace at end
     ${str//pattern/replacement} # global pattern replace
+    ${str^^}                # convert to UPPER-CASE
+    ${str,,}                # convert to lower-case
+    
 
 ## Parameter Substituion
 

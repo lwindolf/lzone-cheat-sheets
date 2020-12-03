@@ -50,6 +50,20 @@ Expression examples
 
     az devops service-endpoint list
     
+### Running Pipeline periodically
+
+By using a cron declaration you can run pipelines
+
+    - cron: "0 0 * * *"
+      displayName: my nightly build
+      branches:
+        include:
+          -master
+      always: true
+
+Note: `always: true` is needed, when you want to run the pipeline every time
+even when there are no git changes.
+
 ### Selecting checkout branch by variable/parameter
 
 It is not possible to select the checkout branch dynamically (static definition works)
@@ -62,3 +76,7 @@ the pipeline which allow specifying branches
 
 Note though that this will not allow to modify YAML based variable definitions, as they
 are executed long before this step!
+
+## Setup Private Build Agents
+
+E.g. with Terraform and ACI https://github.com/Azure/terraform-azurerm-aci-devops-agent

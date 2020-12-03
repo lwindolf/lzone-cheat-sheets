@@ -1,23 +1,18 @@
 See also <?add topic='Helm Templates'?> <?add topic='kubernetes'?> <?add topic='Openshift'?> 
 
+Note: this cheat sheet is now Helm3 only
+
 ## Setup
 
 For instructions check [here](https://docs.helm.sh/using_helm/#quickstart-guide)
 
     helm init   
     helm repo update
-    
-    # To get access to unstable charts
-    helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
+    helm repo add <repo> <url>
 
-For Openshift there is an [RBAC compatible installation proceduce](https://blog.openshift.com/getting-started-helm-openshift/).
+## Setup Docker Registry as Helm Chart Repo
 
-## Setup Troubleshooting
-
-    helm init --client-only                      # (Helm 2.x only) do not initialize tiller
-    helm init --upgrade --service-account tiller # (Helm 2.x only) ensure to sync client/server versions
- 
-    helm version       # Client/server versions should be equal
+    export HELM_EXPERIMENTAL_OCI=1
 
 ## List available packages
 
@@ -27,19 +22,15 @@ To list charts (packages)
 
 ## List installed releases
 
-    helm list
+    helm ls                           # List releases in current namespace
+    helm ls -A                        # List all releases in all namespaces
+    
+    # Find releases in unexpected state
+    helm ls -A -o json | jq  -r '.[] | select(.status = "deployed") | .name'
+    
     helm get values <release>           # Print the values the release was installed with
 
 ## Install package
-
-Helm 2
-
-    helm install <chart> [--namespace <ns>]         # Choose release name for you
-    helm install --name <name> <chart>              # Install chart as release <name>
-    
-    helm install ./<chart dir> --namespace <ns>     # Install from local archive
- 
-Helm 3
 
     helm install <name> <chart> [--namespace <ns>]  # Per-default you need to provide a release name
     helm install -g <chart>     [--namespace <ns>]  # Helm 2 like generated release name

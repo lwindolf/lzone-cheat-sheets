@@ -1,4 +1,7 @@
-See also <?add topic='Couchbase'?>
+---
+related:
+   cheat-sheet: Couchbase
+---
 
 ### Monitoring
 
