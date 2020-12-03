@@ -1,4 +1,7 @@
-See Also: <?add topic='Kernel Tracing'?> <?add topic='GCC'?>
+---
+related:
+  cheat-sheet: ['Kernel Tracing','GCC']
+---
 
 ### Debugging / Performance Tools
 
