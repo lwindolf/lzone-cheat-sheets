@@ -1,4 +1,7 @@
-See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
+---
+related:
+  cheat-sheet: [ 'htaccess', 'HTTPS' ]
+---
 
 ## Misc
 
