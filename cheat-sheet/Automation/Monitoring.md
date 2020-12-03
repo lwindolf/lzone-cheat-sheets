@@ -1,4 +1,7 @@
-For a product list check <?add topic="Solutions Monitoring"?>
+---
+related:
+  cheat-sheet: 'Solutions Monitoring'
+---
 
 ### Graphite, Diamond
 
