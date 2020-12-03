@@ -1,6 +1,4 @@
-### Node.js
-
-Execute script
+## CLI
 
     node <script file>
 
