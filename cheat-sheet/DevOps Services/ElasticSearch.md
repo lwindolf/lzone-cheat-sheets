@@ -95,6 +95,7 @@ Retry allocation of shards (after retry limit reached)
     curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute?retry_failed=true
 
 Manual recovery
+
     curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute -d '{
         "commands": [ { 
             "allocate_replica": { 
