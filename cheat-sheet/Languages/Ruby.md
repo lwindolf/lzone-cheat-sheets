@@ -1,4 +1,7 @@
-See also <?add topic='Ruby Bundler'?>
+---
+related: 
+   cheat-sheet: ['Ruby Bundler']
+---
 
 ## Using Gem
 
