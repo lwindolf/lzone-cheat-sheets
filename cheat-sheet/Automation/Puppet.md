@@ -1,4 +1,7 @@
-See also <?add topic='Mcollective'?> <?add topic='Puppet - Hiera'?>
+---
+related:
+  cheat-sheet: ['Mcollective', 'Puppet - Hiera']
+---
 
 ### Puppet CLI
 
