@@ -1,6 +1,9 @@
-<?set title='memcached Telnet Interface'?><?set keywords='memcache,memcached,telnet,cli,commands,documentation,examples,summary,stats,slabs,set,get'?>
-<?youtube,UH7wkvcf0ys,Facebook Tech Talk?>
-<?youtube,-h9q2FmX4eo,Caching Best Practices?>
+---
+related:
+  youtube:
+    "UH7wkvcf0ys": Facebook Tech Talk
+    "-h9q2FmX4eo": Caching Best Practices
+---
 
 ## Telnet Interface
 
