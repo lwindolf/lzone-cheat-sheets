@@ -1,4 +1,7 @@
-See also: <?add topic='NFS'?> <?add topic='SSH'?> <?add topic='netfilter'?> <?add topic='iptables'?> <?add topic='tcpdump'?>
+---
+related:
+  cheat-sheet: ['NFS', 'SSH', 'netfilter', 'iptables', 'tcpdump']
+---
 
 ## Basics
 
