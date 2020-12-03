@@ -1,6 +1,9 @@
-See Also: <?add topic='SSL-Certificates'?>
+---
+related:
+  cheat-sheet: ['SSL-Certificates']
+---
 
-### Commands
+## OpenSSL Commands
 
 -   [OpenSSL
     Kurzreferenz](http://www.dfn-cert.de/informationen/themen/verschluesselung_und_pki/openssl-kurzreferenz.html):
