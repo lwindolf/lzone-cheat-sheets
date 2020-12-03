@@ -1,4 +1,7 @@
-See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
+---
+related:
+  cheat-sheet: ['DRBD', 'LVM', 'Partitioning']
+---
 
 ### Misc
 
