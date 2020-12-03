@@ -1,4 +1,7 @@
-<?add topic='Helm'?>
+---
+related:
+  cheat-sheet: ['Openshift']
+---
 
 ## Client Setup
 
