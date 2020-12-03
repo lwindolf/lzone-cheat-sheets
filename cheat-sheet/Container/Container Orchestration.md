@@ -1,3 +1,8 @@
+---
+related:
+  cheat-sheet: [ 'kubernetes', 'Openshift']
+---
+
 ## Container Scheduler Solutions
 
 - Amazon ACS (supports DC/OS, Swarm, Kubernetes)
@@ -7,8 +12,6 @@
 - Google Container Engine
 - kubernetes
 - Mesosphere Marathon
-
-See also <?add topic='kubernetes'?>
 
 ## Container Source To Image Solutions / CaaS
 
@@ -25,8 +28,6 @@ Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft
   - Metaparticle
   - Skaffold
   - [kubevirt.io](https://kubevirt.io/)
-
-See also <?add topic='Openshift'?>
 
 ## Infrastructure as Code
 
