@@ -3,7 +3,7 @@ related:
   cheat-sheet: ['Package Management']
 ---
 
-### Debian
+## Debian
 
 -   Check for security upgrades
 
@@ -39,7 +39,7 @@ related:
 -   [Security Debian
     HowTo](https://www.debian.org/doc/manuals/securing-debian-howto/ch4.de.html)
 
-#### Upgrades
+### Upgrades
 
 -   Upgrade wheezy -\> jessie
 
@@ -69,7 +69,7 @@ related:
     "reportbug"](http://forums.debian.net/viewtopic.php?f=17&t=40109):
     This can happen during dist-upgrades from Etch/Sarge to Lenny.
 
-#### Snapshots
+### Snapshots
 
 You can access arbitrary older releases via
 [snapshot.debian.org](http://snapshot.debian.org/):
@@ -79,10 +79,10 @@ You can access arbitrary older releases via
     deb     http://snapshot.debian.org/archive/debian-security/20091004T121501Z/ lenny/updates main
     deb-src http://snapshot.debian.org/archive/debian-security/20091004T121501Z/ lenny/updates main
 
-### APT Cheat sheet
+## APT Cheat sheet
         https://blog.packagecloud.io/eng/2015/03/30/apt-cheat-sheet/
 
-### Ubuntu
+## Ubuntu
 
 -   Ubuntu - Access Repositories for older releases. Once a release is
     deprecated it is moved to old-releases.ubuntu.com. You need to adapt
