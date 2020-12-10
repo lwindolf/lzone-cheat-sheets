@@ -86,6 +86,18 @@ Machine readable: you need to use sadf
 
 ### Misc
 
+- Create swap file and mount it
+
+      dd if=/dev/zero of=/swapfile bs=1024000 count=1024          # Create ~1GB file
+      mkswap /swapfile
+      chmod 0600 /swapfile
+      swapon /swapfile
+      
+  To persist mounting the swapfile add an entry in /etc/fstab like this
+  
+      /swapfile    none     swap    sw              0       0
+
+
 - Find broken links
 
       find . -xtype l
