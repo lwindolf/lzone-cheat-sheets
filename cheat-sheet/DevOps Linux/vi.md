@@ -15,7 +15,11 @@ Insert line break on command line
 			<h3>Convert DOS -> Unix line breaks</h3>
 			</td>
 			<td>
-First enter ":set ff=unix" and then save the file
+First enter 
+				
+	:set ff=unix
+	
+and then save the file
 </td>
 		</tr>
 		<tr>
