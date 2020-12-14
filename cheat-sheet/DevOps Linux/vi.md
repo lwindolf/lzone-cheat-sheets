@@ -9,6 +9,14 @@ Insert line break on command line
 
     Ctrl-v + Ctrl-M
 </td>
+		</tr>   
+		<tr>
+			<td>
+			<h3>Convert DOS -> Unix line breaks</h3>
+			</td>
+			<td>
+First enter ":set ff=unix" and then save the file
+</td>
 		</tr>
 		<tr>
 			<td>
