@@ -23,6 +23,13 @@ For linting
      terraform fmt <file>           # reformat .tf file
      terraform fmt --check <file>   # check for correct formatting
      
+## Configuration via Environment
+
+While most of the configuration should reside in .tfvars files you might want to inject 
+some config values from environment like this:
+
+     export TF_VAR_<my variable>=<my value>
+     
 ## Workspace Management 
 
 Terraform workspaces allow for the management of two or more different environments i.e. Dev or Prod separately without affecting the state of either environment.
