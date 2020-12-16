@@ -47,6 +47,21 @@ Removing/Readding nodes
     oc adm drain <node>         # Evacuates all pods with replication controllers
     oc adm uncordon <node>      # Readd node for pod scheduling
 
+### Certificates
+
+    # Adding certificate
+    oc create secret tls <cert name> --cert=<file> --key=<file> -n openshift-config
+    
+    # List certs
+    oc get secret | grep "kubernetes.io/tls"
+
+- Certificate rotation
+  - [Replacing the API server certificate](https://docs.openshift.com/container-platform/4.6/security/certificates/api-server.html)
+  - [Replacing the default ingress certificate](https://docs.openshift.com/container-platform/4.6/security/certificates/replacing-default-ingress-certificate.html)
+  
+- Disaster recovery
+  - [Recover from expired API server certificate](https://docs.openshift.com/container-platform/4.6/backup_and_restore/disaster_recovery/scenario-3-expired-certs.html)
+
 ## Initial Setup
 
 Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
