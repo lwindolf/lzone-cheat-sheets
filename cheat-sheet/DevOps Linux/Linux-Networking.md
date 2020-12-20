@@ -5,20 +5,23 @@ related:
 
 ## Basics
 
--   netcat Commands
+- netcat Commands
 
-        nc -l -p <port>       # Listen on port
-        nc -w3 <ip> <port>  # Listen for connection from IP on port
+      nc -l -p <port>       # Listen on port
+      nc -w3 <ip> <port>  # Listen for connection from IP on port
 
-        # Search banners
-        echo | nc -v -n -w1 <ip> <port min>-<port max>
+      # Search banners
+      echo | nc -v -n -w1 <ip> <port min>-<port max>
 
-        # Port scan
-        nc –v –n –z –w1 <ip> <port min>-<port max>
+      # Port scan
+      nc –v –n –z –w1 <ip> <port min>-<port max>
 
--   [paketlife.net cheet
-    sheets](http://packetlife.net/library/cheat-sheets/) for all network
-    protocols (PDFs)
+- Disable IPv6
+
+      echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
+      echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
+
+- [paketlife.net cheetsheets](http://packetlife.net/library/cheat-sheets/) for all network protocols (PDFs)
 
 ## DNS
 
