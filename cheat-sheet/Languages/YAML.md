@@ -120,7 +120,7 @@ This also means YAML parsers might return multiple documents!
        
 ### Merging Keys
 
-Imaging some default properties for a hash like these
+Imagine some default properties for a hash like these
 
      default_settings:
        install:
