@@ -28,7 +28,7 @@ Remove git branch locally with
 
 and remove on origin too
 
-    git branch -d -r origin/
+    git branch -d -r origin/<branch>
     git push origin :
 
 Alternatively remove on origin and then prune locally.
