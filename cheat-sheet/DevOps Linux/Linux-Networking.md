@@ -143,6 +143,7 @@ related:
 
 - [dailychanges.com](http://www.dailychanges.com/): Tracks DNS changes
 - [Tuning network settings](https://russ.garrett.co.uk/2009/01/01/linux-kernel-tuning/)
+- [Tracing using ad-hoc network namespace](https://askubuntu.com/questions/11709/how-can-i-capture-network-traffic-of-a-single-process/499850#499850)
 
 ## Measuring
 
