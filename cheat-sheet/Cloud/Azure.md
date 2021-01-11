@@ -33,7 +33,13 @@ Get managed identity token via API
 
 ## ACR
 
+Make an ACR private
+
     az acr --name <name> --public-network-enabled false
+
+Import docker images into a private ACR (works in Azure Shell)
+
+    az acr import -n MyRegistry --source docker.io/library/hello-world:latest -t targetrepository:targettag
 
 ## AKS
 
