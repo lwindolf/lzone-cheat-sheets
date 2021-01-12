@@ -1,13 +1,16 @@
-See Also: <?add topic='HTTPS'?> <?add topic='OpenSSL'?>
+---
+related:
+  cheat-sheet: ['HTTPS', 'OpenSSL']
+---
 
-#### CA Management Solutions
+## CA Management Solutions
 
 -   [EasyRSA](https://github.com/OpenVPN/easy-rsa) (CLI)
 -   [roCA](http://www.intrusion-lab.net/roca/) (USB stick based CA)
 -   [TinyCA](https://packages.debian.org/de/wheezy/tinyca) (GUI)
 -   [XCA](http://www.hohnstaedt.de/xca.html) (GUI)
 
-#### Pricing
+## Pricing
 
 -   [sslshopper.com](https://www.sslshopper.com): Price Comparison with
     different cert types
