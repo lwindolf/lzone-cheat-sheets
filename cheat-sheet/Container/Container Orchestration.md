@@ -43,8 +43,6 @@ Kubernetes Ecosystem [Cluster Deployment Solutions](https://blog.hasura.io/draft
 
 ### Kubernetes
 
-See also <?add topic='Helm'?> <?add topic='kubernetes'?>
-
 - [komposer](http://kompose.io/) (Docker Compose for kubernetes and Openshift)
 - [kube-applier](https://github.com/box/kube-applier) (single repo watcher, resource files only, no templates)
 - Helm (recipe repo manager, upstream chart repo)
