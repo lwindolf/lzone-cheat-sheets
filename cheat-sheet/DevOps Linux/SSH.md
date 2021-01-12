@@ -27,9 +27,19 @@ Multi-Hop](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html)
 
     ssh host1 -A -t host2 -A -t host3 ...
 
-Start SOCKS proxy
+## SOCKS proxy
+
+Start a SOCKS proxy with
 
     ssh -D 44444 <remote host>
+    
+For a reverse SOCKS proxy run
+
+    ssh -f -N -D 44444 localhost           # Start proxy locally
+    ssh myserver -R44445:localhost:44444   # Connect it via remote port-forwarding
+    
+    export HTTPS_PROXY=socks5://localhost:4445/   # Configure remote host to use the SOCKS forwarding
+    export HTTP_PROXY=socks5://localhost:4445/
 
 ## ssh\_keygen
 
