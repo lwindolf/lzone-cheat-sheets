@@ -8,7 +8,7 @@ related:
 Issue a letsencrypt certificate with subject alternate names via DNS challenge.
 Ensure to pass the certificate domain as the first domain passed with `-d`!
 
-   certbot certonly --manuel --preferred-challenges dns -d example.com,www.example.com,upload.example.com,img.example.com
+    certbot certonly --manuel --preferred-challenges dns -d example.com,www.example.com,upload.example.com,img.example.com
 
 ## CA Management Solutions
 
