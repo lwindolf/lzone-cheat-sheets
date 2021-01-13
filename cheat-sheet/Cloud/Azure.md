@@ -1,10 +1,12 @@
 
 ## CLI
 
-    az login
+    az login [--tenant <id>]
     
     az account set --subscription <name|id>
     az account show  # To see active subscription
+    
+Note: Always set or verify your subscription as "az login" without tenant chooses one without saying.
     
     az aks get-credentials --resource-group <group name> --name <name>
 
