@@ -29,6 +29,10 @@ Check out [tcpdump - Tutorial](http://dmiessler.com/study/tcpdump/) for many usa
 Be verbose and print 1500 bytes package hex dumps:
 
     tcpdump -i eth0 -nN -vvv -xX -s 1500 port <some port>
+    
+Same but with ASCII package dump
+
+    tcpdump -i eth0 -nN -vvv -A -s 1500 port <some port>
 
 ## Non-promiscous mode
 
