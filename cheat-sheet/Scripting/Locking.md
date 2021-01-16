@@ -1,6 +1,8 @@
 This cheat sheet is about file locking techniques.
 
-## Locking Variants
+## Filesystem Locking Variants
+
+Solutions that lock files using the filesystem
 
 ### flock
 
@@ -15,11 +17,39 @@ Note: that you have to create the lock file first!
     lockfile-touch  /tmp/myapp.lock
     lockfile-remove /tmp/myapp.lock
 
+### [setlock](https://cr.yp.to/daemontools/setlock.html)
+
+    setlock -nX lockfile /tmp/myapp.lock
+
+## Semaphore Locking Variants
+
+Solutions that more or less safely aquire a lock file
+
+### [lockfile](https://linux.die.net/man/1/lockfile)
+
+    lockfile /tmp/myapp.lock
+    lockfile -15 -r 3 /tmp/myapp.lock     # wait 15s, 3 retries
+
+## Pure Shell Locking
+
+Source: [https://wiki.bash-hackers.org/howto/mutex](https://wiki.bash-hackers.org/howto/mutex)
+
+    if ( set -o noclobber; echo "locked" > "$lockfile") 2> /dev/null; then
+      trap 'rm -f "$lockfile"; exit $?' INT TERM EXIT
+      echo "Locking succeeded" >&2
+      rm -f "$lockfile"
+    else
+      echo "Lock failed - exit" >&2
+      exit 1
+    fi
+
 ## Cron job locking
 
 How to ensure cron job runs do not overlap: Use `flock -w 0 <lockfile> <cmd>`
 
     */10 * * * * flock -w 0 /tmp/myscript.lock ~/bin/myscript.sh
+    
+Another good alternative might be to rely on [systemd timer units](https://www.putorius.net/using-systemd-timers.html).
 
 ## How to find blocking locks
 
