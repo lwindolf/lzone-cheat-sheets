@@ -26,19 +26,6 @@ Found
 
     cal $(date "+%M %y") | grep -v ^$ | tail -1 | sed 's/^.* \([0-9]*\)$/\1/'
 
-### Lock Files
-
-Using "flock":
-
-    flock /tmp/myapp.lock <some command>
-    flock -w 10 /tmp/myapp.lock <some command>
-
-Using "lockfile-\*" commands:
-
-    lockfile-create /tmp/myapp.lock
-    lockfile-touch  /tmp/myapp.lock
-    lockfile-remove /tmp/myapp.lock
-
 ### Parameter Handling
 
 #### getopt
