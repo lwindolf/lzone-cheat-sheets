@@ -1,4 +1,7 @@
-See also <?add topic='netfilter'?>
+---
+related:
+   cheat-sheet: ['netfilter']
+---
 
 ## iptables Examples
 
