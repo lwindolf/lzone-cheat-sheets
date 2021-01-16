@@ -1,8 +1,3 @@
----
-parent: cheat-sheet
-title: kubernetes
-has_children: true
----
 ## Handling multiple clusters
 
     kubectl config view                    # Short list of clusters in ~/.kube/config
