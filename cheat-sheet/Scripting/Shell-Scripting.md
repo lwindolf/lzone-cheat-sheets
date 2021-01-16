@@ -1,4 +1,7 @@
-See Also:
+---
+related:
+  cheat-sheet: ['Bash', 'Bash Arrays', 'Locking']
+---
 
 ### Date Handling
 
