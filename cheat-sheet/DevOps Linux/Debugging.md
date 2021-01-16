@@ -81,9 +81,10 @@ related:
         dmesg -f daemon     # Filter for facility daemon
         dmesg -l err,crit,alert,emerg # Filter for errors
 
--   [lslk - Find file
-    locks](http://prefetch.net/blog/index.php/2009/07/01/listing-file-system-lock-files-on-linux-hosts/):
-    Use lslk to find which PID is blocking an flock() to a file.
+- Find files locked
+
+      lslocks
+    
 -   [lsof](http://danielmiessler.com/study/lsof/) - Find owners of open
     file handles:
 
