@@ -1,12 +1,25 @@
 This cheat sheet is about file locking techniques.
 
+## Locking Variants
+
+### flock
+
+Note: that you have to create the lock file first!
+
+    flock /tmp/myapp.lock <some command>
+    flock -w 10 /tmp/myapp.lock <some command>
+
+### lockfile-*
+
+    lockfile-create /tmp/myapp.lock
+    lockfile-touch  /tmp/myapp.lock
+    lockfile-remove /tmp/myapp.lock
+
 ## Cron job locking
 
 How to ensure cron job runs do not overlap: Use `flock -w 0 <lockfile> <cmd>`
 
     */10 * * * * flock -w 0 /tmp/myscript.lock ~/bin/myscript.sh
-
-Note: that you have to create the lock file first!
 
 ## How to find blocking locks
 
