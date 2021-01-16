@@ -7,7 +7,7 @@
 
 ### AWS
 
-- [AWS - CLI](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet
+- [AWS - CLI](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet)
 - [AWS - CloudFormation](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html)
 - [AWS - Cost](https://blog.copper.io/aws-cost-cheat-sheet-2/)
 - [EC2 API Tools](http://ricostacruz.com/cheatsheets/ec2.html)
