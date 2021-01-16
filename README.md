@@ -1,3 +1,3 @@
-# Cheat Sheet Collection
+# DevOps Cheat Sheet Collection
 
-Markdown sources for cheat sheets found at https://lzone.de/
+Markdown sources for all the cheat sheets found at https://lzone.de/
