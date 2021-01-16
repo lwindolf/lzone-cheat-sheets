@@ -4,14 +4,14 @@ This cheat sheet is about file locking techniques.
 
 Solutions that lock files using the filesystem
 
-### flock
+### [flock](https://linux.die.net/man/1/flock)
 
 Note: that you have to create the lock file first!
 
     flock /tmp/myapp.lock <some command>
     flock -w 10 /tmp/myapp.lock <some command>
 
-### lockfile-*
+### [lockfile-*](https://linux.die.net/man/1/lockfile-create)
 
     lockfile-create /tmp/myapp.lock
     lockfile-touch  /tmp/myapp.lock
@@ -53,9 +53,7 @@ Another good alternative might be to rely on [systemd timer units](https://www.p
 
 ## How to find blocking locks
 
-    lslocks
-
-Will give an output listing all active locks:
+[lslocks](https://www.man7.org/linux/man-pages/man8/lslocks.8.html) will give an output listing all active locks:
 
     ~ $ lslocks
     COMMAND           PID  TYPE  SIZE MODE  M      START        END PATH
