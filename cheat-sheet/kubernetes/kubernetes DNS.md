@@ -9,7 +9,7 @@ Easiest way for lookup is dumping /etc/resolv.conf
 
 So this pod can be reached via `<name>.test.svc.cluster.local` with `name` being the deployment name and `test` being the namespace.
 
-## Pod DNS Policy
+## [Pod DNS Policy](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pod-s-dns-policy)
 
     kubectl get pod <name> -o "jsonpath={.spec.dnsPolicy}"
 
@@ -26,3 +26,7 @@ This is done using the `forward` plugin. Add a server section to your Corefile l
     }
     
 this would resolve `example.net` via Cloudflare DNS.
+
+## Misc
+
+- [Performance impact of `ndots:5` default in /etc/resolv.conf](https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html)
