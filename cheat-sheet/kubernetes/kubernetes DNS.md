@@ -7,7 +7,7 @@ Easiest way for lookup is dumping /etc/resolv.conf
     nameserver 172.30.0.10
     options ndots:5
 
-So this pod can be reached via `<name>.test.svc.cluster.local` with `name` being the deployment name and `test` being the namespace.
+So this pod can be reached via `<name>.test.svc.cluster.local` with `<name>` being the deployment name and `test` being the namespace.
 
 ## [Pod DNS Policy](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pod-s-dns-policy)
 
