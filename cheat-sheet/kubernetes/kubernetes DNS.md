@@ -14,3 +14,15 @@ So this pod can be reached via `<name>.test.svc.cluster.local` with `name` being
     kubectl get pod <name> -o "jsonpath={.spec.dnsPolicy}"
 
 usually returns `ClusterFirst` indicating internal resolution.
+
+## CoreDNS
+
+### Adding an external nameserver
+
+This is done using the `forward` plugin. Add a server section to your Corefile like this
+
+    .example.net:53 {
+       forward . 1.1.1.1
+    }
+    
+this would resolve `example.net` via Cloudflare DNS.
