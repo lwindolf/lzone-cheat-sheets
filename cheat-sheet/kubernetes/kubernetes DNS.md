@@ -1,0 +1,16 @@
+## Pod DNS Name
+
+Easiest way for lookup is dumping /etc/resolv.conf
+
+    sh-4.2# cat /etc/resolv.conf
+    search test.svc.cluster.local svc.cluster.local cluster.local eu-west-1.compute.internal
+    nameserver 172.30.0.10
+    options ndots:5
+
+So this pod can be reached via `<name>.test.svc.cluster.local` with `name` being the deployment name and `test` being the namespace.
+
+## Pod DNS Policy
+
+    kubectl get pod <name> -o "jsonpath={.spec.dnsPolicy}"
+
+usually returns `ClusterFirst` indicating internal resolution.
