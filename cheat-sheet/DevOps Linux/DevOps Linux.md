@@ -1,6 +1,7 @@
 ## Links
 
 - [vi - Advanced](http://www.lagmonster.org/docs/vi2.html)
+- [vi - Scripting](https://devhints.io/vimscript)
 - [Quota](http://www.yolinux.com/TUTORIALS/LinuxTutorialQuotas.html)
 - [sssd](http://lhermie.net/sssd/)
 - [SysRq]( https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html)
