@@ -24,6 +24,11 @@ Check out [tcpdump - Tutorial](http://dmiessler.com/study/tcpdump/) for many usa
         # Filter TCP flags (e.g. RST)
         tcpdump 'tcp[13] & 4!=0'
 
+## Capture and Replay
+
+    tcpdump <filter> -w <output file>
+    tcpdump <filter> -r <output file>
+
 ## Verbose Trace
 
 Be verbose and print 1500 bytes package hex dumps:
