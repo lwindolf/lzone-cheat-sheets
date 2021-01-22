@@ -87,7 +87,7 @@ Log directory is /var/log/journal
 Config is in /etc/systemd/resolved.conf where might want to make changes like those
 
     [Resolve]
-    DNS=8.8.8.8 8.8.44                # Set explicit nameservers
+    DNS=8.8.8.8 8.8.4.4                # Set explicit nameservers
     Cache=no                          # Disable caching responses
 
 ### Other
