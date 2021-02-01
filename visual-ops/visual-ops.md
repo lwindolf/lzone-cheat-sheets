@@ -1,8 +1,3 @@
----
-title: visual-ops
-has_children: true
-permalink: /visual-ops
----
 
 # Links
 
