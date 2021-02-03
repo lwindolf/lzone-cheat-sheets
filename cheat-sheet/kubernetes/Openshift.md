@@ -107,6 +107,30 @@ to declare those parameters.
 - https://docs.openshift.com/container-platform/4.4/openshift_images/image-configuration.html (whitelisting/blacklisting external registry domains)
 - http://uncontained.io/articles/external-container-registry-integration/ (configuring insecure registries)
 
+## CoreDNS
+
+List effective Corefile
+
+    oc get cm/dns-default -n openshift-dns -o yaml
+
+[Change config](https://rcarrata.com/openshift/dns-forwarding-openshift/) (e.g. add forwarder)
+
+    ( cat <<EOT
+    apiVersion: operator.openshift.io/v1
+    kind: DNS
+    metadata:
+      name: default
+    spec:
+      servers:
+      - name: example-dns
+        zones:
+          - example.com
+        forwardPlugin:
+          upstreams:
+            - 1.2.3.4
+     EOT
+     ) | oc apply -f -
+
 
 ## Misc
 
