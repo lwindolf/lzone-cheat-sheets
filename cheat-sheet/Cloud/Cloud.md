@@ -8,6 +8,7 @@
 ### Datacenters
 
 - [Cloud Location Map](https://www.cloudinfrastructuremap.com/#/)
+- [AWS Regions & Edges](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
 
 ### AWS
 
