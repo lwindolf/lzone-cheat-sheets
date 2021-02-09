@@ -5,6 +5,10 @@
 - [draw.io](https://draw.io): Versatile vector graphics
 - [AsciiFLow](https://asciiflow.com/): Draw ASCII art network diagrams
 
+### Datacenters
+
+- [Cloud Location Map](https://www.cloudinfrastructuremap.com/#/)
+
 ### AWS
 
 - [AWS - CLI](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet)
