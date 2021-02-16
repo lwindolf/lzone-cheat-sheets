@@ -29,4 +29,5 @@ this would resolve `example.net` via Cloudflare DNS.
 
 ## Misc
 
+- [Configuring CoreDNS operator in Openshift](https://lzone.de/cheat-sheet/Openshift#coredns)
 - [Performance impact of `ndots:5` default in /etc/resolv.conf](https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html)
