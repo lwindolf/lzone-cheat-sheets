@@ -54,6 +54,27 @@ To list charts (packages)
     
     helm install mychart-0.1.0.tgz --dry-run --debug       # Test installing
 
+## Using Helm in Terraform
+
+Dependency in main.tf
+
+    terraform {
+      required_providers {
+        helm = {
+          version = ">= 3.5"
+        }
+      }
+    }
+
+Declaring Helm ressources with terraform
+
+     resource "helm_release" "myreleasename" {
+       name = "myreleasename"
+       namespace = "<namespace>"
+       create_namespace = <true|false>
+       chart = "<path to local chart|chart name>"
+     }
+
 ## Best Practices
 
 See [Helm Best Practices](/blog/Helm+Best+Practices)
