@@ -14,6 +14,8 @@
     terraform state push   # e.g. force push state to S3 bucket
     terraform state pull > terraform.tfstate  # create a local state copy
     
+    terraform force-unlock <lock-id-guid>     # Clean up leftover locks from hard-cancelled run
+    
 Change verbosity by setting environment variable TF_LOG
 
     export TF_LOG=INFO
