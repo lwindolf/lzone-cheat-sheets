@@ -162,4 +162,3 @@ List effective Corefile
     -   [http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/](http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/)
     -   https://monodot.co.uk/openshift-cheatsheet/
 
-<?youtube,Gm21ltMlk_k,Windows Pods in Openshift 4.4?>
