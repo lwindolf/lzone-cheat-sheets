@@ -62,6 +62,15 @@ Removing/Readding nodes
 - Disaster recovery
   - [Recover from expired API server certificate](https://docs.openshift.com/container-platform/4.6/backup_and_restore/disaster_recovery/scenario-3-expired-certs.html)
 
+### Security Context Constraints (SCC)
+
+    oc get scc                                      # List all SCCs
+    oc get scc --as system:admin                    # List SCCs for other account
+    
+    oc adm policy who-can use scc privileged        # Show who is allowed to use a SCC "privileged"
+    
+    oc adm policy add-scc-to-user anyuid -z runasanyuid --as system:admin      # Allow a user a new SCC
+
 ## Initial Setup
 
 Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
