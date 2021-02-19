@@ -78,3 +78,4 @@ Import docker images into a private ACR (works in Azure Shell)
 
 - Microsoft built-in policies: https://github.com/Azure/azure-policy
 - Community policies: https://github.com/Azure/Community-Policy
+- AKS OpenPolicyAgent gatekeeper enforced policies: https://docs.microsoft.com/de-de/azure/governance/policy/concepts/policy-for-kubernetes
