@@ -74,4 +74,9 @@ Import docker images into a private ACR (works in Azure Shell)
   
 - [Pester: Template deployment validation](https://medium.com/charot/test-arm-templates-using-pester-azure-devops-837b5006c30c)
 
+## Policies
+
+- Microsoft built-in policies: https://github.com/Azure/azure-policy
+- Community policies: https://github.com/Azure/Community-Policy
+
 <?youtube,zzRPC8uApM4,Azure Logging Intro?>
