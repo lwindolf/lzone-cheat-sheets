@@ -1,3 +1,7 @@
+## CLI Usage
+
+Podman is CLI compatible to Docker. See the [Docker cheat sheet](/cheat-sheet/Docker).
+
 ## Docker compatibility
 
 By default Podman supports only OCI images, so some docker stuff like
