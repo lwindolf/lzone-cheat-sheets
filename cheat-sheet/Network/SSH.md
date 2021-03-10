@@ -25,7 +25,7 @@ Using SSH Agent
 [Transparent
 Multi-Hop](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html)
 
-    ssh host1 -A -t host2 -A -t host3 ...
+    ssh -A -t host1 ssh -A -t host2 ssh -A -t host3 ...
 
 ## SOCKS proxy
 
