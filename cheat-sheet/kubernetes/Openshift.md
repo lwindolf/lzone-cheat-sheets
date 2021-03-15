@@ -61,6 +61,9 @@ Removing/Readding nodes
   
 - Disaster recovery
   - [Recover from expired API server certificate](https://docs.openshift.com/container-platform/4.6/backup_and_restore/disaster_recovery/scenario-3-expired-certs.html)
+  - Checking API server logs
+  
+         oc adm node-logs --role=master --path=openshift-apiserver
 
 ### Security Context Constraints (SCC)
 
