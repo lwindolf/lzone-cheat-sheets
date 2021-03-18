@@ -14,3 +14,4 @@
 
 - https://techhq.com/2019/05/salesforce-hit-by-15-hour-downtime/
 - https://www.crn.com/slide-shows/cloud/6-things-to-know-about-the-latest-salesforce-outage
+- https://www.datacenterdynamics.com/opinions/salesforce-database-outage-why-it-happened-and-how-prevent-another-one/
