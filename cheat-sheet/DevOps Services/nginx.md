@@ -22,6 +22,29 @@ explicitly:
         proxy_set_header Host $host;
     }
 
+### SNI VirtualHosts
+
+Works using [ssl_preread module](http://nginx.org/en/docs/stream/ngx_stream_ssl_preread_module.html)
+
+    map $ssl_preread_server_name $name {
+        backend.example.com      backend;
+        default                  backend2;
+    }
+
+    upstream backend {
+       [...]
+    }
+
+    upstream backend2 {
+       [...]
+    }
+
+    server {
+        listen      <port>;
+        proxy_pass  $name;
+        ssl_preread on;
+    }
+
 ### Complex Conditions
 
 As nginx does not support complex logic in if() conditions you need to
