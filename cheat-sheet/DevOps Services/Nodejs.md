@@ -100,4 +100,8 @@ or in your code set
 
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
+## Node.js with extra CAs
 
+You can make Node.js handle additional CAs like that
+
+    export NODE_EXTRA_CA_CERTS=<path to ca certs>
