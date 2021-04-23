@@ -18,6 +18,8 @@ Things to test
 
     cat /etc/subuid /etc/subgid                     # -> should print user definitions    
     getcap /usr/bin/newuidmap /usr/bin/newgidmap    # -> should print "cap_setuid+ep"
+    
+    sysctl | grep kernel.unprivileged_userns_clone  # -> should be "1"
 
 e.g. in a k8s build pod, might cause
 
