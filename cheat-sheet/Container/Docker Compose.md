@@ -26,7 +26,7 @@ To assign a network a fixed CIDR range
 To make a service use it
 
     service:
-      myapp:
+      my_app:
         [...]
         networks:
           - app_net
@@ -36,7 +36,7 @@ To make a service use it
 To assign a service a fixed IP
 
     services:
-      app:
+      my_app:
         image: busybox
         command: ifconfig
         networks:
