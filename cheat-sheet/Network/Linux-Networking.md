@@ -225,6 +225,10 @@ You can use curl to measure resolving, time to connect, time to first byte and t
     framework](http://x-trace.net/pubs/nsdi-html/xtrace.html)
 -   iptraf - Real-time statistics in ncurses interfaces
 -   mtr - Debug routing/package loss issues
+
+        mtr --report <host>                     # ping based
+        mtr --report --tcp --port 443 <host>    # connection based
+
 -   netstat - The different modes
 
         # Typically used modes
