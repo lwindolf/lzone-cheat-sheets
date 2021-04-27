@@ -22,6 +22,14 @@ To assign a network a fixed CIDR range
               gateway: 172.16.238.1
             - subnet: 2001:3984:3989::/64        
               gateway: 2001:3984:3989::1
+              
+To make a service use it
+
+    service:
+      myapp:
+        [...]
+        networks:
+          - app_net
 
 ### Service
 
