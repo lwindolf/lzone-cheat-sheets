@@ -5,16 +5,19 @@ related:
 
 ## OpenSSL Commands
 
--   [OpenSSL
-    Kurzreferenz](http://www.dfn-cert.de/informationen/themen/verschluesselung_und_pki/openssl-kurzreferenz.html):
-    All commands to create keys, certificates and certificate requests.
--   Print x509 Certificate Infos:
+- [OpenSSL Kurzreferenz](http://www.dfn-cert.de/informationen/themen/verschluesselung_und_pki/openssl-kurzreferenz.html):
+  All commands to create keys, certificates and certificate requests.
+- Print x509 Certificate Infos:
 
         openssl x509 -text -in my.pem
         openssl ca -text -in my_ca.pem
         openssl req -text -in csr.pem
 
--   Checking Files
+- Print PKCS7 certificates
+
+        openssl pkcs7 -in <file> -print_certs
+
+- Checking Files
 
         openssl req -text -noout -verify -in csr.pem
         openssl rsa -in my.key -check
