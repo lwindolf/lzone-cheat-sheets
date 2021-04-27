@@ -103,6 +103,12 @@ To a private/remote registry
     docker tag <source>[:<tag>] <remote registry>/<target>:<tag>
     docker push <remote registry>/<target>:<tag>
 
+### Networks
+
+    docker network ls
+    docker network rm <network id>
+    docker network inspect <network id>
+
 ## Dockerfile Examples
 
 Installing packages
