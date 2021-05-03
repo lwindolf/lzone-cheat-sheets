@@ -164,17 +164,35 @@ To search all commits for lines containing a certain change:
     git tag -d <tag>         # Deletes tag in your local repo
     git push origin :<tag>   # Deletes tag remote
 
-## Misc
-
-### Update submodules
-
-    git submodule update --init --recursive
+## Security
 
 ### Enable git password Caching
 
 To keep passwords for 1h run
 
     git config --global credential.helper 'cache --timeout=3600'
+
+### Allow insecure certificates
+
+One time only
+
+    git clone <url> --config http.sslVerify=false
+
+Permanently for a give URL
+
+    git config https.<remote url>/.sslVerify false
+
+### Configuring specific proxy
+
+Disable proxy for a given URL
+
+    git config https.<remote url>/.proxy ""
+
+## Misc
+
+### Update submodules
+
+    git submodule update --init --recursive
 
 ### Remove all repo files from a directory
 
