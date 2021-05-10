@@ -6,12 +6,15 @@ related:
 ## CLI
 
     node <script file>
+    node -c <script file>     # Syntax check
 
-## n Commands
+## Node Version Manager Commands
 
-Node Version Manager
+Installation
 
     npm install n
+
+Usage
 
     n help
     n ls
