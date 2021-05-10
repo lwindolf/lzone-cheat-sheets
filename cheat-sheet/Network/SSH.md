@@ -60,7 +60,7 @@ to learn about syntax and options...
 ### Per Host Keys
 
     Host example.com
-    IdentityFile ~/.ssh/example.com_id_rsa
+      IdentityFile ~/.ssh/example.com_id_rsa
 
 ### Agent Forwarding
 
@@ -69,7 +69,7 @@ Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
 explained with pictures! Configured in /etc/ssh\_config with
 
     Host *
-    ForwardAgent yes
+      ForwardAgent yes
 
 ### Multiplexing Connections
 
