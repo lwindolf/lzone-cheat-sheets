@@ -1,4 +1,7 @@
-See also: <?add topic='Packaging'?> on how to build packages
+---
+related:
+   cheat-sheet: ['Packaging']
+---
 
 ### Debian
 
@@ -50,6 +53,12 @@ Ommitting any of those will cause interaction.
     DEBIAN_FRONTEND=noninteractive apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" <package>
 
 #### dpkg Commands
+
+    dpkg -i <package file>             # Install
+    dpkg -P <package name>             # Uninstall
+   
+    dpkg -C                            # find all package with broken files
+    dpkg -l | awk '/^iF/ {print $2}'   # find partially installed packages
 
     # Resolve file to package
     dpkg -S /etc/fstab
