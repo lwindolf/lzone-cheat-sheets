@@ -84,7 +84,8 @@ Import docker images into a private ACR (works in Azure Shell)
 ## Keyvaults
 
     az keyvault secret set --vault-name <vault> --name <secret name> --file <secret file> --encoding ascii --only-show-errors --output none
-    az keyvault secret show --vault-name <vault> --name <secret name>
+    az keyvault secret show  --vault-name <vault> --name <secret name>
+    az keyvault secret purge --vault-name <vault> --name <secret name>
 
 ## Policies
 
