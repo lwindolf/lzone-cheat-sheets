@@ -81,6 +81,11 @@ Import docker images into a private ACR (works in Azure Shell)
   
 - [Pester: Template deployment validation](https://medium.com/charot/test-arm-templates-using-pester-azure-devops-837b5006c30c)
 
+## Keyvaults
+
+    az keyvault secret set --vault-name <vault> --name <secret name> --file <secret file> --encoding ascii --only-show-errors --output none
+    az keyvault secret show --vault-name <vault> --name <secret name>
+
 ## Policies
 
 - Microsoft built-in policies: https://github.com/Azure/azure-policy
