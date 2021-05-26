@@ -8,7 +8,7 @@ Copy Keys
 interaction.
 
     ssh -i my_priv_key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no 
-    -o PreferredAuthentications=publickey [email protected] -n "/bin/ls"
+    -o PreferredAuthentications=publickey user@host -n "/bin/ls"
 
 Using SSH Agent
 
