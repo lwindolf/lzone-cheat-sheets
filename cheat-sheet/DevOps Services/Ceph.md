@@ -20,6 +20,8 @@
 
     ceph status
     ceph health
+    
+    ceph osd lspools
 
 ## Setup CephFS
 
