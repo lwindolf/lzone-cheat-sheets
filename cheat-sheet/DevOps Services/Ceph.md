@@ -1,5 +1,24 @@
 ## Ceph Cluster CLI
 
+    ceph-volume lvm list
+
+    ceph status
+    ceph health
+    
+    ceph osd lspools
+    
+## cephadm
+
+    apt install cephadm 
+    cephadm add-repo --release pacific
+    cephadm install ceph-common
+    
+    cephadm bootstrap --mon-ip 11.232.9.102
+    ceph orch host add <node>
+    ceph orch apply mon <nodes>
+
+## ceph-deploy (Legacy)
+
     ceph-deploy new <nodes>                         # Create new cluster    
     ceph-deploy install --release luminous <nodes>  # Install release
 
@@ -16,12 +35,6 @@
  
     ceph-deploy osd create --data <device> <node>   # Create object storage
     
-    ceph-volume lvm list
-
-    ceph status
-    ceph health
-    
-    ceph osd lspools
 
 ## Setup CephFS
 
