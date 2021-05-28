@@ -18,6 +18,7 @@
     ceph orch apply mon <nodes>
     
     ceph orch apply osd --all-available-devices       # Create OSD from all available disks
+    ceph orch daemon add osd host1:/dev/sdb           # Add a specific disk
 
 Troubleshooting
     
