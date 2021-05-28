@@ -24,7 +24,10 @@ Troubleshooting
     
     ceph orch host ls
     ceph orch device ls
-    cephadm ls
+    
+    cephadm ls                                      # List known services
+    
+    ceph log last cephadm                           # Log of latest actions
 
 ## ceph-deploy (Legacy)
 
