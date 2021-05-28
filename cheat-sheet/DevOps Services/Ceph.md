@@ -16,10 +16,13 @@
     cephadm bootstrap --mon-ip 11.232.9.102
     ceph orch host add <node>
     ceph orch apply mon <nodes>
+    
+    ceph orch apply osd --all-available-devices       # Create OSD from all available disks
 
 Troubleshooting
     
     ceph orch host ls
+    ceph orch device ls
     cephadm ls
 
 ## ceph-deploy (Legacy)
