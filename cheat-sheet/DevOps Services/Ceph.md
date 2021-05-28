@@ -16,8 +16,11 @@
     cephadm bootstrap --mon-ip 11.232.9.102
     ceph orch host add <node>
     ceph orch apply mon <nodes>
+
+Troubleshooting
     
     ceph orch host ls
+    cephadm ls
 
 ## ceph-deploy (Legacy)
 
