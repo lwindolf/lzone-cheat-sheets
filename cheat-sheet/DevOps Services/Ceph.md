@@ -44,3 +44,7 @@
     ceph fs new cephfs cephfs_metadata cephfs_data
      
     ceph auth get-key client.admin                     # Create client secret
+
+## Misc
+
+- [SuSE Troubleshooting List](https://documentation.suse.com/ses/7/html/ses-all/bp-troubleshooting-status.html)
