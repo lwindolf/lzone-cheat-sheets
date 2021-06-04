@@ -52,6 +52,10 @@ If you want to combine subkeys at different levels it won't work like this
 
 Instead you can access values like this
 
+    jq '.items[] | { "created" : .metadata["created"], name }'
+
+Or like this
+
     jq '.items[] | .metadata["created"], .name'
 
 The drawback being, that you do not get a JSON output, but each value on a new line.
