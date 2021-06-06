@@ -84,7 +84,7 @@ Machine readable: you need to use sadf
 -   [CPU Utilization is
     wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html?utm_content=bufferfb890&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
-### Misc
+## Swap Files
 
 - Create swap file and mount it
 
@@ -97,6 +97,7 @@ Machine readable: you need to use sadf
   
       /swapfile    none     swap    sw              0       0
 
+## Misc
 
 - Find broken links
 
