@@ -25,7 +25,7 @@ Find kernel id
     grep "menuentry .*id_option.*gnulinux" /boot/grub/grub.cfg
 
 Ids look like `gnulinux-5.11.0-18-generic-advanced-c0da4c73-db83-44f2-9a69-f6ad6a4dc7b4`
-Once you've identified you new default id change the following line in /etc/default/grub:
+Once you've identified your new default id change the following line in /etc/default/grub:
 
     GRUB_DEFAULT=0
     
