@@ -53,10 +53,6 @@ Enfore no passphrase
 
 ## ssh\_config
 
-Read the [authorized\_keys
-HowTo](http://www.eng.cam.ac.uk/help/jpmg/ssh/authorized_keys_howto.html)
-to learn about syntax and options...
-
 ### Per Host Keys
 
     Host example.com
