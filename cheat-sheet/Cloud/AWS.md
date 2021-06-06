@@ -116,6 +116,32 @@ to fetch credentials
 
 - [Configuring HTTPS redirects](https://aws.amazon.com/about-aws/whats-new/2018/07/elastic-load-balancing-announces-support-for-redirects-and-fixed-responses-for-application-load-balancer/)
 
+## ElasticSearch
+
+Filtered and blocked API endpoints
+
+    /_nodes                     Anonymized node names, Missing "input_arguments" which has start params
+    /_nodes/stats               Anonymized node names
+    /_nodes/settings            Fully crippled, displays on node count, role and version
+
+    /_cluster/health              Unfiltered
+    /_cluster/settings            Unfiltered
+    /_cluster/state               Anonymized node names, Node transport stripped
+    /_cluster/stats               OS name missing, JVM name+version+vendor missing, Plugins missing
+    /_cluster/allocation/explain  Unfiltered
+
+
+    /_cat/health                Unfiltered
+    /_cat/indices               Unfiltered
+    /_cat/nodes                 Node IPs 'x.x.x.x'
+
+    /_aliases                   Unfiltered
+
+    /_warmers                   Forbidden
+
+    /_mappings                  Unfiltered
+
+
 ## CloudFormation
 
 - Nesting Templates with [AWS::Include](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/create-reusable-transform-function-snippets-and-add-to-your-template-with-aws-include-transform.html)
