@@ -20,3 +20,12 @@ password prompt when you run a different command than you expect. In
 any case if you can't solve it check /var/log/auth.log to see what
 the real command is.
 
+## sudo: Pseudo-terminal will not be allocated
+
+Happens for example when you ssh + sudo. Insteaf of
+
+    ssh myserver sudo vi /etc/passwed
+    
+do 
+
+    ssh -t myserver sudo vi /etc/passwd
