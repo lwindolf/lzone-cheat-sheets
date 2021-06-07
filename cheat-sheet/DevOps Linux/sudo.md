@@ -5,6 +5,8 @@
     sudo -n [<user>]            # Ensure to be non-interactive
     sudo -i [<user>]            # sudo and run login shells of the user
     sudo -l -U <user>           # List sudo permissions of given user
+
+    sudo -k                     # Force password on next sudo
     
     visudo                             # Safely change /etc/sudoers file
     visudo -f /etc/sudoers.d/<file>    # Edit sudoers.d file
@@ -13,6 +15,14 @@ To edit broken /etc/sudoers files
 
     pkexec visudo
     pkexec visudo -f /etc/sudoers.d/<file>
+
+## /etc/sudoers Syntax Examples
+
+    %sudo       ALL=(ALL:ALL) ALL              # Allow group 'sudo' with password
+    %sudo       ALL=(ALL:ALL) NOPASSWD: ALL    # Allow group 'sudo' with password
+    
+    jon.smith   ALL(ALL) ALL               # Allow user 'jon.smith' with password
+    jon.smith   ALL(ALL) NOPASSWD: ALL     # Allow user 'jon.smith' without password
 
 ## sudo: no tty present and no askpass program specified
 
