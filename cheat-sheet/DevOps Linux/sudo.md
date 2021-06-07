@@ -6,7 +6,8 @@
     sudo -i [<user>]            # sudo and run login shells of the user
     sudo -l -U <user>           # List sudo permissions of given user
     
-    visudo                      # Safely change sudoers file
+    visudo                             # Safely change /etc/sudoers file
+    visudo -f /etc/sudoers.d/<file>    # Edit sudoers.d file
 
 ## sudo: no tty present and no askpass program specified
 
