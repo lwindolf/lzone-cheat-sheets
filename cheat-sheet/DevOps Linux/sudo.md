@@ -9,6 +9,11 @@
     visudo                             # Safely change /etc/sudoers file
     visudo -f /etc/sudoers.d/<file>    # Edit sudoers.d file
 
+To edit broken /etc/sudoers files
+
+    pkexec visudo
+    pkexec visudo -f /etc/sudoers.d/<file>
+
 ## sudo: no tty present and no askpass program specified
 
 Can be solved by adding
