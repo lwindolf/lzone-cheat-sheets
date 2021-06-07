@@ -144,24 +144,6 @@ Machine readable: you need to use sadf
         restart all
         tail <name>   # JSON log
 
--   sudo - Solving issue
-
-        nagios sudo: no tty present and no askpass program specified
-
-    by adding
-
-        Defaults:<user name> !requiretty
-        Defaults:<user name> !visiblepw
-
-    at the end of /etc/sudoers. Note that this issue can also indicate a
-    password prompt when you run a different command than you expect. In
-    any case if you can't solve it check /var/log/auth.log to see what
-    the real command is.
-
--   sudo - List user permissions:
-
-        sudo -l -U <user>
-
 -   pv - Visualize pipe progress:
 
         pv -cN source < linux-3.4.0.tar.bz2 | bzcat | pv -cN bzcat | gzip -9 | pv -cN gzip > linux-3.4.0.tar.gz
