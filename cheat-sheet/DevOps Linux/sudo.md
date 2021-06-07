@@ -33,3 +33,4 @@ do
 ## Misc
 
 - [/etc/sudoers.d Pitfalls](https://lzone.de/blog/etcsudoers.d-Pitfalls)
+- [/etc/sudoers.d Syntax Oddities](https://lzone.de/blog/visudo-includedir-sudoers.d)
