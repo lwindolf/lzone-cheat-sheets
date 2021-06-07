@@ -32,4 +32,4 @@ do
 
 ## Misc
 
-- [https://lzone.de/blog/etcsudoers.d-Pitfalls](/etc/sudoers.d Pitfalls)
+- [/etc/sudoers.d Pitfalls](https://lzone.de/blog/etcsudoers.d-Pitfalls)
