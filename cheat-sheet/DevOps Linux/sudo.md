@@ -29,3 +29,7 @@ Happens for example when you ssh + sudo. Insteaf of
 do 
 
     ssh -t myserver sudo vi /etc/passwd
+
+## Misc
+
+- [https://lzone.de/blog/etcsudoers.d-Pitfalls](/etc/sudoers.d Pitfalls)
