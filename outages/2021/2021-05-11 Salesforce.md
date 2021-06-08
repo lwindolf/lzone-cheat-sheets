@@ -4,7 +4,7 @@
 
 ## Duration
 
-h
+4h
 
 ## Root Cause
 
