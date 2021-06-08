@@ -71,7 +71,7 @@ Self-hosted:
 
 -   Nagios
 -   Icinga 2
--   check\_mk
+-   check_mk
 -   Shinken
 -   Splunk
 -   [Sensu](https://sensuapp.org/)
@@ -114,7 +114,9 @@ See also this
 
 ## Status Page Hosting
 
--   [statuspage.io](https://www.statuspage.io)
+-  [Atlassian statuspage.io](https://www.statuspage.io)
+-  [Statusgator](https://statusgator.com/)
+-  [cstate](https://github.com/cstate/cstate)
 
 ## Event Correlation
 
