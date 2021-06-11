@@ -93,7 +93,17 @@ Complex conditions using nested pipelines
 
     {{ include mytemplate.tpl }}   # invoke content of mytemplate.tpl right here
                                    # if it produces output it will get replaced
-                                   
+
+## Using variables
+
+Save context using variable
+
+    {{- $root := . }}
+    {{- with .Values.something }}
+       ...
+       someGlobal: {{ $root.Values.someGlobal }}
+    {{- end }}
+
 ## Defining and using functions
 
 Define a "Hello World" function
