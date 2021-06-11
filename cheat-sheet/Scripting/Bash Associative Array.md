@@ -47,6 +47,10 @@ Or check hash properties...
     ${!arr[*]}        # Returns all indizes
     ${#arr[*]}        # Number elements
     ${#arr[$n]}       # Length of $nth item
+    
+Delete an element (not that is unsafe and might not do what you want!)
+
+    undef arr[my key]
 
 ### Iterating Bash Hashes
 
