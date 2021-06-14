@@ -40,7 +40,12 @@ Start command
     USER jsmith
     WORKDIR /home/jsmith/
     ENTRYPOINT bin/my-start-script.sh
-    
+
+Start command with parameters
+
+    ENTRYPOINT [ "script.sh", "param1", "param2"]            # using ENTRYPOINT command cannot be overridden, only parameters can be appended
+    CMD [ "script.sh", "param1", "param2"]                   # using CMD "docker run" can override command and parameters
+
 [Setting timezone](https://serverfault.com/a/683651)
 
     ENV TZ=America/Los_Angeles
