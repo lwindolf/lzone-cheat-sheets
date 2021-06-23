@@ -93,8 +93,8 @@ Split text separated by literal ";;;" and join fields using new separator "|||"
 
 #### Read file
 
-    gssize length;
-    gchar *content, *filename = 'input.txt';
+    gsize length;
+    gchar *content, *filename = "input.txt";
     if (g_file_get_contents (filename, &content, &length, NULL)) {
         // Process contents
         g_free (content);
