@@ -59,20 +59,23 @@ related:
 - [DNSSEC - Verisign Online Tester](https://dnssec-debugger.verisignlabs.com/)
 - DNS - [CAA Support](https://sslmate.com/caa/support): Providers and Tools
 
-* DNS Servers
+* DNS server
   * Bind
   * PowerDNS
   * NSD
   * ldns
+  * unbound
 
 * DNS over TLS/HTTPS resolvers
   * [stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
   * [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/)
   * [nss-tls](https://github.com/dimkr/nss-tls)
 
-* DNS over TLS servers
-  * Google
-  * https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers
+* Public DNS over TLS/HTTPS resolvers
+  * Google (8.8.8.8:853)
+  * Cloudflare (1.1.1.1:853)
+  * Quad9 (9.9.9.9:853)
+  * Also see https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers
 
 ## Configuration
 
