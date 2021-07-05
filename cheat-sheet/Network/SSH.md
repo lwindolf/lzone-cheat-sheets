@@ -99,7 +99,6 @@ You can configure jumphosts using ProxyCommand and netcat:
 
     # Note the server list can have wild cards, e.g. "webserver-* database*"
     Host <server list>
-      ForwardAgent yes
       User <your user name on all these hosts>
       ProxyCommand ssh -q <your jump host> nc -q0 %h 22
 
