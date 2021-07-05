@@ -1,6 +1,6 @@
 ---
 related:
-  cheat-sheet: ['NFS', 'SSH', 'netfilter', 'iptables', 'tcpdump']
+  cheat-sheet: ['NFS', 'SSH', 'netfilter', 'iptables', 'tcpdump', 'curl']
 ---
 
 ## Basics
@@ -15,6 +15,9 @@ related:
 
       # Port scan
       nc –v –n –z –w1 <ip> <port min>-<port max>
+      
+      # Perform request
+      printf 'HTTP/1.0 GET /\n'  | nc <server> <port>
 
 - Disable IPv6
 
@@ -169,22 +172,6 @@ related:
 - iperf3
 - [nuttcp](http://nuttcp.net/Welcome%20Page.html)
 - [Ethr](https://github.com/Microsoft/ethr)
-
-### Using curl metrics
-
-You can use curl to measure resolving, time to connect, time to first byte and total time like this:
-
-- Issue sequential requests (each with new connection)
-
-<pre>      while true; do
-         curl -w "$(date +%FT%T)    dns %{time_namelookup}    connect %{time_connect}   firstbyte %{time_starttransfer}   total %{time_total}   HTTP %{http_code}\n" -o /dev/null -s "https://example.com"
-         sleep 1
-      done</pre>
-
-- Issue sequential HTTP/1.1 requests on 1 connection
-
-<pre>      curl -w "$(date +%FT%T)    dns %{time_namelookup}    connect %{time_connect}   firstbyte %{time_starttransfer}   total %{time_total}   HTTP %{http_code}\n" --keepalive -K <(printf 'url="https://example.com/"\n%.0s' {1..10000})
-</pre>
 
 ## Discovery
 
