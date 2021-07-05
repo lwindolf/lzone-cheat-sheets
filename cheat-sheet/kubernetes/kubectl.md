@@ -29,6 +29,8 @@ Useful "get" commands
     kubectl get deployments <application>
     kubectl get replicasets
     kubectl get sa                     # secret attachements
+    
+    kubectl get --raw='/readyz?verbose'           # basic cluster health checks
 
 A complete list of all ressource and CRDs you can get with
 
