@@ -1,3 +1,8 @@
+---
+related:
+  cheat-sheet: etcdv2
+---
+
 This cheat sheet is for etcd v3 only!
 
 ## CLI Commands
