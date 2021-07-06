@@ -1,3 +1,10 @@
+---
+related:
+  cheat-sheet: etcd
+---
+
+This cheat sheet is for etcd v2 only!
+
 ## CLI Commands
 
 Cluster infos
