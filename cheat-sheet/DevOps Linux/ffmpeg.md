@@ -228,48 +228,16 @@ safe to be passed to the Apple segmenter.
 
 ## Metadata Tagging Tools
 
-This post is a comparison of the performance of different tools
-available to tag FLV and MP4 containers with specific metadata (e.g.
-title, keyframes, generator or other custom fields...). For FLV
-containers flvtool2, flvtool++ and yamdi are compared. For the MP4
-container MP4box, AtomicParsley and ffmpeg are compared.
-
-Here are the IMO three most important FLV taggers tested on a 125MB FLV:
-
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Name                                                                Duration   Large Files   In Memory   Custom Tags                              Command
-  ------------------------------------------------------------------- ---------- ------------- ----------- ---------------------------------------- ---------------------------------------------------------------------------------------------------
-  [flvtool2 1.0.6](http://www.inlet-media.de/flvtool2/)               3min 11s   no            no          yes                                      flvtool2 -UP -band:Test -user:Test -date:1995 -genres:pop test.flv
-
-  [flvtool++ 1.2.1](http://mirror.facebook.net/facebook/flvtool++/)   3s         no            yes         yes                                      flvtool++ test.flv -tag band "Test" -tag user "Test" -tag date "1995" -tag genres "pop" test2.flv
-
-  [yamdi 1.6](http://yamdi.sourceforge.net/)                          1.5s       yes           no          no\                                      yamdi -i test.flv -o test2.flv -c "Test"
-                                                                                                           ([patch](/Custom+FLV+Tags+with+Yamdi))   
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The performance of flvtool2 is horrendous. For films of 120min it will
-take hours to process. Therefore: **Do not use it!** Use Facebooks
-flvtool++ instead. I guess the bad performance results from it being
-built in Ruby. Also notice the "Large File" column indicating large file
-support which officially only yamdi support (by adding compile flag
--D\_FILE\_OFFSET\_BITS=64). Another important point is the "In Memory"
-column indicating that flvtool++ loads the entire file into memory when
-tagging, which is problematic when tagging large files. Given this
-results only **yamdi should be used for FLV tagging**!
-
-Now for the MP4 tagging. Here you can select between a lot of tools from
+This is a comparison of the performance of different tools
+for MP4 tagging. Here you can select between a lot of tools from
 the net, but only a few of them are command line based and available for
 Unix. The MP4 test file used is 100MB large.
 
-  Name                                                     Duration   Command
-  -------------------------------------------------------- ---------- -----------------------------------------------------------------------------------------------------------------------------
-  [AtomicParsely](http://atomicparsley.sourceforge.net/)   0.6s       AtomicParsley test.mp4 --artist "Test" --genre "Test" --year "1995"
-  [mp4box](http://www.videohelp.com/tools/mp4box)          0.6s       MP4Box -itags Name=Test:Artist=Me:disk=95/100 test.mp4
-  [ffmpeg 0.6](http://ffmpeg.org)                          0.8s       ffmpeg -i test.mp4 -metadata title="Test" -metadata artist="Test" -metadata date="1995" -acodec copy -vcodec copy test2.mp4
-
-Given that recent ffmpeg brings the tagging for MP4 out of the box (it
-doesn't for FLV though) you do not even need an external tool to add the
-metadata,
+| Name | Duration | Command   | 
+| ---- | -------- | ----------|
+| [AtomicParsely](http://atomicparsley.sourceforge.net/) |  0.6s |      AtomicParsley test.mp4 --artist "Test" --genre "Test" --year "1995"
+|  [mp4box](http://www.videohelp.com/tools/mp4box)       |  0.6s |      MP4Box -itags Name=Test:Artist=Me:disk=95/100 test.mp4
+|  [ffmpeg 0.6](http://ffmpeg.org)                       |  0.8s |     ffmpeg -i test.mp4 -metadata title="Test" -metadata artist="Test" -metadata date="1995" -acodec copy -vcodec copy test2.mp4
 
 ### Solving Runtime Errors
 
