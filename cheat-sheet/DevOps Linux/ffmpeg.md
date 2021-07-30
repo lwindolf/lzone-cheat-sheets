@@ -27,6 +27,11 @@ work.
     
 ### Creating Thumbnails
 
+To create a single thumb at 10s
+
+    ffmpeg -ss 10 -i <input file> -vframes 1 -vcodec png -an thumb.png
+
+
 To create thumbnails every n seconds use "-vf fps=1/n" for example
 
     ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
