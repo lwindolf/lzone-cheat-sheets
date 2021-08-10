@@ -9,6 +9,8 @@ This cheat sheet is for etcd v2 only!
 
 Cluster infos
 
+    etcdctl endpoint health
+
     etcdctl ls  /_etc/machines --recursive    # List all known hosts
     etcdctl get /_etc/machines/<token>        # Details of a host
     etcdctl get /_etc/config
