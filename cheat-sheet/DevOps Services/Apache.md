@@ -7,6 +7,15 @@ related:
 
     apache2ctl -S        # List VHost precedence
     apache2ctl -M        # List active modules
+    
+    a2enmod <module>     # Enable module (links from /etc/apache2/mods-available to /etc/apache2/mods-enabled)
+    a2dismod <module>    # Disable module
+    
+    a2ensite <site>      # Enable site (links from /etc/apache2/sites-available to /etc/apache2/sites-enabled)
+    a2dissite <site>     # Disable site
+    
+    a2enconf <conf>      # Enable config (links from /etc/apache2/conf-available to /etc/apache2/conf-enabled)
+    a2disconf <conf>     # Disable config
 
 ## Config Examples
 
