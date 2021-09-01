@@ -52,6 +52,8 @@ related:
 
 ### Proxying Websockets
 
+    a2enmod proxy_wstunnel
+
     RewriteEngine on
     RewriteCond %{HTTP:Upgrade} websocket [NC]
     RewriteCond %{HTTP:Connection} upgrade [NC]
