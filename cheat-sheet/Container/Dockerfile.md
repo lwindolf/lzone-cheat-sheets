@@ -103,3 +103,15 @@ and explicitely called on the CLI
 
     docker build --target stage1 ...
 
+## Hardening Dockerfiles
+
+Things you should do
+
+- Ensure there is a .dockerignore file in your base directory
+- Ensure there is a USER statement
+- Ensure there is a HEALTHCHECK statement (for non-k8s use cases)
+- Check FROM clause for trusted base images
+- Check curl/wget fetching from trusted domains only
+- Check your base image limits typical package managers (Python, Node, Maven...) to trusted repositories
+
+In the end: firewall your build environment to avoid all unintended internet access
