@@ -19,3 +19,9 @@ Allows you to monitor breakpoints
     perf stat -a sleep 5                            # Overview over everything
     perf stat -e syscalls:* -a <cmd>                # Overview over all system calls
     perf stat -e ext4:ext4_request_inode -a <cmd>   # Counter for a single ext4 metric
+
+### perf record
+
+Creating perf trace files
+
+    perf record -a
