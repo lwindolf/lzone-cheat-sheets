@@ -24,4 +24,7 @@ Allows you to monitor breakpoints
 
 Creating perf trace files
 
-    perf record -a
+     perf record -F 99 -a -g -- sleep 60
+     perf script > out.perf
+
+Afterwards post-processing into collapsed stacks and flame graphs is possible: see [https://github.com/brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph).
