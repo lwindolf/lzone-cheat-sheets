@@ -76,6 +76,12 @@ Adding elements to lists
        "Natalie"
     ]'   
 
+## Merge files (since jq 1.4)
+
+The following command will merge "somekey" from both passed files
+
+    jq -s '.[0] * .[1] | {somekey: .somekey}' <file1> <file2>
+
 ## Handle Empty Arrays
 
 When you want to iterate and an array you access is empty you get something like
