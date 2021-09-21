@@ -85,4 +85,4 @@ Configure escape hatch for admin basic auth
 
 ## Scripted API Calls
 
-[How to use API tokens with scripts](https://wiki.jenkins.io/display/JENKINS/Authenticating+scripted+clients)
+[How to use API tokens with scripts](https://www.jenkins.io/doc/book/system-administration/authenticating-scripted-clients/)
