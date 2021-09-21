@@ -88,7 +88,7 @@ The following command will merge "somekey" from both passed files
 
 ## Handle Empty Arrays
 
-When you want to iterate and an array you access is empty you get something like
+When you want to iterate over an array, and the array you access is empty you get something like
 
     jq: error (at <stdin>:3): Cannot iterate over null (null)
 
