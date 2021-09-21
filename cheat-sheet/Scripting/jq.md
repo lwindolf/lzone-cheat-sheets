@@ -76,6 +76,10 @@ Adding elements to lists
        "Natalie"
     ]'   
 
+## Delete values with jq
+
+    jq 'del(.somekey)' input.json
+
 ## Merge files (since jq 1.4)
 
 The following command will merge "somekey" from both passed files
