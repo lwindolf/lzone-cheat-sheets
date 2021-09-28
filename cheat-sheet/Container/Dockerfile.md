@@ -2,14 +2,18 @@
 
 Installing packages
 
-    FROM debian:wheezy
+    FROM debian:jessie
     
     ENV DEBIAN_FRONTEND=noninteractive             # Always have this on Debian-based distros!
     
-    # Always combine update + install to avoid apt caching issues!
-    # Always disable recommends to get no extra packages!
+    # Always
+    # - combine update + install to avoid apt caching issues!
+    # - disable recommends to get no extra packages!
+    # - clean lists afterwards
     RUN apt-get update \
      && apt-get install -y --no-install-recommends python git
+     && apt-get clean \
+     && rm -rf /var/lib/apt/lists/*
 
 Copy files
 
