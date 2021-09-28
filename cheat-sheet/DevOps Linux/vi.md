@@ -92,3 +92,14 @@ vim-addon-manager enable &lt;addon&gt;      # some addons need enabling
 		</tr>
 	</tbody>
 </table>
+
+## Quickfix
+
+    :copen                                  # Open quickfix list
+    :cn                                     # Next
+    :cp                                     # Previous
+    :cclose                                 # Close quickfix list
+        
+    :cexpr system('grep -n xyz *')          # Load a grep result as quickfix
+
+Hint: fastest skipping on English keyboard layout "@:"
