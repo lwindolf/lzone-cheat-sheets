@@ -25,13 +25,15 @@ To follow additional branches in your local repo follow these steps:
 Remove git branch locally with
 
     git branch -d 
+    
+### Remove branch on origin
 
-and remove on origin too
+    git push origin --delete <branch>
+    
+or
 
     git branch -d -r origin/<branch>
     git push origin :
-
-Alternatively remove on origin and then prune locally.
 
 ### Rename Local Branch
 
@@ -164,6 +166,18 @@ To search all commits for lines containing a certain change:
     git tag -d <tag>         # Deletes tag in your local repo
     git push origin :<tag>   # Deletes tag remote
 
+## Origins
+
+    git remote -v                  # List
+    git remote add <origin> <url>  # Add new origin
+    git remote rm <origin>         # Remove
+    
+    # Get a branch track a specific origin
+    git branch --set-upstream-to=<origin>/<branch> <branch>
+    
+    # Remove remote branch
+    git push origin --delete <branch>
+
 ## Security
 
 ### Enable git password Caching
@@ -277,10 +291,7 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
     git fetch upstream
     git checkout master
     git merge upstream/master
-
-### Delete remote branch
-    git push origin --delete <branch>
-    
+   
 ### Ignore invalid certificates
 
     git -c http.sslVerify=false <command> 
