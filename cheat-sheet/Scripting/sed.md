@@ -10,13 +10,13 @@ related:
     /abc/d      # Delete all with "abc"
     /abc/!d     # Delete all without "abc"
 
-    /start/,/end/!d     # Select a block
+    /start/,/end/!d        # Select a block
 
     s/abc/def/
-    s/abc\(...\)ghi/\1/ # Back references 
-                # (see below for correct Shell quoting)
+    s/abc\(...\)ghi/\1/    # Back references 
+                           # (see below for correct Shell quoting)
 
-    /abc/{s/def/ghi)}   # Conditional replace
+    /abc/{s/def/ghi)}      # Conditional replace
 
 Appending lines
 
