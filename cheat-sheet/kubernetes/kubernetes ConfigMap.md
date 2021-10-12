@@ -74,3 +74,5 @@ An alternative is to use `subPath` in the volume mount:
          - name: my-config
            configMap:
              name: my-config-map
+
+Note though the `subPath` has the disadvantage of not updating with ConfigMap changes.
