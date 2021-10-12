@@ -20,3 +20,7 @@ Enforce WSLv2 as default
     wsl -l [-v]                    # List installed distros
     wsl --set-default <name>       # Set default distro
     wsl --set-version <name> 1     # Force distro to run in WSLv1
+
+## GUI Setup
+
+Probably easiest is to install [GWSL](https://github.com/Opticos/GWSL-Source) from the MS app store.
