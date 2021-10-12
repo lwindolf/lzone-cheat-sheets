@@ -45,7 +45,7 @@ Given a config map with multiple keys that are filenames you can
            configMap:
              name: my-config-map
              
-To only mount a single file using a single key from the configMap
+### Mount a single file using a single key from the configMap
 
     spec:
        containers:
@@ -63,7 +63,9 @@ To only mount a single file using a single key from the configMap
                
 Note though about example will hide all contents of /etc/somedir despite only injecting a single file.
 
-An alternative is to use `subPath` in the volume mount:
+An alternative is to use `subPath` as shown below.
+
+### Use `subPath` to replace a single file
 
     spec:
        containers:
