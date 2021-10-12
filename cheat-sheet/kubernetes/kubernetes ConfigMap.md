@@ -1,6 +1,8 @@
 Config map use case examples
 
-## All Environment Variables from ConfigMap
+## Environment from a ConfigMap
+
+### All Environment Variables from ConfigMap
 
     spec:
       containers:
@@ -9,7 +11,7 @@ Config map use case examples
             - configMapRef:
                 name: myConfigMap
 
-## Specific Environment Variables from ConfigMap
+### Specific Environment Variables from ConfigMap
 
     spec:
       containers:
