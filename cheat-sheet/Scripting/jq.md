@@ -36,6 +36,10 @@ To extract top level attributes "timestamp" and "report"
 To extract name and age of each "results" item
 
     jq '.results[] | {name, age}'
+    
+To extract name and age as text values instead of JSON
+
+    jq -r '.results[] | {name, age} | join(" ")'
 
 Filter this by attribute
 
