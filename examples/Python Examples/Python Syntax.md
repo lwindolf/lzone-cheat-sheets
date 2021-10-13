@@ -18,6 +18,14 @@ Iterating by index
 
 ## Standard Tasks
 
+### Using env variables
+
+    import os
+    print(os.environ)
+    
+    print(os.environ.get('HTTPS_PROXY'))
+    os.environ['MYVAR'] = 'myvalue'
+
 ### Reading from a Pipe in Python
 
 Line by line
