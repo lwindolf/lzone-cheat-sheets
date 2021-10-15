@@ -29,3 +29,7 @@ Can be solved by
 
     chmod 4755 /usr/bin/newgidmap
     chmod 4755 /usr/bin/newuidmap
+
+## Registry Configuration
+
+See `/etc/containers/registries.conf`
