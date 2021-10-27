@@ -35,6 +35,10 @@ Start a SOCKS proxy with
     
 For a reverse SOCKS proxy run
 
+    # OpenSSH >7.6
+    ssh myserver -R44445:localhost
+    
+    # OpenSSH <7.6
     ssh -f -N -D 44444 localhost           # Start proxy locally
     ssh myserver -R44445:localhost:44444   # Connect it via remote port-forwarding
     
