@@ -41,7 +41,9 @@ For a reverse SOCKS proxy run
     # OpenSSH <7.6
     ssh -f -N -D 44444 localhost           # Start proxy locally
     ssh myserver -R44445:localhost:44444   # Connect it via remote port-forwarding
-    
+
+To use a socks proxy configure env
+
     export HTTPS_PROXY=socks5://localhost:4445/   # Configure remote host to use the SOCKS forwarding
     export HTTP_PROXY=socks5://localhost:4445/
 
