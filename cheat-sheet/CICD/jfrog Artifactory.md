@@ -1,6 +1,12 @@
-## CLI Usage
+## Configure Client
 
-    jfrog rt c         # Configure jfrog endpoint and authentication
+    jfrog config show
+    jfrog config add <env name>
+    jfrog config use <env name>
+
+Test configuration with
+
+    jfrog rt ping                            # Should return "OK"
 
 ## Builds
 
