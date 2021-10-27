@@ -2,6 +2,12 @@
 
     jfrog rt c         # Configure jfrog endpoint and authentication
 
+## Builds
+
+    jfrog rt podman-push <tag> --build-name=<name> --build-number=<number>
+    jfrog rt bp <name> <number>              # Create build
+    jfrog rt bs <name> <number>              # Scan build with XRay
+
 ## API Queries
 
 [jfrog API docs](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
