@@ -33,6 +33,23 @@ related:
     ${str?error}               # abort with 'error' if not set
     ${str:?error}              # abort with 'error' if not set (and not null)
 
+## Variables
+
+    readonly a                 # readonly variable
+    unset a                    # delete variable
+
+    declare -p var1            # declare string
+    declare -u var2            # declare uppercase string
+    declare -l var3            # declare lowercase string
+    declare -i var4            # declare integer    
+    declare -a arr1            # declare indexed array
+    declare -A arr2            # declare associative array
+    
+    declare -x var5            # export var1
+    declare -n var6=var1       # declare name ref var6 pointing to var1
+
+    read a b c <<< $( mycommand | cut -d " " -f 3,4,8 )       # read multiple variables from cmd ouput
+
 ## Arrays
 
 Indexed arrays require no declaration
