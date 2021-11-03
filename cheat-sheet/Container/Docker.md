@@ -58,8 +58,8 @@ Create a network and start container in this network
     docker restart <container>
     docker stop    <container>
     docker attach  <container>
-    docker rm      <container>          # Removes / deletes a container (do not confuse with the "rmi" command - it removes an image!).
-                                        # The container must be stopped in beforehand.
+    docker rm [-f] <container>          # Removes / deletes a container (do not confuse with the "rmi" command - it removes an image!).
+                                        # The container must be stopped in beforehand (unless -f is used).
 
     docker cp '<id>':/data/file .       # Copy file out of container
 
