@@ -30,6 +30,12 @@ Can be solved by
     chmod 4755 /usr/bin/newgidmap
     chmod 4755 /usr/bin/newuidmap
 
+## Systemd Integration
+
+    podman generate systemd --new --name <unit name>
+    systemctl enable <unit name>
+    systemctl start <unit name>
+
 ## Registry Configuration
 
 See `/etc/containers/registries.conf`
