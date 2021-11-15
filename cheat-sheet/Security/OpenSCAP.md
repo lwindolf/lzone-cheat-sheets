@@ -5,7 +5,7 @@ Get ruleset infos
     oscap info /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
     oscap info /usr/share/xml/scap/ssg/content/ssg-centos7-ds.xml
 
-Evaluation example
+# XCCDF evaluation example
 
     oscap xccdf eval --report report.html --profile xccdf_org.ssgproject.content_profile_pci-dss /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
 
@@ -16,7 +16,16 @@ Evaluate and remediate
 Generate remediation shell script for review
 
     oscap xccdf generate fix --template urn:xccdf:fix:script:sh --profile xccdf_org.ssgproject.content_profile_rht-ccp --output my-remediation-script.sh /usr/share/xml/scap/ssg/content/ssg-rhel6-ds.xml
-    
+
+## OVAL evaluation example
+
+For Ubuntu
+
+    input="com.ubuntu.$(lsb_release -cs).usn.oval.xml"
+    wget https://security-metadata.canonical.com/oval/${input}.bz2
+    bunzip "${input}.bz2"
+    oscap oval eval "${input}"
+
 ## Install
 
     apt-get install ssg-debderived     # Ubuntu
