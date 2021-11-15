@@ -16,3 +16,7 @@ Evaluate and remediate
 Generate remediation shell script for review
 
     oscap xccdf generate fix --template urn:xccdf:fix:script:sh --profile xccdf_org.ssgproject.content_profile_rht-ccp --output my-remediation-script.sh /usr/share/xml/scap/ssg/content/ssg-rhel6-ds.xml
+
+## Misc
+
+- [OpenSCAP on Ubuntu](https://www.techrepublic.com/article/how-to-perform-security-audits-on-ubuntu-server-with-openscap/)
