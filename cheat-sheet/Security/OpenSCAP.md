@@ -33,6 +33,14 @@ For Ubuntu
     apt-get install ssg-debian         # Debian
     yum install scap-security-guide    # Fedora/Redhat
 
+## Ubuntu Audit
+
+For full Ubuntu server profiles "Ubuntu Advantage" subscription is required
+
+    ua status              # See status
+    ua enable cis          # Enable CIS auditing
+    ua audit <level>       # Perform scan, level is e.g. "server_level1"
+
 ## Misc
 
 - [OpenSCAP on Ubuntu](https://www.techrepublic.com/article/how-to-perform-security-audits-on-ubuntu-server-with-openscap/)
