@@ -35,4 +35,5 @@ For Ubuntu
 ## Misc
 
 - [OpenSCAP on Ubuntu](https://www.techrepublic.com/article/how-to-perform-security-audits-on-ubuntu-server-with-openscap/)
+- [Ubuntu OVAL Instructions](https://ubuntu.com/security/oval)
 - [Compliance as Code](https://github.com/ComplianceAsCode/content)
