@@ -21,7 +21,8 @@ Generate remediation shell script for review
 
 For Ubuntu
 
-    input="com.ubuntu.$(lsb_release -cs).usn.oval.xml"
+    type="usn"         # or "cve" for more details
+    input="com.ubuntu.$(lsb_release -cs).${type}.oval.xml"
     wget "https://security-metadata.canonical.com/oval/${input}.bz2"
     bunzip "${input}.bz2"
     oscap oval eval "${input}"
