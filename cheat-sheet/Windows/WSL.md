@@ -20,6 +20,8 @@ Enforce WSLv2 as default
     wsl -l [-v]                    # List installed distros
     wsl --set-default <name>       # Set default distro
     wsl --set-version <name> 1     # Force distro to run in WSLv1
+    
+    wsl --unregister <name>        # Uninstall distro
 
 ## GUI Setup
 
