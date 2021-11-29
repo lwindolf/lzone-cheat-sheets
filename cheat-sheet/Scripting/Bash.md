@@ -91,7 +91,7 @@ Since Bash v4
 
 ## Here Documents
 
-Bash allow here documents like this
+Bash allow a heredoc like this
 
     cat <<EOT
     [...]
