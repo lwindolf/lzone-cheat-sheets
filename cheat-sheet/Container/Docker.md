@@ -120,6 +120,16 @@ https://docs.docker.com/registry/spec/api/
 
 https://inlets.dev/blog/2020/10/29/preparing-docker-hub-rate-limits.html
 
+## Copying files out
+
+Given a locally build image tag:
+
+    docker create --name <container name> <image tag>
+    docker cp <container name>:<source path> <target path>
+    docker rm -f <container name>
+
+To copy directories ensure to use a trailing / on the `<source path>`
+
 ## Misc
 
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
