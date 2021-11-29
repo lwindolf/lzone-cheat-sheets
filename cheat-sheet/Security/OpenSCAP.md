@@ -29,8 +29,8 @@ For Ubuntu
 
 ## Install
 
-    apt-get install ssg-debderived     # Ubuntu
-    apt-get install ssg-debian         # Debian
+    apt-get install libopenscap8       # Ubuntu + Debian
+    apt-get install ssg-debian         # Debian SSG profiles (for Ubuntu see next section)
     yum install scap-security-guide    # Fedora/Redhat
 
 ## Ubuntu Audit
