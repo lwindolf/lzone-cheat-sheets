@@ -1,9 +1,12 @@
 ## CLI
 
-Get ruleset infos
+Get XCCDF ruleset infos
 
     oscap info /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
     oscap info /usr/share/xml/scap/ssg/content/ssg-centos7-ds.xml
+    ...
+
+Use the printed profile names as input for `--profile` for `xccdf eval` runs
     
 Output control
 
