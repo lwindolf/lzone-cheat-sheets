@@ -29,12 +29,15 @@ Generate remediation shell script for review
 
 ## OVAL evaluation example
 
-For Ubuntu
+For Ubuntu download USN feed
 
     type="usn"         # or "cve" for more details
     input="com.ubuntu.$(lsb_release -cs).${type}.oval.xml"
     wget "https://security-metadata.canonical.com/oval/${input}.bz2"
     bunzip "${input}.bz2"
+    
+and check it with
+
     oscap oval eval "${input}"
 
 ## Install
