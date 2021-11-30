@@ -7,7 +7,17 @@ Get ruleset infos
 
 # XCCDF evaluation example
 
-    oscap xccdf eval --report report.html --profile xccdf_org.ssgproject.content_profile_pci-dss /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
+    # Fedora
+    oscap xccdf eval \
+        --report report.html \
+        --profile xccdf_org.ssgproject.content_profile_pci-dss \
+        /usr/share/xml/scap/ssg/content/ssg-fedora-ds.xml
+
+    # Redhat
+    oscap xccdf eval \
+        --report report.html \
+        --profile xccdf_org.ssgproject.content_profile_pci-dss \
+        /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
 
 Evaluate and remediate
 
