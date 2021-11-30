@@ -4,6 +4,11 @@ Get ruleset infos
 
     oscap info /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
     oscap info /usr/share/xml/scap/ssg/content/ssg-centos7-ds.xml
+    
+Output control
+
+    --report <file>          # For HTML table output
+    --results <file>         # For XML result output
 
 # XCCDF evaluation example
 
