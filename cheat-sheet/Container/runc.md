@@ -1,3 +1,5 @@
+runc is the Linux tool you use when you want to spawn containers without Docker/Podman/... 
+
 ## CLI
 
     runc run <name>
