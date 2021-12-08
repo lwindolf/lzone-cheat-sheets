@@ -2,6 +2,10 @@ runc is the Linux tool you use when you want to spawn containers without Docker/
 
 ## CLI
 
+    runc create <name>                 # Create container from current directory
+    runc start <name>                  # Start container
+    runc delete <name>                 # Remove container
+    
     runc run <name>
     runc run <name> --detach
     
