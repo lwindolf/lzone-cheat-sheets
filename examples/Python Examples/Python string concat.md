@@ -34,4 +34,4 @@ Will result in
 
 ## Best Practices
 
-Its best to always use positional formatting. Note how it can be used to pass objects
+Its best to always use positional formatting. Note how it can be used to pass objects!
