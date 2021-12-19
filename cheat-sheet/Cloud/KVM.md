@@ -63,6 +63,10 @@ Change scheduler config on the fly with
      virsh schedinfo <instance> --set vcpu_quota=<nr> --live --current --config
      virsh schedinfo <instance> --set vcpu_period=<nr> --live --current --config
 
+### CPU Pinning
+
+     virsh vcpupin <instance> <vcpu> <cpu affinity>
+
 ### Check CPU Features
 
 Especially important to have [pcid CPU flag present in guests](https://groups.google.com/forum/m/#!topic/mechanical-sympathy/L9mHTbeQLNU)
