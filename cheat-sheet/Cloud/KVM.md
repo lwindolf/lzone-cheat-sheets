@@ -22,7 +22,7 @@
     virsh suspend  <instance>
     virsh resume   <instance>
 
-    virsh console  <instance>
+    virsh console  <instance>    # Quit using hotkey Ctrl-]
     
     virsh autostart <instance>   # Mark for autostart (on host boot)
 
