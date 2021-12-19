@@ -1,7 +1,8 @@
 ## Commands
 
-    virsh list                # List running instances
-    virsh list --all          # List all
+    virsh list                # List running guests
+    virsh list --all          # List all guests
+    virsh net-list --all      # List all networks
     
     virsh nodeinfo            # Info on host node
     
@@ -53,7 +54,7 @@ To do so `virsh edit <instance>` and adapt &lt;memory>, &lt;currentMemory> and r
 
 ### Change CPU count
 
-To do so `virsh edit <instance> and adapt &lt;vcpu> and restart the VM.
+To do so `virsh edit <instance>` and adapt &lt;vcpu> and restart the VM.
 
 ### CPU scheduling
 
