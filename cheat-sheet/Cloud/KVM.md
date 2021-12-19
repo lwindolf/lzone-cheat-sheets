@@ -1,9 +1,19 @@
 ## Commands
 
-    virsh list                # List running
+    virsh list                # List running instances
     virsh list --all          # List all
+    
+    virsh nodeinfo            # Info on host node
+    
+    virsh quit                # Leave CLI
 
-### Control instances
+### Inspecting a guest
+    
+    virsh dominfo  <instance>
+    virsh vcpuinfo <instance>
+    virsh schedinfo <instance>
+
+### Controlling guests
 
     virsh start    <instance>
     virsh reboot   <instance>
@@ -12,23 +22,19 @@
     virsh suspend  <instance>
     virsh resume   <instance>
 
-    virsh console <instance>
+    virsh console  <instance>
+    
+    virsh autostart <instance>   # Mark for autostart (on host boot)
 
-### Define instances
+### Define and change guests
 
-    virsh dumpxml <instance> >guest.xml
-    virsh create guest.xml        # Create from XML
+    virsh dumpxml <instance> >guest.xml   # Dump to XML
+    virsh create guest.xml                # Create from XML
     virsh edit <instance>
-    virsh define guest.xml        # Do not create, but load XML for <instance>, which later can be started by name
+    virsh define guest.xml                # Do not create, but load XML for <instance>, which later can be started by name
     virsh undefine <instance>
 
     virsh blockresize <instance> --path vda --size 100G
-
-    virsh dominfo
-    virsh vcpuinfo
-    virsh nodeinfo
-
-    virsh quit   # Leave CLI
 
 ### Renaming 
 
@@ -49,11 +55,7 @@ To do so `virsh edit <instance> and adapt &lt;vcpu> and restart the VM.
 
 ### CPU scheduling
 
-Get active scheduing config
-
-     virsh schedinfo <instance>
-
-Change scheduler config on the fly
+Change scheduler config on the fly with
 
      virsh schedinfo <instance> --set cpu_shares=<nr> --live --current --config
      virsh schedinfo <instance> --set vcpu_quota=<nr> --live --current --config
