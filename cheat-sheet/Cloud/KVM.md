@@ -30,7 +30,9 @@
 
     virsh dumpxml <instance> >guest.xml   # Dump to XML
     virsh create guest.xml                # Create from XML
-    virsh edit <instance>
+    
+    virsh edit <instance>                 # Restart guest afterwards to apply
+    
     virsh define guest.xml                # Do not create, but load XML for <instance>, which later can be started by name
     virsh undefine <instance>
 
