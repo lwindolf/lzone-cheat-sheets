@@ -14,9 +14,9 @@ This cheat sheet is organized as per the typical workflow for Helm3
 
 ## Add, remove, list, search and Update Repos
 ```sh
-    helm repo add [name] [url] <-> Add a repository from the internet
-    helm repo remove [name] <-> Remove a repository from your system
-    helm repo update <-> Update repositories
+    helm repo add [name] [url] #Add a repository from the internet
+    helm repo remove [name] #Remove a repository from your system
+    helm repo update #Update repositories
     helm repo list #List chart repositories
     helm repo index #Generate an index file containing charts found in the current directory
     helm search [keyword] #Search charts for a keyword
