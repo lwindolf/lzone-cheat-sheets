@@ -1,5 +1,5 @@
 ---
-related:
+Related:
   cheat-sheet: ['Helm Templates', 'kubernetes', 'Openshift']
 ---
 
@@ -79,14 +79,14 @@ To list charts (packages)
     helm get values <release> # Print the values the release was installed with
 ```
 ## Download Release Information
-
+```sh
     helm get all [release] #Download all the release information
     helm get hooks [release] #Download all hooks
     helm get manifest [release] #Download the manifest
     helm get notes [release] #Download the notes
     helm get values [release] #Download the values file
     helm history [release] #Fetch release history
-
+```
 ##Get help and Version Info 
 ```sh
     helm --help #See the general help for Helm
