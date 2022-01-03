@@ -6,6 +6,7 @@ Standard build commands
      meson builddir && cd builddir
      
      meson compile
+     meson test
      meson install
      
      ninja
