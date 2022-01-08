@@ -33,9 +33,10 @@ Insert complex values as YAML
 
 Note how string manipulation works using the pipeline operator |
 
-    {{ .Values.param1 | quote }}      # You usually want to quote strings
-    {{ .Values.passwd | b64enc }}     # Base64 encoding
-    {{ .Values.param | upper }}       # Uppercase everthing
+    {{ .Values.param | squote }}      # You usually want to single quote strings ('')
+    {{ .Values.param | quote }}       # You usually want to quote strings ("")
+    {{ .Values.param | b64enc }}      # Base64 encoding
+    {{ .Values.param | upper }}       # Uppercase everything
     {{ .Values.param | lower }}       # Lowercase everything
     
     {{ .Values.param | indent 16 }}   # Print with additional 16 leading spaces
@@ -65,6 +66,9 @@ Perform complex concatenations using pipelines in braces "( x | y )" which will 
     {{- range .Values.mylist }}
     {{- printf "list element: %s\n" . }}     # access element with "."
     {{- end }}
+    
+    # Grab a single value from the map by the key
+    {{- pluck .Values.env .Values.ip | first }} # .env is a single key, .ip is a map
 
 ## Conditions
 
