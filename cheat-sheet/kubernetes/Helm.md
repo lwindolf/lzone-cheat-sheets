@@ -1,5 +1,5 @@
 ---
-Related:
+related:
   cheat-sheet: ['Helm Templates', 'kubernetes', 'Openshift']
 ---
 
