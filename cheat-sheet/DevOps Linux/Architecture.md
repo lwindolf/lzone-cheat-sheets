@@ -8,7 +8,7 @@ Tools:
   - ArchiMate
 - Open Source
   - [Modelio](https://modelio.org)
-  - Eclipse Papyrus
+  - [Eclipse Papyrus](https://www.eclipse.org/papyrus/)
 
 ## Links
 
