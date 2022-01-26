@@ -10,7 +10,7 @@ Tools:
   - [Modelio](https://modelio.org)
   - [Eclipse Papyrus](https://www.eclipse.org/papyrus/)
 - Free SaaS
-  - [draw.io](https://draw.io): support for UML, UML 2.5, SysML, BPNM, ArchiMate 2.1, ArchiMate 3.0, C4
+  - [draw.io](https://draw.io): shapes for UML, UML 2.5, SysML, BPNM, ArchiMate 2.1, ArchiMate 3.0, C4
 
 ## Links
 
