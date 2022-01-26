@@ -14,8 +14,8 @@ Tools:
 
 ## Links
 
-4+1 View, https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
-C4 Model,https://c4model.com/
-UML,https://www.omg.org/spec/UML/
-FMC,http://fmc-modeling.org/
-Archi,https://www.archimatetool.com/
+- 4+1 View, https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
+- C4 Model,https://c4model.com/
+- UML,https://www.omg.org/spec/UML/
+- FMC,http://fmc-modeling.org/
+- Archi,https://www.archimatetool.com/
