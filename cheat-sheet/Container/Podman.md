@@ -39,3 +39,9 @@ Can be solved by
 ## Registry Configuration
 
 See `/etc/containers/registries.conf`
+
+Configure air-gapped mirror
+
+     [[registry]]
+     prefix='docker.io'
+     location='mymirror.example.com/somepath'
