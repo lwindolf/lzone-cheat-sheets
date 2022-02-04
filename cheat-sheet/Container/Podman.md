@@ -42,6 +42,6 @@ See `/etc/containers/registries.conf`
 
 Configure air-gapped mirror
 
-     [[registry]]
-     prefix='docker.io'
-     location='mymirror.example.com/somepath'
+    [[registry]]
+    prefix='docker.io'
+    location='mymirror.example.com/somepath'
