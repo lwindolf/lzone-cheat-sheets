@@ -16,6 +16,8 @@ does not work. To still use it switch to Docker format when building
 
 Things to test
 
+    podman unshare cat /proc/self/uid_map
+
     cat /etc/subuid /etc/subgid                     # -> should print user definitions    
     getcap /usr/bin/newuidmap /usr/bin/newgidmap    # -> should print "cap_setuid+ep"
     
