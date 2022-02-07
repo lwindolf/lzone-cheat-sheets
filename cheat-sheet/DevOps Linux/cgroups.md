@@ -20,7 +20,7 @@ Limit resources ([source](https://wiki.archlinux.org/title/Cgroups))
     
 Move process to a cgroup
 
-    echo pid > /sys/fs/cgroup/memory/groupname/cgroup.procs
+    echo pid > /sys/fs/cgroup/memory/<name>/cgroup.procs
 
 ## Systemd and cgroups
 
