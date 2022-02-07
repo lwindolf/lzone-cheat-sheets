@@ -47,3 +47,8 @@ To configure air-gapped mirror add:
     [[registry]]
     prefix = "docker.io"
     location = "mymirror.example.com/somepath"
+
+## Misc
+
+- [Best Practices for Buildah in container](https://developers.redhat.com/blog/2019/08/14/best-practices-for-running-buildah-in-a-container)
+- [Matrix of nested podman possibilities](https://www.redhat.com/sysadmin/podman-inside-container)
