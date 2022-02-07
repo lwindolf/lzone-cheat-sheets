@@ -23,6 +23,10 @@ Things to test
     
     sysctl -a | grep kernel.unprivileged_userns_clone  # -> should be "1"
 
+If you change UID/GID mappings or the sysctl either reboot or
+
+    podman system migrate
+
 e.g. in a k8s build pod, might cause
 
     newuidmap: write to uid_map failed: Operation not permitted
