@@ -12,24 +12,33 @@ Most of the content is now in separate cheat sheets:
 <?add topic='Xen'?>
 
 
-### Misc
+## Misc
 
 -   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN
     article
 
-#### Detect VM
+### Detect VM
 
 [Detect if you are in a virtual
 machine](http://people.redhat.com/~rjones/virt-what/)
 
     virt-what
 
-#### Test for HW virtualisation
+### Test for HW virtualisation
 
     egrep --color "svm|vmx" /proc/cpuinfo
 
     # svm flag for AMD V
     # vmx flag for Intel VT
+
+### Check active cgroups version
+
+    grep cgroup /proc/filesystems
+    
+should show
+
+    nodev	cgroup
+    nodev	cgroup2
 
 #### Image Building Solutions
 
