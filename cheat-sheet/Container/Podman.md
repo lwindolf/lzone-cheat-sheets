@@ -14,7 +14,7 @@ does not work. To still use it switch to Docker format when building
 
 ## Running without root
 
-Things to test
+Things to test 
 
     podman unshare cat /proc/self/uid_map
 
