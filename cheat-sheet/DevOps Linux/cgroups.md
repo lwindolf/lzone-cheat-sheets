@@ -8,6 +8,19 @@
     nsenter -t <pid> <cmd>         # Run command in namespace
 
     cgexec -g memory,cpuset:<group name> <command> [<args>]
+    
+    # Find per process settings
+    cat /proc/self/cgroup
+    cat /proc/self/uid_map
+
+Limit resources ([source](https://wiki.archlinux.org/title/Cgroups))
+
+    # Create sysfs directory first if necessary
+    echo 5000000 > /sys/fs/cgroup/memory/<name>/memory.limit_in_bytes
+    
+Move process to a cgroup
+
+    echo pid > /sys/fs/cgroup/memory/groupname/cgroup.procs
 
 ## Systemd and cgroups
 
