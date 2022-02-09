@@ -11,12 +11,16 @@ Interaction/input fields on manually triggering workflow
     on:
       workflow_dispatch:
         inputs:
-          my_branch:
+          branch:
             description: Please enter branch name
             default: main
-          my_text:
+          text:
             description: Describe your mood today
             required: true
+            
+    steps:
+      - name: Use input
+        run: BRANCH="${{ github.event.inputs.branch }}" ./run "${{ github.event.inputs.text }}" 
             
 Switching runners using output variables
 
