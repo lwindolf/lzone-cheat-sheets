@@ -13,7 +13,7 @@ Interaction/input fields on manually triggering workflow
         inputs:
           my_branch:
             description: Please enter branch name
-            default: master
+            default: main
           my_text:
             description: Describe your mood today
             required: true
