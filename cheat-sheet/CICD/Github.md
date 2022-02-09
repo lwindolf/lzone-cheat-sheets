@@ -13,9 +13,11 @@ Interaction/input fields on manually triggering workflow
         inputs:
           my_branch:
             description: Please enter branch name
-            required: true
             default: master
-
+          my_text:
+            description: Describe your mood today
+            required: true
+            
 Switching runners using output variables
 
     jobs:
