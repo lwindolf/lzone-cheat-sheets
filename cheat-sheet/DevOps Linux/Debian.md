@@ -82,6 +82,12 @@ You can access arbitrary older releases via
 ## APT Cheat sheet
         https://blog.packagecloud.io/eng/2015/03/30/apt-cheat-sheet/
 
+## APT Proxy Auth
+
+Create an new auth.conf entry in `/etc/apt/auth.conf.d/myproxy.conf`
+
+    machine <host/path> login <user> password <password>
+
 ## Ubuntu
 
 -   Ubuntu - Access Repositories for older releases. Once a release is
