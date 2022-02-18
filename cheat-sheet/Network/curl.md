@@ -13,8 +13,12 @@
      # HEAD request
      curl -I https://example.com/file
      
+## Timeouts
 
-### Using curl metrics
+     -m <seconds>                  # Maximum timeout for entire request
+     --connect-timeout <seconds>   # Maximum connect timeout
+
+## Using curl metrics
 
 You can use curl to measure resolving, time to connect, time to first byte and total time like this:
 
