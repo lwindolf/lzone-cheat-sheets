@@ -11,7 +11,7 @@ hotkeys.
  | List Windows        |\^a "                                  |\^b w
  | Name Window         |\^a A                                  |\^b ,
  | Split Horizontal    |\^a S                                  |\^b "
- | Split Vertical      |\^a |                                  |\^b %
+ | Split Vertical      |\^a \|                                 |\^b %
  | Switch Pane         |\^a Tab                                |\^b o
  | Kill Pane           |\^a x                                  |\^b x
  | Paging              |                                       |\^b PgUp \^b PgDown
