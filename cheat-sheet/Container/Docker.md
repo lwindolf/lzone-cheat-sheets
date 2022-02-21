@@ -140,17 +140,30 @@ container to be debugged to a new container with a shell:
 So should you want to debug the network of the other container ensure to add `--network container:<id>`
 to the `docker run` command.
 
+## Security
+
+### Scanner
+
+For build time (e.g. Dockerfile)
+
+- hadolint
+- checkov
+- trivy 
+
+For running containers and docker host:
+
+- [Docker Bench Security](https://github.com/docker/docker-bench-security) - Test Docker containers for security issues
+- [Docker OpenSCAP Checks](https://github.com/OpenSCAP/container-compliance)
+- trivy
+- Clair
+- Snyk
+
 ## Misc
 
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
     container support on AWS
 -   [Docker Patterns](http://www.hokstad.com/docker/patterns) -
     container inheritance examples
--   [Docker Bench
-    Security](https://github.com/docker/docker-bench-security) - Test
-    Docker containers for security issues
--   [Docker OpenSCAP
-    Checks](https://github.com/OpenSCAP/container-compliance)
 -   [Container Hardening
     Script](https://gist.github.com/jumanjiman/f9d3db977846c163df12)
 -   [dive: Image Layer Traversal](https://github.com/wagoodman/dive)
