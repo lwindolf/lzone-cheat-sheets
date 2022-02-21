@@ -130,6 +130,16 @@ Given a locally build image tag:
 
 To copy directories ensure to use a trailing / on the `<source path>`
 
+## Debugging shell-less containers
+
+This is possible by mapping one or more interesting namespaces (e.g. the PID namespace) of the
+container to be debugged to a new container with a shell:
+
+    docker run -it --rm --pid=container:<container id> --cap-add SYS_PTRACE ubuntu bash
+    
+So should you want to debug the network of the other container ensure to add `--network container:<id>`
+to the `docker run` command.
+
 ## Misc
 
 -   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
