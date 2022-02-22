@@ -1,21 +1,11 @@
-Most of the content is now in separate cheat sheets:
-
-<?add topic='Docker'?>
-<?add topic='KVM'?>
-<?add topic='LXC'?>
-<?add topic='OpenNebula'?>
-<?add topic='OpenVZ'?>
-<?add topic='systemd'?>
-<?add topic='Vagrant'?>
-<?add topic='VirtualBox'?>
-<?add topic='VM Tuning'?>
-<?add topic='Xen'?>
-
+---
+related:
+   cheat-sheet: ['cgroups', 'Docker','KVM','LXC','OpenNebula', 'OpenVZ', 'Podman', 'systemd', 'Vagrant', 'VirtualBox', 'VM Tuning', 'Xen']
+---
 
 ## Misc
 
--   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN
-    article
+-   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN article
 
 ### Detect VM
 
