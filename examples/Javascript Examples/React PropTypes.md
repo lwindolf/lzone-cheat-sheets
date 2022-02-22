@@ -1,4 +1,7 @@
-See also <?add topic='React'?>
+---
+related:
+  cheat-sheet: [ 'React' ]
+---
 
 ## Importing PropTypes module
 
