@@ -27,6 +27,20 @@ This is done using the `forward` plugin. Add a server section to your Corefile l
     
 this would resolve `example.net` via Cloudflare DNS.
 
+## Caching Strategies
+
+### Generic: Run DNS cache as a pod
+
+Many setups use an unbound deployment just caching. For example: https://build.thebeat.co/dns-caching-for-kubernetes-fdd89c38c095
+
+### Native: NodeLocal DNSCache
+
+Since 1.18 can be done native (instead of using unbound & co)
+
+See https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/
+
+    kubectl get ds node-local-dns
+
 ## Misc
 
 - [Configuring CoreDNS operator in Openshift](https://lzone.de/cheat-sheet/Openshift#coredns)
