@@ -1,4 +1,7 @@
-See also: <?add topic='gdb'?>
+---
+related:
+  cheat-sheet: ['gdb']
+---
 
 ### Debugging
 
