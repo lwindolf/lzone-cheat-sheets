@@ -39,3 +39,7 @@ value 1 means cgroups v2 is enabled. To check on runtime
     grep cgroup /proc/filesystems
     
 which should list a "cgroup2" filesystem when v2 is active
+
+## Misc
+
+-   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN article
