@@ -1,4 +1,7 @@
-See also <?add topic='React PropTypes'?>
+---
+related:
+  cheat-sheet: [ 'React PropTypes' ]
+---
 
 ## Minimal application
 
