@@ -1,4 +1,7 @@
-See Also: <?add topic='LVM'?>
+---
+related:
+  cheat-sheet: [ 'LVM' ]
+---
 
 ## Disks
 
