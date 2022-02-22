@@ -3,10 +3,6 @@ related:
    cheat-sheet: ['cgroups', 'Docker','KVM','LXC','OpenNebula', 'OpenVZ', 'Podman', 'systemd', 'Vagrant', 'VirtualBox', 'VM Tuning', 'Xen']
 ---
 
-## Misc
-
--   [Control Groups](https://lwn.net/Articles/604609/): Detailed LWN article
-
 ### Detect VM
 
 [Detect if you are in a virtual
