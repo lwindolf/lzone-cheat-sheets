@@ -122,7 +122,7 @@ you can extract the names of the animals using
 
 ## Using jq in Shell Scripts
 
-From https://www.terraform.io/docs/providers/external/data_source.html
+From [https://www.terraform.io/docs/providers/external/data_source.html](https://www.terraform.io/docs/providers/external/data_source.html)
 
 ### Parsing JSON into env vars
 
