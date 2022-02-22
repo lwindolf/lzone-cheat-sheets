@@ -1,6 +1,6 @@
 ---
 related:
-  cheat-sheet: ['Openshift']
+  cheat-sheet: ['Openshift', 'kubernetes', 'kubectl', 'Helm']
 ---
 
 ## Client Setup
@@ -12,7 +12,7 @@ Settings are stored in ~/.kube/config
 
 ## CLI Commands
 
-Note: all Kubernetes commands work with the oc client. So also check <?add topic='kubernetes'?>
+Note: all `kubectl` commands also work with the `oc` client. 
 
     oc login [<cluster>]
     oc projects              # List projects
