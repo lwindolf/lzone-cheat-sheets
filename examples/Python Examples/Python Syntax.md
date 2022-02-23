@@ -46,3 +46,10 @@ Entire output at once
 
     import json
     data = json.loads(json_string)
+
+### Convert YAML to JSON
+
+    import yaml, json
+
+    with open('./file.yaml') as f:
+        print(json.dumps(yaml.load(f)))
