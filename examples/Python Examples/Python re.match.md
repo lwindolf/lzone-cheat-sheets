@@ -7,7 +7,7 @@ Note that re.match() matches from the start of the string. Use re.search() when 
 
 - Use re.search() if you want to search anywhere inside a string
 - Use <a href='Python re.sub'>re.sub()</a> if you want to substitute substrings.
-- Use re.split() if you want to extract fields when you have a common field separator.
+- Use <a href='Python split'>str.split()</a> if you want to extract fields when you have a common field separator.
 
 
 ## Syntax
