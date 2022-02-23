@@ -15,6 +15,13 @@ Iterating by index
 
     for i in range(len(arr)):
       print arr[i]
+      
+## Exceptions
+
+    try:
+       # Do something
+    except Exception as e:
+       # Handle it
 
 ## Standard Tasks
 
