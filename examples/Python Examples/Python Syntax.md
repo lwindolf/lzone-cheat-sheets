@@ -18,6 +18,12 @@ Iterating by index
 
 ## Standard Tasks
 
+### Passing CLI arguments
+
+    import sys
+
+    print(sys.argv[0])      # Access C-like argv array as needed
+
 ### Using env variables
 
     import os
