@@ -34,3 +34,8 @@ Use this if you use a pattern multiple times.
 
     pattern = re.compile('abc')                    # Same as first example
     result = pattern.match(input)
+
+And in a condition
+
+    if re.match(r'some pattern', input):
+        print('It matches!'
