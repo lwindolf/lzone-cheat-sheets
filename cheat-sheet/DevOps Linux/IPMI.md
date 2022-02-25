@@ -1,6 +1,6 @@
 ### ipmitool Commands
 
-#### [Server side initial setup](http://www.alleft.com/sysadmin/ipmi-sol-inexpensive-remote-console/)
+#### [Server side initial setup](https://www.alleft.com/sysadmin/ipmi-sol-inexpensive-remote-console/)
 
     ipmitool lan set 1 ipsrc static
     ipmitool lan set 1 ipaddr {YOUR DESIRED IP}
