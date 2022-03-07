@@ -24,8 +24,8 @@
 
 Both
 
-1.) Via simple basic auth via URL (i.e. `https://<user>:<pwd>@<server>`) 
-2.) Via `-u "<user>:<pwd>"`
+1. Via simple basic auth via URL (i.e. `https://<user>:<pwd>@<server>`) 
+2. Via `-u "<user>:<pwd>"`
 
 are insecure as they expose the password in the process list.
 
