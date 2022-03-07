@@ -22,12 +22,10 @@
 
 ### Don't do insecure auth
 
-Both
+These credential passing methods might be insecure (depending on your use case) as they expose the password in the process list.
 
 1. Via simple basic auth via URL (i.e. `https://<user>:<pwd>@<server>`) 
 2. Via `-u "<user>:<pwd>"`
-
-are insecure as they expose the password in the process list.
 
 ### Use piped config
 
