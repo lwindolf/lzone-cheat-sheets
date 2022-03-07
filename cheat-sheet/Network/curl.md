@@ -18,7 +18,7 @@
      -m <seconds>                  # Maximum timeout for entire request
      --connect-timeout <seconds>   # Maximum connect timeout
 
-## Safe Authentication
+## Secure Authentication with curl
 
 ### Don't do insecure auth
 
