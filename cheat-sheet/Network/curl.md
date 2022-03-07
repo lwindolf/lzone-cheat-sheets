@@ -18,6 +18,31 @@
      -m <seconds>                  # Maximum timeout for entire request
      --connect-timeout <seconds>   # Maximum connect timeout
 
+## Safe Authentication
+
+### Don't do insecure auth
+
+Both
+
+1.) Via simple basic auth via URL (i.e. `https://<user>:<pwd>@<server>`) 
+2.) Via `-u "<user>:<pwd>"`
+
+are insecure as they expose the password in the process list.
+
+### Use piped config
+
+    echo '-u "<user>:<pwd>"' | curl -K "https://example.com" -K-
+
+### Use .netrc
+     
+     # Variants with .netrc
+     curl -n "https://example.com"                 # Mandatory auth via .netrc
+     curl --netrc-optional "https://example.com"   # Optional auth via .netrc
+     
+     # On-the-fly .netrc
+     curl --netrc-file <(echo "example.com <user> <pwd>") "https://example.com"
+
+
 ## Using curl metrics
 
 You can use curl to measure resolving, time to connect, time to first byte and total time like this:
