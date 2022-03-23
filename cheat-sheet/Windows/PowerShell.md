@@ -12,7 +12,7 @@
         default { throw "That's unexpected!" }
     }
 
-## Exceptions
+### Exceptions
 
     try {
        throw "My exception";
