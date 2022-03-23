@@ -30,6 +30,13 @@
        
        # Code comes here
     }
+    
+## Env Variables
+
+    $tmp =  $env:SOME_ENV_VAR;
+    
+    $env:Path = [Environment]::GetEnvironmentVariable('Path',[System.EnvironmentVariableTarget]::Machine);
+    
 
 ## File name handling
 
@@ -44,3 +51,10 @@
 
     iwr -useb http://example.com/somefile
     iwr -useb http://example.com/someexe | iex       # Download and execute it
+
+## Check PowerShell Version
+
+    if ($PSVersionTable.PSVersion.Major -lt 5) {
+        # ...
+    }
+    
