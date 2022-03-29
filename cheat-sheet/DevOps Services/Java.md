@@ -60,3 +60,11 @@ forwarding
 ## Setting defaults from environment
 
 When you want to merge user passed settings with some defaults use `JAVA_TOOL_OPTIONS`. Options from the JVM CLI overrule any options also specified in `JAVA_TOOL_OPTIONS`.
+
+## Check for Memory Leaks
+
+-   [JVM - Verbose GC](http://javaeesupportpatterns.blogspot.de/2011/10/verbosegc-output-tutorial-java-7.html):
+
+        -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/gc.log
+
+-   [JVM - jstat](http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstat.html): Oracle helper tool
