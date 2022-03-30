@@ -47,7 +47,7 @@ Don't forget to pass a `stdxx=subprocess.PIPE` option for each pipe you want to 
 
 ## UTF-8 conversion
 
-To avoid later conversion of byte array you can ask Popen to do the conversion for you with option `encoding='utf8':
+To avoid later conversion of byte array you can ask `Popen` to do the conversion for you with option `encoding='utf8'`:
 
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, encoding='utf8')
 
