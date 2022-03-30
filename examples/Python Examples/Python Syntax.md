@@ -23,6 +23,8 @@ Iterating by index
     except Exception as e:
        # Handle it
 
+For empty exception clauses add the `pass` statement.
+
 ## Standard Tasks
 
 ### Passing CLI arguments
