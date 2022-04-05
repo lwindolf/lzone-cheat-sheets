@@ -44,6 +44,10 @@ Examples
 To use shell variables you need to explicitely pass them using `-v <key>=<value>`
 
     awk -v HOME="$HOME" 'BEGIN { print(HOME) }'
+    
+Alternatively use ENVIRON hash:
+
+    awk 'BEGIN { print ENVIRON["SHELL"] }'
 
 ## Advanced Use of awk
 
