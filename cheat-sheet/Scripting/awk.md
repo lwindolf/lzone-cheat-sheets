@@ -46,8 +46,8 @@ When using multiple files
 | Name   | Meaning  | Description |
 |--------|----------|-------------|
 | NF     | number of fields | always givens the number of fields in current line based on `IFS` |
-| ARGV   | like in C | all extra CLI params (those not consumed by awk) |
-| ARGC   | like in C | nr of extra CLI params (those not consumed by awk)  |
+| ARGV   | like in C | all extra CLI params not consumed by awk |
+| ARGC   | like in C | nr of extra CLI params not consumed by awk |
 
 ## Input/Output Control Variables
 
