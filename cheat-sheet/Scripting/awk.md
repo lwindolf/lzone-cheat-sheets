@@ -36,9 +36,8 @@ When using multiple files
     # Loops
     for(i=0; i<100; i+=1) { print(i) }
 
-Line control
-
     next          # skip to next line
+    nextfile      # skip to next file
     exit          # terminate 
     exit(1)       # with exit code
 
