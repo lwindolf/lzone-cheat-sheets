@@ -45,6 +45,8 @@ When using multiple files
 
 | Name   | Meaning  | Description |
 |--------|----------|-------------|
+| ARGV   | like in C | all CLI params |
+| ARGC   | like in C | nr of CLI params |
 | ORS    | Output Record Separator  | String added after each `print` output (can be a regex). |
 | RS     | (Input) Record Separator | Decides how input lines will be split (can be a regex). |
 | IFS    | Input Field Separator | Decides how input fields will be split. |
