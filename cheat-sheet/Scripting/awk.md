@@ -41,12 +41,18 @@ When using multiple files
     exit          # terminate 
     exit(1)       # with exit code
 
+##  Variables
+
+| Name   | Meaning  | Description |
+|--------|----------|-------------|
+| NF     | number of fields | always givens the number of fields in current line based on `IFS` |
+| ARGV   | like in C | all extra CLI params (those not consumed by awk) |
+| ARGC   | like in C | nr of extra CLI params (those not consumed by awk)  |
+
 ## Input/Output Control Variables
 
 | Name   | Meaning  | Description |
 |--------|----------|-------------|
-| ARGV   | like in C | all CLI params |
-| ARGC   | like in C | nr of CLI params |
 | ORS    | Output Record Separator  | String added after each `print` output (can be a regex). |
 | RS     | (Input) Record Separator | Decides how input lines will be split (can be a regex). |
 | IFS    | Input Field Separator | Decides how input fields will be split. |
