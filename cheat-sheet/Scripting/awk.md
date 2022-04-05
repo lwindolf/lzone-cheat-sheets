@@ -25,8 +25,8 @@ Matching for Conditions
 
 | Name   | Meaning  | Description |
 |--------|----------|-------------|
-| ORS    | Output Record Separator  | String added after each `print` output. |
-| RS     | (Input) Record Separator | Decides how input lines will be split. |
+| ORS    | Output Record Separator  | String added after each `print` output (can be a regex). |
+| RS     | (Input) Record Separator | Decides how input lines will be split (can be a regex). |
 | IFS    | Input Field Separator | Decides how input fields will be split. |
 | FS     | Field Separator | Decides how output fieds will be joined. |
 
