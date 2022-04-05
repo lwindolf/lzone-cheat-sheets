@@ -20,6 +20,27 @@ Matching for Conditions
     { print("run for each line") }
     
     END { print("only run at end") }
+    
+When using multiple files
+
+    BEGINFILE {print "--- " FILENAME " ---"}
+    ENDFILE { }
+    
+## Control Flow
+
+    if (condition) { print("do something") } else { print("something else") }
+    
+    # Ternary operator
+    print(a == b ? "equal":"more than equal")
+    
+    # Loops
+    for(i=0; i<100; i+=1) { print(i) }
+
+Line control
+
+    next          # skip to next line
+    exit          # terminate 
+    exit(1)       # with exit code
 
 ## Input/Output Control Variables
 
