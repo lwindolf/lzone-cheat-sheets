@@ -16,8 +16,16 @@ Matching for Conditions
 ## Blocks
 
     BEGIN { print("only run at start") }
+    
     { print("run for each line") }
+    
     END { print("only run at end") }
+    
+## Passing shell variables
+
+To use shell variables you need to explicitely pass them using `-v <key>=<value>`
+
+    awk -v HOME="$HOME" 'BEGIN { print(HOME) }'
 
 ## Advanced Use of awk
 
