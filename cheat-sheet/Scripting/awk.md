@@ -3,7 +3,7 @@ related:
   cheat-sheet: ['sed']
 ---
 
-### Matching
+## Matching
 
 Match lines
 
@@ -13,8 +13,14 @@ Matching for Conditions
 
     awk '{if($1 ~ /pattern) { ... }}' infile
 
-### Advanced Use of awk
+## Blocks
 
-#### Negative Indizes
+    BEGIN { print("only run at start") }
+    { print("run for each line") }
+    END { print("only run at end") }
+
+## Advanced Use of awk
+
+### Negative Indizes
 
     awk '{print $(NF - 1)}'
