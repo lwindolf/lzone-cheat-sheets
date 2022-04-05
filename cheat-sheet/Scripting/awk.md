@@ -69,11 +69,9 @@ Examples
 
 ## Passing shell variables
 
-To use shell variables you need to explicitely pass them using `-v <key>=<value>`
+Use `-v <key>=<value>` or `ENVIRON["<variable>"]`
 
     awk -v HOME="$HOME" 'BEGIN { print(HOME) }'
-    
-Alternatively use ENVIRON hash:
 
     awk 'BEGIN { print ENVIRON["SHELL"] }'
 
