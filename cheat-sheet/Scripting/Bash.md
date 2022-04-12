@@ -17,7 +17,14 @@ related:
     ${str//pattern/replacement} # global pattern replace
     ${str^^}                # convert to UPPER-CASE
     ${str,,}                # convert to lower-case
+
+Splitting
+
+    IFS=: read field1 field2 rest <<<"$input_line"       # Split single line colon separated string
     
+    while IFS=\; read col1 col2 col3 rest; do            # Read in CSV values
+       echo "c1=$c1 c2=$c2 c3=$c3."
+    done <<<"$csv"            
 
 ## Parameter Substituion
 
