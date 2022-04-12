@@ -38,10 +38,25 @@
     $env:Path = [Environment]::GetEnvironmentVariable('Path',[System.EnvironmentVariableTarget]::Machine);
     
 
-## File name handling
+## Filesystem
+
+Building a filename
 
     $filename = Join-Path $directory 'some.exe'
+    
+Checking for a file
 
+    if (!(Test-Path $myfile -PathType Leaf)) {
+    }
+
+Create directory
+
+    New-Item "$mydir" -ItemType Directory -Force
+    
+Removing files/directories
+
+    Remove-Item "$somepath" -Force -Recurse
+    
 ## Execution Policies
 
     Set-ExecutionPolicy Bypass -Scope Process -Force
