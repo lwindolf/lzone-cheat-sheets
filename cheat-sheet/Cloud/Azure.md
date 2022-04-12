@@ -6,7 +6,7 @@
     
     az account set --subscription <name|id>
     az account list                   # List of subscriptions the account has access to
-    az account show                   # To see active subscription
+    az account show | jq .id          # To see active subscription
     az account show --output table
     
 Note: Always set or verify your subscription as "az login" without tenant chooses one without saying.
