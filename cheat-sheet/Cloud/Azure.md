@@ -2,6 +2,7 @@
 ## CLI
 
     az login [--tenant <id>]
+    az login --identity               # Login with VM service principal
     
     az account set --subscription <name|id>
     az account list                   # List of subscriptions the account has access to
