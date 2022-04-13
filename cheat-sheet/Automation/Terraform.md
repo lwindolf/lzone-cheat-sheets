@@ -2,6 +2,8 @@
 
     terraform plan         # dry run
     terraform apply
+    terraform apply -input=false -auto-approve tfplan           # applying previously create plan
+    
     terraform refresh      # sync state with remote resources
     terraform show
     terraform destroy
