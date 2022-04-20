@@ -48,10 +48,10 @@
 
 Job and steps can be run conditionally by specifying `if:` clauses
 
-   job1:
-     steps:
-       - id: step1
-         if: ${{ github.ref == 'main')
+       job1:
+         steps:
+           - id: step1
+             if: ${{ github.ref == 'main')
 
 Note for boolean inputs always check on string 'true'!
 
