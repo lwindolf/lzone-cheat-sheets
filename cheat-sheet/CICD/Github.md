@@ -5,7 +5,7 @@
 
 ## Actions
 
-Interaction/input fields on manually triggering workflow
+## Interaction/input fields on manually triggering workflow
 
     name: someworkflow
     on:
@@ -22,7 +22,7 @@ Interaction/input fields on manually triggering workflow
       - name: Use input
         run: BRANCH="${{ github.event.inputs.branch }}" ./run "${{ github.event.inputs.text }}" 
             
-Switching runners using output variables
+## Switching runners using output variables
 
     jobs:
       init:
@@ -43,6 +43,25 @@ Switching runners using output variables
         needs: [init]                     # Mandatory dependency to ensure outputs are set
         runs-on: ${{ needs.init.outputs.runner }}
         run: ...
+
+## Conditional steps 
+
+Job and steps can be run conditionally by specifying `if:` clauses
+
+   job1:
+     steps:
+       - id: step1
+         if: ${{ github.ref == 'main')
+
+Note for boolean inputs always check on string 'true'!
+
+         if: ${{ github.event.inputs[deployflag] == 'true' }}
+         
+There are additional string function that can be used
+
+         if: ${{ startsWith(github.event.inputs[param1], 'production-') == 'true' }}
+         if: ${{ endsWith(github.event.inputs[param2], '_suffix') == 'false' }}
+         if: ${{ contains(github.event.inputs[param3], 'debug') != 'true' }}
 
 ## Different working directory 
 
