@@ -63,6 +63,10 @@ There are additional string function that can be used
          if: ${{ endsWith(github.event.inputs[param2], '_suffix') == 'false' }}
          if: ${{ contains(github.event.inputs[param3], 'debug') != 'true' }}
 
+For ternary operator use `<condition> && <outputTrue> || <outputFalse>` syntax:
+
+    ${{ startsWith(github.ref, 'feature') && 'this is a feature branch' || 'another branch' }}
+
 ## Different working directory 
 
 For a single step:
