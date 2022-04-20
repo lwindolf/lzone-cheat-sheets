@@ -34,3 +34,6 @@ Due to buggy Nautilus (last tested with GNOME 42) only the following works:
 **Important: THIS IS VERY INSECURE!** This configures your system to use the insecure 
 and legacy SMBv1 protocol.
 
+Consider alternative using a more secure CIFS mount in `/etc/fstab` like this
+
+     //192.168.178.1/fritz.nas /mnt/fritzbox cifs credentials=/home/<user>/.credentials,uid=1000,gid=1000
