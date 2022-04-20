@@ -57,7 +57,7 @@ Note for boolean inputs always check on string `'true'`!
 
          if: ${{ github.event.inputs[deployflag] == 'true' }}
          
-There are additional string functions that can be used
+There are additional [string functions](https://docs.github.com/en/actions/learn-github-actions/expressions) that can be used
 
          if: ${{ startsWith(matrix.stage, 'production-') == true }}
          if: ${{ endsWith(name, '_suffix') == false }}
