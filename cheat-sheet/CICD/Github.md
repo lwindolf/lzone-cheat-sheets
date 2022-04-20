@@ -57,6 +57,8 @@ For a single step:
                 
 For all 'run' steps global default:
 
-    defaults:
-      run:
-        working-directory: mysubdir
+    jobs:
+      job1:
+        defaults:
+          run:
+            working-directory: mysubdir
