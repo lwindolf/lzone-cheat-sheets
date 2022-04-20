@@ -53,15 +53,15 @@ Job and steps can be run conditionally by specifying `if:` clauses
            - id: step1
              if: ${{ github.ref == 'main')
 
-Note for boolean inputs always check on string 'true'!
+Note for boolean inputs always check on string `'true'`!
 
          if: ${{ github.event.inputs[deployflag] == 'true' }}
          
 There are additional string functions that can be used
 
-         if: ${{ startsWith(github.event.inputs[param1], 'production-') == 'true' }}
-         if: ${{ endsWith(github.event.inputs[param2], '_suffix') == 'false' }}
-         if: ${{ contains(github.event.inputs[param3], 'debug') != 'true' }}
+         if: ${{ startsWith(matrix.stage, 'production-') == true }}
+         if: ${{ endsWith(name, '_suffix') == false }}
+         if: ${{ contains(mode, 'debug') != true }}
 
 For ternary operator use `<condition> && <outputTrue> || <outputFalse>` syntax:
 
