@@ -43,3 +43,20 @@ Switching runners using output variables
         needs: [init]                     # Mandatory dependency to ensure outputs are set
         runs-on: ${{ needs.init.outputs.runner }}
         run: ...
+
+## Different working directory 
+
+For a single step:
+
+    jobs:
+        job1:
+           steps:
+              - name: step1
+                run: pwd
+                working-directory: /etc
+                
+For all 'run' steps global default:
+
+    defaults:
+      run:
+        working-directory: mysubdir
