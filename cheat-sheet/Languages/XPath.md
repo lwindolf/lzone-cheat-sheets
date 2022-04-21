@@ -31,7 +31,7 @@ To match attribute text use **contains()**
 
 To do negative matches use **not()**
 
-    //a[not(contains(@href, 'https')]   # Get all non-HTTPS links
+    //a[not(contains(@href, 'https'))]   # Get all non-HTTPS links
     
 To count nodes use **count()**
 
