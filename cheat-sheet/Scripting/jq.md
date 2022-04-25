@@ -145,6 +145,16 @@ To create proper JSON from a shell script and properly escape variables:
     jq -n --arg foobaz "$FOOBAZ" '{"foobaz":$foobaz}'
 
 ### URL Encode
+
 Quick easy way to url encode something
  
     date | jq -sRr @uri
+
+### String Format / Concat
+
+There is no printf like function, just concatenation like this:
+
+    echo '{ "object" : { "name": "banana", "color": "yellow" }}' |\
+    jq -r '.object | (.name)+" is "+(.color)'
+
+will print `banana is yellow`.
