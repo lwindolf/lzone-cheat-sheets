@@ -95,6 +95,14 @@ Alternatively to quick search you can perform complex queries using [AQL](https:
     // Find repo by name
     items.find({"repo":{"$eq":"libs-release-local"}})
     
+    // Implicit AND condition by listing multiple criteria
+    items.find({"repo":{"$eq":"my-repo"}, "name":{"$match": "*.deb"}})
+    items.find({"repo":{"$eq":"my-repo"}, "path":{"$match":"*/subfolder"}})
+    items.find({"repo":{"$eq":"my-repo"}, "path":{"$match":"*/subfolder"}, "name":{"$match": "*.deb"}})
+    
+    // Sort and limit
+    items.find({"name":{"$match": "release-nr-*"}}).sort({"$desc":["created"]}).limit(1)
+    
 ### AQL for searching builds
 
     // Return all artifacts of the "artifactory" build.
