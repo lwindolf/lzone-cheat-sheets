@@ -64,6 +64,16 @@ Quick Search
     
 ## AQL Searches
 
+Easiest way is to do via file.
+
+    jfrog rt s --spec=file.aql
+
+Note when using spec files the AQL query needs to be wrapped as shown in the next example.
+
+Second easiest way is to use an in-place file:
+
+    jfrog rt s --spec=<(echo '{"files":[{"aql":{"items.find":{"name":{"$match": "cicd-base-image*"}}}}]}')
+
 AQL searches can be performed via API as POST request against `/api/search/aql`. For example with curl:
 
     curl "<server>/api/search/aql" \
