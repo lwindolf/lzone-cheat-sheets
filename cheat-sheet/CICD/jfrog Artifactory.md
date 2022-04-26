@@ -14,6 +14,15 @@ Test configuration with
     jfrog rt bp <name> <number>              # Create build
     jfrog rt bs <name> <number>              # Scan build with XRay
 
+## Artifacts
+
+To copy from one repo to another:
+
+    jfrog rt cp <src repo>/<name>/<version> <target repo>/<name>/<version> --flat true
+    
+Note the `--flat true` which is required to avoid getting a `<target repo>/<name>/<name>`
+structure when the target already exists and you actually want to overwrite.
+
 ## API Queries
 
 [jfrog API docs](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
