@@ -18,7 +18,7 @@ Test configuration with
 
 To copy from one repo to another:
 
-    jfrog rt cp <src repo>/<name>/<version> <target repo>/<name>/<version> --flat true
+    jfrog rt cp --flat <src repo>/<name>/<version> <target repo>/<name>/<version>
     
 Note the `--flat true` which is required to avoid getting a `<target repo>/<name>/<name>`
 structure when the target already exists and you actually want to overwrite.
