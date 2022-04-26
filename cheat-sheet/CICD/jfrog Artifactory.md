@@ -23,6 +23,10 @@ To copy from one repo to another:
 Note the `--flat true` which is required to avoid getting a `<target repo>/<name>/<name>`
 structure when the target already exists and you actually want to overwrite.
 
+List Docker tags:
+
+    jfrog rt cl /api/docker/<repo>/v2/<name>/tags/list
+
 ## API Queries
 
 [jfrog API docs](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
