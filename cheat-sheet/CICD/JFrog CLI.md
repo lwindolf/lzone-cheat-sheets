@@ -13,6 +13,8 @@ Test configuration with
     jfrog rt podman-push <tag> --build-name=<name> --build-number=<number>
     jfrog rt bp <name> <number>              # Create build
     jfrog rt bs <name> <number>              # Scan build with XRay
+    
+    jfrog rt s --build <name>                # Show latest build by name
 
 ## Artifacts
 
