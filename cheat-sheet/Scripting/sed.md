@@ -75,14 +75,19 @@ about the quoting, but know there are quotes
 
     sed -i '1s/^/# DO NOT TOUCH THIS FILE!\n\n/' *
 
-#### Removing Newlines with sed
+#### Replacing Newlines with sed
 
-The only way to remove new line is this:
+The only way to replace newline characters is this:
 
     sed ':a;N;$!ba;s/\n//g' file
 
 Check out [this explanation](/Removing-newlines-with-sed) if you want to
-know why.
+know why. With GNU sed you might also want to try the `-z` option:
+
+    sed -z "s/\n//g"
+    
+Note that the `-z` option line splits on `\0`, so this relies on the input
+text file not containing any `\0` which quite often should be the case.
 
 #### Selecting Blocks
 
