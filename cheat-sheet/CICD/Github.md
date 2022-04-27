@@ -1,3 +1,5 @@
+{% raw %}
+
 ## List of Github CI integrations
 
 - [TravisCI](travis-ci.org): build using VMs and Docker
@@ -85,3 +87,5 @@ For all 'run' steps global default:
         defaults:
           run:
             working-directory: mysubdir
+
+{% endraw %}
