@@ -37,6 +37,12 @@ Under Debian use the pg\_wrapper command
 ### List Databases and Sizes
 
     SELECT pg_database.datname, pg_size_pretty(pg_database_size(pg_database.datname)) AS size FROM pg_database;
+    
+### Describe Tables
+
+    \d <table name>
+    \d+ <table name>
+    SELECT table_name, column_name, data_type FROM information_schema.columns;
 
 ### Show Running Queries in Postgres
 
