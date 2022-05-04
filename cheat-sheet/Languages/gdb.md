@@ -2,6 +2,10 @@
 
 ### GDB
 
+- Ensure you always get debug symbols
+
+    export CFLAGS="-Wall -ggdb"
+
 -   [gdb - global thread
     dump](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDYQFjAB&url=http%3A%2F%2Fsourceware.org%2Fgdb%2Fonlinedocs%2Fgdb%2FThreads.html&ei=pSehT_uNJcqj-gaq2aSjBw&usg=AFQjCNERBsV1ICcafttBSHv1XZKuRQlNHQ):
 
