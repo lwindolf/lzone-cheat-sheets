@@ -7,7 +7,7 @@
 
 ## Actions
 
-## Interaction/input fields on manually triggering workflow
+### Interaction/input fields on manually triggering workflow
 
     name: someworkflow
     on:
@@ -24,7 +24,7 @@
       - name: Use input
         run: BRANCH="${{ github.event.inputs.branch }}" ./run "${{ github.event.inputs.text }}" 
             
-## Switching runners using output variables
+### Switching runners using output variables
 
     jobs:
       init:
@@ -46,7 +46,7 @@
         runs-on: ${{ needs.init.outputs.runner }}
         run: ...
 
-## Conditional steps 
+### Conditional steps 
 
 Job and steps can be run conditionally by specifying `if:` clauses
 
@@ -69,7 +69,64 @@ For ternary operator use `<condition> && <outputTrue> || <outputFalse>` syntax:
 
     ${{ startsWith(github.ref, 'feature') && 'this is a feature branch' || 'another branch' }}
 
-## Different working directory 
+
+### Dynamic and customizable matrix job
+
+Due to missing global variable support it is actually challenge to properly default
+a customizable matrix (i.e. when you allow it to be changed by workflow_dispatch input).
+Note that this is extra-complicated as you cannot access the default value of workflow
+dispatch events when you are in another event type. So the default matrix value has to 
+be stored somewhere else and to be merged with any possible input. The only available
+global place for up to GHE 3.4 is a global env variable string.
+
+
+    name: testsuite
+    
+    on:
+      # The entire testsuite runs at night
+      schedule:
+      - cron: '0 2 * * *'
+      
+      workflow_dispatch:
+        inputs:
+          # Note: as we have a large nr of tests we want our users to be able
+          # to only run some of them using this input
+          testcases:
+            description: Test cases to run (empty for all)
+            type: string
+            default: ""
+
+    env:
+      testcases: tc1,tc2,tc3
+            
+    jobs:
+      # matrix preparation with extra step and fromJson() input as described by
+      # https://stackoverflow.com/questions/65384420/how-to-make-a-github-action-matrix-element-conditional
+      prepare:
+        runs-on: self-hosts
+        outputs:
+          matrix: ${{ steps.set-matrix.outputs.matrix }}
+        steps:
+          - uses: actions/checkout@v2
+          - id: set-matrix
+            run: |
+              list="${{ github.event.inputs.testcases }}"
+              list="${list:-${{ env.testcases }}}"
+              echo '::set-output name=matrix::'"$(echo "$list" | jq -s --raw-input 'split("\n")[0] | split(",")' | tr "\n" " ")"
+
+      testcase:  
+        needs: prepare
+        strategy:
+          fail-fast: false
+          matrix:
+            name: ${{ fromJson(needs.prepare.outputs.matrix ) }}
+
+        runs-on: self-hosted
+        steps:
+          [...]
+
+
+### Different working directory 
 
 For a single step:
 
