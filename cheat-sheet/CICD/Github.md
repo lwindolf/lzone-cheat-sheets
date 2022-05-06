@@ -7,6 +7,23 @@
 
 ## Actions
 
+### Using workflow commands (annotations)
+
+Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
+
+    echo '::set-output name={name}::{value}'
+    
+    echo "::add-mask::MySecretPassword"
+
+    echo '::notice::My message'
+    echo '::error::My error'
+    echo '::error file={name},line={line},endLine={endLine},title={title}::{message}'
+    
+    echo '::group::My group title'
+    echo '::endgroup::'
+    
+    echo '::save-state name={name}::{value}'     # Export env vars to pre/post workflow actions
+
 ### Interaction/input fields on manually triggering workflow
 
     name: someworkflow
