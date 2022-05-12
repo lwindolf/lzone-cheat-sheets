@@ -1,6 +1,6 @@
 ## Variables
 
-Not variables are write-once and either global or template scope!
+Note: variables are write-once and either global or template scope!
 
     <xsl:variable name='var1' select='"some text"'/>
     <xsl:variable name='var2' select='count(//article)'/>
