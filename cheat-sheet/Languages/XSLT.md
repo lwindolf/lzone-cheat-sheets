@@ -1,3 +1,24 @@
+## Variables
+
+Not variables are write-once and either global or template scope!
+
+    <xsl:variable name='var1' select='"some text"'/>
+    <xsl:variable name='var2' select='count(//article)'/>
+    
+    <xsl:variable name='var3'>
+      <p>
+         Some content
+      </p>
+    </xsl>
+    
+    <xsl:variable name='var4'>
+       <xsl:choose>
+         <xsl:when test='//a'>1</xsl:when>
+         <xsl:when test='//b'>2</xsl:when>
+         <xsl:otherwise>0</xsl:otherwise>
+       </xsl:choose>
+     <xsl:variable>
+
 ## Output mode
 
     <xsl:output method="xml" version="1.0"/>
