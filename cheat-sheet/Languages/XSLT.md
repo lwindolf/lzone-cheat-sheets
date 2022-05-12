@@ -2,6 +2,8 @@
 
 Note: variables are write-once and either global or template scope!
 
+Setting variables
+
     <xsl:variable name='var1' select='"some text"'/>
     <xsl:variable name='var2' select='count(//article)'/>
     
@@ -18,6 +20,14 @@ Note: variables are write-once and either global or template scope!
          <xsl:otherwise>0</xsl:otherwise>
        </xsl:choose>
      <xsl:variable>
+     
+Using variables
+
+    <xsl:if test="$var1 > 5">
+       ...
+    </xsl:if>
+    
+    <xsl:value-of select="$var2"/>
 
 ## Output mode
 
