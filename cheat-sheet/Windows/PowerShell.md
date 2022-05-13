@@ -73,3 +73,6 @@ Removing files/directories
         # ...
     }
     
+## Using a proxy
+
+    $env:https_proxy='<server>:<port>'
