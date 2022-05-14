@@ -24,7 +24,7 @@ related:
       echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
       echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 
-- [paketlife.net cheetsheets](http://packetlife.net/library/cheat-sheets/) for all network protocols (PDFs)
+- [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheets/) for all network protocols (PDFs)
 
 ## DNS
 
