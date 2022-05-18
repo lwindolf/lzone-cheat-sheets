@@ -56,6 +56,19 @@ To assign a service a fixed IP
      secrets:
        KEY1:
          file: secrets/key1.pem
+         
+## Health Checking
+
+    services:
+      my_app:
+        [...]
+        healthcheck:
+           test: >
+             curl --noproxy "*" -v -f -s http://127.0.0.1:8080/myapp
+           interval: 15s
+           timeout: 5s
+           retries: 20
+           start_period: 30s
 
 ## Setup Troubleshooting
 
