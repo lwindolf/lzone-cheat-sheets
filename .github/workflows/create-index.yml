@@ -1,0 +1,29 @@
+name: create-index
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+      - update:
+        run: |
+          for directory in cheat-sheet examples; do
+            oldgroup=
+            printf "\n## %s Index\n\n" $(echo "$directory" | sed -e "s/\b\(.\)/\u\1/g")
+
+            while IFS=/ read -r dot group file; do
+              name="$(basename "$file" .md)"
+
+              if [ "$oldgroup" != "$group" ]; then
+                echo "<br/><span class='group'><b>$group</b></span>"
+                oldgroup="$group"
+              fi
+
+              echo " | <a class='topic' href='https://lzone.de/cheat-sheet/$name'>$name</a>"
+            done < <(cd $directory/ && find . -name "*.md" | sort)
+          done
