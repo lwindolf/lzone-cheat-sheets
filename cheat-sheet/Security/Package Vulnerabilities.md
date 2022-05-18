@@ -1,3 +1,5 @@
+This page is about scanning Linux/FreeBSD servers for vulnerabilities locally.
+
 ## Free Linux Distro Scanners
 
 The following scanners are part of the OS and are run on the machine:
@@ -86,6 +88,16 @@ Redhat</td>
 - CIS CAT Pro Assessor
 - Ubuntu Advantage
 - JFrog XRay (package repo scan + local scans via JFrog CLI)
+
+## Cloud Control Plane Scanning
+
+When you are in the cloud you might want to choose scanning from the control plane. 
+This usually requires building your VM images with a cloud specific agent. For containers
+the scanning usually happens automatically.
+
+- AWS: Amazon Inspector
+- Azure: Security Center
+- GCP: Security Command Center
 
 ## Patch Orchestration
 
