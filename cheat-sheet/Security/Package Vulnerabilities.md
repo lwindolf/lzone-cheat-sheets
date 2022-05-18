@@ -1,4 +1,4 @@
-### Scanners
+### Free Linux Scanners
 
 -   [Debian - Package Vulnerability
     Scanner](http://www.enyo.de/fw/software/debsecan/):
@@ -15,7 +15,7 @@
 -   [Linux/UNIX Package Auditing with
     Nessus](https://www.tenable.com/blog/linuxunix-patch-auditing-using-nessus)
 
-### Linux Distribution Tools
+### Comparison of Free Scanners
 
 <table border="1">
 <tbody><tr>
@@ -78,6 +78,11 @@ Redhat</td>
 <td>No Linux? Still a nice solution... Lists vulnerable ports and vulnerability details.</td>
 </tr>
 </tbody></table>
+
+### Commercial Scanners
+
+- Ubuntu Advantage
+- CIS CAT Pro Assessor
 
 ### Patch Orchestration
 
