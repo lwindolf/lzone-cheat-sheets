@@ -2,6 +2,9 @@
 
 Markdown sources for all the cheat sheets found at https://lzone.de/
 
+- If you find this helpful consider giving a :star: or a small donation.
+- If you miss a topic suggest it by opening an issue!
+
 <!-- marker -->
 
 ## Cheat-Sheet Index
