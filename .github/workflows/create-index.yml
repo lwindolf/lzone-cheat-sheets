@@ -39,7 +39,7 @@ jobs:
           done
           ) >>README.md
           
-          git config --global user.email "noreply@example.com"
-          git config --global user.name "Create Index Workflow"
+          git config user.email "noreply@example.com"
+          git config user.name "Create Index Workflow"
           git commit -m "Update index." README.md
           git push
