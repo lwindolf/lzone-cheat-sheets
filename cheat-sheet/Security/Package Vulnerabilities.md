@@ -1,4 +1,6 @@
-### Free Linux Scanners
+## Free Linux Distro Scanners
+
+The following scanners are part of the OS and are run on the machine:
 
 -   [Debian - Package Vulnerability
     Scanner](http://www.enyo.de/fw/software/debsecan/):
@@ -15,7 +17,7 @@
 -   [Linux/UNIX Package Auditing with
     Nessus](https://www.tenable.com/blog/linuxunix-patch-auditing-using-nessus)
 
-### Comparison of Free Scanners
+### Comparison of Free Distro Scanners
 
 <table border="1">
 <tbody><tr>
@@ -79,12 +81,15 @@ Redhat</td>
 </tr>
 </tbody></table>
 
-### Commercial Scanners
+## Commercial Scanners
 
-- Ubuntu Advantage
 - CIS CAT Pro Assessor
+- Ubuntu Advantage
+- JFrog XRay (package repo scan + local scans via JFrog CLI)
 
-### Patch Orchestration
+## Patch Orchestration
+
+Tools to use once you find a vulnerability on your servers to orchestrate a fix:
 
 -   [Ubuntu Landscape](https://landscape.canonical.com/) (commercial)
     -   USN based updates
