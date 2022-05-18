@@ -21,7 +21,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet - Hiera'>Puppet - Hiera</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet'>Puppet</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SaltStack'>SaltStack</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Splunk'>Splunk</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Swagger'>Swagger</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Terraform'>Terraform</a>
 <br/><span class='group'><b>CICD</b></span>
@@ -122,6 +121,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Redis Sentinel'>Redis Sentinel</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Redis'>Redis</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Samba'>Samba</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Splunk'>Splunk</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Squid'>Squid</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Tomcat'>Tomcat</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Webserver'>Webserver</a>
