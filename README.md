@@ -4,7 +4,8 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
 
 <!-- marker -->
 
-## Index Cheat Sheets
+
+## Cheat-Sheet Index
 
 <br/><span class='group'><b>Automation</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ansible'>Ansible</a>
@@ -222,3 +223,41 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/registry'>registry</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/wmic'>wmic</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/WSL'>WSL</a>
+
+## Examples Index
+
+<br/><span class='group'><b>Glib Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Glib GRegex'>Glib GRegex</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Glib'>Glib</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Glib Testing'>Glib Testing</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Glib XDG Migration'>Glib XDG Migration</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/GObject'>GObject</a>
+<br/><span class='group'><b>Go Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Go Struct'>Go Struct</a>
+<br/><span class='group'><b>Javascript Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/d3js'>d3js</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/GraphQL'>GraphQL</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Handlebars'>Handlebars</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Javascript Frameworks'>Javascript Frameworks</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Javascript RegExp'>Javascript RegExp</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Javascript void0'>Javascript void0</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/React'>React</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/React PropTypes'>React PropTypes</a>
+<br/><span class='group'><b>PHP Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/PHP file_get_contents'>PHP file_get_contents</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/PHP in_array'>PHP in_array</a>
+<br/><span class='group'><b>Python Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python argparse'>Python argparse</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python Dictionary'>Python Dictionary</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python'>Python</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python re.match'>Python re.match</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python re'>Python re</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python re.sub'>Python re.sub</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python split'>Python split</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python string concat'>Python string concat</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python subprocess'>Python subprocess</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Python Syntax'>Python Syntax</a>
+<br/><span class='group'><b>Regex Examples</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Perl Regex'>Perl Regex</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Regex Overview'>Regex Overview</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Regex'>Ruby Regex</a>
