@@ -3,6 +3,16 @@
      docker-compose up           # start docker-compose.yml from current dir
      docker-compose down
 
+## Custom Build Context
+
+     services:
+       webapp:
+         build:
+           context: ./webapp
+           dockerfile: Dockerfile.webapp
+           args:
+             buildno: 1
+
 ## Custom Network Config
 
 Examples from [compose documentation](https://docs.docker.com/compose/compose-file/compose-file-v2/#ipv4_address-ipv6_address)
