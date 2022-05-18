@@ -25,3 +25,5 @@ Note that most `docker` parameters can be used with Buildah.
     buildah bud --tag myimage:latest --manifest m --arch amd64 .
     buildah bud --tag myimage:latest --manifest m --arch arm64 .
     buildah manifest push --all m <some target>
+
+See also [https://danmanners.com/posts/2022-01-buildah-multi-arch/](https://danmanners.com/posts/2022-01-buildah-multi-arch/)
