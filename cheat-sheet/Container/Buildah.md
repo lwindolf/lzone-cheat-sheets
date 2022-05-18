@@ -18,3 +18,10 @@ Note that most `docker` parameters can be used with Buildah.
     buildah inspect <container|image>
     
     buildah unshare cat /proc/self/uid_map         # Run in effective user namespace
+
+## Multi-architecture builds
+
+    buildah manifest create m
+    buildah bud --tag myimage:latest --manifest m --arch amd64 .
+    buildah bud --tag myimage:latest --manifest m --arch arm64 .
+    buildah manifest push --all m <some target>
