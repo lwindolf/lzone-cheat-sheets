@@ -3,6 +3,21 @@
      docker-compose up           # start docker-compose.yml from current dir
      docker-compose down
 
+## Defining Dependencies
+
+You **MUST** use a wait wrapper to ensure the readiness of the dependency.
+Otherwise the webapp container would start once the DB container is running,
+and not when the DB port is reachable.
+
+     services:
+       webapp:
+         depends_on:
+         - db
+         command: ["./wait-for-it.sh", "db:5432", "--", "start_webapp"]
+         [...]
+       db:
+         [...]
+
 ## Custom Build Context
 
      services:
