@@ -62,8 +62,8 @@ To configure air-gapped mirror add:
     
     podman pull --arch=arm debian:latest
     
-Note that there is no `buildx` command like in docker. You need to use Buildah for 
-building/running non-host-architecture images.
+Note that there is no `buildx` command like in docker. You need to use [Buildah](https://danmanners.com/posts/2022-01-buildah-multi-arch/)
+for building/running non-host-architecture images.
 
 ## Misc
 
