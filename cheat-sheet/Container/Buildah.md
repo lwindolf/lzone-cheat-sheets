@@ -13,6 +13,11 @@ Note that most `docker` parameters can be used with Buildah.
     buildah images
     buildah rmi <image>
     
+    # Just run and enter a container
+    name=$(buildah from debian)
+    buildah run $name bash
+    
+    # Building from Dockerfile
     buildah bud --format docker -t <tag> --build-arg key1=value1 --build-arg key2=value2
 
     buildah inspect <container|image>
