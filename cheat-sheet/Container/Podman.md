@@ -52,6 +52,16 @@ To configure air-gapped mirror add:
     prefix = "docker.io"
     location = "mymirror.example.com/somepath"
 
+## Handling other architectures
+
+    # Check which architectures have been pulled
+    podman image inspect docker.io/debian | jq -r '.[] | .Architecture'
+    
+    # Check which architectures are available
+    podman manifest inspect docker.io/debian | grep architecture
+    
+    podman pull --arch=arm debian:latest
+
 ## Misc
 
 - [Best Practices for Buildah in container](https://developers.redhat.com/blog/2019/08/14/best-practices-for-running-buildah-in-a-container)
