@@ -110,11 +110,11 @@ To assign a service a fixed IP
 ## Health Checking
 
     services:
-      my_app:
+      webapp:
         [...]
         healthcheck:
            test: >
-             curl --noproxy "*" -v -f -s http://127.0.0.1:8080/myapp
+             curl --noproxy "*" -v -f -s http://127.0.0.1:8080/webapp
            interval: 15s
            timeout: 5s
            retries: 20
