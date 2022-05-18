@@ -120,6 +120,26 @@ To assign a service a fixed IP
            retries: 20
            start_period: 30s
 
+## Restarting Services
+
+Old style: 
+
+     services:
+       webapp:
+          restart: <no|always|on-failure|unless-stopped>
+
+new style: 
+
+     services:
+       webapp:
+         [...]
+         deploy:
+           restart_policy:
+             condition: on-failure
+             delay: 5s
+             max_attempts: 3
+             window: 120s
+
 ## Setup Troubleshooting
 
 ### Couldn't connect to Docker daemon at http+docker://localhost - is it running?
