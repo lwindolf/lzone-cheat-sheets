@@ -54,6 +54,31 @@ To assign a service a fixed IP
             ipv4_address: 172.16.238.10
             ipv6_address: 2001:3984:3989::10
 
+## Mounting Volumes
+
+    services:
+      my_app:
+        volumes:
+        # Actual volume mounts
+        - vol1:/db
+        - vol2:/mnt/vol2
+        - vol3:/mnt/nfs
+        
+        # Bind mounts
+        - src/tests:/opt/app/tests
+        - /etc/ssl/certs/myCA.crt:/etc/ssl/certs/myCA.crt
+                
+    volumes:
+      vol1:                  # Auto-create volume
+      vol2:
+        external: true       # No auto-create volume, create with `docker volume create` manually
+      vol3:
+        driver: local        # NFS mounted volume
+        driver_opts:
+         type: "nfs"
+         o: "addr=10.40.0.199,nolock,soft,rw"
+         device: ":/docker/example"
+
 ## Secrets
 
     services:
