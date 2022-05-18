@@ -10,7 +10,7 @@ jobs:
   update:
     runs-on: ubuntu-20.04
     steps:
-      - update:
+      - name: update
         run: |
           for directory in cheat-sheet examples; do
             oldgroup=
