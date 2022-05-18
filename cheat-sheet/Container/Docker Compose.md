@@ -44,6 +44,19 @@ To assign a service a fixed IP
             ipv4_address: 172.16.238.10
             ipv6_address: 2001:3984:3989::10
 
+## Secrets
+
+    services:
+      my_app:
+        [...]
+        secrets:
+        - source: KEY1
+          target: /opt/app/key.pem
+          
+     secrets:
+       KEY1:
+         file: secrets/key1.pem
+
 ## Setup Troubleshooting
 
 ### Couldn't connect to Docker daemon at http+docker://localhost - is it running?
