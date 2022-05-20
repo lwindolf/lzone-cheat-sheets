@@ -47,7 +47,7 @@ Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-comm
       init:
         # Running an init step on a default runner to autosense the code
         outputs:
-          mode: ${{ steps.autosense.outputs.runner }}    # Optional declaration
+          mode: ${{ steps.autosense.outputs.runner }}    # Mandatory declaration
         steps:
           - name: checkout
             uses: actions/checkout@v2
