@@ -68,7 +68,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/DKMS'>DKMS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DRBD'>DRBD</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DXVK'>DXVK</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Debian'>Debian</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Debugging'>Debugging</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DevOps Linux'>DevOps Linux</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Filesystem'>Filesystem</a>
