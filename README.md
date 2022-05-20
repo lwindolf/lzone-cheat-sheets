@@ -131,7 +131,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/htaccess'>htaccess</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/memcached'>memcached</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/nginx'>nginx</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sqlite'>sqlite</a>
 <br/><span class='group'><b>Languages</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/CSS'>CSS</a>
@@ -168,6 +167,8 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/rsync'>rsync</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
+<br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
 <br/><span class='group'><b>Scripting</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/APIs'>APIs</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Bash Associative Array'>Bash Associative Array</a>
