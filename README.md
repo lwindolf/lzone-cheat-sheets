@@ -146,6 +146,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/XPath'>XPath</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/XSLT'>XSLT</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/YAML'>YAML</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gdb'>gdb</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/meson'>meson</a>
 <br/><span class='group'><b>Network</b></span>
@@ -164,7 +165,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
 <br/><span class='group'><b>Packaging</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/cargo'>cargo</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gem'>gem</a>
