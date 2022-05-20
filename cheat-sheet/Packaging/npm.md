@@ -3,11 +3,7 @@ related:
    cheat-sheet: ['Node.js']
 ---
 
-## NPM
-
-Node Package Manager
-
-### Commands
+## Commands
 
     npm list        # Show packages in local path
     npm list -g     # Show global packages
@@ -27,7 +23,7 @@ Node Package Manager
     npm link        # Link package into global env (when in package dir)
     npm unlink
 
-### Development
+## Development
 
     npm init        # Create new package
 
@@ -51,6 +47,15 @@ E.g. exposing jquery with Express:
     ]);
 
 which allows the client to fetch `/assets/jquery.js`.
+
+## Configure a private registry
+
+    cat <<EOF > /etc/npmrc
+    registry=${PRIVATE_REGISTRY_URL}
+    _auth = $(echo -n "${username}:${password}"| base64 -w0)
+    email = contact@example.com
+    always-auth = true
+    EOF
 
 ## Misc
 
