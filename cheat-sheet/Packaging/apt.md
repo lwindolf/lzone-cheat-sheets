@@ -36,3 +36,9 @@ things:
 Ommitting any of those will cause interaction.
 
     DEBIAN_FRONTEND=noninteractive apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" <package>
+
+#### Unattended Upgrades
+
+    apt-get install unattended-upgrades
+    dpkg-reconfigure -plow unattended-upgrades 
+    # and maybe set notification mail address in /etc/apt/apt.conf.d/50unattended-upgrades
