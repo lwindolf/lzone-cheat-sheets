@@ -166,6 +166,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/gem'>gem</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/golang'>golang</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/rvm'>rvm</a>
