@@ -167,6 +167,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
 <br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
 <br/><span class='group'><b>Scripting</b></span>
