@@ -43,6 +43,16 @@ Ommitting any of those will cause interaction.
     dpkg-reconfigure -plow unattended-upgrades 
     # and maybe set notification mail address in /etc/apt/apt.conf.d/50unattended-upgrades
 
+## Ubuntu Extras
+
+Like Debian with the addition of
+
+    # 1. Edit settings in  /etc/update-manager/release-upgrades
+    # e.g. set "Prompt=lts"
+
+    # 2. Run upgrade
+    do-release-upgrade -d   # For Ubuntu release upgrades
+
 ## Misc
 
 -   Manage Updates on multiple systems: [apt-dater](http://www.ibh.de/apt-dater/)
