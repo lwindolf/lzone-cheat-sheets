@@ -165,6 +165,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/cargo'>cargo</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gem'>gem</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/golang'>golang</a>
