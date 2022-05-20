@@ -169,6 +169,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/gem'>gem</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/golang'>golang</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/pip'>pip</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/rvm'>rvm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/yum'>yum</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/zypper'>zypper</a>
