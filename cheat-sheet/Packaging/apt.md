@@ -43,15 +43,33 @@ Ommitting any of those will cause interaction.
     dpkg-reconfigure -plow unattended-upgrades 
     # and maybe set notification mail address in /etc/apt/apt.conf.d/50unattended-upgrades
 
-## Ubuntu Extras
+## Ubuntu flavour dist-upgrade
 
-Like Debian with the addition of
+Run upgrade with
 
-    # 1. Edit settings in  /etc/update-manager/release-upgrades
-    # e.g. set "Prompt=lts"
+    do-release-upgrade [-d]       # use -d when you want all versions
 
-    # 2. Run upgrade
-    do-release-upgrade -d   # For Ubuntu release upgrades
+You can configure prompting for versions by changing `Prompt=lts` in `/etc/update-manager/release-upgrades`
+
+## Check for security upgrades
+
+- Debian
+
+        # With apt-show-versions
+        apt-show-versions | grep "security upgradeable"
+
+        # With aptitude
+        aptitude search '?and(~U,~Asecurity)'
+
+        # With pure apt-get
+        grep -h '^deb.*security' /etc/apt/sources.list /etc/apt/sources.list.d/* >sec.list
+        apt-get -s dist-upgrade -o Dir::Etc::SourceList=sec.list | grep ^Inst
+
+## Check for necessary restarts
+
+    apt-get install needrestart
+    needrestart
+   
 
 ## Misc
 
@@ -62,3 +80,14 @@ Like Debian with the addition of
         cd <repo dir>
         reprepro -v includedeb wheezy <.deb file>
         reprepro remove wheezy <name>
+
+- [Build Kernel Package](http://delicious.com/redirect?url=http%3A//tldp.org/HOWTO/Wireless-Link-sys-WPC11/x295.html):     How to build kernel packages with make-pkg
+
+        cd /usr/src/linux && make-kpkg clean && make-kpkg --initrd --revision=myrev kernel_image
+
+- [Setup Keyring](http://changelog.complete.org/archives/496-how-to-solve-the-following-packages-cannot-be-authenticated): How to solve "The following packages cannot be authenticated"
+
+        apt-get install debian-archive-keyring
+        apt-get update
+
+- [Security Debian HowTo](https://www.debian.org/doc/manuals/securing-debian-howto/ch4.de.html)
