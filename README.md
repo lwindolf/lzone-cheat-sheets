@@ -171,6 +171,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/yum'>yum</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/zypper'>zypper</a>
 <br/><span class='group'><b>Scripting</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/APIs'>APIs</a>
