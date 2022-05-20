@@ -22,3 +22,17 @@
     apt-get install apt-file
     apt-file update
     apt-file search <some file>
+
+## 100% Non-interactive
+
+To achieve a useful 100% non-interactive "apt-get install" you need 4
+things:
+
+-   Set Debian frontend "noninteractive"
+-   Pass "-y" to confirm everything
+-   Specify to keep old configs always
+-   Enforce config definitions
+
+Ommitting any of those will cause interaction.
+
+    DEBIAN_FRONTEND=noninteractive apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" <package>
