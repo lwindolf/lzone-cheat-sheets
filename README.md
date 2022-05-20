@@ -149,7 +149,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/YAML'>YAML</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gdb'>gdb</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/meson'>meson</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/rvm'>rvm</a>
 <br/><span class='group'><b>Network</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Networking'>Linux-Networking</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Mail'>Mail</a>
@@ -169,6 +168,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/golang'>golang</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/rvm'>rvm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/yum'>yum</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/zypper'>zypper</a>
 <br/><span class='group'><b>Scripting</b></span>
