@@ -149,7 +149,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/XPath'>XPath</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/XSLT'>XSLT</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/YAML'>YAML</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gdb'>gdb</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/golang'>golang</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/meson'>meson</a>
@@ -168,6 +167,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
 <br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
 <br/><span class='group'><b>Scripting</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/APIs'>APIs</a>
