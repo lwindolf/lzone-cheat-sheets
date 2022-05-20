@@ -1,4 +1,4 @@
-## apt Commands
+## Commands
 
     apt-get install <package> 
     apt-get remove <package> # Remove files installed by <package>
@@ -37,8 +37,18 @@ Ommitting any of those will cause interaction.
 
     DEBIAN_FRONTEND=noninteractive apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" <package>
 
-#### Unattended Upgrades
+## Unattended Upgrades
 
     apt-get install unattended-upgrades
     dpkg-reconfigure -plow unattended-upgrades 
     # and maybe set notification mail address in /etc/apt/apt.conf.d/50unattended-upgrades
+
+## Misc
+
+-   Manage Updates on multiple systems: [apt-dater](http://www.ibh.de/apt-dater/)
+-   Debian Repo manager [aptly.info](http://aptly.info)
+-   APT Repo with [reprepro](http://mirrorer.alioth.debian.org/)
+
+        cd <repo dir>
+        reprepro -v includedeb wheezy <.deb file>
+        reprepro remove wheezy <name>
