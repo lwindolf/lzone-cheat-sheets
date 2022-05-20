@@ -1,16 +1,7 @@
 ---
 related: 
-   cheat-sheet: ['Ruby Bundler']
+   cheat-sheet: ['Ruby Bundler', 'gem']
 ---
-
-## Using Gem
-
-    gem env
-    gem list
-    gem outdated            # List Gems with updates available
-    gem update [<name>]
-    gem install <name> [-v <version>]
-    gem uninstall <name>
 
 ## Test with RSpec
 
