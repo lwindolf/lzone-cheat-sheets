@@ -1,7 +1,4 @@
-### Command Overview
-
-
-    
+## Commands
 
     bundle install <gem>
     bundle config set path <some path>
