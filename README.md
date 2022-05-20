@@ -82,7 +82,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Sysadmin'>Linux-Sysadmin</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Virtualization'>Linux-Virtualization</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PKI'>PKI</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Package Management'>Package Management</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Packaging'>Packaging</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Partitioning'>Partitioning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/RAID'>RAID</a>
