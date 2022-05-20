@@ -139,7 +139,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linting'>Linting</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PHP'>PHP</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Perl'>Perl</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby'>Ruby</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SQL'>SQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Syndication'>Syndication</a>
@@ -163,6 +162,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
 <br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/dpkg'>dpkg</a>
