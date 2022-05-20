@@ -28,4 +28,4 @@ or alias it
 
 ## Package Index
 
-https://pkg.go.dev/
+[https://pkg.go.dev/](https://pkg.go.dev/)
