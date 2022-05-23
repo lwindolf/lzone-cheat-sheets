@@ -49,7 +49,7 @@ To create thumbnails every n seconds use "-vf fps=1/n" for example
 
     ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
     
-### Handlign id3 tags
+### Handling id3 tags
 
 Extracting
 
