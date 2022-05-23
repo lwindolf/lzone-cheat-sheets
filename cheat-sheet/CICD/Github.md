@@ -163,3 +163,8 @@ For all 'run' steps global default:
             working-directory: mysubdir
 
 {% endraw %}
+
+### Inspecting all workflow_dispatch inputs
+
+Use `${{ github.event.inputs }}` which will expand into a valid JSON map of all inputs and their values.
+
