@@ -168,3 +168,17 @@ For all 'run' steps global default:
 
 Use `${{ github.event.inputs }}` which will expand into a valid JSON map of all inputs and their values.
 
+### Job reports
+
+To create a per job report from Markdown input.
+
+    cat <<EOT >>${GITHUB_STEP_SUMMARY}
+    
+    ## Report 
+    
+    - info 1 [some link](https://example.com)
+    - info 2
+    
+    EOT
+    
+You can also run it in each step to accumulate a report.
