@@ -186,7 +186,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Locking'>Locking</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Scripting'>Scripting</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Shell-Scripting'>Shell-Scripting</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Videos'>Videos</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/awk'>awk</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/jq'>jq</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sed'>sed</a>
