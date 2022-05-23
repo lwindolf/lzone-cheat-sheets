@@ -35,6 +35,10 @@ To create a single thumb at 10s
 To create thumbnails every n seconds use "-vf fps=1/n" for example
 
     ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
+    
+### Adding id3 tags
+
+    ffmpeg -i file.mp3 -metadata title="<title>" -metadata artist="<artist>" -metadata album="<album>" out.mp3
 
 ### Resample/Convert Audio
 
