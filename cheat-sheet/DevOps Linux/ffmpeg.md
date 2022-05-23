@@ -49,9 +49,17 @@ To create thumbnails every n seconds use "-vf fps=1/n" for example
 
     ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
     
-### Adding id3 tags
+### Handlign id3 tags
 
-    ffmpeg -i file.mp3 -metadata title="<title>" -metadata artist="<artist>" -metadata album="<album>" out.mp3
+Extracting
+
+    ffmpeg -i file.mp3 -f ffmetadata metadata.txt
+    
+Setting
+
+    ffmpeg -i file.mp3 -acodec copy -metadata title="<title>" -metadata artist="<artist>" -metadata album="<album>" out.mp3
+    
+More [https://gist.github.com/eyecatchup/0757b3d8b989fe433979db2ea7d95a01](https://gist.github.com/eyecatchup/0757b3d8b989fe433979db2ea7d95a01)
 
 ### Resample/Convert Audio
 
