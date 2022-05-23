@@ -14,6 +14,19 @@ The following will create a 640x480 sized output video by copying a correspondin
 
     ffmpeg -i <input> -ss 00:01:45 -t 00:02:35 -vcodec copy -acodec copy <output>ffmpeg -ss 00:00:30 -i orginalfile.mpg -t 00:00:05 -vcodec copy -acodec copy newfile.mpg
 
+### Fixing rotation
+
+Do not recode for rotation but simple add a video metadate field for the rotation angle
+
+    ffmpeg -i <input> -c copy -metadata:s:v:0 rotate=90 <output>
+    
+### H265 2-pass encoding 
+
+For H265 2-pass encoding you need to combine 2 ffmpeg calls. Example from ffmpeg:
+
+    ffmpeg -y -i input -c:v libx265 -b:v 2600k -x265-params pass=1 -an -f mp4 /dev/null && \
+    ffmpeg    -i input -c:v libx265 -b:v 2600k -x265-params pass=2 -c:a aac -b:a 128k output.mp4
+
 ## Repacking
 
 ### Extracting Audio Stream
