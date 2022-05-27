@@ -10,6 +10,8 @@ related:
 
 ## Server Scanners
 
+-   CIS CAT Pro Assessor (commercial)
+-   CIS CAT Pro Lite (more or less free)
 -   Nessus (commercial)
 -   [OpenVAS - Security Scanner](https://www.openvas.org/index.html)
     (more or less free)
