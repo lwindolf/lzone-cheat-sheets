@@ -7,6 +7,20 @@
 
 ## Actions
 
+### Environment variables
+
+- GITHUB_REF
+- GITHUB_BASE_REF
+- GITHUB_HEAD_REF
+- GITHUB_ENV (writable environment file passed between jobs)
+- GITHUB_WORKSPACE
+- GITHUB_REPOSITORY
+- GITHUB_REPOSITORY_OWNER (user or organisation name)
+- GITHUB_RUN_NUMBER (pipeline unique)
+- GITHUB_RUN_ID (globally unique)
+
+More: [https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables)
+
 ### Using workflow commands (annotations)
 
 Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
