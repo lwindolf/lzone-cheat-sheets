@@ -67,24 +67,28 @@ Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-comm
 
 Job and steps can be run conditionally by specifying `if:` clauses
 
-       job1:
-         steps:
-           - id: step1
-             if: ${{ github.ref == 'main')
+    job1:
+      steps:
+      - id: step1
+        if: ${{ github.ref == 'main')
 
 Note for boolean inputs always check on string `'true'`!
 
-         if: ${{ github.event.inputs[deployflag] == 'true' }}
+     if: ${{ github.event.inputs[deployflag] == 'true' }}
          
 There are additional [string functions](https://docs.github.com/en/actions/learn-github-actions/expressions) that can be used
 
-         if: ${{ startsWith(matrix.stage, 'production-') == true }}
-         if: ${{ endsWith(name, '_suffix') == false }}
-         if: ${{ contains(mode, 'debug') != true }}
+     if: ${{ startsWith(matrix.stage, 'production-') == true }}
+     if: ${{ endsWith(name, '_suffix') == false }}
+     if: ${{ contains(mode, 'debug') != true }}
 
 For ternary operator use `<condition> && <outputTrue> || <outputFalse>` syntax:
 
     ${{ startsWith(github.ref, 'feature') && 'this is a feature branch' || 'another branch' }}
+    
+To always run a step even if a previous step did fail
+
+    if: always()
 
 
 ### Dynamic and customizable matrix job
