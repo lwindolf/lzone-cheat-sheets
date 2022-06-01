@@ -51,6 +51,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/Vagrant'>Vagrant</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/VirtualBox'>VirtualBox</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Xen'>Xen</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/packer'>packer</a>
 <br/><span class='group'><b>Container</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Buildah'>Buildah</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Container Orchestration'>Container Orchestration</a>
