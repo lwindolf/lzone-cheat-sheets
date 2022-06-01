@@ -33,10 +33,16 @@
     
 ## Env Variables
 
+Fetching 
+
     $tmp =  $env:SOME_ENV_VAR;
     
     $env:Path = [Environment]::GetEnvironmentVariable('Path',[System.EnvironmentVariableTarget]::Machine);
-    
+
+Setting env var on global level
+
+    [System.Environment]::SetEnvironmentVariable('MYVAR','some value', [System.EnvironmentVariableTarget]::Machine)
+
 
 ## Filesystem
 
