@@ -1,6 +1,7 @@
-See also <?add topic='Ansible'?>
-<?add topic='Chef'?>
-<?add topic='Puppet'?>
+---
+related:
+  cheat-sheet: ['Ansible', 'Chef', 'Puppet']
+---
 
 ## Classical Automation Tools
 

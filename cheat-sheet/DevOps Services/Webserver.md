@@ -1,6 +1,9 @@
-See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?> <?add topic='Node.js'?>
+---
+related:
+  cheat-sheet: [ÄApache', 'Monitoring', 'nginx', 'Node.js', 'memcached']
+---
 
-### PHP
+## PHP
 
 -   Setting up a PHP debugger
     -   [APD](/articles/apd-setup.htm)
@@ -35,28 +38,12 @@ See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?
         pecl list-upgrades
         pecl upgrade <name>
 
-### Rails
+## Rails
 
 -   [Passenger
     Tuning](http://blog.scoutapp.com/articles/2009/12/08/production-rails-tuning-with-passenger-passengermaxprocesses)
 
-### memcached
-
--   <?add topic='memcached'?>
--   [memcached - Key Dump Tool
-    "memdump"](http://search.cpan.org/~dmaki/Memcached-libmemcached-0.4202/src/libmemcached/docs/memdump.pod)
--   [memcached - Persistent
-    Hashing](http://www.mikeperham.com/2009/01/14/consistent-hashing-in-memcache-client/):
-    How to survive server failures without the whole cluster degrading.
-    Of course applies to any cache.
--   memcachedb - Log Archiving: To clean unused memcachedb logs open a
-    telnet session and run
-
-        db_archive
-
-    to clean unused log files
-
-### CDN
+## CDN
 
 -   [Linux HTTP/TCP Tuning for
     initcwnd](http://www.cdnplanet.com/blog/tune-tcp-initcwnd-for-optimum-performance/)
@@ -68,7 +55,7 @@ See Also: <?add topic='Apache'?> <?add topic='Monitoring'?> <?add topic='nginx'?
 -   [initcwnd settings used by different
     CDNs](http://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/)
 
-### Misc
+## Misc
 
 -   Alexa Pagerank API
 

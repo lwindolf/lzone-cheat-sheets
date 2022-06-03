@@ -1,58 +1,20 @@
-### Node.js
+---
+related:
+   cheat-sheet: ['npm']
+---
 
-Execute script
+## CLI
 
     node <script file>
+    node -c <script file>     # Syntax check
 
-## NPM
+## Node Version Manager Commands
 
-Node Package Manager
-
-### Commands
-
-    npm list        # Show packages in local path
-    npm list -g     # Show global packages
-    npm list -g -p      # Show global packages, parseble list
-
-    npm view <package>
-
-    npm install <package>[@<version>]
-    npm uninstall <package>[@<version>]
-    npm rm <package>
-
-    npm search <something>
-
-    npm link <package>    # Link global package into user env
-    npm unlink <package>
-
-    npm link        # Link package into global env (when in package dir)
-    npm unlink
-
-### Development
-
-    npm init        # Create new package
-
-    npm publish
-    npm unpublish <package>
-
-    npm adduser
-
-    npm owner add <user> <package>
-    npm owner rm <user> <package>
-    npm owner ls <package>
-
-    npm start       # Start an app
-
-Misc:
-
--   [NPM global vs locally installed
-    modules](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation/)
-
-## n Commands
-
-Node Version Manager
+Installation
 
     npm install n
+
+Usage
 
     n help
     n ls
@@ -102,4 +64,8 @@ or in your code set
 
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
+## Node.js with extra CAs
 
+You can make Node.js handle additional CAs like that
+
+    export NODE_EXTRA_CA_CERTS=<path to ca certs>

@@ -1,0 +1,227 @@
+## Using Kubernetes
+
+When running jobs as Kubernetes pods you need to specify/inherit [podTemplates](https://github.com/jenkinsci/kubernetes-plugin)
+
+    def label = "mypod-${UUID.randomUUID().toString()}"    // ugly necessary workaround
+    podTemplate(label: label, containers: [
+      // You can have as many containers as you want...
+      containerTemplate(name: 'maven', image: 'maven:3.3.9-jdk-8-alpine', ttyEnabled: true, command: 'cat'),
+      containerTemplate(name: 'golang', image: 'golang:1.8.0', ttyEnabled: true, command: 'cat')
+    ]) {
+
+      node(label) {
+        container('maven') {
+          // do something with Maven
+        }
+        container('golang') {
+          // do something with go
+        }
+      }
+    }
+
+Instead of explicitely specifying the pod template you can inherit templates and overwrite only some of the
+values...
+
+    podTemplate(label: 'mypod', inheritFrom: 'basepod) {
+      ...
+    }
+
+### Understand the internals!
+
+Keep in mind the following:
+
+- there is always a container 'jnlp' which runs the Jenkins agent
+- when you do not use `container('...') {}` you are running inside the 'jnlp' container
+- you can override the 'jnlp' container by defining your own `containerTemplate(name:'jnlp', ...)`
+- SCM checkout *always* happens in the 'jnlp' container!
+
+### Docker-in-Docker
+
+If you want to build docker images you have to run docker on-top of kubernetes. One possibility is Docker-in-Docker (DinD). Example:
+
+    podTemplate(label: 'dind', containers: [
+      containerTemplate(name: 'docker', image: 'docker:dind', ttyEnabled: true, privileged: true,
+        command: 'dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 --storage-driver=overlay')
+      ],
+      volumes: [emptyDirVolume(memory: false, mountPath: '/var/lib/docker')]) {
+        container(docker) {
+          docker.build()
+        }
+      }
+    }
+
+## Different DSL Syntax types
+
+- Declarative Pipeline (always has a 'stages' block, no loops/arithmetics/string processing)
+- Scripted Pipeline (always has a 'node' block, full Groovy features)
+- Mixed Pipelines (using a 'script' block, do full Groovy inside a declarative pipeline)
+- JobDSL (always has something like a 'pipelineJob', otherwise full Groovy features) 
+
+## Accessing the workspace
+
+Check if a file exists
+
+    if (fileExists('file')) {
+       // ...
+    }
+
+## Getting shell output
+
+Either via reading from file
+
+    sh "echo something >output.txt";
+    def output =readFile('output.txt').trim()
+
+or using the sh plugin
+
+    def output = sh(returnStdout: true, script: 'echo something').trim()
+
+## Getting time
+
+    currentBuild.startTimeInMillis    # current build start time in ms
+    System.currentTimeMillis()        # current time in ms
+
+## Pipeline job parameters
+
+    properties([
+        parameters([
+            string(name: "myparam1",
+                   defaultValue: "default for 1",
+                   description: "Please provide value of param1")
+        ])
+    ])
+
+## Handling the environment
+
+Setting env variables
+
+    pipeline {
+      environment {
+         FOO = "BAR"
+      }
+    }
+
+Query all env variables
+
+    node {
+      echo sh(returnStdout: true, script: 'env | sort')
+    }
+
+Access an env variable
+
+    echo env.BUILD_ID
+    echo "My build is is ${env.BUILD_ID}"
+
+## SCM Checkout
+
+For Jenkinsfiles located in the repo perform checkout like this
+
+    checkout scm
+
+For advanced checkout specifics of the SCM provider can be overwritten like this
+
+    checkout([$class: 'GitSCM', 
+        branches: [[name: '*/master']], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[]]
+    ])
+
+For example git LFS support can be enabled like this
+
+    checkout([$class: 'GitSCM', 
+        ...
+        extensions = [
+          [$class: 'GitLFSPull'],
+          [$class: 'CloneOption',
+          depth: 0,
+          noTags: false,
+          shallow: true,
+          timeout: 10]
+        ],
+        ...
+     ])
+
+To get checkout details catch the result of 'checkout'
+
+     def scmVars = checkout scm
+     
+     println scmVars.GIT_BRANCH
+     println scmVars.GIT_COMMIT
+     println scmVars.GIT_URL
+     ...
+
+Alternatetivly checkout repos directly using the git plugin anywhere in your pipeline as needed
+
+    git credentialsId: 'github', url: ${REPO_URL}, branch: 'master'
+
+## Credentials
+
+### Username and Password
+
+Fetch user and password into env variables
+
+    withCredentials([usernamePassword(
+                       credentialsId: 'myCredentials',
+                       usernameVariable: 'USER',
+                       passwordVariable: 'PASSWORD'
+                   )]) {
+      sh 'echo user "$USER" pasword "$PASSWORD"'
+    }
+ 
+ or
+ 
+    withCredentials([[$class: 'UsernamePasswordMultiBinding',
+                      credentialsId: 'myCredentials', 
+                      usernameVariable: 'USER', 
+                      passwordVariable: 'PASSWORD'
+                    ]]) {
+      sh 'echo user "$USER" pasword "$PASSWORD"'
+    }
+    
+### Secret Files
+
+    withCredentials([file(credentialsId: 'myCredentials', variable: 'MY_SECRET_TOKEN')]) {
+       sh 'echo token "$MY_SECRET_TOKEN"'
+    }
+    
+### Docker Registry Credentials
+
+Do this using the docker plugin, not via the credential-binding plugin!
+
+    docker.withRegistry('docker.example.com', 'myCredential') {
+      docker.build(...)
+    }
+
+## Jenkins Shared Libraries
+
+### Script Security
+
+- Use global shared libraries to by-pass script security
+- Use per-folder libraries for enforced script security
+
+### Including Shared Libraries
+
+#### From repo
+
+     library(
+       identifier: 'jenkins-shared-library@1.0',
+       retriever: modernSCM([
+         $class: 'GitSCMSource',
+         remote: 'https://github.com/myrepo/jenkins-shared-library.git'
+       ])
+     )
+
+#### From local Jenkins
+
+For this to work you have to configure a global or per-folder shared library which you can then include by name
+
+     @Library('my-shared-library') _
+     @Library('my-shared-library@1.0') _
+     @Library(['my-shared-library', 'otherlib@abc1234']) _
+
+Note the underscore for importing in contrast to importing classes
+
+     @Library('somelib')
+     import com.mycorp.pipeline.somelib.Helper

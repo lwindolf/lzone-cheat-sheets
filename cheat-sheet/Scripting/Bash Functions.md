@@ -1,4 +1,7 @@
-See also <?add topic='Bash'?>
+---
+related:
+  cheat-sheet: ['Bash']
+---
 
 ### Declaring Functions
 

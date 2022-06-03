@@ -1,6 +1,6 @@
 ## Simple node selection
 
-Simple XPath expressions you can use a beginner
+Simple XPath expressions you can use as a beginner
 
     //article         # find all <article> tags
     //article/h1      # find all <h1> tags directly below an <article>
@@ -11,6 +11,11 @@ Simple XPath expressions you can use a beginner
     (//span[@class='someclass'])[2]   # get the 2nd <span> of this class only
    
     //input[@class='someclass' and @name='searchtext']   # find by multiple attributes
+
+Relative queries are possible using '.'
+
+    .//a             # all <a> tags below current node
+    ./div            # all direct <div> children
 
 ## Get node contents
 
@@ -26,7 +31,7 @@ To match attribute text use **contains()**
 
 To do negative matches use **not()**
 
-    //a[not(contains(@href, 'https')]   # Get all non-HTTPS links
+    //a[not(contains(@href, 'https'))]   # Get all non-HTTPS links
     
 To count nodes use **count()**
 

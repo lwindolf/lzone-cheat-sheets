@@ -1,4 +1,7 @@
-See also: <?add topic='Debian'?> <?add topic='Filesystem'?> <?add topic='Linux-HA'?> <?add topic="Linux-Networking"?> <?add topic="Linux-Virtualization"?> <?add topic="LVM"?> <?add topic="Package Management"?> <?add topic="Partitioning"?> <?add topic='RAID'?> <?add topic='Shell-Scripting'?> <?add topic='SSH'?> <?add topic='Security'?>
+---
+related:
+  cheat-sheet: ['LVM','RAID',Partitioning','Security']
+---
 
 ## Hardware
 
@@ -81,11 +84,54 @@ Machine readable: you need to use sadf
 -   [CPU Utilization is
     wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html?utm_content=bufferfb890&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
-### Misc
+## Swap Files
 
--   Check for pending leap seconds:
+- Create swap file and mount it
+
+      dd if=/dev/zero of=/swapfile bs=1024000 count=1024          # Create ~1GB file
+      mkswap /swapfile
+      chmod 0600 /swapfile
+      swapon /swapfile
+      
+  To persist mounting the swapfile add an entry in /etc/fstab like this
+  
+      /swapfile    none     swap    sw              0       0
+
+## NTP
+
+- Using hypervisor clock in VMs 
+
+      timedatectl set-ntp false
+      modprobe ptp
+      apt-get install chrony
+      echo "refclock PHC /dev/ptp0 poll 3 dpoll -2 offset 0" >> /etc/chrony/chrony.conf
+      sed -i '/ntp/s/^/#/g' /etc/chrony/chrony.conf
+      sed -i "/makestep 0.1 3/c\makestep 0.1 -1" /etc/chrony/chrony.conf
+      systemctl restart chronyd
+      
+- Check for pending leap seconds:
 
         ntpq -c"rv 0 leap"
+
+### Avoid leap second problems
+
+- Variant 1: Disable NTP, skip over second
+
+      # before leap second
+      /etc/init.d/ntp stop
+
+      # after leap second
+      date -s "$(LC_ALL=C date)"    Note: check correct locale!
+      /etc/init.d/ntp start
+
+-   Variant 2: Ensure NTP is up-to-date and running with -x
+-   Variant 3: [Converging solution](http://syslog.me/2015/06/04/a-humble-attempt-to-work-around-the-leap-second-2015-edition/)
+        
+## Misc
+
+- Find broken links
+
+      find . -xtype l
 
 -   supervisor - Start CLI with
 
@@ -97,24 +143,6 @@ Machine readable: you need to use sadf
         stop <name>
         restart all
         tail <name>   # JSON log
-
--   sudo - Solving issue
-
-        nagios sudo: no tty present and no askpass program specified
-
-    by adding
-
-        Defaults:<user name> !requiretty
-        Defaults:<user name> !visiblepw
-
-    at the end of /etc/sudoers. Note that this issue can also indicate a
-    password prompt when you run a different command than you expect. In
-    any case if you can't solve it check /var/log/auth.log to see what
-    the real command is.
-
--   sudo - List user permissions:
-
-        sudo -l -U <user>
 
 -   pv - Visualize pipe progress:
 
@@ -145,19 +173,6 @@ Machine readable: you need to use sadf
         # Sign in as user who opened the screen
         script /dev/null
         screen -x
-
--   Avoid leap second problems:
-    - Variant 1: Disable NTP, skip over second
-
-          # before leap second
-          /etc/init.d/ntp stop
-
-          # after leap second
-          date -s "$(LC_ALL=C date)"    Note: check correct locale!
-          /etc/init.d/ntp start
-
-    -   Variant 2: Ensure NTP is up-to-date and running with -x
-    -   Variant 3: [Converging solution](http://syslog.me/2015/06/04/a-humble-attempt-to-work-around-the-leap-second-2015-edition/)
 
 -   rsyslog - Modify rate imux limiting
 

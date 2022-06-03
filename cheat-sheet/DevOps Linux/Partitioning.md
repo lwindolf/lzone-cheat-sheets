@@ -1,4 +1,7 @@
-See Also: <?add topic='LVM'?>
+---
+related:
+  cheat-sheet: [ 'LVM' ]
+---
 
 ## Disks
 
@@ -32,24 +35,25 @@ Diagnose with
 
     update-grub
 
-## Misc
+## ext2/ext3/ext4
 
--   [Convert ext2 to
-    ext3](http://www.troubleshooters.com/linux/ext2toext3.htm):
+### Resizing
 
-        tune2fs -j /dev/hda1
+    resize2fs /dev/sda1 <size>
 
--   [Convert ext3 to
-    ext4](http://www.cyberciti.biz/tips/linux-convert-ext3-to-ext4-file-system.html):
+### [Convert ext2 to ext3](http://www.troubleshooters.com/linux/ext2toext3.htm):
 
-        tune2fs -O extents,uninit_bg,dir_index /dev/sda1
+    tune2fs -j /dev/hda1
 
--   [Determine Inode
-    Count](http://www.cyberciti.biz/faq/linux-show-contents-of-filesystem-superblock-inode/):
+### [Convert ext3 to ext4](http://www.cyberciti.biz/tips/linux-convert-ext3-to-ext4-file-system.html):
 
-        tune2fs -l /dev/sda1 | grep Inode
+    tune2fs -O extents,uninit_bg,dir_index /dev/sda1
 
--   [Disable ext4
-    barriers](http://liferea.blogspot.de/2010/06/serious-performance-issues-with-ext4fs.html):
-    Add "barrier=0" to the mount options.
+### [Determine Inode Count](http://www.cyberciti.biz/faq/linux-show-contents-of-filesystem-superblock-inode/):
+
+    tune2fs -l /dev/sda1 | grep Inode
+
+### [Disable ext4 barriers](http://liferea.blogspot.de/2010/06/serious-performance-issues-with-ext4fs.html):
+    
+Add "barrier=0" to the mount options.
 

@@ -1,6 +1,11 @@
-### Packaging
+### Autotools Packaging
 
--   [Build Tarballs with
+- Setup
+
+        sh autogen.sh
+        ./configure
+
+- [Build Tarballs with
     XZ](http://lzone.de/Save+tarball+space+with+make+dist-xz): Build
     different types of tarballs
 

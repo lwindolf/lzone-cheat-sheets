@@ -1,4 +1,7 @@
-See Also: <?add topic='SELinux'?>
+---
+related:
+  cheat-sheet: ['SELinux']
+---
 
 ### Basics
 
@@ -23,10 +26,9 @@ Commands
 
     aa-genprof <executable>   # Create new profile for binary
 
-### Force stopping/removing AppArmor
-
-    invoke-rc.d apparmor kill
-    update-rc.d -f apparmor remove
+### Force stopp AppArmor
+   
+    systemctl stop apparmor
 
 ### Disable for LXC
 

@@ -1,15 +1,22 @@
+---
+related:
+  cheat-sheet: etcdv2
+---
+
+This cheat sheet is for etcd v3 only!
+
 ## CLI Commands
 
 Cluster infos
 
-    etcdctl ls  /_etc/machines --recursive    # List all known hosts
     etcdctl get /_etc/machines/<token>        # Details of a host
     etcdctl get /_etc/config
     
 Accessing the key space
 
-    etcdctl ls /              # Get top-level keys
-    etcdctl ls / --recursive  # Get full tree
+    etcdctl get / --prefix --keys-only          # Get top-level keys
+    etcdctl get / --prefix                      # Get top-level keys and values
+    etcdctl get / --prefix --keys-only --recursive  # Get full tree
     
     etcdctl get <key path>                      # Get key details
     etcdctl get <key path> --print-value-only   # Get key value only
@@ -45,35 +52,14 @@ Make data and paths expire by passing --ttl when creating paths
 Monitoring paths
 
     etcdctl watch /path
-    etcdctl watch --recursive /path
+    etcdctl watch / --prefix              # Recursive watch
     
     # Trigger command on event
-    etcdctl watch --recursive /path -- printf "Path /path was changed.\n"
+    etcdctl watch /path --prefix -- printf "Path /path was changed.\n"
     
 Compacting revisions
 
     etcdctl compact <number>     # Drop all revisions older than <number>
     
-## HTTP JSON API Usage
 
-Sample curl
-
-    curl -L http://127.0.0.1:4001/v2/keys/
-
-Endpoints examples are
-
-    /version
-    
-    /v2/stats/self         # Node info
-    /v2/stats/store        # Statisitics ops/s
-    /v2/stats/leader       # Cluster master/slave details
-    
-    /v2/keys
-    /v2/keys/?recursive=true
-
-Separately from the port 4001 cluster API there is also an admin API for configuration changes 
-on default port 7001
-
-    /v2/admin/config       # GET returns settings, XPUT changes settings
-    /v2/admin/machines     # Cluster details
     

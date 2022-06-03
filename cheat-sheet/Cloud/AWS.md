@@ -1,0 +1,177 @@
+---
+related:
+  cheat-sheet: ['AWS Lambda', 'S3']
+---
+
+## Drawing AWS Architectures
+
+[Use the AWS library for draw.io](https://www.draw.io/?splash=0&libs=aws3)
+
+## Configuring Profiles
+
+    aws configure set help
+
+    aws configure set aws_access_key_id <key id>
+    aws configure set aws_secret_access_key <secret>
+    aws configure set default.region <region>
+    aws configure set region <region>
+
+To query/configure specific profiles prefix the profile to the config key
+
+    aws configure get <profile>.region
+    aws configure set <profile>.region <region>
+
+## EC2 CLI Commands
+
+    aws ec2 describe-instances                           # List all
+    aws ec2 reboot-instances --instance-ids <ids>
+
+## EC2 Instance Lookup
+
+Find instances by name
+
+    aws ec2 describe-tags --region us-east-1 |\
+    jq -r '.Tags[]|select(.Key == "Name") | select( .Value | contains("<part of name>") )| .Value'
+
+List instances by name and selected properties
+
+     aws ec2 describe-instances |\
+     jq '.Reservations[].Instances[] | .InstanceId, .State["Name"], .InstanceType, .Placement.AvailabilityZone, .PublicIpAddress' |\
+     xargs -n 5
+
+## EC2 Instance Types
+
+- [Instance types overview](https://aws.amazon.com/ec2/instance-types/)
+- [Instance types by region](https://www.ec2instances.info/?region=eu-central-1)
+
+## IAM
+
+    aws iam list-roles
+    aws iam list-roles | jq -r '.Roles[].RoleName'       # Print role names
+    aws iam list-roles | jq -r '.Roles[].Arn'            # Print ARNs
+    
+    aws iam get-role --role-name <name>
+    aws iam create-role --role-name <name> --asume-role-policy-document '<text>'
+    aws iam delete-role --role-name                      # Note: you need to detach all policies first!
+    
+ To list policies you need 2 commands, as there are 2 types of policies: attached policies and inline policies
+    
+    # For attached policies
+    aws iam list-attached-role-policies --role-name <name>
+    
+    # For inline policies
+    aws iam list-role-policies --role-name <name>
+
+To add/remove an inline policy
+
+    aws iam put-role-policy --role-name <role name> --policy-name <policy name> --policy-document '<text>'
+    aws iam delete-role-policy --role-name <role name> --policy-name <policy name>
+
+To attach/detach an existing policy
+
+    aws iam attach-role-policy --role-name <role name> --policy-arn <policy arn>
+    aws iam detach-role-policy -q-role-name <role name> --policy-arn <policy arn>
+    
+### IAM Roles in ~/.aws/credentials
+
+From other credential
+
+    [marketingadmin]
+    role_arn = arn:aws:iam::123456789012:role/marketingadminrole
+    source_profile = user1
+
+From within EC2 instance
+
+    [profile marketingadmin]
+    role_arn = arn:aws:iam::123456789012:role/marketingadminrole
+    credential_source = Ec2InstanceMetadata
+
+### IAM via EC2
+
+Inside an instance perform a call against the metadata API
+
+    curl http://169.254.169.254/latest/meta-data/iam/security-credentials/
+    
+to see your active role, and run
+
+    curl http://169.254.169.254/latest/meta-data/iam/security-credentials/<role>
+
+to fetch credentials
+
+## Logging IAM Roles/Policies
+
+- [Logging changes in CloudWatch](https://docs.fugue.co/FG_R00063.html)
+
+## STS
+
+    aws sts get-caller-identity | jq -r '.Account'                      # Resolve your account id
+    aws sts assume-role --role-arn <arn> --role-session-name <any name>
+
+## EBS
+
+- [Calculate EBS pricing](https://www.reddit.com/r/aws/comments/90j5zy/programmaticaly_get_price_of_ebs_volumes/)
+- [Find unattached EBS volumes](https://www.reddit.com/r/devops/comments/9156d4/find_unattached_aws_ebs_volumes/)
+
+## ELB
+
+- [Configuring HTTPS redirects](https://aws.amazon.com/about-aws/whats-new/2018/07/elastic-load-balancing-announces-support-for-redirects-and-fixed-responses-for-application-load-balancer/)
+
+## ElasticSearch
+
+Filtered and blocked API endpoints
+
+    /_nodes                     Anonymized node names, Missing "input_arguments" which has start params
+    /_nodes/stats               Anonymized node names
+    /_nodes/settings            Fully crippled, displays on node count, role and version
+
+    /_cluster/health              Unfiltered
+    /_cluster/settings            Unfiltered
+    /_cluster/state               Anonymized node names, Node transport stripped
+    /_cluster/stats               OS name missing, JVM name+version+vendor missing, Plugins missing
+    /_cluster/allocation/explain  Unfiltered
+
+
+    /_cat/health                Unfiltered
+    /_cat/indices               Unfiltered
+    /_cat/nodes                 Node IPs 'x.x.x.x'
+
+    /_aliases                   Unfiltered
+
+    /_warmers                   Forbidden
+
+    /_mappings                  Unfiltered
+
+
+## CloudFormation
+
+- Nesting Templates with [AWS::Include](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/create-reusable-transform-function-snippets-and-add-to-your-template-with-aws-include-transform.html)
+
+      Transform:
+        Name: 'AWS::Include'
+        Parameters:
+        Location: 's3://MyAmazonS3BucketName/MyFileName.yaml'
+
+- CLI Stack Handling
+
+      # Check if stack exists
+      if aws cloudformation describe-stacks --stack-name "$STACK_NAME" >/dev/null 2>/dev/null; then
+         echo "$STACK_NAME exists!"
+      fi
+      
+      # Delete stack and wait for completion
+      aws cloudformation delete-stack --stack-name "$STACK_NAME"
+      aws cloudformation wait stack-delete-complete --stack-name "$STACK_NAME"
+      
+      # Create stack and wait for completion
+      aws cloudformation create-stack \
+         --region "$AWS_REGION" \
+         --stack-name "$STACK_NAME" \
+         --template-body "file://mytemplate.yaml" \
+         --parameters <parameters>
+         ...
+      aws cloudformation wait stack-create-complete --stack-name "$STACK_NAME"
+
+- Automation with Ansible
+   - [How-To Create Stacks](http://darrylcauldwell.com/aws-cloudformation/)
+   - [Define Stacks in YAML using Jinja](https://gist.github.com/jheller/c4fa0075e4eccf094769)
+   

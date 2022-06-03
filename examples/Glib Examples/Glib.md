@@ -1,4 +1,7 @@
-See also: <?add topic='gdb'?>
+---
+related:
+  cheat-sheet: ['gdb']
+---
 
 ### Debugging
 
@@ -30,6 +33,15 @@ Enable fatal warnings/criticals and other checks
     s = g_strdup_printf ("on the fly format: %s %d", s2, i);
 
     g_free (s);
+
+#### String Replace
+
+Split text separated by literal ";;;" and join fields using new separator "|||"
+
+    char **split = g_strsplit(text, ";;;", -1);
+    g_free(text);
+    text = g_strjoinv("|||", split);
+    g_strfreev(split);
 
 #### String Buffer
 
@@ -84,8 +96,8 @@ Enable fatal warnings/criticals and other checks
 
 #### Read file
 
-    gssize length;
-    gchar *content, *filename = 'input.txt';
+    gsize length;
+    gchar *content, *filename = "input.txt";
     if (g_file_get_contents (filename, &content, &length, NULL)) {
         // Process contents
         g_free (content);

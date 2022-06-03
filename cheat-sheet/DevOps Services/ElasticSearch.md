@@ -95,6 +95,7 @@ Retry allocation of shards (after retry limit reached)
     curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute?retry_failed=true
 
 Manual recovery
+
     curl -H 'Content-Type: application/json' -XPOST $ELASTIC_URL/_cluster/reroute -d '{
         "commands": [ { 
             "allocate_replica": { 
@@ -149,6 +150,63 @@ Just a simple search example to explain query building
        "size": 10,
        "_source": ["field1", "field2"]
     }
+
+## Rollover deployment
+
+This is a short compilation on how to do rollover deployments of any type of 
+configuration (e.g. changes in location awareness) in an Elasticsearch cluster
+that require a restart of all data nodes. It also applies to version upgrades.
+
+Obviously it is not a good idea to restart all nodes at once, so a sequential
+rollover is what we are looking for. As the cluster is in operation we want
+to limit restart-caused reallocation and rebalancing as much as possible.
+
+### Safe Rollover
+
+Note this is a summary derived from the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/rolling-upgrades.html">official docs</a>. 
+
+For each node do:
+
+<ol>
+<li>Disable Shard Allocation
+<pre>
+curl -X PUT "localhost:9200/_cluster/settings" -H 'Content-Type: application/json' -d'
+{
+  "persistent": {
+    "cluster.routing.allocation.enable": "none"
+  }
+}
+'
+</pre>
+</li>
+<li>Sync shards to disk. To reduces the probability that local shards have 
+to be reinitialized after restart.
+<pre>curl -X POST "localhost:9200/_flush/synced"</pre>
+</li>
+<li>Stop all instances. E.g. <pre>systemctl stop elasticsearch.service</pre></li>
+<li>Reenable Shard Allocation
+<pre>curl -X PUT "localhost:9200/_cluster/settings" -H 'Content-Type: application/json' -d'
+{
+  "persistent": {
+    "cluster.routing.allocation.enable": null
+  }
+}
+'
+</pre>
+</li>
+<li>Wait for node recover
+<pre>while [ 1 ]; do curl -s -XGET "localhost:9200/_cat/health" | grep green && break; sleep 5; done</pre>
+</li>
+</ol>
+
+And finally you might want to trigger a rebalance to optimize distribution.
+In most rollover cases where you change the shard allocation awareness the
+restart of the last nodes automatically trigger the rebalancing as the 
+distribution mismatch reaches the trigger threshold.
+
+In case the rebalancing/reallocation becomes to slow you might want to
+temporarily increase the concurrency settings for those.
+
 
 ## Management Tools
 

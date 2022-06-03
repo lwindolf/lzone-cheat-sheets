@@ -1,9 +1,9 @@
 This is a cheat sheet on how to correctly setup Mesa / OpenGL + Vulkan + DXVK 
 
 Helpful tutorials online
-- https://github.com/lutris/lutris/wiki/How-to:-DXVK
-- https://linuxconfig.org/improve-your-wine-gaming-on-linux-with-dxvk
-- https://www.reddit.com/r/wine_gaming/comments/8f5awl/tutorial_installing_dxvk_in_playonlinux/
+- [https://github.com/lutris/lutris/wiki/How-to:-DXVK](https://github.com/lutris/lutris/wiki/How-to:-DXVK)
+- [https://linuxconfig.org/improve-your-wine-gaming-on-linux-with-dxvk](https://linuxconfig.org/improve-your-wine-gaming-on-linux-with-dxvk)
+- [https://www.reddit.com/r/wine_gaming/comments/8f5awl/tutorial_installing_dxvk_in_playonlinux/](https://www.reddit.com/r/wine_gaming/comments/8f5awl/tutorial_installing_dxvk_in_playonlinux/)
 
 ## Common dependencies
 

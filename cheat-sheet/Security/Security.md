@@ -1,0 +1,10 @@
+## Links 
+
+- [Nmap](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
+- [Unhide Processes](http://www.unhide-forensics.info)
+- [Secure REST APIs](https://de.slideshare.net/stormpath/secure-your-rest-api-the-right-way)
+- [Session Mgmt](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
+- [Pen Testing](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/)
+- [LFI](https://highon.coffee/blog/lfi-cheat-sheet/)
+- [Reverse Shell](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
+- [Ultimate Security Library](https://github.com/sottlmarek/DevSecOps) Tool index

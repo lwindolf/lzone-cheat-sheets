@@ -1,4 +1,7 @@
-See Also: <?add topic='SSL-Certificates'?> <?add topic='OpenSSL'?>
+---
+related:
+  cheat-sheet: ['SSL-Certificates', 'OpenSSL']
+---
 
 ### Mitigations
 

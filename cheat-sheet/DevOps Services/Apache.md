@@ -1,16 +1,25 @@
-See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
+---
+related:
+  cheat-sheet: [ 'htaccess', 'HTTPS' ]
+---
 
-## Misc
+## CLI
 
--   [Apache vs. Lighttpd Rewrite Rules](/articles/rewrite-migrate.htm):
-    How to migrate.
--   List VHost Precedence
+    apache2ctl -S        # List VHost precedence
+    apache2ctl -M        # List active modules
+    
+    a2enmod <module>     # Enable module (links from /etc/apache2/mods-available to /etc/apache2/mods-enabled)
+    a2dismod <module>    # Disable module
+    
+    a2ensite <site>      # Enable site (links from /etc/apache2/sites-available to /etc/apache2/sites-enabled)
+    a2dissite <site>     # Disable site
+    
+    a2enconf <conf>      # Enable config (links from /etc/apache2/conf-available to /etc/apache2/conf-enabled)
+    a2disconf <conf>     # Disable config
 
-        apache2ctl -S
+## Config Examples
 
--   List active modules
-
-        apache2ctl -M
+### Rewrites
 
 -   Rewrite on File Pattern
 
@@ -23,9 +32,42 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
 -   Rewrite and add environment variable to request (for example pass along remote user)
 
         RewriteRule .* - [E=PROXY_USER:%{LA-U:REMOTE_USER}]
-
+        
 - [Injecting cookies with RewriteRule and CO flag](https://wiki.apache.org/httpd/RewriteFlags/CO) 
-- [Get X-Forwarded-For IPs in log](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)
+
+
+### Reverse Proxy
+
+    ProxyPass        "/foo" "http://foo.example.com/bar"
+    ProxyPassReverse "/foo" "http://foo.example.com/bar"
+    
+### Forward Proxy
+
+    ProxyRequests On
+    ProxyVia On
+
+    <Proxy *>
+      Require host internal.example.com
+    </Proxy>
+
+### Proxying Websockets
+
+    a2enmod proxy_wstunnel
+
+    RewriteEngine on
+    RewriteCond %{HTTP:Upgrade} websocket [NC]
+    RewriteCond %{HTTP:Connection} upgrade [NC]
+    RewriteRule ^/?(.*) "wss://%{HTTP_HOST}/$1" [P,L]
+
+### Authentication
+
+-   Skip authentication for certain URIs
+
+        Require expr %{REQUEST_URI} =~ m#<some pattern>#
+
+### Logs with X-Forwarded-For IPs
+
+[Get X-Forwarded-For IPs in log](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)
 
       # Define a LogFormat printing X-Forwaded-For IPs
       LogFormat "%{X-Forwarded-For}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" proxy
@@ -36,27 +78,6 @@ See also: <?add topic='htaccess'?> <?add topic='HTTPS'?>
       # Depending on the check flag 'forwarded' switch between standard and XFF LogFormat
       CustomLog "logs/access_log" combined env=!forwarded
       CustomLog "logs/access_log" proxy env=forwarded
-
--   [Exception
-    Hook](http://people.apache.org/~trawick/exception_hook.html): Since
-    2.0.49 Apache has an exception hook to handle crashes.
-
-        EnableExceptionHook on
-
--   htaccess doesn't work:
-
-        AllowOverride All
-
--   environment variables via .htaccess:
-
-        SetEnv VARNAME somevalue
-        
-
-### Authentication
-
--   Skip authentication for certain URIs
-
-        Require expr %{REQUEST_URI} =~ m#<some pattern>#
 
 ### Log Rotation
 
@@ -130,3 +151,19 @@ Suggestion from 22.5.2015 by
     SSLCipherSuite          ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA
 
     SSLHonorCipherOrder     on
+
+## Misc
+
+-   [Apache vs. Lighttpd Rewrite Rules](/articles/rewrite-migrate.htm): How to migrate.
+-   [Exception Hook](http://people.apache.org/~trawick/exception_hook.html): Since
+    2.0.49 Apache has an exception hook to handle crashes.
+
+        EnableExceptionHook on
+
+-   htaccess doesn't work:
+
+        AllowOverride All
+
+-   environment variables via .htaccess:
+
+        SetEnv VARNAME somevalue

@@ -9,6 +9,18 @@ Insert line break on command line
 
     Ctrl-v + Ctrl-M
 </td>
+		</tr>   
+		<tr>
+			<td>
+			<h3>Convert DOS -> Unix line breaks</h3>
+			</td>
+			<td>
+First enter 
+				
+	:set ff=unix
+	
+and then save the file
+</td>
 		</tr>
 		<tr>
 			<td>
@@ -80,3 +92,14 @@ vim-addon-manager enable &lt;addon&gt;      # some addons need enabling
 		</tr>
 	</tbody>
 </table>
+
+## Quickfix
+
+    :copen                                  # Open quickfix list
+    :cn                                     # Next
+    :cp                                     # Previous
+    :cclose                                 # Close quickfix list
+        
+    :cexpr system('grep -n xyz *')          # Load a grep result as quickfix
+
+Hint: fastest skipping on English keyboard layout "@:"

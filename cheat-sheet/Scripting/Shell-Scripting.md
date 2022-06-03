@@ -1,4 +1,7 @@
-See Also:
+---
+related:
+  cheat-sheet: ['Bash', 'Bash Arrays', 'Locking']
+---
 
 ### Date Handling
 
@@ -22,19 +25,6 @@ Found
 [here](http://delicious.com/redirect?url=http%3A//www.unix.com/shell-programming-scripting/21877-how-get-month-last-date-unix.html):
 
     cal $(date "+%M %y") | grep -v ^$ | tail -1 | sed 's/^.* \([0-9]*\)$/\1/'
-
-### Lock Files
-
-Using "flock":
-
-    flock /tmp/myapp.lock <some command>
-    flock -w 10 /tmp/myapp.lock <some command>
-
-Using "lockfile-\*" commands:
-
-    lockfile-create /tmp/myapp.lock
-    lockfile-touch  /tmp/myapp.lock
-    lockfile-remove /tmp/myapp.lock
 
 ### Parameter Handling
 
@@ -163,7 +153,8 @@ standard parameter handling. Example:
 
 -   Timeouts in shell:
 
-        timeout <nr seconds> <cmd>
+        timeout <nr seconds> <cmd>       # SIGTERM after <nr seconds>
+        timeout -k 15 5 <cmd>            # SIGTERM after 5s + SIGKILL after 15s
 
 -   Convert encodings (HTTP URI encoding, HTML entity encoding...)
 

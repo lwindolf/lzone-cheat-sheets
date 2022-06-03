@@ -1,4 +1,7 @@
-See also: Scanning for <?add topic='Package Vulnerabilities'?>
+---
+related:
+  cheat-sheet: ['Package Vulnerabilities']
+---
 
 This is a collection of all major known security advisory feeds per
 operating system or topic. It is a superset of the 2010 post at

@@ -1,6 +1,9 @@
-<?set title='memcached Telnet Interface'?><?set keywords='memcache,memcached,telnet,cli,commands,documentation,examples,summary,stats,slabs,set,get'?>
-<?youtube,UH7wkvcf0ys,Facebook Tech Talk?>
-<?youtube,-h9q2FmX4eo,Caching Best Practices?>
+---
+related:
+  youtube:
+    "UH7wkvcf0ys": Facebook Tech Talk
+    "-h9q2FmX4eo": Caching Best Practices
+---
 
 ## Telnet Interface
 
@@ -16,6 +19,10 @@ started and use the same with telnet to connect to memcache. Example:
 
     telnet 10.0.0.2 11211
 
+For scripted processing you may want to use 'netcat' or 'nc' command. Example:
+
+    ... <script to generate commands> ... | nc 10.0.0.2 11211 | ... <script to process output> ...
+
 ### Supported Commands
 
 The supported commands (the official ones and some unofficial) are
@@ -26,7 +33,7 @@ document.
 Sadly the syntax description isn't really clear and a simple help
 command listing the existing commands would be much better. Here is an
 overview of the commands you can find in the
-[source](https://github.com/memcached/memcached) (as of 16.12.2008):
+[source](https://github.com/memcached/memcached) (as of 19.08.2016):
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -48,6 +55,7 @@ overview of the commands you can find in the
 |  |  | ```stats detail``` |
 |  |  | ```stats sizes``` |
 |  | Resets statistics counters | ```stats reset``` |
+| lru_crawler metadump | Dump (most of) the metadata for (all of) the items in the cache | ```lru_crawler metadump all```|
 | version | Prints server version. | ```version```  |
 | verbosity | Increases log level | ```verbosity``` |
 | quit | Terminate session | ```quit``` |
@@ -329,6 +337,8 @@ server.
 
 ### Dumping Memcache Keys
 
+If your memcached version is above 1.4.31, read next section for advanced method of dumping keys.
+
 You spent already 50GB on the memcache cluster, but you still see many
 evictions and the cache hit ratio doesn't look good since a few days.
 The developers swear that they didn't change the caching recently, they
@@ -462,6 +472,21 @@ creation. Given the key name you can now also dump its value using
 
 This is it: iterate over all slabs classes you want, extract the key
 names and if need dump there contents.
+
+#### Dumping Memcache Keys (ver 1.4.31+)
+
+In memcache version 1.4.31 and above there is a new command for dumping memory keys in non-blocking mode (read https://github.com/memcached/memcached/wiki/ReleaseNotes1431 ). This method is safe to run in production. The output is not consistent, but good enough for finding keys, their exact expiration time (EXP) and last accessed time (LA). Because of huge output generated, it's recommended to use 'nc' command. Examples:
+
+    echo 'lru_crawler metadump all' | nc 127.0.0.1 11211 | head -1
+    key=0dLLX%253Amemcache_test_key exp=1590718787 la=1590718487 cas=2238881166 fetch=yes
+    
+    echo 'lru_crawler metadump all' | nc 127.0.0.1 11211 | grep ee6ba58566e234ccbbce13f9a24f9a28
+    key=VQRFX%253Aee6ba58566e234ccbbce13f9a24f9a28 exp=-1 la=1590386157 cas=1776204003 fetch=yes
+    key=0dLLX%253Aee6ba58566e234ccbbce13f9a24f9a28 exp=-1 la=1590712292 cas=2225524871 fetch=yes
+    
+EXP=-1 means the item never expires
+EXP=1590718787 (Fri May 29 02:19:47 GMT 2020) keeps the unix timestamp when the item should expire
+LA=1590712292 (Mon May 25 05:55:57 GMT 2020) keeps the unix timestamp when the item was last accessed
 
 #### Dumping Tools
 

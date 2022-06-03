@@ -35,3 +35,12 @@
 
     gpg --delete-key <name>
     gpg --delete-secret-key <name>
+
+## Troubleshooting
+
+### Recovery failed because no master key was able to decrypt the file
+
+Happens often when you actually want to unlock your keyring first, but
+the invocation context of gpg does not allow it. Ensure a valid terminal exists:
+
+    export GPG_TTY=$(tty)

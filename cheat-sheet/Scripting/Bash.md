@@ -1,4 +1,7 @@
-See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add topic='Bash Functions'?>
+---
+related:
+  cheat-sheet: ['Bash Regex', 'Bash Associative Array', 'Bash Functions']
+---
 
 ## String Manipulation
 
@@ -12,6 +15,16 @@ See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add
     ${str/#pattern/replacement} # pattern replace at front
     ${str/%pattern/replacement} # pattern replace at end
     ${str//pattern/replacement} # global pattern replace
+    ${str^^}                # convert to UPPER-CASE
+    ${str,,}                # convert to lower-case
+
+Splitting
+
+    IFS=: read field1 field2 rest <<<"$input_line"       # Split single line colon separated string
+    
+    while IFS=\; read col1 col2 col3 rest; do            # Read in CSV values
+       echo "c1=$c1 c2=$c2 c3=$c3."
+    done <<<"$csv"            
 
 ## Parameter Substituion
 
@@ -26,6 +39,23 @@ See also <?add topic='Bash Regex'?> <?add topic='Bash Associative Array'?> <?add
     
     ${str?error}               # abort with 'error' if not set
     ${str:?error}              # abort with 'error' if not set (and not null)
+
+## Variables
+
+    readonly a                 # readonly variable
+    unset a                    # delete variable
+
+    declare -p var1            # declare string
+    declare -u var2            # declare uppercase string
+    declare -l var3            # declare lowercase string
+    declare -i var4            # declare integer    
+    declare -a arr1            # declare indexed array
+    declare -A arr2            # declare associative array
+    
+    declare -x var5            # export var1
+    declare -n var6=var1       # declare name ref var6 pointing to var1
+
+    read a b c <<< $( mycommand | cut -d " " -f 3,4,8 )       # read multiple variables from cmd ouput
 
 ## Arrays
 
@@ -68,7 +98,7 @@ Since Bash v4
 
 ## Here Documents
 
-Bash allow here documents like this
+Bash allow a heredoc like this
 
     cat <<EOT
     [...]

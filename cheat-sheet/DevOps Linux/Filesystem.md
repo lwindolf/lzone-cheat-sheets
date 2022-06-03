@@ -1,4 +1,7 @@
-See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
+---
+related:
+  cheat-sheet: ['DRBD', 'LVM', 'Partitioning']
+---
 
 ### Misc
 
@@ -14,9 +17,9 @@ See Also: <?add topic='DRBD'?> <?add topic='LVM'?> <?add topic='Partitioning'?>
 
 -   POSIX ACLs:
 
-        getfacl <file>           # List ACLs for file 
-        setfacl -m user:joe:rwx dir # Modify ACL
-        ls -ld <file>            # Check for active ACL (indicates a "+")
+        getfacl <file>                 # List ACLs for file 
+        setfacl -m user:joe:rwx dir    # Modify ACL
+        ls -ld <file>                  # Check for active ACL (indicates a "+")
 
 -   [uNetBootin](http://unetbootin.sourceforge.net/): Create bootable
     media for any distribution. Most useful with USB sticks.

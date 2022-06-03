@@ -1,19 +1,22 @@
-See Also: <?add topic='awk'?>
+---
+related:
+  cheat-sheet: ['awk']
+---
 
-### Command Syntax
+## Command Syntax
 
     /abc/p      # Print all with "abc"
     /abc/!p     # Print all without "abc"
     /abc/d      # Delete all with "abc"
     /abc/!d     # Delete all without "abc"
 
-    /start/,/end/!d     # Select a block
+    /start/,/end/!d        # Select a block
 
     s/abc/def/
-    s/abc\(...\)ghi/\1/ # Back references 
-                # (see below for correct Shell quoting)
+    s/abc\(...\)ghi/\1/    # Back references 
+                           # (see below for correct Shell quoting)
 
-    /abc/{s/def/ghi)}   # Conditional replace
+    /abc/{s/def/ghi)}      # Conditional replace
 
 Appending lines
 
@@ -25,9 +28,9 @@ Prepending lines
 
     sed -i '1s;^;new line 1\nanother new line 2\n;' <file>
 
-### Advanced use of sed
+## Advanced use of sed
 
-#### In-place Editing
+### In-place Editing
 
 To edit file use the -i option this safely changes the file contents
 without any output redirection needed.
@@ -35,7 +38,7 @@ without any output redirection needed.
     sed -i 's/abc/ABC/' myfile.txt
     sed -i '/deleteme/d' *
 
-#### Drop grep
+### Drop grep
 
 Often grep and sed are used together. In all those cases grep can be
 dropped. For example
@@ -46,13 +49,13 @@ can be written as
 
     sed -n "/pattern/p; s/abc/def/"
 
-#### Grouping with sed
+### Grouping with sed
 
 Always use single quotes!
 
     sed 's/^.*\(pattern\).*/\1/'
 
-#### Single Quoting Single Quotes
+### Single Quoting Single Quotes
 
 If you want to do extraction and need a pattern based on single quotes
 use \\x27 instead of trying to insert a single quote. For example:
@@ -64,23 +67,32 @@ about the quoting, but know there are quotes
 
     sed 's/.*var=.\([^"\x27]*\)..*/\1/'
 
-#### Conditional Replace with sed
+### Conditional Replace with sed
 
     sed '/conditional pattern/{s/pattern/replacement/g}'
 
-#### Prefix files with a boilerplate using sed
+### Prefix files with a boilerplate using sed
 
     sed -i '1s/^/# DO NOT TOUCH THIS FILE!\n\n/' *
 
-#### Removing Newlines with sed
+### Replacing Newlines with sed
 
-The only way to remove new line is this:
+The only way to replace newline characters is this:
 
     sed ':a;N;$!ba;s/\n//g' file
 
 Check out [this explanation](/Removing-newlines-with-sed) if you want to
-know why.
+know why. With GNU sed you might also want to try the `-z` option:
 
-#### Selecting Blocks
+    sed -z "s/\n//g"
+    
+Note that the `-z` option line splits on `\0`, so this relies on the input
+text file not containing any `\0` which quite often should be the case.
+
+### Selecting Blocks
 
     sed '/first line/,/last line/!d' file
+    
+### Capitalize word
+
+    sed -e "s/\b\(.\)/\u\1/g"

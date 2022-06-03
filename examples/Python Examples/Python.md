@@ -1,4 +1,9 @@
-#### HowTo
+---
+related:
+  cheat-sheet: ['pip']
+---
+
+## HowTo
 
 -   [Ad-hoc
     Webserver](https://docs.python.org/2/library/simplehttpserver.html)
@@ -23,17 +28,6 @@
         # For hashes
         from pprint import pprint
         pprint(h)
-
--   Python - Installing Modules via PIP
-
-        apt-get install python-pip  # Python 2.x
-        apt-get install python-pip3 # Python 3.x
-
-        pip install <module>
-        pip install --upgrade <module>
-        pip uninstall <module>
-        pip freeze   # Prints all versions
-        pip3 install <module>
 
 -   Python - PEP Linting
 

@@ -55,7 +55,7 @@ Hash with JSON syntax (mixing is possible)
 
      my_hash: {nr1: 5, nr2: 6}
      
-### YAML HereDoc
+### YAML HereDoc (multiline strings)
 
 _Block notation_: Newlines become spaces
 
@@ -120,7 +120,7 @@ This also means YAML parsers might return multiple documents!
        
 ### Merging Keys
 
-Imaging some default properties for a hash like these
+Imagine some default properties for a hash like these
 
      default_settings:
        install:

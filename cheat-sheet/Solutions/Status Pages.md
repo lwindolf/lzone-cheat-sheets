@@ -10,4 +10,4 @@ This is a list of status pages where you can query outages per provider
 
 ## Important Status Pages
 
-Check out the automatic status page aggregator on the start page of this site [https://lzone.de]
+Check out the automatic status page aggregator on the home page of this site [https://lzone.de](https://lzone.de)

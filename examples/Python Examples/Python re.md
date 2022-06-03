@@ -1,4 +1,7 @@
-For matching and replacing with regex patterns see <?add example='Python re.sub'?>, <?add example='Python re.match'?>, <?add example='Python re.split'?>
+---
+related:
+  examples: [ 'Python re.match', 'Python re.sub', 'Python re.split', 'Python split']
+---
 
 ## Using re objects
 

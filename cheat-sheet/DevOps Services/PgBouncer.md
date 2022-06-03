@@ -1,10 +1,13 @@
-See also: <?add topic='Postgres'?>
+---
+related:
+  cheat-sheet: ['Postgres']
+---
 
 ### Debugging PgBouncer
 
 To inspect pgbouncer operation ensure to add at least one user you
 defined in the user credentials (e.g. /etc/pgbouncer/userlist.txt) to
-the "stats\_users" key in pgbouncer.ini:
+the "stats_users" key in pgbouncer.ini:
 
     stats_users = myuser
 
@@ -50,9 +53,9 @@ Aside from this in most cases SIGHUP should be fine.
 If connections to your pgbouncer setup fail with "Pooler Error: Auth
 failed" check the following configuration values in your pgbouncer.ini
 
--   **auth\_file = ...** : Ensure to point this path to your pg\_auth
+-   **auth_file = ...** : Ensure to point this path to your pg\_auth
     file in your Postgres setup.
--   **auth\_type = ...** : Ensure to set the correct authentication
+-   **auth_type = ...** : Ensure to set the correct authentication
     type. E.g. "md5" for MD5 hashed passwords.
--   Check if your pg\_auth file has the needed passwords entries.
+-   Check if your pg_auth file has the needed passwords entries.
 
