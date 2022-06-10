@@ -24,6 +24,8 @@ Appending lines
     5 aHallo                 # Append 'Hallo' after line #5
     $ aHallo                 # Append 'Hallo' to end of file
     
+    /abc/r<(printf "%s\n" "Hallo")     # Append 'Hallo' after pattern 'abc'
+    
 Prepending lines
 
     sed -i '1s;^;new line 1\nanother new line 2\n;' <file>
