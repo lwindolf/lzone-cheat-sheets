@@ -1,7 +1,7 @@
 ## Templating
 
-   {{ env `HOME` }}             # Insert environment variable from build env
-   {{ user `SOME_CONFIG` }}     # Insert a user variable from the packer.json
+    {{ env `HOME` }}             # Insert environment variable from build env
+    {{ user `SOME_CONFIG` }}     # Insert a user variable from the packer.json
 
 ## Provisioners Examples
 
