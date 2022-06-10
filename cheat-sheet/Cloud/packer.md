@@ -1,3 +1,12 @@
+## CLI
+
+    packer init                  # Install plugins
+    packer build
+    packer build -force          # Auto-clean left resources
+    
+    packer fmt                   # Pretty-print HCL2 config
+    packer hcl2_upgrade          # Convert JSPN to HCL2
+
 ## Templating
 
     {{ env `HOME` }}             # Insert environment variable from build env
