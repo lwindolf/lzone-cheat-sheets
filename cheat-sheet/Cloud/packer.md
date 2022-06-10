@@ -38,13 +38,21 @@ Local shell (on packer host)
       ]
     }
 
+## Copying files into build
+
+	{
+		"type": "file",
+		"source": "data/some-software.tar.gz",
+		"destination": "/some-software.tar.gz"
+	},
+
 ## Extracting files from build
 
 Useful to get logs or scan results
 
-		{
-    		"type": "file",
-		    "direction": "download",
-    		"source": "/report.zip",
-    		"destination": "results/report.zip"
- 		},
+	{
+		"type": "file",
+		"direction": "download",
+		"source": "/report.zip",
+		"destination": "results/report.zip"
+	},
