@@ -29,6 +29,15 @@ Inline multiple shell commands with parameters (no script transfer)
       ]
     }
 
+Local shell (on packer host)
+
+    {
+      "type": "local-shell",
+      "inline": [
+        "rm somefile.txt"
+      ]
+    }
+
 ## Extracting files from build
 
 Useful to get logs or scan results
