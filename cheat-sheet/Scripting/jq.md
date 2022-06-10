@@ -88,6 +88,15 @@ Adding elements to lists
 
     jq 'del(.somekey)' input.json
 
+## Merge JSON strings
+
+For example merge three object lists:
+
+    echo '[ "a":1, "b":2 ]' | \
+    jq --argjson input1 '{ "c":3 }' \
+	   --argjson input2 '[ { "d":4 }, { "e": 5} ]' \
+	   '. = $input1 + . +  $input2'
+
 ## Merge files (since jq 1.4)
 
 The following command will merge "somekey" from both passed files
