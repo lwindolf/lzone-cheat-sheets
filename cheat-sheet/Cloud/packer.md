@@ -47,6 +47,31 @@ Local shell (on packer host)
       ]
     }
 
+## Debugging with Null Builder
+
+You can define an additional `null` builder pointing to an SSH endpoint of an existing machine. Using such a builder 
+you do not provision a new system, but use an existing one. This makes it easier to debug faulty provisioners.
+
+	{
+	  "builders": [
+	    {
+	      "communicator": "ssh",
+	      "type": "null",
+	      "ssh_username": "<user>",
+	      "ssh_host": "<host>",
+	      "ssh_private_key_file": "<private key file>"
+	    }
+	  ],
+	  "provisioners": [
+	    {
+	       "type": "bash",
+	       "inline": [ "ip -a" ]
+	    }
+	  ]
+	}
+
+Above packer.json will run `ip -a` on the SSH target.
+
 ## File Transfer
 ### Copying files into build
 
