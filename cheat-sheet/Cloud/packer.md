@@ -1,6 +1,12 @@
 ## CLI
 
-    packer init                  # Install plugins
+    packer init                  # Install required plugins
+    packer plugins required      # List plugins that will be installed by 'packer init'
+    packer plugins installed     # List installed plugins
+    
+    packer plugins install <plugin> [<version>]
+    packer plugins remove <plugin>
+    
     packer build
     packer build -force          # Auto-clean left resources
     
