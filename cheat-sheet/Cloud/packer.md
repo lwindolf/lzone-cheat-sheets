@@ -38,7 +38,8 @@ Local shell (on packer host)
       ]
     }
 
-## Copying files into build
+## File Transfer
+### Copying files into build
 
 	{
 		"type": "file",
@@ -46,7 +47,7 @@ Local shell (on packer host)
 		"destination": "/some-software.tar.gz"
 	},
 
-## Extracting files from build
+### Extracting files from build
 
 Useful to get logs or scan results
 
@@ -56,3 +57,39 @@ Useful to get logs or scan results
 		"source": "/report.zip",
 		"destination": "results/report.zip"
 	},
+
+## Windows
+
+### Using WinRM
+
+For Windows you want to use [WinRM](https://www.packer.io/docs/communicators/winrm) instead of SSH
+
+    "builders": [
+    	{
+		"communicator": "winrm",
+		"winrm_use_ssl": true,
+		"winrm_insecure": false,
+		"winrm_use_ntlm": true,
+		"winrm_timeout": "10m",
+		"winrm_username": "packer",
+		[...]
+	}
+    ]
+    
+### Opening WinRM for CIS hardened images
+
+On hardened images you might have to force enable WinRM before being able to use it. For example on Azure
+
+	az vm run-command invoke \
+		--command-id RunPowerShellScript \
+		--name "<vm>" \
+		-g "<resource group>" \
+		--scripts @<script>
+
+with the script containing something like 
+
+	Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -Name 'FilterAdministratorToken' -Value 0 -Force
+	& GPUpdate /Force
+
+Note that you need to run this only after packer say `Waiting for WinRM to become available` in its output.
+Finally: do not forget to close this again after your are done building the image.
