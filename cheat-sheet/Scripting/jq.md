@@ -68,6 +68,35 @@ Or like this
 
 The drawback being, that you do not get a JSON output, but each value on a new line.
 
+## Accessing unknown keys
+
+When processing objects you might not know about some keys, in this case use `to_entries`. For example
+if you want to have all property fields of the following JSON:
+
+    echo '{
+		"name": "R1",
+		"type": "robot",
+		"prop1": "a5482na",
+		"prop2": null,
+		"prop3": 55 
+    }' |\
+    jq '. | to_entries[] | select( .key | contains("prop"))'
+
+will give you
+
+	{
+	  "key": "prop1",
+	  "value": "a5482na"
+	}
+	{
+	  "key": "prop2",
+	  "value": null
+	}
+	{
+	  "key": "prop3",
+	  "value": 55
+	}
+
 ## Changing values with jq
 
 Merging/overwriting keys
