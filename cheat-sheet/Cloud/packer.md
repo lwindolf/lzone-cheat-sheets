@@ -17,6 +17,8 @@
 
     {{ env `HOME` }}             # Insert environment variable from build env
     {{ user `SOME_CONFIG` }}     # Insert a user variable from the packer.json
+    
+    curl http://{{ .HTTPIP }}:{{ .HTTPPort }}/some/path -o out     # Use the internal webserver
 
 ## Provisioners Examples
 
