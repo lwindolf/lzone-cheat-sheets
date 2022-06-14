@@ -45,7 +45,14 @@ Ansible modules are standalone scripts that can be used inside an Ansible playbo
 
 Ansible modules are categorized into various groups based on their functionality. There are hundreds of Ansible modules are available. You should read [Ansible Module](https://linuxbuz.com/linuxhowto/what-is-ansible-modules-and-how-to-use-it) for detail information of each module.
 
-## Capture shell output
+## Playbook snippets
+
+### Using templating
+
+     {{ MYSTR | b64decode }}        # base64 decode MYSTR
+     {{ MYSTR.split('\n') }}        # string splitting
+
+### Capture shell output
 
       tasks:
       - name: some shell
@@ -62,7 +69,7 @@ Ansible modules are categorized into various groups based on their functionality
         debug:
           msg: "{{ sh_out.stderr.split('\n') }}"
 
-## Handling files
+### Handling files
 
     tasks:
     - name: file operation
@@ -77,7 +84,7 @@ Ansible modules are categorized into various groups based on their functionality
          modification_time: now                                                
          access_time: '{{ "%Y%m%d%H%M.%S" | strftime(stat_var.stat.atime) }}'
          
-## Handling directories
+### Handling directories
 
     tasks:
     - name: Change directory
@@ -90,7 +97,7 @@ Ansible modules are categorized into various groups based on their functionality
         
         <further attributes like given for files above!>
  
-## Deleting files & directories
+### Deleting files & directories
 
     tasks:
     - name: rm
@@ -98,3 +105,18 @@ Ansible modules are categorized into various groups based on their functionality
         path: <some path>
         state: absent
         recurse: yes        # optional
+
+### Operate on multiple files
+
+For example multi file fetching
+
+    tasks:
+    - name: register files
+      find: paths="somesrcpath" recurse=no patterns="*"
+      register: myfiles
+
+    - debug: myfiles="{{ myfiles.files }}"
+
+    - name: perform file fetch
+      fetch: src={{ item.path }} dest="somedestpath"
+      with_items: "{{ myfiles.files }}"
