@@ -64,7 +64,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/runc'>runc</a>
 <br/><span class='group'><b>DevOps Linux</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Architecture'>Architecture</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Conan'>Conan</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DBUS'>DBUS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DKMS'>DKMS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DRBD'>DRBD</a>
@@ -163,6 +162,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
 <br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Conan'>Conan</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/cargo'>cargo</a>
