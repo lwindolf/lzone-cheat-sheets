@@ -1,0 +1,38 @@
+## ARM Template Creation
+
+### Via Azure Portal
+
+Start creating any resource you want to have a template of proceed until 'Review + Create' 
+but do not continue from there. Instead choose 'Download' to download a template file.
+
+## ARM Template Specs
+
+    az group create --name <resource group for specs> --location <location>
+    az ts create \
+      --name <spec name> \
+      --version "1.0" \
+      --resource-group <resource group> \
+      --location <location> \
+      --template-file <spec file>
+
+## ARM Template Validation
+
+- [arm-ttk: Template validation](https://dev.to/omiossec/how-to-test-your-azure-arm-template-with-arm-template-toolkit-arm-ttk-2492)
+- ARM What-If Validation
+  - https://blog.tyang.org/2020/04/26/validating-arm-templates-with-arm-what-if-operations/
+  - https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/
+  
+        $Parameters = @{
+          ResourcegroupName    = "ARMDeploymentTest"
+          Templatefile         = ".\StorageAccount\azuredeploy.json"
+          TemplateParameterfile = ".\StorageAccount\azuredeploy.parameters.json"
+          Mode                 = 'Incremental'
+        }
+        $Result = Get-AzResourceGroupDeploymentWhatIfResult @Parameters
+        $Result
+        
+     or
+     
+        az deployment group what-if -g <group> -f <template file> -p <parameters>
+  
+- [Pester: Template deployment validation](https://medium.com/charot/test-arm-templates-using-pester-azure-devops-837b5006c30c)
