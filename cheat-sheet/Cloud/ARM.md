@@ -14,6 +14,15 @@ but do not continue from there. Instead choose 'Download' to download a template
       --resource-group <resource group> \
       --location <location> \
       --template-file <spec file>
+ 
+ and to deploy a resource from an existing spec
+ 
+    id=$(az ts show --name storageSpec --resource-group <resource group> --version "1.0" --query "id")
+    az deployment group create \
+      --resource-group <resource group> \
+      --template-spec $id \
+      [--parameters <param>=<value>]
+
 
 ## ARM Template Validation
 
