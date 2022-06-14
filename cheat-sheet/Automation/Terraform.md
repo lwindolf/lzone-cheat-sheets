@@ -92,7 +92,7 @@ Prevent auto-destroy:
 
     provisioner "remote-exec" {
         inline = [
-             "apt install wget",
+             "apt-get -y install wget",
              "wget https://example.com/something"
         ]
     }
