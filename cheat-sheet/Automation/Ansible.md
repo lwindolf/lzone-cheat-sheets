@@ -1,4 +1,4 @@
-### Playbooks
+## Playbooks
 
     ansible-playbook <YAML>                   # Run on all hosts defined
     ansible-playbook <YAML> -f 10             # Run 10 hosts parallel
@@ -16,7 +16,7 @@ Syntax Check
 
     ansible-playbook --syntax-check <YAML>
 
-### Remote Execution
+## Remote Execution
 
     ansible all -m ping
 
@@ -25,7 +25,7 @@ Execute arbitrary commands
     ansible <hostgroup> -a <command>
     ansible all -a "ifconfig -a"
 
-### Debugging
+## Debugging
 
 List facts and state of a host
 
@@ -39,8 +39,25 @@ Save facts to per-host files in /tmp/facts
 
 <?speakerdeck,dacfbe2fca344ffda3b93a5abcd155c7,Introduction to Ansible?>
 
-### Ansible Module
+## Ansible Module
 
 Ansible modules are standalone scripts that can be used inside an Ansible playbook. You can use these modules to run whatever commands it needs to get its job done.
 
 Ansible modules are categorized into various groups based on their functionality. There are hundreds of Ansible modules are available. You should read [Ansible Module](https://linuxbuz.com/linuxhowto/what-is-ansible-modules-and-how-to-use-it) for detail information of each module.
+
+## Capture shell output
+
+      tasks:
+      - name: some shell
+        register: sh_out
+        ignore_errors: yes
+        become_user: root
+        shell: |
+          find /
+
+      - name: "Print stdout"
+        debug:
+          msg: "{{ sh_out.stdout.split('\n') }}"
+      - name: "Print stderr"
+        debug:
+          msg: "{{ sh_out.stderr.split('\n') }}"
