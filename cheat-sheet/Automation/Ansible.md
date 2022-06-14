@@ -61,3 +61,40 @@ Ansible modules are categorized into various groups based on their functionality
       - name: "Print stderr"
         debug:
           msg: "{{ sh_out.stderr.split('\n') }}"
+
+## Handling files
+
+    tasks:
+    - name: file operation
+      file:
+         path: <file path>
+         state: file
+         
+         # optional attributes examples
+         mode: '0755'                
+         owner: <owner>            
+         group: <group>              
+         modification_time: now                                                
+         access_time: '{{ "%Y%m%d%H%M.%S" | strftime(stat_var.stat.atime) }}'
+         
+## Handling directories
+
+    tasks:
+    - name: Change directory
+      file:
+        path: <dir path>
+        state: directory
+        
+        # optional attributes
+        recurse: yes              # apply owner, group, mtime, atime, mode... recursively to all childs too
+        
+        <further attributes like given for files above!>
+ 
+## Deleting files & directories
+
+    tasks:
+    - name: rm
+      file:
+        path: <some path>
+        state: absent
+        recurse: yes        # optional
