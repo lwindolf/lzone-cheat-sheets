@@ -3,6 +3,27 @@
     export SOPS_PGP_FP=<comma separated fingerprints>
     
     sops <file>       # encrypt a file / edit encrypted file
+    sops -d <file>    # decrypt file to STDOUT
+    sops -e <file>    # edit encrypted file
+    
+    sops updatekeys -y <file>     # update fingerprints in encrypted file
+
+## Control encryption with .sops.yaml 
+
+Manage file groups and map them to key rings:
+
+    creation_rules:
+    - path_regex: '(somedir1/*.|somedir2/subdir/*.enc.yml)'
+      pgp: >-
+         <fp1>
+         <fp2>
+         ...
+         
+    - path_regex: 'somedir3/admins/*.enc.yml'
+      pgp: >-
+         <fp1>
+         <fp3>
+         ...
 
 ## Collecting all fingerprints from a directory with public keys
 
