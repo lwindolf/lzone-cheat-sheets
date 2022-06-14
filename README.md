@@ -37,6 +37,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/JenkinsX'>JenkinsX</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Maven'>Maven</a>
 <br/><span class='group'><b>Cloud</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/ARM'>ARM</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/AWS Lamba'>AWS Lamba</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/AWS'>AWS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Azure Devops'>Azure Devops</a>
