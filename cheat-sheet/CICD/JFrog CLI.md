@@ -16,7 +16,7 @@ Test configuration with
     
     jfrog rt s --build <name>                # Show latest build by name
 
-## Artifacts
+## Managing Artifacts
 
 To copy from one repo to another:
 
@@ -25,7 +25,13 @@ To copy from one repo to another:
 Note the `--flat true` which is required to avoid getting a `<target repo>/<name>/<name>`
 structure when the target already exists and you actually want to overwrite.
 
-List Docker tags:
+Other commands:
+
+    jfrog rt u <file> <target repo>          # Upload
+    jfrog rt d <repo>/<path>                 # Download
+    jfrog rt mv <repo>/<path> <repo>         # Move
+
+## List Docker tags
 
     jfrog rt cl /api/docker/<repo>/v2/<name>/tags/list
 
