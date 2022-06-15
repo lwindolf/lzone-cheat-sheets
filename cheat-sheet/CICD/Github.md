@@ -1,10 +1,5 @@
 {% raw %}
 
-## List of Github CI integrations
-
-- [TravisCI](travis-ci.org): build using VMs and Docker
-- [GitMate](https://gitmate.io/home): notify contacts, detect duplication
-
 ## Actions
 
 ### Environment variables
@@ -200,3 +195,12 @@ To create a per job report from Markdown input.
     EOT
     
 You can also run it in each step to accumulate a report.
+
+## Manage Runners
+
+### Which jobs are run how often?
+
+Print a pipeline histogram for the specific runner:
+
+    grep "value.:[[:space:]]*..github/workflows" /opt/app-root/src/_diag/Worker_*.log |\
+    sed 's/.*workflows.//;s/"//' | sort | uniq -c | sort -nr
