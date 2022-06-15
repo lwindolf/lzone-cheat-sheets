@@ -204,3 +204,12 @@ Print a pipeline histogram for the specific runner:
 
     grep "value.:[[:space:]]*..github/workflows" /opt/app-root/src/_diag/Worker_*.log |\
     sed 's/.*workflows.//;s/"//' | sort | uniq -c | sort -nr
+    
+### Delete runners not alive anymore
+
+This is useful with dynamically registered runners, that are not guaranteed to unregister (i.e. k8s pods)
+
+- List runners via `/orgs/<org name>/actions/runners`
+- Foreach runner with `status` == `offline`
+  - Perform HTTP `DELETE` on `/orgs/<org name>/actions/runner/<runner id>`
+
