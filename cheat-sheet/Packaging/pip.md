@@ -11,3 +11,11 @@ Note: commands are given for `pip3` but will work for `pip` also!
     pip3 install --upgrade <module>
     pip3 uninstall <module>
     pip3 freeze                  # Prints all versions
+
+## Private Registry
+
+    cat <<EOT >/etc/pip.conf
+    [global]
+    index = https://${user}:${pwd}@$<host}/some/repo/path/
+    index-url = https://${user}:${pwd}@${host}/some/repo/path
+    EOT
