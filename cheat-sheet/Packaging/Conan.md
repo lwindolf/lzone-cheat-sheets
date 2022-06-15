@@ -21,5 +21,8 @@
 
     conan remote list                                 # List configured repos
     conan remote add <name> <repo URL> False          # Add remote repo
-    
-    
+   
+Virtual repositories
+
+    conan config set general.revisions_enabled=1
+    conan remote add <name> <url> False -F
