@@ -53,6 +53,8 @@ See `/etc/containers/registries.conf`
 
 To configure air-gapped mirror add:
 
+    unqualified-search-registries = ['mymirror.example.com']
+
     [[registry]]
     prefix = "docker.io"
     location = "mymirror.example.com/somepath"
