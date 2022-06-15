@@ -19,3 +19,5 @@ Note: commands are given for `pip3` but will work for `pip` also!
     index = https://${user}:${pwd}@$<host}/some/repo/path/
     index-url = https://${user}:${pwd}@${host}/some/repo/path
     EOT
+
+Note: pip.conf is read by both Python2 pip and Python3 pip3
