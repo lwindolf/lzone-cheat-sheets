@@ -95,6 +95,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/socat'>socat</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sops'>sops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sudo'>sudo</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/systemd'>systemd</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/ulimit'>ulimit</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/vi'>vi</a>
 <br/><span class='group'><b>DevOps Services</b></span>
