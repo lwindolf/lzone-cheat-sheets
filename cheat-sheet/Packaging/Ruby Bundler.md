@@ -1,4 +1,10 @@
-## Commands
+## CLI Commands
+
+Setup
+
+    gem install bundler
+
+Usage
 
     bundle install <gem>
     bundle config set path <some path>
