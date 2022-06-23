@@ -1,3 +1,4 @@
+{% raw %}
 ## Playbooks
 
     ansible-playbook <YAML>                   # Run on all hosts defined
@@ -120,3 +121,4 @@ For example multi file fetching
     - name: perform file fetch
       fetch: src={{ item.path }} dest="somedestpath"
       with_items: "{{ myfiles.files }}"
+{% endraw %}
