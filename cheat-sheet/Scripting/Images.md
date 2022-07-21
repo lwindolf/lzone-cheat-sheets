@@ -25,3 +25,10 @@ or when downscaling PNG/JPG you might enforce a high quality like this
 
     convert <input> -resize <size> -quality 95 <output>
     
+## Convert Images to PDF
+
+    convert <image1> <image2> output.pdf
+
+For this to work you might need to change a policy file (that disables Ghostscript):
+
+    sudo sed -i '/policy domain="coder" rights="none" pattern="PDF"/d' /etc/ImageMagick-6/policy.xml
