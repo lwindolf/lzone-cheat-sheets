@@ -122,7 +122,7 @@ Adding elements to lists
 For example merge three object lists:
 
     echo '[ {"a":1}, {"b":2} ]' | \
-    jq --argjson input1 '{ "c":3 }' \
+    jq --argjson input1 '[ { "c":3 } ]' \
 	   --argjson input2 '[ { "d":4 }, { "e": 5} ]' \
 	   '. = $input1 + . +  $input2'
 
