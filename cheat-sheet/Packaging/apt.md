@@ -62,23 +62,23 @@ Create an new auth.conf entry in `/etc/apt/auth.conf.d/myproxy.conf`
 
 - Debian
 
-        # With apt-show-versions
-        apt-show-versions | grep "security upgradeable"
+      # With apt-show-versions
+      apt-show-versions | grep "security upgradeable"
 
-        # With aptitude
-        aptitude search '?and(~U,~Asecurity)'
+      # With aptitude
+      aptitude search '?and(~U,~Asecurity)'
 
-        # With pure apt-get
-        grep -h '^deb.*security' /etc/apt/sources.list /etc/apt/sources.list.d/* >sec.list
-        apt-get -s dist-upgrade -o Dir::Etc::SourceList=sec.list | grep ^Inst
+      # With pure apt-get
+      grep -h '^deb.*security' /etc/apt/sources.list /etc/apt/sources.list.d/* >sec.list
+      apt-get -s dist-upgrade -o Dir::Etc::SourceList=sec.list | grep ^Inst
         
 - Ubuntu 
 
-        # Print summary
-        /usr/lib/update-notifier/apt-check --human-readable
+      # Print summary
+      /usr/lib/update-notifier/apt-check --human-readable
 
-        # Print package names
-        /usr/lib/update-notifier/apt-check -p
+      # Print package names
+      /usr/lib/update-notifier/apt-check -p
 
 ## Check for necessary restarts
 
@@ -107,14 +107,14 @@ Access Repositories for older releases. Once a release is deprecated it is moved
 
 ### Upgrade Security Fixes Only
 
-        apt-get dist-upgrade -o Dir::Etc::SourceList=/etc/apt/sources.security.repos.only.list
+    apt-get dist-upgrade -o Dir::Etc::SourceList=/etc/apt/sources.security.repos.only.list
 
 ### Check if  Reboot Required
 
-        ls /var/run/reboot-required # Reboot flag file
+    ls /var/run/reboot-required # Reboot flag file
 
-        # Packages requiring the reboot
-        cat /var/run/reboot-required.pkgs
+    # Packages requiring the reboot
+    cat /var/run/reboot-required.pkgs
 
 ## Misc
 
