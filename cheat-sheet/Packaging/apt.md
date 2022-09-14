@@ -126,13 +126,13 @@ Access Repositories for older releases. Once a release is deprecated it is moved
         reprepro -v includedeb wheezy <.deb file>
         reprepro remove wheezy <name>
 
-- [Build Kernel Package](http://delicious.com/redirect?url=http%3A//tldp.org/HOWTO/Wireless-Link-sys-WPC11/x295.html):     How to build kernel packages with make-pkg
+- [Build Kernel Package](http://delicious.com/redirect?url=http%3A//tldp.org/HOWTO/Wireless-Link-sys-WPC11/x295.html): How to build kernel packages with make-pkg
 
-        cd /usr/src/linux && make-kpkg clean && make-kpkg --initrd --revision=myrev kernel_image
+      cd /usr/src/linux && make-kpkg clean && make-kpkg --initrd --revision=myrev kernel_image
 
 - [Setup Keyring](http://changelog.complete.org/archives/496-how-to-solve-the-following-packages-cannot-be-authenticated): How to solve "The following packages cannot be authenticated"
 
-        apt-get install debian-archive-keyring
-        apt-get update
+      apt-get install debian-archive-keyring
+      apt-get update
 
 - [Security Debian HowTo](https://www.debian.org/doc/manuals/securing-debian-howto/ch4.de.html)
