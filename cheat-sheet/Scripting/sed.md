@@ -89,7 +89,7 @@ know why. With GNU sed you might also want to try the `-z` option:
     sed -z "s/\n//g"
     
 Note that the `-z` option line splits on `\0`, so this relies on the input
-text file not containing any `\0` which quite often should be the case.
+text file not containing any `\0` which usually should be sufficient.
 
 ### Selecting Blocks
 
