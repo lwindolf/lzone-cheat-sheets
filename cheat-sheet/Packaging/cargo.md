@@ -1,3 +1,19 @@
+## cargo CLI
+
+All commands are to be run within the source root directory
+
+    cargo build
+    cargo run
+    cargo test
+    
+    cargo new <name>
+    cargo check
+    
+    cargo publish
+    
+    cargo install <binary>
+    cargo uninstall <binary>
+
 ## Configure private crate mirror
 
 For example via user skeleton:
