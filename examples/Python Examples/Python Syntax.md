@@ -21,7 +21,7 @@ Iterating by index
     try:
        # Do something
     except Exception as e:
-       # Handle it
+       print(e)
 
 For empty exception clauses add the `pass` statement.
 
@@ -40,6 +40,11 @@ For empty exception clauses add the `pass` statement.
     
     print(os.environ.get('HTTPS_PROXY'))
     os.environ['MYVAR'] = 'myvalue'
+
+### Reading lines from file
+
+    with open("myfile.txt") as f:
+        content = f.read().splitlines()
 
 ### Reading from a Pipe in Python
 
