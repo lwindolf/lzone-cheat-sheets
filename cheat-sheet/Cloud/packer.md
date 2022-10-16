@@ -1,3 +1,5 @@
+{{ raw }}
+
 ## CLI
 
     packer init                  # Install required plugins
@@ -135,3 +137,5 @@ with the script containing something like
 
 Note that you need to run this only after packer say `Waiting for WinRM to become available` in its output.
 Finally: do not forget to close this again after your are done building the image.
+
+{{ endraw }}
