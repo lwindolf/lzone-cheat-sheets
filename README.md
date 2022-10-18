@@ -84,6 +84,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/PKI'>PKI</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Packaging'>Packaging</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Partitioning'>Partitioning</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Printing'>Printing</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/RAID'>RAID</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solaris'>Solaris</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/X11'>X11</a>
