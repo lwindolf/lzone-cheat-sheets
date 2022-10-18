@@ -7,6 +7,7 @@
     lpadmin -x <printer>         # Delete printer/destination
     
     avahi-browse -rt _ipp._tcp   # Check whether Avahi sees printer
+    driverless                   # Check whether driverless sees printer
 
 ## Cups Management
  
