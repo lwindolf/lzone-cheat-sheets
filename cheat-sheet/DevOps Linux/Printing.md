@@ -6,7 +6,7 @@
     
     lpadmin -x <printer>         # Delete printer/destination
     
-    avahi-browse -rt _ipp._tcp   # Check wether Avahi sees printer
+    avahi-browse -rt _ipp._tcp   # Check whether Avahi sees printer
 
 ## Cups Management
  
