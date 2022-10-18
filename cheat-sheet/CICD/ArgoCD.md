@@ -71,7 +71,7 @@ while the first level list does define the steps sequence.
         - hello world           # item 1
         - goodbye world         # item 2
  
- ## Steps: Conditional Execution
+## Steps: Conditional Execution
  
      steps:
         # flip a coin
