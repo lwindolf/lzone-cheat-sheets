@@ -1,3 +1,7 @@
+## Basic Functions, Operators, Regex
+
+Have a look at [https://www.pcwdld.com/perl-cheat-sheet](https://www.pcwdld.com/perl-cheat-sheet)
+
 ## Installing Modules from CPAN
 
 Invoke CPAN shell
