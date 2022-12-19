@@ -12,7 +12,6 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
 <br/><span class='group'><b>Automation</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ansible'>Ansible</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Automation'>Automation</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Bower'>Bower</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Chef'>Chef</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/IT-Ops'>IT-Ops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Jinja'>Jinja</a>
@@ -166,6 +165,7 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
  | <a class='topic' href='https://lzone.de/cheat-sheet/tcpdump'>tcpdump</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/unbound'>unbound</a>
 <br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Bower'>Bower</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Conan'>Conan</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby Bundler'>Ruby Bundler</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/apt'>apt</a>
