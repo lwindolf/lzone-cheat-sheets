@@ -24,6 +24,7 @@ related:
 
 - [M3](https://vimeo.com/274821002) (Prometheus, etcd, replication, Scale at Uber: 500Mio/s, Billions Storage)
 - [Thanos](https://github.com/improbable-eng/thanos) (Prometheus, federation)
+- [Grafana Mimir](https://github.com/grafana/mimir) (Prometheus, scale up to 1Mrd active time series)
 - InfluxDB (commercial, replication, good scale)
 - eXtremeDB (commericial)
 - TimescaleDB (Postgres, replication)
