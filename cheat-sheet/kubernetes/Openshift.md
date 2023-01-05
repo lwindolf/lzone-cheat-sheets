@@ -160,6 +160,11 @@ List effective Corefile
      EOT
      ) | oc apply -f -
 
+## Secrets
+
+Configure default pull secret
+
+     oc secrets link default <secret name> --for=pull
 
 ## Misc
 
