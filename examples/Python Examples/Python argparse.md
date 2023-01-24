@@ -18,6 +18,8 @@
 
 ## Parameter Validation
 
+Simply pass allowed values with a list as `choices`
+
     parser.add_argument('-m', '--mode', help='Help!', choices=['seek','locate','exterminate'])
 
 ## Multi-line extra text
