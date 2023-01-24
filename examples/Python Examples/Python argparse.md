@@ -8,13 +8,17 @@
     # Add positional parameter
     parser.add_argument('param1', help='Mandatary 1st positional parameters')
     parser.add_argument('param2', nargs='?', help='Optional 2nd positional parameter')
-
+    
     args = parser.parse_args()
     
     # Access input
     print(args.mode)
     print(args.param1)
     print(args.param2)      # will be None when not set
+
+## Parameter Validation
+
+    parser.add_argument('-m', '--mode', help='Help!', choices=['seek','locate','exterminate'])
 
 ## Multi-line extra text
 
