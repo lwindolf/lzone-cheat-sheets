@@ -49,9 +49,9 @@ Snapshots might be created automatically or are create when removing snaps.
     
 For details: [https://snapcraft.io/docs/snapshots](https://snapcraft.io/docs/snapshots)
 
-## Gettting rid of snap in Ubuntu 22.x
+## Gettting rid of snap in Ubuntu 20.x/22.x
 
-    snap list                # To see all package
+    snap list                # To see all packages
     snap remove <packages>   # Remove all packages except "core*" and "bare"
     rm -rf /var/cache/snapd
     apt autoremove --purge snapd
