@@ -205,3 +205,11 @@ Or using Interpolation:
     jq -r '.object | "\(.name) is \(.color)"'
 
 will *also* print `banana is yellow`.
+
+## Math Functions
+
+jq can use math function from your libc. For example:
+
+    echo '{ "a": 1234.56 }' | jq '.a | round'     # gives 1235
+    echo '{ "a": 1234.56 }' | jq '.a | floor'     # gives 1235
+    echo '{ "a": 1234.56 }' | jq '.a | ceil'      # gives 1234
