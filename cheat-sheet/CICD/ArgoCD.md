@@ -5,6 +5,9 @@
     argo app get <name> --refresh            # Get with soft refresh
     argo app get <name> --hard-refresh       # Get with hard refresh
     argo app sync <name>
+    
+    # Change target branch
+    argo app patch <name> --patch '[{"op": "replace", "path": "/spec/source/targetRevision", "value": "<new branch name>"}]'
 
     argo list                                # List workflows
     
