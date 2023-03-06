@@ -4,6 +4,8 @@
     argo app get <name>
     argo app get <name> --refresh            # Get with soft refresh
     argo app get <name> --hard-refresh       # Get with hard refresh
+    
+    argo app diff <name>
     argo app sync <name>
     
     # Change target branch
