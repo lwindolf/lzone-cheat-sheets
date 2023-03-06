@@ -1,5 +1,11 @@
 ## CLI Usage
 
+    argo app list
+    argo app get <name>
+    argo app get <name> --refresh            # Get with soft refresh
+    argo app get <name> --hard-refresh       # Get with hard refresh
+    argo app sync <name>
+
     argo list                                # List workflows
     
     argo submit [--watch] myworkflow.yaml    # Create workflow
