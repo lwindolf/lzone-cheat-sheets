@@ -1,5 +1,34 @@
-Here is a side by side comparison of screen and tmux commands and
-hotkeys.
+## CLI
+
+    screen                       # Start new instance
+    screen -S <name>             # Start named instance
+    
+    screen -x                    # Attach to latest instance
+    screen -x <name>             # Attach to named instance
+    
+    screen -ls                   # Show instances
+
+## Initial layout using .screenrc
+
+Here is an example `.screenrc` that provides 3 panes with titles each running different commands inside
+
+    screen -t "top" top
+    split -v
+    focus
+    screen -t "df" watch df -h
+    split
+    focus
+    screen -t "Shell" bash
+
+Use `split` and `split -v` to split horizontally or vertically. Also you need to use `focus` to move the
+initial cursor to the preferred pane.
+
+You can also start specific screen sessions with other splitting by running `screen -c <screenrc file>`.
+    
+
+## Screen compared to tmux
+
+Here is a side by side comparison of screen and tmux commands and hotkeys.
 
  | Function            |Screen                                   |tmux
  | --------------------|-----------------------------------------|---------------------
