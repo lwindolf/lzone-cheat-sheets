@@ -39,4 +39,5 @@
 -   Valgrind
 
         valgrind --leak-check=yes <executable> [ [...]]
+        valgrind --track-origins <executable>
 
