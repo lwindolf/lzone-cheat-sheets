@@ -1,5 +1,7 @@
 ## CLI Usage
 
+Controlling apps
+
     argo app list
     argo app get <name>
     argo app get <name> --refresh            # Get with soft refresh
@@ -10,6 +12,8 @@
     
     # Change target branch
     argo app patch <name> --patch '[{"op": "replace", "path": "/spec/source/targetRevision", "value": "<new branch name>"}]'
+
+Controlling workflows
 
     argo list                                # List workflows
     
