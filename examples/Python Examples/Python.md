@@ -7,7 +7,7 @@ related:
 
 - Interactive Console
 
-     dir(<object>)            # print all members and methods
+      dir(<object>)            # print all members and methods
 
 - [Ad-hoc Webserver](https://docs.python.org/2/library/simplehttpserver.html)
 
