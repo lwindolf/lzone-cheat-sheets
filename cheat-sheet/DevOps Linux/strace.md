@@ -15,9 +15,10 @@
     
     strace -k -e exit <command>          # Print stacktrace on each 'exit' syscall
     
+    strace -r  <command>                 # Add relative timestamp to each line (resolution: µseconds)
     strace -t  <command>                 # Add timestamp to each line (resolution: seconds)
     strace -tt <command>                 # Add timestamp to each line (resolution: µseconds)
-    strace -T  <command>                 # Print syscall duration for each syscall
+    strace -T  <command>                 # Print syscall duration for each syscall at the end
 
 To get per syscall time statistics run with
 
