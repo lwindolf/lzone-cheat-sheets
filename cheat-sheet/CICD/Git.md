@@ -1,3 +1,8 @@
+## Cloning
+
+    git clone <repo url> <target directory>
+    git clone --depth 1 <repo url>      # Shallow clone
+
 ## Branches
 
 ### Create New Branch
