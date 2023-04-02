@@ -10,7 +10,11 @@ Note: commands are given for `pip3` but will work for `pip` also!
     pip3 install <module>
     pip3 install --upgrade <module>
     pip3 uninstall <module>
-    pip3 freeze                  # Prints all versions
+    
+    pip3 freeze                       # Prints all versions
+    pip3 freeze >requirements.txt     # Create a requirements.txt
+    
+    pip3 install -r requirements.txt  # Install from a requirements.txt
 
 ## Private Registry
 
