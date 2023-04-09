@@ -70,9 +70,9 @@ Iterate with for loop
 
 Iterate with foreach loop
 
-foreach($list as $element) {
-	print "$element\n";
-}
+    foreach($list as $element) {
+        print "$element\n";
+    }
 
 ### Iterating Hashes
 
