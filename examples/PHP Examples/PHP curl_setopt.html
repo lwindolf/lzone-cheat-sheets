@@ -1,33 +1,25 @@
-<h3>Syntax</h3>
+## Syntax
 
-<pre>
-$c = curl_init();
-curl_setopt ($c, CURLOPT_&lt;some option>, "some value");
-curl_setopt ($c, CURLOPT_&lt;some option>, 531);
-curl_exec ($c);
-</pre>
+    $c = curl_init();
+    curl_setopt ($c, CURLOPT_&lt;some option>, "some value");
+    curl_setopt ($c, CURLOPT_&lt;some option>, 531);
+    curl_exec ($c);
 
-<h3>Examples</h3>
+## Examples
 
+### HTTP POST
 
-<h4>HTTP POST</h4>
+    curl_setopt ($c, CURLOPT_URL, "http://example.com/");
+    curl_setopt ($c, CURLOPT_POST, 1);
+    curl_setopt ($c, CURLOPT_POSTFIELDS, "field1=value1&amp;field2=value2");
 
-<pre>
-curl_setopt ($c, CURLOPT_URL, "http://example.com/");
-curl_setopt ($c, CURLOPT_POST, 1);
-curl_setopt ($c, CURLOPT_POSTFIELDS, "field1=value1&amp;field2=value2");
-</pre>
+### HTTP no header
 
-<h4>HTTP no header</h4>
+    curl_setopt ($c, CURLOPT_HEADER, 1);
 
-<pre>
-curl_setopt ($c, CURLOPT_HEADER, 1);
-</pre>
+### FTP
 
-<h4>FTP</h4>
+    curl_setopt ($c, CURLOPT_URL, "ftp://example.com/");
+    curl_setopt ($c, CURLOPT_FTPLIST_ONLY, 1);
+    curl_setopt ($c, CURLOPT_RETURNTRANSFER, 1);
 
-<pre>
-curl_setopt ($c, CURLOPT_URL, "ftp://example.com/");
-curl_setopt ($c, CURLOPT_FTPLIST_ONLY, 1);
-curl_setopt ($c, CURLOPT_RETURNTRANSFER, 1);
-</pre>
