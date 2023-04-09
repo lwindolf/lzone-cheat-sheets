@@ -39,6 +39,10 @@
 -   Glib - Slice Allocation Checking
 
         export G_SLICE=debug-blocks
+        
+- GObject Reference Tracking with [gobject-list](https://github.com/danni/gobject-list)
+
+        LD_PRELOAD=/path/to/libgobject-list.so <executable>
 
 -   Valgrind
 
