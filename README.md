@@ -102,6 +102,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/strace'>strace</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sudo'>sudo</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/systemd'>systemd</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/systemtap'>systemtap</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/ulimit'>ulimit</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/vi'>vi</a>
 <br/><span class='group'><b>DevOps Services</b></span>
