@@ -3,7 +3,7 @@ related:
   cheat-sheet: ['gdb']
 ---
 
-### Debugging
+## Debugging
 
     // Delta-debugging...
     g_print ("Some string\n");
@@ -24,9 +24,9 @@ Enable fatal warnings/criticals and other checks
     # Check memory allocation 
     export G_SLICE=debug-blocks
 
-### Data Types
+## Data Types
 
-#### Strings
+### Strings
 
     gchar *s = "static";
     s = g_strdup ("copy");
@@ -34,7 +34,7 @@ Enable fatal warnings/criticals and other checks
 
     g_free (s);
 
-#### String Replace
+### String Replace
 
 {% raw %}
 Split text separated by literal ";;;" and join fields using new separator "|||"
@@ -45,7 +45,7 @@ Split text separated by literal ";;;" and join fields using new separator "|||"
     g_strfreev(split);
 {% endraw %}
 
-#### String Buffer
+### String Buffer
 
     GString *s = g_string_new ();
 
@@ -59,7 +59,7 @@ Split text separated by literal ";;;" and join fields using new separator "|||"
 
     g_string_free (s);
 
-#### Arrays
+### Arrays
 
     GArray *a = g_array_new (FALSE, FALSE, sizeof (gint));
 
@@ -76,27 +76,25 @@ Split text separated by literal ";;;" and join fields using new separator "|||"
 
     g_array_free (a, FALSE);
 
-#### Linked Lists
+## File System
 
-### File System
-
-#### Get XDG paths
+### Get XDG paths
 
     g_get_user_config_dir ()
     g_get_user_data_dir ()
     g_get_user_cache_dir ()
 
-#### Filenames
+### Filenames
 
     g_strdup_printf ("%s%s%s", directory, G_DIR_SEPARATOR_S, filename);
 
-#### Check for file
+### Check for file
 
     if (g_file_test (filename, G_FILE_TEST_EXISTS)) {
         // File exists.
     }
 
-#### Read file
+### Read file
 
     gsize length;
     gchar *content, *filename = "input.txt";
@@ -105,11 +103,11 @@ Split text separated by literal ";;;" and join fields using new separator "|||"
         g_free (content);
     }
 
-#### Write files
+### Write files
 
     g_file_set_contents (backupFilename, content, length, NULL);
 
-### GSettings (DConf)
+## GSettings (DConf)
 
 General usage:
 
@@ -151,7 +149,7 @@ General usage:
     # Reset an entire tree to schema
     dconf reset -f /apps/liferea/
 
-### GConf - CLI
+### GConf - CLI (Legacy)
 
     # Print a key's schema
     gconftool-2 --get /schemas/apps/liferea/browser
@@ -172,7 +170,7 @@ Testing for GConf -\> DConf schema migration:
     # Check for conversion using 
     gsettings-data-convert --verbose --dry-run <.convert file name> 
     
-### GTK Inspector
+## GTK Inspector
 
 Enable GTK Inspector by configuring the following setting:
 
@@ -183,3 +181,11 @@ Some GNOME core apps now have a "Help" menu entry to start the inspector. Altern
 Or explicitely start the application with open inspector
 
     GTK_DEBUG=interactive <program>
+
+## Debug GObject References
+
+When you leak reference you can use [gobject-list.so](https://github.com/danni/gobject-list) for tracing.
+
+    LD_PRELOAD=/path/to/gobject-list/libgobject-list.so <executable>
+
+It will give a summary of lost objects on shutdown and when you send SIGUSR1 or a diff between two SIGUSR2.
