@@ -1,6 +1,6 @@
 ## Syntax
 
-    $result = date(&lt;format>);
+    $result = date(<format>);
 
 ## Format Examples
 
