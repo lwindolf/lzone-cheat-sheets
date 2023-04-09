@@ -269,6 +269,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/React'>React</a>
  | <a class='topic' href='https://lzone.de/examples/d3js'>d3js</a>
 <br/><span class='group'><b>PHP Examples</b></span>
+ | <a class='topic' href='https://lzone.de/examples/PHP Arrays'>PHP Arrays</a>
  | <a class='topic' href='https://lzone.de/examples/PHP file_get_contents'>PHP file_get_contents</a>
  | <a class='topic' href='https://lzone.de/examples/PHP in_array'>PHP in_array</a>
 <br/><span class='group'><b>Python Examples</b></span>
