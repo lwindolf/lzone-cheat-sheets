@@ -2,7 +2,7 @@
 
      mokutil --sb-state                    # Check whether SecureBoot is enabled
      mokutil -l                            # List enrolled keys
-     mokutil -l | grep Fingerprints        # Fingerprints only
+     mokutil -l | grep Fingerprint         # Fingerprints only
      
      dmesg | grep 'integrity: Loaded'      # List keys reported as imported by kernel
      
