@@ -181,11 +181,3 @@ Some GNOME core apps now have a "Help" menu entry to start the inspector. Altern
 Or explicitely start the application with open inspector
 
     GTK_DEBUG=interactive <program>
-
-## Debug GObject References
-
-When you leak reference you can use [gobject-list.so](https://github.com/danni/gobject-list) for tracing.
-
-    LD_PRELOAD=/path/to/gobject-list/libgobject-list.so <executable>
-
-It will give a summary of lost objects on shutdown and when you send SIGUSR1 or a diff between two SIGUSR2.
