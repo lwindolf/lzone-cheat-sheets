@@ -16,7 +16,7 @@ Only ever compare with the identical operators `===` / `!==` and only ever compa
           echo("Does not match.")
      }
 
-Check out [PHP strpos](https://lzone.de/examples/PHP strpos) for more details.
+Check out [PHP strpos](https://lzone.de/examples/PHP+strpos) for more details.
 
 ## Search From Offset
 
