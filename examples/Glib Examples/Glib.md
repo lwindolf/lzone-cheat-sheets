@@ -1,6 +1,6 @@
 ---
 related:
-  cheat-sheet: ['gdb']
+  cheat-sheet: ['gdb', 'GObject']
 ---
 
 ## Debugging
