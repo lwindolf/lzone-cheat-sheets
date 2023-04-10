@@ -280,6 +280,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/PHP preg_match'>PHP preg_match</a>
  | <a class='topic' href='https://lzone.de/examples/PHP preg_replace'>PHP preg_replace</a>
  | <a class='topic' href='https://lzone.de/examples/PHP str_replace'>PHP str_replace</a>
+ | <a class='topic' href='https://lzone.de/examples/PHP stripos'>PHP stripos</a>
 <br/><span class='group'><b>Python Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/Python Dictionary'>Python Dictionary</a>
  | <a class='topic' href='https://lzone.de/examples/Python Syntax'>Python Syntax</a>
