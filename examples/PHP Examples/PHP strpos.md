@@ -1,3 +1,4 @@
+---
 related:
    cheat-sheet: ['PHP stripos','PHP strrpos','PHP strripos']
 ---
