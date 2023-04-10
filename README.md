@@ -287,6 +287,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/PHP ternary operator'>PHP ternary operator</a>
  | <a class='topic' href='https://lzone.de/examples/PHP unserialize'>PHP unserialize</a>
 <br/><span class='group'><b>Python Examples</b></span>
+ | <a class='topic' href='https://lzone.de/examples/PyGI GStreamer'>PyGI GStreamer</a>
  | <a class='topic' href='https://lzone.de/examples/PyGI GnomeKeyring'>PyGI GnomeKeyring</a>
  | <a class='topic' href='https://lzone.de/examples/PyGI GtkStatusIcon'>PyGI GtkStatusIcon</a>
  | <a class='topic' href='https://lzone.de/examples/Python Dictionary'>Python Dictionary</a>
