@@ -1,68 +1,45 @@
-This post gives some simple examples for using regular expressions with preg_replace() in PHP scripts.
+This post gives some simple examples for using regular expressions with `preg_replace()` in PHP scripts.
 
-<h2>1. Syntax</h2>
+## Syntax
 
 While full syntax is
 
-<pre class="brush:php">mixed preg_replace ( mixed $pattern , mixed 
-$replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )</pre>
+    mixed preg_replace ( mixed $pattern , mixed 
+        $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
 
+you might to use the simpler examples given below:
 
-<h2>2. Simple Replacing</h2>
+## Simple Replacing
 
-<pre class="brush:php">
-$result = preg_replace('/abc/', 'def', $string);   # Replace all 'abc' with 'def'
-$result = preg_replace('/abc/i', 'def', $string);  # Replace with case insensitive matching
-$result = preg_replace('/\s+/', '', $string);      # Strip all whitespaces
-</pre>
+    $result = preg_replace('/abc/', 'def', $string);   # Replace all 'abc' with 'def'
+    $result = preg_replace('/abc/i', 'def', $string);  # Replace with case insensitive matching
+    $result = preg_replace('/\s+/', '', $string);      # Strip all whitespaces
 
-<h2>3. Advanced Usage</h2>
+## Advanced Usage
 
-<p>Multiple replacements:</p>
+### Multiple replacements
 
-<pre class="brush:php">
-$result = preg_replace(
-    array('/pattern1/', '/pattern2/'),
-    array('replace1', 'replace2'),
-    $string
-);
-</pre>
+    $result = preg_replace(
+        array('/pattern1/', '/pattern2/'),
+        array('replace1', 'replace2'),
+        $string
+    );
 
-<p>Replacement Back References:</p>
+### Replacing with Back References
 
-<pre class="brush:php">
-$result = preg_replace('/abc(def)hij/', '/\\1/', $string);
-$result = preg_replace('/abc(def)hij/', '/$1/', $string);
-$result = preg_replace('/abc(def)hij/', '/${1}/', $string);
-</pre>
+Back references allow you to re-insert a match captured using braces. There are different
+ways to write a back reference e.g. `\\1`, `$1`, `${1}` for the first back reference:
 
-<p>Do only a finite number of replacements:</p>
+    $result = preg_replace('/abc(def)hij/', '/\\1/', $string);
+    $result = preg_replace('/abc(def)hij/', '/$1/', $string);
+    $result = preg_replace('/abc(def)hij/', '/${1}/', $string);
 
-<pre class="brush:php">
-# Perform maximum of 5 replacements
-$result = preg_replace('/abc/', 'def', $string, -1, 5);
-</pre>
+### Perform only a limited number of replacements
 
-<p>Multi-line replacement</p>
+    # Perform maximum of 5 replacements
+    $result = preg_replace('/abc/', 'def', $string, -1, 5);
 
-<pre class="brush:php">
-# Strip HTML tag
-$result = preg_replace('#&lt;span id="15">.*&lt;/span>#m', '', $string);
-</pre>
+### Multi-line replace
 
-<hr/>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Top Memcache -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-3885525830723411"
-     data-ad-slot="4912570252"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<hr/>
-
-<h2>Suggested Reading</h2>
-
-<a href="https://www.amazon.de/Regular-Expression-Pocket-Reference-Expressions/dp/0596514271/ref=as_li_ss_il?s=books-intl-de&ie=UTF8&qid=1509402246&sr=1-1&keywords=php+regular+expressions&linkCode=li3&tag=lzone04-21&linkId=ef88a1018bc76512ceded94172f603e0" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0596514271&Format=_SL250_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=lzone04-21" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=lzone04-21&l=li3&o=3&a=0596514271" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a href="https://www.amazon.de/PHP-Pocket-Reference-your-pocket/dp/1491969091/ref=as_li_ss_il?s=books-intl-de&ie=UTF8&qid=1509402246&sr=1-5&keywords=php+regular+expressions&linkCode=li3&tag=lzone04-21&linkId=b19a6d2b9e501a2db36770b028ed72dc" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1491969091&Format=_SL250_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=lzone04-21" ></a><img src="https://ir-de.amazon-adsystem.com/e/ir?t=lzone04-21&l=li3&o=3&a=1491969091" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+    # Strip HTML tag
+    $result = preg_replace('#&lt;span id="15">.*&lt;/span>#m', '', $string);
