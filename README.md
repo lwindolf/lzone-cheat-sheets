@@ -277,6 +277,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/PHP implode'>PHP implode</a>
  | <a class='topic' href='https://lzone.de/examples/PHP in_array'>PHP in_array</a>
  | <a class='topic' href='https://lzone.de/examples/PHP ini_set'>PHP ini_set</a>
+ | <a class='topic' href='https://lzone.de/examples/PHP preg_match'>PHP preg_match</a>
 <br/><span class='group'><b>Python Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/Python Dictionary'>Python Dictionary</a>
  | <a class='topic' href='https://lzone.de/examples/Python Syntax'>Python Syntax</a>
