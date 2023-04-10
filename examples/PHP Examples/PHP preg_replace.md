@@ -42,4 +42,4 @@ ways to write a back reference e.g. `\\1`, `$1`, `${1}` for the first back refer
 ### Multi-line replace
 
     # Strip HTML tag
-    $result = preg_replace('#&lt;span id="15">.*&lt;/span>#m', '', $string);
+    $result = preg_replace('<span id="15">.*</span>#m', '', $string);
