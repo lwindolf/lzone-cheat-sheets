@@ -26,8 +26,8 @@ To get the number of substitutions pass a 4th call by reference parameter:
 As str_replace doesn't suit all use cases you sometimes have to
 switch to other PHP methods:
 
-- Matching with regular expressions: see [PHP preg_replace](/examples/PHP preg_replace)
+- Matching with regular expressions: see [PHP preg_replace](https://lzone.de/examples/PHP+preg_replace)
 - Limiting to n substitutions:
-	- Use [PHP preg_replace](/examples/PHP preg_replace)
-	- Use [PHP explode](/examples/PHP explode) + [PHP implode](/examples/PHP implode)
+	- Use [PHP preg_replace](https://lzone.de/examples/PHP+preg_replace)
+	- Use [PHP explode](https://lzone.de/examples/PHP+explode) + [PHP implode](https://lzone.de/examples/PHP+implode)
 	- Use `strpos` + `substr_replace`
