@@ -283,6 +283,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/PHP stripos'>PHP stripos</a>
  | <a class='topic' href='https://lzone.de/examples/PHP strpos'>PHP strpos</a>
  | <a class='topic' href='https://lzone.de/examples/PHP strripos'>PHP strripos</a>
+ | <a class='topic' href='https://lzone.de/examples/PHP strrpos'>PHP strrpos</a>
 <br/><span class='group'><b>Python Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/Python Dictionary'>Python Dictionary</a>
  | <a class='topic' href='https://lzone.de/examples/Python Syntax'>Python Syntax</a>
