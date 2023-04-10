@@ -293,6 +293,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/Python re.match'>Python re.match</a>
  | <a class='topic' href='https://lzone.de/examples/Python re'>Python re</a>
  | <a class='topic' href='https://lzone.de/examples/Python re.sub'>Python re.sub</a>
+ | <a class='topic' href='https://lzone.de/examples/Python simplehttpserver'>Python simplehttpserver</a>
  | <a class='topic' href='https://lzone.de/examples/Python split'>Python split</a>
  | <a class='topic' href='https://lzone.de/examples/Python string concat'>Python string concat</a>
  | <a class='topic' href='https://lzone.de/examples/Python subprocess'>Python subprocess</a>
