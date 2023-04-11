@@ -147,6 +147,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/JSONPath'>JSONPath</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Languages'>Languages</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linting'>Linting</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Linux HTML Widgets'>Linux HTML Widgets</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PHP'>PHP</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Perl'>Perl</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby'>Ruby</a>
