@@ -5,45 +5,57 @@ related:
 
 ## HowTo
 
--   Mix Static and Dynamic Linking
+### Linking
 
-        gcc <options> <sources> -o <binary> -Wl,-Bstatic <list of static libs> -Wl,Bdynamic <list of dynamic libs>
+- Mix Static and Dynamic Linking
 
--   Link all static
+      gcc <options> <sources> -o <binary> -Wl,-Bstatic <list of static libs> -Wl,Bdynamic <list of dynamic libs>
 
-        gcc -static ...
+- Link all static
 
--   Link libgcc static
+      gcc -static ...
 
-        gcc -static-gcc ...
+- Link libgcc static
 
--   Partial static linking
+      gcc -static-gcc ...
 
-        gcc ... -Wl,-Bstatic <list of static libs> -Wl,Bdynamic <list of dynamic libs>
+- Partial static linking
 
--   Useful warnings
+      gcc ... -Wl,-Bstatic <list of static libs> -Wl,Bdynamic <list of dynamic libs>
 
-        -Wall -Wunused -Wextra -Wno-pointer-sign -Wno-unused-parameter
+### Warnings
 
--   Debug symbols
+- Useful warnings
 
-        CFLAGS='-g3 -ggdb -O0' ./configure
+      -Wall -Wunused -Wextra -Wno-pointer-sign -Wno-unused-parameter
 
--   Stack protect
+- Static code analysis
 
-        -fstack-protector
+      -fanalyzer
 
--   Fortify source
+### Symbols
 
-        -D_FORTIFY_SOURCE=<1/2>
+- Debug symbols
 
--   Check hardening (Debian):
+      CFLAGS='-g3 -ggdb -O0' ./configure
 
-        hardening-check <binary>
+### Hardening
 
--   Dump GCC distribution settings
+- Stack protect
 
-        gcc -dumpspecs
+      -fstack-protector
+
+- Fortify source
+
+      -D_FORTIFY_SOURCE=<1/2>
+
+- Check hardening (Debian):
+
+      hardening-check <binary>
+
+- Dump GCC distribution settings
+
+      gcc -dumpspecs
 
 ## Reading List
 
