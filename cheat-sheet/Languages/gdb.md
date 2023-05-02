@@ -19,11 +19,17 @@
 
       set -- arg1 arg2 ...
 
--   [gdb - Print large
+- [gdb - Print large
     strings](http://delicious.com/redirect?url=http%3A//sunsite.ualberta.ca/Documentation/Gnu/gdb-4.18/html_node/gdb_58.html):
     How to get gdb to always print the full string buffers:
 
-        set print elements 10000
+      set print elements 10000
+        
+- gdb - disable debug info downloads
+
+      set debuginfod enabled off
+      
+All `set` options given above can be added in `~/.gdbinit`
 
 ### Memory Leaks
 
