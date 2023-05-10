@@ -94,6 +94,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/X11'>X11</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/auditd'>auditd</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/cgroups'>cgroups</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/kerberos'>kerberos</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/mokutil'>mokutil</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/nohup'>nohup</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/perf'>perf</a>
