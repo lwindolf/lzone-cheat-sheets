@@ -25,3 +25,7 @@ See also [https://learn.microsoft.com/en-us/windows-server/administration/window
     klist query-bind                 # Show binding to KDC
     klist add-bind <name> <fqdn>
     klist purge-bind
+
+## KDC CLI
+
+See [http://www.openkb.info/2014/06/kerberos-cheatsheet.html](http://www.openkb.info/2014/06/kerberos-cheatsheet.html)
