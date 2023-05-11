@@ -2,9 +2,10 @@
 
     export SOPS_PGP_FP=<comma separated fingerprints>
     
-    sops <file>       # encrypt a file / edit encrypted file
-    sops -d <file>    # decrypt file to STDOUT
-    sops -e <file>    # edit encrypted file
+    sops <file>                            # edit encrypted file
+    sops -d <file>                         # decrypt file to STDOUT
+    sops -d --extract '["key"]["subkey"]   # decrypt only a YAML subkey 
+    sops -e <file>                         # encrypt a file
     
     sops updatekeys -y <file>     # update fingerprints in encrypted file
 
