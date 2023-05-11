@@ -172,7 +172,11 @@ To fill environment variables from JSON object keys (e.g. $FOO from jq query ".f
 
     export $(jq -r '@sh "FOO=\(.foo) BAZ=\(.baz)"')
 
-To make a bash array
+To make a bash array from a JSON list
+
+    bash_array=($(jq -r '.mylist | @sh'))
+
+or
  
     read -a bash_array < <(jq -r .|arrays|select(.!=null)|@tsv)
     
