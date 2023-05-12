@@ -7,6 +7,8 @@
     kinit -p                         # Request proxiable ticket
     kinit -R                         # Renew proxiable ticket
     
+    KRB5_TRACE=/dev/stdout kinit [...]      # Detailed trace of ticket requesting
+    
     setspn -F -Q */<fqdn>            # Verify if registration was on correct account
     
 Check DNS resolving
