@@ -5,7 +5,7 @@ related:
 
 ## Basics
 
-- netcat Commands
+### netcat Commands
 
       nc -l -p <port>       # Listen on port
       nc -w3 <ip> <port>  # Listen for connection from IP on port
@@ -18,13 +18,16 @@ related:
       
       # Perform request
       printf 'HTTP/1.0 GET /\n'  | nc <server> <port>
+      
+      # Simple echo server
+      while true ; do nc -l -p 8080 -c 'echo -e "HTTP/1.1 200 OK\n\n $(date)"'; done
 
-- Disable IPv6
+### Disable IPv6
 
       echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
       echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 
-- [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheets/) for all network protocols (PDFs)
+See also: [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheets/) for all network protocols (PDFs)
 
 ## DNS
 
