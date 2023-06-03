@@ -5,14 +5,12 @@ related:
 
 This cheat sheet is organized as per the typical workflow for Helm3
 
-```
-1) Add a chart repository.
-2) Find a chart to install.
-3) Install a Helm chart.
-4) See the list of what is installed.
-5) Upgrade your installation.
-6) Delete the installation.
-```
+1. Add a chart repository.
+2. Find a chart to install.
+3. Install a Helm chart.
+4. See the list of what is installed.
+5. Upgrade your installation.
+6. Delete the installation.
 
 ## Add, remove, list, search and Update Repos
 ```sh
