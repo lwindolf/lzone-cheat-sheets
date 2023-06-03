@@ -87,14 +87,14 @@ To list charts (packages)
     helm get values [release] #Download the values file
     helm history [release] #Fetch release history
 ```
-##Get help and Version Info 
+## Get help and Version Info 
 ```sh
     helm --help #See the general help for Helm
     helm [command] #help #See help for a particular command
     helm version #See the installed version of Helm
 ```
 
-##Release Monitoring 
+## Release Monitoring 
 ```sh
     helm list #List all the available releases in the current namespace
     helm list --all-namespaces #List all the available releases across all namespaces
