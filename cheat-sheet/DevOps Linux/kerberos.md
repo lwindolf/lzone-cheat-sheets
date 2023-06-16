@@ -28,6 +28,10 @@ See also [https://learn.microsoft.com/en-us/windows-server/administration/window
     klist add-bind <name> <fqdn>
     klist purge-bind
 
-## KDC CLI
+## More Documentation
 
-See [http://www.openkb.info/2014/06/kerberos-cheatsheet.html](http://www.openkb.info/2014/06/kerberos-cheatsheet.html)
+- [KDC CLI Cheatsheet](http://www.openkb.info/2014/06/kerberos-cheatsheet.html)
+- [NetBIOS Name Syntax](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-nbte/6f06fa0e-1dc4-4c41-accb-355aaf20546d)
+- [SPNs for web applications](https://techcommunity.microsoft.com/t5/iis-support-blog/how-to-use-spns-when-you-configure-web-applications-that-are/ba-p/324648)
+- [Kerberos SPN](https://www.msxfaq.de/windows/kerberos/kerberosspn.htm) (German)
+- [Kerberos AES256 Encryption](https://www.msxfaq.de/windows/kerberos/kerberos_encryption.htm) (German)
