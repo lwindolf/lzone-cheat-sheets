@@ -112,3 +112,8 @@ while the first level list does define the steps sequence.
             import random
             result = "heads" if random.randint(0,1) == 0 else "tails"
             print(result)
+
+## Performance
+
+- When sync gets slower and you have many apps set `DEFAULT_REQUEUE_TIME=1m` for the application controller pod ([ArgoCD docs](https://argoproj.github.io/argo-workflows/running-at-massive-scale/#overwhelmed-kubernetes-api))
+- When you run in OCP ensure to configure `$HOME` for the application controller pod, it needs to point to `/home/argocd` to be able to cache kubectl contexts in `.kube` ([Github issue](https://github.com/argoproj/argo-cd/issues/8620#issuecomment-1213350358))
