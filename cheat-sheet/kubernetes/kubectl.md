@@ -37,7 +37,14 @@ A complete list of all ressource and CRDs you can get with
     kubectl api-resources
     kubectl api-resources --namespaced=false      # List only cluster-wide resources
 
-Creating/manipulating resources
+## Cluster Administration
+
+Removing/Readding nodes
+
+    kubectl drain <node>         # Evacuates all pods with replication controllers
+    kubectl uncordon <node>      # Readd node for pod scheduling
+
+## Creating/manipulating resources
 
     kubectl create -f some.json
     kubectl delete -f some.json                   # Useful to delete the same resources with the same YAML!
@@ -59,12 +66,9 @@ Creating/manipulating resources
 
     kubectl expose rc <name> --port=<port> --public-ip=<ip>
 
-## Cluster Administration
-
-Removing/Readding nodes
-
-    kubectl drain <node>         # Evacuates all pods with replication controllers
-    kubectl uncordon <node>      # Readd node for pod scheduling
+    kubectl set env deployment/<name> <environment variable>=<value>
+    kubectl set env deployment/<name> --list
+    kubectl set env pods --all --list
 
 ## Testing kubectl Commands
 
