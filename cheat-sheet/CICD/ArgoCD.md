@@ -117,3 +117,4 @@ while the first level list does define the steps sequence.
 
 - When sync gets slower and you have many apps set `DEFAULT_REQUEUE_TIME=1m` for the application controller pod ([ArgoCD docs](https://argoproj.github.io/argo-workflows/running-at-massive-scale/#overwhelmed-kubernetes-api))
 - When you run in OCP ensure to configure `$HOME` for the application controller pod, it needs to point to `/home/argocd` to be able to cache kubectl contexts in `.kube` ([Github issue](https://github.com/argoproj/argo-cd/issues/8620#issuecomment-1213350358))
+- When your application controller CPU is peaking all the time and the reconciliation heatmap shows bad performance (>10s) try increasing `ARGOCD_RECONCILIATION_TIMEOUT` to a value larger than the 3min default.
