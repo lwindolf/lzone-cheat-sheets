@@ -14,9 +14,8 @@ Cluster infos
     
 Accessing the key space
 
-    etcdctl get / --prefix --keys-only          # Get top-level keys
-    etcdctl get / --prefix                      # Get top-level keys and values
-    etcdctl get / --prefix --keys-only --recursive  # Get full tree
+    etcdctl get "" --prefix --keys-only          # Get full tree
+    etcdctl get "" --prefix                      # Get full tree keys and values
     
     etcdctl get <key path>                      # Get key details
     etcdctl get <key path> --print-value-only   # Get key value only
