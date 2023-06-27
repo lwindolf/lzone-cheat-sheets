@@ -213,3 +213,16 @@ This is useful with dynamically registered runners, that are not guaranteed to u
 - Foreach runner with `status` == `offline`
   - Perform HTTP `DELETE` on `/orgs/<org name>/actions/runner/<runner id>`
 
+### Use non Github images
+
+To use public/private images from an external registry define `container
+
+    jobs:
+      test:
+        runs-on: ubuntu-latest
+        container: ubuntu:23.03
+        
+        # credentials are optional
+        credentials:
+          username: myuser
+          password: ${{ secrets.mysecret }}
