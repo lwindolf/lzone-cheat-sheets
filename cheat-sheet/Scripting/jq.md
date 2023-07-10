@@ -198,7 +198,7 @@ you can extract the names of the animals using
 
 ```sh
 jq '.animals | keys'   
-``
+```
 
 ## Using jq in Shell Scripts
 
