@@ -86,13 +86,13 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Sysadmin'>Linux-Sysadmin</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Virtualization'>Linux-Virtualization</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PKI'>PKI</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Packaging'>Packaging</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Partitioning'>Partitioning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Printing'>Printing</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/RAID'>RAID</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solaris'>Solaris</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/X11'>X11</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/auditd'>auditd</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/cgroups'>cgroups</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/kerberos'>kerberos</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/mokutil'>mokutil</a>
