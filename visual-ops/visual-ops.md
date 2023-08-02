@@ -1,5 +1,5 @@
 ---
-title: DevOps Visualizations
+title: Visual Ops
 ---
 
 ## What is this about?
