@@ -29,7 +29,7 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/Terraform'>Terraform</a>
 <br/><span class='group'><b>CICD</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/ArgoCD'>ArgoCD</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/CI-CD'>CI-CD</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/CICD'>CICD</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Gerrit'>Gerrit</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Git'>Git</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Github'>Github</a>
