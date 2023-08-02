@@ -1,3 +1,3 @@
-  ---
-  title: Cheat Sheets
-  ---
+---
+title: Cheat Sheets
+---
