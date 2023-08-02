@@ -1,4 +1,4 @@
-### Autotools Packaging
+## Autotools Packaging
 
 - Setup
 
