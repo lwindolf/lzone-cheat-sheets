@@ -2,7 +2,7 @@
 title: DevOps Visualizations
 ---
 
-## What this is about?
+## What is this about?
 
 In IT operations we often do analysis by text only. While this might be sufficient
 it is often hard to detect structure in the data we analyze using command line tools.
