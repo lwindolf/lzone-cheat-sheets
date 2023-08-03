@@ -308,3 +308,5 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/Perl Regex'>Perl Regex</a>
  | <a class='topic' href='https://lzone.de/examples/Regex Overview'>Regex Overview</a>
  | <a class='topic' href='https://lzone.de/examples/Ruby Regex'>Ruby Regex</a>
+<br/><span class='group'><b>examples.md</b></span>
+ | <a class='topic' href='https://lzone.de/examples/'></a>
