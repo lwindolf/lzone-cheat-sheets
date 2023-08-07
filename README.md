@@ -234,8 +234,6 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/cheat-sheet/netsh'>netsh</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/registry'>registry</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/wmic'>wmic</a>
-<br/><span class='group'><b>cheat-sheet.md</b></span>
- | <a class='topic' href='https://lzone.de/cheat-sheet/'></a>
 <br/><span class='group'><b>kubernetes</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Helm Templates'>Helm Templates</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Helm'>Helm</a>
@@ -308,5 +306,3 @@ easily download all cheat sheets from this repo (and others) for offline searchi
  | <a class='topic' href='https://lzone.de/examples/Perl Regex'>Perl Regex</a>
  | <a class='topic' href='https://lzone.de/examples/Regex Overview'>Regex Overview</a>
  | <a class='topic' href='https://lzone.de/examples/Ruby Regex'>Ruby Regex</a>
-<br/><span class='group'><b>examples.md</b></span>
- | <a class='topic' href='https://lzone.de/examples/'></a>
