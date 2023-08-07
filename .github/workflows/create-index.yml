@@ -33,7 +33,7 @@ jobs:
               fi
 
               echo " | <a class='topic' href='https://lzone.de/$directory/$name'>$name</a>"
-            done < <(cd $directory/ && find . -name "*.md" | sort)
+            done < <(cd $directory/ && find . -mindepth 2 -name "*.md" | sort)
           done
           ) >>README.md
           
