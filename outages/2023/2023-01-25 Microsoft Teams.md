@@ -1,6 +1,6 @@
 ## Impact
 
-- Word-wide MS Teams outage
+- World-wide MS Teams outage
 
 ## Duration
 
