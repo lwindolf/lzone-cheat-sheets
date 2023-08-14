@@ -1,3 +1,6 @@
+{: .highlight }
+Note: wmic is being [deprecated in Windows 10 21H1](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wmic)
+
 ## Useful Examples
 
 Getting to know the system
