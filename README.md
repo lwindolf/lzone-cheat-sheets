@@ -5,10 +5,8 @@ Markdown sources for all the cheat sheets found at https://lzone.de/
 - If you find this helpful consider giving a :star:
 - If you miss a topic suggest it by opening an issue!
 
-## Install in Devhelp
-
-Using the [devhelp cheat sheet installer](https://github.com/lwindolf/devhelp-cheat-sheet-installer) you can
-easily download all cheat sheets from this repo (and others) for offline searching with GNOME devhelp.
+Note: you can install even more cheat sheets in your browser locally using
+"Additional Cheat Sheets" feature in the [settings](https://lzone.de/#/settings).
 
 <!-- marker -->
 
