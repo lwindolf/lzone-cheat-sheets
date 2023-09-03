@@ -14,7 +14,7 @@ Allows you to monitor processes
 
 Allows you to monitor breakpoints
 
-    perf list            # Print list of supported 
+    perf list            # Print list of supported event types
     
     perf stat -a sleep 5                            # Overview over everything
     perf stat -e syscalls:* -a <cmd>                # Overview over all system calls
