@@ -65,13 +65,20 @@ From https://prometheus.io/docs/prometheus/latest/querying/examples/
 
 ## Scaling Prometheus
 
-### Self-hosted
+### Self-hosted TSDB
 
 - [Cortex, OpenSource](https://www.cncf.io/blog/2018/12/18/cortex-a-multi-tenant-horizontally-scalable-prometheus-as-a-service/)
 - [M3DB](https://github.com/m3db), see also [Quick Setup HowTo](https://lzone.de/blog/Prometheus+and+M3DB+in+Docker+in+5min)
 - [Grafana Mimir](https://github.com/grafana/mimir)
+- [Thanos](https://thanos.io/)
 
 ## SaaS
 
 - GrafanaCloud
 - Influx
+
+## Infrastructure Monitoring
+
+- [Blackbox Exporter](https://github.com/prometheus/blackbox_exporter) (allows defining TCP, HTTP... checks for non-k8s endpoints)
+- [Adding many Blackbox Exports](https://medium.com/geekculture/single-prometheus-job-for-dozens-of-blackbox-exporters-2a7ba492d6c8)
+- [Running multi-target exporters](https://prometheus.io/docs/guides/multi-target-exporter/)
