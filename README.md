@@ -158,6 +158,8 @@ Note: you can install even more cheat sheets in your browser locally using
  | <a class='topic' href='https://lzone.de/cheat-sheet/autotools'>autotools</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/gdb'>gdb</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/meson'>meson</a>
+<br/><span class='group'><b>Mobile</b></span>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/adb'>adb</a>
 <br/><span class='group'><b>Network</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux-Networking'>Linux-Networking</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Mail'>Mail</a>
