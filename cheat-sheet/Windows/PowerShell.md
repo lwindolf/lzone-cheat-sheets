@@ -1,7 +1,7 @@
 ## Condition Examples
 
-    if ((-not [string]::IsNullOrEmpty($string)))
-    if (($nr > 5) -and ($string eq ''))
+    if ((-not [string]::IsNullOrEmpty($string))) { ... }
+    if (($nr -gt 5) -and ($string -eq '')) { ... }
 
 ## Control Flow
 
@@ -15,9 +15,9 @@
 ### Exceptions
 
     try {
-       throw "My exception";
+       throw "My exception"
     } catch {
-       Write-Output "Caught exception!";
+       Write-Output "Caught exception!"
     }
 
 ## Functions
@@ -35,9 +35,9 @@
 
 Fetching 
 
-    $tmp =  $env:SOME_ENV_VAR;
+    $tmp =  $env:SOME_ENV_VAR
     
-    $env:Path = [Environment]::GetEnvironmentVariable('Path',[System.EnvironmentVariableTarget]::Machine);
+    $env:Path = [Environment]::GetEnvironmentVariable('Path',[System.EnvironmentVariableTarget]::Machine)
 
 Setting env var on global level
 
@@ -70,8 +70,8 @@ Removing files/directories
 
 ## Download by URL
 
-    iwr -useb http://example.com/somefile
-    iwr -useb http://example.com/someexe | iex       # Download and execute it
+    Invoke-WebRequest -useb http://example.com/somefile
+    Invoke-WebRequest -useb http://example.com/someexe | Invoke-Expression       # Download and execute it
 
 ## Check PowerShell Version
 
