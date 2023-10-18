@@ -1,7 +1,7 @@
 ## Linux CLI
 
     klist                            # Print ticket cache   
-    klist -kte <keytab>              # Get principal name from ktab
+    klist -kte <keytab>              # Get principal name from keytab
     
     kinit -kt  <keytab>              # Get a kerberos ticket
     kinit -p                         # Request proxiable ticket
