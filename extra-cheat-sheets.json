@@ -237,6 +237,7 @@
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
-    "type": "github"
+    "type": "github",
+    "filePattern": "^(README).md$"
   }
 }
