@@ -1,0 +1,242 @@
+{
+  "LearnXinYMinutes": {
+    "github": "adambard/learnxinyminutes-docs",
+    "type": "github"
+  },
+  "Awesome Python": {
+    "github": "vinta/awesome-python",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Awesome GraphQL": {
+    "github": "chentsulin/awesome-graphql",
+    "type": "github"
+  },
+  "Awesome CS Courses": {
+    "github": "prakhar1989/awesome-courses",
+    "type": "github"
+  },
+  "Awesome Public Datasets": {
+    "github": "awesomedata/awesome-public-datasets",
+    "type": "github"
+  },
+  "Awesome OSINT": {
+    "github": "jivoi/awesome-osint",
+    "type": "github"
+  },
+  "Awesome Design Patterns": {
+    "github": "DovAmir/awesome-design-patterns",
+    "type": "github"
+  },
+  "Awesome Scalability": {
+    "github": "binhnguyennus/awesome-scalability",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Learning freeCodeCamp": {
+    "github": "freeCodeCamp/freeCodeCamp",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Learn Regex": {
+    "github": "ziishaned/learn-regex",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Github Cheat Sheet": {
+    "github": "tiimgreen/github-cheat-sheet",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "devhints.io": {
+    "github": "rstacruz/cheatsheets",
+    "type": "github"
+  },
+  "WTFJS": {
+    "github": "denysdovhan/wtfjs",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "JS Promise Cookbook": {
+    "github": "mattdesl/promise-cookbook",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Typescript Handbook": {
+    "github": "microsoft/TypeScript-Website",
+    "type": "github",
+    "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+).md$"
+  },
+  "Pure Bash Bible": {
+    "github": "dylanaraps/pure-bash-bible",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Bash Handbook": {
+    "github": "denysdovhan/bash-handbook",
+    "type": "github"
+  },
+  "Learn Vim": {
+    "github": "iggredible/Learn-Vim",
+    "type": "github"
+  },
+  "FastAI Fastbook": {
+    "github": "fastai/fastbook",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "OWASP Cheat Sheets Series": {
+    "github": "OWASP/CheatSheetSeries",
+    "type": "github",
+    "filePattern": "^cheatsheets/([^/]+)\\.md$"
+  },
+  "eg Cheat Sheets": {
+    "github": "srsudar/eg",
+    "type": "github",
+    "filePattern": "^eg/examples/([^/]+)\\.md$"
+  },
+  "Free Programming Books": {
+    "github": "EbookFoundation/free-programming-books",
+    "type": "github",
+    "filePattern": "^books/free-programming-books-(langs|subjects)\\.md$"
+  },
+  "How Programming Works": {
+    "github": "HowProgrammingWorks/Book",
+    "type": "github",
+    "filePattern": "^content/en/([^/]+)\\.md$"
+  },
+  "The JS Way": {
+    "github": "thejsway/thejsway",
+    "type": "github",
+    "filePattern": "^manuscript/([^/]+)\\.md$"
+  },
+  "reactnative.guide": {
+    "github": "react-made-native-easy/book",
+    "type": "github",
+    "filePattern": "^[^/]+/([^/]+)\\.md$"
+  },
+  "Little Go Book": {
+    "github": "karlseguin/the-little-go-book",
+    "type": "github",
+    "filePattern": "^en/(go).md$"
+  },
+  "Little MongoDB Book": {
+    "github": "karlseguin/the-little-mongodb-book",
+    "type": "github",
+    "filePattern": "^en/([^/]+).markdown$"
+  },
+  "Little Redis Book": {
+    "github": "karlseguin/the-little-redis-book",
+    "type": "github",
+    "filePattern": "^en/([^/]+).md$"
+  },
+  "30s-of-code JS": {
+    "github": "30-seconds/30-seconds-of-code",
+    "type": "github",
+    "filePattern": "^snippets/js/s/([^/]+).md$"
+  },
+  "Interview Questions: 30s-of-code JS": {
+    "github": "30-seconds/30-seconds-of-interviews",
+    "type": "github",
+    "filePattern": "^questions/([^/]+).md$"
+  },
+  "30s-of-code Python": {
+    "github": "30-seconds/30-seconds-of-python",
+    "type": "github",
+    "filePattern": "^snippets/([^/]+).md$"
+  },
+  "30s-of-code CSS": {
+    "github": "30-seconds/30-seconds-of-css",
+    "type": "github",
+    "filePattern": "^snippets/([^/]+).md$"
+  },
+  "30s-of-code Git": {
+    "github": "30-seconds/30-seconds-of-git",
+    "type": "github",
+    "filePattern": "^snippets/([^/]+).md$"
+  },
+  "Puppet Handbook": {
+    "github": "abhishekjt/puppet-handbook",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Geo Data Science Book": {
+    "github": "gdsbook/book",
+    "type": "github",
+    "filePattern": "^notebooks/([^/]+).md$"
+  },
+  "Interview Questions: Android": {
+    "github": "amitshekhariitbhu/android-interview-questions",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Interview Questions: Data Science": {
+    "github": "alexeygrigorev/data-science-interviews",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "Interview Questions: Linux Sysadmin": {
+    "github": "chassing/linux-sysadmin-interview-questions",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Interview Questions: FAANG": {
+    "github": "ombharatiya/FAANG-Coding-Interview-Questions",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "Interview Questions: ML": {
+    "github": "Sroy20/machine-learning-interview-questions",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "Interview Questions: System Design": {
+    "github": "shashank88/system_design",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "Interview Questions: Java": {
+    "github": "in28minutes/interview-guide",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "Meta Checklist": {
+    "github": "huyingjie/Checklist-Checklist",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "k8s the hard way": {
+    "github": "kelseyhightower/kubernetes-the-hard-way",
+    "type": "github",
+    "filePattern": "^docs/(.+).md$"
+  },
+  "k8s NetworkPolicy Tutorial": {
+    "github": "networkpolicy/tutorial",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "k8s Istio Tutorial": {
+    "github": "kelseyhightower/istio-ingress-tutorial",
+    "type": "github",
+    "filePattern": "^docs/(.+).md$"
+  },
+  "k8s Nomand Tutorial": {
+    "github": "kelseyhightower/nomad-on-kubernetes",
+    "type": "github",
+    "filePattern": "^docs/(.+).md$"
+  },
+  "k8s Tekton Tutorial": {
+    "github": "harbur/tekton-tutorial",
+    "type": "github",
+    "filePattern": "^(README).md$"
+  },
+  "Python Machine Learning": {
+    "github": "rasbt/python-machine-learning-book-3rd-edition",
+    "type": "github",
+    "filePattern": "^([^/]+)/README.md$"
+  },
+  "System Design 101": {
+    "github": "ByteByteGoHq/system-design-101",
+    "type": "github"
+  }
+}
