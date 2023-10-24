@@ -127,8 +127,3 @@ ${1} .. ${99}</td>
 
 </table>
 
-## Other Hints:
-
-*   ### [Bad and Good Extraction in Perl](/blog/Bad+and+Good+Extraction+with+Regular+Expressions+in+Perl)
-
-*   ### [PHP: pgreg_match() vs. strpos() Performance](/articles/php-string-search.htm)
