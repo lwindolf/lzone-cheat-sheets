@@ -304,6 +304,5 @@ Note: you can install even more cheat sheets in your browser locally using
  | <a class='topic' href='https://lzone.de/examples/Python subprocess'>Python subprocess</a>
  | <a class='topic' href='https://lzone.de/examples/Python'>Python</a>
 <br/><span class='group'><b>Regex Examples</b></span>
- | <a class='topic' href='https://lzone.de/examples/Perl Regex'>Perl Regex</a>
  | <a class='topic' href='https://lzone.de/examples/Regex Overview'>Regex Overview</a>
  | <a class='topic' href='https://lzone.de/examples/Ruby Regex'>Ruby Regex</a>
