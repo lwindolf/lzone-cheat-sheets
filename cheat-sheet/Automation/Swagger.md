@@ -1,11 +1,11 @@
 
 ## Create Specs
 
-- https://editor.swagger.io/
+- [editor.swagger.io](https://editor.swagger.io/)
 
 ## Testing running API
 
-Continuous testing on an existing API for which you have a swagger spec can be done with Dredd (https://help.apiary.io/tools/automated-testing/testing-ci/)
+Continuous testing on an existing API for which you have a swagger spec can be done with [Dredd](https://help.apiary.io/tools/automated-testing/testing-ci/)
 
     $ mkdir swagger
     $ wget https://example.com/dist/swagger.json
