@@ -259,6 +259,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/examples/Glib XDG Migration'>Glib XDG Migration</a>
  | <a class='topic' href='https://lzone.de/examples/Glib'>Glib</a>
 <br/><span class='group'><b>Go Examples</b></span>
+ | <a class='topic' href='https://lzone.de/examples/Go Channels'>Go Channels</a>
  | <a class='topic' href='https://lzone.de/examples/Go Struct'>Go Struct</a>
 <br/><span class='group'><b>Javascript Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/GraphQL'>GraphQL</a>
