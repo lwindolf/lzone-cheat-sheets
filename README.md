@@ -3,10 +3,10 @@
 Markdown sources for all the cheat sheets found at https://lzone.de/
 
 - If you find this helpful consider giving a :star:
-- If you miss a topic suggest it by opening an issue!
+- If you miss a topic suggest it by opening an issue
 
-Note: you can install even more cheat sheets in your browser locally using
-"Additional Cheat Sheets" feature in the [settings](https://lzone.de/#/settings).
+Note: you can install even more cheat sheets in your local browser using the
+[Additional Cheat Sheets](https://lzone.de/#/settings) feature!
 
 <!-- marker -->
 
