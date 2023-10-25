@@ -239,5 +239,10 @@
     "github": "ByteByteGoHq/system-design-101",
     "type": "github",
     "filePattern": "^(README).md$"
+  },
+  "Learn To Cloud": {
+    "github": "learntocloud/learn-to-cloud",
+    "type": "github",
+    "filePattern": "^docs/(.*)/README.md$"
   }
 }
