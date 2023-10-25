@@ -245,8 +245,12 @@
     "type": "github",
     "filePattern": "^docs/(.*)/README.md$"
   },
-  "Awesome Security List": {
-    "github": "https://github.com/zbetcheckin/Security_list",
+  "Awesome Security": {
+    "github": "zbetcheckin/Security_list",
+    "type": "github"
+  },
+  "Awesome Cloud Security": {
+    "github": "4ndersonLin/awesome-cloud-security",
     "type": "github"
   }
 }
