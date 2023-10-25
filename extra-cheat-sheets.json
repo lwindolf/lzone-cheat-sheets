@@ -252,5 +252,9 @@
   "Awesome Cloud Security": {
     "github": "4ndersonLin/awesome-cloud-security",
     "type": "github"
+  },
+  "Awesome AWS Security": {
+    "github": "jassics/awesome-aws-security",
+    "type": "github"
   }
 }
