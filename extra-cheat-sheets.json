@@ -244,5 +244,9 @@
     "github": "learntocloud/learn-to-cloud",
     "type": "github",
     "filePattern": "^docs/(.*)/README.md$"
+  },
+  "Awesome Security List": {
+    "github": "https://github.com/zbetcheckin/Security_list",
+    "type": "github"
   }
 }
