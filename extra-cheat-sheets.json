@@ -259,6 +259,7 @@
   },
   "AWSCookbook Security": {
     "github": "AWSCookbook/Security",
-    "type": "github"
+    "type": "github",
+    "filePattern": "^(.*)/README.md"
   }
 }
