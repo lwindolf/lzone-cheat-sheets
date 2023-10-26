@@ -265,5 +265,15 @@
   "Awesome k8s Security": {
     "github": "magnologan/awesome-k8s-security",
     "type": "github"
+  },
+  "Xapax Security": {
+    "github": "xapax/security",
+    "type": "github",
+    "filePattern": "^docs/(.+).md$"
+  },
+  "MS Azure Security": {
+    "github": "MicrosoftDocs/security",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
