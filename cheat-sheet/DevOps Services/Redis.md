@@ -322,7 +322,7 @@ and you can terminate connections with
 
 ### Monitoring Traffic
 
-The propably most useful command compared to memcached where you need to
+The probably most useful command compared to memcached where you need to
 trace network traffic is the "MONITOR" command which will dump incoming
 commands in real time.
 
