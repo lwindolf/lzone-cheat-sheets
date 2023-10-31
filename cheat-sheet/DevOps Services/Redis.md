@@ -264,10 +264,6 @@ To revert the slave setting run
 
     SLAVEOF NO ONE
 
-* * * * *
-
-* * * * *
-
 ### Performance Testing
 
 #### Benchmark
