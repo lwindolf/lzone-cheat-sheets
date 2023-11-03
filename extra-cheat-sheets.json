@@ -290,5 +290,9 @@
     "github": "ContainerSolutions/runbooks",
     "type": "github",
     "filePattern": "^content/posts/(.+).md$"
+  },
+  "Runbooks Example": {
+    "github": "sstafford/ops_runbook",
+    "type": "github"
   }
 }
