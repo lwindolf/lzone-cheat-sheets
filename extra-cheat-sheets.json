@@ -275,5 +275,10 @@
     "github": "MicrosoftDocs/security",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "Runbooks Prometheus Operator": {
+    "github": "prometheus-operator/runbooks",
+    "type": "github",
+    "filePattern": "^content/runbooks/(.+).md$"
   }
 }
