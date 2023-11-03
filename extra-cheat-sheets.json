@@ -294,5 +294,9 @@
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
     "type": "github"
+  },
+  "AWS S3 Python": {
+    "github": "nagwww/aws-s3-book",
+    "type": "github"
   }
 }
