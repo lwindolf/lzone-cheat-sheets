@@ -299,6 +299,11 @@
     "github": "nagwww/aws-s3-book",
     "type": "github"
   },
+  "Runbooks AWS Incidents": {
+    "github": "aws-samples/aws-incident-response-playbooks",
+    "type": "github",
+    "filePattern": "^playbooks/(.+).md$"
+  },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
     "type": "github"
