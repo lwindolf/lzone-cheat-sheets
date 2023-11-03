@@ -285,5 +285,10 @@
     "github": "openshift/runbooks",
     "type": "github",
     "filePattern": "^alerts/(.+).md$"
+  },
+  "Runbooks Container Solutions": {
+    "github": "ContainerSolutions/runbooks",
+    "type": "github",
+    "filePattern": "^content/posts/(.+).md$"
   }
 }
