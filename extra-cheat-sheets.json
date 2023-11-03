@@ -302,5 +302,9 @@
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
     "type": "github"
+  },
+  "Runbooks Pentesting": {
+    "github": "IlyasKadi/runbook",
+    "type": "github"
   }
 }
