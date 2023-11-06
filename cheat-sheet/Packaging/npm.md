@@ -5,27 +5,34 @@ related:
 
 ## Commands
 
-    npm list        # Show packages in local path
-    npm list -g     # Show global packages
-    npm list -g -p      # Show global packages, parseble list
+    npm list            # Show packages in local path
+    npm list -g         # Show global packages
+    npm list -g -p      # Show global packages, parseable list
 
     npm view <package>
 
-    npm install <package>[@<version>]
+    npm install   <package>[@<version>]
     npm uninstall <package>[@<version>]
     npm rm <package>
 
     npm search <something>
 
-    npm link <package>    # Link global package into user env
+    npm link   <package> # Link global package into user env
     npm unlink <package>
 
-    npm link        # Link package into global env (when in package dir)
+    npm link             # Link package into global env (when in package dir)
     npm unlink
+
+## Security
+
+    npm audit            # Show all vulnerable packages
+    npm audit fix        # Try to upgrade vulnerable packages
+
+    npm outdated         # Show all packages that can be updated
 
 ## Development
 
-    npm init        # Create new package
+    npm init             # Create new package
 
     npm publish
     npm unpublish <package>
@@ -33,10 +40,10 @@ related:
     npm adduser
 
     npm owner add <user> <package>
-    npm owner rm <user> <package>
+    npm owner rm  <user> <package>
     npm owner ls <package>
 
-    npm start       # Start an app
+    npm start            # Start an app
 
 ## Using npm modules for clients
 
