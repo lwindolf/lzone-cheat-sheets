@@ -341,5 +341,10 @@
     "github": "MostlyAdequate/mostly-adequate-guide",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "DevOps Video Tutorials": {
+    "github": "antonputra/tutorials",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
