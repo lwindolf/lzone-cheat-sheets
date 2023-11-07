@@ -299,6 +299,11 @@
     "github": "nagwww/aws-s3-book",
     "type": "github"
   },
+  "AWS Serverless Workshop": {
+    "github": "aws-samples/aws-serverless-workshops",
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "type": "github",
