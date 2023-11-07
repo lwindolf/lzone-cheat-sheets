@@ -356,5 +356,10 @@
     "github": "antonputra/tutorials",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "Ansible Tutorial": {
+    "github": "leucos/ansible-tuto",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
