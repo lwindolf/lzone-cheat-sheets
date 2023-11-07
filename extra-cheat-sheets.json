@@ -331,5 +331,10 @@
     "github": "winterbe/java8-tutorial",
     "type": "github",
     "filePattern": "^(README).md$"
+  },
+  "Modern C++ Tutorial": {
+    "github": "changkun/modern-cpp-tutorial",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
