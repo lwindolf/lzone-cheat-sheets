@@ -321,5 +321,10 @@
     "github": "practical-tutorials/project-based-learning",
     "type": "github",
     "filePattern": "^(README).md$"
+  },
+  "RabbitMQ Client Tutorials": {
+    "github": "rabbitmq/rabbitmq-tutorials",
+    "type": "github",
+    "filePattern", "^(.+).md$"
   }
 }
