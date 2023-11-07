@@ -316,5 +316,10 @@
     "github": "cfenollosa/os-tutorial",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "Awesome Programming Projects": {
+    "github": "practical-tutorials/project-based-learning",
+    "type": "github",
+    "filePattern": "^(README).md$"
   }
 }
