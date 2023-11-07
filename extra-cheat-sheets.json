@@ -326,5 +326,10 @@
     "github": "rabbitmq/rabbitmq-tutorials",
     "type": "github",
     "filePattern", "^(.+).md$"
+  },
+  "Java 8 Tutorial": {
+    "github": "winterbe/java8-tutorial",
+    "type": "github",
+    "filePattern": "^(README).md$"
   }
 }
