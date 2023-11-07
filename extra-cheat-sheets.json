@@ -336,5 +336,10 @@
     "github": "changkun/modern-cpp-tutorial",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "Javascript Functional Programming": {
+    "github": "MostlyAdequate/mostly-adequate-guide",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
