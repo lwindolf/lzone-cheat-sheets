@@ -325,7 +325,7 @@
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "type": "github",
-    "filePattern", "^(.+).md$"
+    "filePattern": "^(.+).md$"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
