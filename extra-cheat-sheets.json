@@ -311,5 +311,10 @@
   "Runbooks Pentesting": {
     "github": "IlyasKadi/runbook",
     "type": "github"
+  },
+  "OS Tutorial": {
+    "github": "cfenollosa/os-tutorial",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
