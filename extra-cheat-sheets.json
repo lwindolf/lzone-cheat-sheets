@@ -376,5 +376,10 @@
     "github": "markdregan/Bayesian-Modelling-in-Python",
     "type": "github",
     "filePattern": "^(README).md$"
+  },
+  "Docker Getting Started": {
+    "github": "docker/getting-started",
+    "type": "github",
+    "filePattern": "^docs/tutorial/(.+).md"
   }
 }
