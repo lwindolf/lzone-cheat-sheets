@@ -304,6 +304,11 @@
     "type": "github",
     "filePattern": "^(.+).md$"
   },
+  "AWS EKS Workshop": {
+    "github": "aws-samples/eks-workshop-v2",
+    "type": "github",
+    "filePattern": "^website/docs/(.+).md$"
+  },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "type": "github",
