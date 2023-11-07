@@ -366,5 +366,10 @@
     "github": "sap-tutorials/Tutorials",
     "type": "github",
     "filePattern": "^tutorials/(.+).md$"
+  },
+  "Linux XDP Tutorial": {
+    "github": "xdp-project/xdp-tutorial",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
