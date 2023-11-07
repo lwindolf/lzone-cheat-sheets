@@ -371,5 +371,10 @@
     "github": "xdp-project/xdp-tutorial",
     "type": "github",
     "filePattern": "^(.+).md$"
+  },
+  "Bayesian Modelling in Python": {
+    "github": "markdregan/Bayesian-Modelling-in-Python",
+    "type": "github",
+    "filePattern": "^(README).md$"
   }
 }
