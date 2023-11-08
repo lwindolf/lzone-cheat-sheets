@@ -19,6 +19,14 @@ string for the entire match and one for each capture group.
     
 If a pattern doesn't match null is returned.
 
+## Named Capture Groups
+
+For more complex expressions name captures for better code:
+
+    var results = "some.person@example.com".match(/(?<name>.+)@(?<domain>.+)/);
+    console.log(results.groups[name]);         # Gives "some.person"
+    console.log(results.groups[domain]);       # Gives "example.com"
+
 ## Replacing Patterns
 
 To replace substrings by pattern just pass a regular expression to String.replace()
@@ -41,3 +49,7 @@ To reuse expressions assign them to a variable or explicitely create an RegExp o
 
     var re = /abc/;
     var re = new RegExp("abc");
+
+and use it 
+
+    "abcdef".match(re);
