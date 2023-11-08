@@ -382,7 +382,7 @@
     "type": "github",
     "filePattern": "^docs/tutorial/(.+).md"
   },
-  "Python pdb Tutorial" {
+  "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "type": "github",
     "filePattern": "^(README).md$"
