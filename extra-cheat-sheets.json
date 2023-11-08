@@ -381,5 +381,10 @@
     "github": "docker/getting-started",
     "type": "github",
     "filePattern": "^docs/tutorial/(.+).md"
+  },
+  "Python pdb Tutorial" {
+    "github": "spiside/pdb-tutorial",
+    "type": "github",
+    "filePattern": "^(README).md$"
   }
 }
