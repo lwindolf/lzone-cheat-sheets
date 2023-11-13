@@ -77,6 +77,10 @@ Create a network and start container in this network
     docker build --target <stage> .                       # Build specific target of a multi-stage Dockerfile
     docker build --build-arg MYARG=myvalue .              # Pass variables with --build-arg
     docker build --add-host <hostname>:<target> .         # Inject hostnames
+
+To see build steps of existing images
+
+    docker image history <image>
     
 ### Using BuildKit
 
