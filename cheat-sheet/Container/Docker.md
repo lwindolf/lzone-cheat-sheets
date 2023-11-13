@@ -144,6 +144,10 @@ to the `docker run` command.
 
 ### Scanner
 
+Natively with recent docker
+
+    docker scan <image>
+
 For build time (e.g. Dockerfile)
 
 - hadolint
