@@ -242,6 +242,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Openshift'>Openshift</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PKS'>PKS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Prometheus'>Prometheus</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Tekton'>Tekton</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/kops'>kops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/kubectl'>kubectl</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/kubernetes ConfigMap'>kubernetes ConfigMap</a>
