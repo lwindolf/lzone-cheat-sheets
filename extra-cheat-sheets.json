@@ -386,5 +386,9 @@
     "github": "spiside/pdb-tutorial",
     "type": "github",
     "filePattern": "^(README).md$"
+  },
+  "GDB Cheat Sheet": {
+    "github": "reveng007/GDB-Cheat-Sheet",
+    "type:" "github"
   }
 }
