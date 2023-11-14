@@ -2,11 +2,10 @@
 
 As the actual use of regular expressions is quite language specific there are separate cheat sheets:
 
-*   [Bash](Bash+Regex)
+*   [Bash](/cheat-sheet/Bash+Regex)
 *   [Perl](https://perldoc.perl.org/perlre)
 *   PHP
     *   [preg_match() Examples](/examples/PHP+preg_match)
-    *   [preg_match() vs strpos() Performance](/articles/php-string-search.htm)
     *   [preg_replace() Examples](/examples/PHP+preg_replace)
 *   Python
     *   [Python re.match Examples](/examples/Python+re.match)
