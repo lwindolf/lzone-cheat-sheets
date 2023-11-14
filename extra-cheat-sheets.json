@@ -389,6 +389,6 @@
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet",
-    "type:" "github"
+    "type": "github"
   }
 }
