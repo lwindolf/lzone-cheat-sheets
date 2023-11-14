@@ -3,24 +3,24 @@ related:
   cheat-sheet: ['Bash']
 ---
 
-### Regexp Matching
+### Regex Matching
 
 Use conditions with doubled [] and the =\~ operator. Ensure not to quote
-the regular expression. Only BRE are allowed. If the regexp has
+the regular expression. Only BRE are allowed. If the regex has
 whitespaces put it in a variable first.
 
     if [[ $string =~ ^[0-9]+$ ]]; then 
         echo "Is a number"
     fi
 
-### Regexp Match Extraction
+### Regex Match Extraction
 
 **Variant \#1:** You can do this with grouping in bash. Despite only BRE
-being supported grouping works also. Note how you need to set the regexp
+being supported grouping works also. Note how you need to set the regex
 into a variable because you must not quote it in the if condition!
 
-    REGEXP="2013:06:23 ([0-9]+):([0-9]+)"
-    if [[ $string =~ $REGEXP ]]; then
+    REGEX="2013:06:23 ([0-9]+):([0-9]+)"
+    if [[ $string =~ $REGEX ]]; then
         echo "Hour ${BASH_REMATCH[1]} Minute ${BASH_REMATCH[2]}"
     fi
 
