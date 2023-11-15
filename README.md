@@ -337,6 +337,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
  - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
  - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
+ - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
  - [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process)
  - [DDD by Examples](https://github.com/ddd-by-examples/library)
  - [Databases Introduction](https://github.com/anhthii/database-notes)
