@@ -231,10 +231,10 @@
     "filePattern": "^content/posts/(.+).md$"
   },
   "Runbooks Example": {
-    "github": "sstafford/ops_runbook",
+    "github": "sstafford/ops_runbook"
   },
   "AWS S3 Python": {
-    "github": "nagwww/aws-s3-book",
+    "github": "nagwww/aws-s3-book"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
