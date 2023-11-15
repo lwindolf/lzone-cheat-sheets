@@ -353,6 +353,9 @@
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping"
   },
+  "DDD Miro Templates": {
+    "github": "ddd-crew/virtual-modelling-templates"
+  },
   "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas"
   },
