@@ -346,5 +346,14 @@
   },
   "DDD by Examples": {
     "github": "ddd-by-examples/library"
+  },
+  "DDD Starter Modelling": {
+    "github": "ddd-crew/ddd-starter-modelling-process"
+  },
+  "DDD Context Mapping": {
+    "github": "ddd-crew/context-mapping"
+  },
+  "Aggregate Design Canvas": {
+    "github": "ddd-crew/aggregate-design-canvas"
   }
 }
