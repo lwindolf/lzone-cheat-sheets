@@ -353,7 +353,13 @@
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping"
   },
-  "Aggregate Design Canvas": {
+  "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas"
+  },
+  "Design: Bounded Context Canvas": {
+    "github": "ddd-crew/bounded-context-canvas"
+  },
+  "Design: Core Domain Charts": {
+    "github": "core-domain-charts"
   }
 }
