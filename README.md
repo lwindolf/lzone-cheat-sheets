@@ -339,6 +339,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel)
  - [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
  - [Docker Getting Started](https://github.com/docker/getting-started)
+ - [ElasticSearch Examples](https://github.com/elastic/examples)
  - [FastAI Fastbook](https://github.com/fastai/fastbook)
  - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
  - [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
