@@ -412,6 +412,12 @@
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
-    "type": "github"
+    "type": "github",
+    "filePattern": "^(.+).md$"
+  },
+  "ElasticSearch Examples": {
+    "github": "elastic/examples",
+    "type": "github",
+    "filePattern": "^(.+).md$"
   }
 }
