@@ -337,5 +337,14 @@
   },
   "Elastic Data Lake Architecture": {
     "github": "gose/elastic-data-lake"
+  },
+  "Architecture Domain Driven Hexagon": {
+    "github": "Sairyss/domain-driven-hexagon"
+  },
+  "Architecture Microservices": {
+    "github": "rodrigorodrigues/microservices-design-patterns"
+  },
+  "DDD by Examples": {
+    "github": "ddd-by-examples/library"
   }
 }
