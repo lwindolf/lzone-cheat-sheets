@@ -3,7 +3,7 @@
     "github": "adambard/learnxinyminutes-docs"
   },
   "Awesome Python": {
-    "github": "vinta/awesome-python"
+    "github": "vinta/awesome-python",
     "filePattern": "^(README).md$"
   },
   "Awesome GraphQL": {
