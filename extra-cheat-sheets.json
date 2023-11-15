@@ -334,5 +334,8 @@
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures"
+  },
+  "Elastic Data Lake Architecture": {
+    "github": "gose/elastic-data-lake"
   }
 }
