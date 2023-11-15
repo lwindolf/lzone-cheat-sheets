@@ -409,4 +409,9 @@
   "Kafka Architecture": {
     "github": "anhthii/kafka-notes",
     "type": "github"
+  },
+  "Databases Introduction": {
+    "github": "anhthii/database-notes",
+    "type": "github"
+  }
 }
