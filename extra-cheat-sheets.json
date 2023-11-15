@@ -405,5 +405,8 @@
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
     "type": "github",
     "filePattern": "^(.+).md$"
-  }
+  },
+  "Kafka Architecture": {
+    "github": "anhthii/kafka-notes",
+    "type": "github"
 }
