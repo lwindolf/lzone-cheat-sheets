@@ -398,6 +398,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Runbooks Security Incident](https://github.com/redar0n/incident-runbook)
  - [SAP Tutorials](https://github.com/sap-tutorials/Tutorials)
  - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+ - [System Design Primer](https://github.com/donnemartin/system-design-primer)
  - [The JS Way](https://github.com/thejsway/thejsway)
  - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
  - [WTFJS](https://github.com/denysdovhan/wtfjs)
