@@ -190,6 +190,10 @@
     "github": "ByteByteGoHq/system-design-101",
     "filePattern": "^(README).md$"
   },
+  "System Design Primer": {
+    "github": "donnemartin/system-design-primer",
+    "filePattern": "^(README.*).md$"
+  },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
     "filePattern": "^docs/(.*)/README.md$"
