@@ -348,6 +348,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel)
  - [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
  - [Docker Getting Started](https://github.com/docker/getting-started)
+ - [Documentation Grafana](https://github.com/grafana/grafana)
  - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
  - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
  - [ElasticSearch Examples](https://github.com/elastic/examples)
