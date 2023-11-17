@@ -369,12 +369,12 @@
   "Design: Core Domain Charts": {
     "github": "core-domain-charts"
   },
-  "Prometheus Docs": {
+  "Documentation Prometheus": {
     "github": "prometheus/docs",
     "filePattern": "^content/docs/(.+).md$"
   },
-  "Documentation Grafana": {
-    "github": "grafana/grafana",
-    "filePattern": "^docs/sources/(.+).md$"
+  "Documentation ArgoCD": {
+    "github": "argoproj/argo-cd",
+    "filePattern": "^docs/(.+).md$"
   }
 }
