@@ -1,6 +1,7 @@
 ## CD Solutions
 
 - ArgoCD
+- CircleCI
 - Concourse
 - Openshift
 - JenkinsX
