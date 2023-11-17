@@ -368,5 +368,9 @@
   },
   "Design: Core Domain Charts": {
     "github": "core-domain-charts"
+  },
+  "Prometheus Docs": {
+    "github": "prometheus/docs",
+    "filePattern": "^content/docs/(.+).md$"
   }
 }
