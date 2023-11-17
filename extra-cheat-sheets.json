@@ -372,5 +372,9 @@
   "Prometheus Docs": {
     "github": "prometheus/docs",
     "filePattern": "^content/docs/(.+).md$"
+  },
+  "Documentation Grafana": {
+    "github": "grafana/grafana",
+    "filePattern": "^docs/sources/(.+).md$"
   }
 }
