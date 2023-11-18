@@ -32,6 +32,7 @@ related:
 
 ## Development
 
+    npm login            # Login to registry
     npm init             # Create new package
 
     npm publish
