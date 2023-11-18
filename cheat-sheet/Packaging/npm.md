@@ -35,9 +35,6 @@ related:
     npm init             # Create new package
     npm login            # Login to npmjs.com registry
 
-    # Scoped login to alternative registry
-    npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
-
     npm publish
     npm unpublish <package>
 
@@ -48,6 +45,17 @@ related:
     npm owner ls <package>
 
     npm start            # Start an app
+
+## Alternative registries
+
+    # Scoped login to alternative registry
+    npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
+
+Set publish target in `package.json`
+
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
 
 ## Using npm modules for clients
 
