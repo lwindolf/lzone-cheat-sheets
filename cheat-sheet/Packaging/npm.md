@@ -32,8 +32,11 @@ related:
 
 ## Development
 
-    npm login            # Login to registry
     npm init             # Create new package
+    npm login            # Login to npmjs.com registry
+
+    # Scoped login to alternative registry
+    npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
 
     npm publish
     npm unpublish <package>
