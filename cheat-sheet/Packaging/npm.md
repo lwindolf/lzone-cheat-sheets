@@ -48,7 +48,8 @@ related:
 
 ## Alternative registries
 
-    # Scoped login to alternative registry
+Scoped login to alternative registry
+
     npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
 
 Set publish target in `package.json`
