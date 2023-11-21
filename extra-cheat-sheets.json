@@ -235,6 +235,9 @@
     "github": "MicrosoftDocs/architecture-center",
     "filePattern": "^docs/(.+).md$"
   },
+  "Architecture Books": {
+    "github": "mhadidg/software-architecture-books"
+  },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+).md$"
