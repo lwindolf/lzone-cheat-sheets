@@ -157,6 +157,9 @@
     "github": "shashank88/system_design",
     "filePattern": "^(.+).md$"
   },
+  "Interview Questions: System Design and Architecture": {
+    "github": "puncsky/system-design-and-architecture"
+  },
   "Interview Questions: Java": {
     "github": "in28minutes/interview-guide",
     "filePattern": "^(.+).md$"
