@@ -335,6 +335,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Awesome Security](https://github.com/zbetcheckin/Security_list)
  - [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security)
  - [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
+ - [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook)
  - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
  - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
  - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
