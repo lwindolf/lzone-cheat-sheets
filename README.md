@@ -410,6 +410,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Xapax Security](https://github.com/xapax/security)
  - [devhints.io](https://github.com/rstacruz/cheatsheets)
  - [eg Cheat Sheets](https://github.com/srsudar/eg)
+ - [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad)
  - [k8s Istio Tutorial](https://github.com/kelseyhightower/istio-ingress-tutorial)
  - [k8s NetworkPolicy Tutorial](https://github.com/networkpolicy/tutorial)
  - [k8s Nomand Tutorial](https://github.com/kelseyhightower/nomad-on-kubernetes)
