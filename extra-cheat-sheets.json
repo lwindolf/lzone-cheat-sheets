@@ -230,6 +230,9 @@
     "github": "xapax/security",
     "filePattern": "^docs/(.+).md$"
   },
+  "Awesome Azure Architecture": {
+    "github": "lukemurraynz/awesome-azure-architecture"
+  },
   "MS Azure Security": {
     "github": "MicrosoftDocs/security",
     "filePattern": "^(.+).md$"
