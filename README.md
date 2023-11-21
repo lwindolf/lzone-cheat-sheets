@@ -383,6 +383,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Little Go Book](https://github.com/karlseguin/the-little-go-book)
  - [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book)
  - [Little Redis Book](https://github.com/karlseguin/the-little-redis-book)
+ - [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center)
  - [MS Azure Security](https://github.com/MicrosoftDocs/security)
  - [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
  - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
