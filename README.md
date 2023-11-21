@@ -339,6 +339,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
  - [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook)
  - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
+ - [CSS Architecture](https://github.com/jareware/css-architecture)
  - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
  - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
  - [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process)
