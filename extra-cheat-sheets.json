@@ -401,5 +401,8 @@
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+).md$"
+  },
+  "Scalable SW Architecture": {
+    "github": "Developer-Y/Scalable-Software-Architecture"
   }
 }
