@@ -325,6 +325,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns)
  - [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns)
  - [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
+ - [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture)
  - [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses)
  - [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security)
  - [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
