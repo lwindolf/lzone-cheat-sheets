@@ -185,6 +185,9 @@
     "github": "harbur/tekton-tutorial",
     "filePattern": "^(.+).md$"
   },
+  "k8s CKAD Tutorial": {
+    "github": "madhank93/learn-k8s-ckad"
+  },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
     "filePattern": "^([^/]+)/README.md$"
