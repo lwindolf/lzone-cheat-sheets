@@ -189,6 +189,9 @@
     "github": "rasbt/python-machine-learning-book-3rd-edition",
     "filePattern": "^([^/]+)/README.md$"
   },
+  "IMDB Data in the Terminal": {
+    "github": "vvijayan1/imdb_data_on_terminal"
+  },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
     "filePattern": "^(README).md$"
@@ -284,6 +287,9 @@
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
     "filePattern": "^(.+).md$"
+  },
+  "Javascript NPM with ES Modules": {
+    "github": "transitive-bullshit/npm-es-modules"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
