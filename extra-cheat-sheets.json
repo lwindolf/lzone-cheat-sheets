@@ -410,5 +410,8 @@
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture"
+  },
+  "Markdown Architecture Records": {
+    "github": "adr/madr"    
   }
 }
