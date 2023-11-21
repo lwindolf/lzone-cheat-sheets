@@ -238,6 +238,9 @@
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books"
   },
+  "Architecture Enterprise Patterns": {
+    "github": "chanakaudaya/solution-architecture-patterns"
+  },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+).md$"
