@@ -320,6 +320,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops)
  - [AWSCookbook Security](https://github.com/AWSCookbook/Security)
  - [Ansible Tutorial](https://github.com/leucos/ansible-tuto)
+ - [Architecture Books](https://github.com/mhadidg/software-architecture-books)
  - [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
  - [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns)
  - [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
