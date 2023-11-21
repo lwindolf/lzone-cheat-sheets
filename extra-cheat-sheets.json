@@ -59,6 +59,9 @@
   "Bash Handbook": {
     "github": "denysdovhan/bash-handbook"
   },
+  "Bash Streams Handbook": {
+    "github": "miguelmota/bash-streams-handbook"
+  },
   "Learn Vim": {
     "github": "iggredible/Learn-Vim"
   },
