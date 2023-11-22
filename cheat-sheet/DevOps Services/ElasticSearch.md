@@ -4,6 +4,7 @@ Generic endpoint is on port 9200
 
 ### Cluster Status
 
+    /                          # to get ElasticSearch version
     /_cat/health?v
     /_cat/nodes?v
     /_cat/indices?v
