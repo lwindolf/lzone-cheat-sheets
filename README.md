@@ -354,6 +354,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
  - [Docker Getting Started](https://github.com/docker/getting-started)
  - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
+ - [Documentation Grafana Loki](https://github.com/grafana/loki)
  - [Documentation Prometheus](https://github.com/prometheus/docs)
  - [Documentation Telegraf](https://github.com/influxdata/telegraf)
  - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
