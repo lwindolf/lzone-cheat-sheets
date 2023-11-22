@@ -416,5 +416,9 @@
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf"
+  },
+  "Documentation Grafana Loki": {
+    "github": "grafana/loki",
+    "filePattern": "^docs/sources/(.+).md$"
   }
 }
