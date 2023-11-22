@@ -413,5 +413,8 @@
   },
   "Markdown Architecture Records": {
     "github": "adr/madr"    
+  },
+  "Documentation Telegraf": {
+    "github": "influxdata/telegraf"
   }
 }
