@@ -420,5 +420,8 @@
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
     "filePattern": "^docs/sources/(.+).md$"
+  },
+  "Excel Cheat Sheet": {
+    "github": "emanuelefavero/excel"
   }
 }
