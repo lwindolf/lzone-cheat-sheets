@@ -423,5 +423,8 @@
   },
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel"
+  },
+  "SRE Cheat Sheet": {
+    "github": "anshudutta/sre-cheat-sheet"
   }
 }
