@@ -15,11 +15,14 @@ Settings are stored in ~/.kube/config
 Note: all `kubectl` commands also work with the `oc` client. 
 
     oc login [<cluster>]
+    oc login --username=<user>
+    
     oc projects              # List projects
     oc project <project>     # Switch project
     oc new-project <project>
-    oc whoami -t             # Get current session API token
     
+    oc whoami -t             # Get current session API token
+
 Creating application from remote repo
 
     oc new-app https://github.com/name/project
@@ -91,20 +94,6 @@ Check the API server logs to detect cert errors
     
     oc adm policy add-scc-to-user anyuid -z runasanyuid --as system:admin      # Allow a user a new SCC
 
-## Initial Setup
-
-Commands derived from [jaxenter.com](https://jaxenter.com/manage-container-resource-kubernetes-141977.html) for Openshift:
-
-### Set initial admin pwd
-
-Either use
-
-    oc login -u system:admin
-
-or create credential on master
-
-    sudo htpasswd -b /etc/openshift/openshift-passwd admin <your_pass>
-
 ### Print per cluster node resource usage
 
     oc get nodes --no-headers | awk '{print $1}' | xargs -I {} sh -c 'echo {}; oc describe node {} | grep Allocated -A 5 | grep -ve Event -ve Allocated -ve percent -ve -- ; echo'
@@ -126,10 +115,6 @@ Create a template from an existing project
 Note that the resulting JSON will have no parameters yet. You'll have to 
 identify places to replace with parameters (syntax is "${PARAMETER}") and
 to declare those parameters.
-
-## Orchestration
-
-- [Using Terraform with Openshift](https://medium.com/@fabiojose/platform-as-code-with-openshift-terraform-1da6af7348ce)
 
 ## Configuring Registries
 
