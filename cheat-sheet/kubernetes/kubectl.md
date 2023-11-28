@@ -46,19 +46,21 @@ Removing/Readding nodes
 
 ## Creating/manipulating resources
 
+Working with file based definitions you can issue the lifecycle commands using the same input file:
+
     kubectl create -f some.json
-    kubectl delete -f some.json                   # Useful to delete the same resources with the same YAML!
+    kubectl apply  -f some.json
+    kubectl diff   -f some.json
+    kubectl delete -f some.json
+
+Note that you can alway use `--dry-run` to review the effective changes
+
+For existing resources you can use specific commands
     
     kubectl edit <type> <resource>                # Edit live, will automatically restart stuff
-
-    kubectl get rc <node> -o yaml >some.yaml
-    kubectl update -f some.yaml
-    
+    kubectl delete <type> <resource>
+   
     kubectl annotate <type> <name> [--overwrite=true] key=value
-
-    kubectl delete pod -l name=<name>
-    kubectl delete services &lt;service>
-    kubectl delete deployment &lt;application>
 
     kubectl run-container <name> --image=<image> --port=<port>
 
@@ -69,13 +71,7 @@ Removing/Readding nodes
     kubectl set env deployment/<name> <environment variable>=<value>
     kubectl set env deployment/<name> --list
     kubectl set env pods --all --list
-
-## Testing kubectl Commands
-
-Several commands allow passing "--dry-run" to test impact
-
-    kubectl run --dry-run [...]
-    
+   
 ## Debugging in Pods
 
 Running commands in pods
