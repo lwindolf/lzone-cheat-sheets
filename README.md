@@ -331,6 +331,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
  - [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql)
  - [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+ - [Awesome OpenPolicyAgent](https://github.com/StyraInc/awesome-opa)
  - [Awesome Programming Projects](https://github.com/practical-tutorials/project-based-learning)
  - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
  - [Awesome Python](https://github.com/vinta/awesome-python)
