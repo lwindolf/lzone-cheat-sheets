@@ -59,3 +59,7 @@ Delete an element (not that is unsafe and might not do what you want!)
     do
       printf "%s\n" "$k=${array[$k]}"
     done
+
+### Checking for Keys 
+
+    [ "${arr[$key]+test}" ] && echo "Key $key exists."
