@@ -3,7 +3,9 @@ related:
   cheat-sheet: ['Bash Regex', 'Bash Associative Array', 'Bash Functions']
 ---
 
-## String Manipulation
+## Parameter Expansion
+
+### Manipulating Strings
 
     ${str:position}         # substring starting at position
     ${str:position:len}     # substring starting at position with length len
@@ -18,15 +20,7 @@ related:
     ${str^^}                # convert to UPPER-CASE
     ${str,,}                # convert to lower-case
 
-Splitting
-
-    IFS=: read field1 field2 rest <<<"$input_line"       # Split single line colon separated string
-    
-    while IFS=\; read col1 col2 col3 rest; do            # Read in CSV values
-       echo "c1=$c1 c2=$c2 c3=$c3."
-    done <<<"$csv"            
-
-## Parameter Substituion
+### Handling default / unset / null values
 
     ${str-default}             # set 'default' if not set
     ${str:-default}            # set 'default' if not set (even if declared null)
@@ -40,7 +34,34 @@ Splitting
     ${str?error}               # abort with 'error' if not set
     ${str:?error}              # abort with 'error' if not set (and not null)
 
-## Variables
+### Transformations
+
+Bash v4.2 only
+
+    ${str@U}                   # Uppercase entire string
+    ${str@u}                   # Uppercase first char
+    ${str@L}                   # Lowercase entire string
+    
+    ${str@Q}                   # Escape string so it can be safely used for input
+    ${str@E}                   # Escape with backslash escape sequences
+    ${str@P}                   # Escape for use in prompt
+
+    ${str@K}                   # Expand arrays to quoted key/value pairs
+    ${str@k}                   # Like the K but outputs words
+
+    ${str@A}                   # If $str contains "abc" will expand to >>str='abc'<<<
+    ${str@a}                   # Returns parameter attributes (e.g. 'r' for readonly)
+
+
+## Reading Structured Data
+
+    IFS=: read field1 field2 rest <<<"$input_line"       # Split single line colon separated string
+    
+    while IFS=\; read col1 col2 col3 rest; do            # Read in CSV values
+       echo "c1=$c1 c2=$c2 c3=$c3."
+    done <<<"$csv"            
+
+## Declaring Variables and Types
 
     readonly a                 # readonly variable
     unset a                    # delete variable
