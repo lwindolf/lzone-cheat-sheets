@@ -43,6 +43,7 @@ All SaaS
 -   OpsGenie
 -   AlertOps
 -   iLert
+-   [Upptime](https://github.com/upptime/upptime) (free, Github Pages based)
 
 ## DNS, Ping
 
