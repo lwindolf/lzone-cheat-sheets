@@ -35,49 +35,55 @@ related:
   
 ## Alarming / Paging / SMS Notification
 
-All SaaS
+SaaS Solutions:
 
--   PagerDuty
--   VictorOps
--   BigPanda
--   OpsGenie
--   AlertOps
--   iLert
--   [Upptime](https://github.com/upptime/upptime) (free, Github Pages based)
+- PagerDuty
+- VictorOps
+- BigPanda
+- OpsGenie
+- AlertOps
+- iLert
+
+## Status Page
+
+SaaS Solutions:
+
+- https://status.io
+- https://statuspage.io
+- https://pingdom.com
+- https://cachethq.io/
+- https://statusgator.com/
+- [Upptime](https://github.com/upptime/upptime) (free, Github Pages based)
 
 ## DNS, Ping
 
--   [SmokePing - Monitoring network latency and
-    loss](http://oss.oetiker.ch/smokeping/)
+- [SmokePing - Monitoring network latency and loss](http://oss.oetiker.ch/smokeping/)
 
 ## Network Mapping
 
 Mapping Solutions
 
--   [NMPs
-    Overview](http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html#nmp-tool)
--   [FrameFlow](http://www.frameflow.com/)
--   [Solarwinds Topology
-    Mapper](http://www.solarwinds.com/network-topology-mapper.aspx)
--   [ScienceLogic
-    CloudMapper](http://www.sciencelogic.com/product/cloudmapper)
+- [NMPs Overview](http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html#nmp-tool)
+- [FrameFlow](http://www.frameflow.com/)
+- [Solarwinds Topology Mapper](http://www.solarwinds.com/network-topology-mapper.aspx)
+- [ScienceLogic CloudMapper](http://www.sciencelogic.com/product/cloudmapper)
 
 Network Forensics
 
--   [TNV: network visualizer](http://tnv.sourceforge.net/)
--   [Netgrok](http://www.cs.umd.edu/projects/netgrok/)
+- [TNV: network visualizer](http://tnv.sourceforge.net/)
+- [Netgrok](http://www.cs.umd.edu/projects/netgrok/)
 
 ## Host-based Service Monitoring
 
 Self-hosted:
 
--   Nagios
--   Icinga 2
--   check_mk
--   Shinken
--   Splunk
--   [Sensu](https://sensuapp.org/)
--   Groundworks 
+- Nagios
+- Icinga 2
+- check_mk
+- Shinken
+- Splunk
+- [Sensu](https://sensuapp.org/)
+- Groundworks 
 
 Saas APMs:
 
@@ -91,7 +97,6 @@ Saas APMs:
 - Instana
 - [SignalFX](https://signalfx.com/)
 - [SemaText](https://sematext.com/) (Metrics & Logs combined, correlation, Influx DB API for metrics, Elasticsearch API for logs)
-
 
 ## Docker/Kubernetes
 
