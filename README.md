@@ -227,7 +227,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solutions Monitoring'>Solutions Monitoring</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solutions NoSQL'>Solutions NoSQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solutions Virtualization'>Solutions Virtualization</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Status Pages'>Status Pages</a>
 <br/><span class='group'><b>Windows</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PowerShell'>PowerShell</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/WSL'>WSL</a>
