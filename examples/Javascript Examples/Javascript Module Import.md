@@ -12,7 +12,7 @@ If you download packages via `npm` check the `node_modules/<name>/dist` director
 
 Now there are two variants depending on the module having a default export or not:
 
-1. `import * as Example from "./example.js";`
-2. `import { Example } from "./example.js";`
+1. `import * as Example from "./example.esm.js";`
+2. `import { Example } from "./example.esm.js";`
 
 Check the `export` statement in the module wether it has `as default` or not. If yes, use variant #1.
