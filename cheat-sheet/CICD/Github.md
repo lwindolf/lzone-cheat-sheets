@@ -226,3 +226,7 @@ To use public/private images from an external registry define `container
         credentials:
           username: myuser
           password: ${{ secrets.mysecret }}
+
+## Run GH Actions locally
+
+[https://github.com/nektos/act](https://github.com/nektos/act)
