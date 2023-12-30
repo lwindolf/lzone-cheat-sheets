@@ -529,5 +529,8 @@
   "MDN xslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xslt/(.+).md$"
+  },
+  "Documentation kubebench": {
+    "github": "aquasecurity/kube-bench"
   }
 }
