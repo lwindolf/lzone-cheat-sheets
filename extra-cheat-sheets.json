@@ -429,5 +429,105 @@
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet"
+  },
+  "MDN accessibility": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/accessibility/(.+).md$"
+  },
+  "MDN api": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/api/(.+).md$"
+  },
+  "MDN css": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/css/(.+).md$"
+  },
+  "MDN demos": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/demos/(.+).md$"
+  },
+  "MDN events": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/events/(.+).md$"
+  },
+  "MDN exslt": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/exslt/(.+).md$"
+  },
+  "MDN guide": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/guide/(.+).md$"
+  },
+  "MDN html": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/html/(.+).md$"
+  },
+  "MDN http": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/http/(.+).md$"
+  },
+  "MDN javascript": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/javascript/(.+).md$"
+  },
+  "MDN manifest": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/manifest/(.+).md$"
+  },
+  "MDN mathml": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/mathml/(.+).md$"
+  },
+  "MDN media": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/media/(.+).md$"
+  },
+  "MDN opensearch": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/opensearch/(.+).md$"
+  },
+  "MDN performance": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/performance/(.+).md$"
+  },
+  "MDN privacy": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/privacy/(.+).md$"
+  },
+  "MDN progressive_web_apps": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/progressive_web_apps/(.+).md$"
+  },
+  "MDN security": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/security/(.+).md$"
+  },
+  "MDN svg": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/svg/(.+).md$"
+  },
+  "MDN text_fragments": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/text_fragments/(.+).md$"
+  },
+  "MDN tutorials": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/tutorials/(.+).md$"
+  },
+  "MDN webdriver": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/webdriver/(.+).md$"
+  },
+  "MDN xml": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/xml/(.+).md$"
+  },
+  "MDN xpath": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/xpath/(.+).md$"
+  },
+  "MDN xslt": {
+    "github": "mdn/content",
+    "filePattern": "^content/files/en-us/web/xslt/(.+).md$"
   }
 }
