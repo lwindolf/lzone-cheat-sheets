@@ -435,108 +435,139 @@
   },
   "MDN accessibility": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/accessibility/(.+).md$"
+    "filePattern": "^files/en-us/web/accessibility/(.+).md$",
+    "category": "Web"
   },
   "MDN api": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/api/(.+).md$"
+    "filePattern": "^files/en-us/web/api/(.+).md$",
+    "category": "Web"
   },
   "MDN css": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/css/(.+).md$"
+    "filePattern": "^files/en-us/web/css/(.+).md$",
+    "category": "Web"
   },
   "MDN demos": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/demos/(.+).md$"
+    "filePattern": "^files/en-us/web/demos/(.+).md$",
+    "category": "Web"
   },
   "MDN events": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/events/(.+).md$"
+    "filePattern": "^files/en-us/web/events/(.+).md$",
+    "category": "Web"
   },
   "MDN exslt": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/exslt/(.+).md$"
+    "filePattern": "^files/en-us/web/exslt/(.+).md$",
+    "category": "Web"
   },
   "MDN guide": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/guide/(.+).md$"
+    "filePattern": "^files/en-us/web/guide/(.+).md$",
+    "category": "Web"
   },
   "MDN html": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/html/(.+).md$"
+    "filePattern": "^files/en-us/web/html/(.+).md$",
+    "category": "Web"
   },
   "MDN http": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/http/(.+).md$"
+    "filePattern": "^files/en-us/web/http/(.+).md$",
+    "category": "Web"
   },
   "MDN javascript": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/javascript/(.+).md$"
+    "filePattern": "^files/en-us/web/javascript/(.+).md$",
+    "category": "Web"
   },
   "MDN manifest": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/manifest/(.+).md$"
+    "filePattern": "^files/en-us/web/manifest/(.+).md$",
+    "category": "Web"
   },
   "MDN mathml": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/mathml/(.+).md$"
+    "filePattern": "^files/en-us/web/mathml/(.+).md$",
+    "category": "Web"
   },
   "MDN media": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/media/(.+).md$"
+    "filePattern": "^files/en-us/web/media/(.+).md$",
+    "category": "Web"
   },
   "MDN opensearch": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/opensearch/(.+).md$"
+    "filePattern": "^files/en-us/web/opensearch/(.+).md$",
+    "category": "Web"
   },
   "MDN performance": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/performance/(.+).md$"
+    "filePattern": "^files/en-us/web/performance/(.+).md$",
+    "category": "Web"
   },
   "MDN privacy": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/privacy/(.+).md$"
+    "filePattern": "^files/en-us/web/privacy/(.+).md$",
+    "category": "Web"
   },
   "MDN progressive_web_apps": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/progressive_web_apps/(.+).md$"
+    "filePattern": "^files/en-us/web/progressive_web_apps/(.+).md$",
+    "category": "Web"
   },
   "MDN security": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/security/(.+).md$"
+    "filePattern": "^files/en-us/web/security/(.+).md$",
+    "category": "Web"
   },
   "MDN svg": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/svg/(.+).md$"
+    "filePattern": "^files/en-us/web/svg/(.+).md$",
+    "category": "Web"
   },
   "MDN text_fragments": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/text_fragments/(.+).md$"
+    "filePattern": "^files/en-us/web/text_fragments/(.+).md$",
+    "category": "Web"
   },
   "MDN tutorials": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/tutorials/(.+).md$"
+    "filePattern": "^files/en-us/web/tutorials/(.+).md$",
+    "category": "Web"
   },
   "MDN webdriver": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/webdriver/(.+).md$"
+    "filePattern": "^files/en-us/web/webdriver/(.+).md$",
+    "category": "Web"
   },
   "MDN xml": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xml/(.+).md$"
+    "filePattern": "^files/en-us/web/xml/(.+).md$",
+    "category": "Web"
   },
   "MDN xpath": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xpath/(.+).md$"
+    "filePattern": "^files/en-us/web/xpath/(.+).md$",
+    "category": "Web"
   },
   "MDN xslt": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xslt/(.+).md$"
+    "filePattern": "^files/en-us/web/xslt/(.+).md$",
+    "category": "Web"
   },
   "Documentation kubebench": {
-    "github": "aquasecurity/kube-bench"
+    "github": "aquasecurity/kube-bench",
+    "category": "Documentation"
   },
   "Free Tier SaaS List": {
-    "github": "ripienaar/free-for-dev"
+    "github": "ripienaar/free-for-dev",
+    "category": "SaaS"
+  },
+  "Favicon Cheat Sheet": {
+    "github": "audreyfeldroy/favicon-cheat-sheet",
+    "category": "Web"
   }
 }
