@@ -365,6 +365,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [ElasticSearch Examples](https://github.com/elastic/examples)
  - [Excel Cheat Sheet](https://github.com/emanuelefavero/excel)
  - [FastAI Fastbook](https://github.com/fastai/fastbook)
+ - [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet)
  - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
  - [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev)
  - [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
