@@ -337,6 +337,9 @@
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md"
   },
+  "Docker Cheat Sheet": {
+    "github": "wsargent/docker-cheat-sheet"
+  },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "filePattern": "^(README).md$"
