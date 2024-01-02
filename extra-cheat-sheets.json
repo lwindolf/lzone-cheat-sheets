@@ -252,18 +252,26 @@
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
-    "filePattern": "^content/runbooks/(.+).md$"
+    "filePattern": "^content/runbooks/(.+).md$",
+    "category": "SRE"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
-    "filePattern": "^alerts/(.+).md$"
+    "filePattern": "^alerts/(.+).md$",
+    "category": "SRE"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
-    "filePattern": "^content/posts/(.+).md$"
+    "filePattern": "^content/posts/(.+).md$",
+    "category": "SRE"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook"
+    "category": "SRE"
+  },
+  "Runbooks Concept": {
+    "github": "iworkforthem/runbook",
+    "category": "SRE"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book"
