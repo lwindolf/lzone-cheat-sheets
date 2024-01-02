@@ -573,5 +573,10 @@
   "Favicon Cheat Sheet": {
     "github": "audreyfeldroy/favicon-cheat-sheet",
     "category": "Web"
+  },
+  "Documentation Linode": {
+    "github": "linode/docs",
+    "filePatern": "^doc/(.+)/index.md",
+    "category": "SaaS"
   }
 }
