@@ -359,6 +359,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Documentation Grafana Loki](https://github.com/grafana/loki)
  - [Documentation Prometheus](https://github.com/prometheus/docs)
  - [Documentation Telegraf](https://github.com/influxdata/telegraf)
+ - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
  - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
  - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
  - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
