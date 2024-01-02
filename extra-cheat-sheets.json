@@ -532,5 +532,8 @@
   },
   "Documentation kubebench": {
     "github": "aquasecurity/kube-bench"
+  },
+  "Free Tier SaaS List": {
+    "github": "ripienaar/free-for-dev"
   }
 }
