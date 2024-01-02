@@ -558,6 +558,10 @@
     "filePattern": "^files/en-us/web/xslt/(.+).md$",
     "category": "Web"
   },
+  "Documentation docker-bench-security": {
+    "github": "docker/docker-bench-security",
+    "category": "Documentation"
+  },
   "Documentation kubebench": {
     "github": "aquasecurity/kube-bench",
     "category": "Documentation"
