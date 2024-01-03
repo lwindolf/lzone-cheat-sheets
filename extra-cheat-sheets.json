@@ -586,5 +586,10 @@
     "github": "linode/docs",
     "filePatern": "^doc/(.+)/index.md",
     "category": "SaaS"
+  },
+  "Nature of Code": {
+    "github": "nature-of-code/noc-book-2023",
+    "filePattern": "^content/(.+).html$",
+    "category": "Programming"
   }
 }
