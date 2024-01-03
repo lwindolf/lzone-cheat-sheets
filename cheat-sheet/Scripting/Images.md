@@ -4,6 +4,10 @@ This sheet cheat is about manipulating images (as in pictures).
 
 In the commands below `<input>` is the name of the input file and `<output>` of the output file to be created
 
+### Show Image Properties
+
+    identify -verbose <input>
+
 ### Resizing
 
     convert <input> -resize 2000x1000 <output>     # Target image will fit in 2000x1000 (but might be smaller, keeps aspects)
@@ -25,10 +29,16 @@ or when downscaling PNG/JPG you might enforce a high quality like this
 
     convert <input> -resize <size> -quality 95 <output>
     
-## Convert Images to PDF
+### Convert Images to PDF
 
     convert <image1> <image2> output.pdf
 
 For this to work you might need to change a policy file (that disables Ghostscript):
 
     sudo sed -i '/policy domain="coder" rights="none" pattern="PDF"/d' /etc/ImageMagick-6/policy.xml
+
+### CMYK Conversion
+
+    convert rgb_image.jpg -profile USCoat.icm cmyk_image.jpg
+
+For more details check out [https://legacy.imagemagick.org/Usage/formats/#profiles](https://legacy.imagemagick.org/Usage/formats/#profiles)
