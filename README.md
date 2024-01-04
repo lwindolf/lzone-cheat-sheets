@@ -120,6 +120,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/MongoDB'>MongoDB</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/MySQL'>MySQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/NFS'>NFS</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/NTP'>NTP</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Nodejs'>Nodejs</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/OAuth'>OAuth</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PgBouncer'>PgBouncer</a>
