@@ -61,6 +61,14 @@ Check CPU freq governor
 Check SCHED_ISO settings
 
     cat /proc/sys/kernel/iso_cpu
+    
+Check if CFS is default scheduler
+
+    grep cfs_rq /proc/sched_debug
+    
+Check if there are processes not running with CFS (SCHED_OTHER)
+
+    ps -ef|grep [0-9]|awk '\{system("chrt -p " $2);print $0}' | grep -Ev 'priority|SCHED_OTHER' |grep -A1 SCHED
 
 #### Metrics
 
@@ -120,13 +128,3 @@ Machine readable: you need to use sadf
 -   Running parallel SSH sessions using xargs
 
         echo "$hosts" | xargs --replace={} -t -n 1 -P 15 sh -c "ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=publickey {} date || :"
-
-## Linux CPU Scheduler
-
-Check if CFS is default scheduler
-
-    grep cfs_rq /proc/sched_debug
-    
-Check if there are processes not running with CFS (SCHED_OTHER)
-
-    ps -ef|grep [0-9]|awk '\{system("chrt -p " $2);print $0}' | grep -Ev 'priority|SCHED_OTHER' |grep -A1 SCHED
