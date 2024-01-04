@@ -121,19 +121,6 @@ Machine readable: you need to use sadf
 
         echo "$hosts" | xargs --replace={} -t -n 1 -P 15 sh -c "ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=publickey {} date || :"
 
-## Runlevel
-
--   update-rc.d Examples
-
-        update-rc.d apache2 defaults          # creates S20/K20 links
-        update-rc.d apache2 defaults <nr>       # S<nr>/K<nr>
-        update-rc.d apache2 defaults <nr1> <nr2>  # S<nr1>/K<nr2>
-
-        # Really specific 
-        update-rc.d apache2 start 20 2 3 4 5 . stop 80 0 1 6 .
-
-        update-rc.d -f apache2 remove             # Cleanup
-
 ## Linux CPU Scheduler
 
 Check if CFS is default scheduler
