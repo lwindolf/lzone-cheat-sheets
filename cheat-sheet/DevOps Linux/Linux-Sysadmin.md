@@ -9,13 +9,13 @@ related:
 
 Commands
 
-        lsusb
-        lspci
-        lsha
-        dmidecode
-        dmidecode -s system-product-name
-        hdparm -I /dev/....
-        smartctl -a /dev/...
+    lsusb
+    lspci
+    lsha
+    dmidecode
+    dmidecode -s system-product-name
+    hdparm -I /dev/....
+    smartctl -a /dev/...
 
 ### Performance
 
