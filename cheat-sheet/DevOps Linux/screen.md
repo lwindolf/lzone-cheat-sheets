@@ -7,6 +7,7 @@
     screen -x <name>             # Attach to named instance
     
     screen -ls                   # Show instances
+    screen -ls <user name>/      # Show instances for user
 
 ## Initial layout using .screenrc
 
@@ -46,3 +47,22 @@ Here is a side by side comparison of screen and tmux commands and hotkeys.
  | Paging              |                                         |\^b PgUp \^b PgDown
  | Scrolling Mode      |\^a [                                    |\^b [
 
+
+## Allow login of other users
+
+Preparation in running session
+
+    Ctrl-A :multiuser on
+    Ctrl-A :acladd <user to grant access>
+
+Attach to other users screen session
+
+    screen -x <user name>/<session name>
+    screen -x <user name>/<pid>.<ptty>.<host>
+
+## [Solve "Cannot open your terminal '/dev/pts/0'"](https://makandracards.com/makandra/2533-solve-screen-error-cannot-open-your-terminal-dev-pts-0-please-check):
+
+Sign in as user who opened the screen
+
+    script /dev/null
+    screen -x
