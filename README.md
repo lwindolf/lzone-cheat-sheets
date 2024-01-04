@@ -188,6 +188,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/gradle'>gradle</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/maven'>maven</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/npm'>npm</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/pacman'>pacman</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/pip'>pip</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/rvm'>rvm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/snap'>snap</a>
