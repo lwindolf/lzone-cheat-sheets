@@ -153,27 +153,6 @@ Machine readable: you need to use sadf
         iconv -c -t ASCII input.txt
         iconv -c -t latin1 input.txt
 
--   screen - Detect other users sessions
-
-        screen -ls <user name>/
-
--   screen - Allow othe users in our screen
-
-        Ctrl-A :multiuser on
-        Ctrl-A :acladd <user to grant access>
-
--   screen - Attach to other users screen session
-
-        screen -x <user name>/<session name>
-        screen -x <user name>/<pid>.<ptty>.<host>
-
--   screen - [Solve "Cannot open your terminal
-    '/dev/pts/0'"](http://makandracards.com/makandra/2533-solve-screen-error-cannot-open-your-terminal-dev-pts-0-please-check):
-
-        # Sign in as user who opened the screen
-        script /dev/null
-        screen -x
-
 -   rsyslog - Modify rate imux limiting
 
         $SystemLogRateLimitInterval 2
