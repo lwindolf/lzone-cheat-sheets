@@ -100,6 +100,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/sops'>sops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/strace'>strace</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sudo'>sudo</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/supervisor'>supervisor</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/systemd'>systemd</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/systemtap'>systemtap</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/ulimit'>ulimit</a>
