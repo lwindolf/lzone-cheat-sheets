@@ -133,17 +133,6 @@ Machine readable: you need to use sadf
 
       find . -xtype l
 
--   supervisor - Start CLI with
-
-        supervisorctl
-
-    CLI Commands
-
-        start <name>
-        stop <name>
-        restart all
-        tail <name>   # JSON log
-
 -   pv - Visualize pipe progress:
 
         pv -cN source < linux-3.4.0.tar.bz2 | bzcat | pv -cN bzcat | gzip -9 | pv -cN gzip > linux-3.4.0.tar.gz
