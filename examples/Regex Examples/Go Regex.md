@@ -1,21 +1,20 @@
 First import the regexp package
 
-<pre>import regexp</pre>
+    import regexp
 
-<h3>Matching</h3>
+## Matching
 
-<pre>match, _ := regexp.MatchString("[a-zA-Z0-9]+", input)</pre>
+    match, _ := regexp.MatchString("[a-zA-Z0-9]+", input)
 
 match will be true if the pattern matches. To return the first match as string use
 
-<pre>matchstr := regexp.FindString("([a-zA-Z0-9]+)", input)</pre>
+    matchstr := regexp.FindString("([a-zA-Z0-9]+)", input)
 
 To return all matches:
 
-<pre>matches := regexp.FindAllString("([a-zA-Z0-9]+)", input)</pre>
+    matches := regexp.FindAllString("([a-zA-Z0-9]+)", input)
 
-
-<h3>Matching Methods</h3>
+## Matching Methods
 
 There are different matching methods
 
@@ -67,25 +66,25 @@ FindAllStringSubmatchIndex<br/>
 </tr>
 </table>
 
-<h3>Replacing</h3>
+## Replacing
 
 To replace text use ReplaceAll or ReplaceAllString
 
-<pre>func (re *Regexp) ReplaceAll(src, repl []byte) []byte
-func (re *Regexp) ReplaceAllString(src, repl string) string</pre>
+    func (re *Regexp) ReplaceAll(src, repl []byte) []byte
+    func (re *Regexp) ReplaceAllString(src, repl string) string
 
 e.g.
 
-<pre>result := regexp.Compile("\s+").ReplaceAllString(input, " ")</pre>
+    result := regexp.Compile("\s+").ReplaceAllString(input, " ")
 
 to collapse all whitespaces
 
-<h3>Precompiled expressions</h3>
+## Precompiled expressions
 
 Create expression with
 
-<pre>r, _ := regexp.Compile("[a-zA-Z0-9]+")</pre>
+    r, _ := regexp.Compile("[a-zA-Z0-9]+")
 
 and use it in method form
 
-<pre>r.MatchString(input)</pre>
+    r.MatchString(input)
