@@ -82,6 +82,4 @@ related:
 -   [Jetty Tuning](https://wiki.eclipse.org/Jetty/Howto/High_Load#TCP_Buffer_Sizes)
     - Network sysctl settings
 -   [Squid - Quick Test Proxy Setup](blog/How to Quickly Set up Squid)
--   Determine redirect URLs
 
-        curl -Ls -w %{url_effective} -o /dev/null <URL>
