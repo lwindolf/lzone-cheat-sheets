@@ -2,22 +2,26 @@
 
 As the actual use of regular expressions is quite language specific there are separate cheat sheets:
 
-*   [Bash](/cheat-sheet/Bash+Regex)
-*   [Perl](https://perldoc.perl.org/perlre)
-*   PHP
-    *   [preg_match() Examples](/examples/PHP+preg_match)
-    *   [preg_replace() Examples](/examples/PHP+preg_replace)
-*   Python
-    *   [Python re.match Examples](/examples/Python+re.match)
-    *   [Python re.sub Examples](/examples/Python+re.sub)
-*   [Ruby](Ruby+Regex)
-*   [Javascript](/examples/Javascript RegExp)
-*   [C and Glib 2.14+](/examples/GLib+GRegex) (GTK, GNOME)
+* [Bash](/cheat-sheet/Bash+Regex)
+* [Perl](https://perldoc.perl.org/perlre)
+* PHP
+    * [preg_match() Examples](/examples/PHP+preg_match)
+    * [preg_replace() Examples](/examples/PHP+preg_replace)
+* Python
+    * [Python re.match Examples](/examples/Python+re.match)
+    * [Python re.sub Examples](/examples/Python+re.sub)
+* [Ruby](Ruby+Regex)
+* [Go](Go+Regex)
+* [Javascript](/examples/Javascript RegExp)
+* [C and Glib 2.14+](/examples/GLib+GRegex) (GTK, GNOME)
 
 ## Standards
 
-*   [POSIX BRE: Basic Regular Expressions](http://pubs.opengroup.org/onlinepubs/7908799/xbd/re.html)
-*   [POSIX ERE: Extended Regular Expressions](http://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap09.html)
+* Globbing (is not regex, but listed here for comparison)
+  * [Linux - Bash Pattern Matching](https://www.gnu.org/software/bash/manual/html_node/Pattern-Matching.html)
+  * [Windows - Wildcard Expension](https://learn.microsoft.com/en-us/cpp/cpp/main-function-command-line-args?view=msvc-170&redirectedfrom=MSDN#wildcard-expansion)
+* [POSIX BRE: Basic Regular Expressions](http://pubs.opengroup.org/onlinepubs/7908799/xbd/re.html)
+* [POSIX ERE: Extended Regular Expressions](http://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap09.html)
 
 ## Regex Variants
 
