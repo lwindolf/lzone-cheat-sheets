@@ -267,7 +267,6 @@ Note: you can install even more cheat sheets in your local browser using the
 <br/><span class='group'><b>Javascript Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/GraphQL'>GraphQL</a>
  | <a class='topic' href='https://lzone.de/examples/Handlebars'>Handlebars</a>
- | <a class='topic' href='https://lzone.de/examples/Javascript Frameworks'>Javascript Frameworks</a>
  | <a class='topic' href='https://lzone.de/examples/Javascript Modules'>Javascript Modules</a>
  | <a class='topic' href='https://lzone.de/examples/Javascript RegExp'>Javascript RegExp</a>
  | <a class='topic' href='https://lzone.de/examples/Javascript strptime'>Javascript strptime</a>
