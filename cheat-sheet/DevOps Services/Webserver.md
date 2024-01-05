@@ -1,6 +1,6 @@
 ---
 related:
-  cheat-sheet: [ÄApache', 'Monitoring', 'nginx', 'Node.js', 'memcached']
+  cheat-sheet: ['Apache', 'Monitoring', 'nginx', 'Node.js', 'memcached']
 ---
 
 ## PHP
