@@ -22,6 +22,7 @@ As the actual use of regular expressions is quite language specific there are se
   * [Windows - Wildcard Expension](https://learn.microsoft.com/en-us/cpp/cpp/main-function-command-line-args?view=msvc-170&redirectedfrom=MSDN#wildcard-expansion)
 * [POSIX BRE: Basic Regular Expressions](http://pubs.opengroup.org/onlinepubs/7908799/xbd/re.html)
 * [POSIX ERE: Extended Regular Expressions](http://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap09.html)
+* [Perl Regular Expressions](https://perldoc.perl.org/perlre)
 
 ## Regex Variants
 
