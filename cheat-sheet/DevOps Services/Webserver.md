@@ -52,17 +52,11 @@ related:
 
     consider also to increase net.ipv4.tcp\_wmem[1]
 
--   [initcwnd settings used by different
-    CDNs](http://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/)
+-   [initcwnd settings used by different CDNs](http://www.cdnplanet.com/blog/initcwnd-settings-major-cdn-providers/)
 
 ## Misc
 
--   Alexa Pagerank API
-
-        http://data.alexa.com/data?cli=10&url=$DOMAIN
-
--   [DNS Prefetching
-    HTML](https://developer.mozilla.org/en-US/docs/Controlling_DNS_prefetching):
+-   [DNS Prefetching HTML](https://developer.mozilla.org/en-US/docs/Controlling_DNS_prefetching):
 
         # Turning it on/off globally
         <meta http-equiv="x-dns-prefetch-control" content="off">
@@ -70,8 +64,7 @@ related:
         # Turning it on per-domain
         <link rel="dns-prefetch" href="http://www.spreadfirefox.com/">
 
--   [Setting up
-    HAProxy](http://www.debian-administration.org/article/709/Using_the_haproxy_load-balancer_for_increased_availability)
+-   [Setting up HAProxy](http://www.debian-administration.org/article/709/Using_the_haproxy_load-balancer_for_increased_availability)
 -   Prevent out of ports on high traffic webserver due to FIN\_WAIT and
     other issues:
 
@@ -86,25 +79,9 @@ related:
         net.ipv4.tcp_tw_recycle = 1
 
 -   [gatling](https://github.com/gilt/gatling) - HTTP stress testing
--   [Jetty
-    Tuning](https://wiki.eclipse.org/Jetty/Howto/High_Load#TCP_Buffer_Sizes)
+-   [Jetty Tuning](https://wiki.eclipse.org/Jetty/Howto/High_Load#TCP_Buffer_Sizes)
     - Network sysctl settings
--   Start Rack Applications
-
-        cd $ROOT
-        rackup config.ru
-
--   Phusion Passenger
-
-        passenger-status
-        passenger-memory-stats
-
 -   [Squid - Quick Test Proxy Setup](blog/How to Quickly Set up Squid)
--   Wordpress - Hardening Scanner
-    [wpscan](https://github.com/wpscanteam/wpscan)
 -   Determine redirect URLs
 
         curl -Ls -w %{url_effective} -o /dev/null <URL>
-- [Favicon Standards](https://css-tricks.com/favicon-quiz/)
-- [Favicon Generator / Checker](https://realfavicongenerator.net/)
-
