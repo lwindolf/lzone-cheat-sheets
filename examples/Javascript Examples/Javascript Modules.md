@@ -1,3 +1,8 @@
+## Module Standards
+
+* [common.js AMD standard](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition)
+* [Modules in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+
 ## Importing ESM modules
 
 Here is how you import modules without a packager.
