@@ -56,3 +56,7 @@ You can use curl to measure resolving, time to connect, time to first byte and t
 - Issue sequential HTTP/1.1 requests on 1 connection
 
       curl -w "$(date +%FT%T)    dns %{time_namelookup}    connect %{time_connect}   firstbyte %{time_starttransfer}   total %{time_total}   HTTP %{http_code}\n" --keepalive -K <(printf 'url="https://example.com/"\n%.0s' {1..10000})
+
+## Check for redirect URLs
+
+    curl -Ls -w %{url_effective} -o /dev/null <URL>
