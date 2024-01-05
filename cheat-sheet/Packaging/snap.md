@@ -4,6 +4,7 @@
 
     snap list              # List installed
     snap list --all        # List including all revisions
+    snap changes           # Show recent updates / configurations
     
     snap find <string>     # Find available snaps by name
     snap info <name>       # Print details
