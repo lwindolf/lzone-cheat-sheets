@@ -4,7 +4,7 @@
   },
   "Awesome Python": {
     "github": "vinta/awesome-python",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Awesome GraphQL": {
     "github": "chentsulin/awesome-graphql"
@@ -26,38 +26,38 @@
   },
   "Awesome Scalability": {
     "github": "binhnguyennus/awesome-scalability",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Learning freeCodeCamp": {
     "github": "freeCodeCamp/freeCodeCamp",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Learn Regex": {
     "github": "ziishaned/learn-regex",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Github Cheat Sheet": {
     "github": "tiimgreen/github-cheat-sheet",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "devhints.io": {
     "github": "rstacruz/cheatsheets"
   },
   "WTFJS": {
     "github": "denysdovhan/wtfjs",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "JS Promise Cookbook": {
     "github": "mattdesl/promise-cookbook",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Typescript Handbook": {
     "github": "microsoft/TypeScript-Website",
-    "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+).md$"
+    "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+)\\.md$"
   },
   "Pure Bash Bible": {
     "github": "dylanaraps/pure-bash-bible",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Bash Handbook": {
     "github": "denysdovhan/bash-handbook"
@@ -70,11 +70,11 @@
   },
   "FastAI Fastbook": {
     "github": "fastai/fastbook",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "OWASP Cheat Sheets Series": {
     "github": "OWASP/CheatSheetSeries",
-    "filePattern": "^cheatsheets/([^/]+)\\.md$"
+    "filePattern": "^cheatsheets/(.+)\\.md$"
   },
   "eg Cheat Sheets": {
     "github": "srsudar/eg",
@@ -98,98 +98,98 @@
   },
   "Little Go Book": {
     "github": "karlseguin/the-little-go-book",
-    "filePattern": "^en/(go).md$"
+    "filePattern": "^en/(go)\\.md$"
   },
   "Little MongoDB Book": {
     "github": "karlseguin/the-little-mongodb-book",
-    "filePattern": "^en/([^/]+).markdown$"
+    "filePattern": "^en/(.+).markdown$"
   },
   "Little Redis Book": {
     "github": "karlseguin/the-little-redis-book",
-    "filePattern": "^en/([^/]+).md$"
+    "filePattern": "^en/(.+)\\.md$"
   },
   "30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-code",
-    "filePattern": "^snippets/js/s/([^/]+).md$"
+    "filePattern": "^snippets/js/s/(.+)\\.md$"
   },
   "Interview Questions: 30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-interviews",
-    "filePattern": "^questions/([^/]+).md$"
+    "filePattern": "^questions/(.+)\\.md$"
   },
   "30s-of-code Python": {
     "github": "30-seconds/30-seconds-of-python",
-    "filePattern": "^snippets/([^/]+).md$"
+    "filePattern": "^snippets/(.+)\\.md$"
   },
   "30s-of-code CSS": {
     "github": "30-seconds/30-seconds-of-css",
-    "filePattern": "^snippets/([^/]+).md$"
+    "filePattern": "^snippets/(.+)\\.md$"
   },
   "30s-of-code Git": {
     "github": "30-seconds/30-seconds-of-git",
-    "filePattern": "^snippets/([^/]+).md$"
+    "filePattern": "^snippets/(.+)\\.md$"
   },
   "Puppet Handbook": {
     "github": "abhishekjt/puppet-handbook",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Geo Data Science Book": {
     "github": "gdsbook/book",
-    "filePattern": "^notebooks/([^/]+).md$"
+    "filePattern": "^notebooks/(.+)\\.md$"
   },
   "Interview Questions: Android": {
     "github": "amitshekhariitbhu/android-interview-questions",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Interview Questions: Data Science": {
     "github": "alexeygrigorev/data-science-interviews",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Interview Questions: Linux Sysadmin": {
     "github": "chassing/linux-sysadmin-interview-questions",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Interview Questions: FAANG": {
     "github": "ombharatiya/FAANG-Coding-Interview-Questions",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Interview Questions: ML": {
     "github": "Sroy20/machine-learning-interview-questions",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Interview Questions: System Design": {
     "github": "shashank88/system_design",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Interview Questions: System Design and Architecture": {
     "github": "puncsky/system-design-and-architecture"
   },
   "Interview Questions: Java": {
     "github": "in28minutes/interview-guide",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Meta Checklist": {
     "github": "huyingjie/Checklist-Checklist",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "k8s the hard way": {
     "github": "kelseyhightower/kubernetes-the-hard-way",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "k8s NetworkPolicy Tutorial": {
     "github": "networkpolicy/tutorial",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "k8s Istio Tutorial": {
     "github": "kelseyhightower/istio-ingress-tutorial",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "k8s Nomand Tutorial": {
     "github": "kelseyhightower/nomad-on-kubernetes",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "k8s Tekton Tutorial": {
     "github": "harbur/tekton-tutorial",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "k8s CKAD Tutorial": {
     "github": "madhank93/learn-k8s-ckad"
@@ -203,11 +203,11 @@
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
-    "filePattern": "^(README.*).md$"
+    "filePattern": "^(README.*)\\.md$"
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
@@ -231,18 +231,18 @@
   },
   "Xapax Security": {
     "github": "xapax/security",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "Awesome Azure Architecture": {
     "github": "lukemurraynz/awesome-azure-architecture"
   },
   "MS Azure Security": {
     "github": "MicrosoftDocs/security",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "MS Architecture Center": {
     "github": "MicrosoftDocs/architecture-center",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books"
@@ -252,17 +252,17 @@
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
-    "filePattern": "^content/runbooks/(.+).md$",
+    "filePattern": "^content/runbooks/(.+)\\.md$",
     "category": "SRE"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
-    "filePattern": "^alerts/(.+).md$",
+    "filePattern": "^alerts/(.+)\\.md$",
     "category": "SRE"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
-    "filePattern": "^content/posts/(.+).md$",
+    "filePattern": "^content/posts/(.+)\\.md$",
     "category": "SRE"
   },
   "Runbooks Example": {
@@ -278,15 +278,15 @@
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
-    "filePattern": "^website/docs/(.+).md$"
+    "filePattern": "^website/docs/(.+)\\.md$"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
-    "filePattern": "^playbooks/(.+).md$"
+    "filePattern": "^playbooks/(.+)\\.md$"
   },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook"
@@ -296,50 +296,50 @@
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Ansible Tutorial": {
     "github": "leucos/ansible-tuto",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "SAP Tutorials": {
     "github": "sap-tutorials/Tutorials",
-    "filePattern": "^tutorials/(.+).md$"
+    "filePattern": "^tutorials/(.+)\\.md$"
   },
   "Linux XDP Tutorial": {
     "github": "xdp-project/xdp-tutorial",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Bayesian Modelling in Python": {
     "github": "markdregan/Bayesian-Modelling-in-Python",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "Docker Getting Started": {
     "github": "docker/getting-started",
@@ -350,33 +350,33 @@
   },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
-    "filePattern": "^(README).md$"
+    "filePattern": "^(README)\\.md$"
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet"
   },
   "DevSecOps SLSA Framework": {
     "github": "slsa-framework/slsa",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "DevSecOps Maturity Model": {
     "github": "devsecopsmaturitymodel/DevSecOps-MaturityModel",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Network Segmentation Cheat Sheet": {
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "Kafka Architecture": {
     "github": "anhthii/kafka-notes"
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "ElasticSearch Examples": {
     "github": "elastic/examples",
-    "filePattern": "^(.+).md$"
+    "filePattern": "^(.+)\\.md$"
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures"
@@ -413,11 +413,11 @@
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",
-    "filePattern": "^content/docs/(.+).md$"
+    "filePattern": "^content/docs/(.+)\\.md$"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
-    "filePattern": "^docs/(.+).md$"
+    "filePattern": "^docs/(.+)\\.md$"
   },
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture"
@@ -433,7 +433,7 @@
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
-    "filePattern": "^docs/sources/(.+).md$"
+    "filePattern": "^docs/sources/(.+)\\.md$"
   },
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel"
@@ -443,127 +443,127 @@
   },
   "MDN accessibility": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/accessibility/(.+).md$",
+    "filePattern": "^files/en-us/web/accessibility/(.+)\\.md$",
     "category": "Web"
   },
   "MDN api": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/api/(.+).md$",
+    "filePattern": "^files/en-us/web/api/(.+)\\.md$",
     "category": "Web"
   },
   "MDN css": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/css/(.+).md$",
+    "filePattern": "^files/en-us/web/css/(.+)\\.md$",
     "category": "Web"
   },
   "MDN demos": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/demos/(.+).md$",
+    "filePattern": "^files/en-us/web/demos/(.+)\\.md$",
     "category": "Web"
   },
   "MDN events": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/events/(.+).md$",
+    "filePattern": "^files/en-us/web/events/(.+)\\.md$",
     "category": "Web"
   },
   "MDN exslt": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/exslt/(.+).md$",
+    "filePattern": "^files/en-us/web/exslt/(.+)\\.md$",
     "category": "Web"
   },
   "MDN guide": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/guide/(.+).md$",
+    "filePattern": "^files/en-us/web/guide/(.+)\\.md$",
     "category": "Web"
   },
   "MDN html": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/html/(.+).md$",
+    "filePattern": "^files/en-us/web/html/(.+)\\.md$",
     "category": "Web"
   },
   "MDN http": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/http/(.+).md$",
+    "filePattern": "^files/en-us/web/http/(.+)\\.md$",
     "category": "Web"
   },
   "MDN javascript": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/javascript/(.+).md$",
+    "filePattern": "^files/en-us/web/javascript/(.+)\\.md$",
     "category": "Web"
   },
   "MDN manifest": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/manifest/(.+).md$",
+    "filePattern": "^files/en-us/web/manifest/(.+)\\.md$",
     "category": "Web"
   },
   "MDN mathml": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/mathml/(.+).md$",
+    "filePattern": "^files/en-us/web/mathml/(.+)\\.md$",
     "category": "Web"
   },
   "MDN media": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/media/(.+).md$",
+    "filePattern": "^files/en-us/web/media/(.+)\\.md$",
     "category": "Web"
   },
   "MDN opensearch": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/opensearch/(.+).md$",
+    "filePattern": "^files/en-us/web/opensearch/(.+)\\.md$",
     "category": "Web"
   },
   "MDN performance": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/performance/(.+).md$",
+    "filePattern": "^files/en-us/web/performance/(.+)\\.md$",
     "category": "Web"
   },
   "MDN privacy": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/privacy/(.+).md$",
+    "filePattern": "^files/en-us/web/privacy/(.+)\\.md$",
     "category": "Web"
   },
   "MDN progressive_web_apps": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/progressive_web_apps/(.+).md$",
+    "filePattern": "^files/en-us/web/progressive_web_apps/(.+)\\.md$",
     "category": "Web"
   },
   "MDN security": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/security/(.+).md$",
+    "filePattern": "^files/en-us/web/security/(.+)\\.md$",
     "category": "Web"
   },
   "MDN svg": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/svg/(.+).md$",
+    "filePattern": "^files/en-us/web/svg/(.+)\\.md$",
     "category": "Web"
   },
   "MDN text_fragments": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/text_fragments/(.+).md$",
+    "filePattern": "^files/en-us/web/text_fragments/(.+)\\.md$",
     "category": "Web"
   },
   "MDN tutorials": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/tutorials/(.+).md$",
+    "filePattern": "^files/en-us/web/tutorials/(.+)\\.md$",
     "category": "Web"
   },
   "MDN webdriver": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/webdriver/(.+).md$",
+    "filePattern": "^files/en-us/web/webdriver/(.+)\\.md$",
     "category": "Web"
   },
   "MDN xml": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xml/(.+).md$",
+    "filePattern": "^files/en-us/web/xml/(.+)\\.md$",
     "category": "Web"
   },
   "MDN xpath": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xpath/(.+).md$",
+    "filePattern": "^files/en-us/web/xpath/(.+)\\.md$",
     "category": "Web"
   },
   "MDN xslt": {
     "github": "mdn/content",
-    "filePattern": "^files/en-us/web/xslt/(.+).md$",
+    "filePattern": "^files/en-us/web/xslt/(.+)\\.md$",
     "category": "Web"
   },
   "Documentation docker-bench-security": {
