@@ -29,7 +29,7 @@ To follow additional branches in your local repo follow these steps:
 
 Remove git branch locally with
 
-    git branch -d 
+    git branch -d <branch>
     
 ### Remove branch on origin
 
