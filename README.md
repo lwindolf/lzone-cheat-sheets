@@ -30,7 +30,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/CICD'>CICD</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Gerrit'>Gerrit</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Git'>Git</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Github'>Github</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/Github Actions'>Github Actions</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Gradle'>Gradle</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/JFrog CLI'>JFrog CLI</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Jenkins Docs'>Jenkins Docs</a>
