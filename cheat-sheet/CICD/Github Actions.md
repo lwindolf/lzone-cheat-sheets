@@ -12,11 +12,9 @@
 - `GITHUB_RUN_NUMBER` (pipeline unique)
 - `GITHUB_RUN_ID` (globally unique)
 
-More: [https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables)
+[Documentation](https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables)
 
 ## Workflow commands (annotations)
-
-Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
 
     echo '::set-output name={name}::{value}'
     
@@ -30,6 +28,8 @@ Documentation: [https://docs.github.com/en/actions/using-workflows/workflow-comm
     echo '::endgroup::'
     
     echo '::save-state name={name}::{value}'     # Export env vars to pre/post workflow actions
+
+[Doucmentation](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
 
 ## Interaction/input fields on manually triggering workflow
 
@@ -172,8 +172,6 @@ For all 'run' steps global default:
           run:
             working-directory: mysubdir
 
-{% endraw %}
-
 ## Inspecting all workflow_dispatch inputs
 
 Use `${{ github.event.inputs }}` which will expand into a valid JSON map of all inputs and their values.
@@ -227,3 +225,5 @@ To use public/private images from an external registry define `container
 ## Run GH Actions locally
 
 [https://github.com/nektos/act](https://github.com/nektos/act)
+
+{% endraw %}
