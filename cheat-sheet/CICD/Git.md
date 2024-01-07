@@ -75,9 +75,17 @@ When a rebase fails manually fix files and
 
 ## Commits
 
+    git show <commit hash>                   # Show commit contents
+    git log                                  # Commit history with details
+
+    git rev-list --all --pretty=oneline      # Commit history as one liners
+    
+    git log -p -S "class Layout"             # Find commit adding/changing line with "class Layout" 
+    git log -p -G <regex>                    # Find commit adding/changing a line matching a regex 
+    
 ### Amending changes
 
-    git add 
+    git add <file>
     git commit --amend
 
 ### Apply patches
@@ -92,7 +100,7 @@ You should always run the following commands:
 
 ### Create patches
 
-    git format-patch -1     # Creates one patch file for the commit
+    git format-patch -1                # Creates one patch file for the commit
     git format-patch -2 HEAD           # Creates two patch files for last two commits on HEAD
     git format-patch -3 HEAD --stdout  # Print last 3 commit changes on stdout
 
@@ -131,21 +139,9 @@ Here are the commands:
 
     git stash clear                 # Delete all stashes
 
-    # Stash just some files by adding all others first 
-    # and using --keep-index
+    # Stash just some files by adding all others first and using --keep-index
     git add <files>
     git stash --keep-index
-
-### List Commits in One Line Each
-
-    git rev-list --all --pretty=oneline
-
-### Search in Commits
-
-To search all commits for lines containing a certain change:
-
-    git log -p -S -- 
-    git log -p -G -- 
 
 ### Disecting
 
@@ -280,18 +276,17 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 
 <?slideshare,cWwH3B15RuuGW6,Git Tips and Tricks?>
 
-### cherrypick changes in a specific commit from branch 'A' to branch 'B'
+### Cherry-pick changes in a specific commit from branch 'A' to branch 'B'
     
     git checkout B
     git cherry-pick <commit hash from branch A>
 
-### know what changed on a specific commit
-    git show <commit hash>
-
 ### Resync git repo
+
     git fetch origin && git reset --hard origin/master && git clean -f -d
 
 ### Resync forked repo
+
     git remote add upstream https://github.com/lwindolf/lzone-cheat-sheets.git
     git fetch upstream
     git checkout master
