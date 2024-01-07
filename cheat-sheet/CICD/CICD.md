@@ -1,6 +1,7 @@
 ## CD Solutions
 
-- ArgoCD
+- [ArgoCD](https://argoproj.github.io/cd/)
+- [Flux CD](https://fluxcd.io)
 - CircleCI
 - Concourse
 - Openshift
