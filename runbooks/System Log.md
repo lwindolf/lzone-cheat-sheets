@@ -16,9 +16,9 @@ Your RAM modules might be faulty.
 
 Indicates a hardware problem. You might want to check HW status with `ipmitool`, `mcelog` or `rasdaemon` on the machine or in your ILO / ILOM / IDRAC GUI.
 
-## Buffer I/O error on device md0
+## Buffer I/O error on device
 
-Probably a RAID problem. Check physical devices with `smartctl`
+Probably a RAID problem. Check physical devices with `smartctl` and your RAID management tool.
 
 ## ADDRCONF(NETDEV_UP): bond0: link is not ready
 
