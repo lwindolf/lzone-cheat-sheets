@@ -44,6 +44,25 @@ Example output with the file size in the 9th column:
 
 Next restart those processes to free the disk space.
 
+## Specific Cleanups
+
+### Systemd Logs
+
+Check systemd log usage with
+
+    journalctl --disk-usage
+
+Drop logs with vacuum to a certain size
+
+    journalctl --vacuum-size=100M
+
+### Package Manager
+
+If the root partition ran full it might temporary help cleaning the package 
+manager cache. For Debian-based systems:
+
+     sudo apt clean
+
 ## Visualize Disk Usage
 
 To get an overview on disk usage per directory use these visualisations:
