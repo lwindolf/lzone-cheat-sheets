@@ -1,8 +1,14 @@
 This runbook is about analyzing disk usage issues.
 
-## Determine disk usage
+## Preparation
+
+Determine mount point that is full from
 
     df -h
+
+Change directory to the mount point
+
+    cd /somepath
 
 ## Find largest directories
 
