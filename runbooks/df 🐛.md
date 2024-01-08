@@ -15,7 +15,7 @@ Increase `-maxdepth` if granularity is insuffcient, but keep it small to get a f
 This can be long running. Try limiting it to the largest directories found
 in the step above.
 
-    du -h | sort -hr | head -n 15
+    find . -type f -printf '%k\t%p\n' | sort -nr | head -15
 
 ## Check for deleted files using disk space
 
