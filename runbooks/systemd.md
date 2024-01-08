@@ -16,7 +16,7 @@ In case the unit has failed to often you might need to reset the failed state wi
 
 ## Masked units
 
-If a service is 'masked' it mean someone manually disabled them. You can undo this with
+If a service is 'masked' it means someone manually disabled them. You can undo this with
 
     systemctl unmask <unit name>
 
