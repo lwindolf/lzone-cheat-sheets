@@ -48,5 +48,5 @@ Next restart those processes to free the disk space.
 
 To get an overview on disk usage per directory use these visualisations:
 
-- [du Radial Map](/visual-ops/du+Radial+Map)
-- [du Tree Map](/visual-ops/du+Tree+Map)
+- [du Radial Map](https://lzone.de/visual-ops/du+Radial+Map)
+- [du Tree Map](https://lzone.de/visual-ops/du+Tree+Map)
