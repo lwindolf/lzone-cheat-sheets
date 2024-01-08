@@ -599,5 +599,9 @@
   "SysML v2 Documentation": {
     "github": "Systems-Modeling/SysML-v2-Release",
     "category": "Architecture"
+  },
+  "Learn UML2": {
+    "github": "imalitavakoli/learn-uml2",
+    "category": "Architecture"
   }
 }
