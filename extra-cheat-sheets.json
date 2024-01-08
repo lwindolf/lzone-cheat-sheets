@@ -591,5 +591,13 @@
     "github": "nature-of-code/noc-book-2023",
     "filePattern": "^content/(.+).html$",
     "category": "Programming"
+  },
+  "C4-PlantUML Documentation": {
+    "github": "plantuml-stdlib/C4-PlantUML",
+    "category": "Architecture"
+  },
+  "SysML v2 Documentation": {
+    "github": "Systems-Modeling/SysML-v2-Release",
+    "category": "Architecture"
   }
 }
