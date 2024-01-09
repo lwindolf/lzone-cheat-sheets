@@ -1,51 +1,65 @@
 {
   "LearnXinYMinutes": {
-    "github": "adambard/learnxinyminutes-docs"
+    "github": "adambard/learnxinyminutes-docs",
+    "category": "Programming"
   },
   "Awesome Python": {
     "github": "vinta/awesome-python",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Programming"
   },
   "Awesome GraphQL": {
-    "github": "chentsulin/awesome-graphql"
+    "github": "chentsulin/awesome-graphql",
+    "category": "Programming"
   },
   "Awesome CS Courses": {
-    "github": "prakhar1989/awesome-courses"
+    "github": "prakhar1989/awesome-courses",
+    "category": "Programming"
   },
   "Awesome Public Datasets": {
-    "github": "awesomedata/awesome-public-datasets"
+    "github": "awesomedata/awesome-public-datasets",
+    "category": "Programming"
   },
   "Awesome OSINT": {
-    "github": "jivoi/awesome-osint"
+    "github": "jivoi/awesome-osint",
+    "category": "Security"
   },
   "Awesome OpenPolicyAgent": {
     "github": "StyraInc/awesome-opa"
+    "category": "Security"
   },
   "Awesome Design Patterns": {
-    "github": "DovAmir/awesome-design-patterns"
+    "github": "DovAmir/awesome-design-patterns",
+    "category": "Architecture"
   },
   "Awesome Scalability": {
     "github": "binhnguyennus/awesome-scalability",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Architecture"
   },
   "Learning freeCodeCamp": {
     "github": "freeCodeCamp/freeCodeCamp",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Programming"
   },
   "Learn Regex": {
     "github": "ziishaned/learn-regex",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Programming"
   },
   "Github Cheat Sheet": {
     "github": "tiimgreen/github-cheat-sheet",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Programming"
   },
   "devhints.io": {
     "github": "rstacruz/cheatsheets"
+    "category": "Cheet Sheets",
   },
   "WTFJS": {
     "github": "denysdovhan/wtfjs",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Programming"
   },
   "JS Promise Cookbook": {
     "github": "mattdesl/promise-cookbook",
