@@ -15,26 +15,23 @@ fi
 cheat_sheets() {
   (
   cat <<'EOT'
-  var cheatsheets = require('./cheat-sheets.json');
+  async function run() {
+    var cheatsheets = require('./cheat-sheets.json');
 
-  async function update(name) {
-    let repo = cheatsheets[name];
-    let regex = new RegExp((repo.filePattern?repo.filePattern:"^(.+).md$"));
-
-    // fetch default branch first
-    let data = await fetch(`https://api.github.com/repos/${repo.github}`)
-        .then((response) => response.json())
-        .then((data) => { repoInfo = data; return fetch(`https://api.github.com/repos/${repo.github}/git/trees/${data.default_branch}?recursive=1`)})
-        .then((response) => response.json());
-
-    cheatsheets[name].files = data.tree
-      .map((a) => a.path)
-      .filter((path) => regex.test(path));
-  }
-
-  async function run() {}
     for(const name of Object.keys(cheatsheets)) {
-      await update(name);
+      let repo = cheatsheets[name];
+      let regex = new RegExp((repo.filePattern?repo.filePattern:"^(.+).md$"));
+
+      // fetch default branch first
+      let data = await fetch(`https://api.github.com/repos/${repo.github}`)
+          .then((response) => response.json())
+          .then((data) => { repoInfo = data; return fetch(`https://api.github.com/repos/${repo.github}/git/trees/${data.default_branch}?recursive=1`)})
+          .then((response) => response.json());
+
+      cheatsheets[name].files = data.tree
+        .map((a) => a.path)
+        .filter((path) => regex.test(path));
+
     }
     console.log(JSON.stringify(cheatsheets));
   }
