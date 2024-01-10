@@ -36,7 +36,7 @@ cheat_sheets() {
     update(name);
   }
 
-  console.log(cheatsheets);
+  console.log(JSON.stringify(cheatsheets));
 EOT
 ) | node >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
 }
