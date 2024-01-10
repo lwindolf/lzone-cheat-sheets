@@ -32,7 +32,7 @@ cheat_sheets() {
         .map((a) => a.path)
         .filter((path) => regex.test(path))
         .map((path) => {
-          var tmp = regex.match(path);
+          var tmp = path.match(regex);
           return { name: tmp[1], path };
         });
 
