@@ -32,13 +32,16 @@ cheat_sheets() {
       .filter((path) => regex.test(path));
   }
 
-  for(const name of Object.keys(cheatsheets)) {
-    update(name);
+  async function run() {}
+    for(const name of Object.keys(cheatsheets)) {
+      await update(name);
+    }
+    console.log(JSON.stringify(cheatsheets));
   }
 
-  console.log(JSON.stringify(cheatsheets));
+  run();
 EOT
-) | node >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
+) | node | jq >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
 }
 
 # Update README with a list of all cheat sheets defined
