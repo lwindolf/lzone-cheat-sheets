@@ -13,33 +13,32 @@ fi
 
 # Update default cheat sheet JSON with document structure
 cheat_sheets() {
-  while read name; do
-    repo=$(       jq -r --arg name "$name" '.[$name].github'      cheat-sheets.json)
-    filePattern=$(jq -r --arg name "$name" '.[$name].filePattern' cheat-sheets.json)
-    echo "$name" "$repo pattern=$filePattern"
+  (
+  cat <<'EOT'
+  var cheatsheets = require('./cheat-sheets.json');
 
-    # Determine default branch
-    curl "https://api.github.com/repos/$repo" >repo.json
-    branch=$(jq -r .default_branch repo.json)
-    if [ "$branch" = "null" ]; then
-      exit 1
-    fi
-    rm repo.json
+  async function update(name) {
+    let repo = cheatsheets[name];
+    let regex = new RegExp((repo.filePattern?repo.filePattern:"^(.+).md$"));
 
-    # Download file list
-    curl "https://api.github.com/repos/${repo}/git/trees/${branch}?recursive=1" >repo_content.json
-    fileListJSON=$(
-      echo "["
-      jq ".tree[].path" repo_content.json | sed "s/$/,/"
-      echo "]"
-    )
-    rm repo_content.json
-    echo "$fileListJSON"
-    
-    # Insert file list
-    jq --argjson filelist "$fileListJSON" --arg name "$name" ".[$name].files = $fileListJSON" cheat-sheets.json
+    // fetch default branch first
+    let data = await fetch(`https://api.github.com/repos/${repo.github}`)
+        .then((response) => response.json())
+        .then((data) => { repoInfo = data; return fetch(`https://api.github.com/repos/${repo.github}/git/trees/${data.default_branch}?recursive=1`)})
+        .then((response) => response.json());
 
-  done < <(jq -r '. |to_entries[] | .key' cheat-sheets.json)
+    cheatsheets[name].files = data.tree
+      .map((a) => a.path)
+      .filter((path) => regex.test(path));
+  }
+
+  for(const name of Object.keys(cheatsheets)) {
+    update(name);
+  }
+
+  console.log(cheatsheets);
+EOT
+) | node >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
 }
 
 # Update README with a list of all cheat sheets defined
@@ -77,7 +76,7 @@ extra_cheat_sheets() {
 }
 
 cheat_sheets
-#extra_cheat_sheets
+extra_cheat_sheets
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
