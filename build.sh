@@ -28,9 +28,13 @@ cheat_sheets() {
           .then((data) => { repoInfo = data; return fetch(`https://api.github.com/repos/${repo.github}/git/trees/${data.default_branch}?recursive=1`)})
           .then((response) => response.json());
 
-      cheatsheets[name].files = data.tree
+      cheatsheets[name].documents = data.tree
         .map((a) => a.path)
-        .filter((path) => regex.test(path));
+        .filter((path) => regex.test(path))
+        .map((a) => {
+          var tmp = regex.match(path);
+          return { name: tmp[1], path };
+        });
 
     }
     console.log(JSON.stringify(cheatsheets));
