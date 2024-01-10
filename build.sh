@@ -31,7 +31,7 @@ cheat_sheets() {
       cheatsheets[name].documents = data.tree
         .map((a) => a.path)
         .filter((path) => regex.test(path))
-        .map((a) => {
+        .map((path) => {
           var tmp = regex.match(path);
           return { name: tmp[1], path };
         });
