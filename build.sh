@@ -81,7 +81,7 @@ extra_cheat_sheets
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
-	git commit -m "Update index." README.md || exit 0
+	git commit -m "Update index." README.md cheat-sheets.json || exit 0
 	git push
 fi
 
