@@ -1,26 +1,23 @@
 {
-  "Cheat Sheets": {
-    "github": "lwindolf/lzone-cheat-sheets",
-    "category": "Cheat Sheets",
-    "filePattern": "^cheat-sheet/(.+)\\.md$"
-  }, 
-  "Examples": {
-    "github": "lwindolf/lzone-cheat-sheets",
-    "category": "Cheat Sheets",
-    "filePattern": "^examples/(.+)\\.md$"
+  'Cheat Sheets': {
+    github: 'lwindolf/lzone-cheat-sheets',
+    category: 'Cheat Sheets',
+    filePattern: '^cheat-sheet/(.+)\\.md$'
   },
-  "Visual Ops": {
-    "github": "lwindolf/lzone-cheat-sheets",
-    "category": "SRE",
-    "filePattern": "^visual-ops/(.+)\\.md$"
+  Examples: {
+    github: 'lwindolf/lzone-cheat-sheets',
+    category: 'Cheat Sheets',
+    filePattern: '^examples/(.+)\\.md$'
   },
-  "Runbooks 🐛": {
-    "github": "lwindolf/lzone-cheat-sheets",
-    "category": "SRE",
-    "filePattern": "^runbooks/(.+)\\.md$"
+  'Visual Ops': {
+    github: 'lwindolf/lzone-cheat-sheets',
+    category: 'SRE',
+    filePattern: '^visual-ops/(.+)\\.md$'
   },
-  "Unicorn Arcology": {
-    "github": "lwindolf/unicorn-arcology",
-    "category": "Architecture"
-  }
+  'Runbooks 🐛': {
+    github: 'lwindolf/lzone-cheat-sheets',
+    category: 'SRE',
+    filePattern: '^runbooks/(.+)\\.md$'
+  },
+  'Unicorn Arcology': { github: 'lwindolf/unicorn-arcology', category: 'Architecture' }
 }
