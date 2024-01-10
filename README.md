@@ -208,6 +208,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/ffmpeg'>ffmpeg</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/jq'>jq</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/sed'>sed</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/xargs'>xargs</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/zenity'>zenity</a>
 <br/><span class='group'><b>Security</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/AppArmor'>AppArmor</a>
