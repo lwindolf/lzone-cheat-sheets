@@ -1,6 +1,7 @@
 {
   "Cheat Sheets": {
     "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
     "filePattern": "^cheat-sheet/(.+)\\.md$",
     "documents": [
@@ -916,6 +917,7 @@
   },
   "Examples": {
     "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
     "filePattern": "^examples/(.+)\\.md$",
     "documents": [
@@ -1111,6 +1113,7 @@
   },
   "Visual Ops": {
     "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "SRE",
     "filePattern": "^visual-ops/(.+)\\.md$",
     "documents": [
@@ -1142,6 +1145,7 @@
   },
   "Runbooks 🐛": {
     "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "SRE",
     "filePattern": "^runbooks/(.+)\\.md$",
     "documents": [
@@ -1173,6 +1177,7 @@
   },
   "Unicorn Arcology": {
     "github": "lwindolf/unicorn-arcology",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Architecture",
     "documents": [
       {
