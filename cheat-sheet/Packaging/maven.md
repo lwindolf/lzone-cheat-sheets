@@ -4,18 +4,18 @@ To do so change `/etc/maven/settings.xml`.
 
 Ensure to provide server credentials: 
 
-  <servers>
-    <server>
-      <username>!!!!!!!!!!!</username>
-      <password>!!!!!!!!!!!</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>!!!!!!!!!!!</username>
-      <password>!!!!!!!!!!!</password>
-      <id>snapshots</id>
-    </server>
-  </servers>
+    <servers>
+      <server>
+        <username>!!!!!!!!!!!</username>
+        <password>!!!!!!!!!!!</password>
+        <id>central</id>
+      </server>
+      <server>
+        <username>!!!!!!!!!!!</username>
+        <password>!!!!!!!!!!!</password>
+        <id>snapshots</id>
+      </server>
+    </servers>
 
 And configure repos under 
 
