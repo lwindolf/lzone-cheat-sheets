@@ -16,5 +16,5 @@
 
 ### Consumer Contracts
 
-- [https://docs.pact.io](Pact)
-- [https://cloud.spring.io/spring-cloud-contract](SpringCloud Contract)
+- [Pact](https://docs.pact.io)
+- [SpringCloud Contract](https://cloud.spring.io/spring-cloud-contract)
