@@ -31,11 +31,9 @@ Contra
 Pricing
 
 -   See LXC
--   Easy image usage with many [online
-    repos](https://registry.hub.docker.com/)
+-   Easy image usage with many [online repos](https://registry.hub.docker.com/)
 -   Widely used with Github
--   [Orchestration
-    support](http://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/)
+-   [Orchestration support](http://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/)
 
 -   See LXC
 -   Unclear relation to LXC and systemd
@@ -47,8 +45,7 @@ Free
 
 CoreOS Rocket
 
--   [App Container
-    Specification](https://github.com/appc/spec/blob/master/SPEC.md)
+-   [App Container Specification](https://github.com/appc/spec/blob/master/SPEC.md)
 -   Theoretically Multi-OS Apps
 
 -   Young, uncertain future
