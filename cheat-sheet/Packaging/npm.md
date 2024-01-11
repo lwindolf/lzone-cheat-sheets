@@ -79,5 +79,4 @@ which allows the client to fetch `/assets/jquery.js`.
 
 ## Misc
 
--   [NPM global vs locally installed
-    modules](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation/)
+-   [NPM global vs locally installed modules](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation/)
