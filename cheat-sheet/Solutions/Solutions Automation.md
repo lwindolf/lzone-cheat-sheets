@@ -19,8 +19,7 @@ related:
     puppet and cfengine by Argonne National Laboratory. (IMO out-dated)
 -   [cdist](http://www.nico.schottelius.org/software/cdist/):
     configuration with shell scripting
--   [EMC
-    UIM](http://www.emc.com/data-center-management/unified-infrastructure-manager.htm)
+-   [EMC UIM](http://www.emc.com/data-center-management/unified-infrastructure-manager.htm)
     - Unified Infrastructure Manager, VCE VBlock (enterprise,
     commercial)
 -   [slaughter](http://www.steve.org.uk/Software/slaughter/) (Perl,
@@ -29,11 +28,9 @@ related:
     recent)
 -   [Rundeck](http://rundeck.org) - Workflow manager for node - role
     systems like EC2, chef, puppet ...
--   [IBM
-    Tivoli](http://www-03.ibm.com/software/products/en/serviceautomationmanager)
+-   [IBM Tivoli](http://www-03.ibm.com/software/products/en/serviceautomationmanager)
 
-Finally it is worth to check the [Wikipedia Comparison
-Chart](http://en.wikipedia.org/wiki/Comparison_of_open_source_configuration_management_software)
+Finally it is worth to check the [Wikipedia Comparison Chart](http://en.wikipedia.org/wiki/Comparison_of_open_source_configuration_management_software)
 for other less known and new tools!
 
 ## Automation Drift Management
@@ -42,7 +39,6 @@ for other less known and new tools!
 - for Puppet
    - PuppetDB
    - Foreman
-   - [Debian Policy Scanner](https://github.com/lwindolf/polscan)
 
 ## Testing
 
@@ -62,8 +58,7 @@ for other less known and new tools!
 
         cfagent -K
 
--   [cfengine - Design
-    Center](http://cfengine.com/cfengine-design-center): Git repository
+-   [cfengine - Design Center](http://cfengine.com/cfengine-design-center): Git repository
     with sketches and examples for cfengine.
 -   cfengine - Find and install sketches from the Design Center
     repository
