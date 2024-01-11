@@ -1,6 +1,5 @@
 If you are maintaining a Linux Glib-based or GTK application for some
-time you might want to migrate it to the [XDG
-way](http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
+time you might want to migrate it to the [XDG way](http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 of user data layout. This is something I had to do for Liferea (around
 since 2003) recently. Also when creating a new application you might ask
 yourself where to put the user data. This post tries to describe how to
@@ -51,8 +50,7 @@ to produce a path. Most likely you'll get something like
 
 ### 2.2 Using wxWidgets
 
-When programming for wxWidgets you need to use the [wxStandardPaths
-class](http://docs.wxwidgets.org/2.8/wx_wxstandardpaths.html). The
+When programming for wxWidgets you need to use the [wxStandardPaths class](http://docs.wxwidgets.org/2.8/wx_wxstandardpaths.html). The
 methods are
 
   Directory        | Method
