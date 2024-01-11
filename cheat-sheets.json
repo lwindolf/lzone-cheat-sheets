@@ -1114,7 +1114,13 @@
   "Video Tutorials": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
-    "filePattern": "^video-tutorials/(.+)\\.md$"
+    "filePattern": "^video-tutorials/(.+)\\.md$",
+    "documents": [
+      {
+        "name": "README",
+        "path": "video-tutorials/README.md"
+      }
+    ]
   },
   "Visual Ops": {
     "github": "lwindolf/lzone-cheat-sheets",
