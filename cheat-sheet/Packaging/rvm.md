@@ -1,9 +1,8 @@
-Manage multiple ruby environments with [RVM](http://rvm.io) (Ruby
-Version Manager)
+Manage multiple ruby environments with [RVM](http://rvm.io) (Ruby Version Manager)
 
 ### Installation
 
-    \curl -sSL https://get.rvm.io | bash -s stable
+    curl -sSL https://get.rvm.io | bash -s stable
     source /home/john.smith/.rvm/scripts/rvm
     rvm use --default 1.8.7-p374
     bundle install
@@ -19,19 +18,12 @@ Version Manager)
 
     rvm install <Ruby version>
 
-    rvm system  # Selete distro Ruby
+    rvm system  # Select distro Ruby
 
-    # Install Gem into a version
+Install Gem into a version
+
     rvm <Ruby version> do gem install <gem>
 
-    # Install bundle with a version
+Install bundle with a version
+
     rvm 1.9.3 do bundle install
-
-### Alternative
-
-Only availabe in Debian Wheezy (not before and not after, because only
-Wheezy had two Rubies to select from)
-
-    apt-get install ruby-switch
-    ruby-switch --set ruby1.8
-    ruby-switch --check
