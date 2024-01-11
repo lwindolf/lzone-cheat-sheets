@@ -915,6 +915,38 @@
       }
     ]
   },
+  "Runbooks 🐛": {
+    "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
+    "category": "SRE",
+    "filePattern": "^runbooks/(.+)\\.md$",
+    "documents": [
+      {
+        "name": "Mail",
+        "path": "runbooks/Mail.md"
+      },
+      {
+        "name": "System Log",
+        "path": "runbooks/System Log.md"
+      },
+      {
+        "name": "arp",
+        "path": "runbooks/arp.md"
+      },
+      {
+        "name": "df",
+        "path": "runbooks/df.md"
+      },
+      {
+        "name": "dpkg",
+        "path": "runbooks/dpkg.md"
+      },
+      {
+        "name": "systemd",
+        "path": "runbooks/systemd.md"
+      }
+    ]
+  },  
   "Examples": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
@@ -1151,38 +1183,6 @@
       {
         "name": "visual-ops",
         "path": "visual-ops/visual-ops.md"
-      }
-    ]
-  },
-  "Runbooks 🐛": {
-    "github": "lwindolf/lzone-cheat-sheets",
-    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
-    "category": "SRE",
-    "filePattern": "^runbooks/(.+)\\.md$",
-    "documents": [
-      {
-        "name": "Mail",
-        "path": "runbooks/Mail.md"
-      },
-      {
-        "name": "System Log",
-        "path": "runbooks/System Log.md"
-      },
-      {
-        "name": "arp",
-        "path": "runbooks/arp.md"
-      },
-      {
-        "name": "df",
-        "path": "runbooks/df.md"
-      },
-      {
-        "name": "dpkg",
-        "path": "runbooks/dpkg.md"
-      },
-      {
-        "name": "systemd",
-        "path": "runbooks/systemd.md"
       }
     ]
   },
