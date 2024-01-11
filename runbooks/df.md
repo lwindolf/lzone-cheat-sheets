@@ -8,7 +8,7 @@ Determine mount point that is full from
 
 Change directory to the mount point
 
-    cd /somepath
+    cd /somepath ; pwd
 
 ## Find largest directories
 
