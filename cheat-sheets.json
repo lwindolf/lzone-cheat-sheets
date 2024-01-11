@@ -1113,14 +1113,6 @@
     "github": "lwindolf/lzone-cheat-sheets",
     "category": "SRE",
     "filePattern": "^visual-ops/(.+)\\.md$",
-    "files": [
-      "visual-ops/du Radial Map.md",
-      "visual-ops/du Tree Map.md",
-      "visual-ops/netstat Dendrogram.md",
-      "visual-ops/netstat Force Graph.md",
-      "visual-ops/netstat Services.md",
-      "visual-ops/visual-ops.md"
-    ],
     "documents": [
       {
         "name": "du Radial Map",
