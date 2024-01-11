@@ -1111,6 +1111,11 @@
       }
     ]
   },
+  "Video Tutorials": {
+    "github": "lwindolf/lzone-cheat-sheets",
+    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
+    "filePattern": "^video-tutorials/(.+)\\.md$"
+  },
   "Visual Ops": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
