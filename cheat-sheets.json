@@ -946,7 +946,7 @@
         "path": "runbooks/systemd.md"
       }
     ]
-  },  
+  },
   "Examples": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
