@@ -1,5 +1,5 @@
 ---
-videoEmbed: true
+videoEmbed: "true"
 ---
 
 ## Azure
