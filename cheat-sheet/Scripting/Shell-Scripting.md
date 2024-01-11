@@ -3,9 +3,9 @@ related:
   cheat-sheet: ['Bash', 'Bash Arrays', 'Locking']
 ---
 
-### Date Handling
+## Date Handling
 
-#### Convert Date To Unix Timestamp
+### Convert Date To Unix Timestamp
 
     date -d "$date" +%s
 
@@ -15,20 +15,20 @@ convert them first to "2014-06-25" for example with
 
     sed 's/\([0-9]*\)\.\([0-9]*\)\.([0-9]*\)/\3-\2-\1/'
 
-#### Convert From Unix Timestamp
+### Convert From Unix Timestamp
 
     date -d "1970-01-01 1234567890 sec GMT"
 
-#### Calculate Last Day of Month
+### Calculate Last Day of Month
 
 Found
 [here](http://delicious.com/redirect?url=http%3A//www.unix.com/shell-programming-scripting/21877-how-get-month-last-date-unix.html):
 
     cal $(date "+%M %y") | grep -v ^$ | tail -1 | sed 's/^.* \([0-9]*\)$/\1/'
 
-### Parameter Handling
+## Parameter Handling
 
-#### getopt
+### getopt
 
 getopt is a standalone command, supporting GNU style long parameters and
 parameters mixed with options and can be used like this
@@ -54,7 +54,7 @@ parameters mixed with options and can be used like this
         esac
     done
 
-#### getopts
+### getopts
 
 getopts is shell-builtin
 
@@ -72,7 +72,7 @@ getopts is shell-builtin
       esac
     done
 
-#### shflags - portable getotps
+### shflags - portable getotps
 
 If you ever need to port between different Unix derivates use
 [shflags](https://code.google.com/p/shflags/) a Google library providing
@@ -87,13 +87,12 @@ standard parameter handling. Example:
 
     echo "${FLAGS_value}!"
 
-### Other Topics
+## Other Topics
 
 -   [Shell Linting](https://github.com/koalaman/shellcheck)
 -   [Mail Attachments](http://www.panix.com/%7Ekylet/unix-att.html):
     Dozens of variants to send mail attachments using Unix tools.
--   [tail -f until
-    removed](http://lzone.de/follow+file+with+tail+until+removed): When
+-   [tail -f until removed](http://lzone.de/follow+file+with+tail+until+removed): When
     you want to tail a file until it gets removed
 
         tail --follow=name myfile
@@ -104,8 +103,7 @@ standard parameter handling. Example:
 
     (Note: works only on CSVs without quotes or multi-line strings)
 
--   [awk-based CSV
-    Parser](https://github.com/geoffroy-aubry/awk-csv-parser)
+-   [awk-based CSV Parser](https://github.com/geoffroy-aubry/awk-csv-parser)
 -   list all commands:
 
         compgen -c |sort -u
@@ -126,19 +124,16 @@ standard parameter handling. Example:
 
         watch -d ls -l
 
--   [Unbuffer
-    Output](http://unix.stackexchange.com/questions/25372/turn-off-buffering-in-pipe):
+-   [Unbuffer Output](http://unix.stackexchange.com/questions/25372/turn-off-buffering-in-pipe):
 
         stdbuf -i0 -o0 -e0 <some command>  # Best solution
 
         unbuffer <some command>     # Wrapper script from expect
 
--   [Apply ulimit change in /etc/security/limits.conf
-    immediately](/apply+limits+immediately)
+-   [Apply ulimit change in /etc/security/limits.conf immediately](/apply+limits+immediately)
 -   [ulimit check list](/Debian+Ubuntu+ulimit+Check+List)
 -   [ulimit change Apache limits](/Ubuntu+Apache+and+ulimit)
--   [ulimit Nagios Check
-    Plugin](/Nagios%20Check%20Plugin%20for%20nofile%20Limit)
+-   [ulimit Nagios Check Plugin](/Nagios%20Check%20Plugin%20for%20nofile%20Limit)
 -   dos2unix with vi:
 
         :%s/^V^M//g
