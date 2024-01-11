@@ -328,8 +328,7 @@ installed in /etc/bash\_completion.d for a good starting point.
 
 ### Apply ulimit Changes Instantly
 
-The problem behind this is documented in [this blog
-post](/apply+limits+immediately) but it boils down to try to use the
+The problem behind this is documented in [this blog post](/apply+limits+immediately) but it boils down to try to use the
 "-i" switch:
 
     sudo -i -u <user>
