@@ -1177,7 +1177,7 @@
   },
   "Unicorn Arcology": {
     "github": "lwindolf/unicorn-arcology",
-    "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
+    "base": "https://raw.githubusercontent.com/lwindolf/unicorn-arcology/master/",
     "category": "Architecture",
     "documents": [
       {
