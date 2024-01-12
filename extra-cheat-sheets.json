@@ -663,5 +663,10 @@
   "Learn UML2": {
     "github": "imalitavakoli/learn-uml2",
     "category": "Architecture"
+  },
+  "Cloud Provider Cheat Sheets": {
+    "github": "JeffDeCola/my-cheat-sheets",
+    "filePattern": "^software/(service-.+)\\.md$",
+    "category": "Cheat Sheet"
   }
 }
