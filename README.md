@@ -337,6 +337,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
  - [Awesome Security](https://github.com/zbetcheckin/Security_list)
  - [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security)
+ - [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet)
  - [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
  - [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook)
  - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
