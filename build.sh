@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 set -euo pipefail
+set -x
 
 # Validate JSON
 jq . cheat-sheets.json >/dev/null
@@ -82,7 +83,7 @@ build_search_index() {
 
     }
     console.log(JSON.stringify(docs));
-  }
+  }build_search_index
 
   run();
 EOT
@@ -124,8 +125,8 @@ extra_cheat_sheets() {
 }
 
 cheat_sheets
-extra_cheat_sheets
 build_search_index
+extra_cheat_sheets
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
