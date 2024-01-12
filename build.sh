@@ -83,7 +83,7 @@ build_search_index() {
 
     }
     console.log(JSON.stringify(docs));
-  }build_search_index
+  }
 
   run();
 EOT
