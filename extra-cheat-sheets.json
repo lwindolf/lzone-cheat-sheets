@@ -266,6 +266,11 @@
     "github": "MicrosoftDocs/architecture-center",
     "filePattern": "^docs/(.+)\\.md$"
   },
+  "Documentation Powershell": {
+    "github": "MicrosoftDocs/PowerShell-Docs",
+    "filePattern:" "^reference/docs-conceptual/(.+)\\.md$",
+    "category": "Documentation"
+  },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books"
   },
