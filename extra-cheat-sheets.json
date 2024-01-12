@@ -268,7 +268,7 @@
   },
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
-    "filePattern:" "^reference/docs-conceptual/(.+)\\.md$",
+    "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
     "category": "Documentation"
   },
   "Architecture Books": {
