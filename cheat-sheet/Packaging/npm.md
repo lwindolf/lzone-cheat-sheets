@@ -11,7 +11,10 @@ related:
 
     npm view <package>
 
-    npm install   <package>[@<version>]
+    npm install   <package>[@<version>]                # Install as prod dependency
+    npm install   <package>[@<version>] --save-dev     # Install as dev dependency
+    npm install   <package>[@<version>] --save-bundle  # Install as bundle dependency
+    
     npm uninstall <package>[@<version>]
     npm rm <package>
 
