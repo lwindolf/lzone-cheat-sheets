@@ -43,7 +43,7 @@ cheat_sheets() {
 
   run();
 EOT
-) | node | jq >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
+  ) | node | jq >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
 }
 
 # Build lunr search index
@@ -131,6 +131,8 @@ extra_cheat_sheets
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
+  git add -u
+  git add search-data.json
 	git commit -m "Update index." README.md cheat-sheets.json search-data.json || exit 0
 	git push
 fi
