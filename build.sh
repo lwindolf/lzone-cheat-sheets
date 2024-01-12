@@ -86,7 +86,7 @@ build_search_index() {
 
   run();
 EOT
-  ) | node | jq >search.data.json
+  ) | node | jq >search-data.json
 }
 
 # Update README with a list of all cheat sheets defined
