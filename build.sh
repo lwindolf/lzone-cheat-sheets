@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 set -euo pipefail
-set -x
 
 # Validate JSON
 jq . cheat-sheets.json >/dev/null
@@ -87,7 +86,7 @@ build_search_index() {
 
   run();
 EOT
-  ) | node | jq >search-data.json
+  ) | node | jq >search-index.json
 }
 
 # Update README with a list of all cheat sheets defined
@@ -132,8 +131,8 @@ if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
   git add -u
-  git add search-data.json
-	git commit -m "Update index." README.md cheat-sheets.json search-data.json || exit 0
+  git add search-index.json
+	git commit -m "Update index." README.md cheat-sheets.json search-index.json || exit 0
 	git push
 fi
 
