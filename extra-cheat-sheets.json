@@ -247,6 +247,10 @@
     "github": "xapax/security",
     "filePattern": "^docs/(.+)\\.md$"
   },
+  "Azure Powershell": {
+    "github": "andreipintica/Azure-PowerShell-CheatSheet",
+    "category": "Cheat Sheet"
+  },
   "Awesome Azure Architecture": {
     "github": "lukemurraynz/awesome-azure-architecture"
   },
