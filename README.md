@@ -440,6 +440,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
  - [Python pdb Tutorial](https://github.com/spiside/pdb-tutorial)
  - [RabbitMQ Client Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
+ - [Reverse Shells](https://github.com/d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet)
  - [Runbooks AWS Incidents](https://github.com/aws-samples/aws-incident-response-playbooks)
  - [Runbooks Concept](https://github.com/iworkforthem/runbook)
  - [Runbooks Container Solutions](https://github.com/ContainerSolutions/runbooks)
