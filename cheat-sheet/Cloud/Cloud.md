@@ -19,7 +19,6 @@
 
 ## Other
 
-- [ESX](http://richgoldstein.net/KB/esx_cheatsheet.html)
 - [vSphere](http://jungar.net/vmwarecheatsheet.html)
 - [LXD](https://insights.ubuntu.com/2015/03/20/installing-lxd-and-the-command-line-tool/)
 - [OpenStack](http://docs.openstack.org/user-guide/cli_cheat_sheet.html)
