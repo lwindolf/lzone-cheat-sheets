@@ -45,6 +45,50 @@ EOT
 ) | node | jq >cheat-sheets.json.new && mv cheat-sheets.json.new cheat-sheets.json
 }
 
+# Build lunr search index
+build_search_index() {
+  (
+  cat <<'EOT'
+  async function run() {
+    var cheatsheets = require('./cheat-sheets.json');
+    var docs = {};
+
+    for(const name of Object.keys(cheatsheets)) {
+      let repo = cheatsheets[name];
+
+      // Add entry for section title
+      const j = Object.keys(docs).length;
+      docs[j] = {
+          doc: name,
+          id: j,
+          title: name,
+          content: "",
+          relUrl: `/#/${name}`,
+          url: `/#/${name}`
+      }
+
+      // Add 1st level child entries
+      repo?.documents.forEach((d) => {
+          const j = Object.keys(docs).length;
+          docs[j] = {
+              doc: name,
+              id: j,
+              title: d.name,
+              content: "",
+              relUrl: `/#/${name}/${d.name}`,
+              url: `/#/${name}/${d.name}`
+          }
+      });
+
+    }
+    console.log(JSON.stringify(docs));
+  }
+
+  run();
+EOT
+  ) | node | jq >search.data.json
+}
+
 # Update README with a list of all cheat sheets defined
 extra_cheat_sheets() {
   sed -i '/<!-- marker -->/,$ d' README.md
@@ -81,11 +125,12 @@ extra_cheat_sheets() {
 
 cheat_sheets
 extra_cheat_sheets
+build_search_index
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
-	git commit -m "Update index." README.md cheat-sheets.json || exit 0
+	git commit -m "Update index." README.md cheat-sheets.json search-data.json || exit 0
 	git push
 fi
 
