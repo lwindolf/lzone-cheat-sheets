@@ -668,5 +668,10 @@
     "github": "JeffDeCola/my-cheat-sheets",
     "filePattern": "^software/(service-.+)\\.md$",
     "category": "Cheat Sheet"
+  },
+  "Documentation juju": {
+    "github": "juju/juju",
+    "filePattern": "^doc/(.+)\\.md$",
+    "category": "Documentation"
   }
 }
