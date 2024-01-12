@@ -364,6 +364,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Documentation Prometheus](https://github.com/prometheus/docs)
  - [Documentation Telegraf](https://github.com/influxdata/telegraf)
  - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
+ - [Documentation juju](https://github.com/juju/juju)
  - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
  - [Documentation kubernetes](https://github.com/kubernetes/website)
  - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
