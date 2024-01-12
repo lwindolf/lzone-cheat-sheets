@@ -243,6 +243,10 @@
   "Awesome k8s Security": {
     "github": "magnologan/awesome-k8s-security"
   },
+  "Reverse Shells": {
+    "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
+    "category": "Cheat Sheet"
+  },
   "Xapax Security": {
     "github": "xapax/security",
     "filePattern": "^docs/(.+)\\.md$"
