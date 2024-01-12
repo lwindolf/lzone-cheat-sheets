@@ -60,9 +60,9 @@ build_search_index() {
       // Add entry for section title
       const j = Object.keys(docs).length;
       docs[j] = {
-          doc: name,
+          doc: `${name}`,
           id: j,
-          title: name,
+          title: `${name}`,
           content: "",
           relUrl: `/#/${name}`,
           url: `/#/${name}`
@@ -72,9 +72,9 @@ build_search_index() {
       repo?.documents.forEach((d) => {
           const j = Object.keys(docs).length;
           docs[j] = {
-              doc: name,
+              doc: `${name}`,
               id: j,
-              title: d.name,
+              title: `${d.name}`,
               content: "",
               relUrl: `/#/${name}/${d.name}`,
               url: `/#/${name}/${d.name}`
