@@ -28,7 +28,5 @@
 - [Flynn](http://ricostacruz.com/cheatsheets/flynn.html)
 - [Juju](https://github.com/juju/cheatsheet)
 - [Heroku](http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/)
-- [GCE](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/google-compute-engine-cheat-sheet)
-- [gcloud](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/google-compute-engine-cheat-sheet)
 - [DC/OS](https://docs.mesosphere.com/1.11/cli/command-reference/)
 
