@@ -107,7 +107,7 @@ readme_update() {
     result += `\n\n## ${name} Index\n`;
 
     for(let d of repo.documents) {
-      d = d.replace(/\.md$/, '');
+      d.path = d.path.replace(/\.md$/, '');
       let tmp = d.path.split(/\//);
 
       const dname = tmp[tmp.length-1];
