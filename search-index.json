@@ -994,42 +994,42 @@
   "124": {
     "doc": "Cheat Sheets 🐛",
     "id": 124,
-    "title": "Languages/Dev-Misc",
-    "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Dev-Misc",
-    "url": "/#/Cheat Sheets 🐛/Languages/Dev-Misc"
-  },
-  "125": {
-    "doc": "Cheat Sheets 🐛",
-    "id": 125,
     "title": "Languages/GCC",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/GCC",
     "url": "/#/Cheat Sheets 🐛/Languages/GCC"
   },
-  "126": {
+  "125": {
     "doc": "Cheat Sheets 🐛",
-    "id": 126,
+    "id": 125,
     "title": "Languages/JSONPath",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/JSONPath",
     "url": "/#/Cheat Sheets 🐛/Languages/JSONPath"
   },
-  "127": {
+  "126": {
     "doc": "Cheat Sheets 🐛",
-    "id": 127,
+    "id": 126,
     "title": "Languages/Linting",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/Linting",
     "url": "/#/Cheat Sheets 🐛/Languages/Linting"
   },
-  "128": {
+  "127": {
     "doc": "Cheat Sheets 🐛",
-    "id": 128,
+    "id": 127,
     "title": "Languages/Linux HTML Widgets",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/Linux HTML Widgets",
     "url": "/#/Cheat Sheets 🐛/Languages/Linux HTML Widgets"
+  },
+  "128": {
+    "doc": "Cheat Sheets 🐛",
+    "id": 128,
+    "title": "Languages/Misc",
+    "content": "",
+    "relUrl": "/#/Cheat Sheets 🐛/Languages/Misc",
+    "url": "/#/Cheat Sheets 🐛/Languages/Misc"
   },
   "129": {
     "doc": "Cheat Sheets 🐛",

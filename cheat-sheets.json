@@ -498,10 +498,6 @@
         "path": "cheat-sheet/Languages/CSS.md"
       },
       {
-        "name": "Languages/Dev-Misc",
-        "path": "cheat-sheet/Languages/Dev-Misc.md"
-      },
-      {
         "name": "Languages/GCC",
         "path": "cheat-sheet/Languages/GCC.md"
       },
@@ -516,6 +512,10 @@
       {
         "name": "Languages/Linux HTML Widgets",
         "path": "cheat-sheet/Languages/Linux HTML Widgets.md"
+      },
+      {
+        "name": "Languages/Misc",
+        "path": "cheat-sheet/Languages/Misc.md"
       },
       {
         "name": "Languages/PHP",
