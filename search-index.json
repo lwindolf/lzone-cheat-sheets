@@ -1978,446 +1978,454 @@
   "247": {
     "doc": "Examples",
     "id": 247,
+    "title": "Javascript Examples/README",
+    "content": "",
+    "relUrl": "/#/Examples/Javascript Examples/README",
+    "url": "/#/Examples/Javascript Examples/README"
+  },
+  "248": {
+    "doc": "Examples",
+    "id": 248,
     "title": "PHP Examples/PHP Arrays",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP Arrays",
     "url": "/#/Examples/PHP Examples/PHP Arrays"
   },
-  "248": {
+  "249": {
     "doc": "Examples",
-    "id": 248,
+    "id": 249,
     "title": "PHP Examples/PHP curl_setopt",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP curl_setopt",
     "url": "/#/Examples/PHP Examples/PHP curl_setopt"
   },
-  "249": {
+  "250": {
     "doc": "Examples",
-    "id": 249,
+    "id": 250,
     "title": "PHP Examples/PHP date",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP date",
     "url": "/#/Examples/PHP Examples/PHP date"
   },
-  "250": {
+  "251": {
     "doc": "Examples",
-    "id": 250,
+    "id": 251,
     "title": "PHP Examples/PHP explode",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP explode",
     "url": "/#/Examples/PHP Examples/PHP explode"
   },
-  "251": {
+  "252": {
     "doc": "Examples",
-    "id": 251,
+    "id": 252,
     "title": "PHP Examples/PHP file_get_contents",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP file_get_contents",
     "url": "/#/Examples/PHP Examples/PHP file_get_contents"
   },
-  "252": {
+  "253": {
     "doc": "Examples",
-    "id": 252,
+    "id": 253,
     "title": "PHP Examples/PHP implode",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP implode",
     "url": "/#/Examples/PHP Examples/PHP implode"
   },
-  "253": {
+  "254": {
     "doc": "Examples",
-    "id": 253,
+    "id": 254,
     "title": "PHP Examples/PHP in_array",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP in_array",
     "url": "/#/Examples/PHP Examples/PHP in_array"
   },
-  "254": {
+  "255": {
     "doc": "Examples",
-    "id": 254,
+    "id": 255,
     "title": "PHP Examples/PHP ini_set",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP ini_set",
     "url": "/#/Examples/PHP Examples/PHP ini_set"
   },
-  "255": {
+  "256": {
     "doc": "Examples",
-    "id": 255,
+    "id": 256,
     "title": "PHP Examples/PHP preg_match",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP preg_match",
     "url": "/#/Examples/PHP Examples/PHP preg_match"
   },
-  "256": {
+  "257": {
     "doc": "Examples",
-    "id": 256,
+    "id": 257,
     "title": "PHP Examples/PHP preg_replace",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP preg_replace",
     "url": "/#/Examples/PHP Examples/PHP preg_replace"
   },
-  "257": {
+  "258": {
     "doc": "Examples",
-    "id": 257,
+    "id": 258,
     "title": "PHP Examples/PHP str_replace",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP str_replace",
     "url": "/#/Examples/PHP Examples/PHP str_replace"
   },
-  "258": {
+  "259": {
     "doc": "Examples",
-    "id": 258,
+    "id": 259,
     "title": "PHP Examples/PHP stripos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP stripos",
     "url": "/#/Examples/PHP Examples/PHP stripos"
   },
-  "259": {
+  "260": {
     "doc": "Examples",
-    "id": 259,
+    "id": 260,
     "title": "PHP Examples/PHP strpos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strpos",
     "url": "/#/Examples/PHP Examples/PHP strpos"
   },
-  "260": {
+  "261": {
     "doc": "Examples",
-    "id": 260,
+    "id": 261,
     "title": "PHP Examples/PHP strripos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strripos",
     "url": "/#/Examples/PHP Examples/PHP strripos"
   },
-  "261": {
+  "262": {
     "doc": "Examples",
-    "id": 261,
+    "id": 262,
     "title": "PHP Examples/PHP strrpos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strrpos",
     "url": "/#/Examples/PHP Examples/PHP strrpos"
   },
-  "262": {
+  "263": {
     "doc": "Examples",
-    "id": 262,
+    "id": 263,
     "title": "PHP Examples/PHP ternary operator",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP ternary operator",
     "url": "/#/Examples/PHP Examples/PHP ternary operator"
   },
-  "263": {
+  "264": {
     "doc": "Examples",
-    "id": 263,
+    "id": 264,
     "title": "PHP Examples/PHP unserialize",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP unserialize",
     "url": "/#/Examples/PHP Examples/PHP unserialize"
   },
-  "264": {
+  "265": {
     "doc": "Examples",
-    "id": 264,
+    "id": 265,
     "title": "Python Examples/PyGI GStreamer",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GStreamer",
     "url": "/#/Examples/Python Examples/PyGI GStreamer"
   },
-  "265": {
+  "266": {
     "doc": "Examples",
-    "id": 265,
+    "id": 266,
     "title": "Python Examples/PyGI GnomeKeyring",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GnomeKeyring",
     "url": "/#/Examples/Python Examples/PyGI GnomeKeyring"
   },
-  "266": {
+  "267": {
     "doc": "Examples",
-    "id": 266,
+    "id": 267,
     "title": "Python Examples/PyGI GtkStatusIcon",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GtkStatusIcon",
     "url": "/#/Examples/Python Examples/PyGI GtkStatusIcon"
   },
-  "267": {
+  "268": {
     "doc": "Examples",
-    "id": 267,
+    "id": 268,
     "title": "Python Examples/Python Dictionary",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python Dictionary",
     "url": "/#/Examples/Python Examples/Python Dictionary"
   },
-  "268": {
+  "269": {
     "doc": "Examples",
-    "id": 268,
+    "id": 269,
     "title": "Python Examples/Python Syntax",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python Syntax",
     "url": "/#/Examples/Python Examples/Python Syntax"
   },
-  "269": {
+  "270": {
     "doc": "Examples",
-    "id": 269,
+    "id": 270,
     "title": "Python Examples/Python argparse",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python argparse",
     "url": "/#/Examples/Python Examples/Python argparse"
   },
-  "270": {
+  "271": {
     "doc": "Examples",
-    "id": 270,
+    "id": 271,
     "title": "Python Examples/Python re.match",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re.match",
     "url": "/#/Examples/Python Examples/Python re.match"
   },
-  "271": {
+  "272": {
     "doc": "Examples",
-    "id": 271,
+    "id": 272,
     "title": "Python Examples/Python re",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re",
     "url": "/#/Examples/Python Examples/Python re"
   },
-  "272": {
+  "273": {
     "doc": "Examples",
-    "id": 272,
+    "id": 273,
     "title": "Python Examples/Python re.sub",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re.sub",
     "url": "/#/Examples/Python Examples/Python re.sub"
   },
-  "273": {
+  "274": {
     "doc": "Examples",
-    "id": 273,
+    "id": 274,
     "title": "Python Examples/Python simplehttpserver",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python simplehttpserver",
     "url": "/#/Examples/Python Examples/Python simplehttpserver"
   },
-  "274": {
+  "275": {
     "doc": "Examples",
-    "id": 274,
+    "id": 275,
     "title": "Python Examples/Python split",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python split",
     "url": "/#/Examples/Python Examples/Python split"
   },
-  "275": {
+  "276": {
     "doc": "Examples",
-    "id": 275,
+    "id": 276,
     "title": "Python Examples/Python string concat",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python string concat",
     "url": "/#/Examples/Python Examples/Python string concat"
   },
-  "276": {
+  "277": {
     "doc": "Examples",
-    "id": 276,
+    "id": 277,
     "title": "Python Examples/Python subprocess",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python subprocess",
     "url": "/#/Examples/Python Examples/Python subprocess"
   },
-  "277": {
+  "278": {
     "doc": "Examples",
-    "id": 277,
+    "id": 278,
     "title": "Python Examples/Python",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python",
     "url": "/#/Examples/Python Examples/Python"
   },
-  "278": {
+  "279": {
     "doc": "Examples",
-    "id": 278,
+    "id": 279,
     "title": "README",
     "content": "",
     "relUrl": "/#/Examples/README",
     "url": "/#/Examples/README"
   },
-  "279": {
+  "280": {
     "doc": "Examples",
-    "id": 279,
+    "id": 280,
     "title": "Regex Examples/Go Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Go Regex",
     "url": "/#/Examples/Regex Examples/Go Regex"
   },
-  "280": {
+  "281": {
     "doc": "Examples",
-    "id": 280,
+    "id": 281,
     "title": "Regex Examples/Regex Overview",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Regex Overview",
     "url": "/#/Examples/Regex Examples/Regex Overview"
   },
-  "281": {
+  "282": {
     "doc": "Examples",
-    "id": 281,
+    "id": 282,
     "title": "Regex Examples/Ruby Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Ruby Regex",
     "url": "/#/Examples/Regex Examples/Ruby Regex"
   },
-  "282": {
+  "283": {
     "doc": "Video Tutorials",
-    "id": 282,
+    "id": 283,
     "title": "Video Tutorials",
     "content": "",
     "relUrl": "/#/Video Tutorials",
     "url": "/#/Video Tutorials"
   },
-  "283": {
+  "284": {
     "doc": "Video Tutorials",
-    "id": 283,
+    "id": 284,
     "title": "README",
     "content": "",
     "relUrl": "/#/Video Tutorials/README",
     "url": "/#/Video Tutorials/README"
   },
-  "284": {
+  "285": {
     "doc": "Visual Ops",
-    "id": 284,
+    "id": 285,
     "title": "Visual Ops",
     "content": "",
     "relUrl": "/#/Visual Ops",
     "url": "/#/Visual Ops"
   },
-  "285": {
+  "286": {
     "doc": "Visual Ops",
-    "id": 285,
+    "id": 286,
     "title": "du Radial Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Radial Map",
     "url": "/#/Visual Ops/du Radial Map"
   },
-  "286": {
+  "287": {
     "doc": "Visual Ops",
-    "id": 286,
+    "id": 287,
     "title": "du Tree Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Tree Map",
     "url": "/#/Visual Ops/du Tree Map"
   },
-  "287": {
+  "288": {
     "doc": "Visual Ops",
-    "id": 287,
+    "id": 288,
     "title": "netstat Dendrogram",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Dendrogram",
     "url": "/#/Visual Ops/netstat Dendrogram"
   },
-  "288": {
+  "289": {
     "doc": "Visual Ops",
-    "id": 288,
+    "id": 289,
     "title": "netstat Force Graph",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Force Graph",
     "url": "/#/Visual Ops/netstat Force Graph"
   },
-  "289": {
+  "290": {
     "doc": "Visual Ops",
-    "id": 289,
+    "id": 290,
     "title": "netstat Services",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Services",
     "url": "/#/Visual Ops/netstat Services"
   },
-  "290": {
+  "291": {
     "doc": "Visual Ops",
-    "id": 290,
+    "id": 291,
     "title": "visual-ops",
     "content": "",
     "relUrl": "/#/Visual Ops/visual-ops",
     "url": "/#/Visual Ops/visual-ops"
   },
-  "291": {
+  "292": {
     "doc": "Unicorn Arcology",
-    "id": 291,
+    "id": 292,
     "title": "Unicorn Arcology",
     "content": "",
     "relUrl": "/#/Unicorn Arcology",
     "url": "/#/Unicorn Arcology"
   },
-  "292": {
+  "293": {
     "doc": "Unicorn Arcology",
-    "id": 292,
+    "id": 293,
     "title": "Hulu/NoSQL/2012 memcached",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached"
   },
-  "293": {
+  "294": {
     "doc": "Unicorn Arcology",
-    "id": 293,
+    "id": 294,
     "title": "Hulu/NoSQL/2013 Redis Multi-DC",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC"
   },
-  "294": {
+  "295": {
     "doc": "Unicorn Arcology",
-    "id": 294,
+    "id": 295,
     "title": "Netflix/Data Platform/2013 Genie1",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1"
   },
-  "295": {
+  "296": {
     "doc": "Unicorn Arcology",
-    "id": 295,
+    "id": 296,
     "title": "Netflix/Data Platform/2014 Genie2",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2"
   },
-  "296": {
+  "297": {
     "doc": "Unicorn Arcology",
-    "id": 296,
+    "id": 297,
     "title": "Netflix/Data Platform/2017 Genie3",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3"
   },
-  "297": {
+  "298": {
     "doc": "Unicorn Arcology",
-    "id": 297,
+    "id": 298,
     "title": "README",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/README",
     "url": "/#/Unicorn Arcology/README"
   },
-  "298": {
+  "299": {
     "doc": "Unicorn Arcology",
-    "id": 298,
+    "id": 299,
     "title": "Uber/Data Platform/2014 RDBMs",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs"
   },
-  "299": {
+  "300": {
     "doc": "Unicorn Arcology",
-    "id": 299,
+    "id": 300,
     "title": "Uber/Data Platform/2015 DWH data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake"
   },
-  "300": {
+  "301": {
     "doc": "Unicorn Arcology",
-    "id": 300,
+    "id": 301,
     "title": "Uber/Data Platform/2016 Hadoop data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake"
   },
-  "301": {
+  "302": {
     "doc": "Unicorn Arcology",
-    "id": 301,
+    "id": 302,
     "title": "Uber/Data Platform/2017 Big data platform",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform"
   },
-  "302": {
+  "303": {
     "doc": "Unicorn Arcology",
-    "id": 302,
+    "id": 303,
     "title": "Uber/Monitoring/2018 M3DB",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Monitoring/2018 M3DB",

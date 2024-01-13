@@ -998,6 +998,10 @@
         "path": "examples/Javascript Examples/Nodejs Express.md"
       },
       {
+        "name": "Javascript Examples/README",
+        "path": "examples/Javascript Examples/README.md"
+      },
+      {
         "name": "PHP Examples/PHP Arrays",
         "path": "examples/PHP Examples/PHP Arrays.md"
       },
