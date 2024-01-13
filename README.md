@@ -435,6 +435,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Markdown Architecture Records](https://github.com/adr/madr)
  - [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
  - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
+ - [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet)
  - [Nature of Code](https://github.com/nature-of-code/noc-book-2023)
  - [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
  - [OS Tutorial](https://github.com/cfenollosa/os-tutorial)
