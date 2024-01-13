@@ -9,6 +9,11 @@ Below is an example for a 8GB host of which Java per default 1/4 (MaxRAMFraction
        uintx MaxRAMFraction                           = 4                                         {product} {default}
       double MaxRAMPercentage                         = 25.000000                                 {product} {default}
 
+Also interesting
+
+- [Why JVM eats more memory than configured via xmx...](https://plumbr.eu/blog/memory-leaks/why-does-my-java-process-consume-more-memory-than-xmx)
+- [Why JVM eats more memory than configured...](http://stackoverflow.com/questions/11768615/jvm-memory-usage-out-of-control)
+
 ## Java RAM and containers
 
 When running Java in containers you need to ensure Java see the real amount of RAM it has available.
