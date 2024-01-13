@@ -788,5 +788,9 @@
     "github": "begin/globbing",
     "category": "DevOps",
     "type": "Cheat Sheet"
-  }
+  },
+  "GCP Cheat Sheet": {
+    "github": "dennyzhang/cheatsheet-gcp-A4",
+    "category": "DevOps",
+    "type": "Cheat Sheet"
 }
