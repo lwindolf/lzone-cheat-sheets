@@ -391,6 +391,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture)
  - [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook)
  - [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial)
+ - [Javascript ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
  - [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
  - [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules)
  - [Kafka Architecture](https://github.com/anhthii/kafka-notes)
