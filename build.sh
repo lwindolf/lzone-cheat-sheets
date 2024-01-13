@@ -106,11 +106,12 @@ readme_update() {
 
     result += `\n\n## ${name} Index\n`;
 
-    for(const d of repo.documents) {
+    for(let d of repo.documents) {
+      d = d.replace(/\.md$/, '');
       let tmp = d.path.split(/\//);
 
-      const dname = tmp[tmp.length-1].replace(/\.md$/, '');
-      if(dname === 'README.md')
+      const dname = tmp[tmp.length-1];
+      if(dname === 'README')
         continue;
       docs[dname] = { path: d.path, group: tmp[1] };
     }
