@@ -850,10 +850,6 @@
         "path": "cheat-sheet/Windows/wmic.md"
       },
       {
-        "name": "cheat-sheet",
-        "path": "cheat-sheet/cheat-sheet.md"
-      },
-      {
         "name": "kubernetes/Helm Templates",
         "path": "cheat-sheet/kubernetes/Helm Templates.md"
       },
