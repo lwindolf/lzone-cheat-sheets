@@ -348,6 +348,10 @@
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules"
   },
+  "Javascript ES6 Cheatsheet": {
+    "github": "DrkSephy/es6-cheatsheet",
+    "category": "Cheat Sheet"
+  },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
     "filePattern": "^(.+)\\.md$"
