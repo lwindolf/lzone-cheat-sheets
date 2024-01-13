@@ -681,5 +681,9 @@
   "Naming Cheat Sheet": {
     "github": "kettanaito/naming-cheatsheet",
     "category": "Cheat Sheet"
+  },
+  "nginx Admin Handbook": {
+    "github": "trimstray/nginx-admins-handbook",
+    "category": "Documentation"
   }
 }
