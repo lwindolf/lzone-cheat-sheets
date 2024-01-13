@@ -114,90 +114,90 @@
   "14": {
     "doc": "Cheat Sheets 🐛",
     "id": 14,
-    "title": "CICD/CICD",
-    "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/CICD",
-    "url": "/#/Cheat Sheets 🐛/CICD/CICD"
-  },
-  "15": {
-    "doc": "Cheat Sheets 🐛",
-    "id": 15,
     "title": "CICD/Gerrit",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Gerrit",
     "url": "/#/Cheat Sheets 🐛/CICD/Gerrit"
   },
-  "16": {
+  "15": {
     "doc": "Cheat Sheets 🐛",
-    "id": 16,
+    "id": 15,
     "title": "CICD/Git",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Git",
     "url": "/#/Cheat Sheets 🐛/CICD/Git"
   },
-  "17": {
+  "16": {
     "doc": "Cheat Sheets 🐛",
-    "id": 17,
+    "id": 16,
     "title": "CICD/Github Actions",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Github Actions",
     "url": "/#/Cheat Sheets 🐛/CICD/Github Actions"
   },
-  "18": {
+  "17": {
     "doc": "Cheat Sheets 🐛",
-    "id": 18,
+    "id": 17,
     "title": "CICD/Gradle",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Gradle",
     "url": "/#/Cheat Sheets 🐛/CICD/Gradle"
   },
-  "19": {
+  "18": {
     "doc": "Cheat Sheets 🐛",
-    "id": 19,
+    "id": 18,
     "title": "CICD/JFrog CLI",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/JFrog CLI",
     "url": "/#/Cheat Sheets 🐛/CICD/JFrog CLI"
   },
-  "20": {
+  "19": {
     "doc": "Cheat Sheets 🐛",
-    "id": 20,
+    "id": 19,
     "title": "CICD/Jenkins Docs",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins Docs",
     "url": "/#/Cheat Sheets 🐛/CICD/Jenkins Docs"
   },
-  "21": {
+  "20": {
     "doc": "Cheat Sheets 🐛",
-    "id": 21,
+    "id": 20,
     "title": "CICD/Jenkins Pipeline DSL",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins Pipeline DSL",
     "url": "/#/Cheat Sheets 🐛/CICD/Jenkins Pipeline DSL"
   },
-  "22": {
+  "21": {
     "doc": "Cheat Sheets 🐛",
-    "id": 22,
+    "id": 21,
     "title": "CICD/Jenkins",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins",
     "url": "/#/Cheat Sheets 🐛/CICD/Jenkins"
   },
-  "23": {
+  "22": {
     "doc": "Cheat Sheets 🐛",
-    "id": 23,
+    "id": 22,
     "title": "CICD/JenkinsX",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/JenkinsX",
     "url": "/#/Cheat Sheets 🐛/CICD/JenkinsX"
   },
-  "24": {
+  "23": {
     "doc": "Cheat Sheets 🐛",
-    "id": 24,
+    "id": 23,
     "title": "CICD/Maven",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/CICD/Maven",
     "url": "/#/Cheat Sheets 🐛/CICD/Maven"
+  },
+  "24": {
+    "doc": "Cheat Sheets 🐛",
+    "id": 24,
+    "title": "CICD/README",
+    "content": "",
+    "relUrl": "/#/Cheat Sheets 🐛/CICD/README",
+    "url": "/#/Cheat Sheets 🐛/CICD/README"
   },
   "25": {
     "doc": "Cheat Sheets 🐛",

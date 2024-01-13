@@ -58,10 +58,6 @@
         "path": "cheat-sheet/CICD/ArgoCD.md"
       },
       {
-        "name": "CICD/CICD",
-        "path": "cheat-sheet/CICD/CICD.md"
-      },
-      {
         "name": "CICD/Gerrit",
         "path": "cheat-sheet/CICD/Gerrit.md"
       },
@@ -100,6 +96,10 @@
       {
         "name": "CICD/Maven",
         "path": "cheat-sheet/CICD/Maven.md"
+      },
+      {
+        "name": "CICD/README",
+        "path": "cheat-sheet/CICD/README.md"
       },
       {
         "name": "Cloud/ARM",
