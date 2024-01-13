@@ -1126,6 +1126,10 @@
         "path": "examples/Python Examples/Python.md"
       },
       {
+        "name": "README",
+        "path": "examples/README.md"
+      },
+      {
         "name": "Regex Examples/Go Regex",
         "path": "examples/Regex Examples/Go Regex.md"
       },
@@ -1136,10 +1140,6 @@
       {
         "name": "Regex Examples/Ruby Regex",
         "path": "examples/Regex Examples/Ruby Regex.md"
-      },
-      {
-        "name": "examples",
-        "path": "examples/examples.md"
       }
     ]
   },

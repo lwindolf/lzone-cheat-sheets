@@ -2234,34 +2234,34 @@
   "279": {
     "doc": "Examples",
     "id": 279,
+    "title": "README",
+    "content": "",
+    "relUrl": "/#/Examples/README",
+    "url": "/#/Examples/README"
+  },
+  "280": {
+    "doc": "Examples",
+    "id": 280,
     "title": "Regex Examples/Go Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Go Regex",
     "url": "/#/Examples/Regex Examples/Go Regex"
   },
-  "280": {
+  "281": {
     "doc": "Examples",
-    "id": 280,
+    "id": 281,
     "title": "Regex Examples/Regex Overview",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Regex Overview",
     "url": "/#/Examples/Regex Examples/Regex Overview"
   },
-  "281": {
+  "282": {
     "doc": "Examples",
-    "id": 281,
+    "id": 282,
     "title": "Regex Examples/Ruby Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Ruby Regex",
     "url": "/#/Examples/Regex Examples/Ruby Regex"
-  },
-  "282": {
-    "doc": "Examples",
-    "id": 282,
-    "title": "examples",
-    "content": "",
-    "relUrl": "/#/Examples/examples",
-    "url": "/#/Examples/examples"
   },
   "283": {
     "doc": "Video Tutorials",
