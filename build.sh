@@ -90,42 +90,53 @@ EOT
 }
 
 # Update README with a list of all cheat sheets defined
-extra_cheat_sheets() {
+readme_update() {
   sed -i '/<!-- marker -->/,$ d' README.md
-          
+
   (
-    echo '<!-- marker -->'
-            
-    for directory in cheat-sheet examples; do
-      oldgroup=
-      printf "\n## %s Index\n\n" $(echo "$directory" | sed -e "s/\b\(.\)/\u\1/g")
+  cat <<'EOT'
+  var cheatsheets = require('./cheat-sheets.json');
+  var extra = require('./extra-cheat-sheets.json');
+  var result = '<!-- marker -->\n\n';
 
-      while IFS=/ read -r dot group file; do
-        name="$(basename "$file" .md)"
+  for(const name of ["Cheat Sheets 🐛","Examples"]) {
+    let repo = cheatsheets[name];
+    let oldgroup = "";
+    let docs = {};
 
-        if [ "$oldgroup" != "$group" ]; then
-          echo "<br/><span class='group'><b>$group</b></span>"
-          oldgroup="$group"
-        fi
+    result += `\n\n## ${name} Index\n`;
 
-        echo " | <a class='topic' href='https://lzone.de/#/$directory/$name'>$name</a>"
-      done < <(cd $directory/ && find . -mindepth 2 -name "*.md" | grep -v README | LANG=C sort)
-    done
+    for(const d of repo.documents) {
+      let tmp = d.path.split(/\//);
 
-    # Append extra sheet sheets
-    printf "\n## Installable External Cheat Sheets\n\n"
+      const dname = tmp[tmp.length-1].replace(/\.md$/, '');
+      if(dname === 'README.md')
+        continue;
+      docs[dname] = { path: d.path, group: tmp[1] };
+    }
+    for(const dname of Object.keys(docs).sort()) {
+      if (docs[dname].group !== oldgroup) {
+        result += `\n<b>${docs[dname].group}</b>`;
+        oldgroup = docs[dname].group;
+      }
+      result += ` | <a href='https://lzone.de/#/${docs[dname].path}>${dname}</a>`;
+    }
+  }
 
-    while read extra; do
-      repo="https://github.com/$(jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value.github' extra-cheat-sheets.json)"
-      printf " - [$extra]($repo)\n"
-    done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort)
+  result += '\n\n## Installable External Cheat Sheets\n\n';
 
-  ) >>README.md
+  for(const dname of Object.keys(extra).sort()) {
+    result += `- [${dname}](https://github.com/${extra[dname].github})\n`;
+  }
+
+  console.log(result);
+EOT
+  ) | node >>README.md
 }
 
 cheat_sheets
 build_search_index
-extra_cheat_sheets
+readme_update
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
