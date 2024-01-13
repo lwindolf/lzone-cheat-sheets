@@ -109,7 +109,7 @@ extra_cheat_sheets() {
         fi
 
         echo " | <a class='topic' href='https://lzone.de/$directory/$name'>$name</a>"
-      done < <(cd $directory/ && find . -mindepth 2 -name "*.md" | LANG=C sort)
+      done < <(cd $directory/ && find . -mindepth 2 -name "*.md" | grep -v README | LANG=C sort)
     done
 
     # Append extra sheet sheets
