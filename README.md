@@ -381,6 +381,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
  - [Geo Data Science Book](https://github.com/gdsbook/book)
  - [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
+ - [Globbing Cheat Sheet](https://github.com/begin/globbing)
  - [How Programming Works](https://github.com/HowProgrammingWorks/Book)
  - [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal)
  - [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews)
