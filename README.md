@@ -442,6 +442,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries)
  - [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook)
  - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+ - [Python Cheat Sheet](https://github.com/crazyguitar/pysheeet)
  - [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
  - [Python pdb Tutorial](https://github.com/spiside/pdb-tutorial)
  - [RabbitMQ Client Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
