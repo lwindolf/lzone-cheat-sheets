@@ -677,5 +677,9 @@
     "github": "juju/juju",
     "filePattern": "^doc/(.+)\\.md$",
     "category": "Documentation"
+  },
+  "Naming Cheat Sheet": {
+    "github": "kettanaito/naming-cheatsheet",
+    "category": "Cheat Sheet"
   }
 }
