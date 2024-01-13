@@ -1090,1342 +1090,1350 @@
   "136": {
     "doc": "Cheat Sheets 🐛",
     "id": 136,
+    "title": "Languages/XML",
+    "content": "",
+    "relUrl": "/#/Cheat Sheets 🐛/Languages/XML",
+    "url": "/#/Cheat Sheets 🐛/Languages/XML"
+  },
+  "137": {
+    "doc": "Cheat Sheets 🐛",
+    "id": 137,
     "title": "Languages/XPath",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/XPath",
     "url": "/#/Cheat Sheets 🐛/Languages/XPath"
   },
-  "137": {
+  "138": {
     "doc": "Cheat Sheets 🐛",
-    "id": 137,
+    "id": 138,
     "title": "Languages/XSLT",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/XSLT",
     "url": "/#/Cheat Sheets 🐛/Languages/XSLT"
   },
-  "138": {
+  "139": {
     "doc": "Cheat Sheets 🐛",
-    "id": 138,
+    "id": 139,
     "title": "Languages/YAML",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/YAML",
     "url": "/#/Cheat Sheets 🐛/Languages/YAML"
   },
-  "139": {
+  "140": {
     "doc": "Cheat Sheets 🐛",
-    "id": 139,
+    "id": 140,
     "title": "Languages/autotools",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/autotools",
     "url": "/#/Cheat Sheets 🐛/Languages/autotools"
   },
-  "140": {
+  "141": {
     "doc": "Cheat Sheets 🐛",
-    "id": 140,
+    "id": 141,
     "title": "Languages/gdb",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/gdb",
     "url": "/#/Cheat Sheets 🐛/Languages/gdb"
   },
-  "141": {
+  "142": {
     "doc": "Cheat Sheets 🐛",
-    "id": 141,
+    "id": 142,
     "title": "Languages/meson",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Languages/meson",
     "url": "/#/Cheat Sheets 🐛/Languages/meson"
   },
-  "142": {
+  "143": {
     "doc": "Cheat Sheets 🐛",
-    "id": 142,
+    "id": 143,
     "title": "Mobile/adb",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Mobile/adb",
     "url": "/#/Cheat Sheets 🐛/Mobile/adb"
   },
-  "143": {
+  "144": {
     "doc": "Cheat Sheets 🐛",
-    "id": 143,
+    "id": 144,
     "title": "Network/Linux-Networking",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/Linux-Networking",
     "url": "/#/Cheat Sheets 🐛/Network/Linux-Networking"
   },
-  "144": {
+  "145": {
     "doc": "Cheat Sheets 🐛",
-    "id": 144,
+    "id": 145,
     "title": "Network/Mail",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/Mail",
     "url": "/#/Cheat Sheets 🐛/Network/Mail"
   },
-  "145": {
+  "146": {
     "doc": "Cheat Sheets 🐛",
-    "id": 145,
+    "id": 146,
     "title": "Network/Network",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/Network",
     "url": "/#/Cheat Sheets 🐛/Network/Network"
   },
-  "146": {
+  "147": {
     "doc": "Cheat Sheets 🐛",
-    "id": 146,
+    "id": 147,
     "title": "Network/SMB",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/SMB",
     "url": "/#/Cheat Sheets 🐛/Network/SMB"
   },
-  "147": {
+  "148": {
     "doc": "Cheat Sheets 🐛",
-    "id": 147,
+    "id": 148,
     "title": "Network/SSH",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/SSH",
     "url": "/#/Cheat Sheets 🐛/Network/SSH"
   },
-  "148": {
+  "149": {
     "doc": "Cheat Sheets 🐛",
-    "id": 148,
+    "id": 149,
     "title": "Network/curl",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/curl",
     "url": "/#/Cheat Sheets 🐛/Network/curl"
   },
-  "149": {
+  "150": {
     "doc": "Cheat Sheets 🐛",
-    "id": 149,
+    "id": 150,
     "title": "Network/iptables",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/iptables",
     "url": "/#/Cheat Sheets 🐛/Network/iptables"
   },
-  "150": {
+  "151": {
     "doc": "Cheat Sheets 🐛",
-    "id": 150,
+    "id": 151,
     "title": "Network/mDNS",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/mDNS",
     "url": "/#/Cheat Sheets 🐛/Network/mDNS"
   },
-  "151": {
+  "152": {
     "doc": "Cheat Sheets 🐛",
-    "id": 151,
+    "id": 152,
     "title": "Network/netfilter",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/netfilter",
     "url": "/#/Cheat Sheets 🐛/Network/netfilter"
   },
-  "152": {
+  "153": {
     "doc": "Cheat Sheets 🐛",
-    "id": 152,
+    "id": 153,
     "title": "Network/rsync",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/rsync",
     "url": "/#/Cheat Sheets 🐛/Network/rsync"
   },
-  "153": {
+  "154": {
     "doc": "Cheat Sheets 🐛",
-    "id": 153,
+    "id": 154,
     "title": "Network/tcpdump",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/tcpdump",
     "url": "/#/Cheat Sheets 🐛/Network/tcpdump"
   },
-  "154": {
+  "155": {
     "doc": "Cheat Sheets 🐛",
-    "id": 154,
+    "id": 155,
     "title": "Network/unbound",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Network/unbound",
     "url": "/#/Cheat Sheets 🐛/Network/unbound"
   },
-  "155": {
+  "156": {
     "doc": "Cheat Sheets 🐛",
-    "id": 155,
+    "id": 156,
     "title": "Packaging/Bower",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/Bower",
     "url": "/#/Cheat Sheets 🐛/Packaging/Bower"
   },
-  "156": {
+  "157": {
     "doc": "Cheat Sheets 🐛",
-    "id": 156,
+    "id": 157,
     "title": "Packaging/Conan",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/Conan",
     "url": "/#/Cheat Sheets 🐛/Packaging/Conan"
   },
-  "157": {
+  "158": {
     "doc": "Cheat Sheets 🐛",
-    "id": 157,
+    "id": 158,
     "title": "Packaging/Ruby Bundler",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/Ruby Bundler",
     "url": "/#/Cheat Sheets 🐛/Packaging/Ruby Bundler"
   },
-  "158": {
+  "159": {
     "doc": "Cheat Sheets 🐛",
-    "id": 158,
+    "id": 159,
     "title": "Packaging/apt",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/apt",
     "url": "/#/Cheat Sheets 🐛/Packaging/apt"
   },
-  "159": {
+  "160": {
     "doc": "Cheat Sheets 🐛",
-    "id": 159,
+    "id": 160,
     "title": "Packaging/cargo",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/cargo",
     "url": "/#/Cheat Sheets 🐛/Packaging/cargo"
   },
-  "160": {
+  "161": {
     "doc": "Cheat Sheets 🐛",
-    "id": 160,
+    "id": 161,
     "title": "Packaging/dpkg",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/dpkg",
     "url": "/#/Cheat Sheets 🐛/Packaging/dpkg"
   },
-  "161": {
+  "162": {
     "doc": "Cheat Sheets 🐛",
-    "id": 161,
+    "id": 162,
     "title": "Packaging/flatpak",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/flatpak",
     "url": "/#/Cheat Sheets 🐛/Packaging/flatpak"
   },
-  "162": {
+  "163": {
     "doc": "Cheat Sheets 🐛",
-    "id": 162,
+    "id": 163,
     "title": "Packaging/gem",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/gem",
     "url": "/#/Cheat Sheets 🐛/Packaging/gem"
   },
-  "163": {
+  "164": {
     "doc": "Cheat Sheets 🐛",
-    "id": 163,
+    "id": 164,
     "title": "Packaging/golang",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/golang",
     "url": "/#/Cheat Sheets 🐛/Packaging/golang"
   },
-  "164": {
+  "165": {
     "doc": "Cheat Sheets 🐛",
-    "id": 164,
+    "id": 165,
     "title": "Packaging/gradle",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/gradle",
     "url": "/#/Cheat Sheets 🐛/Packaging/gradle"
   },
-  "165": {
+  "166": {
     "doc": "Cheat Sheets 🐛",
-    "id": 165,
+    "id": 166,
     "title": "Packaging/maven",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/maven",
     "url": "/#/Cheat Sheets 🐛/Packaging/maven"
   },
-  "166": {
+  "167": {
     "doc": "Cheat Sheets 🐛",
-    "id": 166,
+    "id": 167,
     "title": "Packaging/npm",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/npm",
     "url": "/#/Cheat Sheets 🐛/Packaging/npm"
   },
-  "167": {
+  "168": {
     "doc": "Cheat Sheets 🐛",
-    "id": 167,
+    "id": 168,
     "title": "Packaging/pacman",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/pacman",
     "url": "/#/Cheat Sheets 🐛/Packaging/pacman"
   },
-  "168": {
+  "169": {
     "doc": "Cheat Sheets 🐛",
-    "id": 168,
+    "id": 169,
     "title": "Packaging/pip",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/pip",
     "url": "/#/Cheat Sheets 🐛/Packaging/pip"
   },
-  "169": {
+  "170": {
     "doc": "Cheat Sheets 🐛",
-    "id": 169,
+    "id": 170,
     "title": "Packaging/rvm",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/rvm",
     "url": "/#/Cheat Sheets 🐛/Packaging/rvm"
   },
-  "170": {
+  "171": {
     "doc": "Cheat Sheets 🐛",
-    "id": 170,
+    "id": 171,
     "title": "Packaging/snap",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/snap",
     "url": "/#/Cheat Sheets 🐛/Packaging/snap"
   },
-  "171": {
+  "172": {
     "doc": "Cheat Sheets 🐛",
-    "id": 171,
+    "id": 172,
     "title": "Packaging/yum",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/yum",
     "url": "/#/Cheat Sheets 🐛/Packaging/yum"
   },
-  "172": {
+  "173": {
     "doc": "Cheat Sheets 🐛",
-    "id": 172,
+    "id": 173,
     "title": "Packaging/zypper",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Packaging/zypper",
     "url": "/#/Cheat Sheets 🐛/Packaging/zypper"
   },
-  "173": {
+  "174": {
     "doc": "Cheat Sheets 🐛",
-    "id": 173,
+    "id": 174,
     "title": "Scripting/APIs",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/APIs",
     "url": "/#/Cheat Sheets 🐛/Scripting/APIs"
   },
-  "174": {
+  "175": {
     "doc": "Cheat Sheets 🐛",
-    "id": 174,
+    "id": 175,
     "title": "Scripting/Bash Associative Array",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Associative Array",
     "url": "/#/Cheat Sheets 🐛/Scripting/Bash Associative Array"
   },
-  "175": {
+  "176": {
     "doc": "Cheat Sheets 🐛",
-    "id": 175,
+    "id": 176,
     "title": "Scripting/Bash Functions",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Functions",
     "url": "/#/Cheat Sheets 🐛/Scripting/Bash Functions"
   },
-  "176": {
+  "177": {
     "doc": "Cheat Sheets 🐛",
-    "id": 176,
+    "id": 177,
     "title": "Scripting/Bash Regex",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Regex",
     "url": "/#/Cheat Sheets 🐛/Scripting/Bash Regex"
   },
-  "177": {
+  "178": {
     "doc": "Cheat Sheets 🐛",
-    "id": 177,
+    "id": 178,
     "title": "Scripting/Bash",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash",
     "url": "/#/Cheat Sheets 🐛/Scripting/Bash"
   },
-  "178": {
+  "179": {
     "doc": "Cheat Sheets 🐛",
-    "id": 178,
+    "id": 179,
     "title": "Scripting/Images",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Images",
     "url": "/#/Cheat Sheets 🐛/Scripting/Images"
   },
-  "179": {
+  "180": {
     "doc": "Cheat Sheets 🐛",
-    "id": 179,
+    "id": 180,
     "title": "Scripting/Locking",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Locking",
     "url": "/#/Cheat Sheets 🐛/Scripting/Locking"
   },
-  "180": {
+  "181": {
     "doc": "Cheat Sheets 🐛",
-    "id": 180,
+    "id": 181,
     "title": "Scripting/Scripting",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Scripting",
     "url": "/#/Cheat Sheets 🐛/Scripting/Scripting"
   },
-  "181": {
+  "182": {
     "doc": "Cheat Sheets 🐛",
-    "id": 181,
+    "id": 182,
     "title": "Scripting/Shell-Scripting",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/Shell-Scripting",
     "url": "/#/Cheat Sheets 🐛/Scripting/Shell-Scripting"
   },
-  "182": {
+  "183": {
     "doc": "Cheat Sheets 🐛",
-    "id": 182,
+    "id": 183,
     "title": "Scripting/awk",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/awk",
     "url": "/#/Cheat Sheets 🐛/Scripting/awk"
   },
-  "183": {
+  "184": {
     "doc": "Cheat Sheets 🐛",
-    "id": 183,
+    "id": 184,
     "title": "Scripting/ffmpeg",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/ffmpeg",
     "url": "/#/Cheat Sheets 🐛/Scripting/ffmpeg"
   },
-  "184": {
+  "185": {
     "doc": "Cheat Sheets 🐛",
-    "id": 184,
+    "id": 185,
     "title": "Scripting/jq",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/jq",
     "url": "/#/Cheat Sheets 🐛/Scripting/jq"
   },
-  "185": {
+  "186": {
     "doc": "Cheat Sheets 🐛",
-    "id": 185,
+    "id": 186,
     "title": "Scripting/sed",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/sed",
     "url": "/#/Cheat Sheets 🐛/Scripting/sed"
   },
-  "186": {
+  "187": {
     "doc": "Cheat Sheets 🐛",
-    "id": 186,
+    "id": 187,
     "title": "Scripting/xargs",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/xargs",
     "url": "/#/Cheat Sheets 🐛/Scripting/xargs"
   },
-  "187": {
+  "188": {
     "doc": "Cheat Sheets 🐛",
-    "id": 187,
+    "id": 188,
     "title": "Scripting/zenity",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Scripting/zenity",
     "url": "/#/Cheat Sheets 🐛/Scripting/zenity"
   },
-  "188": {
+  "189": {
     "doc": "Cheat Sheets 🐛",
-    "id": 188,
+    "id": 189,
     "title": "Security/AppArmor",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/AppArmor",
     "url": "/#/Cheat Sheets 🐛/Security/AppArmor"
   },
-  "189": {
+  "190": {
     "doc": "Cheat Sheets 🐛",
-    "id": 189,
+    "id": 190,
     "title": "Security/HTTPS",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/HTTPS",
     "url": "/#/Cheat Sheets 🐛/Security/HTTPS"
   },
-  "190": {
+  "191": {
     "doc": "Cheat Sheets 🐛",
-    "id": 190,
+    "id": 191,
     "title": "Security/Incident Handling",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/Incident Handling",
     "url": "/#/Cheat Sheets 🐛/Security/Incident Handling"
   },
-  "191": {
+  "192": {
     "doc": "Cheat Sheets 🐛",
-    "id": 191,
+    "id": 192,
     "title": "Security/OpenSCAP",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/OpenSCAP",
     "url": "/#/Cheat Sheets 🐛/Security/OpenSCAP"
   },
-  "192": {
+  "193": {
     "doc": "Cheat Sheets 🐛",
-    "id": 192,
+    "id": 193,
     "title": "Security/OpenSSL",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/OpenSSL",
     "url": "/#/Cheat Sheets 🐛/Security/OpenSSL"
   },
-  "193": {
+  "194": {
     "doc": "Cheat Sheets 🐛",
-    "id": 193,
+    "id": 194,
     "title": "Security/Package Vulnerabilities",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/Package Vulnerabilities",
     "url": "/#/Cheat Sheets 🐛/Security/Package Vulnerabilities"
   },
-  "194": {
+  "195": {
     "doc": "Cheat Sheets 🐛",
-    "id": 194,
+    "id": 195,
     "title": "Security/SELinux",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/SELinux",
     "url": "/#/Cheat Sheets 🐛/Security/SELinux"
   },
-  "195": {
+  "196": {
     "doc": "Cheat Sheets 🐛",
-    "id": 195,
+    "id": 196,
     "title": "Security/SIEM",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/SIEM",
     "url": "/#/Cheat Sheets 🐛/Security/SIEM"
   },
-  "196": {
+  "197": {
     "doc": "Cheat Sheets 🐛",
-    "id": 196,
+    "id": 197,
     "title": "Security/SSL-Certificates",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/SSL-Certificates",
     "url": "/#/Cheat Sheets 🐛/Security/SSL-Certificates"
   },
-  "197": {
+  "198": {
     "doc": "Cheat Sheets 🐛",
-    "id": 197,
+    "id": 198,
     "title": "Security/Security Auditing",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/Security Auditing",
     "url": "/#/Cheat Sheets 🐛/Security/Security Auditing"
   },
-  "198": {
+  "199": {
     "doc": "Cheat Sheets 🐛",
-    "id": 198,
+    "id": 199,
     "title": "Security/Security-News-Feeds",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/Security-News-Feeds",
     "url": "/#/Cheat Sheets 🐛/Security/Security-News-Feeds"
   },
-  "199": {
+  "200": {
     "doc": "Cheat Sheets 🐛",
-    "id": 199,
+    "id": 200,
     "title": "Security/Security",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Security/Security",
     "url": "/#/Cheat Sheets 🐛/Security/Security"
   },
-  "200": {
+  "201": {
     "doc": "Cheat Sheets 🐛",
-    "id": 200,
+    "id": 201,
     "title": "Solutions/SaaS Dev Tools",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/SaaS Dev Tools",
     "url": "/#/Cheat Sheets 🐛/Solutions/SaaS Dev Tools"
   },
-  "201": {
+  "202": {
     "doc": "Cheat Sheets 🐛",
-    "id": 201,
+    "id": 202,
     "title": "Solutions/Service Architecture",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Service Architecture",
     "url": "/#/Cheat Sheets 🐛/Solutions/Service Architecture"
   },
-  "202": {
+  "203": {
     "doc": "Cheat Sheets 🐛",
-    "id": 202,
+    "id": 203,
     "title": "Solutions/Solutions Automation",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Automation",
     "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Automation"
   },
-  "203": {
+  "204": {
     "doc": "Cheat Sheets 🐛",
-    "id": 203,
+    "id": 204,
     "title": "Solutions/Solutions Loadbalancing",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Loadbalancing",
     "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Loadbalancing"
   },
-  "204": {
+  "205": {
     "doc": "Cheat Sheets 🐛",
-    "id": 204,
+    "id": 205,
     "title": "Solutions/Solutions Monitoring",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Monitoring",
     "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Monitoring"
   },
-  "205": {
+  "206": {
     "doc": "Cheat Sheets 🐛",
-    "id": 205,
+    "id": 206,
     "title": "Solutions/Solutions NoSQL",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions NoSQL",
     "url": "/#/Cheat Sheets 🐛/Solutions/Solutions NoSQL"
   },
-  "206": {
+  "207": {
     "doc": "Cheat Sheets 🐛",
-    "id": 206,
+    "id": 207,
     "title": "Solutions/Solutions Virtualization",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Virtualization",
     "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Virtualization"
   },
-  "207": {
+  "208": {
     "doc": "Cheat Sheets 🐛",
-    "id": 207,
+    "id": 208,
     "title": "Windows/PowerShell",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Windows/PowerShell",
     "url": "/#/Cheat Sheets 🐛/Windows/PowerShell"
   },
-  "208": {
+  "209": {
     "doc": "Cheat Sheets 🐛",
-    "id": 208,
+    "id": 209,
     "title": "Windows/WSL",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Windows/WSL",
     "url": "/#/Cheat Sheets 🐛/Windows/WSL"
   },
-  "209": {
+  "210": {
     "doc": "Cheat Sheets 🐛",
-    "id": 209,
+    "id": 210,
     "title": "Windows/netsh",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Windows/netsh",
     "url": "/#/Cheat Sheets 🐛/Windows/netsh"
   },
-  "210": {
+  "211": {
     "doc": "Cheat Sheets 🐛",
-    "id": 210,
+    "id": 211,
     "title": "Windows/registry",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Windows/registry",
     "url": "/#/Cheat Sheets 🐛/Windows/registry"
   },
-  "211": {
+  "212": {
     "doc": "Cheat Sheets 🐛",
-    "id": 211,
+    "id": 212,
     "title": "Windows/wmic",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/Windows/wmic",
     "url": "/#/Cheat Sheets 🐛/Windows/wmic"
   },
-  "212": {
+  "213": {
     "doc": "Cheat Sheets 🐛",
-    "id": 212,
+    "id": 213,
     "title": "kubernetes/Helm Templates",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Helm Templates",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Helm Templates"
   },
-  "213": {
+  "214": {
     "doc": "Cheat Sheets 🐛",
-    "id": 213,
+    "id": 214,
     "title": "kubernetes/Helm",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Helm",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Helm"
   },
-  "214": {
+  "215": {
     "doc": "Cheat Sheets 🐛",
-    "id": 214,
+    "id": 215,
     "title": "kubernetes/Minikube",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Minikube",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Minikube"
   },
-  "215": {
+  "216": {
     "doc": "Cheat Sheets 🐛",
-    "id": 215,
+    "id": 216,
     "title": "kubernetes/Minishift",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Minishift",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Minishift"
   },
-  "216": {
+  "217": {
     "doc": "Cheat Sheets 🐛",
-    "id": 216,
+    "id": 217,
     "title": "kubernetes/Openshift",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Openshift",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Openshift"
   },
-  "217": {
+  "218": {
     "doc": "Cheat Sheets 🐛",
-    "id": 217,
+    "id": 218,
     "title": "kubernetes/PKS",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/PKS",
     "url": "/#/Cheat Sheets 🐛/kubernetes/PKS"
   },
-  "218": {
+  "219": {
     "doc": "Cheat Sheets 🐛",
-    "id": 218,
+    "id": 219,
     "title": "kubernetes/Prometheus",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Prometheus",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Prometheus"
   },
-  "219": {
+  "220": {
     "doc": "Cheat Sheets 🐛",
-    "id": 219,
+    "id": 220,
     "title": "kubernetes/Tekton",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Tekton",
     "url": "/#/Cheat Sheets 🐛/kubernetes/Tekton"
   },
-  "220": {
+  "221": {
     "doc": "Cheat Sheets 🐛",
-    "id": 220,
+    "id": 221,
     "title": "kubernetes/kops",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kops",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kops"
   },
-  "221": {
+  "222": {
     "doc": "Cheat Sheets 🐛",
-    "id": 221,
+    "id": 222,
     "title": "kubernetes/kubectl",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubectl",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kubectl"
   },
-  "222": {
+  "223": {
     "doc": "Cheat Sheets 🐛",
-    "id": 222,
+    "id": 223,
     "title": "kubernetes/kubernetes ConfigMap",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes ConfigMap",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes ConfigMap"
   },
-  "223": {
+  "224": {
     "doc": "Cheat Sheets 🐛",
-    "id": 223,
+    "id": 224,
     "title": "kubernetes/kubernetes DNS",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes DNS",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes DNS"
   },
-  "224": {
+  "225": {
     "doc": "Cheat Sheets 🐛",
-    "id": 224,
+    "id": 225,
     "title": "kubernetes/kubernetes StorageClass",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes StorageClass",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes StorageClass"
   },
-  "225": {
+  "226": {
     "doc": "Cheat Sheets 🐛",
-    "id": 225,
+    "id": 226,
     "title": "kubernetes/kubernetes",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes",
     "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes"
   },
-  "226": {
+  "227": {
     "doc": "Cheat Sheets 🐛",
-    "id": 226,
+    "id": 227,
     "title": "kubernetes/nginx-ingress",
     "content": "",
     "relUrl": "/#/Cheat Sheets 🐛/kubernetes/nginx-ingress",
     "url": "/#/Cheat Sheets 🐛/kubernetes/nginx-ingress"
   },
-  "227": {
+  "228": {
     "doc": "Runbooks 🐛",
-    "id": 227,
+    "id": 228,
     "title": "Runbooks 🐛",
     "content": "",
     "relUrl": "/#/Runbooks 🐛",
     "url": "/#/Runbooks 🐛"
   },
-  "228": {
+  "229": {
     "doc": "Runbooks 🐛",
-    "id": 228,
+    "id": 229,
     "title": "Mail",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/Mail",
     "url": "/#/Runbooks 🐛/Mail"
   },
-  "229": {
+  "230": {
     "doc": "Runbooks 🐛",
-    "id": 229,
+    "id": 230,
     "title": "System Log",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/System Log",
     "url": "/#/Runbooks 🐛/System Log"
   },
-  "230": {
+  "231": {
     "doc": "Runbooks 🐛",
-    "id": 230,
+    "id": 231,
     "title": "arp",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/arp",
     "url": "/#/Runbooks 🐛/arp"
   },
-  "231": {
+  "232": {
     "doc": "Runbooks 🐛",
-    "id": 231,
+    "id": 232,
     "title": "df",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/df",
     "url": "/#/Runbooks 🐛/df"
   },
-  "232": {
+  "233": {
     "doc": "Runbooks 🐛",
-    "id": 232,
+    "id": 233,
     "title": "dpkg",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/dpkg",
     "url": "/#/Runbooks 🐛/dpkg"
   },
-  "233": {
+  "234": {
     "doc": "Runbooks 🐛",
-    "id": 233,
+    "id": 234,
     "title": "systemd",
     "content": "",
     "relUrl": "/#/Runbooks 🐛/systemd",
     "url": "/#/Runbooks 🐛/systemd"
   },
-  "234": {
+  "235": {
     "doc": "Examples",
-    "id": 234,
+    "id": 235,
     "title": "Examples",
     "content": "",
     "relUrl": "/#/Examples",
     "url": "/#/Examples"
   },
-  "235": {
+  "236": {
     "doc": "Examples",
-    "id": 235,
+    "id": 236,
     "title": "Glib Examples/GObject",
     "content": "",
     "relUrl": "/#/Examples/Glib Examples/GObject",
     "url": "/#/Examples/Glib Examples/GObject"
   },
-  "236": {
+  "237": {
     "doc": "Examples",
-    "id": 236,
+    "id": 237,
     "title": "Glib Examples/Glib GRegex",
     "content": "",
     "relUrl": "/#/Examples/Glib Examples/Glib GRegex",
     "url": "/#/Examples/Glib Examples/Glib GRegex"
   },
-  "237": {
+  "238": {
     "doc": "Examples",
-    "id": 237,
+    "id": 238,
     "title": "Glib Examples/Glib Testing",
     "content": "",
     "relUrl": "/#/Examples/Glib Examples/Glib Testing",
     "url": "/#/Examples/Glib Examples/Glib Testing"
   },
-  "238": {
+  "239": {
     "doc": "Examples",
-    "id": 238,
+    "id": 239,
     "title": "Glib Examples/Glib XDG Migration",
     "content": "",
     "relUrl": "/#/Examples/Glib Examples/Glib XDG Migration",
     "url": "/#/Examples/Glib Examples/Glib XDG Migration"
   },
-  "239": {
+  "240": {
     "doc": "Examples",
-    "id": 239,
+    "id": 240,
     "title": "Glib Examples/Glib",
     "content": "",
     "relUrl": "/#/Examples/Glib Examples/Glib",
     "url": "/#/Examples/Glib Examples/Glib"
   },
-  "240": {
+  "241": {
     "doc": "Examples",
-    "id": 240,
+    "id": 241,
     "title": "Javascript Examples/GraphQL",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/GraphQL",
     "url": "/#/Examples/Javascript Examples/GraphQL"
   },
-  "241": {
+  "242": {
     "doc": "Examples",
-    "id": 241,
+    "id": 242,
     "title": "Javascript Examples/Handlebars",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Handlebars",
     "url": "/#/Examples/Javascript Examples/Handlebars"
   },
-  "242": {
+  "243": {
     "doc": "Examples",
-    "id": 242,
+    "id": 243,
     "title": "Javascript Examples/Javascript Modules",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Javascript Modules",
     "url": "/#/Examples/Javascript Examples/Javascript Modules"
   },
-  "243": {
+  "244": {
     "doc": "Examples",
-    "id": 243,
+    "id": 244,
     "title": "Javascript Examples/Javascript RegExp",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Javascript RegExp",
     "url": "/#/Examples/Javascript Examples/Javascript RegExp"
   },
-  "244": {
+  "245": {
     "doc": "Examples",
-    "id": 244,
+    "id": 245,
     "title": "Javascript Examples/Javascript strptime",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Javascript strptime",
     "url": "/#/Examples/Javascript Examples/Javascript strptime"
   },
-  "245": {
+  "246": {
     "doc": "Examples",
-    "id": 245,
+    "id": 246,
     "title": "Javascript Examples/Javascript void0",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Javascript void0",
     "url": "/#/Examples/Javascript Examples/Javascript void0"
   },
-  "246": {
+  "247": {
     "doc": "Examples",
-    "id": 246,
+    "id": 247,
     "title": "Javascript Examples/Nodejs Express",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/Nodejs Express",
     "url": "/#/Examples/Javascript Examples/Nodejs Express"
   },
-  "247": {
+  "248": {
     "doc": "Examples",
-    "id": 247,
+    "id": 248,
     "title": "Javascript Examples/README",
     "content": "",
     "relUrl": "/#/Examples/Javascript Examples/README",
     "url": "/#/Examples/Javascript Examples/README"
   },
-  "248": {
+  "249": {
     "doc": "Examples",
-    "id": 248,
+    "id": 249,
     "title": "PHP Examples/PHP Arrays",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP Arrays",
     "url": "/#/Examples/PHP Examples/PHP Arrays"
   },
-  "249": {
+  "250": {
     "doc": "Examples",
-    "id": 249,
+    "id": 250,
     "title": "PHP Examples/PHP curl_setopt",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP curl_setopt",
     "url": "/#/Examples/PHP Examples/PHP curl_setopt"
   },
-  "250": {
+  "251": {
     "doc": "Examples",
-    "id": 250,
+    "id": 251,
     "title": "PHP Examples/PHP date",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP date",
     "url": "/#/Examples/PHP Examples/PHP date"
   },
-  "251": {
+  "252": {
     "doc": "Examples",
-    "id": 251,
+    "id": 252,
     "title": "PHP Examples/PHP explode",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP explode",
     "url": "/#/Examples/PHP Examples/PHP explode"
   },
-  "252": {
+  "253": {
     "doc": "Examples",
-    "id": 252,
+    "id": 253,
     "title": "PHP Examples/PHP file_get_contents",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP file_get_contents",
     "url": "/#/Examples/PHP Examples/PHP file_get_contents"
   },
-  "253": {
+  "254": {
     "doc": "Examples",
-    "id": 253,
+    "id": 254,
     "title": "PHP Examples/PHP implode",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP implode",
     "url": "/#/Examples/PHP Examples/PHP implode"
   },
-  "254": {
+  "255": {
     "doc": "Examples",
-    "id": 254,
+    "id": 255,
     "title": "PHP Examples/PHP in_array",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP in_array",
     "url": "/#/Examples/PHP Examples/PHP in_array"
   },
-  "255": {
+  "256": {
     "doc": "Examples",
-    "id": 255,
+    "id": 256,
     "title": "PHP Examples/PHP ini_set",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP ini_set",
     "url": "/#/Examples/PHP Examples/PHP ini_set"
   },
-  "256": {
+  "257": {
     "doc": "Examples",
-    "id": 256,
+    "id": 257,
     "title": "PHP Examples/PHP preg_match",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP preg_match",
     "url": "/#/Examples/PHP Examples/PHP preg_match"
   },
-  "257": {
+  "258": {
     "doc": "Examples",
-    "id": 257,
+    "id": 258,
     "title": "PHP Examples/PHP preg_replace",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP preg_replace",
     "url": "/#/Examples/PHP Examples/PHP preg_replace"
   },
-  "258": {
+  "259": {
     "doc": "Examples",
-    "id": 258,
+    "id": 259,
     "title": "PHP Examples/PHP str_replace",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP str_replace",
     "url": "/#/Examples/PHP Examples/PHP str_replace"
   },
-  "259": {
+  "260": {
     "doc": "Examples",
-    "id": 259,
+    "id": 260,
     "title": "PHP Examples/PHP stripos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP stripos",
     "url": "/#/Examples/PHP Examples/PHP stripos"
   },
-  "260": {
+  "261": {
     "doc": "Examples",
-    "id": 260,
+    "id": 261,
     "title": "PHP Examples/PHP strpos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strpos",
     "url": "/#/Examples/PHP Examples/PHP strpos"
   },
-  "261": {
+  "262": {
     "doc": "Examples",
-    "id": 261,
+    "id": 262,
     "title": "PHP Examples/PHP strripos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strripos",
     "url": "/#/Examples/PHP Examples/PHP strripos"
   },
-  "262": {
+  "263": {
     "doc": "Examples",
-    "id": 262,
+    "id": 263,
     "title": "PHP Examples/PHP strrpos",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP strrpos",
     "url": "/#/Examples/PHP Examples/PHP strrpos"
   },
-  "263": {
+  "264": {
     "doc": "Examples",
-    "id": 263,
+    "id": 264,
     "title": "PHP Examples/PHP ternary operator",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP ternary operator",
     "url": "/#/Examples/PHP Examples/PHP ternary operator"
   },
-  "264": {
+  "265": {
     "doc": "Examples",
-    "id": 264,
+    "id": 265,
     "title": "PHP Examples/PHP unserialize",
     "content": "",
     "relUrl": "/#/Examples/PHP Examples/PHP unserialize",
     "url": "/#/Examples/PHP Examples/PHP unserialize"
   },
-  "265": {
+  "266": {
     "doc": "Examples",
-    "id": 265,
+    "id": 266,
     "title": "Python Examples/PyGI GStreamer",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GStreamer",
     "url": "/#/Examples/Python Examples/PyGI GStreamer"
   },
-  "266": {
+  "267": {
     "doc": "Examples",
-    "id": 266,
+    "id": 267,
     "title": "Python Examples/PyGI GnomeKeyring",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GnomeKeyring",
     "url": "/#/Examples/Python Examples/PyGI GnomeKeyring"
   },
-  "267": {
+  "268": {
     "doc": "Examples",
-    "id": 267,
+    "id": 268,
     "title": "Python Examples/PyGI GtkStatusIcon",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/PyGI GtkStatusIcon",
     "url": "/#/Examples/Python Examples/PyGI GtkStatusIcon"
   },
-  "268": {
+  "269": {
     "doc": "Examples",
-    "id": 268,
+    "id": 269,
     "title": "Python Examples/Python Dictionary",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python Dictionary",
     "url": "/#/Examples/Python Examples/Python Dictionary"
   },
-  "269": {
+  "270": {
     "doc": "Examples",
-    "id": 269,
+    "id": 270,
     "title": "Python Examples/Python Syntax",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python Syntax",
     "url": "/#/Examples/Python Examples/Python Syntax"
   },
-  "270": {
+  "271": {
     "doc": "Examples",
-    "id": 270,
+    "id": 271,
     "title": "Python Examples/Python argparse",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python argparse",
     "url": "/#/Examples/Python Examples/Python argparse"
   },
-  "271": {
+  "272": {
     "doc": "Examples",
-    "id": 271,
+    "id": 272,
     "title": "Python Examples/Python re.match",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re.match",
     "url": "/#/Examples/Python Examples/Python re.match"
   },
-  "272": {
+  "273": {
     "doc": "Examples",
-    "id": 272,
+    "id": 273,
     "title": "Python Examples/Python re",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re",
     "url": "/#/Examples/Python Examples/Python re"
   },
-  "273": {
+  "274": {
     "doc": "Examples",
-    "id": 273,
+    "id": 274,
     "title": "Python Examples/Python re.sub",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python re.sub",
     "url": "/#/Examples/Python Examples/Python re.sub"
   },
-  "274": {
+  "275": {
     "doc": "Examples",
-    "id": 274,
+    "id": 275,
     "title": "Python Examples/Python simplehttpserver",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python simplehttpserver",
     "url": "/#/Examples/Python Examples/Python simplehttpserver"
   },
-  "275": {
+  "276": {
     "doc": "Examples",
-    "id": 275,
+    "id": 276,
     "title": "Python Examples/Python split",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python split",
     "url": "/#/Examples/Python Examples/Python split"
   },
-  "276": {
+  "277": {
     "doc": "Examples",
-    "id": 276,
+    "id": 277,
     "title": "Python Examples/Python string concat",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python string concat",
     "url": "/#/Examples/Python Examples/Python string concat"
   },
-  "277": {
+  "278": {
     "doc": "Examples",
-    "id": 277,
+    "id": 278,
     "title": "Python Examples/Python subprocess",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python subprocess",
     "url": "/#/Examples/Python Examples/Python subprocess"
   },
-  "278": {
+  "279": {
     "doc": "Examples",
-    "id": 278,
+    "id": 279,
     "title": "Python Examples/Python",
     "content": "",
     "relUrl": "/#/Examples/Python Examples/Python",
     "url": "/#/Examples/Python Examples/Python"
   },
-  "279": {
+  "280": {
     "doc": "Examples",
-    "id": 279,
+    "id": 280,
     "title": "README",
     "content": "",
     "relUrl": "/#/Examples/README",
     "url": "/#/Examples/README"
   },
-  "280": {
+  "281": {
     "doc": "Examples",
-    "id": 280,
+    "id": 281,
     "title": "Regex Examples/Go Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Go Regex",
     "url": "/#/Examples/Regex Examples/Go Regex"
   },
-  "281": {
+  "282": {
     "doc": "Examples",
-    "id": 281,
+    "id": 282,
     "title": "Regex Examples/Regex Overview",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Regex Overview",
     "url": "/#/Examples/Regex Examples/Regex Overview"
   },
-  "282": {
+  "283": {
     "doc": "Examples",
-    "id": 282,
+    "id": 283,
     "title": "Regex Examples/Ruby Regex",
     "content": "",
     "relUrl": "/#/Examples/Regex Examples/Ruby Regex",
     "url": "/#/Examples/Regex Examples/Ruby Regex"
   },
-  "283": {
+  "284": {
     "doc": "Video Tutorials",
-    "id": 283,
+    "id": 284,
     "title": "Video Tutorials",
     "content": "",
     "relUrl": "/#/Video Tutorials",
     "url": "/#/Video Tutorials"
   },
-  "284": {
+  "285": {
     "doc": "Video Tutorials",
-    "id": 284,
+    "id": 285,
     "title": "README",
     "content": "",
     "relUrl": "/#/Video Tutorials/README",
     "url": "/#/Video Tutorials/README"
   },
-  "285": {
+  "286": {
     "doc": "Visual Ops",
-    "id": 285,
+    "id": 286,
     "title": "Visual Ops",
     "content": "",
     "relUrl": "/#/Visual Ops",
     "url": "/#/Visual Ops"
   },
-  "286": {
+  "287": {
     "doc": "Visual Ops",
-    "id": 286,
+    "id": 287,
     "title": "du Radial Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Radial Map",
     "url": "/#/Visual Ops/du Radial Map"
   },
-  "287": {
+  "288": {
     "doc": "Visual Ops",
-    "id": 287,
+    "id": 288,
     "title": "du Tree Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Tree Map",
     "url": "/#/Visual Ops/du Tree Map"
   },
-  "288": {
+  "289": {
     "doc": "Visual Ops",
-    "id": 288,
+    "id": 289,
     "title": "netstat Dendrogram",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Dendrogram",
     "url": "/#/Visual Ops/netstat Dendrogram"
   },
-  "289": {
+  "290": {
     "doc": "Visual Ops",
-    "id": 289,
+    "id": 290,
     "title": "netstat Force Graph",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Force Graph",
     "url": "/#/Visual Ops/netstat Force Graph"
   },
-  "290": {
+  "291": {
     "doc": "Visual Ops",
-    "id": 290,
+    "id": 291,
     "title": "netstat Services",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Services",
     "url": "/#/Visual Ops/netstat Services"
   },
-  "291": {
+  "292": {
     "doc": "Visual Ops",
-    "id": 291,
+    "id": 292,
     "title": "visual-ops",
     "content": "",
     "relUrl": "/#/Visual Ops/visual-ops",
     "url": "/#/Visual Ops/visual-ops"
   },
-  "292": {
+  "293": {
     "doc": "Unicorn Arcology",
-    "id": 292,
+    "id": 293,
     "title": "Unicorn Arcology",
     "content": "",
     "relUrl": "/#/Unicorn Arcology",
     "url": "/#/Unicorn Arcology"
   },
-  "293": {
+  "294": {
     "doc": "Unicorn Arcology",
-    "id": 293,
+    "id": 294,
     "title": "Hulu/NoSQL/2012 memcached",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached"
   },
-  "294": {
+  "295": {
     "doc": "Unicorn Arcology",
-    "id": 294,
+    "id": 295,
     "title": "Hulu/NoSQL/2013 Redis Multi-DC",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC"
   },
-  "295": {
+  "296": {
     "doc": "Unicorn Arcology",
-    "id": 295,
+    "id": 296,
     "title": "Netflix/Data Platform/2013 Genie1",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1"
   },
-  "296": {
+  "297": {
     "doc": "Unicorn Arcology",
-    "id": 296,
+    "id": 297,
     "title": "Netflix/Data Platform/2014 Genie2",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2"
   },
-  "297": {
+  "298": {
     "doc": "Unicorn Arcology",
-    "id": 297,
+    "id": 298,
     "title": "Netflix/Data Platform/2017 Genie3",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3"
   },
-  "298": {
+  "299": {
     "doc": "Unicorn Arcology",
-    "id": 298,
+    "id": 299,
     "title": "README",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/README",
     "url": "/#/Unicorn Arcology/README"
   },
-  "299": {
+  "300": {
     "doc": "Unicorn Arcology",
-    "id": 299,
+    "id": 300,
     "title": "Uber/Data Platform/2014 RDBMs",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs"
   },
-  "300": {
+  "301": {
     "doc": "Unicorn Arcology",
-    "id": 300,
+    "id": 301,
     "title": "Uber/Data Platform/2015 DWH data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake"
   },
-  "301": {
+  "302": {
     "doc": "Unicorn Arcology",
-    "id": 301,
+    "id": 302,
     "title": "Uber/Data Platform/2016 Hadoop data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake"
   },
-  "302": {
+  "303": {
     "doc": "Unicorn Arcology",
-    "id": 302,
+    "id": 303,
     "title": "Uber/Data Platform/2017 Big data platform",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform"
   },
-  "303": {
+  "304": {
     "doc": "Unicorn Arcology",
-    "id": 303,
+    "id": 304,
     "title": "Uber/Monitoring/2018 M3DB",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Monitoring/2018 M3DB",

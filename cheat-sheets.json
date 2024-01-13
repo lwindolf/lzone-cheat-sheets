@@ -546,6 +546,10 @@
         "path": "cheat-sheet/Languages/Vala.md"
       },
       {
+        "name": "Languages/XML",
+        "path": "cheat-sheet/Languages/XML.md"
+      },
+      {
         "name": "Languages/XPath",
         "path": "cheat-sheet/Languages/XPath.md"
       },

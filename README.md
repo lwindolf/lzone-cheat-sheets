@@ -154,6 +154,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/SQL'>SQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Syndication'>Syndication</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Vala'>Vala</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/XML'>XML</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/XPath'>XPath</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/XSLT'>XSLT</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/YAML'>YAML</a>
