@@ -1,5 +1,3 @@
-{% raw %}
-
 ## Environment variables
 
 - `GITHUB_REF`
@@ -30,6 +28,28 @@
     echo '::save-state name={name}::{value}'     # Export env vars to pre/post workflow actions
 
 [Doucmentation](https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions)
+
+## Trigger types
+
+On pull request to certain branches
+    
+    on:
+      push:
+        branches: [ 'main', 'develop' ]
+
+At certain times
+
+    on:
+      schedule:
+        - cron: '*/30 * * * *'
+
+For manual triggering use 
+
+    on:
+      workflow_dispatch:
+        <... parameters ...>
+
+See next section on parameter details!
 
 ## Interaction/input fields on manually triggering workflow
 
@@ -225,5 +245,3 @@ To use public/private images from an external registry define `container
 ## Run GH Actions locally
 
 [https://github.com/nektos/act](https://github.com/nektos/act)
-
-{% endraw %}
