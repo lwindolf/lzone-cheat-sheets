@@ -697,5 +697,13 @@
   "Python Cheat Sheet": {
     "github": "crazyguitar/pysheeet",
     "category": "Cheat Sheet"
+  },
+  "Bash by Example": {
+    "github": "cheatsnake/bash-scripts-by-example",
+    "category": "Cheat Sheet"
+  },
+  "Backend Development Whitepaper": {
+    "github": "cheatsnake/backend-cheats",
+    "category": "Programming"
   }
 }
