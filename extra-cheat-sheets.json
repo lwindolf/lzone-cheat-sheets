@@ -273,7 +273,7 @@
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
-    "category": "Documentation"
+    "type": "Documentation"
   },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books"
@@ -379,331 +379,409 @@
   "Docker Getting Started": {
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md",
-    "category": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
-    "category": "Cheat Sheets"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "filePattern": "^(README)\\.md$",
-    "category": "Cheat Sheets"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet",
-    "category": "Cheat Sheets"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "DevSecOps SLSA Framework": {
     "github": "slsa-framework/slsa",
     "filePattern": "^(.+)\\.md$",
-    "category": "DevOps"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "DevSecOps Maturity Model": {
     "github": "devsecopsmaturitymodel/DevSecOps-MaturityModel",
     "filePattern": "^(.+)\\.md$",
-    "category": "DevOps"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Network Segmentation Cheat Sheet": {
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
     "filePattern": "^(.+)\\.md$",
-    "category": "Cheat Sheets"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Kafka Architecture": {
     "github": "anhthii/kafka-notes",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
     "filePattern": "^(.+)\\.md$",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Book"
   },
   "ElasticSearch Examples": {
     "github": "elastic/examples",
     "filePattern": "^(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Elastic Data Lake Architecture": {
     "github": "gose/elastic-data-lake",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Architecture Domain Driven Hexagon": {
     "github": "Sairyss/domain-driven-hexagon",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Architecture Microservices": {
     "github": "rodrigorodrigues/microservices-design-patterns",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "DDD by Examples": {
     "github": "ddd-by-examples/library",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "DDD Starter Modelling": {
     "github": "ddd-crew/ddd-starter-modelling-process",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "DDD Miro Templates": {
     "github": "ddd-crew/virtual-modelling-templates",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Design: Bounded Context Canvas": {
     "github": "ddd-crew/bounded-context-canvas",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Design: Core Domain Charts": {
     "github": "core-domain-charts",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",
     "filePattern": "^content/docs/(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "List"
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Cheat Sheet"    
   },
   "Markdown Architecture Records": {
     "github": "adr/madr",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Cheat Sheet"
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
-    "category": "Documentation"
+    "type": "Documentation"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
     "filePattern": "^docs/sources/(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Documentation kubernetes": {
     "github": "kubernetes/website",
     "filePattern": "^content/en/docs/(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Excel Cheat Sheet": {
-    "github": "emanuelefavero/excel"
+    "github": "emanuelefavero/excel",
+    "category": "DevOps",
+    "type": "Cheat Sheets"
   },
   "SRE Cheat Sheet": {
-    "github": "anshudutta/sre-cheat-sheet"
+    "github": "anshudutta/sre-cheat-sheet",
+    "category": "SRE",
+    "type": "Cheat Sheets"
   },
   "MDN accessibility": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/accessibility/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN api": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/api/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN css": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/css/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN demos": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/demos/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN events": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/events/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN exslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/exslt/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN guide": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/guide/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN html": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/html/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN http": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/http/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN javascript": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/javascript/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN manifest": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/manifest/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN mathml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/mathml/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN media": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/media/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN opensearch": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/opensearch/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN performance": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/performance/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN privacy": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/privacy/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN progressive_web_apps": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/progressive_web_apps/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN security": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/security/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN svg": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/svg/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN text_fragments": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/text_fragments/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN tutorials": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/tutorials/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN webdriver": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/webdriver/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN xml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xml/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN xpath": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xpath/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "MDN xslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xslt/(.+)\\.md$",
-    "category": "Web"
+    "category": "Web",
+    "type": "Documentation"
   },
   "Documentation docker-bench-security": {
     "github": "docker/docker-bench-security",
-    "category": "Documentation"
+    "category": "Security",
+    "type": "Documentation"
   },
   "Documentation kubebench": {
     "github": "aquasecurity/kube-bench",
-    "category": "Documentation"
+    "category": "Security",
+    "type": "Documentation"
   },
   "Free Tier SaaS List": {
     "github": "ripienaar/free-for-dev",
-    "category": "SaaS"
+    "category": "SaaS",
+    "type": "Cheat Sheet"
   },
   "Favicon Cheat Sheet": {
     "github": "audreyfeldroy/favicon-cheat-sheet",
-    "category": "Web"
+    "category": "Web",
+    "type": "Cheat Sheet"
   },
   "Documentation Linode": {
     "github": "linode/docs",
     "filePatern": "^doc/(.+)/index.md",
-    "category": "SaaS"
+    "category": "SaaS",
+    "type": "Documentation"
   },
   "Nature of Code": {
     "github": "nature-of-code/noc-book-2023",
     "filePattern": "^content/(.+).html$",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Book"
   },
   "C4-PlantUML Documentation": {
     "github": "plantuml-stdlib/C4-PlantUML",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "SysML v2 Documentation": {
     "github": "Systems-Modeling/SysML-v2-Release",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Documentation"
   },
   "Learn UML2": {
     "github": "imalitavakoli/learn-uml2",
-    "category": "Architecture"
+    "category": "Architecture",
+    "type": "Book"
   },
   "Cloud Provider Cheat Sheets": {
     "github": "JeffDeCola/my-cheat-sheets",
     "filePattern": "^software/(service-.+)\\.md$",
-    "category": "Cheat Sheet"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Documentation juju": {
     "github": "juju/juju",
     "filePattern": "^doc/(.+)\\.md$",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "Naming Cheat Sheet": {
     "github": "kettanaito/naming-cheatsheet",
-    "category": "Cheat Sheet"
+    "category": "Programming",
+    "type": "Cheat Sheet"
   },
   "nginx Admin Handbook": {
     "github": "trimstray/nginx-admins-handbook",
-    "category": "Documentation"
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "golang Cheat Sheet": {
     "github": "a8m/golang-cheat-sheet",
-    "category": "Cheat Sheet"
+    "category": "Programming",
+    "type": "Cheat Sheet"
   },
   "Python Cheat Sheet": {
     "github": "crazyguitar/pysheeet",
-    "category": "Cheat Sheet"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Bash by Example": {
     "github": "cheatsnake/bash-scripts-by-example",
-    "category": "Cheat Sheet"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Backend Development Whitepaper": {
     "github": "cheatsnake/backend-cheats",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Book"
+  },
+  "MITM Cheat Sheet": {
+    "github": "frostbits-security/MITM-cheatsheet",
+    "category": "Security",
+    "type": "Cheat Sheet"
   }
 }
