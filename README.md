@@ -21,7 +21,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Monitoring'>Monitoring</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet - Hiera'>Puppet - Hiera</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet'>Puppet</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SaltStack'>SaltStack</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Swagger'>Swagger</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Terraform'>Terraform</a>
@@ -37,7 +36,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Jenkins'>Jenkins</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/JenkinsX'>JenkinsX</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Maven'>Maven</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
 <br/><span class='group'><b>Cloud</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/ARM'>ARM</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/AWS Lamba'>AWS Lamba</a>
@@ -48,7 +46,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/LXC'>LXC</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/OpenNebula'>OpenNebula</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/OpenVZ'>OpenVZ</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/S3'>S3</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/VM Tuning'>VM Tuning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Vagrant'>Vagrant</a>
@@ -63,7 +60,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Docker'>Docker</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Dockerfile'>Dockerfile</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Podman'>Podman</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/runc'>runc</a>
 <br/><span class='group'><b>DevOps Linux</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Architecture'>Architecture</a>
@@ -86,7 +82,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Partitioning'>Partitioning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Printing'>Printing</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/RAID'>RAID</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solaris'>Solaris</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/X11'>X11</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/auditd'>auditd</a>
@@ -149,7 +144,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Misc'>Misc</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PHP'>PHP</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Perl'>Perl</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby'>Ruby</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SQL'>SQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Syndication'>Syndication</a>
@@ -271,7 +265,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/examples/Javascript strptime'>Javascript strptime</a>
  | <a class='topic' href='https://lzone.de/examples/Javascript void0'>Javascript void0</a>
  | <a class='topic' href='https://lzone.de/examples/Nodejs Express'>Nodejs Express</a>
- | <a class='topic' href='https://lzone.de/examples/README'>README</a>
 <br/><span class='group'><b>PHP Examples</b></span>
  | <a class='topic' href='https://lzone.de/examples/PHP Arrays'>PHP Arrays</a>
  | <a class='topic' href='https://lzone.de/examples/PHP curl_setopt'>PHP curl_setopt</a>
