@@ -122,10 +122,6 @@
         "path": "cheat-sheet/Cloud/Azure.md"
       },
       {
-        "name": "Cloud/Cloud",
-        "path": "cheat-sheet/Cloud/Cloud.md"
-      },
-      {
         "name": "Cloud/KVM",
         "path": "cheat-sheet/Cloud/KVM.md"
       },
@@ -140,6 +136,10 @@
       {
         "name": "Cloud/OpenVZ",
         "path": "cheat-sheet/Cloud/OpenVZ.md"
+      },
+      {
+        "name": "Cloud/README",
+        "path": "cheat-sheet/Cloud/README.md"
       },
       {
         "name": "Cloud/S3",
@@ -174,10 +174,6 @@
         "path": "cheat-sheet/Container/Container Orchestration.md"
       },
       {
-        "name": "Container/Container",
-        "path": "cheat-sheet/Container/Container.md"
-      },
-      {
         "name": "Container/Docker Compose",
         "path": "cheat-sheet/Container/Docker Compose.md"
       },
@@ -196,6 +192,10 @@
       {
         "name": "Container/Podman",
         "path": "cheat-sheet/Container/Podman.md"
+      },
+      {
+        "name": "Container/README",
+        "path": "cheat-sheet/Container/README.md"
       },
       {
         "name": "Container/runc",

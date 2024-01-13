@@ -44,11 +44,11 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/AWS'>AWS</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Azure Devops'>Azure Devops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Azure'>Azure</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Cloud'>Cloud</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/KVM'>KVM</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/LXC'>LXC</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/OpenNebula'>OpenNebula</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/OpenVZ'>OpenVZ</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/S3'>S3</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/VM Tuning'>VM Tuning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Vagrant'>Vagrant</a>
@@ -58,12 +58,12 @@ Note: you can install even more cheat sheets in your local browser using the
 <br/><span class='group'><b>Container</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Buildah'>Buildah</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Container Orchestration'>Container Orchestration</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Container'>Container</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Docker Compose'>Docker Compose</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Docker Swarm'>Docker Swarm</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Docker'>Docker</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Dockerfile'>Dockerfile</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Podman'>Podman</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/runc'>runc</a>
 <br/><span class='group'><b>DevOps Linux</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Architecture'>Architecture</a>
