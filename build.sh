@@ -117,7 +117,7 @@ readme_update() {
     }
     for(const dname of Object.keys(docs).sort()) {
       if (docs[dname].group !== oldgroup) {
-        result += `\n<b>${docs[dname].group}</b>`;
+        result += `<br/><b>${docs[dname].group}</b>`;
         oldgroup = docs[dname].group;
       }
       result += ` | <a href='https://lzone.de/#/${docs[dname].path}'>${dname}</a>`;
