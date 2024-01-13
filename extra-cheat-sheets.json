@@ -689,5 +689,9 @@
   "golang Cheat Sheet": {
     "github": "a8m/golang-cheat-sheet",
     "category": "Cheat Sheet"
+  },
+  "Python Cheat Sheet": {
+    "github": "crazyguitar/pysheeet",
+    "category": "Cheat Sheet"
   }
 }
