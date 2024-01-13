@@ -106,7 +106,9 @@ readme_update() {
 
     result += `\n\n## ${name} Index\n`;
 
-    for(let d of repo.documents) {
+    for(let d of repo.documents.sort((a,b) => {
+	return a.name.localeCompare(b.name);
+    }) {
       d.path = d.path.replace(/\.md$/, '');
       let tmp = d.path.split(/\//);
 
