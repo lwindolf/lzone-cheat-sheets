@@ -472,4 +472,5 @@ Note: you can install even more cheat sheets in your local browser using the
  - [k8s Nomand Tutorial](https://github.com/kelseyhightower/nomad-on-kubernetes)
  - [k8s Tekton Tutorial](https://github.com/harbur/tekton-tutorial)
  - [k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+ - [nginx Admin Handbook](https://github.com/trimstray/nginx-admins-handbook)
  - [reactnative.guide](https://github.com/react-made-native-easy/book)
