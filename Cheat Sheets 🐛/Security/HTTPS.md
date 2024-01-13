@@ -3,13 +3,6 @@ related:
   cheat-sheet: ['SSL-Certificates', 'OpenSSL']
 ---
 
-### Mitigations
-
--   BEAST: [nginx](/cheat-sheet/nginx#BEAST)
--   [DH downgrade](https://weakdh.org/sysadmin.html):
-    [Apache](/cheat-sheet/Apache#DH%20downgrade),
-    [nginx](/cheat-sheet/nginx#DH%20downgrade)
-
 ### Perfect Forward Secrecy (PFS)
 
 -   [HTTPS - Perfect Forward Secrecy (PFS)](http://www.heise.de/security/artikel/Zukunftssicher-Verschluesseln-mit-Perfect-Forward-Secrecy-1923800.html):
