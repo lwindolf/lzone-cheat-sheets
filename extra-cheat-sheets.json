@@ -783,5 +783,10 @@
     "github": "frostbits-security/MITM-cheatsheet",
     "category": "Security",
     "type": "Cheat Sheet"
+  },
+  "Globbing Cheat Sheet": {
+    "github": "begin/globbing",
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   }
 }
