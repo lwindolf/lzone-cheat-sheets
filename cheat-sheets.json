@@ -510,10 +510,6 @@
         "path": "cheat-sheet/Languages/JSONPath.md"
       },
       {
-        "name": "Languages/Languages",
-        "path": "cheat-sheet/Languages/Languages.md"
-      },
-      {
         "name": "Languages/Linting",
         "path": "cheat-sheet/Languages/Linting.md"
       },
@@ -528,6 +524,10 @@
       {
         "name": "Languages/Perl",
         "path": "cheat-sheet/Languages/Perl.md"
+      },
+      {
+        "name": "Languages/README",
+        "path": "cheat-sheet/Languages/README.md"
       },
       {
         "name": "Languages/Ruby",

@@ -145,11 +145,11 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Dev-Misc'>Dev-Misc</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/GCC'>GCC</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/JSONPath'>JSONPath</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Languages'>Languages</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linting'>Linting</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Linux HTML Widgets'>Linux HTML Widgets</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/PHP'>PHP</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Perl'>Perl</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ruby'>Ruby</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SQL'>SQL</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Syndication'>Syndication</a>
