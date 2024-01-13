@@ -685,5 +685,9 @@
   "nginx Admin Handbook": {
     "github": "trimstray/nginx-admins-handbook",
     "category": "Documentation"
+  },
+  "golang Cheat Sheet": {
+    "github": "a8m/golang-cheat-sheet",
+    "category": "Cheat Sheet"
   }
 }
