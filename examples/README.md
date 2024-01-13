@@ -1,7 +1,3 @@
----
-title: Examples
----
-
 A collection of programming examples for Glib, Go, Javascript, PHP, Python and regular expressions.
 
 ## Other Useful Programming Cheat Sheets
