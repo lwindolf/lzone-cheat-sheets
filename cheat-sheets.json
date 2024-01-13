@@ -226,10 +226,6 @@
         "path": "cheat-sheet/DevOps Linux/Debugging.md"
       },
       {
-        "name": "DevOps Linux/DevOps Linux",
-        "path": "cheat-sheet/DevOps Linux/DevOps Linux.md"
-      },
-      {
         "name": "DevOps Linux/Filesystem",
         "path": "cheat-sheet/DevOps Linux/Filesystem.md"
       },
@@ -284,6 +280,10 @@
       {
         "name": "DevOps Linux/RAID",
         "path": "cheat-sheet/DevOps Linux/RAID.md"
+      },
+      {
+        "name": "DevOps Linux/README",
+        "path": "cheat-sheet/DevOps Linux/README.md"
       },
       {
         "name": "DevOps Linux/Solaris",

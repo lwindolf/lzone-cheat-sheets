@@ -72,7 +72,6 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/DRBD'>DRBD</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/DXVK'>DXVK</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Debugging'>Debugging</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/DevOps Linux'>DevOps Linux</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Filesystem'>Filesystem</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/GPG'>GPG</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Grub'>Grub</a>
@@ -87,6 +86,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Partitioning'>Partitioning</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Printing'>Printing</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/RAID'>RAID</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Solaris'>Solaris</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/X11'>X11</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/auditd'>auditd</a>
