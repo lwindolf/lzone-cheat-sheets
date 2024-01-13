@@ -10,10 +10,6 @@
         "path": "cheat-sheet/Automation/Ansible.md"
       },
       {
-        "name": "Automation/Automation",
-        "path": "cheat-sheet/Automation/Automation.md"
-      },
-      {
         "name": "Automation/Chef",
         "path": "cheat-sheet/Automation/Chef.md"
       },
@@ -40,6 +36,10 @@
       {
         "name": "Automation/Puppet",
         "path": "cheat-sheet/Automation/Puppet.md"
+      },
+      {
+        "name": "Automation/README",
+        "path": "cheat-sheet/Automation/README.md"
       },
       {
         "name": "Automation/SaltStack",

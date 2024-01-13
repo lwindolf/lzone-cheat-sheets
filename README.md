@@ -14,7 +14,6 @@ Note: you can install even more cheat sheets in your local browser using the
 
 <br/><span class='group'><b>Automation</b></span>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Ansible'>Ansible</a>
- | <a class='topic' href='https://lzone.de/cheat-sheet/Automation'>Automation</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Chef'>Chef</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/IT-Ops'>IT-Ops</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Jinja'>Jinja</a>
@@ -22,6 +21,7 @@ Note: you can install even more cheat sheets in your local browser using the
  | <a class='topic' href='https://lzone.de/cheat-sheet/Monitoring'>Monitoring</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet - Hiera'>Puppet - Hiera</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Puppet'>Puppet</a>
+ | <a class='topic' href='https://lzone.de/cheat-sheet/README'>README</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/SaltStack'>SaltStack</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Swagger'>Swagger</a>
  | <a class='topic' href='https://lzone.de/cheat-sheet/Terraform'>Terraform</a>
