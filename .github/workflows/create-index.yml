@@ -3,7 +3,9 @@ name: create-index
 on:
   push:
     branches: [ master ]
-
+  schedule:
+    - cron: "45 21 * * *"
+    
 jobs:
   update:
     runs-on: ubuntu-20.04
