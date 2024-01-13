@@ -104,11 +104,9 @@ readme_update() {
     let oldgroup = "";
     let docs = {};
 
-    result += `\n\n## ${name} Index\n`;
+    result += `\n\n## ${name} Index\n\n`;
 
-    for(let d of repo.documents.sort((a,b) => {
-	return a.name.localeCompare(b.name);
-    })) {
+    for(let d of repo.documents) {
       d.path = d.path.replace(/\.md$/, '');
       let tmp = d.path.split(/\//);
 
@@ -117,9 +115,11 @@ readme_update() {
         continue;
       docs[dname] = { path: d.path, group: tmp[1] };
     }
-    for(const dname of Object.keys(docs).sort()) {
+    for(const dname of Object.keys(docs).sort((a,b) => {
+	return docs[a].path.localeCompare(docs[b].path);
+    })) {
       if (docs[dname].group !== oldgroup) {
-        result += `<br/><b>${docs[dname].group}</b>`;
+        result += `\n<br/><b>${docs[dname].group}</b>`;
         oldgroup = docs[dname].group;
       }
       result += ` | <a href='https://lzone.de/#/${docs[dname].path}'>${dname}</a>`;
