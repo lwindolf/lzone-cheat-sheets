@@ -1192,12 +1192,48 @@
     "category": "Architecture",
     "documents": [
       {
+        "name": "Hulu/NoSQL/2012 memcached",
+        "path": "Hulu/NoSQL/2012 memcached.md"
+      },
+      {
+        "name": "Hulu/NoSQL/2013 Redis Multi-DC",
+        "path": "Hulu/NoSQL/2013 Redis Multi-DC.md"
+      },
+      {
         "name": "Netflix/Data Platform/2013 Genie1",
         "path": "Netflix/Data Platform/2013 Genie1.md"
       },
       {
+        "name": "Netflix/Data Platform/2014 Genie2",
+        "path": "Netflix/Data Platform/2014 Genie2.md"
+      },
+      {
+        "name": "Netflix/Data Platform/2017 Genie3",
+        "path": "Netflix/Data Platform/2017 Genie3.md"
+      },
+      {
         "name": "README",
         "path": "README.md"
+      },
+      {
+        "name": "Uber/Data Platform/2014 RDBMs",
+        "path": "Uber/Data Platform/2014 RDBMs.md"
+      },
+      {
+        "name": "Uber/Data Platform/2015 DWH data lake",
+        "path": "Uber/Data Platform/2015 DWH data lake.md"
+      },
+      {
+        "name": "Uber/Data Platform/2016 Hadoop data lake",
+        "path": "Uber/Data Platform/2016 Hadoop data lake.md"
+      },
+      {
+        "name": "Uber/Data Platform/2017 Big data platform",
+        "path": "Uber/Data Platform/2017 Big data platform.md"
+      },
+      {
+        "name": "Uber/Monitoring/2018 M3DB",
+        "path": "Uber/Monitoring/2018 M3DB.md"
       }
     ]
   }
