@@ -433,6 +433,7 @@ Note: you can install even more cheat sheets in your local browser using the
  - [MDN xml](https://github.com/mdn/content)
  - [MDN xpath](https://github.com/mdn/content)
  - [MDN xslt](https://github.com/mdn/content)
+ - [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet)
  - [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center)
  - [MS Azure Security](https://github.com/MicrosoftDocs/security)
  - [Markdown Architecture Records](https://github.com/adr/madr)
