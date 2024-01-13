@@ -4,34 +4,1191 @@
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
     "filePattern": "^Cheat Sheets 🐛/(.+)\\.md$",
-    "documents": []
+    "documents": [
+      {
+        "name": "Automation/Ansible",
+        "path": "Cheat Sheets 🐛/Automation/Ansible.md"
+      },
+      {
+        "name": "Automation/Chef",
+        "path": "Cheat Sheets 🐛/Automation/Chef.md"
+      },
+      {
+        "name": "Automation/IT-Ops",
+        "path": "Cheat Sheets 🐛/Automation/IT-Ops.md"
+      },
+      {
+        "name": "Automation/Jinja",
+        "path": "Cheat Sheets 🐛/Automation/Jinja.md"
+      },
+      {
+        "name": "Automation/Mcollective",
+        "path": "Cheat Sheets 🐛/Automation/Mcollective.md"
+      },
+      {
+        "name": "Automation/Monitoring",
+        "path": "Cheat Sheets 🐛/Automation/Monitoring.md"
+      },
+      {
+        "name": "Automation/Puppet - Hiera",
+        "path": "Cheat Sheets 🐛/Automation/Puppet - Hiera.md"
+      },
+      {
+        "name": "Automation/Puppet",
+        "path": "Cheat Sheets 🐛/Automation/Puppet.md"
+      },
+      {
+        "name": "Automation/README",
+        "path": "Cheat Sheets 🐛/Automation/README.md"
+      },
+      {
+        "name": "Automation/SaltStack",
+        "path": "Cheat Sheets 🐛/Automation/SaltStack.md"
+      },
+      {
+        "name": "Automation/Swagger",
+        "path": "Cheat Sheets 🐛/Automation/Swagger.md"
+      },
+      {
+        "name": "Automation/Terraform",
+        "path": "Cheat Sheets 🐛/Automation/Terraform.md"
+      },
+      {
+        "name": "CICD/ArgoCD",
+        "path": "Cheat Sheets 🐛/CICD/ArgoCD.md"
+      },
+      {
+        "name": "CICD/Gerrit",
+        "path": "Cheat Sheets 🐛/CICD/Gerrit.md"
+      },
+      {
+        "name": "CICD/Git",
+        "path": "Cheat Sheets 🐛/CICD/Git.md"
+      },
+      {
+        "name": "CICD/Github Actions",
+        "path": "Cheat Sheets 🐛/CICD/Github Actions.md"
+      },
+      {
+        "name": "CICD/Gradle",
+        "path": "Cheat Sheets 🐛/CICD/Gradle.md"
+      },
+      {
+        "name": "CICD/JFrog CLI",
+        "path": "Cheat Sheets 🐛/CICD/JFrog CLI.md"
+      },
+      {
+        "name": "CICD/Jenkins Docs",
+        "path": "Cheat Sheets 🐛/CICD/Jenkins Docs.md"
+      },
+      {
+        "name": "CICD/Jenkins Pipeline DSL",
+        "path": "Cheat Sheets 🐛/CICD/Jenkins Pipeline DSL.md"
+      },
+      {
+        "name": "CICD/Jenkins",
+        "path": "Cheat Sheets 🐛/CICD/Jenkins.md"
+      },
+      {
+        "name": "CICD/JenkinsX",
+        "path": "Cheat Sheets 🐛/CICD/JenkinsX.md"
+      },
+      {
+        "name": "CICD/Maven",
+        "path": "Cheat Sheets 🐛/CICD/Maven.md"
+      },
+      {
+        "name": "CICD/README",
+        "path": "Cheat Sheets 🐛/CICD/README.md"
+      },
+      {
+        "name": "Cloud/ARM",
+        "path": "Cheat Sheets 🐛/Cloud/ARM.md"
+      },
+      {
+        "name": "Cloud/AWS Lamba",
+        "path": "Cheat Sheets 🐛/Cloud/AWS Lamba.md"
+      },
+      {
+        "name": "Cloud/AWS",
+        "path": "Cheat Sheets 🐛/Cloud/AWS.md"
+      },
+      {
+        "name": "Cloud/Azure Devops",
+        "path": "Cheat Sheets 🐛/Cloud/Azure Devops.md"
+      },
+      {
+        "name": "Cloud/Azure",
+        "path": "Cheat Sheets 🐛/Cloud/Azure.md"
+      },
+      {
+        "name": "Cloud/KVM",
+        "path": "Cheat Sheets 🐛/Cloud/KVM.md"
+      },
+      {
+        "name": "Cloud/LXC",
+        "path": "Cheat Sheets 🐛/Cloud/LXC.md"
+      },
+      {
+        "name": "Cloud/OpenNebula",
+        "path": "Cheat Sheets 🐛/Cloud/OpenNebula.md"
+      },
+      {
+        "name": "Cloud/OpenVZ",
+        "path": "Cheat Sheets 🐛/Cloud/OpenVZ.md"
+      },
+      {
+        "name": "Cloud/README",
+        "path": "Cheat Sheets 🐛/Cloud/README.md"
+      },
+      {
+        "name": "Cloud/S3",
+        "path": "Cheat Sheets 🐛/Cloud/S3.md"
+      },
+      {
+        "name": "Cloud/VM Tuning",
+        "path": "Cheat Sheets 🐛/Cloud/VM Tuning.md"
+      },
+      {
+        "name": "Cloud/Vagrant",
+        "path": "Cheat Sheets 🐛/Cloud/Vagrant.md"
+      },
+      {
+        "name": "Cloud/VirtualBox",
+        "path": "Cheat Sheets 🐛/Cloud/VirtualBox.md"
+      },
+      {
+        "name": "Cloud/Xen",
+        "path": "Cheat Sheets 🐛/Cloud/Xen.md"
+      },
+      {
+        "name": "Cloud/packer",
+        "path": "Cheat Sheets 🐛/Cloud/packer.md"
+      },
+      {
+        "name": "Container/Buildah",
+        "path": "Cheat Sheets 🐛/Container/Buildah.md"
+      },
+      {
+        "name": "Container/Container Orchestration",
+        "path": "Cheat Sheets 🐛/Container/Container Orchestration.md"
+      },
+      {
+        "name": "Container/Docker Compose",
+        "path": "Cheat Sheets 🐛/Container/Docker Compose.md"
+      },
+      {
+        "name": "Container/Docker Swarm",
+        "path": "Cheat Sheets 🐛/Container/Docker Swarm.md"
+      },
+      {
+        "name": "Container/Docker",
+        "path": "Cheat Sheets 🐛/Container/Docker.md"
+      },
+      {
+        "name": "Container/Dockerfile",
+        "path": "Cheat Sheets 🐛/Container/Dockerfile.md"
+      },
+      {
+        "name": "Container/Podman",
+        "path": "Cheat Sheets 🐛/Container/Podman.md"
+      },
+      {
+        "name": "Container/README",
+        "path": "Cheat Sheets 🐛/Container/README.md"
+      },
+      {
+        "name": "Container/runc",
+        "path": "Cheat Sheets 🐛/Container/runc.md"
+      },
+      {
+        "name": "DevOps Linux/Architecture",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Architecture.md"
+      },
+      {
+        "name": "DevOps Linux/DBUS",
+        "path": "Cheat Sheets 🐛/DevOps Linux/DBUS.md"
+      },
+      {
+        "name": "DevOps Linux/DKMS",
+        "path": "Cheat Sheets 🐛/DevOps Linux/DKMS.md"
+      },
+      {
+        "name": "DevOps Linux/DRBD",
+        "path": "Cheat Sheets 🐛/DevOps Linux/DRBD.md"
+      },
+      {
+        "name": "DevOps Linux/DXVK",
+        "path": "Cheat Sheets 🐛/DevOps Linux/DXVK.md"
+      },
+      {
+        "name": "DevOps Linux/Debugging",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Debugging.md"
+      },
+      {
+        "name": "DevOps Linux/Filesystem",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Filesystem.md"
+      },
+      {
+        "name": "DevOps Linux/GPG",
+        "path": "Cheat Sheets 🐛/DevOps Linux/GPG.md"
+      },
+      {
+        "name": "DevOps Linux/Grub",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Grub.md"
+      },
+      {
+        "name": "DevOps Linux/IPMI",
+        "path": "Cheat Sheets 🐛/DevOps Linux/IPMI.md"
+      },
+      {
+        "name": "DevOps Linux/Kernel Tracing",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Kernel Tracing.md"
+      },
+      {
+        "name": "DevOps Linux/LVM",
+        "path": "Cheat Sheets 🐛/DevOps Linux/LVM.md"
+      },
+      {
+        "name": "DevOps Linux/Linux-Commands",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Linux-Commands.md"
+      },
+      {
+        "name": "DevOps Linux/Linux-HA",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Linux-HA.md"
+      },
+      {
+        "name": "DevOps Linux/Linux-Sysadmin",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Linux-Sysadmin.md"
+      },
+      {
+        "name": "DevOps Linux/Linux-Virtualization",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Linux-Virtualization.md"
+      },
+      {
+        "name": "DevOps Linux/PKI",
+        "path": "Cheat Sheets 🐛/DevOps Linux/PKI.md"
+      },
+      {
+        "name": "DevOps Linux/Partitioning",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Partitioning.md"
+      },
+      {
+        "name": "DevOps Linux/Printing",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Printing.md"
+      },
+      {
+        "name": "DevOps Linux/RAID",
+        "path": "Cheat Sheets 🐛/DevOps Linux/RAID.md"
+      },
+      {
+        "name": "DevOps Linux/README",
+        "path": "Cheat Sheets 🐛/DevOps Linux/README.md"
+      },
+      {
+        "name": "DevOps Linux/Solaris",
+        "path": "Cheat Sheets 🐛/DevOps Linux/Solaris.md"
+      },
+      {
+        "name": "DevOps Linux/X11",
+        "path": "Cheat Sheets 🐛/DevOps Linux/X11.md"
+      },
+      {
+        "name": "DevOps Linux/auditd",
+        "path": "Cheat Sheets 🐛/DevOps Linux/auditd.md"
+      },
+      {
+        "name": "DevOps Linux/cgroups",
+        "path": "Cheat Sheets 🐛/DevOps Linux/cgroups.md"
+      },
+      {
+        "name": "DevOps Linux/kerberos",
+        "path": "Cheat Sheets 🐛/DevOps Linux/kerberos.md"
+      },
+      {
+        "name": "DevOps Linux/mokutil",
+        "path": "Cheat Sheets 🐛/DevOps Linux/mokutil.md"
+      },
+      {
+        "name": "DevOps Linux/nohup",
+        "path": "Cheat Sheets 🐛/DevOps Linux/nohup.md"
+      },
+      {
+        "name": "DevOps Linux/perf",
+        "path": "Cheat Sheets 🐛/DevOps Linux/perf.md"
+      },
+      {
+        "name": "DevOps Linux/screen",
+        "path": "Cheat Sheets 🐛/DevOps Linux/screen.md"
+      },
+      {
+        "name": "DevOps Linux/socat",
+        "path": "Cheat Sheets 🐛/DevOps Linux/socat.md"
+      },
+      {
+        "name": "DevOps Linux/sops",
+        "path": "Cheat Sheets 🐛/DevOps Linux/sops.md"
+      },
+      {
+        "name": "DevOps Linux/strace",
+        "path": "Cheat Sheets 🐛/DevOps Linux/strace.md"
+      },
+      {
+        "name": "DevOps Linux/sudo",
+        "path": "Cheat Sheets 🐛/DevOps Linux/sudo.md"
+      },
+      {
+        "name": "DevOps Linux/supervisor",
+        "path": "Cheat Sheets 🐛/DevOps Linux/supervisor.md"
+      },
+      {
+        "name": "DevOps Linux/systemd",
+        "path": "Cheat Sheets 🐛/DevOps Linux/systemd.md"
+      },
+      {
+        "name": "DevOps Linux/systemtap",
+        "path": "Cheat Sheets 🐛/DevOps Linux/systemtap.md"
+      },
+      {
+        "name": "DevOps Linux/ulimit",
+        "path": "Cheat Sheets 🐛/DevOps Linux/ulimit.md"
+      },
+      {
+        "name": "DevOps Linux/vi",
+        "path": "Cheat Sheets 🐛/DevOps Linux/vi.md"
+      },
+      {
+        "name": "DevOps Services/Apache",
+        "path": "Cheat Sheets 🐛/DevOps Services/Apache.md"
+      },
+      {
+        "name": "DevOps Services/Ceph",
+        "path": "Cheat Sheets 🐛/DevOps Services/Ceph.md"
+      },
+      {
+        "name": "DevOps Services/Consul",
+        "path": "Cheat Sheets 🐛/DevOps Services/Consul.md"
+      },
+      {
+        "name": "DevOps Services/CouchDB",
+        "path": "Cheat Sheets 🐛/DevOps Services/CouchDB.md"
+      },
+      {
+        "name": "DevOps Services/Couchbase",
+        "path": "Cheat Sheets 🐛/DevOps Services/Couchbase.md"
+      },
+      {
+        "name": "DevOps Services/ElasticSearch",
+        "path": "Cheat Sheets 🐛/DevOps Services/ElasticSearch.md"
+      },
+      {
+        "name": "DevOps Services/F5",
+        "path": "Cheat Sheets 🐛/DevOps Services/F5.md"
+      },
+      {
+        "name": "DevOps Services/GlusterFS",
+        "path": "Cheat Sheets 🐛/DevOps Services/GlusterFS.md"
+      },
+      {
+        "name": "DevOps Services/Graphite",
+        "path": "Cheat Sheets 🐛/DevOps Services/Graphite.md"
+      },
+      {
+        "name": "DevOps Services/Java",
+        "path": "Cheat Sheets 🐛/DevOps Services/Java.md"
+      },
+      {
+        "name": "DevOps Services/Kafka",
+        "path": "Cheat Sheets 🐛/DevOps Services/Kafka.md"
+      },
+      {
+        "name": "DevOps Services/MongoDB",
+        "path": "Cheat Sheets 🐛/DevOps Services/MongoDB.md"
+      },
+      {
+        "name": "DevOps Services/MySQL",
+        "path": "Cheat Sheets 🐛/DevOps Services/MySQL.md"
+      },
+      {
+        "name": "DevOps Services/NFS",
+        "path": "Cheat Sheets 🐛/DevOps Services/NFS.md"
+      },
+      {
+        "name": "DevOps Services/NTP",
+        "path": "Cheat Sheets 🐛/DevOps Services/NTP.md"
+      },
+      {
+        "name": "DevOps Services/Nodejs",
+        "path": "Cheat Sheets 🐛/DevOps Services/Nodejs.md"
+      },
+      {
+        "name": "DevOps Services/OAuth",
+        "path": "Cheat Sheets 🐛/DevOps Services/OAuth.md"
+      },
+      {
+        "name": "DevOps Services/PgBouncer",
+        "path": "Cheat Sheets 🐛/DevOps Services/PgBouncer.md"
+      },
+      {
+        "name": "DevOps Services/Postgres",
+        "path": "Cheat Sheets 🐛/DevOps Services/Postgres.md"
+      },
+      {
+        "name": "DevOps Services/RabbitMQ",
+        "path": "Cheat Sheets 🐛/DevOps Services/RabbitMQ.md"
+      },
+      {
+        "name": "DevOps Services/Redis Sentinel",
+        "path": "Cheat Sheets 🐛/DevOps Services/Redis Sentinel.md"
+      },
+      {
+        "name": "DevOps Services/Redis",
+        "path": "Cheat Sheets 🐛/DevOps Services/Redis.md"
+      },
+      {
+        "name": "DevOps Services/Samba",
+        "path": "Cheat Sheets 🐛/DevOps Services/Samba.md"
+      },
+      {
+        "name": "DevOps Services/Splunk",
+        "path": "Cheat Sheets 🐛/DevOps Services/Splunk.md"
+      },
+      {
+        "name": "DevOps Services/Squid",
+        "path": "Cheat Sheets 🐛/DevOps Services/Squid.md"
+      },
+      {
+        "name": "DevOps Services/Tomcat",
+        "path": "Cheat Sheets 🐛/DevOps Services/Tomcat.md"
+      },
+      {
+        "name": "DevOps Services/Webserver",
+        "path": "Cheat Sheets 🐛/DevOps Services/Webserver.md"
+      },
+      {
+        "name": "DevOps Services/Zookeeper",
+        "path": "Cheat Sheets 🐛/DevOps Services/Zookeeper.md"
+      },
+      {
+        "name": "DevOps Services/etcd",
+        "path": "Cheat Sheets 🐛/DevOps Services/etcd.md"
+      },
+      {
+        "name": "DevOps Services/etcdv2",
+        "path": "Cheat Sheets 🐛/DevOps Services/etcdv2.md"
+      },
+      {
+        "name": "DevOps Services/htaccess",
+        "path": "Cheat Sheets 🐛/DevOps Services/htaccess.md"
+      },
+      {
+        "name": "DevOps Services/memcached",
+        "path": "Cheat Sheets 🐛/DevOps Services/memcached.md"
+      },
+      {
+        "name": "DevOps Services/nginx",
+        "path": "Cheat Sheets 🐛/DevOps Services/nginx.md"
+      },
+      {
+        "name": "DevOps Services/sqlite",
+        "path": "Cheat Sheets 🐛/DevOps Services/sqlite.md"
+      },
+      {
+        "name": "Languages/CSS",
+        "path": "Cheat Sheets 🐛/Languages/CSS.md"
+      },
+      {
+        "name": "Languages/GCC",
+        "path": "Cheat Sheets 🐛/Languages/GCC.md"
+      },
+      {
+        "name": "Languages/JSONPath",
+        "path": "Cheat Sheets 🐛/Languages/JSONPath.md"
+      },
+      {
+        "name": "Languages/Linting",
+        "path": "Cheat Sheets 🐛/Languages/Linting.md"
+      },
+      {
+        "name": "Languages/Linux HTML Widgets",
+        "path": "Cheat Sheets 🐛/Languages/Linux HTML Widgets.md"
+      },
+      {
+        "name": "Languages/Misc",
+        "path": "Cheat Sheets 🐛/Languages/Misc.md"
+      },
+      {
+        "name": "Languages/PHP",
+        "path": "Cheat Sheets 🐛/Languages/PHP.md"
+      },
+      {
+        "name": "Languages/Perl",
+        "path": "Cheat Sheets 🐛/Languages/Perl.md"
+      },
+      {
+        "name": "Languages/README",
+        "path": "Cheat Sheets 🐛/Languages/README.md"
+      },
+      {
+        "name": "Languages/Ruby",
+        "path": "Cheat Sheets 🐛/Languages/Ruby.md"
+      },
+      {
+        "name": "Languages/SQL",
+        "path": "Cheat Sheets 🐛/Languages/SQL.md"
+      },
+      {
+        "name": "Languages/Syndication",
+        "path": "Cheat Sheets 🐛/Languages/Syndication.md"
+      },
+      {
+        "name": "Languages/Vala",
+        "path": "Cheat Sheets 🐛/Languages/Vala.md"
+      },
+      {
+        "name": "Languages/XML",
+        "path": "Cheat Sheets 🐛/Languages/XML.md"
+      },
+      {
+        "name": "Languages/XPath",
+        "path": "Cheat Sheets 🐛/Languages/XPath.md"
+      },
+      {
+        "name": "Languages/XSLT",
+        "path": "Cheat Sheets 🐛/Languages/XSLT.md"
+      },
+      {
+        "name": "Languages/YAML",
+        "path": "Cheat Sheets 🐛/Languages/YAML.md"
+      },
+      {
+        "name": "Languages/autotools",
+        "path": "Cheat Sheets 🐛/Languages/autotools.md"
+      },
+      {
+        "name": "Languages/gdb",
+        "path": "Cheat Sheets 🐛/Languages/gdb.md"
+      },
+      {
+        "name": "Languages/meson",
+        "path": "Cheat Sheets 🐛/Languages/meson.md"
+      },
+      {
+        "name": "Mobile/adb",
+        "path": "Cheat Sheets 🐛/Mobile/adb.md"
+      },
+      {
+        "name": "Network/Linux-Networking",
+        "path": "Cheat Sheets 🐛/Network/Linux-Networking.md"
+      },
+      {
+        "name": "Network/Mail",
+        "path": "Cheat Sheets 🐛/Network/Mail.md"
+      },
+      {
+        "name": "Network/Network",
+        "path": "Cheat Sheets 🐛/Network/Network.md"
+      },
+      {
+        "name": "Network/SMB",
+        "path": "Cheat Sheets 🐛/Network/SMB.md"
+      },
+      {
+        "name": "Network/SSH",
+        "path": "Cheat Sheets 🐛/Network/SSH.md"
+      },
+      {
+        "name": "Network/curl",
+        "path": "Cheat Sheets 🐛/Network/curl.md"
+      },
+      {
+        "name": "Network/iptables",
+        "path": "Cheat Sheets 🐛/Network/iptables.md"
+      },
+      {
+        "name": "Network/mDNS",
+        "path": "Cheat Sheets 🐛/Network/mDNS.md"
+      },
+      {
+        "name": "Network/netfilter",
+        "path": "Cheat Sheets 🐛/Network/netfilter.md"
+      },
+      {
+        "name": "Network/rsync",
+        "path": "Cheat Sheets 🐛/Network/rsync.md"
+      },
+      {
+        "name": "Network/tcpdump",
+        "path": "Cheat Sheets 🐛/Network/tcpdump.md"
+      },
+      {
+        "name": "Network/unbound",
+        "path": "Cheat Sheets 🐛/Network/unbound.md"
+      },
+      {
+        "name": "Packaging/Bower",
+        "path": "Cheat Sheets 🐛/Packaging/Bower.md"
+      },
+      {
+        "name": "Packaging/Conan",
+        "path": "Cheat Sheets 🐛/Packaging/Conan.md"
+      },
+      {
+        "name": "Packaging/Ruby Bundler",
+        "path": "Cheat Sheets 🐛/Packaging/Ruby Bundler.md"
+      },
+      {
+        "name": "Packaging/apt",
+        "path": "Cheat Sheets 🐛/Packaging/apt.md"
+      },
+      {
+        "name": "Packaging/cargo",
+        "path": "Cheat Sheets 🐛/Packaging/cargo.md"
+      },
+      {
+        "name": "Packaging/dpkg",
+        "path": "Cheat Sheets 🐛/Packaging/dpkg.md"
+      },
+      {
+        "name": "Packaging/flatpak",
+        "path": "Cheat Sheets 🐛/Packaging/flatpak.md"
+      },
+      {
+        "name": "Packaging/gem",
+        "path": "Cheat Sheets 🐛/Packaging/gem.md"
+      },
+      {
+        "name": "Packaging/golang",
+        "path": "Cheat Sheets 🐛/Packaging/golang.md"
+      },
+      {
+        "name": "Packaging/gradle",
+        "path": "Cheat Sheets 🐛/Packaging/gradle.md"
+      },
+      {
+        "name": "Packaging/maven",
+        "path": "Cheat Sheets 🐛/Packaging/maven.md"
+      },
+      {
+        "name": "Packaging/npm",
+        "path": "Cheat Sheets 🐛/Packaging/npm.md"
+      },
+      {
+        "name": "Packaging/pacman",
+        "path": "Cheat Sheets 🐛/Packaging/pacman.md"
+      },
+      {
+        "name": "Packaging/pip",
+        "path": "Cheat Sheets 🐛/Packaging/pip.md"
+      },
+      {
+        "name": "Packaging/rvm",
+        "path": "Cheat Sheets 🐛/Packaging/rvm.md"
+      },
+      {
+        "name": "Packaging/snap",
+        "path": "Cheat Sheets 🐛/Packaging/snap.md"
+      },
+      {
+        "name": "Packaging/yum",
+        "path": "Cheat Sheets 🐛/Packaging/yum.md"
+      },
+      {
+        "name": "Packaging/zypper",
+        "path": "Cheat Sheets 🐛/Packaging/zypper.md"
+      },
+      {
+        "name": "Scripting/APIs",
+        "path": "Cheat Sheets 🐛/Scripting/APIs.md"
+      },
+      {
+        "name": "Scripting/Bash Associative Array",
+        "path": "Cheat Sheets 🐛/Scripting/Bash Associative Array.md"
+      },
+      {
+        "name": "Scripting/Bash Functions",
+        "path": "Cheat Sheets 🐛/Scripting/Bash Functions.md"
+      },
+      {
+        "name": "Scripting/Bash Regex",
+        "path": "Cheat Sheets 🐛/Scripting/Bash Regex.md"
+      },
+      {
+        "name": "Scripting/Bash",
+        "path": "Cheat Sheets 🐛/Scripting/Bash.md"
+      },
+      {
+        "name": "Scripting/Images",
+        "path": "Cheat Sheets 🐛/Scripting/Images.md"
+      },
+      {
+        "name": "Scripting/Locking",
+        "path": "Cheat Sheets 🐛/Scripting/Locking.md"
+      },
+      {
+        "name": "Scripting/Scripting",
+        "path": "Cheat Sheets 🐛/Scripting/Scripting.md"
+      },
+      {
+        "name": "Scripting/Shell-Scripting",
+        "path": "Cheat Sheets 🐛/Scripting/Shell-Scripting.md"
+      },
+      {
+        "name": "Scripting/awk",
+        "path": "Cheat Sheets 🐛/Scripting/awk.md"
+      },
+      {
+        "name": "Scripting/ffmpeg",
+        "path": "Cheat Sheets 🐛/Scripting/ffmpeg.md"
+      },
+      {
+        "name": "Scripting/jq",
+        "path": "Cheat Sheets 🐛/Scripting/jq.md"
+      },
+      {
+        "name": "Scripting/sed",
+        "path": "Cheat Sheets 🐛/Scripting/sed.md"
+      },
+      {
+        "name": "Scripting/xargs",
+        "path": "Cheat Sheets 🐛/Scripting/xargs.md"
+      },
+      {
+        "name": "Scripting/zenity",
+        "path": "Cheat Sheets 🐛/Scripting/zenity.md"
+      },
+      {
+        "name": "Security/AppArmor",
+        "path": "Cheat Sheets 🐛/Security/AppArmor.md"
+      },
+      {
+        "name": "Security/HTTPS",
+        "path": "Cheat Sheets 🐛/Security/HTTPS.md"
+      },
+      {
+        "name": "Security/Incident Handling",
+        "path": "Cheat Sheets 🐛/Security/Incident Handling.md"
+      },
+      {
+        "name": "Security/OpenSCAP",
+        "path": "Cheat Sheets 🐛/Security/OpenSCAP.md"
+      },
+      {
+        "name": "Security/OpenSSL",
+        "path": "Cheat Sheets 🐛/Security/OpenSSL.md"
+      },
+      {
+        "name": "Security/Package Vulnerabilities",
+        "path": "Cheat Sheets 🐛/Security/Package Vulnerabilities.md"
+      },
+      {
+        "name": "Security/SELinux",
+        "path": "Cheat Sheets 🐛/Security/SELinux.md"
+      },
+      {
+        "name": "Security/SIEM",
+        "path": "Cheat Sheets 🐛/Security/SIEM.md"
+      },
+      {
+        "name": "Security/SSL-Certificates",
+        "path": "Cheat Sheets 🐛/Security/SSL-Certificates.md"
+      },
+      {
+        "name": "Security/Security Auditing",
+        "path": "Cheat Sheets 🐛/Security/Security Auditing.md"
+      },
+      {
+        "name": "Security/Security-News-Feeds",
+        "path": "Cheat Sheets 🐛/Security/Security-News-Feeds.md"
+      },
+      {
+        "name": "Security/Security",
+        "path": "Cheat Sheets 🐛/Security/Security.md"
+      },
+      {
+        "name": "Solutions/SaaS Dev Tools",
+        "path": "Cheat Sheets 🐛/Solutions/SaaS Dev Tools.md"
+      },
+      {
+        "name": "Solutions/Service Architecture",
+        "path": "Cheat Sheets 🐛/Solutions/Service Architecture.md"
+      },
+      {
+        "name": "Solutions/Solutions Automation",
+        "path": "Cheat Sheets 🐛/Solutions/Solutions Automation.md"
+      },
+      {
+        "name": "Solutions/Solutions Loadbalancing",
+        "path": "Cheat Sheets 🐛/Solutions/Solutions Loadbalancing.md"
+      },
+      {
+        "name": "Solutions/Solutions Monitoring",
+        "path": "Cheat Sheets 🐛/Solutions/Solutions Monitoring.md"
+      },
+      {
+        "name": "Solutions/Solutions NoSQL",
+        "path": "Cheat Sheets 🐛/Solutions/Solutions NoSQL.md"
+      },
+      {
+        "name": "Solutions/Solutions Virtualization",
+        "path": "Cheat Sheets 🐛/Solutions/Solutions Virtualization.md"
+      },
+      {
+        "name": "Windows/PowerShell",
+        "path": "Cheat Sheets 🐛/Windows/PowerShell.md"
+      },
+      {
+        "name": "Windows/WSL",
+        "path": "Cheat Sheets 🐛/Windows/WSL.md"
+      },
+      {
+        "name": "Windows/netsh",
+        "path": "Cheat Sheets 🐛/Windows/netsh.md"
+      },
+      {
+        "name": "Windows/registry",
+        "path": "Cheat Sheets 🐛/Windows/registry.md"
+      },
+      {
+        "name": "Windows/wmic",
+        "path": "Cheat Sheets 🐛/Windows/wmic.md"
+      },
+      {
+        "name": "kubernetes/Helm Templates",
+        "path": "Cheat Sheets 🐛/kubernetes/Helm Templates.md"
+      },
+      {
+        "name": "kubernetes/Helm",
+        "path": "Cheat Sheets 🐛/kubernetes/Helm.md"
+      },
+      {
+        "name": "kubernetes/Minikube",
+        "path": "Cheat Sheets 🐛/kubernetes/Minikube.md"
+      },
+      {
+        "name": "kubernetes/Minishift",
+        "path": "Cheat Sheets 🐛/kubernetes/Minishift.md"
+      },
+      {
+        "name": "kubernetes/Openshift",
+        "path": "Cheat Sheets 🐛/kubernetes/Openshift.md"
+      },
+      {
+        "name": "kubernetes/PKS",
+        "path": "Cheat Sheets 🐛/kubernetes/PKS.md"
+      },
+      {
+        "name": "kubernetes/Prometheus",
+        "path": "Cheat Sheets 🐛/kubernetes/Prometheus.md"
+      },
+      {
+        "name": "kubernetes/Tekton",
+        "path": "Cheat Sheets 🐛/kubernetes/Tekton.md"
+      },
+      {
+        "name": "kubernetes/kops",
+        "path": "Cheat Sheets 🐛/kubernetes/kops.md"
+      },
+      {
+        "name": "kubernetes/kubectl",
+        "path": "Cheat Sheets 🐛/kubernetes/kubectl.md"
+      },
+      {
+        "name": "kubernetes/kubernetes ConfigMap",
+        "path": "Cheat Sheets 🐛/kubernetes/kubernetes ConfigMap.md"
+      },
+      {
+        "name": "kubernetes/kubernetes DNS",
+        "path": "Cheat Sheets 🐛/kubernetes/kubernetes DNS.md"
+      },
+      {
+        "name": "kubernetes/kubernetes StorageClass",
+        "path": "Cheat Sheets 🐛/kubernetes/kubernetes StorageClass.md"
+      },
+      {
+        "name": "kubernetes/kubernetes",
+        "path": "Cheat Sheets 🐛/kubernetes/kubernetes.md"
+      },
+      {
+        "name": "kubernetes/nginx-ingress",
+        "path": "Cheat Sheets 🐛/kubernetes/nginx-ingress.md"
+      }
+    ]
   },
   "Runbooks 🐛": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "SRE",
     "filePattern": "^Runbooks 🐛/(.+)\\.md$",
-    "documents": []
+    "documents": [
+      {
+        "name": "Mail",
+        "path": "Runbooks 🐛/Mail.md"
+      },
+      {
+        "name": "System Log",
+        "path": "Runbooks 🐛/System Log.md"
+      },
+      {
+        "name": "arp",
+        "path": "Runbooks 🐛/arp.md"
+      },
+      {
+        "name": "df",
+        "path": "Runbooks 🐛/df.md"
+      },
+      {
+        "name": "dpkg",
+        "path": "Runbooks 🐛/dpkg.md"
+      },
+      {
+        "name": "systemd",
+        "path": "Runbooks 🐛/systemd.md"
+      }
+    ]
   },
   "Examples": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
     "filePattern": "^Examples/(.+)\\.md$",
-    "documents": []
+    "documents": [
+      {
+        "name": "Glib Examples/GObject",
+        "path": "Examples/Glib Examples/GObject.md"
+      },
+      {
+        "name": "Glib Examples/Glib GRegex",
+        "path": "Examples/Glib Examples/Glib GRegex.md"
+      },
+      {
+        "name": "Glib Examples/Glib Testing",
+        "path": "Examples/Glib Examples/Glib Testing.md"
+      },
+      {
+        "name": "Glib Examples/Glib XDG Migration",
+        "path": "Examples/Glib Examples/Glib XDG Migration.md"
+      },
+      {
+        "name": "Glib Examples/Glib",
+        "path": "Examples/Glib Examples/Glib.md"
+      },
+      {
+        "name": "Javascript Examples/GraphQL",
+        "path": "Examples/Javascript Examples/GraphQL.md"
+      },
+      {
+        "name": "Javascript Examples/Handlebars",
+        "path": "Examples/Javascript Examples/Handlebars.md"
+      },
+      {
+        "name": "Javascript Examples/Javascript Modules",
+        "path": "Examples/Javascript Examples/Javascript Modules.md"
+      },
+      {
+        "name": "Javascript Examples/Javascript RegExp",
+        "path": "Examples/Javascript Examples/Javascript RegExp.md"
+      },
+      {
+        "name": "Javascript Examples/Javascript strptime",
+        "path": "Examples/Javascript Examples/Javascript strptime.md"
+      },
+      {
+        "name": "Javascript Examples/Javascript void0",
+        "path": "Examples/Javascript Examples/Javascript void0.md"
+      },
+      {
+        "name": "Javascript Examples/Nodejs Express",
+        "path": "Examples/Javascript Examples/Nodejs Express.md"
+      },
+      {
+        "name": "Javascript Examples/README",
+        "path": "Examples/Javascript Examples/README.md"
+      },
+      {
+        "name": "PHP Examples/PHP Arrays",
+        "path": "Examples/PHP Examples/PHP Arrays.md"
+      },
+      {
+        "name": "PHP Examples/PHP curl_setopt",
+        "path": "Examples/PHP Examples/PHP curl_setopt.md"
+      },
+      {
+        "name": "PHP Examples/PHP date",
+        "path": "Examples/PHP Examples/PHP date.md"
+      },
+      {
+        "name": "PHP Examples/PHP explode",
+        "path": "Examples/PHP Examples/PHP explode.md"
+      },
+      {
+        "name": "PHP Examples/PHP file_get_contents",
+        "path": "Examples/PHP Examples/PHP file_get_contents.md"
+      },
+      {
+        "name": "PHP Examples/PHP implode",
+        "path": "Examples/PHP Examples/PHP implode.md"
+      },
+      {
+        "name": "PHP Examples/PHP in_array",
+        "path": "Examples/PHP Examples/PHP in_array.md"
+      },
+      {
+        "name": "PHP Examples/PHP ini_set",
+        "path": "Examples/PHP Examples/PHP ini_set.md"
+      },
+      {
+        "name": "PHP Examples/PHP preg_match",
+        "path": "Examples/PHP Examples/PHP preg_match.md"
+      },
+      {
+        "name": "PHP Examples/PHP preg_replace",
+        "path": "Examples/PHP Examples/PHP preg_replace.md"
+      },
+      {
+        "name": "PHP Examples/PHP str_replace",
+        "path": "Examples/PHP Examples/PHP str_replace.md"
+      },
+      {
+        "name": "PHP Examples/PHP stripos",
+        "path": "Examples/PHP Examples/PHP stripos.md"
+      },
+      {
+        "name": "PHP Examples/PHP strpos",
+        "path": "Examples/PHP Examples/PHP strpos.md"
+      },
+      {
+        "name": "PHP Examples/PHP strripos",
+        "path": "Examples/PHP Examples/PHP strripos.md"
+      },
+      {
+        "name": "PHP Examples/PHP strrpos",
+        "path": "Examples/PHP Examples/PHP strrpos.md"
+      },
+      {
+        "name": "PHP Examples/PHP ternary operator",
+        "path": "Examples/PHP Examples/PHP ternary operator.md"
+      },
+      {
+        "name": "PHP Examples/PHP unserialize",
+        "path": "Examples/PHP Examples/PHP unserialize.md"
+      },
+      {
+        "name": "Python Examples/PyGI GStreamer",
+        "path": "Examples/Python Examples/PyGI GStreamer.md"
+      },
+      {
+        "name": "Python Examples/PyGI GnomeKeyring",
+        "path": "Examples/Python Examples/PyGI GnomeKeyring.md"
+      },
+      {
+        "name": "Python Examples/PyGI GtkStatusIcon",
+        "path": "Examples/Python Examples/PyGI GtkStatusIcon.md"
+      },
+      {
+        "name": "Python Examples/Python Dictionary",
+        "path": "Examples/Python Examples/Python Dictionary.md"
+      },
+      {
+        "name": "Python Examples/Python Syntax",
+        "path": "Examples/Python Examples/Python Syntax.md"
+      },
+      {
+        "name": "Python Examples/Python argparse",
+        "path": "Examples/Python Examples/Python argparse.md"
+      },
+      {
+        "name": "Python Examples/Python re.match",
+        "path": "Examples/Python Examples/Python re.match.md"
+      },
+      {
+        "name": "Python Examples/Python re",
+        "path": "Examples/Python Examples/Python re.md"
+      },
+      {
+        "name": "Python Examples/Python re.sub",
+        "path": "Examples/Python Examples/Python re.sub.md"
+      },
+      {
+        "name": "Python Examples/Python simplehttpserver",
+        "path": "Examples/Python Examples/Python simplehttpserver.md"
+      },
+      {
+        "name": "Python Examples/Python split",
+        "path": "Examples/Python Examples/Python split.md"
+      },
+      {
+        "name": "Python Examples/Python string concat",
+        "path": "Examples/Python Examples/Python string concat.md"
+      },
+      {
+        "name": "Python Examples/Python subprocess",
+        "path": "Examples/Python Examples/Python subprocess.md"
+      },
+      {
+        "name": "Python Examples/Python",
+        "path": "Examples/Python Examples/Python.md"
+      },
+      {
+        "name": "README",
+        "path": "Examples/README.md"
+      },
+      {
+        "name": "Regex Examples/Go Regex",
+        "path": "Examples/Regex Examples/Go Regex.md"
+      },
+      {
+        "name": "Regex Examples/Regex Overview",
+        "path": "Examples/Regex Examples/Regex Overview.md"
+      },
+      {
+        "name": "Regex Examples/Ruby Regex",
+        "path": "Examples/Regex Examples/Ruby Regex.md"
+      }
+    ]
   },
   "Video Tutorials": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "filePattern": "^Video Tutorials/(.+)\\.md$",
-    "documents": []
+    "documents": [
+      {
+        "name": "README",
+        "path": "Video Tutorials/README.md"
+      }
+    ]
   },
   "Visual Ops": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "SRE",
     "filePattern": "^Visual Ops/(.+)\\.md$",
-    "documents": []
+    "documents": [
+      {
+        "name": "du Radial Map",
+        "path": "Visual Ops/du Radial Map.md"
+      },
+      {
+        "name": "du Tree Map",
+        "path": "Visual Ops/du Tree Map.md"
+      },
+      {
+        "name": "netstat Dendrogram",
+        "path": "Visual Ops/netstat Dendrogram.md"
+      },
+      {
+        "name": "netstat Force Graph",
+        "path": "Visual Ops/netstat Force Graph.md"
+      },
+      {
+        "name": "netstat Services",
+        "path": "Visual Ops/netstat Services.md"
+      },
+      {
+        "name": "visual-ops",
+        "path": "Visual Ops/visual-ops.md"
+      }
+    ]
   },
   "Unicorn Arcology": {
     "github": "lwindolf/unicorn-arcology",
