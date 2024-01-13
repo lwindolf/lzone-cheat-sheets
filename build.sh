@@ -119,7 +119,7 @@ readme_update() {
         result += `\n<b>${docs[dname].group}</b>`;
         oldgroup = docs[dname].group;
       }
-      result += ` | <a href='https://lzone.de/#/${docs[dname].path}>${dname}</a>`;
+      result += ` | <a href='https://lzone.de/#/${docs[dname].path}'>${dname}</a>`;
     }
   }
 
