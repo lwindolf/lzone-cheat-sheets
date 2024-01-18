@@ -97,6 +97,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Linode](https://github.com/linode/docs)
 - [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
 - [Documentation Prometheus](https://github.com/prometheus/docs)
+- [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
 - [Documentation Telegraf](https://github.com/influxdata/telegraf)
 - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
 - [Documentation juju](https://github.com/juju/juju)
