@@ -94,6 +94,10 @@ Check the API server logs to detect cert errors
     
     oc adm policy add-scc-to-user anyuid -z runasanyuid --as system:admin      # Allow a user a new SCC
 
+To determine effective UID range for a namespace
+
+    oc get project -o jsonpath="{.metadata.annotations.openshift\.io/sa\.scc\.uid-range}"
+
 ### Print per cluster node resource usage
 
     oc get nodes --no-headers | awk '{print $1}' | xargs -I {} sh -c 'echo {}; oc describe node {} | grep Allocated -A 5 | grep -ve Event -ve Allocated -ve percent -ve -- ; echo'
