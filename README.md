@@ -170,7 +170,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet)
 - [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center)
 - [MS Azure Security](https://github.com/MicrosoftDocs/security)
-- [Markdown Architecture Records](https://github.com/adr/madr)
+- [Markdown Architecture Decision Records](https://github.com/adr/madr)
 - [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
 - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
 - [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet)
