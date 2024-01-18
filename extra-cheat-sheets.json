@@ -493,6 +493,12 @@
     "category": "DevOps",
     "type": "Documentation"
   },
+  "Documentation Prometheus Alertmanager": {
+    "github": "prometheus/alertmanager",
+    "filePattern": "^docs/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Documentation"
+  },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
