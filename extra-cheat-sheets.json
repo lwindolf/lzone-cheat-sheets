@@ -499,6 +499,12 @@
     "category": "DevOps",
     "type": "Documentation"
   },
+  "Documentation Prometheus Operator": {
+    "github": "prometheus-operator/prometheus-operator",
+    "filePattern": "^Documentation/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Documentation"    
+  },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
