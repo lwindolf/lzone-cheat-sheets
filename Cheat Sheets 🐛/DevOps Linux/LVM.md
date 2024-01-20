@@ -11,8 +11,7 @@
 
 ### Adding Disks to Existing Volume
 
-Via: [LVM - Add another
-disk](http://sujithemmanuel.blogspot.com/2007/04/how-to-add-disk-to-lvm.html)
+Via: [LVM - Add another disk](http://sujithemmanuel.blogspot.com/2007/04/how-to-add-disk-to-lvm.html)
 
     # Setup partition with (use parted for >2TB)
     (parted) mklabel gpt       # only when >2TB
