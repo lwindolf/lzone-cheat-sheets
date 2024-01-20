@@ -2,21 +2,18 @@
 
 -   [Kernel Trace Systems](http://elinux.org/Kernel_Trace_Systems)
     Overview
--   [Core Dumps with
-    Ubuntu](http://askubuntu.com/questions/148536/how-to-enable-sigquit-core-dumps-with-apport):
+-   [Core Dumps with Ubuntu](http://askubuntu.com/questions/148536/how-to-enable-sigquit-core-dumps-with-apport):
     Ubuntu per-default redirects cores to its bug reporting tool
     "apport" so you won't get core dumps. If you still need to overrule
     the core dump pipe in /proc/sys/kernel/core\_pattern:
 
         echo core >/proc/sys/kernel/core_pattern 
 
--   [Dtrace for
-    Linux](http://dtrace.org/blogs/ahl/2011/10/05/dtrace-for-linux-2):
+-   [Dtrace for Linux](http://dtrace.org/blogs/ahl/2011/10/05/dtrace-for-linux-2):
     the Solaris framework ported by Sun/Oracle
 -   [FTrace](https://burzalodowa.wordpress.com/2013/07/09/linux-kernel-tracing/):
     kernel trace point injection
--   [Task
-    Stats](http://www.mjmwired.net/kernel/Documentation/accounting/taskstats.txt):
+-   [Task Stats](http://www.mjmwired.net/kernel/Documentation/accounting/taskstats.txt):
     per-task accounting in Linux
 -   [ktap](http://www.ktap.org): Runs with just a kernel module without
     debugging symbols, requires debugfs
@@ -82,20 +79,16 @@
 
 #### Misc perf stuff
 
--   [perf Flame
-    Graphs](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html)
--   [perf Java Symbols Mapper
-    Agent](https://github.com/jrudolph/perf-map-agent)
--   [Direct JVM Symbol
-    Mapping](http://techblog.netflix.com/2015/07/java-in-flames.html)
+-   [perf Flame Graphs](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html)
+-   [perf Java Symbols Mapper Agent](https://github.com/jrudolph/perf-map-agent)
+-   [Direct JVM Symbol Mapping](http://techblog.netflix.com/2015/07/java-in-flames.html)
     with -XX:+PreserveFramePointer
 
 ### SystemTap
 
 -   [System Tap](http://sourceware.org/systemtap/index.html): Tracing
     framework by Red Hat, IBM, Hitachi, and Oracle.
--   [System Tap on
-    Debian](http://sourceware.org/systemtap/wiki/SystemtapOnDebian#head-81631b554b54f056056424eb4895912b67225b17):
+-   [System Tap on Debian](http://sourceware.org/systemtap/wiki/SystemtapOnDebian#head-81631b554b54f056056424eb4895912b67225b17):
     Installation HowTo
 -   [System Tap on Ubuntu](https://wiki.ubuntu.com/Kernel/Systemtap):
     Installation HowTo, short version below
@@ -123,8 +116,7 @@
 
 ### oprofile
 
-[statistical profiler for Linux (\<20%
-overhead)](http://oprofile.sourceforge.net/about/)
+[statistical profiler for Linux (\<20% overhead)](http://oprofile.sourceforge.net/about/)
 
     # After boot run "init" and "setup" with or without kernel statistics
     opcontrol --init
