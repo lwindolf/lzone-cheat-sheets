@@ -7,12 +7,12 @@ Copy Keys
 100% non-interactive SSH: What parameters to use to avoid any
 interaction.
 
-    ssh -i my_priv_key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no 
+    ssh -i my_priv_key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
     -o PreferredAuthentications=publickey user@host -n "/bin/ls"
 
 Using SSH Agent
 
-    eval $(ssh-agent)       # Start agent on demand
+    eval $(ssh-agent)               # Start agent on demand
 
     ssh-add -l                      # List keys
     ssh-add                         # Add default key
@@ -20,10 +20,9 @@ Using SSH Agent
     ssh-add -t 3600 ~/.ssh/id_rsa   # Add with timeout
     ssh-add -D                      # Drop keys
 
-    ssh -A ...          # Enforce agent forwarding
+    ssh -A ...                      # Enforce agent forwarding
 
-[Transparent
-Multi-Hop](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html)
+[Transparent Multi-Hop](http://sshmenu.sourceforge.net/articles/transparent-mulithop.html)
 
     ssh -A -t host1 ssh -A -t host2 ssh -A -t host3 ...
 
@@ -66,8 +65,7 @@ Enfore no passphrase
 
 ### Agent Forwarding
 
-[Agent
-Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
+[Agent Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
 explained with pictures! Configured in /etc/ssh\_config with
 
     Host *
@@ -124,8 +122,7 @@ This happens when piping shell commands through SSH. Try adding "-T" or
 
 ## Misc
 
--   [SFTP chroot with
-    umask](http://jeff.robbins.ws/articles/setting-the-umask-for-sftp-transactions):
+-   [SFTP chroot with umask](http://jeff.robbins.ws/articles/setting-the-umask-for-sftp-transactions):
     How to enforce a umask with SFTP
 
         Subsystem sftp /usr/libexec/openssh/sftp-server -u 0002
@@ -151,8 +148,7 @@ This happens when piping shell commands through SSH. Try adding "-T" or
 
         vim scp:[email protected]//some/directory/file.txt
 
--   [MonkeySphere](http://web.monkeysphere.info/): Use GPG keys with SSH
-    agent
+-   [MonkeySphere](http://web.monkeysphere.info/): Use GPG keys with SSH agent
 
         monkeysphere subkey-to-ssh-agent -t 3600
 
