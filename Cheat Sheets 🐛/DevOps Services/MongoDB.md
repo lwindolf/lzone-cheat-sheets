@@ -1,7 +1,6 @@
 ### Tuning
 
-[Disable transparent huge
-pages](http://docs.mongodb.org/manual/reference/transparent-huge-pages/#transparent-huge-pages-thp-settings):
+[Disable transparent huge pages](http://docs.mongodb.org/manual/reference/transparent-huge-pages/#transparent-huge-pages-thp-settings):
 add in /etc/rc.local
 
     if test -f /sys/kernel/mm/transparent_hugepage/khugepaged/defrag; then
