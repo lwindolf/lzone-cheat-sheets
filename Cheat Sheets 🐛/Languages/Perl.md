@@ -14,7 +14,7 @@ Install a module
 
 List CPAN installed modules
 
-    $ cpan -l
+    cpan -l
 
 ## Catching exceptions
 
