@@ -5,9 +5,6 @@ related:
 
 ## PHP
 
--   Setting up a PHP debugger
-    -   [APD](/articles/apd-setup.htm)
-    -   [XDebug](http://devzone.zend.com/1147/debugging-php-applications-with-xdebug/)
 -   PHP - How to build Debian package for modules from PECL
 
         apt-get install dh-make-php
@@ -40,13 +37,11 @@ related:
 
 ## Rails
 
--   [Passenger
-    Tuning](http://blog.scoutapp.com/articles/2009/12/08/production-rails-tuning-with-passenger-passengermaxprocesses)
+-   [Passenger Tuning](http://blog.scoutapp.com/articles/2009/12/08/production-rails-tuning-with-passenger-passengermaxprocesses)
 
 ## CDN
 
--   [Linux HTTP/TCP Tuning for
-    initcwnd](http://www.cdnplanet.com/blog/tune-tcp-initcwnd-for-optimum-performance/)
+-   [Linux HTTP/TCP Tuning for initcwnd](http://www.cdnplanet.com/blog/tune-tcp-initcwnd-for-optimum-performance/)
 
         ip route change default via <gateway> dev eth0 initcwnd 10
 
