@@ -1,19 +1,19 @@
-### NFS Shares
+## NFS Shares
 
-#### Update Exports
+### Update Exports
 
 After editing /etc/exports run
 
     exportfs -a
 
-#### List Exports
+### List Exports
 
     # showmount -e
     Export list for myserver:
     /export/home       10.1.0.0/24
     #
 
-#### Show Clients
+## Show Clients
 
 On the NFS server run 'showmount' to see mounting clients
 
@@ -22,7 +22,7 @@ On the NFS server run 'showmount' to see mounting clients
     10.1.0.15
     #
 
-### List Protocols/Services
+## List Protocols/Services
 
 To list local services run:
 
@@ -74,28 +74,28 @@ portmapper:
         100024    1   udp  44152  status
         100024    1   tcp  53182  status
 
-### NFSv4
+## NFSv4
 
-#### Mounting NFSv4 Shares
+### Mounting NFSv4 Shares
 
 The difference in mounting is that you need to provide "nfs4" and
 transport and port options like this:
 
     mount -t nfs4 -o proto=tcp,port=2049 server:/export/home /mnt
 
-#### Ensure Running Id Mapper
+### Ensure Running Id Mapper
 
 When using NFSv4 share ensure to have the id mapper running on all
 clients. On Debian you need to explicitely start it:
 
     service idmapd start
 
-#### Mapping Users
+### Mapping Users
 
 You might want to set useful NFSv4 default mappings and some explicit
 mappings for unknown users:
 
-    #cat /etc/idmapd.conf
+    # cat /etc/idmapd.conf
     [...]
     [Mapping]
     Nobody-User = nobody
@@ -104,9 +104,9 @@ mappings for unknown users:
     [Static]
     someuser@otherserver = localuser
 
-### Tuning
+## Tuning
 
-#### Tuning NFS Clients
+### Tuning NFS Clients
 
 When optimizing for performance try the following client mount option
 changes:
@@ -128,7 +128,7 @@ After changing and remounting check for effective options using "nfsstat
 
 When synchronous shares are important try the "noac" mount option.
 
-#### Tuning NFS Server
+### Tuning NFS Server
 
 For the exported filesystem mount options:
 
@@ -143,7 +143,7 @@ Other than that:
 -   Check /sys/block/sda/device/block/sda/queue/read\_ahead\_kb
 -   Increase number of nfsd threads
 
-### Getting NFS Statistics
+## Getting NFS Statistics
 
 Use "nfsstat" for detailed NFS statistics! The options are "-c" for
 client and "-s" for server statistics. On the server caching statistics
@@ -159,4 +159,4 @@ on the client probably errors and retries. Also note that you can get
 live per-interval results when running with "--sleep=\<interval\>". For
 example
 
-    # nfsstat -o fh --sleep=2
+    nfsstat -o fh --sleep=2
