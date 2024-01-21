@@ -1,4 +1,4 @@
-### CLI
+## CLI
 
 You can access any sqlite database file, as long there is no other
 client locking it, using the command line client to perform SQL
@@ -6,7 +6,7 @@ commands:
 
     sqlite3 <database file>
 
-### List Schema
+## List Schema
 
 To list the schema of a sqlite database run
 
@@ -18,9 +18,9 @@ tables use the client command ".tables"
 
     .tables
 
-### Exporting
+## Exporting
 
-#### Dump Database as SQL
+### Dump Database as SQL
 
 To dump the entire database content in SQL for example for a backup run:
 
@@ -28,14 +28,14 @@ To dump the entire database content in SQL for example for a backup run:
 
 See the next sections how to dump a single table or in SQL.
 
-#### Dump Table as SQL
+### Dump Table as SQL
 
 To dump the SQL to create a table and its values run the command line
 client using the ".dump" command an redirect the output:
 
     sqlite3 <database file> ".dump <table name>" >output.sql
 
-#### Dump Table as CSV
+### Dump Table as CSV
 
 To dump the SQL to create a table and its values run the command line
 client using the ".mode" command to enable CSV output and then to
@@ -45,7 +45,7 @@ CLI you can easily redirect the output:
     echo ".mode csv
     select * from <table name>;" | sqlite3 >output.sql
 
-### Cleanup with Vacuum
+## Cleanup with Vacuum
 
 To run a one time cleanup just run the following command on an sqlite
 database file. Ensure there is no program accessing the database file.
@@ -53,7 +53,7 @@ If there is it will fail and do nothing:
 
     sqlite3 my.db "VACUUM;"
 
-### Configure Auto-Vacuum
+## Configure Auto-Vacuum
 
 If you want sqlite to perform vacuum on-demand you can set the
 `auto_vacuum` pragma to either "INCREMENTAL" or "FULL":
