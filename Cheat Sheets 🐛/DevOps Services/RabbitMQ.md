@@ -18,8 +18,8 @@
     # Live modifications using eval
     rabbitmqctl eval 'application:set_env(rabbit, reverse_dns_lookups, true).'
 
-\# Convert disk node to RAM node\
- rabbitmqctl change\_cluster\_node\_type ram
+    # Convert disk node to RAM node
+    rabbitmqctl change_cluster_node_type ram
 
  
 
@@ -41,12 +41,9 @@ To increase it to e.g. 10000 open files:
 ### Misc
 
 -   Managment GUI on port 15627
--   [RabbitMQ - Fix Chef 100% CPU
-    usage](http://lzone.de/Solving+100%25+CPU+usage+of+Chef)
--   [RabbitMQ - Setup
-    Clustering](http://varwww.com/2013/06/17/clustering-and-queue-mirroring-in-rabbitmq-looks-easy/)
--   [RabbitMQ RAM
-    Nodes](http://lists.rabbitmq.com/pipermail/rabbitmq-discuss/2011-September/014878.html):
+-   [RabbitMQ - Fix Chef 100% CPU usage](http://lzone.de/Solving+100%25+CPU+usage+of+Chef)
+-   [RabbitMQ - Setup Clustering](http://varwww.com/2013/06/17/clustering-and-queue-mirroring-in-rabbitmq-looks-easy/)
+-   [RabbitMQ RAM Nodes](http://lists.rabbitmq.com/pipermail/rabbitmq-discuss/2011-September/014878.html):
     can be used only in cluster with at least one disk node
 
         # /etc/rabbitmq.conf
