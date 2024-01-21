@@ -1,7 +1,6 @@
 When you encounter a Redis instance and you quickly want to learn about
 the setup you just need a few simple commands to peak into the setup. Of
-course it doesn't hurt to look at the official [full command
-documentation](http://redis.io/commands), but below is a listing just
+course it doesn't hurt to look at the official [full command documentation](https://redis.io/commands), but below is a listing just
 for sysadmins.
 
 ### Accessing Redis
@@ -272,9 +271,7 @@ Install the Redis tools and run the provided benchmarking tool
 
     redis-benchmark -h <host> [-p <port>]
 
-If you are migrating from/to memcached protocol check out [how to run
-the same
-benchmark](http://lzone.de/blog/Benchmarking-Redis-and-Memcache) for any
+If you are migrating from/to memcached protocol check out [how to run the same benchmark](https://lzone.de/blog/Benchmarking-Redis-and-Memcache) for any
 key value store with memcached protocol.
 
 #### Debugging Latency
