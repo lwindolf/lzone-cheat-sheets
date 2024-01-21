@@ -114,59 +114,51 @@ Real Time Metrics
 
 F5 Series on Architecture
 
- 
-
 1) Cloud/Automated Systems need an Architecture
 
 [https://devcentral.f5.com/articles/cloud-automated-systems-need-an-architecture-26975](https://devcentral.f5.com/articles/cloud-automated-systems-need-an-architecture-26975)
-
- 
 
 2) The Service Model for Cloud/Automated Systems Architectures
 
 [https://devcentral.f5.com/articles/the-service-model-for-cloud-automated-systems-architectures-27129](https://devcentral.f5.com/articles/the-service-model-for-cloud-automated-systems-architectures-27129)
 
- 
-
 3) The Deployment Model for Cloud/Automated Systems Architectures
 
 [https://devcentral.f5.com/articles/the-deployment-model-for-cloud-automated-systems-architectures-27228](https://devcentral.f5.com/articles/the-deployment-model-for-cloud-automated-systems-architectures-27228)
-
- 
 
 4) The Operational Model for Cloud/Automated Systems Architectures
 
 [https://devcentral.f5.com/articles/the-operational-model-for-cloud-automated-systems-architectures-27254?sf92906191=1](https://devcentral.f5.com/articles/the-operational-model-for-cloud-automated-systems-architectures-27254?sf92906191=1)
 
-![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 
 ### People
 
 #### Feature Management
 
--   [Feature
-    Flags](http://swreflections.blogspot.de/2014/08/feature-toggles-are-one-of-worst-kinds.html)
--   [Levels of Feature
-    Management](https://thenewstack.io/level-feature-management-right-team/?utm_content=buffer1b569&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+-   [Feature Flags](http://swreflections.blogspot.de/2014/08/feature-toggles-are-one-of-worst-kinds.html)
+-   [Levels of Feature Management](https://thenewstack.io/level-feature-management-right-team/?utm_content=buffer1b569&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 #### Collaboration
 
 Git Code Review Solutions
 
 -   [Atlassian Stash](https://de.atlassian.com/software/stash)
+-   Atlassian Bitbucket
 -   Gerrit (self-hosted, free)
 -   [https://gerrithub.io/](https://gerrithub.io/) (commercial)
 -   Gitlab (self-hosted, free, support available)
--   [github.com](https://github.com)
+-   [github.com](https://github.com) (free)
+-   Github Enterprise (self-host or SaaS, commerical)
 -   [gitorious.org](https://gitorious.org/)
 -   [Phabricator](http://phabricator.org/comparison/)
 -   [Documentation Testing: Inch CI](http://inch-ci.org/)
--   [Artifactory - Manage Binary
-    Repositories](https://www.jfrog.com/confluence/display/RTF/Welcome+to+Artifactory)
+-   Cloud Vendors
+   - Amazon Code Commit
+   - Azure DevOps
+   - GCloud ??? FIXME
 
 Skills:
 
--   [Ops 8 Level
-    Matrix](http://webcache.googleusercontent.com/search?q=cache:umLUawx4v6IJ:www.verber.com/mark/sysadm/ops-8level-matrix.xls+verber+ops+level&cd=1&hl=en&ct=clnk)
+-   [Ops 8 Level Matrix](http://webcache.googleusercontent.com/search?q=cache:umLUawx4v6IJ:www.verber.com/mark/sysadm/ops-8level-matrix.xls+verber+ops+level&cd=1&hl=en&ct=clnk)
     (Skills per career level in Ops)
 
