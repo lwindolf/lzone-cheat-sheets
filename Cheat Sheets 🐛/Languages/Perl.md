@@ -29,33 +29,33 @@ List CPAN installed modules
 
 From [Proper UTF-8 CGI handling](http://blog.thewebsitepeople.org/2012/06/perl-default-to-utf-8-encoding/):
 
-        use utf8;
-        use open ( ":encoding(UTF-8)", ":std" );
-        use CGI ("-utf8");
+    use utf8;
+    use open ( ":encoding(UTF-8)", ":std" );
+    use CGI ("-utf8");
 
 ## Daemonizing in Perl
 
 From [Always double fork](http://world.std.com/~swmcd/steven/tech/daemon.html):
-
-        use POSIX;
-
-        sub daemonize
-        {
-            fork and exit;
-            POSIX::setsid();
-            fork and exit;
-            umask 0;
-            chdir '/';
-            close STDIN;
-            close STDOUT;
-            close STDERR;
-        }
+    
+    use POSIX;
+    
+    sub daemonize
+    {
+        fork and exit;
+        POSIX::setsid();
+        fork and exit;
+        umask 0;
+        chdir '/';
+        close STDIN;
+        close STDOUT;
+        close STDERR;
+    }
         
 ## JSON+XPath
 
 Ad-hoc JSON filtering with XPath
-
-        lwp-request https://example.com/api-endpoint | perl -MJSON::XS -MData::DPath=dpath -E 'say join(",", dpath("//status")->match(decode_json(join("",<STDIN>))))'
+    
+    lwp-request https://example.com/api-endpoint | perl -MJSON::XS -MData::DPath=dpath -E 'say join(",", dpath("//status")->match(decode_json(join("",<STDIN>))))'
 
 ## Debugging
 
@@ -63,17 +63,17 @@ Ad-hoc JSON filtering with XPath
 
 This is usually done with Data::Dumper
 
-        use Data::Dumper;
-
-        # long form
-        print Data::Dumper->Dump([$var], [qw(var)]);   # scalar variable
-        print Data::Dumper->Dump([$var]);              # scalar variable without name
-
-        # short form
-        print Dumper(\@var);           # array variable
-        print Dumper(%var);            # hash as simple list
-        print Dumper(\%var);           # hash nicely indented
-        print Dumper($var);            # arbitrary reference
+    use Data::Dumper;
+    
+    # long form
+    print Data::Dumper->Dump([$var], [qw(var)]);   # scalar variable
+    print Data::Dumper->Dump([$var]);              # scalar variable without name
+    
+    # short form
+    print Dumper(\@var);           # array variable
+    print Dumper(%var);            # hash as simple list
+    print Dumper(\%var);           # hash nicely indented
+    print Dumper($var);            # arbitrary reference
 
 
 ### Performance Debugging in Perl
@@ -90,19 +90,18 @@ To run CGIs with ad-hoc request parameters
         
 - Case-insensitive sorting
 
-       sort { "\L$a" cmp "\L$b" } @mylist
+      sort { "\L$a" cmp "\L$b" } @mylist
 
-- Regex - Always use named capture groups and %+, for example:
+- Regex - Always use named capture groups and `%+`, for example:
 
-        if($str =~ /(?<field1>\w+)\s+(?<field2>\w+)(\s+(?<field3>\w+))?/) {
-              %result = %+;
-        }
+      if($str =~ /(?<field1>\w+)\s+(?<field2>\w+)(\s+(?<field3>\w+))?/) {
+        %result = %+;
+      }
 
 - Perl - Random Values:
+    
+      int(rand(10))
 
-        int(rand(10))
+- Perl - Fix for `perl: warning: Setting locale failed.`
 
-
-- Perl - Fix for "perl: warning: Setting locale failed."
-
-        locale-gen en_US.UTF-8   # Insert listed locale(s)
+      locale-gen en_US.UTF-8   # Insert listed locale(s)
