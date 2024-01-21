@@ -59,8 +59,7 @@ related:
         # Turning it on per-domain
         <link rel="dns-prefetch" href="http://www.spreadfirefox.com/">
 
--   [Setting up HAProxy](http://www.debian-administration.org/article/709/Using_the_haproxy_load-balancer_for_increased_availability)
--   Prevent out of ports on high traffic webserver due to FIN\_WAIT and
+-   Prevent out of ports on high traffic webserver due to `FIN_WAIT` and
     other issues:
 
         # Ensure to maximize available ports
@@ -76,5 +75,3 @@ related:
 -   [gatling](https://github.com/gilt/gatling) - HTTP stress testing
 -   [Jetty Tuning](https://wiki.eclipse.org/Jetty/Howto/High_Load#TCP_Buffer_Sizes)
     - Network sysctl settings
--   [Squid - Quick Test Proxy Setup](blog/How to Quickly Set up Squid)
-
