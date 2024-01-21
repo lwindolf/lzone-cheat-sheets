@@ -20,13 +20,10 @@ For a similar index have a look at
 ### Install Servers
 
 -   [Cobbler](http://www.cobblerd.org/)
--   [MAAS](http://www.ubuntu.com/cloud/tools/maas) - Ubuntu "Metal As A
-    Service" install server
+-   [MAAS](http://www.ubuntu.com/cloud/tools/maas) - Ubuntu "Metal As A Service" install server
 -   [Foreman](http://theforeman.org/) (integrated with puppet)
--   [SpaceWalk](http://spacewalk.redhat.com) (Kickstart based for Redhat
-    and Solaris)
--   [Razor](https://github.com/puppetlabs/razor-server) (from
-    Puppetlabs)
+-   [SpaceWalk](http://spacewalk.redhat.com) (Kickstart based for Redhat and Solaris)
+-   [Razor](https://github.com/puppetlabs/razor-server) (from Puppetlabs)
 
 ### Deployment
 
@@ -36,8 +33,7 @@ For a similar index have a look at
 -   [Bamboo](https://www.atlassian.com/software/bamboo/): (available
     hosted with Jira Studio)
 -   fabric: Language for deployment scripts
--   [CI Tools Index by Price
-    Segment](http://citconf.com/wiki/index.php?title=Different_CI_Tools)
+-   [CI Tools Index by Price Segment](http://citconf.com/wiki/index.php?title=Different_CI_Tools)
 
 ### Orchestration Tools
 
@@ -50,8 +46,7 @@ For a similar index have a look at
 
 ### Orchestration Standards
 
--   [TOSCA](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca)
-    (OASIS)
+-   [TOSCA](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca) (OASIS)
 
 ### Orchestration Frameworks
 
@@ -60,8 +55,7 @@ For a similar index have a look at
 
 ### Security
 
--   [hackertarget.com/:](https://hackertarget.com/) Online Vulnerabity
-    Scan (SaaS)
+-   [hackertarget.com](https://hackertarget.com/) Online Vulnerabity Scan (SaaS)
 
 ### Performance Debugging
 
@@ -75,7 +69,9 @@ For a similar index have a look at
 -   Cacti (arkane, do not use)
 -   Munin (easy to setup, good graphs, great defaults, aged)
 -   Ganglia
--   Graphite, Grafana, influxDB (good customization, aweful usability)
+-   Graphite + Grafana
+-   Prometheus + Grafana
+-   TICK Stack (Influx)
 -   collectd
 
 #### Active Service Checking
