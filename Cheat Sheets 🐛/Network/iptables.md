@@ -5,10 +5,8 @@ related:
 
 ## iptables Examples
 
--   [ipsets vs. iptables
-    Performance](http://daemonkeeper.net/781/mass-blocking-ip-addresses-with-ipset/)
--   [ipsets - Using IP sets for simpler iptables
-    rules](http://utcc.utoronto.ca/~cks/space/blog/linux/IptablesIpsetNotes)
+-   [ipsets vs. iptables Performance](http://daemonkeeper.net/781/mass-blocking-ip-addresses-with-ipset/)
+-   [ipsets - Using IP sets for simpler iptables rules](http://utcc.utoronto.ca/~cks/space/blog/linux/IptablesIpsetNotes)
 
         ipset create smtpblocks hash:net counters
         ipset add smtpblocks 27.112.32.0/19
@@ -52,8 +50,7 @@ related:
         # Set some rules and call
         invoke-rc.d iptables-persistent save
 
--   [iptables - Persistency on Ubuntu:
-    UFW](https://wiki.ubuntu.com/UncomplicatedFirewall) (Uncomplicated
+-   [iptables - Persistency on Ubuntu: UFW](https://wiki.ubuntu.com/UncomplicatedFirewall) (Uncomplicated
     FireWall)
 
         ufw enable
