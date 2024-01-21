@@ -56,14 +56,11 @@ If there is it will fail and do nothing:
 ### Configure Auto-Vacuum
 
 If you want sqlite to perform vacuum on-demand you can set the
-"auto\_vacuum" pragma to either "INCREMENTAL" or "FULL":
+`auto_vacuum` pragma to either "INCREMENTAL" or "FULL":
 
     PRAGMA auto_vacuum = INCREMENTAL;
     PRAGMA auto_vacuum = FULL;
 
-To quere the current "auto\_vacuum setting run
+To quere the current `auto_vacuum` setting run
 
     PRAGMA auto_vacuum
-
-Read more in this [detailed post](/blog/How%20to%20Vacuum%20SQLite) about
-sqlite vacuuming!
