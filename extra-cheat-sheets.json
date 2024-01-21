@@ -231,6 +231,11 @@
     "github": "learntocloud/learn-to-cloud",
     "filePattern": "^docs/(.*)/README.md$"
   },
+  "Google Cloud Guide": {
+    "github": "mikeroyal/Google-Cloud-Guide"
+    "type": "Cheat Sheet",
+    "category": "DevOps"
+  },
   "Awesome Security": {
     "github": "zbetcheckin/Security_list"
   },
