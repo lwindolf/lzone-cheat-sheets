@@ -11,7 +11,7 @@ related:
         dh-make-pecl <module name>
         cd <source directory>
         debuild
-        # .deb package will be in ...
+        # .deb package will be in parent dir
 
 -   PHP - Manual module compiling
 
