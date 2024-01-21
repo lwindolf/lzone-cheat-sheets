@@ -10,8 +10,7 @@ related:
 
         detox -v -r <directory>
 
--   [Fast File
-    Deletion](http://www.slashroot.in/which-is-the-fastest-method-to-delete-files-in-linux):
+-   [Fast File Deletion](http://www.slashroot.in/which-is-the-fastest-method-to-delete-files-in-linux):
 
         perl -e 'for(<*>){((stat)[9]<(unlink))}'
 
