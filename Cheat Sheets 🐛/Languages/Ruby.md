@@ -5,7 +5,8 @@ related:
 
 ## Test with RSpec
 
-    # There are a lot of rspec launch variants:
+There are a lot of rspec launch variants
+
     autotest
     rspec <path to .rb spec file>
     rspec <path to directory>
