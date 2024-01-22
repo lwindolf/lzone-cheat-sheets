@@ -232,7 +232,7 @@
     "filePattern": "^docs/(.*)/README.md$"
   },
   "Google Cloud Guide": {
-    "github": "mikeroyal/Google-Cloud-Guide"
+    "github": "mikeroyal/Google-Cloud-Guide",
     "type": "Cheat Sheet",
     "category": "DevOps"
   },
