@@ -541,6 +541,12 @@
     "category": "DevOps",
     "type": "Documentation"
   },
+  "Documentation Grafana LokiStack Operator": {
+    "github": "grafana/loki",
+    "filePattern": "^operator/docs/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Documentation"
+  },
   "Documentation kubernetes": {
     "github": "kubernetes/website",
     "filePattern": "^content/en/docs/(.+)\\.md$",
