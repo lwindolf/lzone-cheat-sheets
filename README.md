@@ -94,6 +94,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Docker Getting Started](https://github.com/docker/getting-started)
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
+- [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
 - [Documentation Linode](https://github.com/linode/docs)
 - [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
 - [Documentation Prometheus](https://github.com/prometheus/docs)
