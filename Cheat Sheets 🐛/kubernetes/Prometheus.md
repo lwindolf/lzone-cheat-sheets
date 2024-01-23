@@ -55,6 +55,8 @@ From https://prometheus.io/docs/prometheus/latest/querying/examples/
     # Count and group
     count(instance_cpu_time_ns) by (app)
 
+A good cheat sheet is https://promlabs.com/promql-cheat-sheet/
+
 ## Problems of Prometheus
 
 - [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
