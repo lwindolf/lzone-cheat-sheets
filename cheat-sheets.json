@@ -1,5 +1,5 @@
 {
-  "Cheat Sheets": {
+  "LZone Cheat Sheets": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
@@ -945,7 +945,7 @@
       }
     ]
   },
-  "Examples": {
+  "LZone Examples": {
     "github": "lwindolf/lzone-cheat-sheets",
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "Cheat Sheets",
