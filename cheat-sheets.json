@@ -1163,6 +1163,10 @@
     "filePattern": "^Visual Ops/(.+)\\.md$",
     "documents": [
       {
+        "name": "README",
+        "path": "Visual Ops/README.md"
+      },
+      {
         "name": "du Radial Map",
         "path": "Visual Ops/du Radial Map.md"
       },
@@ -1181,10 +1185,6 @@
       {
         "name": "netstat Services",
         "path": "Visual Ops/netstat Services.md"
-      },
-      {
-        "name": "visual-ops",
-        "path": "Visual Ops/visual-ops.md"
       }
     ]
   },
