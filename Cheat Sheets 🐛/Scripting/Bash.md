@@ -346,3 +346,7 @@ you need to escape control characters in PS1 like this:
 For example:
 
     \[\033[31m\] some text \[\033[0m\]
+
+## Misc
+
+- https://www.learnshell.org/ Interactive Shell training
