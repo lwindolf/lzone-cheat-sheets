@@ -60,3 +60,5 @@ Troubleshooting
 ## Misc
 
 - [SuSE Troubleshooting List](https://documentation.suse.com/ses/7/html/ses-all/bp-troubleshooting-status.html)
+- Good cheat sheet https://sabaini.at/pages/ceph-cheatsheet.html
+
