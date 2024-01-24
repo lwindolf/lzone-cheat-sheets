@@ -7,6 +7,10 @@
     "runbook": "true",
     "documents": [
       {
+        "name": "Agile/README",
+        "path": "Cheat Sheets/Agile/README.md"
+      },
+      {
         "name": "Automation/Ansible",
         "path": "Cheat Sheets/Automation/Ansible.md"
       },
