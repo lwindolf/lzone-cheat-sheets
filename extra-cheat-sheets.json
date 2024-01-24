@@ -821,5 +821,10 @@
     "github": "dennyzhang/cheatsheet-gcp-A4",
     "category": "DevOps",
     "type": "Cheat Sheet"
+  },
+  "Documentation CoreDNS": {
+    "github": "coredns/coredns.io",
+    "category": "DevOps",
+    "type": "Documentation"
   }
 }
