@@ -1,6 +1,8 @@
-### Examples
+## Validation
 
-#### Authentication
+Can be done using https://htaccess.mwl.be/
+
+## Authentication
 
     AuthName "Authenticate"
     AuthUserFile /some/path/.htpasswd
@@ -14,11 +16,11 @@
     #Allow from googlebot.com
     Satisfy Any
 
-#### Redirect old stuff
+## Redirect old stuff
 
     Redirect 301 <old path> <new path>
 
-#### Only for file x
+## Only for file x
 
 With pattern
 
@@ -31,39 +33,37 @@ Explicit
     # Do auth
     </Files>
 
-#### Block Everyone Except...
+## Block Everyone Except...
 
     ErrorDocument 403 http://domain.com/unauthorized
     Order deny,allow
     Deny from all
     Allow from vpn.domain.com
 
-#### Allow CGI
+## Allow CGI
 
 For example Perl:
 
     Options +ExecCGI
     AddHandler cgi-script cgi pl
 
-#### Prevent CGI
+## Prevent CGI
 
     Options -ExecCGI
     AddHandler cgi-script <script file extensions>
 
-#### Adding Filetypes
-
-#### Enforce Filetype
+## Enforce Filetype
 
     ForceType application/x-httpd-php
 
-#### Set Environment Variables
+## Set Environment Variables
 
     SetEnv SERVER_ADMIN webmaster@domain.com
 
-#### Set Charset
+## Set Charset
 
     AddDefaultCharset UTF-8
 
-#### Set Default Language
+## Set Default Language
 
     DefaultLanguage en-US
