@@ -32,28 +32,40 @@ Note that for Daemonsets you have to put the annotation in the template spec:
 
 From https://prometheus.io/docs/prometheus/latest/querying/examples/
 
+Simple metric and maching by label
+
     http_requests_total
     http_requests_total{job="apiserver", handler="/api/comments"}
     
-    # Range query for 5min
+Range query for 5min
+
     http_requests_total{job="apiserver", handler="/api/comments"}[5m]
     
-    # Pattern matching
+Pattern matching with regex
+
     http_requests_total{job=~".*server"}
     http_requests_total{status!~"4.."}
 
-    # Aggregate and group by
+Aggregate and group by
+
     sum(rate(http_requests_total[5m])) by (job)
     sum by(a,b)(mymetric{field="value")
     
-    # Math
+Math expressions
+
     (instance_memory_limit_bytes - instance_memory_usage_bytes) / 1024 / 1024
     
-    # Top keys
+Top keys
+
     topk(3, sum(rate(instance_cpu_time_ns[5m])) by (app, proc))
 
-    # Count and group
+Count and group
+
     count(instance_cpu_time_ns) by (app)
+
+Default a count returning "no value" to 0
+
+    count(some_metric) or vector(0)
 
 A good cheat sheet is https://promlabs.com/promql-cheat-sheet/
 
