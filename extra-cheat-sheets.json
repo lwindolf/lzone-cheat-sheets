@@ -787,10 +787,15 @@
     "category": "Programming",
     "type": "Cheat Sheet"
   },
-  "Python Cheat Sheet": {
-    "github": "crazyguitar/pysheeet",
+  "Python Tutorial": {
+    "github": "Akuli/python-tutorial",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Book"
+  },
+  "Python Introcution: Byte of Python": {
+    "github": "swaroopch/byte-of-python",
+    "category": "DevOps",
+    "type": "Book"
   },
   "Bash by Example": {
     "github": "cheatsnake/bash-scripts-by-example",
