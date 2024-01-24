@@ -1,1875 +1,1875 @@
 {
   "0": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 0,
-    "title": "Cheat Sheets 🐛",
+    "title": "Cheat Sheets",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛",
-    "url": "/#/Cheat Sheets 🐛"
+    "relUrl": "/#/Cheat Sheets",
+    "url": "/#/Cheat Sheets"
   },
   "1": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 1,
     "title": "Automation/Ansible",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Ansible",
-    "url": "/#/Cheat Sheets 🐛/Automation/Ansible"
+    "relUrl": "/#/Cheat Sheets/Automation/Ansible",
+    "url": "/#/Cheat Sheets/Automation/Ansible"
   },
   "2": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 2,
     "title": "Automation/Chef",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Chef",
-    "url": "/#/Cheat Sheets 🐛/Automation/Chef"
+    "relUrl": "/#/Cheat Sheets/Automation/Chef",
+    "url": "/#/Cheat Sheets/Automation/Chef"
   },
   "3": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 3,
     "title": "Automation/IT-Ops",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/IT-Ops",
-    "url": "/#/Cheat Sheets 🐛/Automation/IT-Ops"
+    "relUrl": "/#/Cheat Sheets/Automation/IT-Ops",
+    "url": "/#/Cheat Sheets/Automation/IT-Ops"
   },
   "4": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 4,
     "title": "Automation/Jinja",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Jinja",
-    "url": "/#/Cheat Sheets 🐛/Automation/Jinja"
+    "relUrl": "/#/Cheat Sheets/Automation/Jinja",
+    "url": "/#/Cheat Sheets/Automation/Jinja"
   },
   "5": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 5,
     "title": "Automation/Mcollective",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Mcollective",
-    "url": "/#/Cheat Sheets 🐛/Automation/Mcollective"
+    "relUrl": "/#/Cheat Sheets/Automation/Mcollective",
+    "url": "/#/Cheat Sheets/Automation/Mcollective"
   },
   "6": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 6,
     "title": "Automation/Monitoring",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Monitoring",
-    "url": "/#/Cheat Sheets 🐛/Automation/Monitoring"
+    "relUrl": "/#/Cheat Sheets/Automation/Monitoring",
+    "url": "/#/Cheat Sheets/Automation/Monitoring"
   },
   "7": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 7,
     "title": "Automation/Puppet - Hiera",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Puppet - Hiera",
-    "url": "/#/Cheat Sheets 🐛/Automation/Puppet - Hiera"
+    "relUrl": "/#/Cheat Sheets/Automation/Puppet - Hiera",
+    "url": "/#/Cheat Sheets/Automation/Puppet - Hiera"
   },
   "8": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 8,
     "title": "Automation/Puppet",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Puppet",
-    "url": "/#/Cheat Sheets 🐛/Automation/Puppet"
+    "relUrl": "/#/Cheat Sheets/Automation/Puppet",
+    "url": "/#/Cheat Sheets/Automation/Puppet"
   },
   "9": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 9,
     "title": "Automation/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/README",
-    "url": "/#/Cheat Sheets 🐛/Automation/README"
+    "relUrl": "/#/Cheat Sheets/Automation/README",
+    "url": "/#/Cheat Sheets/Automation/README"
   },
   "10": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 10,
     "title": "Automation/SaltStack",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/SaltStack",
-    "url": "/#/Cheat Sheets 🐛/Automation/SaltStack"
+    "relUrl": "/#/Cheat Sheets/Automation/SaltStack",
+    "url": "/#/Cheat Sheets/Automation/SaltStack"
   },
   "11": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 11,
     "title": "Automation/Swagger",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Swagger",
-    "url": "/#/Cheat Sheets 🐛/Automation/Swagger"
+    "relUrl": "/#/Cheat Sheets/Automation/Swagger",
+    "url": "/#/Cheat Sheets/Automation/Swagger"
   },
   "12": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 12,
     "title": "Automation/Terraform",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Automation/Terraform",
-    "url": "/#/Cheat Sheets 🐛/Automation/Terraform"
+    "relUrl": "/#/Cheat Sheets/Automation/Terraform",
+    "url": "/#/Cheat Sheets/Automation/Terraform"
   },
   "13": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 13,
     "title": "CICD/ArgoCD",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/ArgoCD",
-    "url": "/#/Cheat Sheets 🐛/CICD/ArgoCD"
+    "relUrl": "/#/Cheat Sheets/CICD/ArgoCD",
+    "url": "/#/Cheat Sheets/CICD/ArgoCD"
   },
   "14": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 14,
     "title": "CICD/Gerrit",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Gerrit",
-    "url": "/#/Cheat Sheets 🐛/CICD/Gerrit"
+    "relUrl": "/#/Cheat Sheets/CICD/Gerrit",
+    "url": "/#/Cheat Sheets/CICD/Gerrit"
   },
   "15": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 15,
     "title": "CICD/Git",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Git",
-    "url": "/#/Cheat Sheets 🐛/CICD/Git"
+    "relUrl": "/#/Cheat Sheets/CICD/Git",
+    "url": "/#/Cheat Sheets/CICD/Git"
   },
   "16": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 16,
     "title": "CICD/Github Actions",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Github Actions",
-    "url": "/#/Cheat Sheets 🐛/CICD/Github Actions"
+    "relUrl": "/#/Cheat Sheets/CICD/Github Actions",
+    "url": "/#/Cheat Sheets/CICD/Github Actions"
   },
   "17": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 17,
     "title": "CICD/Gradle",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Gradle",
-    "url": "/#/Cheat Sheets 🐛/CICD/Gradle"
+    "relUrl": "/#/Cheat Sheets/CICD/Gradle",
+    "url": "/#/Cheat Sheets/CICD/Gradle"
   },
   "18": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 18,
     "title": "CICD/JFrog CLI",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/JFrog CLI",
-    "url": "/#/Cheat Sheets 🐛/CICD/JFrog CLI"
+    "relUrl": "/#/Cheat Sheets/CICD/JFrog CLI",
+    "url": "/#/Cheat Sheets/CICD/JFrog CLI"
   },
   "19": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 19,
     "title": "CICD/Jenkins Docs",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins Docs",
-    "url": "/#/Cheat Sheets 🐛/CICD/Jenkins Docs"
+    "relUrl": "/#/Cheat Sheets/CICD/Jenkins Docs",
+    "url": "/#/Cheat Sheets/CICD/Jenkins Docs"
   },
   "20": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 20,
     "title": "CICD/Jenkins Pipeline DSL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins Pipeline DSL",
-    "url": "/#/Cheat Sheets 🐛/CICD/Jenkins Pipeline DSL"
+    "relUrl": "/#/Cheat Sheets/CICD/Jenkins Pipeline DSL",
+    "url": "/#/Cheat Sheets/CICD/Jenkins Pipeline DSL"
   },
   "21": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 21,
     "title": "CICD/Jenkins",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Jenkins",
-    "url": "/#/Cheat Sheets 🐛/CICD/Jenkins"
+    "relUrl": "/#/Cheat Sheets/CICD/Jenkins",
+    "url": "/#/Cheat Sheets/CICD/Jenkins"
   },
   "22": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 22,
     "title": "CICD/JenkinsX",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/JenkinsX",
-    "url": "/#/Cheat Sheets 🐛/CICD/JenkinsX"
+    "relUrl": "/#/Cheat Sheets/CICD/JenkinsX",
+    "url": "/#/Cheat Sheets/CICD/JenkinsX"
   },
   "23": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 23,
     "title": "CICD/Maven",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/Maven",
-    "url": "/#/Cheat Sheets 🐛/CICD/Maven"
+    "relUrl": "/#/Cheat Sheets/CICD/Maven",
+    "url": "/#/Cheat Sheets/CICD/Maven"
   },
   "24": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 24,
     "title": "CICD/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/CICD/README",
-    "url": "/#/Cheat Sheets 🐛/CICD/README"
+    "relUrl": "/#/Cheat Sheets/CICD/README",
+    "url": "/#/Cheat Sheets/CICD/README"
   },
   "25": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 25,
     "title": "Cloud/ARM",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/ARM",
-    "url": "/#/Cheat Sheets 🐛/Cloud/ARM"
+    "relUrl": "/#/Cheat Sheets/Cloud/ARM",
+    "url": "/#/Cheat Sheets/Cloud/ARM"
   },
   "26": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 26,
     "title": "Cloud/AWS Lamba",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/AWS Lamba",
-    "url": "/#/Cheat Sheets 🐛/Cloud/AWS Lamba"
+    "relUrl": "/#/Cheat Sheets/Cloud/AWS Lamba",
+    "url": "/#/Cheat Sheets/Cloud/AWS Lamba"
   },
   "27": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 27,
     "title": "Cloud/AWS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/AWS",
-    "url": "/#/Cheat Sheets 🐛/Cloud/AWS"
+    "relUrl": "/#/Cheat Sheets/Cloud/AWS",
+    "url": "/#/Cheat Sheets/Cloud/AWS"
   },
   "28": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 28,
     "title": "Cloud/Azure Devops",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/Azure Devops",
-    "url": "/#/Cheat Sheets 🐛/Cloud/Azure Devops"
+    "relUrl": "/#/Cheat Sheets/Cloud/Azure Devops",
+    "url": "/#/Cheat Sheets/Cloud/Azure Devops"
   },
   "29": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 29,
     "title": "Cloud/Azure",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/Azure",
-    "url": "/#/Cheat Sheets 🐛/Cloud/Azure"
+    "relUrl": "/#/Cheat Sheets/Cloud/Azure",
+    "url": "/#/Cheat Sheets/Cloud/Azure"
   },
   "30": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 30,
     "title": "Cloud/KVM",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/KVM",
-    "url": "/#/Cheat Sheets 🐛/Cloud/KVM"
+    "relUrl": "/#/Cheat Sheets/Cloud/KVM",
+    "url": "/#/Cheat Sheets/Cloud/KVM"
   },
   "31": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 31,
     "title": "Cloud/LXC",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/LXC",
-    "url": "/#/Cheat Sheets 🐛/Cloud/LXC"
+    "relUrl": "/#/Cheat Sheets/Cloud/LXC",
+    "url": "/#/Cheat Sheets/Cloud/LXC"
   },
   "32": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 32,
     "title": "Cloud/OpenNebula",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/OpenNebula",
-    "url": "/#/Cheat Sheets 🐛/Cloud/OpenNebula"
+    "relUrl": "/#/Cheat Sheets/Cloud/OpenNebula",
+    "url": "/#/Cheat Sheets/Cloud/OpenNebula"
   },
   "33": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 33,
     "title": "Cloud/OpenVZ",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/OpenVZ",
-    "url": "/#/Cheat Sheets 🐛/Cloud/OpenVZ"
+    "relUrl": "/#/Cheat Sheets/Cloud/OpenVZ",
+    "url": "/#/Cheat Sheets/Cloud/OpenVZ"
   },
   "34": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 34,
     "title": "Cloud/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/README",
-    "url": "/#/Cheat Sheets 🐛/Cloud/README"
+    "relUrl": "/#/Cheat Sheets/Cloud/README",
+    "url": "/#/Cheat Sheets/Cloud/README"
   },
   "35": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 35,
     "title": "Cloud/S3",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/S3",
-    "url": "/#/Cheat Sheets 🐛/Cloud/S3"
+    "relUrl": "/#/Cheat Sheets/Cloud/S3",
+    "url": "/#/Cheat Sheets/Cloud/S3"
   },
   "36": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 36,
     "title": "Cloud/VM Tuning",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/VM Tuning",
-    "url": "/#/Cheat Sheets 🐛/Cloud/VM Tuning"
+    "relUrl": "/#/Cheat Sheets/Cloud/VM Tuning",
+    "url": "/#/Cheat Sheets/Cloud/VM Tuning"
   },
   "37": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 37,
     "title": "Cloud/Vagrant",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/Vagrant",
-    "url": "/#/Cheat Sheets 🐛/Cloud/Vagrant"
+    "relUrl": "/#/Cheat Sheets/Cloud/Vagrant",
+    "url": "/#/Cheat Sheets/Cloud/Vagrant"
   },
   "38": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 38,
     "title": "Cloud/VirtualBox",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/VirtualBox",
-    "url": "/#/Cheat Sheets 🐛/Cloud/VirtualBox"
+    "relUrl": "/#/Cheat Sheets/Cloud/VirtualBox",
+    "url": "/#/Cheat Sheets/Cloud/VirtualBox"
   },
   "39": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 39,
     "title": "Cloud/Xen",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/Xen",
-    "url": "/#/Cheat Sheets 🐛/Cloud/Xen"
+    "relUrl": "/#/Cheat Sheets/Cloud/Xen",
+    "url": "/#/Cheat Sheets/Cloud/Xen"
   },
   "40": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 40,
     "title": "Cloud/packer",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Cloud/packer",
-    "url": "/#/Cheat Sheets 🐛/Cloud/packer"
+    "relUrl": "/#/Cheat Sheets/Cloud/packer",
+    "url": "/#/Cheat Sheets/Cloud/packer"
   },
   "41": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 41,
     "title": "Container/Buildah",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Buildah",
-    "url": "/#/Cheat Sheets 🐛/Container/Buildah"
+    "relUrl": "/#/Cheat Sheets/Container/Buildah",
+    "url": "/#/Cheat Sheets/Container/Buildah"
   },
   "42": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 42,
     "title": "Container/Container Orchestration",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Container Orchestration",
-    "url": "/#/Cheat Sheets 🐛/Container/Container Orchestration"
+    "relUrl": "/#/Cheat Sheets/Container/Container Orchestration",
+    "url": "/#/Cheat Sheets/Container/Container Orchestration"
   },
   "43": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 43,
     "title": "Container/Docker Compose",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Docker Compose",
-    "url": "/#/Cheat Sheets 🐛/Container/Docker Compose"
+    "relUrl": "/#/Cheat Sheets/Container/Docker Compose",
+    "url": "/#/Cheat Sheets/Container/Docker Compose"
   },
   "44": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 44,
     "title": "Container/Docker Swarm",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Docker Swarm",
-    "url": "/#/Cheat Sheets 🐛/Container/Docker Swarm"
+    "relUrl": "/#/Cheat Sheets/Container/Docker Swarm",
+    "url": "/#/Cheat Sheets/Container/Docker Swarm"
   },
   "45": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 45,
     "title": "Container/Docker",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Docker",
-    "url": "/#/Cheat Sheets 🐛/Container/Docker"
+    "relUrl": "/#/Cheat Sheets/Container/Docker",
+    "url": "/#/Cheat Sheets/Container/Docker"
   },
   "46": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 46,
     "title": "Container/Dockerfile",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Dockerfile",
-    "url": "/#/Cheat Sheets 🐛/Container/Dockerfile"
+    "relUrl": "/#/Cheat Sheets/Container/Dockerfile",
+    "url": "/#/Cheat Sheets/Container/Dockerfile"
   },
   "47": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 47,
     "title": "Container/Podman",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/Podman",
-    "url": "/#/Cheat Sheets 🐛/Container/Podman"
+    "relUrl": "/#/Cheat Sheets/Container/Podman",
+    "url": "/#/Cheat Sheets/Container/Podman"
   },
   "48": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 48,
     "title": "Container/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/README",
-    "url": "/#/Cheat Sheets 🐛/Container/README"
+    "relUrl": "/#/Cheat Sheets/Container/README",
+    "url": "/#/Cheat Sheets/Container/README"
   },
   "49": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 49,
     "title": "Container/runc",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Container/runc",
-    "url": "/#/Cheat Sheets 🐛/Container/runc"
+    "relUrl": "/#/Cheat Sheets/Container/runc",
+    "url": "/#/Cheat Sheets/Container/runc"
   },
   "50": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 50,
     "title": "DevOps Linux/Architecture",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Architecture",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Architecture"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Architecture",
+    "url": "/#/Cheat Sheets/DevOps Linux/Architecture"
   },
   "51": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 51,
     "title": "DevOps Linux/DBUS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/DBUS",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/DBUS"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/DBUS",
+    "url": "/#/Cheat Sheets/DevOps Linux/DBUS"
   },
   "52": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 52,
     "title": "DevOps Linux/DKMS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/DKMS",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/DKMS"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/DKMS",
+    "url": "/#/Cheat Sheets/DevOps Linux/DKMS"
   },
   "53": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 53,
     "title": "DevOps Linux/DRBD",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/DRBD",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/DRBD"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/DRBD",
+    "url": "/#/Cheat Sheets/DevOps Linux/DRBD"
   },
   "54": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 54,
     "title": "DevOps Linux/DXVK",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/DXVK",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/DXVK"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/DXVK",
+    "url": "/#/Cheat Sheets/DevOps Linux/DXVK"
   },
   "55": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 55,
     "title": "DevOps Linux/Debugging",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Debugging",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Debugging"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Debugging",
+    "url": "/#/Cheat Sheets/DevOps Linux/Debugging"
   },
   "56": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 56,
     "title": "DevOps Linux/Filesystem",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Filesystem",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Filesystem"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Filesystem",
+    "url": "/#/Cheat Sheets/DevOps Linux/Filesystem"
   },
   "57": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 57,
     "title": "DevOps Linux/GPG",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/GPG",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/GPG"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/GPG",
+    "url": "/#/Cheat Sheets/DevOps Linux/GPG"
   },
   "58": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 58,
     "title": "DevOps Linux/Grub",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Grub",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Grub"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Grub",
+    "url": "/#/Cheat Sheets/DevOps Linux/Grub"
   },
   "59": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 59,
     "title": "DevOps Linux/IPMI",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/IPMI",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/IPMI"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/IPMI",
+    "url": "/#/Cheat Sheets/DevOps Linux/IPMI"
   },
   "60": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 60,
     "title": "DevOps Linux/Kernel Tracing",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Kernel Tracing",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Kernel Tracing"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Kernel Tracing",
+    "url": "/#/Cheat Sheets/DevOps Linux/Kernel Tracing"
   },
   "61": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 61,
     "title": "DevOps Linux/LVM",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/LVM",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/LVM"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/LVM",
+    "url": "/#/Cheat Sheets/DevOps Linux/LVM"
   },
   "62": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 62,
     "title": "DevOps Linux/Linux-Commands",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Commands",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Commands"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Linux-Commands",
+    "url": "/#/Cheat Sheets/DevOps Linux/Linux-Commands"
   },
   "63": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 63,
     "title": "DevOps Linux/Linux-HA",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-HA",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-HA"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Linux-HA",
+    "url": "/#/Cheat Sheets/DevOps Linux/Linux-HA"
   },
   "64": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 64,
     "title": "DevOps Linux/Linux-Sysadmin",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Sysadmin",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Sysadmin"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Linux-Sysadmin",
+    "url": "/#/Cheat Sheets/DevOps Linux/Linux-Sysadmin"
   },
   "65": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 65,
     "title": "DevOps Linux/Linux-Virtualization",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Virtualization",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Linux-Virtualization"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Linux-Virtualization",
+    "url": "/#/Cheat Sheets/DevOps Linux/Linux-Virtualization"
   },
   "66": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 66,
     "title": "DevOps Linux/PKI",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/PKI",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/PKI"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/PKI",
+    "url": "/#/Cheat Sheets/DevOps Linux/PKI"
   },
   "67": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 67,
     "title": "DevOps Linux/Partitioning",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Partitioning",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Partitioning"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Partitioning",
+    "url": "/#/Cheat Sheets/DevOps Linux/Partitioning"
   },
   "68": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 68,
     "title": "DevOps Linux/Printing",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Printing",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Printing"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Printing",
+    "url": "/#/Cheat Sheets/DevOps Linux/Printing"
   },
   "69": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 69,
     "title": "DevOps Linux/RAID",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/RAID",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/RAID"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/RAID",
+    "url": "/#/Cheat Sheets/DevOps Linux/RAID"
   },
   "70": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 70,
     "title": "DevOps Linux/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/README",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/README"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/README",
+    "url": "/#/Cheat Sheets/DevOps Linux/README"
   },
   "71": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 71,
     "title": "DevOps Linux/Solaris",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/Solaris",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/Solaris"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/Solaris",
+    "url": "/#/Cheat Sheets/DevOps Linux/Solaris"
   },
   "72": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 72,
     "title": "DevOps Linux/X11",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/X11",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/X11"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/X11",
+    "url": "/#/Cheat Sheets/DevOps Linux/X11"
   },
   "73": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 73,
     "title": "DevOps Linux/auditd",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/auditd",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/auditd"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/auditd",
+    "url": "/#/Cheat Sheets/DevOps Linux/auditd"
   },
   "74": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 74,
     "title": "DevOps Linux/cgroups",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/cgroups",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/cgroups"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/cgroups",
+    "url": "/#/Cheat Sheets/DevOps Linux/cgroups"
   },
   "75": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 75,
     "title": "DevOps Linux/kerberos",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/kerberos",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/kerberos"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/kerberos",
+    "url": "/#/Cheat Sheets/DevOps Linux/kerberos"
   },
   "76": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 76,
     "title": "DevOps Linux/mokutil",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/mokutil",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/mokutil"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/mokutil",
+    "url": "/#/Cheat Sheets/DevOps Linux/mokutil"
   },
   "77": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 77,
     "title": "DevOps Linux/nohup",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/nohup",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/nohup"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/nohup",
+    "url": "/#/Cheat Sheets/DevOps Linux/nohup"
   },
   "78": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 78,
     "title": "DevOps Linux/perf",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/perf",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/perf"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/perf",
+    "url": "/#/Cheat Sheets/DevOps Linux/perf"
   },
   "79": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 79,
     "title": "DevOps Linux/screen",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/screen",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/screen"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/screen",
+    "url": "/#/Cheat Sheets/DevOps Linux/screen"
   },
   "80": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 80,
     "title": "DevOps Linux/socat",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/socat",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/socat"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/socat",
+    "url": "/#/Cheat Sheets/DevOps Linux/socat"
   },
   "81": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 81,
     "title": "DevOps Linux/sops",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/sops",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/sops"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/sops",
+    "url": "/#/Cheat Sheets/DevOps Linux/sops"
   },
   "82": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 82,
     "title": "DevOps Linux/strace",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/strace",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/strace"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/strace",
+    "url": "/#/Cheat Sheets/DevOps Linux/strace"
   },
   "83": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 83,
     "title": "DevOps Linux/sudo",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/sudo",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/sudo"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/sudo",
+    "url": "/#/Cheat Sheets/DevOps Linux/sudo"
   },
   "84": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 84,
     "title": "DevOps Linux/supervisor",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/supervisor",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/supervisor"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/supervisor",
+    "url": "/#/Cheat Sheets/DevOps Linux/supervisor"
   },
   "85": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 85,
     "title": "DevOps Linux/systemd",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/systemd",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/systemd"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/systemd",
+    "url": "/#/Cheat Sheets/DevOps Linux/systemd"
   },
   "86": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 86,
     "title": "DevOps Linux/systemtap",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/systemtap",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/systemtap"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/systemtap",
+    "url": "/#/Cheat Sheets/DevOps Linux/systemtap"
   },
   "87": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 87,
     "title": "DevOps Linux/ulimit",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/ulimit",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/ulimit"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/ulimit",
+    "url": "/#/Cheat Sheets/DevOps Linux/ulimit"
   },
   "88": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 88,
     "title": "DevOps Linux/vi",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Linux/vi",
-    "url": "/#/Cheat Sheets 🐛/DevOps Linux/vi"
+    "relUrl": "/#/Cheat Sheets/DevOps Linux/vi",
+    "url": "/#/Cheat Sheets/DevOps Linux/vi"
   },
   "89": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 89,
     "title": "DevOps Services/Apache",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Apache",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Apache"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Apache",
+    "url": "/#/Cheat Sheets/DevOps Services/Apache"
   },
   "90": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 90,
     "title": "DevOps Services/Ceph",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Ceph",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Ceph"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Ceph",
+    "url": "/#/Cheat Sheets/DevOps Services/Ceph"
   },
   "91": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 91,
     "title": "DevOps Services/Consul",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Consul",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Consul"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Consul",
+    "url": "/#/Cheat Sheets/DevOps Services/Consul"
   },
   "92": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 92,
     "title": "DevOps Services/CouchDB",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/CouchDB",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/CouchDB"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/CouchDB",
+    "url": "/#/Cheat Sheets/DevOps Services/CouchDB"
   },
   "93": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 93,
     "title": "DevOps Services/Couchbase",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Couchbase",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Couchbase"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Couchbase",
+    "url": "/#/Cheat Sheets/DevOps Services/Couchbase"
   },
   "94": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 94,
     "title": "DevOps Services/ElasticSearch",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/ElasticSearch",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/ElasticSearch"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/ElasticSearch",
+    "url": "/#/Cheat Sheets/DevOps Services/ElasticSearch"
   },
   "95": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 95,
     "title": "DevOps Services/F5",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/F5",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/F5"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/F5",
+    "url": "/#/Cheat Sheets/DevOps Services/F5"
   },
   "96": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 96,
     "title": "DevOps Services/GlusterFS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/GlusterFS",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/GlusterFS"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/GlusterFS",
+    "url": "/#/Cheat Sheets/DevOps Services/GlusterFS"
   },
   "97": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 97,
     "title": "DevOps Services/Graphite",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Graphite",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Graphite"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Graphite",
+    "url": "/#/Cheat Sheets/DevOps Services/Graphite"
   },
   "98": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 98,
     "title": "DevOps Services/Java",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Java",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Java"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Java",
+    "url": "/#/Cheat Sheets/DevOps Services/Java"
   },
   "99": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 99,
     "title": "DevOps Services/Kafka",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Kafka",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Kafka"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Kafka",
+    "url": "/#/Cheat Sheets/DevOps Services/Kafka"
   },
   "100": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 100,
     "title": "DevOps Services/MongoDB",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/MongoDB",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/MongoDB"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/MongoDB",
+    "url": "/#/Cheat Sheets/DevOps Services/MongoDB"
   },
   "101": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 101,
     "title": "DevOps Services/MySQL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/MySQL",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/MySQL"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/MySQL",
+    "url": "/#/Cheat Sheets/DevOps Services/MySQL"
   },
   "102": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 102,
     "title": "DevOps Services/NFS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/NFS",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/NFS"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/NFS",
+    "url": "/#/Cheat Sheets/DevOps Services/NFS"
   },
   "103": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 103,
     "title": "DevOps Services/NTP",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/NTP",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/NTP"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/NTP",
+    "url": "/#/Cheat Sheets/DevOps Services/NTP"
   },
   "104": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 104,
     "title": "DevOps Services/Nodejs",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Nodejs",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Nodejs"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Nodejs",
+    "url": "/#/Cheat Sheets/DevOps Services/Nodejs"
   },
   "105": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 105,
     "title": "DevOps Services/OAuth",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/OAuth",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/OAuth"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/OAuth",
+    "url": "/#/Cheat Sheets/DevOps Services/OAuth"
   },
   "106": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 106,
     "title": "DevOps Services/PgBouncer",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/PgBouncer",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/PgBouncer"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/PgBouncer",
+    "url": "/#/Cheat Sheets/DevOps Services/PgBouncer"
   },
   "107": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 107,
     "title": "DevOps Services/Postgres",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Postgres",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Postgres"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Postgres",
+    "url": "/#/Cheat Sheets/DevOps Services/Postgres"
   },
   "108": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 108,
     "title": "DevOps Services/RabbitMQ",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/RabbitMQ",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/RabbitMQ"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/RabbitMQ",
+    "url": "/#/Cheat Sheets/DevOps Services/RabbitMQ"
   },
   "109": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 109,
     "title": "DevOps Services/Redis Sentinel",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Redis Sentinel",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Redis Sentinel"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Redis Sentinel",
+    "url": "/#/Cheat Sheets/DevOps Services/Redis Sentinel"
   },
   "110": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 110,
     "title": "DevOps Services/Redis",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Redis",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Redis"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Redis",
+    "url": "/#/Cheat Sheets/DevOps Services/Redis"
   },
   "111": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 111,
     "title": "DevOps Services/Samba",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Samba",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Samba"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Samba",
+    "url": "/#/Cheat Sheets/DevOps Services/Samba"
   },
   "112": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 112,
     "title": "DevOps Services/Splunk",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Splunk",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Splunk"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Splunk",
+    "url": "/#/Cheat Sheets/DevOps Services/Splunk"
   },
   "113": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 113,
     "title": "DevOps Services/Squid",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Squid",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Squid"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Squid",
+    "url": "/#/Cheat Sheets/DevOps Services/Squid"
   },
   "114": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 114,
     "title": "DevOps Services/Tomcat",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Tomcat",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Tomcat"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Tomcat",
+    "url": "/#/Cheat Sheets/DevOps Services/Tomcat"
   },
   "115": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 115,
     "title": "DevOps Services/Webserver",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Webserver",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Webserver"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Webserver",
+    "url": "/#/Cheat Sheets/DevOps Services/Webserver"
   },
   "116": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 116,
     "title": "DevOps Services/Zookeeper",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/Zookeeper",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/Zookeeper"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/Zookeeper",
+    "url": "/#/Cheat Sheets/DevOps Services/Zookeeper"
   },
   "117": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 117,
     "title": "DevOps Services/etcd",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/etcd",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/etcd"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/etcd",
+    "url": "/#/Cheat Sheets/DevOps Services/etcd"
   },
   "118": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 118,
     "title": "DevOps Services/etcdv2",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/etcdv2",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/etcdv2"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/etcdv2",
+    "url": "/#/Cheat Sheets/DevOps Services/etcdv2"
   },
   "119": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 119,
     "title": "DevOps Services/htaccess",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/htaccess",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/htaccess"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/htaccess",
+    "url": "/#/Cheat Sheets/DevOps Services/htaccess"
   },
   "120": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 120,
     "title": "DevOps Services/memcached",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/memcached",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/memcached"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/memcached",
+    "url": "/#/Cheat Sheets/DevOps Services/memcached"
   },
   "121": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 121,
     "title": "DevOps Services/nginx",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/nginx",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/nginx"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/nginx",
+    "url": "/#/Cheat Sheets/DevOps Services/nginx"
   },
   "122": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 122,
     "title": "DevOps Services/sqlite",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/DevOps Services/sqlite",
-    "url": "/#/Cheat Sheets 🐛/DevOps Services/sqlite"
+    "relUrl": "/#/Cheat Sheets/DevOps Services/sqlite",
+    "url": "/#/Cheat Sheets/DevOps Services/sqlite"
   },
   "123": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 123,
     "title": "Languages/CSS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/CSS",
-    "url": "/#/Cheat Sheets 🐛/Languages/CSS"
+    "relUrl": "/#/Cheat Sheets/Languages/CSS",
+    "url": "/#/Cheat Sheets/Languages/CSS"
   },
   "124": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 124,
     "title": "Languages/GCC",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/GCC",
-    "url": "/#/Cheat Sheets 🐛/Languages/GCC"
+    "relUrl": "/#/Cheat Sheets/Languages/GCC",
+    "url": "/#/Cheat Sheets/Languages/GCC"
   },
   "125": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 125,
     "title": "Languages/JSONPath",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/JSONPath",
-    "url": "/#/Cheat Sheets 🐛/Languages/JSONPath"
+    "relUrl": "/#/Cheat Sheets/Languages/JSONPath",
+    "url": "/#/Cheat Sheets/Languages/JSONPath"
   },
   "126": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 126,
     "title": "Languages/Linux HTML Widgets",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Linux HTML Widgets",
-    "url": "/#/Cheat Sheets 🐛/Languages/Linux HTML Widgets"
+    "relUrl": "/#/Cheat Sheets/Languages/Linux HTML Widgets",
+    "url": "/#/Cheat Sheets/Languages/Linux HTML Widgets"
   },
   "127": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 127,
     "title": "Languages/Misc",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Misc",
-    "url": "/#/Cheat Sheets 🐛/Languages/Misc"
+    "relUrl": "/#/Cheat Sheets/Languages/Misc",
+    "url": "/#/Cheat Sheets/Languages/Misc"
   },
   "128": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 128,
     "title": "Languages/PHP",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/PHP",
-    "url": "/#/Cheat Sheets 🐛/Languages/PHP"
+    "relUrl": "/#/Cheat Sheets/Languages/PHP",
+    "url": "/#/Cheat Sheets/Languages/PHP"
   },
   "129": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 129,
     "title": "Languages/Perl",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Perl",
-    "url": "/#/Cheat Sheets 🐛/Languages/Perl"
+    "relUrl": "/#/Cheat Sheets/Languages/Perl",
+    "url": "/#/Cheat Sheets/Languages/Perl"
   },
   "130": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 130,
     "title": "Languages/README",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/README",
-    "url": "/#/Cheat Sheets 🐛/Languages/README"
+    "relUrl": "/#/Cheat Sheets/Languages/README",
+    "url": "/#/Cheat Sheets/Languages/README"
   },
   "131": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 131,
     "title": "Languages/Ruby",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Ruby",
-    "url": "/#/Cheat Sheets 🐛/Languages/Ruby"
+    "relUrl": "/#/Cheat Sheets/Languages/Ruby",
+    "url": "/#/Cheat Sheets/Languages/Ruby"
   },
   "132": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 132,
     "title": "Languages/SQL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/SQL",
-    "url": "/#/Cheat Sheets 🐛/Languages/SQL"
+    "relUrl": "/#/Cheat Sheets/Languages/SQL",
+    "url": "/#/Cheat Sheets/Languages/SQL"
   },
   "133": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 133,
     "title": "Languages/Syndication",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Syndication",
-    "url": "/#/Cheat Sheets 🐛/Languages/Syndication"
+    "relUrl": "/#/Cheat Sheets/Languages/Syndication",
+    "url": "/#/Cheat Sheets/Languages/Syndication"
   },
   "134": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 134,
     "title": "Languages/Vala",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/Vala",
-    "url": "/#/Cheat Sheets 🐛/Languages/Vala"
+    "relUrl": "/#/Cheat Sheets/Languages/Vala",
+    "url": "/#/Cheat Sheets/Languages/Vala"
   },
   "135": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 135,
     "title": "Languages/XML",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/XML",
-    "url": "/#/Cheat Sheets 🐛/Languages/XML"
+    "relUrl": "/#/Cheat Sheets/Languages/XML",
+    "url": "/#/Cheat Sheets/Languages/XML"
   },
   "136": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 136,
     "title": "Languages/XPath",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/XPath",
-    "url": "/#/Cheat Sheets 🐛/Languages/XPath"
+    "relUrl": "/#/Cheat Sheets/Languages/XPath",
+    "url": "/#/Cheat Sheets/Languages/XPath"
   },
   "137": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 137,
     "title": "Languages/XSLT",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/XSLT",
-    "url": "/#/Cheat Sheets 🐛/Languages/XSLT"
+    "relUrl": "/#/Cheat Sheets/Languages/XSLT",
+    "url": "/#/Cheat Sheets/Languages/XSLT"
   },
   "138": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 138,
     "title": "Languages/YAML",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/YAML",
-    "url": "/#/Cheat Sheets 🐛/Languages/YAML"
+    "relUrl": "/#/Cheat Sheets/Languages/YAML",
+    "url": "/#/Cheat Sheets/Languages/YAML"
   },
   "139": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 139,
     "title": "Languages/autotools",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/autotools",
-    "url": "/#/Cheat Sheets 🐛/Languages/autotools"
+    "relUrl": "/#/Cheat Sheets/Languages/autotools",
+    "url": "/#/Cheat Sheets/Languages/autotools"
   },
   "140": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 140,
     "title": "Languages/gdb",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/gdb",
-    "url": "/#/Cheat Sheets 🐛/Languages/gdb"
+    "relUrl": "/#/Cheat Sheets/Languages/gdb",
+    "url": "/#/Cheat Sheets/Languages/gdb"
   },
   "141": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 141,
     "title": "Languages/meson",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Languages/meson",
-    "url": "/#/Cheat Sheets 🐛/Languages/meson"
+    "relUrl": "/#/Cheat Sheets/Languages/meson",
+    "url": "/#/Cheat Sheets/Languages/meson"
   },
   "142": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 142,
     "title": "Mobile/adb",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Mobile/adb",
-    "url": "/#/Cheat Sheets 🐛/Mobile/adb"
+    "relUrl": "/#/Cheat Sheets/Mobile/adb",
+    "url": "/#/Cheat Sheets/Mobile/adb"
   },
   "143": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 143,
     "title": "Network/Linux-Networking",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/Linux-Networking",
-    "url": "/#/Cheat Sheets 🐛/Network/Linux-Networking"
+    "relUrl": "/#/Cheat Sheets/Network/Linux-Networking",
+    "url": "/#/Cheat Sheets/Network/Linux-Networking"
   },
   "144": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 144,
     "title": "Network/Mail",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/Mail",
-    "url": "/#/Cheat Sheets 🐛/Network/Mail"
+    "relUrl": "/#/Cheat Sheets/Network/Mail",
+    "url": "/#/Cheat Sheets/Network/Mail"
   },
   "145": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 145,
     "title": "Network/Network",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/Network",
-    "url": "/#/Cheat Sheets 🐛/Network/Network"
+    "relUrl": "/#/Cheat Sheets/Network/Network",
+    "url": "/#/Cheat Sheets/Network/Network"
   },
   "146": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 146,
     "title": "Network/SMB",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/SMB",
-    "url": "/#/Cheat Sheets 🐛/Network/SMB"
+    "relUrl": "/#/Cheat Sheets/Network/SMB",
+    "url": "/#/Cheat Sheets/Network/SMB"
   },
   "147": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 147,
     "title": "Network/SSH",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/SSH",
-    "url": "/#/Cheat Sheets 🐛/Network/SSH"
+    "relUrl": "/#/Cheat Sheets/Network/SSH",
+    "url": "/#/Cheat Sheets/Network/SSH"
   },
   "148": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 148,
     "title": "Network/curl",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/curl",
-    "url": "/#/Cheat Sheets 🐛/Network/curl"
+    "relUrl": "/#/Cheat Sheets/Network/curl",
+    "url": "/#/Cheat Sheets/Network/curl"
   },
   "149": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 149,
     "title": "Network/iptables",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/iptables",
-    "url": "/#/Cheat Sheets 🐛/Network/iptables"
+    "relUrl": "/#/Cheat Sheets/Network/iptables",
+    "url": "/#/Cheat Sheets/Network/iptables"
   },
   "150": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 150,
     "title": "Network/mDNS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/mDNS",
-    "url": "/#/Cheat Sheets 🐛/Network/mDNS"
+    "relUrl": "/#/Cheat Sheets/Network/mDNS",
+    "url": "/#/Cheat Sheets/Network/mDNS"
   },
   "151": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 151,
     "title": "Network/netfilter",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/netfilter",
-    "url": "/#/Cheat Sheets 🐛/Network/netfilter"
+    "relUrl": "/#/Cheat Sheets/Network/netfilter",
+    "url": "/#/Cheat Sheets/Network/netfilter"
   },
   "152": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 152,
     "title": "Network/rsync",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/rsync",
-    "url": "/#/Cheat Sheets 🐛/Network/rsync"
+    "relUrl": "/#/Cheat Sheets/Network/rsync",
+    "url": "/#/Cheat Sheets/Network/rsync"
   },
   "153": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 153,
     "title": "Network/tcpdump",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/tcpdump",
-    "url": "/#/Cheat Sheets 🐛/Network/tcpdump"
+    "relUrl": "/#/Cheat Sheets/Network/tcpdump",
+    "url": "/#/Cheat Sheets/Network/tcpdump"
   },
   "154": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 154,
     "title": "Network/unbound",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Network/unbound",
-    "url": "/#/Cheat Sheets 🐛/Network/unbound"
+    "relUrl": "/#/Cheat Sheets/Network/unbound",
+    "url": "/#/Cheat Sheets/Network/unbound"
   },
   "155": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 155,
     "title": "Packaging/Bower",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/Bower",
-    "url": "/#/Cheat Sheets 🐛/Packaging/Bower"
+    "relUrl": "/#/Cheat Sheets/Packaging/Bower",
+    "url": "/#/Cheat Sheets/Packaging/Bower"
   },
   "156": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 156,
     "title": "Packaging/Conan",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/Conan",
-    "url": "/#/Cheat Sheets 🐛/Packaging/Conan"
+    "relUrl": "/#/Cheat Sheets/Packaging/Conan",
+    "url": "/#/Cheat Sheets/Packaging/Conan"
   },
   "157": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 157,
     "title": "Packaging/Ruby Bundler",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/Ruby Bundler",
-    "url": "/#/Cheat Sheets 🐛/Packaging/Ruby Bundler"
+    "relUrl": "/#/Cheat Sheets/Packaging/Ruby Bundler",
+    "url": "/#/Cheat Sheets/Packaging/Ruby Bundler"
   },
   "158": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 158,
     "title": "Packaging/apt",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/apt",
-    "url": "/#/Cheat Sheets 🐛/Packaging/apt"
+    "relUrl": "/#/Cheat Sheets/Packaging/apt",
+    "url": "/#/Cheat Sheets/Packaging/apt"
   },
   "159": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 159,
     "title": "Packaging/cargo",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/cargo",
-    "url": "/#/Cheat Sheets 🐛/Packaging/cargo"
+    "relUrl": "/#/Cheat Sheets/Packaging/cargo",
+    "url": "/#/Cheat Sheets/Packaging/cargo"
   },
   "160": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 160,
     "title": "Packaging/dpkg",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/dpkg",
-    "url": "/#/Cheat Sheets 🐛/Packaging/dpkg"
+    "relUrl": "/#/Cheat Sheets/Packaging/dpkg",
+    "url": "/#/Cheat Sheets/Packaging/dpkg"
   },
   "161": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 161,
     "title": "Packaging/flatpak",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/flatpak",
-    "url": "/#/Cheat Sheets 🐛/Packaging/flatpak"
+    "relUrl": "/#/Cheat Sheets/Packaging/flatpak",
+    "url": "/#/Cheat Sheets/Packaging/flatpak"
   },
   "162": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 162,
     "title": "Packaging/gem",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/gem",
-    "url": "/#/Cheat Sheets 🐛/Packaging/gem"
+    "relUrl": "/#/Cheat Sheets/Packaging/gem",
+    "url": "/#/Cheat Sheets/Packaging/gem"
   },
   "163": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 163,
     "title": "Packaging/golang",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/golang",
-    "url": "/#/Cheat Sheets 🐛/Packaging/golang"
+    "relUrl": "/#/Cheat Sheets/Packaging/golang",
+    "url": "/#/Cheat Sheets/Packaging/golang"
   },
   "164": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 164,
     "title": "Packaging/gradle",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/gradle",
-    "url": "/#/Cheat Sheets 🐛/Packaging/gradle"
+    "relUrl": "/#/Cheat Sheets/Packaging/gradle",
+    "url": "/#/Cheat Sheets/Packaging/gradle"
   },
   "165": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 165,
     "title": "Packaging/maven",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/maven",
-    "url": "/#/Cheat Sheets 🐛/Packaging/maven"
+    "relUrl": "/#/Cheat Sheets/Packaging/maven",
+    "url": "/#/Cheat Sheets/Packaging/maven"
   },
   "166": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 166,
     "title": "Packaging/npm",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/npm",
-    "url": "/#/Cheat Sheets 🐛/Packaging/npm"
+    "relUrl": "/#/Cheat Sheets/Packaging/npm",
+    "url": "/#/Cheat Sheets/Packaging/npm"
   },
   "167": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 167,
     "title": "Packaging/pacman",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/pacman",
-    "url": "/#/Cheat Sheets 🐛/Packaging/pacman"
+    "relUrl": "/#/Cheat Sheets/Packaging/pacman",
+    "url": "/#/Cheat Sheets/Packaging/pacman"
   },
   "168": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 168,
     "title": "Packaging/pip",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/pip",
-    "url": "/#/Cheat Sheets 🐛/Packaging/pip"
+    "relUrl": "/#/Cheat Sheets/Packaging/pip",
+    "url": "/#/Cheat Sheets/Packaging/pip"
   },
   "169": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 169,
     "title": "Packaging/rvm",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/rvm",
-    "url": "/#/Cheat Sheets 🐛/Packaging/rvm"
+    "relUrl": "/#/Cheat Sheets/Packaging/rvm",
+    "url": "/#/Cheat Sheets/Packaging/rvm"
   },
   "170": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 170,
     "title": "Packaging/snap",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/snap",
-    "url": "/#/Cheat Sheets 🐛/Packaging/snap"
+    "relUrl": "/#/Cheat Sheets/Packaging/snap",
+    "url": "/#/Cheat Sheets/Packaging/snap"
   },
   "171": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 171,
     "title": "Packaging/yum",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/yum",
-    "url": "/#/Cheat Sheets 🐛/Packaging/yum"
+    "relUrl": "/#/Cheat Sheets/Packaging/yum",
+    "url": "/#/Cheat Sheets/Packaging/yum"
   },
   "172": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 172,
     "title": "Packaging/zypper",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Packaging/zypper",
-    "url": "/#/Cheat Sheets 🐛/Packaging/zypper"
+    "relUrl": "/#/Cheat Sheets/Packaging/zypper",
+    "url": "/#/Cheat Sheets/Packaging/zypper"
   },
   "173": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 173,
     "title": "Scripting/APIs",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/APIs",
-    "url": "/#/Cheat Sheets 🐛/Scripting/APIs"
+    "relUrl": "/#/Cheat Sheets/Scripting/APIs",
+    "url": "/#/Cheat Sheets/Scripting/APIs"
   },
   "174": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 174,
     "title": "Scripting/Bash Associative Array",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Associative Array",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Bash Associative Array"
+    "relUrl": "/#/Cheat Sheets/Scripting/Bash Associative Array",
+    "url": "/#/Cheat Sheets/Scripting/Bash Associative Array"
   },
   "175": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 175,
     "title": "Scripting/Bash Functions",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Functions",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Bash Functions"
+    "relUrl": "/#/Cheat Sheets/Scripting/Bash Functions",
+    "url": "/#/Cheat Sheets/Scripting/Bash Functions"
   },
   "176": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 176,
     "title": "Scripting/Bash Regex",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash Regex",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Bash Regex"
+    "relUrl": "/#/Cheat Sheets/Scripting/Bash Regex",
+    "url": "/#/Cheat Sheets/Scripting/Bash Regex"
   },
   "177": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 177,
     "title": "Scripting/Bash",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Bash",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Bash"
+    "relUrl": "/#/Cheat Sheets/Scripting/Bash",
+    "url": "/#/Cheat Sheets/Scripting/Bash"
   },
   "178": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 178,
     "title": "Scripting/Images",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Images",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Images"
+    "relUrl": "/#/Cheat Sheets/Scripting/Images",
+    "url": "/#/Cheat Sheets/Scripting/Images"
   },
   "179": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 179,
     "title": "Scripting/Locking",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Locking",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Locking"
+    "relUrl": "/#/Cheat Sheets/Scripting/Locking",
+    "url": "/#/Cheat Sheets/Scripting/Locking"
   },
   "180": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 180,
     "title": "Scripting/Scripting",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Scripting",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Scripting"
+    "relUrl": "/#/Cheat Sheets/Scripting/Scripting",
+    "url": "/#/Cheat Sheets/Scripting/Scripting"
   },
   "181": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 181,
     "title": "Scripting/Shell-Scripting",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/Shell-Scripting",
-    "url": "/#/Cheat Sheets 🐛/Scripting/Shell-Scripting"
+    "relUrl": "/#/Cheat Sheets/Scripting/Shell-Scripting",
+    "url": "/#/Cheat Sheets/Scripting/Shell-Scripting"
   },
   "182": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 182,
     "title": "Scripting/awk",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/awk",
-    "url": "/#/Cheat Sheets 🐛/Scripting/awk"
+    "relUrl": "/#/Cheat Sheets/Scripting/awk",
+    "url": "/#/Cheat Sheets/Scripting/awk"
   },
   "183": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 183,
     "title": "Scripting/ffmpeg",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/ffmpeg",
-    "url": "/#/Cheat Sheets 🐛/Scripting/ffmpeg"
+    "relUrl": "/#/Cheat Sheets/Scripting/ffmpeg",
+    "url": "/#/Cheat Sheets/Scripting/ffmpeg"
   },
   "184": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 184,
     "title": "Scripting/jq",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/jq",
-    "url": "/#/Cheat Sheets 🐛/Scripting/jq"
+    "relUrl": "/#/Cheat Sheets/Scripting/jq",
+    "url": "/#/Cheat Sheets/Scripting/jq"
   },
   "185": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 185,
     "title": "Scripting/sed",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/sed",
-    "url": "/#/Cheat Sheets 🐛/Scripting/sed"
+    "relUrl": "/#/Cheat Sheets/Scripting/sed",
+    "url": "/#/Cheat Sheets/Scripting/sed"
   },
   "186": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 186,
     "title": "Scripting/xargs",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/xargs",
-    "url": "/#/Cheat Sheets 🐛/Scripting/xargs"
+    "relUrl": "/#/Cheat Sheets/Scripting/xargs",
+    "url": "/#/Cheat Sheets/Scripting/xargs"
   },
   "187": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 187,
     "title": "Scripting/zenity",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Scripting/zenity",
-    "url": "/#/Cheat Sheets 🐛/Scripting/zenity"
+    "relUrl": "/#/Cheat Sheets/Scripting/zenity",
+    "url": "/#/Cheat Sheets/Scripting/zenity"
   },
   "188": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 188,
     "title": "Security/AppArmor",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/AppArmor",
-    "url": "/#/Cheat Sheets 🐛/Security/AppArmor"
+    "relUrl": "/#/Cheat Sheets/Security/AppArmor",
+    "url": "/#/Cheat Sheets/Security/AppArmor"
   },
   "189": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 189,
     "title": "Security/HTTPS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/HTTPS",
-    "url": "/#/Cheat Sheets 🐛/Security/HTTPS"
+    "relUrl": "/#/Cheat Sheets/Security/HTTPS",
+    "url": "/#/Cheat Sheets/Security/HTTPS"
   },
   "190": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 190,
     "title": "Security/Incident Handling",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/Incident Handling",
-    "url": "/#/Cheat Sheets 🐛/Security/Incident Handling"
+    "relUrl": "/#/Cheat Sheets/Security/Incident Handling",
+    "url": "/#/Cheat Sheets/Security/Incident Handling"
   },
   "191": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 191,
     "title": "Security/OpenSCAP",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/OpenSCAP",
-    "url": "/#/Cheat Sheets 🐛/Security/OpenSCAP"
+    "relUrl": "/#/Cheat Sheets/Security/OpenSCAP",
+    "url": "/#/Cheat Sheets/Security/OpenSCAP"
   },
   "192": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 192,
     "title": "Security/OpenSSL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/OpenSSL",
-    "url": "/#/Cheat Sheets 🐛/Security/OpenSSL"
+    "relUrl": "/#/Cheat Sheets/Security/OpenSSL",
+    "url": "/#/Cheat Sheets/Security/OpenSSL"
   },
   "193": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 193,
     "title": "Security/Package Vulnerabilities",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/Package Vulnerabilities",
-    "url": "/#/Cheat Sheets 🐛/Security/Package Vulnerabilities"
+    "relUrl": "/#/Cheat Sheets/Security/Package Vulnerabilities",
+    "url": "/#/Cheat Sheets/Security/Package Vulnerabilities"
   },
   "194": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 194,
     "title": "Security/SELinux",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/SELinux",
-    "url": "/#/Cheat Sheets 🐛/Security/SELinux"
+    "relUrl": "/#/Cheat Sheets/Security/SELinux",
+    "url": "/#/Cheat Sheets/Security/SELinux"
   },
   "195": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 195,
     "title": "Security/SIEM",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/SIEM",
-    "url": "/#/Cheat Sheets 🐛/Security/SIEM"
+    "relUrl": "/#/Cheat Sheets/Security/SIEM",
+    "url": "/#/Cheat Sheets/Security/SIEM"
   },
   "196": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 196,
     "title": "Security/SSL-Certificates",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/SSL-Certificates",
-    "url": "/#/Cheat Sheets 🐛/Security/SSL-Certificates"
+    "relUrl": "/#/Cheat Sheets/Security/SSL-Certificates",
+    "url": "/#/Cheat Sheets/Security/SSL-Certificates"
   },
   "197": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 197,
     "title": "Security/Security Auditing",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/Security Auditing",
-    "url": "/#/Cheat Sheets 🐛/Security/Security Auditing"
+    "relUrl": "/#/Cheat Sheets/Security/Security Auditing",
+    "url": "/#/Cheat Sheets/Security/Security Auditing"
   },
   "198": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 198,
     "title": "Security/Security-News-Feeds",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/Security-News-Feeds",
-    "url": "/#/Cheat Sheets 🐛/Security/Security-News-Feeds"
+    "relUrl": "/#/Cheat Sheets/Security/Security-News-Feeds",
+    "url": "/#/Cheat Sheets/Security/Security-News-Feeds"
   },
   "199": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 199,
     "title": "Security/Security",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Security/Security",
-    "url": "/#/Cheat Sheets 🐛/Security/Security"
+    "relUrl": "/#/Cheat Sheets/Security/Security",
+    "url": "/#/Cheat Sheets/Security/Security"
   },
   "200": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 200,
     "title": "Solutions/SaaS Dev Tools",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/SaaS Dev Tools",
-    "url": "/#/Cheat Sheets 🐛/Solutions/SaaS Dev Tools"
+    "relUrl": "/#/Cheat Sheets/Solutions/SaaS Dev Tools",
+    "url": "/#/Cheat Sheets/Solutions/SaaS Dev Tools"
   },
   "201": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 201,
     "title": "Solutions/Service Architecture",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Service Architecture",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Service Architecture"
+    "relUrl": "/#/Cheat Sheets/Solutions/Service Architecture",
+    "url": "/#/Cheat Sheets/Solutions/Service Architecture"
   },
   "202": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 202,
     "title": "Solutions/Solutions Automation",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Automation",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Automation"
+    "relUrl": "/#/Cheat Sheets/Solutions/Solutions Automation",
+    "url": "/#/Cheat Sheets/Solutions/Solutions Automation"
   },
   "203": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 203,
     "title": "Solutions/Solutions Loadbalancing",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Loadbalancing",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Loadbalancing"
+    "relUrl": "/#/Cheat Sheets/Solutions/Solutions Loadbalancing",
+    "url": "/#/Cheat Sheets/Solutions/Solutions Loadbalancing"
   },
   "204": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 204,
     "title": "Solutions/Solutions Monitoring",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Monitoring",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Monitoring"
+    "relUrl": "/#/Cheat Sheets/Solutions/Solutions Monitoring",
+    "url": "/#/Cheat Sheets/Solutions/Solutions Monitoring"
   },
   "205": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 205,
     "title": "Solutions/Solutions NoSQL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions NoSQL",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Solutions NoSQL"
+    "relUrl": "/#/Cheat Sheets/Solutions/Solutions NoSQL",
+    "url": "/#/Cheat Sheets/Solutions/Solutions NoSQL"
   },
   "206": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 206,
     "title": "Solutions/Solutions Virtualization",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Solutions/Solutions Virtualization",
-    "url": "/#/Cheat Sheets 🐛/Solutions/Solutions Virtualization"
+    "relUrl": "/#/Cheat Sheets/Solutions/Solutions Virtualization",
+    "url": "/#/Cheat Sheets/Solutions/Solutions Virtualization"
   },
   "207": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 207,
     "title": "Windows/PowerShell",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Windows/PowerShell",
-    "url": "/#/Cheat Sheets 🐛/Windows/PowerShell"
+    "relUrl": "/#/Cheat Sheets/Windows/PowerShell",
+    "url": "/#/Cheat Sheets/Windows/PowerShell"
   },
   "208": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 208,
     "title": "Windows/WSL",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Windows/WSL",
-    "url": "/#/Cheat Sheets 🐛/Windows/WSL"
+    "relUrl": "/#/Cheat Sheets/Windows/WSL",
+    "url": "/#/Cheat Sheets/Windows/WSL"
   },
   "209": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 209,
     "title": "Windows/netsh",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Windows/netsh",
-    "url": "/#/Cheat Sheets 🐛/Windows/netsh"
+    "relUrl": "/#/Cheat Sheets/Windows/netsh",
+    "url": "/#/Cheat Sheets/Windows/netsh"
   },
   "210": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 210,
     "title": "Windows/registry",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Windows/registry",
-    "url": "/#/Cheat Sheets 🐛/Windows/registry"
+    "relUrl": "/#/Cheat Sheets/Windows/registry",
+    "url": "/#/Cheat Sheets/Windows/registry"
   },
   "211": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 211,
     "title": "Windows/wmic",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/Windows/wmic",
-    "url": "/#/Cheat Sheets 🐛/Windows/wmic"
+    "relUrl": "/#/Cheat Sheets/Windows/wmic",
+    "url": "/#/Cheat Sheets/Windows/wmic"
   },
   "212": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 212,
     "title": "kubernetes/Helm Templates",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Helm Templates",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Helm Templates"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Helm Templates",
+    "url": "/#/Cheat Sheets/kubernetes/Helm Templates"
   },
   "213": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 213,
     "title": "kubernetes/Helm",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Helm",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Helm"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Helm",
+    "url": "/#/Cheat Sheets/kubernetes/Helm"
   },
   "214": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 214,
     "title": "kubernetes/Minikube",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Minikube",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Minikube"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Minikube",
+    "url": "/#/Cheat Sheets/kubernetes/Minikube"
   },
   "215": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 215,
     "title": "kubernetes/Minishift",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Minishift",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Minishift"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Minishift",
+    "url": "/#/Cheat Sheets/kubernetes/Minishift"
   },
   "216": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 216,
     "title": "kubernetes/Openshift",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Openshift",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Openshift"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Openshift",
+    "url": "/#/Cheat Sheets/kubernetes/Openshift"
   },
   "217": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 217,
     "title": "kubernetes/PKS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/PKS",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/PKS"
+    "relUrl": "/#/Cheat Sheets/kubernetes/PKS",
+    "url": "/#/Cheat Sheets/kubernetes/PKS"
   },
   "218": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 218,
     "title": "kubernetes/Prometheus",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Prometheus",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Prometheus"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Prometheus",
+    "url": "/#/Cheat Sheets/kubernetes/Prometheus"
   },
   "219": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 219,
     "title": "kubernetes/Tekton",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/Tekton",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/Tekton"
+    "relUrl": "/#/Cheat Sheets/kubernetes/Tekton",
+    "url": "/#/Cheat Sheets/kubernetes/Tekton"
   },
   "220": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 220,
     "title": "kubernetes/kops",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kops",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kops"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kops",
+    "url": "/#/Cheat Sheets/kubernetes/kops"
   },
   "221": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 221,
     "title": "kubernetes/kubectl",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubectl",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kubectl"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kubectl",
+    "url": "/#/Cheat Sheets/kubernetes/kubectl"
   },
   "222": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 222,
     "title": "kubernetes/kubernetes ConfigMap",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes ConfigMap",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes ConfigMap"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kubernetes ConfigMap",
+    "url": "/#/Cheat Sheets/kubernetes/kubernetes ConfigMap"
   },
   "223": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 223,
     "title": "kubernetes/kubernetes DNS",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes DNS",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes DNS"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kubernetes DNS",
+    "url": "/#/Cheat Sheets/kubernetes/kubernetes DNS"
   },
   "224": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 224,
     "title": "kubernetes/kubernetes StorageClass",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes StorageClass",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes StorageClass"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kubernetes StorageClass",
+    "url": "/#/Cheat Sheets/kubernetes/kubernetes StorageClass"
   },
   "225": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 225,
     "title": "kubernetes/kubernetes",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/kubernetes",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/kubernetes"
+    "relUrl": "/#/Cheat Sheets/kubernetes/kubernetes",
+    "url": "/#/Cheat Sheets/kubernetes/kubernetes"
   },
   "226": {
-    "doc": "Cheat Sheets 🐛",
+    "doc": "Cheat Sheets",
     "id": 226,
     "title": "kubernetes/nginx-ingress",
     "content": "",
-    "relUrl": "/#/Cheat Sheets 🐛/kubernetes/nginx-ingress",
-    "url": "/#/Cheat Sheets 🐛/kubernetes/nginx-ingress"
+    "relUrl": "/#/Cheat Sheets/kubernetes/nginx-ingress",
+    "url": "/#/Cheat Sheets/kubernetes/nginx-ingress"
   },
   "227": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 227,
-    "title": "Runbooks 🐛",
+    "title": "WurmTerm Runbooks",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛",
-    "url": "/#/Runbooks 🐛"
+    "relUrl": "/#/WurmTerm Runbooks",
+    "url": "/#/WurmTerm Runbooks"
   },
   "228": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 228,
     "title": "Mail",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/Mail",
-    "url": "/#/Runbooks 🐛/Mail"
+    "relUrl": "/#/WurmTerm Runbooks/Mail",
+    "url": "/#/WurmTerm Runbooks/Mail"
   },
   "229": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 229,
     "title": "System Log",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/System Log",
-    "url": "/#/Runbooks 🐛/System Log"
+    "relUrl": "/#/WurmTerm Runbooks/System Log",
+    "url": "/#/WurmTerm Runbooks/System Log"
   },
   "230": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 230,
     "title": "arp",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/arp",
-    "url": "/#/Runbooks 🐛/arp"
+    "relUrl": "/#/WurmTerm Runbooks/arp",
+    "url": "/#/WurmTerm Runbooks/arp"
   },
   "231": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 231,
     "title": "df",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/df",
-    "url": "/#/Runbooks 🐛/df"
+    "relUrl": "/#/WurmTerm Runbooks/df",
+    "url": "/#/WurmTerm Runbooks/df"
   },
   "232": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 232,
     "title": "dpkg",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/dpkg",
-    "url": "/#/Runbooks 🐛/dpkg"
+    "relUrl": "/#/WurmTerm Runbooks/dpkg",
+    "url": "/#/WurmTerm Runbooks/dpkg"
   },
   "233": {
-    "doc": "Runbooks 🐛",
+    "doc": "WurmTerm Runbooks",
     "id": 233,
     "title": "systemd",
     "content": "",
-    "relUrl": "/#/Runbooks 🐛/systemd",
-    "url": "/#/Runbooks 🐛/systemd"
+    "relUrl": "/#/WurmTerm Runbooks/systemd",
+    "url": "/#/WurmTerm Runbooks/systemd"
   },
   "234": {
     "doc": "Examples",
