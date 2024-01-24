@@ -435,6 +435,10 @@
         "path": "Cheat Sheets/DevOps Services/Postgres.md"
       },
       {
+        "name": "DevOps Services/README",
+        "path": "Cheat Sheets/DevOps Services/README.md"
+      },
+      {
         "name": "DevOps Services/RabbitMQ",
         "path": "Cheat Sheets/DevOps Services/RabbitMQ.md"
       },
