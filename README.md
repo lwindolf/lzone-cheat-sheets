@@ -12,7 +12,7 @@ Note: you can install even more cheat sheets in your local browser using the
 
 
 
-## Cheat Sheets Index
+## LZone Cheat Sheets Index
 
 
 <br/><b>Automation</b> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Ansible'>Ansible</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Chef'>Chef</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/IT-Ops'>IT-Ops</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Jinja'>Jinja</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Mcollective'>Mcollective</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Monitoring'>Monitoring</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Puppet'>Puppet</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Puppet - Hiera'>Puppet - Hiera</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/SaltStack'>SaltStack</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Swagger'>Swagger</a> | <a href='https://lzone.de/#/Cheat Sheets/Automation/Terraform'>Terraform</a>
@@ -31,7 +31,7 @@ Note: you can install even more cheat sheets in your local browser using the
 <br/><b>Solutions</b> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/SaaS Dev Tools'>SaaS Dev Tools</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Service Architecture'>Service Architecture</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Solutions Automation'>Solutions Automation</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Solutions Loadbalancing'>Solutions Loadbalancing</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Solutions Monitoring'>Solutions Monitoring</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Solutions NoSQL'>Solutions NoSQL</a> | <a href='https://lzone.de/#/Cheat Sheets/Solutions/Solutions Virtualization'>Solutions Virtualization</a>
 <br/><b>Windows</b> | <a href='https://lzone.de/#/Cheat Sheets/Windows/netsh'>netsh</a> | <a href='https://lzone.de/#/Cheat Sheets/Windows/PowerShell'>PowerShell</a> | <a href='https://lzone.de/#/Cheat Sheets/Windows/registry'>registry</a> | <a href='https://lzone.de/#/Cheat Sheets/Windows/wmic'>wmic</a> | <a href='https://lzone.de/#/Cheat Sheets/Windows/WSL'>WSL</a>
 
-## Examples Index
+## LZone Examples Index
 
 
 <br/><b>Glib Examples</b> | <a href='https://lzone.de/#/Examples/Glib Examples/Glib'>Glib</a> | <a href='https://lzone.de/#/Examples/Glib Examples/Glib GRegex'>Glib GRegex</a> | <a href='https://lzone.de/#/Examples/Glib Examples/Glib Testing'>Glib Testing</a> | <a href='https://lzone.de/#/Examples/Glib Examples/Glib XDG Migration'>Glib XDG Migration</a> | <a href='https://lzone.de/#/Examples/Glib Examples/GObject'>GObject</a>
@@ -39,6 +39,15 @@ Note: you can install even more cheat sheets in your local browser using the
 <br/><b>PHP Examples</b> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP Arrays'>PHP Arrays</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP curl_setopt'>PHP curl_setopt</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP date'>PHP date</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP explode'>PHP explode</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP file_get_contents'>PHP file_get_contents</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP implode'>PHP implode</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP in_array'>PHP in_array</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP ini_set'>PHP ini_set</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP preg_match'>PHP preg_match</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP preg_replace'>PHP preg_replace</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP str_replace'>PHP str_replace</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP stripos'>PHP stripos</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP strpos'>PHP strpos</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP strripos'>PHP strripos</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP strrpos'>PHP strrpos</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP ternary operator'>PHP ternary operator</a> | <a href='https://lzone.de/#/Examples/PHP Examples/PHP unserialize'>PHP unserialize</a>
 <br/><b>Python Examples</b> | <a href='https://lzone.de/#/Examples/Python Examples/PyGI GnomeKeyring'>PyGI GnomeKeyring</a> | <a href='https://lzone.de/#/Examples/Python Examples/PyGI GStreamer'>PyGI GStreamer</a> | <a href='https://lzone.de/#/Examples/Python Examples/PyGI GtkStatusIcon'>PyGI GtkStatusIcon</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python'>Python</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python argparse'>Python argparse</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python Dictionary'>Python Dictionary</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python re'>Python re</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python re.match'>Python re.match</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python re.sub'>Python re.sub</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python simplehttpserver'>Python simplehttpserver</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python split'>Python split</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python string concat'>Python string concat</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python subprocess'>Python subprocess</a> | <a href='https://lzone.de/#/Examples/Python Examples/Python Syntax'>Python Syntax</a>
 <br/><b>Regex Examples</b> | <a href='https://lzone.de/#/Examples/Regex Examples/Go Regex'>Go Regex</a> | <a href='https://lzone.de/#/Examples/Regex Examples/Regex Overview'>Regex Overview</a> | <a href='https://lzone.de/#/Examples/Regex Examples/Ruby Regex'>Ruby Regex</a>
+
+## Visual Ops Index
+
+
+<br/><b>du Radial Map</b> | <a href='https://lzone.de/#/Visual Ops/du Radial Map'>du Radial Map</a>
+<br/><b>du Tree Map</b> | <a href='https://lzone.de/#/Visual Ops/du Tree Map'>du Tree Map</a>
+<br/><b>netstat Dendrogram</b> | <a href='https://lzone.de/#/Visual Ops/netstat Dendrogram'>netstat Dendrogram</a>
+<br/><b>netstat Force Graph</b> | <a href='https://lzone.de/#/Visual Ops/netstat Force Graph'>netstat Force Graph</a>
+<br/><b>netstat Services</b> | <a href='https://lzone.de/#/Visual Ops/netstat Services'>netstat Services</a>
 
 ## Installable External Cheat Sheets
 
@@ -93,6 +102,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [Docker Getting Started](https://github.com/docker/getting-started)
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
+- [Documentation CoreDNS](https://github.com/coredns/coredns.io)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
 - [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
 - [Documentation Linode](https://github.com/linode/docs)
