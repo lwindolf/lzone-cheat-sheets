@@ -1,7 +1,6 @@
 ## Show MySQL Status
 
-You can get a very simple status by just entering "\\s" in the "mysql"
-command line client prompt:
+You can get a very simple status by just entering `\s` in the `mysql>` prompt
 
     mysql> \s
 
