@@ -6,7 +6,7 @@ related:
 ## CLI Commands
 
 Note: the `oc` CLI tool is a wrapper around `kubectl`. This page only lists commands
-which are `oc` or Openshift specific. All other commands can be found in the [kubectl](kubectl) cheat sheet-
+which are `oc` or Openshift specific. All other commands can be found in the [kubectl](kubectl.md) cheat sheet-
 
     oc login [<cluster>]
     oc login --username=<user>
