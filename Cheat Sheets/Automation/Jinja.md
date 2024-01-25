@@ -1,4 +1,3 @@
-{% raw %}
 This is a cheat sheet for the Jinja templating syntax.
 
 ## Syntax
@@ -25,4 +24,3 @@ Using functions
 
      {% myfunc(var, 5) %}
 
-{% endraw %}
