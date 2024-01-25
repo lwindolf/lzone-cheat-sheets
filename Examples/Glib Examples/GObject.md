@@ -1,7 +1,3 @@
-## Introduction Book
-
-Glib/GTK intro book: [https://informatique-libre.be/swilmet/glib-gtk-book/glib-gtk-dev-platform.pdf](https://informatique-libre.be/swilmet/glib-gtk-book/glib-gtk-dev-platform.pdf) (PDF)
-
 ## GObject Simple C Boilerplate
 
 No interface, just an object...
