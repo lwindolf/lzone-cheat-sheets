@@ -3,16 +3,10 @@ related:
   cheat-sheet: ['Openshift', 'kubernetes', 'kubectl', 'Helm']
 ---
 
-## Client Setup
-
-    # Follow instructions from GUI setup and download client
-    oc login
-
-Settings are stored in ~/.kube/config
-
 ## CLI Commands
 
-Note: all `kubectl` commands also work with the `oc` client. 
+Note: the `oc` CLI tool is a wrapper around `kubectl`. This page only lists commands
+which are `oc` or Openshift specific. All other commands can be found in the [kubectl](kubectl) cheat sheet-
 
     oc login [<cluster>]
     oc login --username=<user>
@@ -104,7 +98,7 @@ To determine effective UID range for a namespace
     
 ### Creating service accounts
 
-Creating a "root" service account:
+Creating a "root" aka cluster admin service account:
 
     oc create serviceaccount <name>
     oc adm policy add-cluster-role-to-user cluster-admin -z <name>
@@ -153,26 +147,14 @@ List effective Corefile
 
 Configure default pull secret
 
-     oc secrets link default <secret name> --for=pull
+    oc secrets link default <secret name> --for=pull
 
-## Misc
+## File Transfer
 
-- Turning off sticky sessions: 
-```
-      oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
-``` 
-- [Securing inter-service communication with certificates](https://docs.openshift.com/container-platform/3.6/dev_guide/secrets.html#service-serving-certificate-secrets): done via annotations at the service indicating a TLS cert/key in a secret
-```
-      apiVersion: v1
-        kind: Service
-        metadata:
-          annotations:
-            service.alpha.openshift.io/serving-cert-secret-name: <name>
-```
-- ebook: [OpenShift for
-    Developers](https://www.openshift.com/promotions/for-developers.html)
-- [Openshift in AWS with CloudFormation](https://sysdig.com/blog/deploy-openshift-aws/)
-- OpenShift Cheat Sheets
-    -   [http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/](http://akrambenaissi.com/2015/11/12/openshift-cheat-sheet-for-beginners/)
-    -   https://monodot.co.uk/openshift-cheatsheet/
+    oc cp <file> <pod>:<path>           # None-recursive copy
+    oc rsync <path> <pod>:<path>        # For recursive copy
+
+## Turning off sticky sessions: 
+
+   oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
 
