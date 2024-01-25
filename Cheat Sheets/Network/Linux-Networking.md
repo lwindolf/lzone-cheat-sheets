@@ -33,12 +33,12 @@ See also: [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheet
 
 - Resolve own IP
 
-      dig +short myip.opendns.com @resolver1.opendns.com
-      curl ifconfig.me
+        dig +short myip.opendns.com @resolver1.opendns.com
+        curl ifconfig.me
 
 - Resolve a name via nsswitch
 
-      getent hosts <host name>
+        getent hosts <host name>
 
 - [CloudShark](http://www.cloudshark.org): Sharing network traces
 - DNS Lookup
