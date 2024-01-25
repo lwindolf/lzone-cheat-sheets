@@ -1,25 +1,4 @@
-Below you find a unordered list of solutions by tasks useful for a MySQL
-DBA:
-
-### Live Monitoring of MySQL
-
-There are two useful tools:
-
--   mytop
--   innotop
-
-with "mytop" being an own Debian package, while "innotop" is included in
-the "mysql-client" package. From both innotop has the more advanced
-functionality. Both need to be called with credentials to connect to the
-database:
-
-    mytop -u <user> -p<password>
-    innotop -u <user> -p<password>
-
-Alternatively you can provide a .mytop file to provide the credentials
-automatically.
-
-### Show MySQL Status
+## Show MySQL Status
 
 You can get a very simple status by just entering "\\s" in the "mysql"
 command line client prompt:
@@ -37,11 +16,11 @@ master with:
 
     SHOW SLAVE HOSTS;
 
-### Check InnoDB status
+## Check InnoDB status
 
     show /*!50000 ENGINE*/ INNODB STATUS;
 
-### List Databases/Tables/Colums
+## List Databases/Tables/Colums
 
 You can either use the "mysqlshow" tool:
 
@@ -57,7 +36,7 @@ And you can also do it using queries:
     SHOW TABLES;
     DESCRIBE <table>;
 
-### Check and Change Live Configuration Parameters
+## Check and Change Live Configuration Parameters
 
 Note that you cannot change all existing parameters. Some like
 innodb\_pool\_buffer require a DB restart.
@@ -69,18 +48,18 @@ innodb\_pool\_buffer require a DB restart.
 
     # Finally ensure to edit my.cnf to make the change persistent
 
-### MySQL Parameter Optimization
+## MySQL Parameter Optimization
 
 You can check MySQL parameters of a running instance using tools like
 
--   [MySQLTuner](https://raw.github.com/rackerhacker/MySQLTuner-perl/master/mysqltuner.pl)
--   [MySQL Tuning - Primer](https://launchpad.net/mysql-tuning-primer)
--   [pt-variable-advisor](http://www.percona.com/doc/percona-toolkit/2.1/pt-variable-advisor.html)
+- [MySQLTuner](https://raw.github.com/rackerhacker/MySQLTuner-perl/master/mysqltuner.pl)
+- [MySQL Tuning - Primer](https://launchpad.net/mysql-tuning-primer)
+- [pt-variable-advisor](http://www.percona.com/doc/percona-toolkit/2.1/pt-variable-advisor.html)
 
 Also have a look at this [MySQL config parameter
 explanation](http://www.theadminzone.com/forums/showthread.php?t=8150).
 
-### Remote MySQL Dump and Import
+## Remote MySQL Dump and Import
 
 The following command allows dumping a database from one source host
 that doesn't see the target host when executed on a third host that can
@@ -89,13 +68,13 @@ the other you can simply drop one of the ssh calls.
 
     ssh <user@source host> "mysqldump --single-transaction -u root --password=<DB root pwd> <DB name>" | ssh <user@target host> "mysql -u root --password=<DB root pwd> <DB name>"
 
-### Troubleshooting
+## Troubleshooting
 
-#### Connection refused
+### Connection refused
 
     mysqladmin flush-hosts
 
-#### How to solve: Could not find target log during relay log initialization
+### How to solve: Could not find target log during relay log initialization
 
 Happens on corrupted/missing relay logs. To get the DB working
 
@@ -105,7 +84,7 @@ Happens on corrupted/missing relay logs. To get the DB working
 -   Remove relog log file index
 -   Start MySQL
 
-#### mysqldump: Error 2013: Lost connection to MySQL server during query when dumping table
+### mysqldump: Error 2013: Lost connection to MySQL server during query when dumping table
 
 This is caused by timeouts when copying overly large database tables.
 The default network timeouts are very short per-default. So you can
@@ -114,7 +93,7 @@ workaround this by increasing network timeouts
     set global net_write_timeout = 100000;
     set global net_read_timeout = 100000;
 
-#### Dump Skip Event Table
+### Dump Skip Event Table
 
 If your MySQL backup tool or self-written script complains about an
 event table than you have run into an issue caused by newer MySQL
@@ -142,21 +121,25 @@ to your "mysqldump" invocation. If you use a tool that invokes
 "mysqldump" indirectly check if the tool allows to inject additional
 parameters.
 
-#### Forgotten root Password
+### Forgotten root Password
 
-    # 1. Stop MySQL and start without grant checks
+1. Stop MySQL and start without grant checks
 
-    /usr/bin/mysqld_safe --skip-grant-tables &
-    mysql --user=root mysql
+       /usr/bin/mysqld_safe --skip-grant-tables
 
-    # 2. Change root password
-    UPDATE user SET password=PASSWORD('xxxxx') WHERE user = 'root';
+2. In another terminal
 
-### Import a CSV file into MySQL
+       mysql --user=root mysql
+
+3. Change root password
+
+       UPDATE user SET password=PASSWORD('xxxxx') WHERE user = 'root';
+
+## Import a CSV file into MySQL
 
     LOAD DATA IN '<CSV filename>' INTO TABLE <table name> FIELDS TERMINATED BY ',' (<name of column #1>,<<name of column #2>,<...>);
 
-### MySQL Pager - Output Handling
+## MySQL Pager - Output Handling
 
 Using "PAGER" or \\P you can control output handling. Instead of having
 10k lines scrolling by you can write everything to a file or use "less"
@@ -174,7 +157,7 @@ Or if you have Percona installed get a tree-like "EXPLAIN" output with
 
 and then run the "EXPLAIN" query.
 
-### MySQL - Check Query Cache
+## MySQL - Check Query Cache
 
     # Check if enabled
     SHOW VARIABLES LIKE 'have_query_cache';
@@ -182,7 +165,7 @@ and then run the "EXPLAIN" query.
     # Statistics
     SHOW STATUS LIKE 'Qcache%';
 
-### Check for currently running MySQL queries
+## Check for currently running MySQL queries
 
     show processlist;
     show full processlist;
@@ -205,18 +188,18 @@ To abort/terminate a statement determine it's id and kill it:
 
     kill <id>;    # Kill running queries by id from process listing
 
-### Show Recent Commands
+## Show Recent Commands
 
     SHOW BINLOG EVENTS;
     SHOW BINLOG EVENTS IN '<some bin file name>';
 
-### Inspect a MySQL binlog file
+## Inspect a MySQL binlog file
 
 There is an extra tool to inspect bin logs:
 
     mysqlbinlog <binary log file>
 
-### Skip one statement on replication issue HA\_ERR\_FOUND\_DUPP\_KEY
+## Skip one statement on replication issue HA\_ERR\_FOUND\_DUPP\_KEY
 
 If replication stops with "HA\_ERR\_FOUND\_DUPP\_KEY" you can skip the
 current statement and continue with the next one by running:
@@ -225,7 +208,7 @@ current statement and continue with the next one by running:
      SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;
     START SLAVE;
 
-### Changing Replication Format
+## Changing Replication Format
 
 When you want to change the replication format of a running setup you
 might want to follow this steps:
@@ -254,6 +237,8 @@ opened on the master with the new binlog\_format. The stopping of the
 slaves ensures that they open a new relay log matching the new
 binlog\_format.
 
+## Monitoring
+
 ### Munin MySQL Plugin Setup on Debian
 
     apt-get install libcache-cache-perl
@@ -265,7 +250,24 @@ binlog\_format.
 
     /etc/init.d/munin-node reload
 
-### Fix Slow Replication
+### Live CLI Monitoring of MySQL
+
+There are two useful tools:
+
+-   mytop
+-   innotop
+
+with "mytop" being an own Debian package, while "innotop" is included in
+the "mysql-client" package. From both innotop has the more advanced
+functionality. Both need to be called with credentials to connect to the
+database:
+
+    mytop -u <user> -p<password>
+    innotop -u <user> -p<password>
+
+Alternatively you can provide a .mytop file to provide the credentials automatically.
+
+## Fix Slow Replication
 
 When replication is slow check the status of the replication connection.
 If it is too often in "invalidating query cache" status you need to
@@ -274,7 +276,7 @@ cache for the moment if the DB load does allow it:
 
     set global query_cache_size=0;
 
-### Debug DB Response Time
+## Debug DB Response Time
 
 There is generic TCP response analysis tool developed by Percona called
 [tcprstat](http://www.percona.com/docs/wiki/tcprstat:start). Download
@@ -284,9 +286,4 @@ the binary from Percona, make it executable and run it like
 
 to get continuous statistics on the response time. This is helpful each
 time some developer claims the DB doesn't respond fast enough!
-
-### Further Reading
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=&marketplace=amazon&region=DE&placement=1449314287&asins=1449314287&linkId=223bb3b5cc9a4d331e33217e39556903&show_border=true&link_opens_in_new_window=true"></iframe>
-
  
