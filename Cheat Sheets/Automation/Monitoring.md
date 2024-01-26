@@ -26,8 +26,7 @@ related:
         /usr/sbin/munin-run <plugin name> # for values
         /usr/sbin/munin-run <plugin name> config # for configuration
 
--   [Munin - Test available
-    plugins](http://articles.slicehost.com/2010/4/9/enabling-munin-node-plug-ins-on-centos)
+-   [Munin - Test available plugins](http://articles.slicehost.com/2010/4/9/enabling-munin-node-plug-ins-on-centos)
 
         /usr/sbin/munin-node-configure --suggest
 
@@ -41,10 +40,8 @@ related:
 ### Nagios, Icinga
 
 -   [dmesg Nagios Plugin](/Nagios-Plugin-for-dmesg-Monitoring)
--   [Icinga 1 - status.cgi
-    Parameters](http://docs.icinga.org/latest/en/cgiparams.html)
--   [Icinga 1 - Object
-    Tricks](http://docs.icinga.org/latest/en/objecttricks.html):
+-   [Icinga 1 - status.cgi Parameters](http://docs.icinga.org/latest/en/cgiparams.html)
+-   [Icinga 1 - Object Tricks](http://docs.icinga.org/latest/en/objecttricks.html):
     Negative hostgroup definitions
 
         define service {
