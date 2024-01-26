@@ -14,8 +14,7 @@ related:
         diamond-setup -p -C <name>Collector
 
 -   [grafana](http://grafana.org) - Graphite / InfluxDB dashboard
--   [Graphite
-    Clustering](http://bitprophet.org/blog/2013/03/07/graphite/)
+-   [Graphite Clustering](http://bitprophet.org/blog/2013/03/07/graphite/)
 -   Graphite Backends:
     -   Whisper (legacy): fixed-sized database
     -   Ceres: sparse data, arbitrary fixed-size resolutions
