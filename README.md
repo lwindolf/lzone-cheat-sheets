@@ -87,6 +87,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
 - [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML)
 - [CSS Architecture](https://github.com/jareware/css-architecture)
+- [Cloud Outages Index](https://github.com/lwindolf/cloud-outages)
 - [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets)
 - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
 - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
