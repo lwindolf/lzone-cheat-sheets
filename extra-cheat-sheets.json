@@ -227,6 +227,11 @@
     "github": "donnemartin/system-design-primer",
     "filePattern": "^(README.*)\\.md$"
   },
+  "Cloud Outages Index": {
+    "github": "lwindolf/cloud-outages",
+    "type": "Documentation",
+    "category": "DevOps"
+  },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
     "filePattern": "^docs/(.*)/README.md$"
