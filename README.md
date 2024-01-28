@@ -193,6 +193,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
 - [OS Tutorial](https://github.com/cfenollosa/os-tutorial)
 - [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries)
+- [OpenSSL Architecture](https://github.com/openssl/web)
 - [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook)
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 - [Python Introcution: Byte of Python](https://github.com/swaroopch/byte-of-python)
