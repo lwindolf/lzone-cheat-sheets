@@ -103,6 +103,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [Docker Getting Started](https://github.com/docker/getting-started)
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
+- [Documentation Certbot](https://github.com/certbot/certbot)
 - [Documentation CoreDNS](https://github.com/coredns/coredns.io)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
 - [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
