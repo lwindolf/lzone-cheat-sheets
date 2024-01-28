@@ -837,5 +837,11 @@
     "filePattern": "^docs/(.+)\\.md$",
     "category": "Architecture",
     "type": "Documentation"
+  },
+  "Documentation Certbot": {
+    "github": "certbot/certbot",
+    "filePattern": "^docs/(.+)\\.rst",
+    "category": "DevOps",
+    "type": "Documentation"
   }
 }
