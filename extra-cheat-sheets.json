@@ -831,5 +831,11 @@
     "github": "coredns/coredns.io",
     "category": "DevOps",
     "type": "Documentation"
+  },
+  "OpenSSL Architecture": {
+    "github": "openssl/web",
+    "filePattern": "^docs/(.+)\\.md$",
+    "category": "Architecture",
+    "type": "Documentation"
   }
 }
