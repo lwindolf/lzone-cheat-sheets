@@ -843,5 +843,10 @@
     "filePattern": "^docs/(.+)\\.rst",
     "category": "DevOps",
     "type": "Documentation"
+  },
+  "Fuzzing 101": {
+    "github": "antonio-morales/Fuzzing101",
+    "category": "Security",
+    "type": "Documentation"
   }
 }
