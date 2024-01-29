@@ -187,30 +187,49 @@
   },
   "Meta Checklist": {
     "github": "huyingjie/Checklist-Checklist",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Documentation"
   },
   "k8s the hard way": {
     "github": "kelseyhightower/kubernetes-the-hard-way",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "k8s NetworkPolicy Tutorial": {
     "github": "networkpolicy/tutorial",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "k8s Istio Tutorial": {
     "github": "kelseyhightower/istio-ingress-tutorial",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "k8s Nomand Tutorial": {
     "github": "kelseyhightower/nomad-on-kubernetes",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "k8s Tekton Tutorial": {
     "github": "harbur/tekton-tutorial",
     "filePattern": "^(.+)\\.md$"
+    "category": "DevOps",
+    "type": "Tutorial"
+  },
+  "Tekton 101": {
+    "github": "dewan-ahmed/Tekton101",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "k8s CKAD Tutorial": {
-    "github": "madhank93/learn-k8s-ckad"
+    "github": "madhank93/learn-k8s-ckad",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
