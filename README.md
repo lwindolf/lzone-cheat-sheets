@@ -125,6 +125,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
 - [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev)
+- [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101)
 - [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4)
 - [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
 - [Geo Data Science Book](https://github.com/gdsbook/book)
