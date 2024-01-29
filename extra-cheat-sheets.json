@@ -848,5 +848,10 @@
     "github": "antonio-morales/Fuzzing101",
     "category": "Security",
     "type": "Documentation"
+  },
+  "Security 101 for SaaS Startups": {
+    "github": "forter/security-101-for-saas-startups",
+    "category": "Security",
+    "type": "Documentation"
   }
 }
