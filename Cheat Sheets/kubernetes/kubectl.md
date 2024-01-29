@@ -88,6 +88,12 @@ For debugging network stuff it is always helpful to start a busybox pod
     
     kubectl run -it busybox --restart=Never --image=busybox
 
+If you want to start an image with a different entrypoint or different parameters
+
+    kubectl run -it <name> --image=<image> -- <param1> <param2>                        # Same entrypoint but different parameters
+    kubectl run -it <name> --image=<image> --command -- <command> <param1> <param2>    # Different entrypoint and parameters
+
+
 ## Defining Limits and Quotas
 
 Conceptionally "quotas" limit the resource usage per namespace while "limits" are maximum allocation amounts per resource type (e.g. cpu, memory, storage, network policies...)
