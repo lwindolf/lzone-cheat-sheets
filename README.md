@@ -219,6 +219,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release)
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Tekton 101](https://github.com/dewan-ahmed/Tekton101)
 - [The JS Way](https://github.com/thejsway/thejsway)
 - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
 - [WTFJS](https://github.com/denysdovhan/wtfjs)
