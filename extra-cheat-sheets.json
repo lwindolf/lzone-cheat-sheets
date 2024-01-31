@@ -217,7 +217,7 @@
   },
   "k8s Tekton Tutorial": {
     "github": "harbur/tekton-tutorial",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Tutorial"
   },
