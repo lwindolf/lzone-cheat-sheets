@@ -41,7 +41,10 @@ helm install [name] [chart] --namespace [namespace]    # Install an app in a spe
 helm install [name] [chart] --values [yaml-file/url]   # Override the default values with those specified in a file of your choice
 helm install [name] --dry-run --debug                  # Run a test install to validate and verify the chart
 helm install --upgrade [name]                          # Install or upgrade a release
-helm uninstall [release name]                          # Uninstall a release 
+helm uninstall [release name]                          # Uninstall a release
+
+helm template -f values.yaml .                         # Render all chart resources to stdout
+helm template -s templates/some.yaml -f values.yaml .  # Render only a single template file
 ```
 
 ## Chart Management
