@@ -110,6 +110,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Datadog](https://github.com/DataDog/documentation)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
 - [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
+- [Documentation Kata Containers](https://github.com/kata-containers/kata-containers)
 - [Documentation Linode](https://github.com/linode/docs)
 - [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
 - [Documentation Prometheus](https://github.com/prometheus/docs)
