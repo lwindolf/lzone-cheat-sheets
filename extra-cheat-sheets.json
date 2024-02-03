@@ -963,5 +963,11 @@
     "github": "kylelobo/The-Documentation-Compendium",
     "category": "DevOps",
     "type": "Awesome"
+  },
+  "Documentation Kata Containers": {
+    "github": "kata-containers/kata-containers",
+    "filePattern": "^docs/(.+)\\.md",
+    "type": "Documentation",
+    "category": "Security"
   }
 }
