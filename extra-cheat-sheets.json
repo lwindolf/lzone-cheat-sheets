@@ -304,6 +304,11 @@
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
     "type": "Documentation"
   },
+  "MS Virtualization": {
+    "github": "MicrosoftDocs/Virtualization-Documentation",
+    "type": "Documentation",
+    "category": "DevOps"
+  },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books"
   },
