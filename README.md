@@ -206,6 +206,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Nature of Code](https://github.com/nature-of-code/noc-book-2023)
 - [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
 - [OS Tutorial](https://github.com/cfenollosa/os-tutorial)
+- [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide)
 - [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries)
 - [OpenSSL Architecture](https://github.com/openssl/web)
 - [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook)
