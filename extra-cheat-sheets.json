@@ -990,5 +990,11 @@
     "github": "google/grr-doc",
     "type": "Documentation",
     "category": "Security"
+  },
+  "Documentation Google OSFIR": {
+    "github": "google/osdfir-infrastructure",
+    "filePattern": "^docs/(.+)\\.md",
+    "type": "Documentation",
+    "category": "Security"
   }
 }
