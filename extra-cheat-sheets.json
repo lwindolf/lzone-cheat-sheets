@@ -979,5 +979,11 @@
     "github": "google/eng-practices",
     "type": "Cheat Sheet",
     "category": "DevOps"
+  },
+  "Documentation Google GVisor": {
+    "github": "google/gvisor",
+    "filePattern": "^g3doc/(.+)\\.md",
+    "type": "Documentation",
+    "category": "Security"
   }
 }
