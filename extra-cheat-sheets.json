@@ -996,5 +996,11 @@
     "filePattern": "^docs/(.+)\\.md",
     "type": "Documentation",
     "category": "Security"
+  },
+  "Documentation OSV Scanner": {
+    "github": "google/osv-scanner",
+    "filePattern": "^docs/(.+)\\.md",
+    "type": "Documentation",
+    "category": "Security"
   }
 }
