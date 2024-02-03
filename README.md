@@ -126,6 +126,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation juju](https://github.com/juju/juju)
 - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
 - [Documentation kubernetes](https://github.com/kubernetes/website)
+- [Documentation pprof](https://github.com/google/pprof)
 - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
 - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
 - [ElasticSearch Examples](https://github.com/elastic/examples)
