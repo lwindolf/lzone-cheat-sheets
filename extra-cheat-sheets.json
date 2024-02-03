@@ -493,7 +493,7 @@
   "Documentation Docker": {
     "github": "docker/docs",
     "type": "Documentation",
-    "category" "DevOps"
+    "category": "DevOps"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
