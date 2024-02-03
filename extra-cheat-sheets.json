@@ -318,25 +318,25 @@
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+)\\.md$",
-    "category": "SRE"
+    "category": "DevOps"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
     "filePattern": "^alerts/(.+)\\.md$",
-    "category": "SRE"
+    "category": "DevOps"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
     "filePattern": "^content/posts/(.+)\\.md$",
-    "category": "SRE"
+    "category": "DevOps"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
-    "category": "SRE"
+    "category": "DevOps"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
-    "category": "SRE"
+    "category": "DevOps"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book"
@@ -587,9 +587,9 @@
     "category": "DevOps",
     "type": "Cheat Sheets"
   },
-  "SRE Cheat Sheet": {
-    "github": "anshudutta/sre-cheat-sheet",
-    "category": "SRE",
+  "DevOps Cheat Sheet": {
+    "github": "anshudutta/DevOps-cheat-sheet",
+    "category": "DevOps",
     "type": "Cheat Sheets"
   },
   "MDN accessibility": {
@@ -876,6 +876,12 @@
   "Security 101 for SaaS Startups": {
     "github": "forter/security-101-for-saas-startups",
     "category": "Security",
+    "type": "Documentation"
+  },
+  "Documentation Datadog": {
+    "github": "DataDog/documentation",
+    "filePattern": "^content/en/(.+)\\.md$",
+    "category": "DevOps",
     "type": "Documentation"
   }
 }
