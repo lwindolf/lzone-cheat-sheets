@@ -6,39 +6,48 @@
   "Awesome Python": {
     "github": "vinta/awesome-python",
     "filePattern": "^(README)\\.md$",
+    "type": "Awesome",
     "category": "Programming"
   },
   "Awesome GraphQL": {
     "github": "chentsulin/awesome-graphql",
+    "type": "Awesome",
     "category": "Programming"
   },
   "Awesome Cheat Sheets": {
     "github": "detailyang/awesome-cheatsheet",
+    "type": "Awesome",
     "category": "Programming"
   },
   "Awesome CS Courses": {
     "github": "prakhar1989/awesome-courses",
+    "type": "Awesome",
     "category": "Programming"
   },
   "Awesome Public Datasets": {
     "github": "awesomedata/awesome-public-datasets",
+    "type": "Awesome",
     "category": "Programming"
   },
   "Awesome OSINT": {
     "github": "jivoi/awesome-osint",
+    "type": "Awesome",
     "category": "Security"
   },
   "Awesome OpenPolicyAgent": {
     "github": "StyraInc/awesome-opa",
+    "type": "Awesome",
     "category": "Security"
   },
   "Awesome Design Patterns": {
     "github": "DovAmir/awesome-design-patterns",
+    "type": "Awesome",
     "category": "Architecture"
   },
   "Awesome Scalability": {
     "github": "binhnguyennus/awesome-scalability",
     "filePattern": "^(README)\\.md$",
+    "type": "Awesome",
     "category": "Architecture"
   },
   "Learning freeCodeCamp": {
@@ -261,24 +270,35 @@
     "category": "DevOps"
   },
   "Awesome Security": {
-    "github": "zbetcheckin/Security_list"
+    "github": "zbetcheckin/Security_list",
+    "type": "Awesome",
+    "category": "Security"
   },
   "Awesome Cloud Security": {
-    "github": "4ndersonLin/awesome-cloud-security"
+    "github": "4ndersonLin/awesome-cloud-security",
+    "type": "Awesome",
+    "category": "Security"
   },
   "Awesome AWS Security": {
-    "github": "jassics/awesome-aws-security"
+    "github": "jassics/awesome-aws-security",
+    "type": "Awesome",
+    "category": "Security"
   },
   "AWSCookbook Security": {
     "github": "AWSCookbook/Security",
-    "filePattern": "^(.*)/README.md"
+    "filePattern": "^(.*)/README.md",
+    "type": "Documentation",
+    "category": "Security"
   },
   "Awesome k8s Security": {
-    "github": "magnologan/awesome-k8s-security"
+    "github": "magnologan/awesome-k8s-security",
+    "type": "Awesome",
+    "category": "Security"
   },
   "Reverse Shells": {
     "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
-    "category": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "category": "Security"
   },
   "Xapax Security": {
     "github": "xapax/security",
@@ -286,23 +306,31 @@
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
-    "category": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "category": "DevOps"
   },
   "Awesome Azure Architecture": {
-    "github": "lukemurraynz/awesome-azure-architecture"
+    "github": "lukemurraynz/awesome-azure-architecture",
+    "type": "Awesome",
+    "category": "Cloud"
   },
   "MS Azure Security": {
     "github": "MicrosoftDocs/security",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Security"
   },
   "MS Architecture Center": {
     "github": "MicrosoftDocs/architecture-center",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Architecture"
   },
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
-    "type": "Documentation"
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "MS Virtualization": {
     "github": "MicrosoftDocs/Virtualization-Documentation",
@@ -310,110 +338,157 @@
     "category": "DevOps"
   },
   "Architecture Books": {
-    "github": "mhadidg/software-architecture-books"
+    "github": "mhadidg/software-architecture-books",
+    "type": "Awesome",
+    "category": "Architecture"
   },
   "Architecture Enterprise Patterns": {
-    "github": "chanakaudaya/solution-architecture-patterns"
+    "github": "chanakaudaya/solution-architecture-patterns",
+    "type": "Documentation",
+    "category": "Architecture"
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+)\\.md$",
+    "type": "Documentation",
     "category": "DevOps"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
     "filePattern": "^alerts/(.+)\\.md$",
+    "type": "Runbook",
     "category": "DevOps"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
     "filePattern": "^content/posts/(.+)\\.md$",
+    "type": "Runbook",
     "category": "DevOps"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
+    "type": "Runbook",
     "category": "DevOps"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
+    "type": "Runbook",
     "category": "DevOps"
   },
   "AWS S3 Python": {
-    "github": "nagwww/aws-s3-book"
+    "github": "nagwww/aws-s3-book",
+    "type": "Book",
+    "category": "DevOps"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Cloud"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
-    "filePattern": "^website/docs/(.+)\\.md$"
+    "filePattern": "^website/docs/(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Cloud"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
-    "filePattern": "^playbooks/(.+)\\.md$"
+    "filePattern": "^playbooks/(.+)\\.md$",
+    "type": "Runbook",
+    "category": "Cloud"
   },
   "Runbooks Security Incident": {
-    "github": "redar0n/incident-runbook"
+    "github": "redar0n/incident-runbook",
+    "type": "Runbook",
+    "category": "Security"
   },
   "Runbooks Pentesting": {
-    "github": "IlyasKadi/runbook"
+    "github": "IlyasKadi/runbook",
+    "type": "Runbook",
+    "category": "Security"
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Javascript NPM with ES Modules": {
-    "github": "transitive-bullshit/npm-es-modules"
+    "github": "transitive-bullshit/npm-es-modules",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Javascript ES6 Cheatsheet": {
     "github": "DrkSephy/es6-cheatsheet",
-    "category": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "category": "Programming"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Ansible Tutorial": {
     "github": "leucos/ansible-tuto",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "SAP Tutorials": {
     "github": "sap-tutorials/Tutorials",
-    "filePattern": "^tutorials/(.+)\\.md$"
+    "filePattern": "^tutorials/(.+)\\.md$",
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Linux XDP Tutorial": {
     "github": "xdp-project/xdp-tutorial",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Bayesian Modelling in Python": {
     "github": "markdregan/Bayesian-Modelling-in-Python",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "type": "Documentation",
+    "category": "Programming"
   },
   "Docker Getting Started": {
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "category": "DevOps"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
@@ -883,5 +958,10 @@
     "filePattern": "^content/en/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation"
+  },
+  "Documentation Compendium": {
+    "github": "kylelobo/The-Documentation-Compendium",
+    "category": "DevOps",
+    "type": "Awesome"
   }
 }
