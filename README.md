@@ -105,6 +105,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Docker Getting Started](https://github.com/docker/getting-started)
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
 - [Documentation Certbot](https://github.com/certbot/certbot)
+- [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
 - [Documentation CoreDNS](https://github.com/coredns/coredns.io)
 - [Documentation Datadog](https://github.com/DataDog/documentation)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
