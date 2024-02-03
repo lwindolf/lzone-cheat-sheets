@@ -1007,5 +1007,10 @@
     "github": "google/pprof",
     "type": "Documentation",
     "category": "Programming"
+  },
+  "OSS Vulnerability Guide": {
+    "github": "google/oss-vulnerability-guide",
+    "type": "Cheat Sheet",
+    "category": "Security"
   }
 }
