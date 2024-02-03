@@ -1002,5 +1002,10 @@
     "filePattern": "^docs/(.+)\\.md",
     "type": "Documentation",
     "category": "Security"
+  },
+  "Documentation pprof": {
+    "github": "google/pprof",
+    "type": "Documentation",
+    "category": "Programming"
   }
 }
