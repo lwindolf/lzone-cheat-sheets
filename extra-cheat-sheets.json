@@ -1035,5 +1035,11 @@
     "filePattern": "^content/en/(.+)\\.md",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation Openshift": {
+    "github": "openshift/openshift-docs",
+    "filePattern": "^([^_].+)",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
