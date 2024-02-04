@@ -1038,7 +1038,7 @@
   },
   "Documentation Openshift": {
     "github": "openshift/openshift-docs",
-    "filePattern": "^([^_].+)",
+    "filePattern": "^([^_].+).adoc$",
     "type": "Documentation",
     "category": "DevOps"
   }
