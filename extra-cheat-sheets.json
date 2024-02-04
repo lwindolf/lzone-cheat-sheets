@@ -1017,5 +1017,11 @@
     "github": "google/devops-governance",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Jaeger Distributed Tracing": {
+    "github": "jaegertracing/documentation",
+    "filePattern": "^contents/docs/(.+)\\.md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
