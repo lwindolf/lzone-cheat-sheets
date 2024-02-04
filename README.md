@@ -142,6 +142,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [Globbing Cheat Sheet](https://github.com/begin/globbing)
 - [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide)
+- [Google DevOps Governance](https://github.com/google/devops-governance)
 - [Google Engineering Practices](https://github.com/google/eng-practices)
 - [How Programming Works](https://github.com/HowProgrammingWorks/Book)
 - [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal)
