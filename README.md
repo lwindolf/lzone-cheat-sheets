@@ -117,6 +117,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Kata Containers](https://github.com/kata-containers/kata-containers)
 - [Documentation Linode](https://github.com/linode/docs)
 - [Documentation OSV Scanner](https://github.com/google/osv-scanner)
+- [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io)
 - [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
 - [Documentation Prometheus](https://github.com/prometheus/docs)
 - [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
