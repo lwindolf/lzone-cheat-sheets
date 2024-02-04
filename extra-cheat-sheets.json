@@ -1012,5 +1012,10 @@
     "github": "google/oss-vulnerability-guide",
     "type": "Cheat Sheet",
     "category": "Security"
+  },
+  "Google DevOps Governance": {
+    "github": "google/devops-governance",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
