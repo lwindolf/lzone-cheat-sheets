@@ -1029,5 +1029,11 @@
     "filePattern": "^docs/docs/(.+)\\.md",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation OpenTelemetry": {
+    "github": "open-telemetry/opentelemetry.io",
+    "filePattern": "^content/en/(.+)\\.md",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
