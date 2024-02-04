@@ -1023,5 +1023,11 @@
     "filePattern": "^contents/docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation knative": {
+    "github": "knative/docs",
+    "filePattern": "^docs/docs/(.+)\\.md",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
