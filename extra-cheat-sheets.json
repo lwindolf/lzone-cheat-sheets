@@ -1041,5 +1041,10 @@
     "filePattern": "^([^_].+).adoc$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation cfengine": {
+    "github": "cfengine/documentation",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
