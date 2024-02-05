@@ -124,6 +124,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
 - [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
 - [Documentation Telegraf](https://github.com/influxdata/telegraf)
+- [Documentation cfengine](https://github.com/cfengine/documentation)
 - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
 - [Documentation juju](https://github.com/juju/juju)
 - [Documentation knative](https://github.com/knative/docs)
