@@ -1046,5 +1046,10 @@
     "github": "cfengine/documentation",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation Cacti": {
+    "github": "Cacti/documentation",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
