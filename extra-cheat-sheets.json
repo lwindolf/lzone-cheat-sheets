@@ -163,7 +163,7 @@
   },
   "Documentation Puppet": {
     "github": "puppetlabs/puppet-docs",
-    "filePattern": "^source/puppet",
+    "filePattern": "^source/puppet/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps"
   },
