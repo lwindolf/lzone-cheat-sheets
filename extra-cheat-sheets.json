@@ -157,7 +157,7 @@
   },
   "Puppet Handbook": {
     "github": "abhishekjt/puppet-handbook",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
     "type": "Book",
     "category": "DevOps"
   },
