@@ -158,6 +158,14 @@
   "Puppet Handbook": {
     "github": "abhishekjt/puppet-handbook",
     "filePattern": "^(README)\\.md$"
+    "type": "Book",
+    "category": "DevOps"
+  },
+  "Documentation Puppet": {
+    "github": "puppetlabs/puppet-docs",
+    "filePattern": "^source/puppet",
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Geo Data Science Book": {
     "github": "gdsbook/book",
