@@ -437,7 +437,7 @@
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
-    "type:" "Documentation",
+    "type": "Documentation",
     "category": "DevOps"
   },
   "Java 8 Tutorial": {
