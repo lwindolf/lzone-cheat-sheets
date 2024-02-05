@@ -426,6 +426,12 @@
     "type": "Documentation",
     "category": "Programming"
   },
+  "Documentation RabbitMQ": {
+    "github": "rabbitmq/rabbitmq-website",
+    "filePattern": "^site/(.+).md$",
+    "type:" "Documentation",
+    "category": "DevOps"
+  },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
