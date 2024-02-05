@@ -124,6 +124,8 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Prometheus](https://github.com/prometheus/docs)
 - [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
 - [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
+- [Documentation Puppet](https://github.com/puppetlabs/puppet-docs)
+- [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website)
 - [Documentation Telegraf](https://github.com/influxdata/telegraf)
 - [Documentation cfengine](https://github.com/cfengine/documentation)
 - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
