@@ -58,8 +58,8 @@ Given a config map with multiple keys that are filenames you can
            configMap:
              name: my-config-map
              items:
-               key: somefile                        # <--- CM key reference
-               path: somefile
+               - key: somefile                        # <--- CM key reference
+                 path: somefile
                
 Note though about example will hide all contents of /etc/somedir despite only injecting a single file.
 
