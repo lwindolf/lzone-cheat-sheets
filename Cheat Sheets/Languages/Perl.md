@@ -90,18 +90,18 @@ To run CGIs with ad-hoc request parameters
         
 - Case-insensitive sorting
 
-      sort { "\L$a" cmp "\L$b" } @mylist
+        sort { "\L$a" cmp "\L$b" } @mylist
 
 - Regex - Always use named capture groups and `%+`, for example:
 
-      if($str =~ /(?<field1>\w+)\s+(?<field2>\w+)(\s+(?<field3>\w+))?/) {
-        %result = %+;
-      }
+        if($str =~ /(?<field1>\w+)\s+(?<field2>\w+)(\s+(?<field3>\w+))?/) {
+            %result = %+;
+        }
 
 - Perl - Random Values:
     
-      int(rand(10))
+        int(rand(10))
 
 - Perl - Fix for `perl: warning: Setting locale failed.`
 
-      locale-gen en_US.UTF-8   # Insert listed locale(s)
+        locale-gen en_US.UTF-8   # Insert listed locale(s)
