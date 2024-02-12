@@ -98,10 +98,8 @@ On Debian
 
         ls /usr/lib/pkg-config
     
--   [Debian Package
-    Hardening](https://wiki.debian.org/HardeningWalkthrough) for C/C++
--   [AppData freedesktop.org
-    specification](http://www.freedesktop.org/software/appstream/docs/sect-AppStream-Metadata-AppData.html):
+-   [Debian Package Hardening](https://wiki.debian.org/HardeningWalkthrough) for C/C++
+-   [AppData freedesktop.org specification](http://www.freedesktop.org/software/appstream/docs/sect-AppStream-Metadata-AppData.html):
     Standard for end user SW description markup.
 -   AppData - Validation:
 
