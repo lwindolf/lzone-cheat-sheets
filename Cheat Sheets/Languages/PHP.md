@@ -23,9 +23,9 @@ into catchable exceptions:
         throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
     });
 
-## Regular Expressings
+## Regular Expressions
 
-See [PHP Examples](https://lzone.de/#/LZone%20Examples/PHP%20Examples)
+See [PHP Examples](https://lzone.de/#/LZone%20Examples/PHP%20Examples) for `preg_match`
 
 ### Named Capture Groups
 
