@@ -25,15 +25,17 @@ into catchable exceptions:
 
 ## Regular Expressings
 
-- For details check [PHP preg_match](/examples/PHP%20preg_match) and [PHP preg_replace](/examples/PHP%20preg_replace)
-- [PHP - strpos vs. preg\_match](https://lzone.de/articles/php-string-search.htm):
-    In-depth comparison of PHP string operation methods (strpos, strstr,
-    stripos) with different PHP5 interpreters and compared to the C
-    equivalents.
-- [PHP - Named Capture Groups](https://www.regular-expressions.info/named.html): As PHP uses
-    PCRE it also supports named capture groups:
+See [PHP Examples](https://lzone.de/#/LZone%20Examples/PHP%20Examples)
 
-        preg_match("/(?P\d{4})-(?P\d{2})-(?P\d{2})/", "2012-10-20")
+### Named Capture Groups
+
+PHP supports multiple ways for named capture groups
+
+    preg_match('/(?P<name>.+)/', $string, $matches);
+    preg_match('/(?<name>.+)/',  $string, $matches);
+    preg_match("/(?'name'.+)/",  $string, $matches);
+
+All variants above return the same match named 'name'.
 
 ## Infrastructure
 
