@@ -759,6 +759,10 @@
         "path": "Cheat Sheets/Scripting/xargs.md"
       },
       {
+        "name": "Scripting/yq",
+        "path": "Cheat Sheets/Scripting/yq.md"
+      },
+      {
         "name": "Scripting/zenity",
         "path": "Cheat Sheets/Scripting/zenity.md"
       },
