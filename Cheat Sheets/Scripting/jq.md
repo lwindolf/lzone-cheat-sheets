@@ -271,3 +271,7 @@ echo '{ "a": 1234.56 }' | jq '.a | round'     # gives 1235
 echo '{ "a": 1234.56 }' | jq '.a | floor'     # gives 1235
 echo '{ "a": 1234.56 }' | jq '.a | ceil'      # gives 1234
 ```
+
+## Misc
+
+- Split JSON files https://stackoverflow.com/questions/49808581/using-jq-how-can-i-split-a-very-large-json-file-into-multiple-files-each-a-spec
