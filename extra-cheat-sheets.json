@@ -1068,7 +1068,12 @@
   },
   "Learning Path k8s": {
     "github": "techiescamp/kubernetes-learning-path",
-    "type": "Awesome",
+    "type": "LearningPath",
     "category": "DevOps"
+  },
+  "Learning Path k8s (Microsoft)": {
+    "github": "microsoft/kubernetes-learning-path",
+    "type": "Awesome",
+    "category": "LearningPath"
   }
 }
