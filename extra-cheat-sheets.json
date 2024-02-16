@@ -1111,5 +1111,10 @@
     "github": "joebew42/study-path",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path Data Science": {
+    "github": "myarist/Data-Science-Learning-Path",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
