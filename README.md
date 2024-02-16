@@ -175,6 +175,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Learn Vim](https://github.com/iggredible/Learn-Vim)
 - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
 - [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
+- [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
 - [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
 - [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path)
 - [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
