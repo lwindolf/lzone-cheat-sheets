@@ -1090,5 +1090,11 @@
     "github": "TechPrimers/learning-path-spring-boot-microservices",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path Thinkerhub": {
+    "github": "tinkerhub/TinkerHub-Learning-Paths",
+    "filePattern": "^content/(.+)\\.md$",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
