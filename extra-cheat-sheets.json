@@ -1065,5 +1065,10 @@
     "github": "Cacti/documentation",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Learning Path k8s": {
+    "github": "techiescamp/kubernetes-learning-path",
+    "type": "Awesome",
+    "category": "DevOps"
   }
 }
