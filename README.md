@@ -174,6 +174,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
 - [Learn Vim](https://github.com/iggredible/Learn-Vim)
 - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
+- [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path)
 - [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
 - [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
 - [Learning Path Senior Developer](https://github.com/joebew42/study-path)
