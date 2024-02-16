@@ -1101,5 +1101,10 @@
     "github": "belatrix/learningPaths",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path System Design": {
+    "github": "TechPrimers/learning-path-system-design",
+    "type": "LearningPath",
+    "category": "Architecture"
   }
 }
