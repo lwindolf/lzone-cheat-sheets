@@ -178,6 +178,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
 - [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
 - [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
+- [Learning Path by Role](https://github.com/belatrix/learningPaths)
 - [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
 - [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path)
 - [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
