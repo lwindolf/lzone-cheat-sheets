@@ -1080,5 +1080,10 @@
     "github": "shovanch/fullstack-web-developer-path",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path Functional Programming": {
+    "github": "imteekay/functional-programming-learning-path",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
