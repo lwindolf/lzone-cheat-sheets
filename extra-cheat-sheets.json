@@ -1085,5 +1085,10 @@
     "github": "imteekay/functional-programming-learning-path",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path Springboot Microservices": {
+    "github": "TechPrimers/learning-path-spring-boot-microservices",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
