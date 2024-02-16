@@ -1073,7 +1073,12 @@
   },
   "Learning Path k8s (Microsoft)": {
     "github": "microsoft/kubernetes-learning-path",
-    "type": "Awesome",
-    "category": "LearningPath"
+    "type": "LearningPath",
+    "category": "DevOps"
+  },
+  "Learning Path FullStack Web Dev": {
+    "github": "shovanch/fullstack-web-developer-path",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
