@@ -176,6 +176,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
 - [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
 - [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
+- [Learning Path Senior Developer](https://github.com/joebew42/study-path)
 - [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
 - [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design)
 - [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
