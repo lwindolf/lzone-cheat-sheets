@@ -174,6 +174,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
 - [Learn Vim](https://github.com/iggredible/Learn-Vim)
 - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
+- [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
 - [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 - [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial)
 - [Little Go Book](https://github.com/karlseguin/the-little-go-book)
