@@ -1096,5 +1096,10 @@
     "filePattern": "^content/(.+)\\.md$",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Learning Path by Role": {
+    "github": "belatrix/learningPaths",
+    "type": "LearningPath",
+    "category": "Development"
   }
 }
