@@ -2,8 +2,6 @@ This is a cheat sheet for the Jinja templating syntax.
 
 ## Syntax
 
-The syntax is somewhat similar to ERB except for {} instead of <> quotes
-
      {{ ... }}           # Escaping for expressions that create output
      {% ... %}           # Escaping for control statements
      # ... ##            # Line statements
