@@ -46,6 +46,9 @@ Pattern matching with regex
     http_requests_total{job=~".*server"}
     http_requests_total{status!~"4.."}
 
+Note that when using regex pattern you have to think of them being enclosed with `^` and `$` markers.
+So if you want to match `abc` in the middle of a label value you need to specify `.*abc.*`!
+
 Aggregate and group by
 
     sum(rate(http_requests_total[5m])) by (job)
