@@ -67,7 +67,21 @@ Default a count returning "no value" to 0
 
     count(some_metric) or vector(0)
 
+Find absent metrics (e.g. for alerting on missing metrics)
+
+    absent(some_metric{label1="value1", label2="value2"})
+    absent_over_time(some_metric{label1="value1", label2="value2"}[15m])
+
 A good cheat sheet is https://promlabs.com/promql-cheat-sheet/
+
+## Find metric syntax errors
+
+Prometheus is very strict when a single syntax error occurs on a metric endpoint and then 
+ignores the entire endpoint. To check which line causes the error run `promtool check metrics`.
+`promtool` is included in your prometheus pod. It also is a static binary you can just 
+copy anywhere else to use:
+
+    curl -s localhost:8080/metrics | promtool check metrics
 
 ## Problems of Prometheus
 
