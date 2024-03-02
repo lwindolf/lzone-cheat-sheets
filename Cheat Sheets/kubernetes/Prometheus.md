@@ -72,6 +72,13 @@ Find absent metrics (e.g. for alerting on missing metrics)
     absent(some_metric{label1="value1", label2="value2"})
     absent_over_time(some_metric{label1="value1", label2="value2"}[15m])
 
+If you cannot specify an `absent` expression because you cannot specify the dynamic
+labels you can follow [this approach](https://utcc.utoronto.ca/~cks/space/blog/sysadmin/PrometheusAbsentMetricsAndLabels)
+using `offset` and `unless`:
+
+    max_over_time( your_metric[4h] ) offset 1h
+      unless your_metric
+
 A good cheat sheet is https://promlabs.com/promql-cheat-sheet/
 
 ## Find metric syntax errors
