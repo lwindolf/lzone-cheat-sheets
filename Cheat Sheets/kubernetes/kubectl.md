@@ -93,6 +93,9 @@ If you want to start an image with a different entrypoint or different parameter
     kubectl run -it <name> --image=<image> -- <param1> <param2>                        # Same entrypoint but different parameters
     kubectl run -it <name> --image=<image> --command -- <command> <param1> <param2>    # Different entrypoint and parameters
 
+To start a debug pod for an init container
+
+    kubectl debug <pod> -c <init container name>
 
 ## Defining Limits and Quotas
 
