@@ -20,13 +20,14 @@ tables use the client command ".tables"
 
 ## Exporting
 
+### Cloning
+
+    sqlite3 my.db ".clone my-clone.db"
+
 ### Dump Database as SQL
 
-To dump the entire database content in SQL for example for a backup run:
-
-    sqlite3 <database file> .dump >output.sql
-
-See the next sections how to dump a single table or in SQL.
+    sqlite3 my.db     ".dump" >backup.sql       # Dump
+    sqlite3 my-new.db ".read backup.sql"        # Restore from dump    
 
 ### Dump Table as SQL
 
@@ -64,3 +65,8 @@ If you want sqlite to perform vacuum on-demand you can set the
 To quere the current `auto_vacuum` setting run
 
     PRAGMA auto_vacuum
+
+## Fixing DBs with locks
+
+If you have a broken locked DB file clone it to a new file (see section "Exporting")
+and replace the broken one. Ensure to also cleanup WAL/SHM files otherwise the new one will not load.
