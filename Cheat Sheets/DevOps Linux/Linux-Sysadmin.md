@@ -83,14 +83,11 @@ Machine readable: you need to use sadf
 
     sadf -j /tmp/sar.out -- -n DEV    # All in nice JSON
 
-#### Theory
+#### Metrics Theory
 
--   [USE (Utilization Saturation and Errors)
-    Method](http://www.brendangregg.com/usemethod.html)
--   [Docker Perfomance
-    Analysis](http://www.brendangregg.com/blog/2017-05-15/container-performance-analysis-dockercon-2017.html)
--   [CPU Utilization is
-    wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html?utm_content=bufferfb890&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [USE (Utilization Saturation and Errors) Method](http://www.brendangregg.com/usemethod.html)
+- [Docker Perfomance Analysis](http://www.brendangregg.com/blog/2017-05-15/container-performance-analysis-dockercon-2017.html)
+- [CPU Utilization is wrong](http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html?utm_content=bufferfb890&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Swap Files
 
