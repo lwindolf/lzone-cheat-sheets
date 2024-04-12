@@ -129,6 +129,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Puppet](https://github.com/puppetlabs/puppet-docs)
 - [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website)
 - [Documentation Telegraf](https://github.com/influxdata/telegraf)
+- [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com)
 - [Documentation cfengine](https://github.com/cfengine/documentation)
 - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
 - [Documentation juju](https://github.com/juju/juju)
