@@ -1204,5 +1204,11 @@
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation FreeBSD": {
+    "github": "freebsd/freebsd-doc",
+    "filePattern": "^documentation/content/en/(.+).adoc$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
