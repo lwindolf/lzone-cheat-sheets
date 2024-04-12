@@ -1240,5 +1240,10 @@
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation FluentBit": {
+    "github": "fluent/fluent-bit-docs",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
