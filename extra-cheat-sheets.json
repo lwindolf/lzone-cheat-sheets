@@ -1210,5 +1210,11 @@
     "filePattern": "^documentation/content/en/(.+).adoc$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation pfsense (legacy)": {
+    "github": "pfsense/docs",
+    "filePattern": "^source/(.+).rst$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
