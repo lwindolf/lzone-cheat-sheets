@@ -1222,5 +1222,11 @@
     "filePattern": "^docs/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Runbooks PagerDuty Incident Response": {
+    "github": "PagerDuty/incident-response-doc",
+    "filePattern": "^docs/(.+).md$",
+    "type": "Runbook",
+    "category": "DevOps"
   }
 }
