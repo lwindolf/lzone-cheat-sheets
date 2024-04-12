@@ -1216,5 +1216,11 @@
     "filePattern": "^source/(.+).rst$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation rundeck": {
+    "github": "rundeck/docs",
+    "filePattern": "^docs/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
