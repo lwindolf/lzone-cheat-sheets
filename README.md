@@ -115,6 +115,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Datadog](https://github.com/DataDog/documentation)
 - [Documentation Docker](https://github.com/docker/docs)
 - [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs)
+- [Documentation Flux](https://github.com/fluxcd/website)
 - [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc)
 - [Documentation GRR](https://github.com/google/grr-doc)
 - [Documentation Google GVisor](https://github.com/google/gvisor)
