@@ -1234,5 +1234,11 @@
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation Chef": {
+    "github": "chef/chef-web-docs",
+    "filePattern": "^content/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
