@@ -1193,5 +1193,11 @@
     "github": "myarist/Data-Science-Learning-Path",
     "type": "LearningPath",
     "category": "Development"
+  },
+  "Documentation TravisCI": {
+    "github": "travis-ci/docs-travis-ci-com",
+    "filePattern": "^user/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
