@@ -1251,5 +1251,11 @@
     "filePattern": "^source/(.+).rst$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation Flux": {
+    "github": "fluxcd/website",
+    "filePattern": "content/en/flux/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
