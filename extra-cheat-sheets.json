@@ -1127,6 +1127,12 @@
     "type": "Documentation",
     "category": "DevOps"
   },
+  "Documentation CircleCI": {
+    "github": "circleci/circleci-docs",
+    "filePattern": "^jekyll/_cci2/(.+).adoc$",
+    "type": "Documentation",
+    "category": "DevOps"
+  },
   "Documentation cfengine": {
     "github": "cfengine/documentation",
     "type": "Documentation",
