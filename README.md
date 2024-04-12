@@ -106,6 +106,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
 - [Documentation Cacti](https://github.com/Cacti/documentation)
 - [Documentation Certbot](https://github.com/certbot/certbot)
+- [Documentation Chef](https://github.com/chef/chef-web-docs)
 - [Documentation CircleCI](https://github.com/circleci/circleci-docs)
 - [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh)
 - [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
