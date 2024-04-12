@@ -130,6 +130,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
 - [Documentation Puppet](https://github.com/puppetlabs/puppet-docs)
 - [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website)
+- [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs)
 - [Documentation Telegraf](https://github.com/influxdata/telegraf)
 - [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com)
 - [Documentation cfengine](https://github.com/cfengine/documentation)
