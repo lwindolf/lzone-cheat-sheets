@@ -1197,6 +1197,11 @@
   "Documentation TravisCI": {
     "github": "travis-ci/docs-travis-ci-com",
     "filePattern": "^user/(.+).md$",
+    "type": Documentation
+  },
+  "Documentation CloudFoundry Bosh": {
+    "github": "cloudfoundry/docs-bosh",
+    "filePattern": "^content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
   }
