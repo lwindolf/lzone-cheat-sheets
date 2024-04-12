@@ -1228,5 +1228,11 @@
     "filePattern": "^docs/(.+).md$",
     "type": "Runbook",
     "category": "DevOps"
+  },
+  "Documentation RedisLabs": {
+    "github": "RedisLabs/redislabs-docs",
+    "filePattern": "^content/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
