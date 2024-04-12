@@ -53,107 +53,154 @@
   "Learning freeCodeCamp": {
     "github": "freeCodeCamp/freeCodeCamp",
     "filePattern": "^(README)\\.md$",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Tutorial"
   },
   "Learn Regex": {
     "github": "ziishaned/learn-regex",
     "filePattern": "^(README)\\.md$",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Cheat Sheet"
   },
   "Github Cheat Sheet": {
     "github": "tiimgreen/github-cheat-sheet",
     "filePattern": "^(README)\\.md$",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Cheat Sheet"
   },
   "devhints.io": {
     "github": "rstacruz/cheatsheets",
-    "category": "Cheet Sheets"
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "WTFJS": {
     "github": "denysdovhan/wtfjs",
     "filePattern": "^(README)\\.md$",
-    "category": "Programming"
+    "category": "Programming",
+    "type": "Book"
   },
   "JS Promise Cookbook": {
     "github": "mattdesl/promise-cookbook",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "Typescript Handbook": {
     "github": "microsoft/TypeScript-Website",
-    "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+)\\.md$"
+    "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "Pure Bash Bible": {
     "github": "dylanaraps/pure-bash-bible",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "DevOps",
+    "type": "Book"
   },
   "Bash Handbook": {
-    "github": "denysdovhan/bash-handbook"
+    "github": "denysdovhan/bash-handbook",
+    "category": "DevOps",
+    "type": "Book"
   },
   "Bash Streams Handbook": {
-    "github": "miguelmota/bash-streams-handbook"
+    "github": "miguelmota/bash-streams-handbook",
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Learn Vim": {
-    "github": "iggredible/Learn-Vim"
+    "github": "iggredible/Learn-Vim",
+    "category": "DevOps",
+    "type": "Tutorial"
   },
   "FastAI Fastbook": {
     "github": "fastai/fastbook",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "ML",
+    "type": "Book"
   },
   "OWASP Cheat Sheets Series": {
     "github": "OWASP/CheatSheetSeries",
-    "filePattern": "^cheatsheets/(.+)\\.md$"
+    "filePattern": "^cheatsheets/(.+)\\.md$",
+    "category": "Security",
+    "type": "Cheat Sheets"
   },
   "eg Cheat Sheets": {
     "github": "srsudar/eg",
-    "filePattern": "^eg/examples/([^/]+)\\.md$"
+    "filePattern": "^eg/examples/([^/]+)\\.md$",
+    "category": "DevOps",
+    "type": "Cheat Sheets"
   },
   "Free Programming Books": {
     "github": "EbookFoundation/free-programming-books",
-    "filePattern": "^books/free-programming-books-(langs|subjects)\\.md$"
+    "filePattern": "^books/free-programming-books-(langs|subjects)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "How Programming Works": {
     "github": "HowProgrammingWorks/Book",
-    "filePattern": "^content/en/([^/]+)\\.md$"
+    "filePattern": "^content/en/([^/]+)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "The JS Way": {
     "github": "thejsway/thejsway",
-    "filePattern": "^manuscript/([^/]+)\\.md$"
+    "filePattern": "^manuscript/([^/]+)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "reactnative.guide": {
     "github": "react-made-native-easy/book",
-    "filePattern": "^[^/]+/([^/]+)\\.md$"
+    "filePattern": "^[^/]+/([^/]+)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "Little Go Book": {
     "github": "karlseguin/the-little-go-book",
-    "filePattern": "^en/(go)\\.md$"
+    "filePattern": "^en/(go)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "Little MongoDB Book": {
     "github": "karlseguin/the-little-mongodb-book",
-    "filePattern": "^en/(.+).markdown$"
+    "filePattern": "^en/(.+).markdown$",
+    "category": "Development",
+    "type": "Book"
   },
   "Little Redis Book": {
     "github": "karlseguin/the-little-redis-book",
-    "filePattern": "^en/(.+)\\.md$"
+    "filePattern": "^en/(.+)\\.md$",
+    "category": "Development",
+    "type": "Book"
   },
   "30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-code",
-    "filePattern": "^snippets/js/s/(.+)\\.md$"
+    "filePattern": "^snippets/js/s/(.+)\\.md$",
+    "category": "Development",
+    "type": "Cheat Sheet"
   },
   "Interview Questions: 30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-interviews",
-    "filePattern": "^questions/(.+)\\.md$"
+    "filePattern": "^questions/(.+)\\.md$",
+    "category": "Development",
+    "type": "Cheat Sheet"
   },
   "30s-of-code Python": {
     "github": "30-seconds/30-seconds-of-python",
-    "filePattern": "^snippets/(.+)\\.md$"
+    "filePattern": "^snippets/(.+)\\.md$",
+    "category": "Development",
+    "type": "Cheat Sheet"
   },
   "30s-of-code CSS": {
     "github": "30-seconds/30-seconds-of-css",
-    "filePattern": "^snippets/(.+)\\.md$"
+    "filePattern": "^snippets/(.+)\\.md$",
+    "category": "Development",
+    "type": "Cheat Sheet"
   },
   "30s-of-code Git": {
     "github": "30-seconds/30-seconds-of-git",
-    "filePattern": "^snippets/(.+)\\.md$"
+    "filePattern": "^snippets/(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Cheat Sheet"
   },
   "Puppet Handbook": {
     "github": "abhishekjt/puppet-handbook",
@@ -169,42 +216,66 @@
   },
   "Geo Data Science Book": {
     "github": "gdsbook/book",
-    "filePattern": "^notebooks/(.+)\\.md$"
+    "filePattern": "^notebooks/(.+)\\.md$",
+    "category": "ML",
+    "type": "Book"
   },
   "Interview Questions: Android": {
     "github": "amitshekhariitbhu/android-interview-questions",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "ML",
+    "type": "Interview"
   },
   "Interview Questions: Data Science": {
     "github": "alexeygrigorev/data-science-interviews",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "ML",
+    "type": "Interview"
   },
   "Interview Questions: Linux Sysadmin": {
     "github": "chassing/linux-sysadmin-interview-questions",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "DevOps",
+    "type": "Interview"
   },
   "Interview Questions: FAANG": {
     "github": "ombharatiya/FAANG-Coding-Interview-Questions",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "Development",
+    "type": "Interview"
   },
   "Interview Questions: ML": {
     "github": "Sroy20/machine-learning-interview-questions",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "ML",
+    "type": "Interview"
   },
   "Interview Questions: System Design": {
     "github": "shashank88/system_design",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "Architecture",
+    "type": "Interview"
   },
   "Interview Questions: System Design and Architecture": {
-    "github": "puncsky/system-design-and-architecture"
+    "github": "puncsky/system-design-and-architecture",
+    "category": "Architecture",
+    "type": "Interview"
   },
   "Interview Questions: Java": {
     "github": "in28minutes/interview-guide",
-    "filePattern": "^(.+)\\.md$"
+    "filePattern": "^(.+)\\.md$",
+    "category": "Development",
+    "type": "Interview"
   },
   "Meta Checklist": {
     "github": "huyingjie/Checklist-Checklist",
     "filePattern": "^(.+)\\.md$",
+    "category": "DevOps",
+    "type": "Documentation"
+  },
+  "Documentation Helm": {
+    "github": "helm/helm-www",
+    "filePattern": "^content/en/docs/(.+).md$",
     "category": "DevOps",
     "type": "Documentation"
   },
