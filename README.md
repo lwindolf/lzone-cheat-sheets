@@ -103,6 +103,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
 - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [Docker Getting Started](https://github.com/docker/getting-started)
+- [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs)
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
 - [Documentation Cacti](https://github.com/Cacti/documentation)
 - [Documentation Certbot](https://github.com/certbot/certbot)
