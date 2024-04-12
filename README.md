@@ -140,6 +140,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation kubernetes](https://github.com/kubernetes/website)
 - [Documentation pfsense (legacy)](https://github.com/pfsense/docs)
 - [Documentation pprof](https://github.com/google/pprof)
+- [Documentation rundeck](https://github.com/rundeck/docs)
 - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
 - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
 - [ElasticSearch Examples](https://github.com/elastic/examples)
