@@ -1245,5 +1245,11 @@
     "github": "fluent/fluent-bit-docs",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation Apache CloudStack": {
+    "github": "apache/cloudstack-docs",
+    "filePattern": "^source/(.+).rst$",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
