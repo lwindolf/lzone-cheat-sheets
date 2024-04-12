@@ -106,6 +106,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
 - [Documentation Cacti](https://github.com/Cacti/documentation)
 - [Documentation Certbot](https://github.com/certbot/certbot)
+- [Documentation CircleCI](https://github.com/circleci/circleci-docs)
 - [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
 - [Documentation CoreDNS](https://github.com/coredns/coredns.io)
 - [Documentation Datadog](https://github.com/DataDog/documentation)
