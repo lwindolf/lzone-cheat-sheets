@@ -138,6 +138,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation knative](https://github.com/knative/docs)
 - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
 - [Documentation kubernetes](https://github.com/kubernetes/website)
+- [Documentation pfsense (legacy)](https://github.com/pfsense/docs)
 - [Documentation pprof](https://github.com/google/pprof)
 - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
 - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
