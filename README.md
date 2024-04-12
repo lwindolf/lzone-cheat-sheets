@@ -115,6 +115,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure)
 - [Documentation Grafana Loki](https://github.com/grafana/loki)
 - [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
+- [Documentation Helm](https://github.com/helm/helm-www)
 - [Documentation Kata Containers](https://github.com/kata-containers/kata-containers)
 - [Documentation Linode](https://github.com/linode/docs)
 - [Documentation OSV Scanner](https://github.com/google/osv-scanner)
