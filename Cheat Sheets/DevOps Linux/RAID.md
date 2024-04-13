@@ -1,4 +1,4 @@
-### md
+## md
 
 Commands
 
@@ -14,10 +14,9 @@ Commands
 
 Misc
 
--   [Choosing Superblock
-    Formats](https://utcc.utoronto.ca/~cks/space/blog/linux/SoftwareRaidSuperblockFormats)
+-   [Choosing Superblock Formats](https://utcc.utoronto.ca/~cks/space/blog/linux/SoftwareRaidSuperblockFormats)
 
-### hpacucli
+## hpacucli
 
 Commands
 
@@ -34,7 +33,7 @@ Commands
     # Create new Array
     hpacucli ctrl slot=0 create type=logicaldrive drives=1I:1:3,1I:1:4 raid=1
 
-### LSI MegaRAID
+## LSI MegaRAID
 
 Commands
 
@@ -47,7 +46,7 @@ Commands
     # Get info on logical drive #0 on controller #0
     /opt/MegaRAID/MegaCli/MegaCli64 -LdInfo -L0 -a0 -NoLog
 
-### 3Ware
+## 3Ware
 
 Commands
 
