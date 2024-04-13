@@ -5,8 +5,7 @@ related:
 
 ### Detect VM
 
-[Detect if you are in a virtual
-machine](http://people.redhat.com/~rjones/virt-what/)
+[Detect if you are in a virtual machine](http://people.redhat.com/~rjones/virt-what/)
 
     virt-what
 
