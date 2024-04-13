@@ -291,12 +291,12 @@
         "path": "Cheat Sheets/DevOps Linux/README.md"
       },
       {
-        "name": "DevOps Linux/Solaris",
-        "path": "Cheat Sheets/DevOps Linux/Solaris.md"
-      },
-      {
         "name": "DevOps Linux/X11",
         "path": "Cheat Sheets/DevOps Linux/X11.md"
+      },
+      {
+        "name": "DevOps Linux/ZFS",
+        "path": "Cheat Sheets/DevOps Linux/ZFS.md"
       },
       {
         "name": "DevOps Linux/auditd",

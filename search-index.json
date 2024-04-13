@@ -578,18 +578,18 @@
   "72": {
     "doc": "LZone Cheat Sheets",
     "id": 72,
-    "title": "DevOps Linux/Solaris",
-    "content": "",
-    "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Solaris",
-    "url": "/#/LZone Cheat Sheets/DevOps Linux/Solaris"
-  },
-  "73": {
-    "doc": "LZone Cheat Sheets",
-    "id": 73,
     "title": "DevOps Linux/X11",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/X11",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/X11"
+  },
+  "73": {
+    "doc": "LZone Cheat Sheets",
+    "id": 73,
+    "title": "DevOps Linux/ZFS",
+    "content": "",
+    "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/ZFS",
+    "url": "/#/LZone Cheat Sheets/DevOps Linux/ZFS"
   },
   "74": {
     "doc": "LZone Cheat Sheets",
