@@ -2,7 +2,7 @@ This cheat sheet provides a systematic way to debug problems with system limits.
 
 ## 1. Do not rely on ulimit anymore!
 
-This is the most important takeaway. Given that modern init systems (systemd, upstart, start-stop-daemon) do not care about /etc/security/limits.conf anymore **it is not safe to rely on ulimit anymore!**
+This is the most important takeaway. Given that modern init systems (systemd, upstart, start-stop-daemon) do not care about `/etc/security/limits.conf` anymore **it is not safe to rely on ulimit anymore!**
 
 No matter what 
 
@@ -53,11 +53,10 @@ prlimit has the more readable output:
     SIGPENDING max number of pending signals          15072     15072 
     STACK      max stack size                       8388608 unlimited Bytes
 
-**Note:** Running "prlimit" or "ulimit -a" in the shell of the
-respective user rarely tells something because the init daemon
-responsible for launching services might be ignoring
-/etc/security/limits.conf as this is a configuration file for PAM only
-and is applied on login only per default.
+**Note:** Running `prlimit` or `ulimit -a` in the shell of the respective user rarely 
+tells something because the init daemon responsible for launching services might be ignoring
+`/etc/security/limits.conf` as this is a configuration file for PAM only and is applied on 
+login only per default.
 
 ### Live update limits with prlimit
 
@@ -154,41 +153,40 @@ returns
 
 ## 5. Consider Typical Pitfalls with Limits
 
-### Systemd ignores /etc/security/limits.conf
+### Systemd ignores `/etc/security/limits.conf`
 
-When using systemd /etc/security/limits.conf doesn't apply anymore.
-**Workaround:** The only way to increase limits is in the systemd unit
-file. You can find out the name of the unit file using "systemctl status
-\<service name\>". In the unit files [Service] section add a Limit line
-like below:
+When using systemd `/etc/security/limits.conf` doesn't apply anymore.
+You need to increase limits is in the systemd unit file. You can find out 
+the name of the unit file using `systemctl status <service name>`. In the 
+unit file's `[Service]` section add a limit line like this:
 
     [Service]
     ...
     LimitNOFILE=8092
 
-The old ulimit names match to Limit\<upper case limit name\> fields and
+The old ulimit names match to `Limit<upper case limit name>` fields and
 the value "unlimited" now is called "infinity"
 
-### Init Scripts with start-stop-daemon ignore /etc/security/limits.conf
+### Init Scripts with start-stop-daemon ignore `/etc/security/limits.conf`
 
 A typical mistake is trying to set limits for a daemon starting by a
 Debian start script using "start-stop-daemon" which on modern distros just
 delegates to systemd or on older distros isn't integrated with PAM and for
-both reasons isn't affected by /etc/security/limits.conf.
+both reasons isn't affected by `/etc/security/limits.conf`.
 
 **Workaround:** 
-- On systemd: Set Limit in the systemd unit file
+- On systemd: Set limit in the systemd unit file
 - Otherwise: Set the limits manually in the start script.
 
-### Upstart ignores /etc/security/limits.conf
+### Upstart ignores `/etc/security/limits.conf`
 
 On older Ubuntu releases services are started by upstart which similar to 
-systemd ignores /etc/security/limits.conf. To get upstart to
+systemd ignores `/etc/security/limits.conf`. To get upstart to
 change the limits of a managed service you need to insert a line like
 
     limit nofile 10000 20000
 
-into the upstart job file in /etc/init.
+into the upstart job file in `/etc/init`.
 
 ### Special Debian Apache Handling
 
@@ -197,8 +195,8 @@ separate way of configuring "nofile" limits. If you run the default
 Apache in 12.04 and check /proc/\<pid\>/limits of a Apache process
 you'll find it is allowing 8192 open file handles. No matter what you
 configured elsewhere. This is because Apache defaults to 8192 files. If
-you want another setting for "nofile" then you need to [edit
-/etc/apache2/envvars](http://www.lzone.de/Ubuntu+Apache+and+ulimit).
+you want another setting for "nofile" then you need to edit
+`/etc/apache2/envvars`.
 
 ## Login Session Workarounds
 
@@ -206,5 +204,5 @@ you want another setting for "nofile" then you need to [edit
 
 After you apply a change to /etc/security/limits.conf you need to login
 again to have the change applied to your next shell instance by PAM.
-Alternatively you can use [sudo -i](http://lzone.de/apply+limits+immediately) to 
-switch to user whose limits you modified and simulate a login.
+Alternatively you can use `sudo -i` to switch to user whose limits 
+you modified and simulate a login.
