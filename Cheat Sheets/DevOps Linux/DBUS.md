@@ -27,4 +27,9 @@
           org.gnome.feed.Reader.Subscribe \
           string:http://osnews.com/files/recent.rdf
 
+- Dark/Light Mode
+
+          dbus-send --session --print-reply=literal --reply-timeout=1000 --dest=org.freedesktop.portal.Desktop /org/freedesktop/portal/desktop org.freedesktop.portal.Settings.Read string:'org.freedesktop.appearance' string:'color-scheme'
+  
+  will return a result like `variant       variant          uint32 0` with the last number indicating light (0) or dark (1)
 
