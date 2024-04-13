@@ -1,3 +1,9 @@
+See also
+
+- [vi - Advanced](http://www.lagmonster.org/docs/vi2.html)
+- [vim - Scripting](https://devhints.io/vimscript)
+- [vim - Usage](https://devhints.io/vim)
+
 <table border="1" cellpadding="6" cellspacing="0">
 	<tbody>
 		<tr>
