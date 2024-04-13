@@ -1,4 +1,4 @@
-### Heartbeat
+## Heartbeat
 
 Manual IP Failover
 
@@ -8,7 +8,7 @@ Manual IP Failover
     # Or run on the node to should stop working
     /usr/share/heartbeat/hb_standby
 
-### keepalived
+## keepalived
 
 VRRP Debugging:
 
@@ -16,7 +16,7 @@ VRRP Debugging:
 
     grep Keepalived /var/log/syslog
 
-### Pacemaker
+## Pacemaker
 
     # Cluster Resource Status
     crm_mon
@@ -43,10 +43,9 @@ VRRP Debugging:
     crm resource unmanage <name>
     crm resource manage <name>
 
-[Pacemaker - Setup
-Steps](http://varwww.com/2013/06/18/simple-pacemaker-tutorial-for-ubuntu/)
+[Pacemaker - Setup Steps](http://varwww.com/2013/06/18/simple-pacemaker-tutorial-for-ubuntu/)
 
-### wackamole
+## wackamole
 
     wackatrl -l     # List status
     wackatrl -f     # Remove node from cluster
