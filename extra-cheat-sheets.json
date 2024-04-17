@@ -1257,5 +1257,10 @@
     "filePattern": "content/en/flux/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Coding Interview University": {
+    "github": "jwasham/coding-interview-university",
+    "type": "Documentation",
+    "category": "Programming"
   }
 }
