@@ -1194,6 +1194,11 @@
     "type": "LearningPath",
     "category": "Development"
   },
+  "Learning Path AI Expert": {
+    "github": "AMAI-GmbH/AI-Expert-Roadmap",
+    "type": "LearningPath",
+    "category": "Development"
+  },
   "Documentation TravisCI": {
     "github": "travis-ci/docs-travis-ci-com",
     "filePattern": "^user/(.+).md$",
@@ -1261,6 +1266,6 @@
   "Coding Interview University": {
     "github": "jwasham/coding-interview-university",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Development"
   }
 }
