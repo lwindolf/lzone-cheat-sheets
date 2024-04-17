@@ -89,6 +89,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [CSS Architecture](https://github.com/jareware/css-architecture)
 - [Cloud Outages Index](https://github.com/lwindolf/cloud-outages)
 - [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
 - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
 - [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process)
