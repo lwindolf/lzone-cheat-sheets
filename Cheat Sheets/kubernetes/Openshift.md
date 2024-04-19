@@ -66,6 +66,14 @@ Removing/Readding nodes
     # List certs
     oc get secret | grep "kubernetes.io/tls"
 
+#### Service Certificates
+
+You can annotate services with
+
+    service.beta.openshift.io/serving-cert-secret-name=<name>
+
+to automatically create a certificate secret with the given name.
+
 #### Rotating cluster certificate
 
 - [Replacing the API server certificate](https://docs.openshift.com/container-platform/4.6/security/certificates/api-server.html)
