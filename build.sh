@@ -122,14 +122,14 @@ readme_update() {
         result += `\n<br/><b>${docs[dname].group}</b>`;
         oldgroup = docs[dname].group;
       }
-      result += ` | <a href='https://lzone.de/#/${docs[dname].path}'>${dname}</a>`;
+      result += ` | <a href='https://lzone.de/#/LZone ${docs[dname].path}'>${dname}</a>`;
     }
   }
 
   result += '\n\n## Installable External Cheat Sheets\n\n';
 
   for(const dname of Object.keys(extra).sort()) {
-    result += `- [${dname}](https://github.com/${extra[dname].github})\n`;
+    result += `- [${dname}](https://github.com/LZone ${extra[dname].github})\n`;
   }
 
   console.log(result);
