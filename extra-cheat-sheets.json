@@ -1267,5 +1267,10 @@
     "github": "jwasham/coding-interview-university",
     "type": "Documentation",
     "category": "Development"
+  },
+  "rsync Tutorial": {
+    "github": "johnjung/rsync_tutorial",
+    "type": "Cheat Sheet",
+    "category": "DevOps"
   }
 }
