@@ -281,4 +281,5 @@ Note: you can install even more cheat sheets in your local browser using the
 - [k8s the hard way](https://github.com/LZone kelseyhightower/kubernetes-the-hard-way)
 - [nginx Admin Handbook](https://github.com/LZone trimstray/nginx-admins-handbook)
 - [reactnative.guide](https://github.com/LZone react-made-native-easy/book)
+- [rsync Tutorial](https://github.com/LZone johnjung/rsync_tutorial)
 
