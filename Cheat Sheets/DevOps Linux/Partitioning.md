@@ -5,9 +5,16 @@ related:
 
 ## Disks
 
+Listing devices
+
+    blkid
+    blkid -o list      # Including loop devices
+    blkid -k           # List of known filesystems and RAID types
+    blkid -i <device>  # List limits
+
 Setting/Listing disk UUIDs
 
-    blkid                           # List all
+    blkid                           # List all disks
     findfs UUID=<id>                # Find specific id
     ls -l /dev/disk/by-uuid/<id>
 
