@@ -129,7 +129,7 @@ readme_update() {
   result += '\n\n## Installable External Cheat Sheets\n\n';
 
   for(const dname of Object.keys(extra).sort()) {
-    result += `- [${dname}](https://github.com/LZone ${extra[dname].github})\n`;
+    result += `- [${dname}](https://github.com/LZone+${extra[dname].github})\n`;
   }
 
   console.log(result);
