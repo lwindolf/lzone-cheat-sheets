@@ -108,10 +108,6 @@ Load base URL with appended
 
     /debug/refresh
 
-* * * * *
-
-* * * * *
-
 ## Debug Traces
 
 You can enable traces per trace topic listed in splunkd.log. To change
