@@ -63,8 +63,8 @@ See also: [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheet
         export eval $(wrapsrv <DNS name> "netcat -z %h %p && echo http_proxy=http://%h:%p")
 
 - [DNSSEC - Verisign Online Tester](https://dnssec-debugger.verisignlabs.com/)
-- DNS - [CAA Support](https://sslmate.com/caa/support): Providers and Tools
-
+- [CAA Support](https://sslmate.com/caa/support): Providers and Tools
+- [DNS Propagation Tester](https://dnschecker.org)
 * DNS server
   * Bind
   * PowerDNS
