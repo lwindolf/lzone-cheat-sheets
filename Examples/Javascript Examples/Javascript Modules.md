@@ -22,6 +22,11 @@ Now there are two variants depending on the module having a default export or no
 
 Check the `export` statement in the module wether it has `as default` or not. If yes, use variant #1.
 
+## Get converted module from CDNJS
+
+Just download `https://esm.run/<module name@version>` to get a auto converted module. The conversion
+will not always work, but often will and is easier than the other workarounds.
+
 ## Importing UMD modules
 
 From https://stackoverflow.com/questions/51461723/import-umd-javascript-modules-into-browser
