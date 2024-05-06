@@ -13,6 +13,9 @@ Controlling apps
     # Change target branch
     argo app patch <name> --patch '[{"op": "replace", "path": "/spec/source/targetRevision", "value": "<new branch name>"}]'
 
+    # Delete app with CLI
+    argo app delete-resource <app parent> --group argoproj.io --kind Application --resource-name <app name>
+
 Controlling workflows
 
     argo list                                # List workflows
