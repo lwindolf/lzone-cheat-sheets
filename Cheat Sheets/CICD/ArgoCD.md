@@ -9,6 +9,7 @@ Controlling apps
     
     argo app diff <name>
     argo app sync <name>
+    argo app sync <name> --resource <group>:<kind>:<name>    # Partial sync for one resource
     
     # Change target branch
     argo app patch <name> --patch '[{"op": "replace", "path": "/spec/source/targetRevision", "value": "<new branch name>"}]'
