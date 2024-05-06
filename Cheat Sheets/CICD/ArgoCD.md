@@ -30,8 +30,10 @@ Controlling workflows
     argo delete <pod>                        # Delete workflow
     argo delete --all                        # Delete all workflows
 
-You can also use kubectl 
+For read-only queries can also use kubectl (avoiding an ArgoCD login and slow server)
 
+    kubectl get ArgoProject    # List projects
+    kubectl get Application    # List apps
     kubectl get wf             # List workflows
     kubectl delete wf <name>   # Delete workflow
 
