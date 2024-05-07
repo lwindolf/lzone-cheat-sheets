@@ -164,5 +164,5 @@ Configure default pull secret
 
 ## Turning off sticky sessions: 
 
-   oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
+    oc annotate route <name of route> haproxy.router.openshift.io/disable_cookies='true'
 
