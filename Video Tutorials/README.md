@@ -87,15 +87,21 @@ videoEmbed: true
 ## Logging - ElasticSearch Stack
 
 [ElasticSearch Concepts --- Architecture, Introduction](https://www.youtube.com/watch?v=C3tlMqaNSaI)
+
 [Cross Cluster Replication --- Ops, HowTo](https://www.youtube.com/watch?v=2Uwh-H_qazE)
+
 [Index Lifecycle Management --- Ops, HowTo](https://www.youtube.com/watch?v=p-AhtrfbEjE)
+
 [Kibana Usage --- HowTo, GUI](https://www.youtube.com/watch?v=_nq5m9_-iS0)
+
 [Logstash Introduction --- Tutorial, CLI](https://www.youtube.com/watch?v=_qgS1m6NTIE)
+
 [Logstash enriching data --- Advanced, CLI](https://www.youtube.com/watch?v=EFYeeNvhBm4)
 
 ## Logging - Loki
 
 [Logs in Grafana Loki --- Advanced, Tutorial, 2022](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
+
 [Loki Log Query Performance --- Tutorial, 2023](https://www.youtube.com/watch?v=YED8XIm0YPs)
 
 ## Openshift
@@ -131,12 +137,16 @@ videoEmbed: true
 ## Storage - Ceph
 
 [Ceph Architecture --- Architecture, Intro, 2015](https://www.youtube.com/watch?v=7I9uxoEhUdY)
+
 [Install Ceph with Rook in k8s --- HowTo, 2020](https://www.youtube.com/watch?v=rCXa9NKgh2E)
+
 [Ceph Performance --- HowTo, 2019](https://www.youtube.com/watch?v=LlLLJxNcVOY)
+
 [Best Practices Onboarding --- Introduction](https://www.youtube.com/watch?v=upJS4R6SbgM)
 
 ## Storage - S3
 
 [S3 - What is WORM](https://www.youtube.com/watch?v=uoQHqf4rQXQ)
+
 [S3 - Object Lock](https://www.youtube.com/watch?v=R_3I60yOdHY)
 
