@@ -64,16 +64,6 @@ videoEmbed: true
 
 [etcd in kubernetes --- Architecture](https://www.youtube.com/watch?v=may8CuGyIVM)
 
-## Ceph
-
-[Ceph Architecture --- Architecture, Intro, 2015](https://www.youtube.com/watch?v=7I9uxoEhUdY)
-
-[Install Ceph with Rook in k8s --- HowTo, 2020](https://www.youtube.com/watch?v=rCXa9NKgh2E)
-
-[Ceph Performance --- HowTo, 2019](https://www.youtube.com/watch?v=LlLLJxNcVOY)
-
-[Best Practices Onboarding --- Introduction](https://www.youtube.com/watch?v=upJS4R6SbgM)
-
 ## JFrog Platform
 
 [JFrog Architecture --- Architecture, Intro](https://www.youtube.com/watch?v=bKp1Vif9oO4)
@@ -137,3 +127,16 @@ videoEmbed: true
 [Splunk Architecture --- Architecture, 2020](https://www.youtube.com/watch?v=VQZ80hSyQEE)
 
 [Splunk Dashboards --- HowTo, Tutorial, 2020](https://www.youtube.com/watch?v=cdWXKBzPZ78)
+
+## Storage - Ceph
+
+[Ceph Architecture --- Architecture, Intro, 2015](https://www.youtube.com/watch?v=7I9uxoEhUdY)
+[Install Ceph with Rook in k8s --- HowTo, 2020](https://www.youtube.com/watch?v=rCXa9NKgh2E)
+[Ceph Performance --- HowTo, 2019](https://www.youtube.com/watch?v=LlLLJxNcVOY)
+[Best Practices Onboarding --- Introduction](https://www.youtube.com/watch?v=upJS4R6SbgM)
+
+## Storage - S3
+
+[S3 - What is WORM](https://www.youtube.com/watch?v=uoQHqf4rQXQ)
+[S3 - Object Lock](https://www.youtube.com/watch?v=R_3I60yOdHY)
+
