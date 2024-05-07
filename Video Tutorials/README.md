@@ -64,22 +64,6 @@ videoEmbed: true
 
 [etcd in kubernetes --- Architecture](https://www.youtube.com/watch?v=may8CuGyIVM)
 
-## ElasticSearch Stack
-
-[ElasticSearch Concepts --- Architecture, Introduction](https://www.youtube.com/watch?v=C3tlMqaNSaI)
-
-[Cross Cluster Replication --- Ops, HowTo](https://www.youtube.com/watch?v=2Uwh-H_qazE)
-
-[Index Lifecycle Management --- Ops, HowTo](https://www.youtube.com/watch?v=p-AhtrfbEjE)
-
-[Kibana Usage --- HowTo, GUI](https://www.youtube.com/watch?v=_nq5m9_-iS0)
-
-[Logstash Introduction --- Tutorial, CLI](https://www.youtube.com/watch?v=_qgS1m6NTIE)
-
-[Logstash enriching data --- Advanced, CLI](https://www.youtube.com/watch?v=EFYeeNvhBm4)
-
-[Logs in Grafana Loki --- Advanced, Tutorial, 2022](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
-
 ## Ceph
 
 [Ceph Architecture --- Architecture, Intro, 2015](https://www.youtube.com/watch?v=7I9uxoEhUdY)
@@ -109,6 +93,20 @@ videoEmbed: true
 [Helm GitOps at Cern --- Introduction, 2019](https://www.youtube.com/watch?v=g9FQxzK9E_M)
 
 [helmfile --- Introduction, 2020](https://www.youtube.com/watch?v=jl13ixzteWs)
+
+## Logging - ElasticSearch Stack
+
+[ElasticSearch Concepts --- Architecture, Introduction](https://www.youtube.com/watch?v=C3tlMqaNSaI)
+[Cross Cluster Replication --- Ops, HowTo](https://www.youtube.com/watch?v=2Uwh-H_qazE)
+[Index Lifecycle Management --- Ops, HowTo](https://www.youtube.com/watch?v=p-AhtrfbEjE)
+[Kibana Usage --- HowTo, GUI](https://www.youtube.com/watch?v=_nq5m9_-iS0)
+[Logstash Introduction --- Tutorial, CLI](https://www.youtube.com/watch?v=_qgS1m6NTIE)
+[Logstash enriching data --- Advanced, CLI](https://www.youtube.com/watch?v=EFYeeNvhBm4)
+
+## Logging - Loki
+
+[Logs in Grafana Loki --- Advanced, Tutorial, 2022](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
+[Loki Log Query Performance --- Tutorial, 2023](https://www.youtube.com/watch?v=YED8XIm0YPs)
 
 ## Openshift
 
