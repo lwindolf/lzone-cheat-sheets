@@ -82,6 +82,10 @@ using `offset` and `unless`:
     max_over_time( your_metric[4h] ) offset 1h
       unless your_metric
 
+On the fly series label replacing: create `namespace2` from `.*` match on label `namespace`:
+
+    label_replace(http_requests_total, "namespace2", "$1", "namespace", "(.*)")
+
 A good cheat sheet is https://promlabs.com/promql-cheat-sheet/
 
 ## Find metric syntax errors
