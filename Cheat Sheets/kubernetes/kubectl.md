@@ -193,16 +193,6 @@ you can do stuff like
 
 - Saltside: https://engineering.saltside.se/migrating-to-kubernetes-day-20-problems-fbbda4905c23
 
-## Use Cases
-
-- [Web Caching with Kubernetes](https://github.com/Financial-Times?utf8=%E2%9C%93&q=varnish)
-- [MongoDB Replicas as Stateful Sets in GKE](https://pauldone.blogspot.de/2017/06/deploying-mongodb-on-kubernetes-gke25.html)
-- [nginx SSL sidecar](https://vorozhko.net/kubernetes-sidecar-pattern-nginx-ssl-proxy-for-nodejs)
-- Operators
-     - [Kafka](https://github.com/strimzi/strimzi-kafka-operator)
-     - [Couchbase](https://blog.couchbase.com/couchbase-on-openshift-in-action/)
-
-
 ## Authn/Authz
 
 List of auth proxy implementations
@@ -218,6 +208,10 @@ List of auth proxy implementations
 - [Dex](https://github.com/dexidp/dex)
 
 ## Misc
+
+- Solve hanging CRD delete by removing finalizers
+
+       kubectl patch <crd type>/<name> -p '{"metadata":{"finalizers":[]}}' --type=merge 
 
 - [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
 
