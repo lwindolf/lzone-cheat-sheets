@@ -720,6 +720,11 @@
     "category": "Architecture",
     "type": "Cheat Sheet"    
   },
+  "Architecture Decision Records": {
+    "github": "joelparkerhenderson/architecture-decision-record",
+    "category": "Architecture",
+    "type": "Documentation"
+  },
   "Markdown Architecture Decision Records": {
     "github": "adr/madr",
     "category": "Architecture",
