@@ -61,6 +61,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [AWSCookbook Security](https://github.com/AWSCookbook/Security)
 - [Ansible Tutorial](https://github.com/leucos/ansible-tuto)
 - [Architecture Books](https://github.com/mhadidg/software-architecture-books)
+- [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
 - [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
 - [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns)
 - [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns)
