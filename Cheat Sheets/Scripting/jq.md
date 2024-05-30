@@ -213,7 +213,7 @@ with the changed data of "Tim" check out the following solution with `walk`
 
 ### With walk()
 
-   jq '.people | walk(if type == "object" and has("name") and name == "Tim" then .age |= 15 else . end)'
+    jq '.people | walk(if type == "object" and has("name") and name == "Tim" then .age |= 15 else . end)'
 
 ## Using jq in Shell Scripts
 
