@@ -101,10 +101,6 @@ copy anywhere else to use:
 
 - [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
 
-## Great Dashboards
-
-- [Grafana k8s Cost Report](https://grafana.com/grafana/dashboards/8670)
-
 ## Scaling Prometheus
 
 ### Self-hosted TSDB
@@ -124,3 +120,5 @@ copy anywhere else to use:
 - [Blackbox Exporter](https://github.com/prometheus/blackbox_exporter) (allows defining TCP, HTTP... checks for non-k8s endpoints)
 - [Adding many Blackbox Exports](https://medium.com/geekculture/single-prometheus-job-for-dozens-of-blackbox-exporters-2a7ba492d6c8)
 - [Running multi-target exporters](https://prometheus.io/docs/guides/multi-target-exporter/)
+- [Mixins for different tools](https://monitoring.mixins.dev)
+- [Grafana k8s Cost Report](https://grafana.com/grafana/dashboards/8670)
