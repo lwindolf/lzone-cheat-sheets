@@ -1277,5 +1277,15 @@
     "github": "johnjung/rsync_tutorial",
     "type": "Cheat Sheet",
     "category": "DevOps"
+  },
+  "TypeSpec API Generator": {
+    "github": "microsoft/typespec",
+    "type": "Documentation",
+    "category": "Architecture"
+  },
+  "Generating Flamegraphs": {
+    "github": "brendangregg/FlameGraph",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
