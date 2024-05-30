@@ -200,6 +200,21 @@ you can extract the names of the animals using
 jq '.animals | keys'   
 ```
 
+## Replacing stuff
+
+### With map()
+
+If you want to transform a subset of the input JSON and only see the transformed part you can use `map`. For example:
+
+    jq '.people | map(select(.name == "Tim") | .age |= 15)' 
+
+will print the record of "Tim" with "age" set to "15". All other records are not printed! If you want all records
+with the changed data of "Tim" check out the following solution with `walk`
+
+### With walk()
+
+   jq '.people | walk(if type == "object" and has("name") and name == "Tim" then .age |= 15 else . end)'
+
 ## Using jq in Shell Scripts
 
 From [https://www.terraform.io/docs/providers/external/data_source.html](https://www.terraform.io/docs/providers/external/data_source.html)
