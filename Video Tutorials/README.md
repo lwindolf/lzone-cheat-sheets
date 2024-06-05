@@ -84,6 +84,10 @@ videoEmbed: true
 
 [helmfile --- Introduction, 2020](https://www.youtube.com/watch?v=jl13ixzteWs)
 
+## Monitoring
+
+[Otterize - k8s Observability](https://www.youtube.com/watch?v=P-F2KTW9l4o)
+
 ## Logging - ElasticSearch Stack
 
 [ElasticSearch Concepts --- Architecture, Introduction](https://www.youtube.com/watch?v=C3tlMqaNSaI)
