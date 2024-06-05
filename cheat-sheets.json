@@ -827,6 +827,10 @@
         "path": "Cheat Sheets/Solutions/Solutions Automation.md"
       },
       {
+        "name": "Solutions/Solutions CICD",
+        "path": "Cheat Sheets/Solutions/Solutions CICD.md"
+      },
+      {
         "name": "Solutions/Solutions Loadbalancing",
         "path": "Cheat Sheets/Solutions/Solutions Loadbalancing.md"
       },
