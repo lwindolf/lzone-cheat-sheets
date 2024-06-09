@@ -1287,5 +1287,10 @@
     "github": "brendangregg/FlameGraph",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "SprintBoot Best Practices": {
+    "github": "AnghelLeonard/Hibernate-SpringBoot",
+    "type": "Documentation",
+    "category": "Architecture"
   }
 }
