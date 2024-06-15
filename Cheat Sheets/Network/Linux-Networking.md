@@ -31,6 +31,7 @@ See also: [packetlife.net cheetsheets](http://packetlife.net/library/cheat-sheet
 
 ## DNS
 
+- Learn DNS with [messwithdns.net](https://messwithdns.net/)
 - Resolve own IP
 
         dig +short myip.opendns.com @resolver1.opendns.com
