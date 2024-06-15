@@ -7,6 +7,8 @@
     
     smbclient //<server>/<share> -c <cmd> -U <user>   # Run command on share
 
+    testparm -v -s                           # Get all SMB configuration details
+
 ### smbclient Commands
 
 The following commands can be passed with `smbclient //<server>/<share> -c`
