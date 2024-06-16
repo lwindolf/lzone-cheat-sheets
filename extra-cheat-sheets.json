@@ -1295,6 +1295,13 @@
   },
   "AWS EKS Best Practices": {
     "github": "aws/aws-eks-best-practices",
+    "filePattern": "content/(.+).md$",
+    "type": "Documentation",
+    "category": "DevOps"
+  },
+  "AWS ELB Best Practices": {
+    "github": "aws-elb-best-practices",
+    "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
   }
