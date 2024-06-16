@@ -1292,5 +1292,10 @@
     "github": "AnghelLeonard/Hibernate-SpringBoot",
     "type": "Documentation",
     "category": "Architecture"
+  },
+  "AWS EKS Best Practices": {
+    "github": "aws/aws-eks-best-practices",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
