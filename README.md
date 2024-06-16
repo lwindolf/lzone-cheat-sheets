@@ -55,6 +55,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [30s-of-code Git](https://github.com/30-seconds/30-seconds-of-git)
 - [30s-of-code JS](https://github.com/30-seconds/30-seconds-of-code)
 - [30s-of-code Python](https://github.com/30-seconds/30-seconds-of-python)
+- [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices)
 - [AWS EKS Workshop](https://github.com/aws-samples/eks-workshop-v2)
 - [AWS S3 Python](https://github.com/nagwww/aws-s3-book)
 - [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops)
