@@ -291,6 +291,10 @@
         "path": "Cheat Sheets/DevOps Linux/README.md"
       },
       {
+        "name": "DevOps Linux/Wifi",
+        "path": "Cheat Sheets/DevOps Linux/Wifi.md"
+      },
+      {
         "name": "DevOps Linux/X11",
         "path": "Cheat Sheets/DevOps Linux/X11.md"
       },
