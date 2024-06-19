@@ -1,6 +1,12 @@
 {
+  "Cognitive Load": {
+    "github": "zakirullin/cognitive-load",
+    "type": "Tutorial",
+    "category": "Programming"
+  },
   "LearnXinYMinutes": {
     "github": "adambard/learnxinyminutes-docs",
+    "type": "Tutorial",
     "category": "Programming"
   },
   "Awesome Python": {
