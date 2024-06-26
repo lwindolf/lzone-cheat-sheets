@@ -5,9 +5,8 @@ related:
 
 ### Regex Matching
 
-Use conditions with doubled [] and the =\~ operator. Ensure not to quote
-the regular expression. Only BRE are allowed. If the regex has
-whitespaces put it in a variable first.
+Use conditions with doubled `[]` and the `=~` operator. Ensure not to quote the regular expression. Only BRE
+(basic regular expressions) are allowed. If the expression has whitespaces put it in a variable first.
 
     if [[ $string =~ ^[0-9]+$ ]]; then 
         echo "Is a number"
