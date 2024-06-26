@@ -24,8 +24,7 @@ into a variable because you must not quote it in the if condition!
         echo "Hour ${BASH_REMATCH[1]} Minute ${BASH_REMATCH[2]}"
     fi
 
-**Variant \#2:** Actually using "expr" can much simpler especially when
-only on value is to be extracted:
+**Variant \#2:** Actually using "expr" can be much simpler especially when only one value is to be extracted:
 
     hour=$(expr match "$string" '2013:06:23 \([0-9]\+\)')
 
