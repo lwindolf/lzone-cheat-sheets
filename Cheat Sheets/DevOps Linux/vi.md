@@ -99,6 +99,14 @@ vim-addon-manager enable &lt;addon&gt;      # some addons need enabling
 	</tbody>
 </table>
 
+## Colors
+
+    :colortheme                             # Get current theme
+    :colortheme <name>                      # Set another theme (use tab for autocomplete!)
+    
+    :syntax off                             # Disable syntax highlighting
+    :syntax on                              # Enable syntax highlighting
+
 ## Quickfix
 
     :copen                                  # Open quickfix list
