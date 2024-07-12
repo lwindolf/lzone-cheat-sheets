@@ -879,6 +879,10 @@
         "path": "Cheat Sheets/kubernetes/Helm.md"
       },
       {
+        "name": "kubernetes/Loki",
+        "path": "Cheat Sheets/kubernetes/Loki.md"
+      },
+      {
         "name": "kubernetes/Minikube",
         "path": "Cheat Sheets/kubernetes/Minikube.md"
       },
