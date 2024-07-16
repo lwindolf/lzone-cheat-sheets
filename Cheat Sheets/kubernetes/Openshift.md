@@ -37,6 +37,10 @@ Use specific template
 
     oc new-app https://github.com/name/project --template=<template>
 
+## Entitled Builds
+
+See [https://developers.redhat.com/articles/2022/01/24/create-entitled-builds-red-hat-subscriptions-openshift](https://developers.redhat.com/articles/2022/01/24/create-entitled-builds-red-hat-subscriptions-openshift#)
+
 ## Cluster Administration
 
 Removing/Readding nodes
