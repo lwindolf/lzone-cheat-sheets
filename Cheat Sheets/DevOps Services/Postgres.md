@@ -3,6 +3,12 @@ related:
   cheat-sheet: ['PgBouncer']
 ---
 
+## psql Client
+
+     psql <db name>
+     psql <db name> -c "<sql query>"
+     psql -P pager=off -c "<sql query>" >out.txt
+
 ## SQL
 
 Using Regular Expressions
