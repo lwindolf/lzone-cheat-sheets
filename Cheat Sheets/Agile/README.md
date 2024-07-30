@@ -18,3 +18,4 @@
 - ADR https://www.thoughtworks.com/de/radar/techniques/lightweight-architecture-decision-records
 - WSJF https://www.scaledagileframework.com/wsjf/
 - Scaled Agile https://www.scaledagileframework.com/
+- Retromat https://retromat.org
