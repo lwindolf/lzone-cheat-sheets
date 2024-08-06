@@ -2,8 +2,11 @@
 
 Salt (Infrastructure Management tool) can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.
 
-Source - [Salt Project](https://docs.saltproject.io/en/latest/)
-[Install and get started with Salt](https://docs.saltproject.io/en/latest/topics/installation/index.html)  
+See also
+- [Salt Project](https://docs.saltproject.io/en/latest/)
+- [Install and get started with Salt](https://docs.saltproject.io/en/latest/topics/installation/index.html)
+- [salt Cheat Sheet](https://github.com/saltstack/salt/wiki/Cheat-Sheet)
+- [saltstack Cheat Sheet](https://github.com/harkx/saltstack-cheatsheet)
 
 # SaltStack commands
 
