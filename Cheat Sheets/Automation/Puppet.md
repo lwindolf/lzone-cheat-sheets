@@ -95,10 +95,8 @@ related:
                    # 2=changes applied
                    # 4=failure
 
--   [Gepetto: Puppet
-    IDE](http://puppetlabs.com/blog/geppetto-a-puppet-ide)
--   [puppet - Correctly using Roles and
-    Profiles](http://www.craigdunn.org/2012/05/239/)
+-   [Gepetto: Puppet IDE](http://puppetlabs.com/blog/geppetto-a-puppet-ide)
+-   [puppet - Correctly using Roles and Profiles](http://www.craigdunn.org/2012/05/239/)
 
 ### Puppet 2/3 Master
 
@@ -180,8 +178,7 @@ Execute commands (evil!)
 
 ### Augeas
 
-[Augeas - in
-Puppet](http://projects.puppetlabs.com/projects/1/wiki/Puppet_Augeas):
+[Augeas - in Puppet](http://projects.puppetlabs.com/projects/1/wiki/Puppet_Augeas):
 Using Puppet with Augeas
 
     augeas { "sshd_config":
@@ -207,9 +204,7 @@ Using Puppet with Augeas
 
 ### Misc
 
--   [Vim Autoformatting for
-    Puppet](http://blog.netways.de/2012/10/30/puppet-und-vim/)
--   [Vim
-    puppet-lint](https://blog.netways.de/2012/11/13/vim-puppet-lint-und-syntastic/)
--   [Atom Editor puppet-lint](https://atom.io/packages/atom-lint)
-
+- [Vim Autoformatting for Puppet](http://blog.netways.de/2012/10/30/puppet-und-vim/)
+- [Vim puppet-lint](https://blog.netways.de/2012/11/13/vim-puppet-lint-und-syntastic/)
+- [Atom Editor puppet-lint](https://atom.io/packages/atom-lint)
+- [Iterating in Puppet](https://www.devco.net/archives/2015/12/16/iterating-in-puppet.php)
