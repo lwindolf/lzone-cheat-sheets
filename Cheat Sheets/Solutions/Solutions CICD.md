@@ -1,22 +1,24 @@
 CICD solutions outside the cloud:
 
-## CI self-hosted
+ ## CI self-hosted
 
 - Github Enterprise
 - Atlassian Bitbucket
 - Gitlab
 - CircleCI
-- Jenkins
+- [Jenkins CI](https://wiki.jenkins-ci.org)
 - TeamCity
 
 Less common
 
-- Atlassian Bamboo
-- RunDeck
+- [Atlassian Bamboo](https://www.atlassian.com/software/bamboo/)
+- [RunDeck](https://www.rundeck.com/)
+- [CruiseControl](https://cruisecontrol.sourceforge.net/)
+- fabric: Language for deployment scripts
 
 ## CI SaaS
 
-- TravisCI
+- [Travis CI](https://travis-ci.org)
 - Github
 - Gitlab
 - CircleCI
