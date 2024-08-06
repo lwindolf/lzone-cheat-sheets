@@ -110,27 +110,6 @@ Real Time Metrics
 - RAML
 - [Swagger](http://editor.swagger.io)
 
-### Software Architecture
-
-F5 Series on Architecture
-
-1) Cloud/Automated Systems need an Architecture
-
-[https://devcentral.f5.com/articles/cloud-automated-systems-need-an-architecture-26975](https://devcentral.f5.com/articles/cloud-automated-systems-need-an-architecture-26975)
-
-2) The Service Model for Cloud/Automated Systems Architectures
-
-[https://devcentral.f5.com/articles/the-service-model-for-cloud-automated-systems-architectures-27129](https://devcentral.f5.com/articles/the-service-model-for-cloud-automated-systems-architectures-27129)
-
-3) The Deployment Model for Cloud/Automated Systems Architectures
-
-[https://devcentral.f5.com/articles/the-deployment-model-for-cloud-automated-systems-architectures-27228](https://devcentral.f5.com/articles/the-deployment-model-for-cloud-automated-systems-architectures-27228)
-
-4) The Operational Model for Cloud/Automated Systems Architectures
-
-[https://devcentral.f5.com/articles/the-operational-model-for-cloud-automated-systems-architectures-27254?sf92906191=1](https://devcentral.f5.com/articles/the-operational-model-for-cloud-automated-systems-architectures-27254?sf92906191=1)
-
-
 ### People
 
 #### Feature Management
