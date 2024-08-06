@@ -51,10 +51,6 @@
         "path": "Cheat Sheets/Automation/Swagger.md"
       },
       {
-        "name": "Automation/Terraform",
-        "path": "Cheat Sheets/Automation/Terraform.md"
-      },
-      {
         "name": "CICD/ArgoCD",
         "path": "Cheat Sheets/CICD/ArgoCD.md"
       },
@@ -145,6 +141,10 @@
       {
         "name": "Cloud/S3",
         "path": "Cheat Sheets/Cloud/S3.md"
+      },
+      {
+        "name": "Cloud/Terraform",
+        "path": "Cheat Sheets/Cloud/Terraform.md"
       },
       {
         "name": "Cloud/VM Tuning",
