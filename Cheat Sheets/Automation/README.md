@@ -1,6 +1,6 @@
 ## Link Collection
 
-- [cfengine Guide](https://docs.cfengine.com/latest/guide.html)
+- [cfengine Guide](https://docs.cfengine.com/docs/)
 - [salt Cheat Sheet](https://github.com/saltstack/salt/wiki/Cheat-Sheet)
 - [saltstack Cheat Sheet](https://github.com/harkx/saltstack-cheatsheet)
 - [Puppet - Iterating](https://www.devco.net/archives/2015/12/16/iterating-in-puppet.php)
