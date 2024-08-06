@@ -1,3 +1,5 @@
+See also [Terraform Docs](https://www.terraform.io/docs/commands/index.html)
+
 ## CLI Commands
 
     terraform plan         # dry run
