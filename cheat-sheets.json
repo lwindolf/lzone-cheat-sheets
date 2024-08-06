@@ -839,6 +839,10 @@
         "path": "Cheat Sheets/Solutions/Solutions Firewall.md"
       },
       {
+        "name": "Solutions/Solutions Install Server",
+        "path": "Cheat Sheets/Solutions/Solutions Install Server.md"
+      },
+      {
         "name": "Solutions/Solutions Loadbalancing",
         "path": "Cheat Sheets/Solutions/Solutions Loadbalancing.md"
       },
