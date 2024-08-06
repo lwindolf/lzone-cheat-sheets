@@ -13,7 +13,7 @@ related:
 
         diamond-setup -p -C <name>Collector
 
--   [grafana](http://grafana.org) - Graphite / InfluxDB dashboard
+-   [grafana](http://grafana.org) - dashboards for all monitoring sources
 -   [Graphite Clustering](http://bitprophet.org/blog/2013/03/07/graphite/)
 -   Graphite Backends:
     -   Whisper (legacy): fixed-sized database
