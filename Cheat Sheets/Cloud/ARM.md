@@ -1,3 +1,5 @@
+This page is about the Azure Resource Manager (ARM)
+
 ## ARM Template Creation
 
 ### Via Azure Portal
