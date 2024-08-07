@@ -291,6 +291,10 @@
         "path": "Cheat Sheets/DevOps Linux/X11.md"
       },
       {
+        "name": "DevOps Linux/XDG",
+        "path": "Cheat Sheets/DevOps Linux/XDG.md"
+      },
+      {
         "name": "DevOps Linux/ZFS",
         "path": "Cheat Sheets/DevOps Linux/ZFS.md"
       },
