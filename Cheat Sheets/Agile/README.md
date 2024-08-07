@@ -5,7 +5,6 @@
 - Scrum http://www.agile42.de/de/agile-info-center/scrum-cheat-sheet/
 - Scrumban https://www.agilealliance.org/what-is-scrumban/
 - Team of Teams https://de.slideshare.net/codegenesys/teams-of-teams-slideshare
-- Semantic Services http://pivio.io/
 - Agile Roles http://agiletraining.com/wp-content/uploads/2014/09/Agile-vs.-Traditional-Roles.pdf
 - Wardley Maps https://medium.com/wardleymaps/on-playing-chess-2634b825dbac
 - Use Cases http://www.gatherspace.com/static/use_case_example.html
