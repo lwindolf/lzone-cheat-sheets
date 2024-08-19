@@ -148,6 +148,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Documentation knative](https://github.com/knative/docs)
 - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
 - [Documentation kubernetes](https://github.com/kubernetes/website)
+- [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets)
 - [Documentation pfsense (legacy)](https://github.com/pfsense/docs)
 - [Documentation pprof](https://github.com/google/pprof)
 - [Documentation rundeck](https://github.com/rundeck/docs)
