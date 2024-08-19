@@ -1310,5 +1310,10 @@
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "Documentation kubeseal": {
+    "github": "bitnami-labs/sealed-secrets",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
