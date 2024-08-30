@@ -972,6 +972,10 @@
         "path": "runbooks/arp.md"
       },
       {
+        "name": "bluetooth",
+        "path": "runbooks/bluetooth.md"
+      },
+      {
         "name": "df - Inodes",
         "path": "runbooks/df - Inodes.md"
       },
