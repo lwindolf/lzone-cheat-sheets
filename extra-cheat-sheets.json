@@ -763,8 +763,8 @@
     "category": "DevOps",
     "type": "Cheat Sheets"
   },
-  "DevOps Cheat Sheet": {
-    "github": "anshudutta/DevOps-cheat-sheet",
+  "SRE Cheat Sheet": {
+    "github": "anshudutta/sre-cheat-sheet",
     "category": "DevOps",
     "type": "Cheat Sheets"
   },
