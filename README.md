@@ -170,6 +170,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [Google DevOps Governance](https://github.com/google/devops-governance)
 - [Google Engineering Practices](https://github.com/google/eng-practices)
 - [How Programming Works](https://github.com/HowProgrammingWorks/Book)
+- [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 - [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal)
 - [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews)
 - [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions)
