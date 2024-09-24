@@ -1315,5 +1315,10 @@
     "github": "bitnami-labs/sealed-secrets",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "How to secure a Linux Server": {
+    "github": "imthenachoman/How-To-Secure-A-Linux-Server",
+    "type": "Documentation",
+    "category": "Security"
   }
 }
