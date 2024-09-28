@@ -13,36 +13,33 @@ related:
 
         diamond-setup -p -C <name>Collector
 
--   [grafana](http://grafana.org) - dashboards for all monitoring sources
--   [Graphite Clustering](http://bitprophet.org/blog/2013/03/07/graphite/)
+-   [grafana](https://grafana.org) - dashboards for all monitoring sources
+-   [Graphite Clustering](https://bitprophet.org/blog/2013/03/07/graphite/)
 -   Graphite Backends:
     -   Whisper (legacy): fixed-sized database
     -   Ceres: sparse data, arbitrary fixed-size resolutions
 
 ### Munin
 
--   Munin - Test Plugins:
+- Munin - Test Plugins:
 
         /usr/sbin/munin-run <plugin name> # for values
         /usr/sbin/munin-run <plugin name> config # for configuration
 
--   [Munin - Test available plugins](http://articles.slicehost.com/2010/4/9/enabling-munin-node-plug-ins-on-centos)
+- Munin - Test available plugins]
 
         /usr/sbin/munin-node-configure --suggest
 
         # and enable them using
         /usr/sbin/munin-node-configure --shell | sh
 
--   Munin Server - Manual Update Run:
+- Munin Server - Manual Update Run:
 
         sudo -u munin /usr/bin/munin-cron
 
 ### Nagios, Icinga
 
--   [dmesg Nagios Plugin](/Nagios-Plugin-for-dmesg-Monitoring)
--   [Icinga 1 - status.cgi Parameters](http://docs.icinga.org/latest/en/cgiparams.html)
--   [Icinga 1 - Object Tricks](http://docs.icinga.org/latest/en/objecttricks.html):
-    Negative hostgroup definitions
+-   Icinga 1 - Object Tricks: Negative hostgroup definitions
 
         define service {
             ...
@@ -60,7 +57,7 @@ related:
             assign where "MyHostGroup" in host.groups
         }
 
--   [Mod-Gearman](http://mod-gearman.org/): Nagios distributed checking
+-   [Mod-Gearman](https://mod-gearman.org/): Nagios distributed checking
     (previously called Naemon)
 -   Gearman Debugging:
 
@@ -68,6 +65,6 @@ related:
 
 ### Misc
 
--   [Jolokia](http://jolokia.org/) JMX HTTP/JSON bridge +
-    [jxm4perl](http://search.cpan.org/~roland/jmx4perl/scripts/jmx4perl)
+-   [Jolokia](https://jolokia.org/) JMX HTTP/JSON bridge +
+    [jxm4perl](https://search.cpan.org/~roland/jmx4perl/scripts/jmx4perl)
 
