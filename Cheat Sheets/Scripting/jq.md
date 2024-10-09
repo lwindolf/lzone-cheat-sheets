@@ -92,6 +92,11 @@ jq '.items[] | .metadata["created"], .name'
 
 The drawback being, that you do not get a JSON output, but each value on a new line.
 
+## Checking for keys
+
+    select(.myhash | has("Cat"))      # Checks if hash  'myhash' has a key "Cat"
+    select(.myarr | index("John"))    # Checks if array 'myarr' has an element with value "John"
+
 ## Accessing unknown keys
 
 When processing objects you might not know about some keys, in this case use `to_entries`. For example
