@@ -27,10 +27,6 @@
         "path": "Cheat Sheets/Automation/Mcollective.md"
       },
       {
-        "name": "Automation/Monitoring",
-        "path": "Cheat Sheets/Automation/Monitoring.md"
-      },
-      {
         "name": "Automation/Puppet - Hiera",
         "path": "Cheat Sheets/Automation/Puppet - Hiera.md"
       },
@@ -581,6 +577,10 @@
       {
         "name": "Mobile/adb",
         "path": "Cheat Sheets/Mobile/adb.md"
+      },
+      {
+        "name": "Monitoring/Graphite",
+        "path": "Cheat Sheets/Monitoring/Graphite.md"
       },
       {
         "name": "Network/Linux-Networking",
