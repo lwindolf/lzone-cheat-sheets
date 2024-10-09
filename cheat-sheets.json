@@ -579,6 +579,10 @@
         "path": "Cheat Sheets/Mobile/adb.md"
       },
       {
+        "name": "Monitoring/Grafana",
+        "path": "Cheat Sheets/Monitoring/Grafana.md"
+      },
+      {
         "name": "Monitoring/Graphite",
         "path": "Cheat Sheets/Monitoring/Graphite.md"
       },
