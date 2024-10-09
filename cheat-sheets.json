@@ -591,6 +591,10 @@
         "path": "Cheat Sheets/Monitoring/Nagios.md"
       },
       {
+        "name": "Monitoring/Prometheus",
+        "path": "Cheat Sheets/Monitoring/Prometheus.md"
+      },
+      {
         "name": "Network/Linux-Networking",
         "path": "Cheat Sheets/Network/Linux-Networking.md"
       },
@@ -921,10 +925,6 @@
       {
         "name": "kubernetes/PKS",
         "path": "Cheat Sheets/kubernetes/PKS.md"
-      },
-      {
-        "name": "kubernetes/Prometheus",
-        "path": "Cheat Sheets/kubernetes/Prometheus.md"
       },
       {
         "name": "kubernetes/Tekton",
