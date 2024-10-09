@@ -583,6 +583,10 @@
         "path": "Cheat Sheets/Monitoring/Graphite.md"
       },
       {
+        "name": "Monitoring/Munin",
+        "path": "Cheat Sheets/Monitoring/Munin.md"
+      },
+      {
         "name": "Network/Linux-Networking",
         "path": "Cheat Sheets/Network/Linux-Networking.md"
       },
