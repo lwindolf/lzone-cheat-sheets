@@ -587,6 +587,10 @@
         "path": "Cheat Sheets/Monitoring/Munin.md"
       },
       {
+        "name": "Monitoring/Nagios",
+        "path": "Cheat Sheets/Monitoring/Nagios.md"
+      },
+      {
         "name": "Network/Linux-Networking",
         "path": "Cheat Sheets/Network/Linux-Networking.md"
       },
