@@ -587,6 +587,10 @@
         "path": "Cheat Sheets/Monitoring/Graphite.md"
       },
       {
+        "name": "Monitoring/Loki",
+        "path": "Cheat Sheets/Monitoring/Loki.md"
+      },
+      {
         "name": "Monitoring/Munin",
         "path": "Cheat Sheets/Monitoring/Munin.md"
       },
@@ -909,10 +913,6 @@
       {
         "name": "kubernetes/Helm",
         "path": "Cheat Sheets/kubernetes/Helm.md"
-      },
-      {
-        "name": "kubernetes/Loki",
-        "path": "Cheat Sheets/kubernetes/Loki.md"
       },
       {
         "name": "kubernetes/Minikube",
