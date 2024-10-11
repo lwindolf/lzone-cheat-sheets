@@ -167,6 +167,16 @@ Either limit the history via optional spec fields:
     .spec.successfulJobsHistoryLimit 
     .spec.failedJobsHistoryLimit
 
+## Modifying STS without downtime
+
+Many fields in an STS cannot be changed. Sometimes you need to update an STS in production
+and want no downtime. In this case remove it like this:
+
+    kubectl delete sts <name> --cascade=false
+
+This will ensure all pods stay up. Next create the STS with your new configuration and restart
+the pods sequentially.
+
 ## Shorter CLI 
 
 With those two bash lines
