@@ -1,3 +1,7 @@
+## Debugging
+
+    curl localhost:3100/config      # Dump active config
+
 ## Log Query Examples
 
 Convert log string to json
