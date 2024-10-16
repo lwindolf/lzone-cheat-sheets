@@ -92,3 +92,7 @@ When you want to merge user passed settings with some defaults use `JAVA_TOOL_OP
         -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/gc.log
 
 -   [JVM - jstat](http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstat.html): Oracle helper tool
+
+## Using Oracle Flightrecorder
+
+[https://github.com/sureshg/sureshg.github.io/blob/e3551a6975e2b76ffbe05e234c8cf2ad3ea63f03/Writerside/topics/notes/JVM-Profiling.md?plain=1#L46](https://github.com/sureshg/sureshg.github.io/blob/e3551a6975e2b76ffbe05e234c8cf2ad3ea63f03/Writerside/topics/notes/JVM-Profiling.md?plain=1#L46)
