@@ -1,3 +1,22 @@
+## CLI
+
+   jcmd                      # Print all Java processes
+   jcmd <pid> help           # Show supported commands
+
+   jcmd <pid> VM.system_properties 
+   
+   jcmd <pid> GC.class_histogram
+   
+   jcmd <pid> GC.heap_dump /tmp/heap_dump.hprof        # Heap dump with full GC
+   jcmd <pid> GC.heap_dump -all /tmp/heap_dump.hprof   # Heap dump without full GC
+   
+   jcmd <pid> Thread.print    # Create thread dump
+
+## Legacy CLI
+
+   jps                        # Java7 print all processes
+   jstack -l <pid>            # Create thread dump (Before Java8)
+
 ## Heapsize calculation
 
 You can print the effective heap size and RAM settions by using `-XX:+PrintFlagsFinal`. 
