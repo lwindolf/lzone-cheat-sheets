@@ -13,6 +13,11 @@
     jcmd <pid> Thread.print    # Create thread dump
     kill -3 <pid>              # Create thread dump to JVM stdout
 
+When using Oracle Java
+
+    jcmd <pid> JFR.start       # Start flight recorder trace
+    jcmd <pid> JFR.dump        # Dump flight recorder trace
+
 ## Legacy CLI
 
     jps                        # Java7 print all processes
@@ -95,5 +100,16 @@ When you want to merge user passed settings with some defaults use `JAVA_TOOL_OP
 -   [JVM - jstat](http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstat.html): Oracle helper tool
 
 ## Using Oracle Flightrecorder
+
+First create a recording file with `jcmd` (see CLI section above) and then analyse it with
+
+    jfr print recording.jfr
+    jfr print --events CPULoad,GarbageCollection recording.jfr
+    jfr print --json --events CPULoad recording.jfr
+    jfr print --categories 'GC,JVM,Java*' recording.jfr
+    jfr print --events 'jdk.*' --stack-depth 64 recording.jfr
+    jfr summary recording.jfr
+    jfr metadata recording.jfr
+    jfr metadata --categories GC,Detailed
 
 [https://github.com/sureshg/sureshg.github.io/blob/e3551a6975e2b76ffbe05e234c8cf2ad3ea63f03/Writerside/topics/notes/JVM-Profiling.md?plain=1#L46](https://github.com/sureshg/sureshg.github.io/blob/e3551a6975e2b76ffbe05e234c8cf2ad3ea63f03/Writerside/topics/notes/JVM-Profiling.md?plain=1#L46)
