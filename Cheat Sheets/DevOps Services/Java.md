@@ -11,6 +11,7 @@
     jcmd <pid> GC.heap_dump -all /tmp/heap_dump.hprof   # Heap dump without full GC
    
     jcmd <pid> Thread.print    # Create thread dump
+    kill -3 <pid>              # Create thread dump to JVM stdout
 
 ## Legacy CLI
 
