@@ -97,6 +97,10 @@ copy anywhere else to use:
 
     curl -s localhost:8080/metrics | promtool check metrics
 
+## Relabeling Metrics
+
+See [https://last9.io/blog/mastering-prometheus-relabeling-a-comprehensive-guide/](https://last9.io/blog/mastering-prometheus-relabeling-a-comprehensive-guide/)
+
 ## Problems of Prometheus
 
 - [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
