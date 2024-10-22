@@ -125,3 +125,7 @@ Machine readable: you need to use sadf
 -   Running parallel SSH sessions using xargs
 
         echo "$hosts" | xargs --replace={} -t -n 1 -P 15 sh -c "ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=publickey {} date || :"
+
+- Force line buffering (aka autoflush) for a process that does buffer logs
+
+        exec stdbuf -oL -eL <command>
