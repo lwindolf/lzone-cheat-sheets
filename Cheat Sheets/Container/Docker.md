@@ -12,9 +12,7 @@ Note in the following examples `<container>` is either a container id, or a cont
 
 List machine readable:
 
-{% raw %}
     docker ps -a --format "{{.ID}},{{.Names}},{{.Status}},{{.Image}},{{.Ports}}"
-{% endraw %}
 
 ### Inspecting containers
 
@@ -168,14 +166,12 @@ For running containers and docker host:
 
 ## Misc
 
--   [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker
-    container support on AWS
--   [Docker Patterns](http://www.hokstad.com/docker/patterns) -
-    container inheritance examples
--   [Container Hardening
-    Script](https://gist.github.com/jumanjiman/f9d3db977846c163df12)
--   [dive: Image Layer Traversal](https://github.com/wagoodman/dive)
--   [Add CVE scanning to Docker build](https://www.tigera.io/blog/adding-cve-scanning-to-a-ci-cd-pipeline/)
+- [Docker Multi-Stage Builds](https://docs.docker.com/build/building/multi-stage/)
+- [Amazon EC2 Container Service](http://aws.amazon.com/ecs/) - Docker container support on AWS
+- [Docker Patterns](http://www.hokstad.com/docker/patterns) - container inheritance examples
+- [Container Hardening Script](https://gist.github.com/jumanjiman/f9d3db977846c163df12)
+- [dive: Image Layer Traversal](https://github.com/wagoodman/dive)
+- [Add CVE scanning to Docker build](https://www.tigera.io/blog/adding-cve-scanning-to-a-ci-cd-pipeline/)
 
 ### Best Practices for Images
 
