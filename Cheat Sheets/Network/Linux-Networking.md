@@ -225,15 +225,14 @@ Check with
 
 ## Debugging
 
--   [X-Trace - Multi-protocol tracing
-    framework](http://x-trace.net/pubs/nsdi-html/xtrace.html)
--   iptraf - Real-time statistics in ncurses interfaces
--   mtr - Debug routing/package loss issues
+- [X-Trace - Multi-protocol tracing framework](http://x-trace.net/pubs/nsdi-html/xtrace.html)
+- iptraf - Real-time statistics in ncurses interfaces
+- mtr - Debug routing/package loss issues
 
         mtr --report <host>                     # ping based
         mtr --report --tcp --port 443 <host>    # connection based
 
--   netstat - The different modes
+- netstat - The different modes
 
         # Typically used modes
         netstat -rn          # List routes
@@ -249,7 +248,7 @@ Check with
         netstat -i            # List interfaces and counters
         netstat -o           # Watch time/wait handling
 
--   nttcp - TCP performance testing
+- nttcp - TCP performance testing
 
         # On sending host
         nttcp -t -s
@@ -257,17 +256,15 @@ Check with
         # On receiving host
         nttcp -r -s
 
--   List Kernel Settings
+- List Kernel Settings
 
         sysctl net
 
--   [SNMP - Dump all
-    MIBs](http://net-snmp.sourceforge.net/wiki/index.php/TUT:snmpwalk):
-    When you need to find the MIB for an object known only by name try
+- [SNMP - Dump all MIBs](http://net-snmp.sourceforge.net/wiki/index.php/TUT:snmpwalk):
+  When you need to find the MIB for an object known only by name try
 
         snmpwalk -c public -v 1 -O s <myhost> .iso | grep <search string>
 
--   [Hurricane Electric - BGP Tools](http://bgp.he.net/): Statistics on
-    all AS as well as links to their looking glasses.
--   [darkstat](https://unix4lyfe.org/darkstat/) - libpcap monitoring
-
+- [Hurricane Electric - BGP Tools](http://bgp.he.net/): Statistics on all AS as well as links to their looking glasses.
+- [darkstat](https://unix4lyfe.org/darkstat/) - libpcap monitoring
+- [Why the IPv6 transition did not happen](https://www.potaroo.net/ispcol/2024-10/ipv6-transition.html)
