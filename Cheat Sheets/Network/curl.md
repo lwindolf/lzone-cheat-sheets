@@ -13,6 +13,9 @@
      
      # HEAD request
      curl -I https://example.com/file
+
+     # Continue aborted download
+     curl -C - <url>
      
 ## Timeouts
 
