@@ -651,6 +651,10 @@
         "path": "Cheat Sheets/Network/unbound.md"
       },
       {
+        "name": "Network/wget",
+        "path": "Cheat Sheets/Network/wget.md"
+      },
+      {
         "name": "Packaging/Bower",
         "path": "Cheat Sheets/Packaging/Bower.md"
       },
