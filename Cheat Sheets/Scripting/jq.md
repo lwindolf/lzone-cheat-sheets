@@ -294,4 +294,9 @@ echo '{ "a": 1234.56 }' | jq '.a | ceil'      # gives 1234
 
 ## Misc
 
-- Split JSON files https://stackoverflow.com/questions/49808581/using-jq-how-can-i-split-a-very-large-json-file-into-multiple-files-each-a-spec
+- [Split JSON files](https://stackoverflow.com/questions/49808581/using-jq-how-can-i-split-a-very-large-json-file-into-multiple-files-each-a-spec)
+- [Diff JSON files](https://stackoverflow.com/questions/31930041/using-jq-or-alternative-command-line-tools-to-compare-json-files)
+
+      diff -u 10 \
+          <(jq -S 'def post_recurse(f): def r: (f | select(. != null) | r), .; r; def post_recurse: post_recurse(.[]?); (. | (post_recurse | arrays) |= sort)' "$original_json") \
+          <(jq -S 'def post_recurse(f): def r: (f | select(. != null) | r), .; r; def post_recurse: post_recurse(.[]?); (. | (post_recurse | arrays) |= sort)' "$changed_json")
