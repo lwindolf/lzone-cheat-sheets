@@ -71,7 +71,14 @@ For existing resources you can use specific commands
     kubectl set env deployment/<name> <environment variable>=<value>
     kubectl set env deployment/<name> --list
     kubectl set env pods --all --list
-   
+
+## Rollouts
+
+Both deployments and statefulset rollouts can be controlled with
+
+    kubectl rollout restart sts/<name>
+    kubectl rollout status --watch --timeout=120s sts/<name>
+
 ## Debugging in Pods
 
 Running commands in pods
