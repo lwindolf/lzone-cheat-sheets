@@ -23,6 +23,16 @@ When using Oracle Java
     jps                        # Java7 print all processes
     jstack -l <pid>            # Create thread dump (Before Java8)
 
+## keytool Usage
+
+Note `changeme` is the default password of unprotected/fresh Java keystores. Set a new password with `-storepassword`
+
+    keytool -list                                         # Show content of default keystore
+    keytool -list -keystore <file>                        # Show content of file
+    keytool -list -rfc -keystore <file> -alias <alias>    # Print cert with details
+    
+    keytool -storepassword -keystore <file>               # Change password of keystore
+
 ## Heapsize calculation
 
 You can print the effective heap size and RAM settions by using `-XX:+PrintFlagsFinal`. 
