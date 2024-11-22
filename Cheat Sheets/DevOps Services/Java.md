@@ -25,7 +25,7 @@ When using Oracle Java
 
 ## keytool Usage
 
-Note `changeit` is the default password of unprotected OS keystores. Set a new password with `-storepassword`
+Note `changeit` is the default password OS keystores
 
     # Find OS Default Keystore Location
     readlink -e $(dirname $(readlink -e $(which keytool)))/../lib/security/cacerts
