@@ -25,7 +25,10 @@ When using Oracle Java
 
 ## keytool Usage
 
-Note `changeme` is the default password of unprotected/fresh Java keystores. Set a new password with `-storepassword`
+Note `changeit` is the default password of unprotected OS keystores. Set a new password with `-storepassword`
+
+    # Find OS Default Keystore Location
+    readlink -e $(dirname $(readlink -e $(which keytool)))/../lib/security/cacerts
 
     keytool -list                                         # Show content of default keystore
     keytool -list -keystore <file>                        # Show content of file
@@ -76,10 +79,6 @@ urandom as RNG by adding the following JVM option
 ## Check if you are using Oracle JDK (and need a valid license)
 
     pgrep -fl java | grep -q "+UnlockCommercialFeatures"
-
-## Default Keystore Location
-
-    readlink -e $(dirname $(readlink -e $(which keytool)))/../lib/security/cacerts
 
 ## JMX Remote JConsole via SSH tunnel
 
