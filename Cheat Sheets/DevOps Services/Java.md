@@ -30,6 +30,9 @@ Note `changeme` is the default password of unprotected/fresh Java keystores. Set
     keytool -list                                         # Show content of default keystore
     keytool -list -keystore <file>                        # Show content of file
     keytool -list -rfc -keystore <file> -alias <alias>    # Print cert with details
+
+    # Importing
+    keytool -importcert -trustcacerts -keystore <file> -alias <alias> -file <cert file>
     
     keytool -storepassword -keystore <file>               # Change password of keystore
 
