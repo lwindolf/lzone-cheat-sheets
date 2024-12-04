@@ -275,6 +275,7 @@ Note: you can install even more cheat sheets in your local browser using the
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [Tekton 101](https://github.com/dewan-ahmed/Tekton101)
+- [The Bread Code](https://github.com/hendricius/the-bread-code)
 - [The JS Way](https://github.com/thejsway/thejsway)
 - [TypeSpec API Generator](https://github.com/microsoft/typespec)
 - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
