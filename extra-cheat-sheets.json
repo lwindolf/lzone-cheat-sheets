@@ -1320,5 +1320,10 @@
     "github": "imthenachoman/How-To-Secure-A-Linux-Server",
     "type": "Documentation",
     "category": "Security"
+  },
+  "The Bread Code": {
+    "github": "hendricius/the-bread-code",
+    "type": "Book",
+    "category": "DevOps"
   }
 }
