@@ -85,4 +85,4 @@ Removing files/directories
 
 ## Search AD user
 
-Get-ADUser -Filter 'Name -like ".*Smith.*"' | Format-Table Name,SamAccountName -A
+    Get-ADUser -Filter 'Name -like ".*Smith.*"' | Format-Table Name,SamAccountName -A
