@@ -82,3 +82,7 @@ Removing files/directories
 ## Using a proxy
 
     $env:https_proxy='<server>:<port>'
+
+## Search AD user
+
+Get-ADUser -Filter 'Name -like ".*Smith.*"' | Format-Table Name,SamAccountName -A
