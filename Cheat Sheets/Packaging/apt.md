@@ -95,11 +95,19 @@ Run upgrade with
 
 You can configure prompting for versions by changing `Prompt=lts` in `/etc/update-manager/release-upgrades`
 
-### Snapshots
+### EOL distro upgrades
 
-Access Repositories for older releases. Once a release is deprecated it is moved to old-releases.ubuntu.com. You need to adapt `/etc/apt/sources.list` to fetch packages from there
+First you need to access APT repositories from the archive server `old-releases.ubuntu.com`. So you need to adapt `/etc/apt/sources.list` to fetch packages from there
 
     sed -i 's/archive.ubuntu.com/old-releases.ubuntu.com/' /etc/apt/sources.list
+
+If `do-release-upgrade` tells you that "An upgrade from 'xxxxx' to 'yyyyy' is not supported" you need 
+to download the proper updater tool:
+
+    wget http://archive.ubuntu.com/ubuntu/dists/xxxxx-updates/main/dist-upgrader-all/current/xxxxx.tar.gz
+
+Ensure to replace "xxxxx" with the release name. If the download does not work replace `archive.ubuntu.com`
+with `old-releases.ubuntu.com`.
 
 ### Check for new HWE
 
