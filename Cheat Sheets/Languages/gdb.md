@@ -10,14 +10,20 @@ Loading an existing core file
 
 ## GDB CLI
 
-    bt                      # Show call stack
-    thread apply all bt     # Show call stack for all threads
+    bt                        # Show call stack
+    thread apply all bt       # Show call stack for all threads
 
-    break <symbol>          # Set breakpoint on symbol
-    break <file:line>       # Set breakpoint on code line
+    frame <nr>                # Enter frame of the call stack
+    print <name>              # Print scalar value
+    print *<object>           # Print struct members
+    print *(MyObject *)<ptr>  # Cast pointer to type and print it (can be nested!)
+    print obj->member         # Access members by pointer
+
+    break <symbol>            # Set breakpoint on symbol
+    break <file:line>         # Set breakpoint on code line
     
-    set -- arg1 arg2 ...    # Set arguments for your program
-    run                     # ... and run it again
+    set -- arg1 arg2 ...      # Set arguments for your program
+    run                       # ... and run it again
 
     set print elements 10000     # Print the string buffers with up to 10k chars
     set debuginfod enabled off   # Disable debug info download from internet
