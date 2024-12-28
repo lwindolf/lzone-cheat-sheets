@@ -21,6 +21,9 @@ Loading an existing core file
 
     break <symbol>            # Set breakpoint on symbol
     break <file:line>         # Set breakpoint on code line
+
+    s                         # Step to next code line (short for "step")
+    c                         # Continue execution (short for "continue")
     
     set -- arg1 arg2 ...      # Set arguments for your program
     run                       # ... and run it again
