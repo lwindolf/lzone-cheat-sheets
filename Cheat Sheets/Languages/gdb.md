@@ -1,35 +1,30 @@
-## Debugging Code
+## Starting GDB
 
-### GDB
+Ensure you always get debug symbols
 
-- Ensure you always get debug symbols
+    export CFLAGS="-Wall -ggdb"
 
-      export CFLAGS="-Wall -ggdb"
+Loading an existing core file
 
-- [gdb - global thread dump](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDYQFjAB&url=http%3A%2F%2Fsourceware.org%2Fgdb%2Fonlinedocs%2Fgdb%2FThreads.html&ei=pSehT_uNJcqj-gaq2aSjBw&usg=AFQjCNERBsV1ICcafttBSHv1XZKuRQlNHQ):
+    gdb <binary> --core=<core file>
 
-      threads apply all bt
+## GDB CLI
 
-- gdb - load core file
+    bt                      # Show call stack
+    thread apply all bt     # Show call stack for all threads
 
-      gdb <binary> --core=<core file>
+    break <symbol>          # Set breakpoint on symbol
+    break <file:line>       # Set breakpoint on code line
+    
+    set -- arg1 arg2 ...    # Set arguments for your program
+    run                     # ... and run it again
 
-- gdb - pass arguments:
-
-      set -- arg1 arg2 ...
-
-- [gdb - Print large strings](http://delicious.com/redirect?url=http%3A//sunsite.ualberta.ca/Documentation/Gnu/gdb-4.18/html_node/gdb_58.html):
-    How to get gdb to always print the full string buffers:
-
-      set print elements 10000
-        
-- gdb - disable debug info downloads
-
-      set debuginfod enabled off
+    set print elements 10000     # Print the string buffers with up to 10k chars
+    set debuginfod enabled off   # Disable debug info download from internet
       
 All `set` options given above can be added in `~/.gdbinit`
 
-### Memory Leaks
+## Debugging Memory Leaks
 
 - Glib - mtrace(): Enable tracing by calling mtrace() right on startup
     and set environment variable
