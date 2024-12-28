@@ -37,12 +37,9 @@ related:
         pip3 install pyflakes
         pip3 install pep8
 
--   [Python - PyGtk Example
-    Snippets](http://www.eurion.net/python-snippets/snippet/)
--   [Python - Google Coding Style
-    Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
--   [Python - Django Best
-    Practices](http://lincolnloop.com/django-best-practices/)
+-   [Python - PyGtk Example Snippets](http://www.eurion.net/python-snippets/snippet/)
+-   [Python - Google Coding Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
+-   [Python - Django Best Practices](http://lincolnloop.com/django-best-practices/)
 -   [Python - Types and
     Objects](http://www.cafepy.com/article/python_types_and_objects/python_types_and_objects.html#basic-concepts)
 -   [Python - Debugging Memory
