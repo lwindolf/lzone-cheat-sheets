@@ -54,6 +54,15 @@ All `set` options given above can be added in `~/.gdbinit`
 
 - Valgrind
 
-        valgrind --leak-check=yes <executable> [ [...]]
+        valgrind --leak-check=yes <executable>
         valgrind --track-origins=yes <executable>
+        valgrind --leak-check=full --gen-suppressions=all <executable>    # dump supression definitions
+
+  keep a `.valgrindrc` with default options for example
+  
+        --memcheck:leak-check=full
+        --show-reachable=yes
+        --suppressions=/home/john/custom.supp
+
+  with `/home/john/custom.supp` containing supression definitions
 
