@@ -33,7 +33,7 @@ Loading an existing core file
       
 All `set` options given above can be added in `~/.gdbinit`
 
-## Debugging Memory Leaks
+## Other GLib ways for debugging memory leaks
 
 - Glib - mtrace(): Enable tracing by calling mtrace() right on startup
     and set environment variable
@@ -51,18 +51,4 @@ All `set` options given above can be added in `~/.gdbinit`
 - GObject Reference Tracking with [gobject-list](https://github.com/danni/gobject-list)
 
         LD_PRELOAD=/path/to/libgobject-list.so <executable>
-
-- Valgrind
-
-        valgrind --leak-check=yes <executable>
-        valgrind --track-origins=yes <executable>
-        valgrind --leak-check=full --gen-suppressions=all <executable>    # dump supression definitions
-
-  keep a `.valgrindrc` with default options for example
-  
-        --memcheck:leak-check=full
-        --show-reachable=yes
-        --suppressions=/home/john/custom.supp
-
-  with `/home/john/custom.supp` containing supression definitions
 
