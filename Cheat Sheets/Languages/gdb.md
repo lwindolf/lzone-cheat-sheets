@@ -8,6 +8,14 @@ Loading an existing core file
 
     gdb <binary> --core=<core file>
 
+## Creating core dumps
+
+Ensure a crashing application creates a core dump
+
+   ulimit -c unlimited
+
+Now run your application and a `core` file in the current directory should be created.
+
 ## GDB CLI
 
     bt                        # Show call stack
