@@ -12,7 +12,7 @@ Loading an existing core file
 
 Ensure a crashing application creates a core dump
 
-   ulimit -c unlimited
+    ulimit -c unlimited
 
 Now run your application and a `core` file in the current directory should be created.
 
