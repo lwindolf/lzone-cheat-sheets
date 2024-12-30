@@ -575,6 +575,10 @@
         "path": "Cheat Sheets/Languages/meson.md"
       },
       {
+        "name": "Languages/valgrind",
+        "path": "Cheat Sheets/Languages/valgrind.md"
+      },
+      {
         "name": "Mobile/adb",
         "path": "Cheat Sheets/Mobile/adb.md"
       },
