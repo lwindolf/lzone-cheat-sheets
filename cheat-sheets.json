@@ -1270,6 +1270,10 @@
     "category": "Architecture",
     "documents": [
       {
+        "name": "CERN/Monitoring/2024 Grafana and Mimir",
+        "path": "CERN/Monitoring/2024 Grafana and Mimir.md"
+      },
+      {
         "name": "Hulu/NoSQL/2012 memcached",
         "path": "Hulu/NoSQL/2012 memcached.md"
       },
