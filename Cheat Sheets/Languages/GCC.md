@@ -37,6 +37,13 @@ Compile with debug symbols
 
        CFLAGS='-g3 -ggdb -O0' ./configure
 
+Show symbols and references in a binary
+
+       nm <file>
+       nm -g <file>
+       nm -gC <file>
+       nm -gC <fike> | c++filt
+
 ## Hardening Options
 
 - Enable stack protection
