@@ -22,6 +22,10 @@
      -m <seconds>                  # Maximum timeout for entire request
      --connect-timeout <seconds>   # Maximum connect timeout
 
+## Test support for specific TLS version
+
+     curl https://example.com --verbose  --tlsv1.1 --tls-max 1.1
+
 ## Secure Authentication with curl
 
 ### Don't do insecure auth
