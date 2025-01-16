@@ -403,6 +403,10 @@
         "path": "Cheat Sheets/DevOps Services/Kafka.md"
       },
       {
+        "name": "DevOps Services/LDAP",
+        "path": "Cheat Sheets/DevOps Services/LDAP.md"
+      },
+      {
         "name": "DevOps Services/MongoDB",
         "path": "Cheat Sheets/DevOps Services/MongoDB.md"
       },
