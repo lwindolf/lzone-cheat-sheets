@@ -647,6 +647,10 @@
         "path": "Cheat Sheets/Network/netfilter.md"
       },
       {
+        "name": "Network/netrc",
+        "path": "Cheat Sheets/Network/netrc.md"
+      },
+      {
         "name": "Network/rsync",
         "path": "Cheat Sheets/Network/rsync.md"
       },
