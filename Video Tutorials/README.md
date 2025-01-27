@@ -54,6 +54,10 @@ videoEmbed: true
 
 [How to use Buildah --- HowTo, 2023](https://www.youtube.com/watch?v=AvMEVN98Xec)
 
+## Hashicorp Vault
+
+[Vault Tutorial --- Tutorial, 2025](https://www.youtube.com/watch?v=klyAhaklGNU)
+
 ## Key Value Stores
 
 [Memcache telnet interface --- Tutorial, CLI](https://www.youtube.com/watch?v=7MLXuG83Fsw)
