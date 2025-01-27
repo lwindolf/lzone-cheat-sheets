@@ -471,6 +471,10 @@
         "path": "Cheat Sheets/DevOps Services/Tomcat.md"
       },
       {
+        "name": "DevOps Services/Vault",
+        "path": "Cheat Sheets/DevOps Services/Vault.md"
+      },
+      {
         "name": "DevOps Services/Webserver",
         "path": "Cheat Sheets/DevOps Services/Webserver.md"
       },
