@@ -60,6 +60,8 @@ videoEmbed: true
 
 [vault-k8s --- Tutorial, CLI, 2020](https://www.youtube.com/watch?v=xUuJhgDbUJQ)
 
+[Basic Vault Secrets --- HowTo, CLI, 2024](https://www.youtube.com/watch?v=3nKQrrHKprk)
+
 ## Key Value Stores
 
 [Memcache telnet interface --- Tutorial, CLI](https://www.youtube.com/watch?v=7MLXuG83Fsw)
