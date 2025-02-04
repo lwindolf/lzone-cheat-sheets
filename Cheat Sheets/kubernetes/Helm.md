@@ -146,6 +146,17 @@ Declaring Helm ressources with terraform
        chart = "<path to local chart|chart name>"
      }
 
+## OCI Registries - Openshift
+
+If you have no helm chart registry, but Openshift you can use OCI to store Helm charts directly in the [Openshift registry](https://stackoverflow.com/questions/68192150/can-i-store-a-helm-chart-in-openshift-and-make-use-of-it)
+
+    export HELM_EXPERIMENTAL_OCI=1
+    oc whoami --show-token | helm registry login my-cluster.com -u $(oc whoami) --password-stdin
+    helm create mychart
+    cd mychart/
+    helm chart save . my-cluster.com/$(oc project -q)/mychart:latest
+    helm chart push my-cluster.com/$(oc project -q)/mychart:latest
+
 ## Best Practices
 
 See https://helm.sh/docs/chart_best_practices/conventions/
