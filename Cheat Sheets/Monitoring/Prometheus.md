@@ -101,6 +101,11 @@ copy anywhere else to use:
 
 See [https://last9.io/blog/mastering-prometheus-relabeling-a-comprehensive-guide/](https://last9.io/blog/mastering-prometheus-relabeling-a-comprehensive-guide/)
 
+## Backfill Recording Rules
+
+If you create new recording rules it is possible to compute them for older data too:
+[https://github.com/prometheus/prometheus/blob/main/docs/storage.md#backfilling-for-recording-rules](https://github.com/prometheus/prometheus/blob/main/docs/storage.md#backfilling-for-recording-rules)
+
 ## Problems of Prometheus
 
 - [Issues with quantile calculation](http://linuxczar.net/blog/2017/06/15/prometheus-histogram-2/)
