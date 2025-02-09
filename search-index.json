@@ -450,2174 +450,2182 @@
   "56": {
     "doc": "LZone Cheat Sheets",
     "id": 56,
+    "title": "DevOps Linux/GPU",
+    "content": "",
+    "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/GPU",
+    "url": "/#/LZone Cheat Sheets/DevOps Linux/GPU"
+  },
+  "57": {
+    "doc": "LZone Cheat Sheets",
+    "id": 57,
     "title": "DevOps Linux/Grub",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Grub",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Grub"
   },
-  "57": {
+  "58": {
     "doc": "LZone Cheat Sheets",
-    "id": 57,
+    "id": 58,
     "title": "DevOps Linux/IPMI",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/IPMI",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/IPMI"
   },
-  "58": {
+  "59": {
     "doc": "LZone Cheat Sheets",
-    "id": 58,
+    "id": 59,
     "title": "DevOps Linux/Kernel Tracing",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Kernel Tracing",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Kernel Tracing"
   },
-  "59": {
+  "60": {
     "doc": "LZone Cheat Sheets",
-    "id": 59,
+    "id": 60,
     "title": "DevOps Linux/LVM",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/LVM",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/LVM"
   },
-  "60": {
+  "61": {
     "doc": "LZone Cheat Sheets",
-    "id": 60,
+    "id": 61,
     "title": "DevOps Linux/Linux-Commands",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Commands",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Commands"
   },
-  "61": {
+  "62": {
     "doc": "LZone Cheat Sheets",
-    "id": 61,
+    "id": 62,
     "title": "DevOps Linux/Linux-HA",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Linux-HA",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Linux-HA"
   },
-  "62": {
+  "63": {
     "doc": "LZone Cheat Sheets",
-    "id": 62,
+    "id": 63,
     "title": "DevOps Linux/Linux-Sysadmin",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Sysadmin",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Sysadmin"
   },
-  "63": {
+  "64": {
     "doc": "LZone Cheat Sheets",
-    "id": 63,
+    "id": 64,
     "title": "DevOps Linux/Linux-Virtualization",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Virtualization",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Linux-Virtualization"
   },
-  "64": {
+  "65": {
     "doc": "LZone Cheat Sheets",
-    "id": 64,
+    "id": 65,
     "title": "DevOps Linux/PKI",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/PKI",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/PKI"
   },
-  "65": {
+  "66": {
     "doc": "LZone Cheat Sheets",
-    "id": 65,
+    "id": 66,
     "title": "DevOps Linux/Partitioning",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Partitioning",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Partitioning"
   },
-  "66": {
+  "67": {
     "doc": "LZone Cheat Sheets",
-    "id": 66,
+    "id": 67,
     "title": "DevOps Linux/Printing",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Printing",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Printing"
   },
-  "67": {
+  "68": {
     "doc": "LZone Cheat Sheets",
-    "id": 67,
+    "id": 68,
     "title": "DevOps Linux/RAID",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/RAID",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/RAID"
   },
-  "68": {
+  "69": {
     "doc": "LZone Cheat Sheets",
-    "id": 68,
+    "id": 69,
     "title": "DevOps Linux/README",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/README",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/README"
   },
-  "69": {
+  "70": {
     "doc": "LZone Cheat Sheets",
-    "id": 69,
+    "id": 70,
     "title": "DevOps Linux/Wifi",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/Wifi",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/Wifi"
   },
-  "70": {
+  "71": {
     "doc": "LZone Cheat Sheets",
-    "id": 70,
+    "id": 71,
     "title": "DevOps Linux/X11",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/X11",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/X11"
   },
-  "71": {
+  "72": {
     "doc": "LZone Cheat Sheets",
-    "id": 71,
+    "id": 72,
     "title": "DevOps Linux/XDG",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/XDG",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/XDG"
   },
-  "72": {
+  "73": {
     "doc": "LZone Cheat Sheets",
-    "id": 72,
+    "id": 73,
     "title": "DevOps Linux/ZFS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/ZFS",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/ZFS"
   },
-  "73": {
+  "74": {
     "doc": "LZone Cheat Sheets",
-    "id": 73,
+    "id": 74,
     "title": "DevOps Linux/auditd",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/auditd",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/auditd"
   },
-  "74": {
+  "75": {
     "doc": "LZone Cheat Sheets",
-    "id": 74,
+    "id": 75,
     "title": "DevOps Linux/cgroups",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/cgroups",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/cgroups"
   },
-  "75": {
+  "76": {
     "doc": "LZone Cheat Sheets",
-    "id": 75,
+    "id": 76,
     "title": "DevOps Linux/kerberos",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/kerberos",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/kerberos"
   },
-  "76": {
+  "77": {
     "doc": "LZone Cheat Sheets",
-    "id": 76,
+    "id": 77,
     "title": "DevOps Linux/mokutil",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/mokutil",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/mokutil"
   },
-  "77": {
+  "78": {
     "doc": "LZone Cheat Sheets",
-    "id": 77,
+    "id": 78,
     "title": "DevOps Linux/nohup",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/nohup",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/nohup"
   },
-  "78": {
+  "79": {
     "doc": "LZone Cheat Sheets",
-    "id": 78,
+    "id": 79,
     "title": "DevOps Linux/perf",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/perf",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/perf"
   },
-  "79": {
+  "80": {
     "doc": "LZone Cheat Sheets",
-    "id": 79,
+    "id": 80,
     "title": "DevOps Linux/screen",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/screen",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/screen"
   },
-  "80": {
+  "81": {
     "doc": "LZone Cheat Sheets",
-    "id": 80,
+    "id": 81,
     "title": "DevOps Linux/socat",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/socat",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/socat"
   },
-  "81": {
+  "82": {
     "doc": "LZone Cheat Sheets",
-    "id": 81,
+    "id": 82,
     "title": "DevOps Linux/sops",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/sops",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/sops"
   },
-  "82": {
+  "83": {
     "doc": "LZone Cheat Sheets",
-    "id": 82,
+    "id": 83,
     "title": "DevOps Linux/strace",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/strace",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/strace"
   },
-  "83": {
+  "84": {
     "doc": "LZone Cheat Sheets",
-    "id": 83,
+    "id": 84,
     "title": "DevOps Linux/sudo",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/sudo",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/sudo"
   },
-  "84": {
+  "85": {
     "doc": "LZone Cheat Sheets",
-    "id": 84,
+    "id": 85,
     "title": "DevOps Linux/supervisor",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/supervisor",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/supervisor"
   },
-  "85": {
+  "86": {
     "doc": "LZone Cheat Sheets",
-    "id": 85,
+    "id": 86,
     "title": "DevOps Linux/systemd",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/systemd",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/systemd"
   },
-  "86": {
+  "87": {
     "doc": "LZone Cheat Sheets",
-    "id": 86,
+    "id": 87,
     "title": "DevOps Linux/systemtap",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/systemtap",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/systemtap"
   },
-  "87": {
+  "88": {
     "doc": "LZone Cheat Sheets",
-    "id": 87,
+    "id": 88,
     "title": "DevOps Linux/ulimit",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/ulimit",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/ulimit"
   },
-  "88": {
+  "89": {
     "doc": "LZone Cheat Sheets",
-    "id": 88,
+    "id": 89,
     "title": "DevOps Linux/vi",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Linux/vi",
     "url": "/#/LZone Cheat Sheets/DevOps Linux/vi"
   },
-  "89": {
+  "90": {
     "doc": "LZone Cheat Sheets",
-    "id": 89,
+    "id": 90,
     "title": "DevOps Services/Apache",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Apache",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Apache"
   },
-  "90": {
+  "91": {
     "doc": "LZone Cheat Sheets",
-    "id": 90,
+    "id": 91,
     "title": "DevOps Services/Ceph",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Ceph",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Ceph"
   },
-  "91": {
+  "92": {
     "doc": "LZone Cheat Sheets",
-    "id": 91,
+    "id": 92,
     "title": "DevOps Services/Consul",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Consul",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Consul"
   },
-  "92": {
+  "93": {
     "doc": "LZone Cheat Sheets",
-    "id": 92,
+    "id": 93,
     "title": "DevOps Services/CouchDB",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/CouchDB",
     "url": "/#/LZone Cheat Sheets/DevOps Services/CouchDB"
   },
-  "93": {
+  "94": {
     "doc": "LZone Cheat Sheets",
-    "id": 93,
+    "id": 94,
     "title": "DevOps Services/Couchbase",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Couchbase",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Couchbase"
   },
-  "94": {
+  "95": {
     "doc": "LZone Cheat Sheets",
-    "id": 94,
+    "id": 95,
     "title": "DevOps Services/ElasticSearch",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/ElasticSearch",
     "url": "/#/LZone Cheat Sheets/DevOps Services/ElasticSearch"
   },
-  "95": {
+  "96": {
     "doc": "LZone Cheat Sheets",
-    "id": 95,
+    "id": 96,
     "title": "DevOps Services/F5",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/F5",
     "url": "/#/LZone Cheat Sheets/DevOps Services/F5"
   },
-  "96": {
+  "97": {
     "doc": "LZone Cheat Sheets",
-    "id": 96,
+    "id": 97,
     "title": "DevOps Services/GlusterFS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/GlusterFS",
     "url": "/#/LZone Cheat Sheets/DevOps Services/GlusterFS"
   },
-  "97": {
+  "98": {
     "doc": "LZone Cheat Sheets",
-    "id": 97,
+    "id": 98,
     "title": "DevOps Services/Graphite",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Graphite",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Graphite"
   },
-  "98": {
+  "99": {
     "doc": "LZone Cheat Sheets",
-    "id": 98,
+    "id": 99,
     "title": "DevOps Services/Java",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Java",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Java"
   },
-  "99": {
+  "100": {
     "doc": "LZone Cheat Sheets",
-    "id": 99,
+    "id": 100,
     "title": "DevOps Services/Kafka",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Kafka",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Kafka"
   },
-  "100": {
+  "101": {
     "doc": "LZone Cheat Sheets",
-    "id": 100,
+    "id": 101,
     "title": "DevOps Services/LDAP",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/LDAP",
     "url": "/#/LZone Cheat Sheets/DevOps Services/LDAP"
   },
-  "101": {
+  "102": {
     "doc": "LZone Cheat Sheets",
-    "id": 101,
+    "id": 102,
     "title": "DevOps Services/MongoDB",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/MongoDB",
     "url": "/#/LZone Cheat Sheets/DevOps Services/MongoDB"
   },
-  "102": {
+  "103": {
     "doc": "LZone Cheat Sheets",
-    "id": 102,
+    "id": 103,
     "title": "DevOps Services/MySQL",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/MySQL",
     "url": "/#/LZone Cheat Sheets/DevOps Services/MySQL"
   },
-  "103": {
+  "104": {
     "doc": "LZone Cheat Sheets",
-    "id": 103,
+    "id": 104,
     "title": "DevOps Services/NFS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/NFS",
     "url": "/#/LZone Cheat Sheets/DevOps Services/NFS"
   },
-  "104": {
+  "105": {
     "doc": "LZone Cheat Sheets",
-    "id": 104,
+    "id": 105,
     "title": "DevOps Services/NTP",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/NTP",
     "url": "/#/LZone Cheat Sheets/DevOps Services/NTP"
   },
-  "105": {
+  "106": {
     "doc": "LZone Cheat Sheets",
-    "id": 105,
+    "id": 106,
     "title": "DevOps Services/Nodejs",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Nodejs",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Nodejs"
   },
-  "106": {
+  "107": {
     "doc": "LZone Cheat Sheets",
-    "id": 106,
+    "id": 107,
     "title": "DevOps Services/OAuth",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/OAuth",
     "url": "/#/LZone Cheat Sheets/DevOps Services/OAuth"
   },
-  "107": {
+  "108": {
     "doc": "LZone Cheat Sheets",
-    "id": 107,
+    "id": 108,
     "title": "DevOps Services/PgBouncer",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/PgBouncer",
     "url": "/#/LZone Cheat Sheets/DevOps Services/PgBouncer"
   },
-  "108": {
+  "109": {
     "doc": "LZone Cheat Sheets",
-    "id": 108,
+    "id": 109,
     "title": "DevOps Services/Postgres",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Postgres",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Postgres"
   },
-  "109": {
+  "110": {
     "doc": "LZone Cheat Sheets",
-    "id": 109,
+    "id": 110,
     "title": "DevOps Services/README",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/README",
     "url": "/#/LZone Cheat Sheets/DevOps Services/README"
   },
-  "110": {
+  "111": {
     "doc": "LZone Cheat Sheets",
-    "id": 110,
+    "id": 111,
     "title": "DevOps Services/RabbitMQ",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/RabbitMQ",
     "url": "/#/LZone Cheat Sheets/DevOps Services/RabbitMQ"
   },
-  "111": {
+  "112": {
     "doc": "LZone Cheat Sheets",
-    "id": 111,
+    "id": 112,
     "title": "DevOps Services/Redis Sentinel",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Redis Sentinel",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Redis Sentinel"
   },
-  "112": {
+  "113": {
     "doc": "LZone Cheat Sheets",
-    "id": 112,
+    "id": 113,
     "title": "DevOps Services/Redis",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Redis",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Redis"
   },
-  "113": {
+  "114": {
     "doc": "LZone Cheat Sheets",
-    "id": 113,
+    "id": 114,
     "title": "DevOps Services/Samba",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Samba",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Samba"
   },
-  "114": {
+  "115": {
     "doc": "LZone Cheat Sheets",
-    "id": 114,
+    "id": 115,
     "title": "DevOps Services/Splunk",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Splunk",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Splunk"
   },
-  "115": {
+  "116": {
     "doc": "LZone Cheat Sheets",
-    "id": 115,
+    "id": 116,
     "title": "DevOps Services/Squid",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Squid",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Squid"
   },
-  "116": {
+  "117": {
     "doc": "LZone Cheat Sheets",
-    "id": 116,
+    "id": 117,
     "title": "DevOps Services/Tomcat",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Tomcat",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Tomcat"
   },
-  "117": {
+  "118": {
     "doc": "LZone Cheat Sheets",
-    "id": 117,
+    "id": 118,
     "title": "DevOps Services/Vault",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Vault",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Vault"
   },
-  "118": {
+  "119": {
     "doc": "LZone Cheat Sheets",
-    "id": 118,
+    "id": 119,
     "title": "DevOps Services/Webserver",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Webserver",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Webserver"
   },
-  "119": {
+  "120": {
     "doc": "LZone Cheat Sheets",
-    "id": 119,
+    "id": 120,
     "title": "DevOps Services/Zookeeper",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/Zookeeper",
     "url": "/#/LZone Cheat Sheets/DevOps Services/Zookeeper"
   },
-  "120": {
+  "121": {
     "doc": "LZone Cheat Sheets",
-    "id": 120,
+    "id": 121,
     "title": "DevOps Services/etcd",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/etcd",
     "url": "/#/LZone Cheat Sheets/DevOps Services/etcd"
   },
-  "121": {
+  "122": {
     "doc": "LZone Cheat Sheets",
-    "id": 121,
+    "id": 122,
     "title": "DevOps Services/etcdv2",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/etcdv2",
     "url": "/#/LZone Cheat Sheets/DevOps Services/etcdv2"
   },
-  "122": {
+  "123": {
     "doc": "LZone Cheat Sheets",
-    "id": 122,
+    "id": 123,
     "title": "DevOps Services/htaccess",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/htaccess",
     "url": "/#/LZone Cheat Sheets/DevOps Services/htaccess"
   },
-  "123": {
+  "124": {
     "doc": "LZone Cheat Sheets",
-    "id": 123,
+    "id": 124,
     "title": "DevOps Services/memcached",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/memcached",
     "url": "/#/LZone Cheat Sheets/DevOps Services/memcached"
   },
-  "124": {
+  "125": {
     "doc": "LZone Cheat Sheets",
-    "id": 124,
+    "id": 125,
     "title": "DevOps Services/nginx",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/nginx",
     "url": "/#/LZone Cheat Sheets/DevOps Services/nginx"
   },
-  "125": {
+  "126": {
     "doc": "LZone Cheat Sheets",
-    "id": 125,
+    "id": 126,
     "title": "DevOps Services/sqlite",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/DevOps Services/sqlite",
     "url": "/#/LZone Cheat Sheets/DevOps Services/sqlite"
   },
-  "126": {
+  "127": {
     "doc": "LZone Cheat Sheets",
-    "id": 126,
+    "id": 127,
     "title": "Languages/CSS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/CSS",
     "url": "/#/LZone Cheat Sheets/Languages/CSS"
   },
-  "127": {
+  "128": {
     "doc": "LZone Cheat Sheets",
-    "id": 127,
+    "id": 128,
     "title": "Languages/GCC",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/GCC",
     "url": "/#/LZone Cheat Sheets/Languages/GCC"
   },
-  "128": {
+  "129": {
     "doc": "LZone Cheat Sheets",
-    "id": 128,
+    "id": 129,
     "title": "Languages/JSONPath",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/JSONPath",
     "url": "/#/LZone Cheat Sheets/Languages/JSONPath"
   },
-  "129": {
+  "130": {
     "doc": "LZone Cheat Sheets",
-    "id": 129,
+    "id": 130,
     "title": "Languages/Linux HTML Widgets",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Linux HTML Widgets",
     "url": "/#/LZone Cheat Sheets/Languages/Linux HTML Widgets"
   },
-  "130": {
+  "131": {
     "doc": "LZone Cheat Sheets",
-    "id": 130,
+    "id": 131,
     "title": "Languages/Misc",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Misc",
     "url": "/#/LZone Cheat Sheets/Languages/Misc"
   },
-  "131": {
+  "132": {
     "doc": "LZone Cheat Sheets",
-    "id": 131,
+    "id": 132,
     "title": "Languages/PHP",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/PHP",
     "url": "/#/LZone Cheat Sheets/Languages/PHP"
   },
-  "132": {
+  "133": {
     "doc": "LZone Cheat Sheets",
-    "id": 132,
+    "id": 133,
     "title": "Languages/Perl",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Perl",
     "url": "/#/LZone Cheat Sheets/Languages/Perl"
   },
-  "133": {
+  "134": {
     "doc": "LZone Cheat Sheets",
-    "id": 133,
+    "id": 134,
     "title": "Languages/README",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/README",
     "url": "/#/LZone Cheat Sheets/Languages/README"
   },
-  "134": {
+  "135": {
     "doc": "LZone Cheat Sheets",
-    "id": 134,
+    "id": 135,
     "title": "Languages/Ruby",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Ruby",
     "url": "/#/LZone Cheat Sheets/Languages/Ruby"
   },
-  "135": {
+  "136": {
     "doc": "LZone Cheat Sheets",
-    "id": 135,
+    "id": 136,
     "title": "Languages/SQL",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/SQL",
     "url": "/#/LZone Cheat Sheets/Languages/SQL"
   },
-  "136": {
+  "137": {
     "doc": "LZone Cheat Sheets",
-    "id": 136,
+    "id": 137,
     "title": "Languages/Syndication",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Syndication",
     "url": "/#/LZone Cheat Sheets/Languages/Syndication"
   },
-  "137": {
+  "138": {
     "doc": "LZone Cheat Sheets",
-    "id": 137,
+    "id": 138,
     "title": "Languages/Vala",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/Vala",
     "url": "/#/LZone Cheat Sheets/Languages/Vala"
   },
-  "138": {
+  "139": {
     "doc": "LZone Cheat Sheets",
-    "id": 138,
+    "id": 139,
     "title": "Languages/XML",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/XML",
     "url": "/#/LZone Cheat Sheets/Languages/XML"
   },
-  "139": {
+  "140": {
     "doc": "LZone Cheat Sheets",
-    "id": 139,
+    "id": 140,
     "title": "Languages/XPath",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/XPath",
     "url": "/#/LZone Cheat Sheets/Languages/XPath"
   },
-  "140": {
+  "141": {
     "doc": "LZone Cheat Sheets",
-    "id": 140,
+    "id": 141,
     "title": "Languages/XSLT",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/XSLT",
     "url": "/#/LZone Cheat Sheets/Languages/XSLT"
   },
-  "141": {
+  "142": {
     "doc": "LZone Cheat Sheets",
-    "id": 141,
+    "id": 142,
     "title": "Languages/YAML",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/YAML",
     "url": "/#/LZone Cheat Sheets/Languages/YAML"
   },
-  "142": {
+  "143": {
     "doc": "LZone Cheat Sheets",
-    "id": 142,
+    "id": 143,
     "title": "Languages/autotools",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/autotools",
     "url": "/#/LZone Cheat Sheets/Languages/autotools"
   },
-  "143": {
+  "144": {
     "doc": "LZone Cheat Sheets",
-    "id": 143,
+    "id": 144,
     "title": "Languages/gdb",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/gdb",
     "url": "/#/LZone Cheat Sheets/Languages/gdb"
   },
-  "144": {
+  "145": {
     "doc": "LZone Cheat Sheets",
-    "id": 144,
+    "id": 145,
     "title": "Languages/meson",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/meson",
     "url": "/#/LZone Cheat Sheets/Languages/meson"
   },
-  "145": {
+  "146": {
     "doc": "LZone Cheat Sheets",
-    "id": 145,
+    "id": 146,
     "title": "Languages/valgrind",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Languages/valgrind",
     "url": "/#/LZone Cheat Sheets/Languages/valgrind"
   },
-  "146": {
+  "147": {
     "doc": "LZone Cheat Sheets",
-    "id": 146,
+    "id": 147,
     "title": "Mobile/adb",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Mobile/adb",
     "url": "/#/LZone Cheat Sheets/Mobile/adb"
   },
-  "147": {
+  "148": {
     "doc": "LZone Cheat Sheets",
-    "id": 147,
+    "id": 148,
     "title": "Monitoring/Grafana",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Grafana",
     "url": "/#/LZone Cheat Sheets/Monitoring/Grafana"
   },
-  "148": {
+  "149": {
     "doc": "LZone Cheat Sheets",
-    "id": 148,
+    "id": 149,
     "title": "Monitoring/Graphite",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Graphite",
     "url": "/#/LZone Cheat Sheets/Monitoring/Graphite"
   },
-  "149": {
+  "150": {
     "doc": "LZone Cheat Sheets",
-    "id": 149,
+    "id": 150,
     "title": "Monitoring/Loki",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Loki",
     "url": "/#/LZone Cheat Sheets/Monitoring/Loki"
   },
-  "150": {
+  "151": {
     "doc": "LZone Cheat Sheets",
-    "id": 150,
+    "id": 151,
     "title": "Monitoring/Munin",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Munin",
     "url": "/#/LZone Cheat Sheets/Monitoring/Munin"
   },
-  "151": {
+  "152": {
     "doc": "LZone Cheat Sheets",
-    "id": 151,
+    "id": 152,
     "title": "Monitoring/Nagios",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Nagios",
     "url": "/#/LZone Cheat Sheets/Monitoring/Nagios"
   },
-  "152": {
+  "153": {
     "doc": "LZone Cheat Sheets",
-    "id": 152,
+    "id": 153,
     "title": "Monitoring/Prometheus",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Monitoring/Prometheus",
     "url": "/#/LZone Cheat Sheets/Monitoring/Prometheus"
   },
-  "153": {
+  "154": {
     "doc": "LZone Cheat Sheets",
-    "id": 153,
+    "id": 154,
     "title": "Network/Linux-Networking",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/Linux-Networking",
     "url": "/#/LZone Cheat Sheets/Network/Linux-Networking"
   },
-  "154": {
+  "155": {
     "doc": "LZone Cheat Sheets",
-    "id": 154,
+    "id": 155,
     "title": "Network/Mail",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/Mail",
     "url": "/#/LZone Cheat Sheets/Network/Mail"
   },
-  "155": {
+  "156": {
     "doc": "LZone Cheat Sheets",
-    "id": 155,
+    "id": 156,
     "title": "Network/Network",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/Network",
     "url": "/#/LZone Cheat Sheets/Network/Network"
   },
-  "156": {
+  "157": {
     "doc": "LZone Cheat Sheets",
-    "id": 156,
+    "id": 157,
     "title": "Network/SMB",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/SMB",
     "url": "/#/LZone Cheat Sheets/Network/SMB"
   },
-  "157": {
+  "158": {
     "doc": "LZone Cheat Sheets",
-    "id": 157,
+    "id": 158,
     "title": "Network/SSH",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/SSH",
     "url": "/#/LZone Cheat Sheets/Network/SSH"
   },
-  "158": {
+  "159": {
     "doc": "LZone Cheat Sheets",
-    "id": 158,
+    "id": 159,
     "title": "Network/curl",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/curl",
     "url": "/#/LZone Cheat Sheets/Network/curl"
   },
-  "159": {
+  "160": {
     "doc": "LZone Cheat Sheets",
-    "id": 159,
+    "id": 160,
     "title": "Network/iptables",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/iptables",
     "url": "/#/LZone Cheat Sheets/Network/iptables"
   },
-  "160": {
+  "161": {
     "doc": "LZone Cheat Sheets",
-    "id": 160,
+    "id": 161,
     "title": "Network/mDNS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/mDNS",
     "url": "/#/LZone Cheat Sheets/Network/mDNS"
   },
-  "161": {
+  "162": {
     "doc": "LZone Cheat Sheets",
-    "id": 161,
+    "id": 162,
     "title": "Network/netfilter",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/netfilter",
     "url": "/#/LZone Cheat Sheets/Network/netfilter"
   },
-  "162": {
+  "163": {
     "doc": "LZone Cheat Sheets",
-    "id": 162,
+    "id": 163,
     "title": "Network/netrc",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/netrc",
     "url": "/#/LZone Cheat Sheets/Network/netrc"
   },
-  "163": {
+  "164": {
     "doc": "LZone Cheat Sheets",
-    "id": 163,
+    "id": 164,
     "title": "Network/rsync",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/rsync",
     "url": "/#/LZone Cheat Sheets/Network/rsync"
   },
-  "164": {
+  "165": {
     "doc": "LZone Cheat Sheets",
-    "id": 164,
+    "id": 165,
     "title": "Network/tcpdump",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/tcpdump",
     "url": "/#/LZone Cheat Sheets/Network/tcpdump"
   },
-  "165": {
+  "166": {
     "doc": "LZone Cheat Sheets",
-    "id": 165,
+    "id": 166,
     "title": "Network/unbound",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/unbound",
     "url": "/#/LZone Cheat Sheets/Network/unbound"
   },
-  "166": {
+  "167": {
     "doc": "LZone Cheat Sheets",
-    "id": 166,
+    "id": 167,
     "title": "Network/wget",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Network/wget",
     "url": "/#/LZone Cheat Sheets/Network/wget"
   },
-  "167": {
+  "168": {
     "doc": "LZone Cheat Sheets",
-    "id": 167,
+    "id": 168,
     "title": "Packaging/Bower",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/Bower",
     "url": "/#/LZone Cheat Sheets/Packaging/Bower"
   },
-  "168": {
+  "169": {
     "doc": "LZone Cheat Sheets",
-    "id": 168,
+    "id": 169,
     "title": "Packaging/Conan",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/Conan",
     "url": "/#/LZone Cheat Sheets/Packaging/Conan"
   },
-  "169": {
+  "170": {
     "doc": "LZone Cheat Sheets",
-    "id": 169,
+    "id": 170,
     "title": "Packaging/Ruby Bundler",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/Ruby Bundler",
     "url": "/#/LZone Cheat Sheets/Packaging/Ruby Bundler"
   },
-  "170": {
+  "171": {
     "doc": "LZone Cheat Sheets",
-    "id": 170,
+    "id": 171,
     "title": "Packaging/apt",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/apt",
     "url": "/#/LZone Cheat Sheets/Packaging/apt"
   },
-  "171": {
+  "172": {
     "doc": "LZone Cheat Sheets",
-    "id": 171,
+    "id": 172,
     "title": "Packaging/cargo",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/cargo",
     "url": "/#/LZone Cheat Sheets/Packaging/cargo"
   },
-  "172": {
+  "173": {
     "doc": "LZone Cheat Sheets",
-    "id": 172,
+    "id": 173,
     "title": "Packaging/dpkg",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/dpkg",
     "url": "/#/LZone Cheat Sheets/Packaging/dpkg"
   },
-  "173": {
+  "174": {
     "doc": "LZone Cheat Sheets",
-    "id": 173,
+    "id": 174,
     "title": "Packaging/flatpak",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/flatpak",
     "url": "/#/LZone Cheat Sheets/Packaging/flatpak"
   },
-  "174": {
+  "175": {
     "doc": "LZone Cheat Sheets",
-    "id": 174,
+    "id": 175,
     "title": "Packaging/gem",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/gem",
     "url": "/#/LZone Cheat Sheets/Packaging/gem"
   },
-  "175": {
+  "176": {
     "doc": "LZone Cheat Sheets",
-    "id": 175,
+    "id": 176,
     "title": "Packaging/golang",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/golang",
     "url": "/#/LZone Cheat Sheets/Packaging/golang"
   },
-  "176": {
+  "177": {
     "doc": "LZone Cheat Sheets",
-    "id": 176,
+    "id": 177,
     "title": "Packaging/gradle",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/gradle",
     "url": "/#/LZone Cheat Sheets/Packaging/gradle"
   },
-  "177": {
+  "178": {
     "doc": "LZone Cheat Sheets",
-    "id": 177,
+    "id": 178,
     "title": "Packaging/maven",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/maven",
     "url": "/#/LZone Cheat Sheets/Packaging/maven"
   },
-  "178": {
+  "179": {
     "doc": "LZone Cheat Sheets",
-    "id": 178,
+    "id": 179,
     "title": "Packaging/npm",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/npm",
     "url": "/#/LZone Cheat Sheets/Packaging/npm"
   },
-  "179": {
+  "180": {
     "doc": "LZone Cheat Sheets",
-    "id": 179,
+    "id": 180,
     "title": "Packaging/pacman",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/pacman",
     "url": "/#/LZone Cheat Sheets/Packaging/pacman"
   },
-  "180": {
+  "181": {
     "doc": "LZone Cheat Sheets",
-    "id": 180,
+    "id": 181,
     "title": "Packaging/pip",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/pip",
     "url": "/#/LZone Cheat Sheets/Packaging/pip"
   },
-  "181": {
+  "182": {
     "doc": "LZone Cheat Sheets",
-    "id": 181,
+    "id": 182,
     "title": "Packaging/rvm",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/rvm",
     "url": "/#/LZone Cheat Sheets/Packaging/rvm"
   },
-  "182": {
+  "183": {
     "doc": "LZone Cheat Sheets",
-    "id": 182,
+    "id": 183,
     "title": "Packaging/snap",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/snap",
     "url": "/#/LZone Cheat Sheets/Packaging/snap"
   },
-  "183": {
+  "184": {
     "doc": "LZone Cheat Sheets",
-    "id": 183,
+    "id": 184,
     "title": "Packaging/yum",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/yum",
     "url": "/#/LZone Cheat Sheets/Packaging/yum"
   },
-  "184": {
+  "185": {
     "doc": "LZone Cheat Sheets",
-    "id": 184,
+    "id": 185,
     "title": "Packaging/zypper",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Packaging/zypper",
     "url": "/#/LZone Cheat Sheets/Packaging/zypper"
   },
-  "185": {
+  "186": {
     "doc": "LZone Cheat Sheets",
-    "id": 185,
+    "id": 186,
     "title": "Scripting/APIs",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/APIs",
     "url": "/#/LZone Cheat Sheets/Scripting/APIs"
   },
-  "186": {
+  "187": {
     "doc": "LZone Cheat Sheets",
-    "id": 186,
+    "id": 187,
     "title": "Scripting/Bash Associative Array",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Bash Associative Array",
     "url": "/#/LZone Cheat Sheets/Scripting/Bash Associative Array"
   },
-  "187": {
+  "188": {
     "doc": "LZone Cheat Sheets",
-    "id": 187,
+    "id": 188,
     "title": "Scripting/Bash Functions",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Bash Functions",
     "url": "/#/LZone Cheat Sheets/Scripting/Bash Functions"
   },
-  "188": {
+  "189": {
     "doc": "LZone Cheat Sheets",
-    "id": 188,
+    "id": 189,
     "title": "Scripting/Bash Regex",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Bash Regex",
     "url": "/#/LZone Cheat Sheets/Scripting/Bash Regex"
   },
-  "189": {
+  "190": {
     "doc": "LZone Cheat Sheets",
-    "id": 189,
+    "id": 190,
     "title": "Scripting/Bash",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Bash",
     "url": "/#/LZone Cheat Sheets/Scripting/Bash"
   },
-  "190": {
+  "191": {
     "doc": "LZone Cheat Sheets",
-    "id": 190,
+    "id": 191,
     "title": "Scripting/Images",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Images",
     "url": "/#/LZone Cheat Sheets/Scripting/Images"
   },
-  "191": {
+  "192": {
     "doc": "LZone Cheat Sheets",
-    "id": 191,
+    "id": 192,
     "title": "Scripting/Locking",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Locking",
     "url": "/#/LZone Cheat Sheets/Scripting/Locking"
   },
-  "192": {
+  "193": {
     "doc": "LZone Cheat Sheets",
-    "id": 192,
+    "id": 193,
     "title": "Scripting/Scripting",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Scripting",
     "url": "/#/LZone Cheat Sheets/Scripting/Scripting"
   },
-  "193": {
+  "194": {
     "doc": "LZone Cheat Sheets",
-    "id": 193,
+    "id": 194,
     "title": "Scripting/Shell-Scripting",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/Shell-Scripting",
     "url": "/#/LZone Cheat Sheets/Scripting/Shell-Scripting"
   },
-  "194": {
+  "195": {
     "doc": "LZone Cheat Sheets",
-    "id": 194,
+    "id": 195,
     "title": "Scripting/awk",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/awk",
     "url": "/#/LZone Cheat Sheets/Scripting/awk"
   },
-  "195": {
+  "196": {
     "doc": "LZone Cheat Sheets",
-    "id": 195,
+    "id": 196,
     "title": "Scripting/ffmpeg",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/ffmpeg",
     "url": "/#/LZone Cheat Sheets/Scripting/ffmpeg"
   },
-  "196": {
+  "197": {
     "doc": "LZone Cheat Sheets",
-    "id": 196,
+    "id": 197,
     "title": "Scripting/jq",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/jq",
     "url": "/#/LZone Cheat Sheets/Scripting/jq"
   },
-  "197": {
+  "198": {
     "doc": "LZone Cheat Sheets",
-    "id": 197,
+    "id": 198,
     "title": "Scripting/sed",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/sed",
     "url": "/#/LZone Cheat Sheets/Scripting/sed"
   },
-  "198": {
+  "199": {
     "doc": "LZone Cheat Sheets",
-    "id": 198,
+    "id": 199,
     "title": "Scripting/xargs",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/xargs",
     "url": "/#/LZone Cheat Sheets/Scripting/xargs"
   },
-  "199": {
+  "200": {
     "doc": "LZone Cheat Sheets",
-    "id": 199,
+    "id": 200,
     "title": "Scripting/yq",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/yq",
     "url": "/#/LZone Cheat Sheets/Scripting/yq"
   },
-  "200": {
+  "201": {
     "doc": "LZone Cheat Sheets",
-    "id": 200,
+    "id": 201,
     "title": "Scripting/zenity",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Scripting/zenity",
     "url": "/#/LZone Cheat Sheets/Scripting/zenity"
   },
-  "201": {
+  "202": {
     "doc": "LZone Cheat Sheets",
-    "id": 201,
+    "id": 202,
     "title": "Security/AppArmor",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/AppArmor",
     "url": "/#/LZone Cheat Sheets/Security/AppArmor"
   },
-  "202": {
+  "203": {
     "doc": "LZone Cheat Sheets",
-    "id": 202,
+    "id": 203,
     "title": "Security/HTTPS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/HTTPS",
     "url": "/#/LZone Cheat Sheets/Security/HTTPS"
   },
-  "203": {
+  "204": {
     "doc": "LZone Cheat Sheets",
-    "id": 203,
+    "id": 204,
     "title": "Security/Incident Handling",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/Incident Handling",
     "url": "/#/LZone Cheat Sheets/Security/Incident Handling"
   },
-  "204": {
+  "205": {
     "doc": "LZone Cheat Sheets",
-    "id": 204,
+    "id": 205,
     "title": "Security/OpenSCAP",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/OpenSCAP",
     "url": "/#/LZone Cheat Sheets/Security/OpenSCAP"
   },
-  "205": {
+  "206": {
     "doc": "LZone Cheat Sheets",
-    "id": 205,
+    "id": 206,
     "title": "Security/OpenSSL",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/OpenSSL",
     "url": "/#/LZone Cheat Sheets/Security/OpenSSL"
   },
-  "206": {
+  "207": {
     "doc": "LZone Cheat Sheets",
-    "id": 206,
+    "id": 207,
     "title": "Security/Package Vulnerabilities",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/Package Vulnerabilities",
     "url": "/#/LZone Cheat Sheets/Security/Package Vulnerabilities"
   },
-  "207": {
+  "208": {
     "doc": "LZone Cheat Sheets",
-    "id": 207,
+    "id": 208,
     "title": "Security/SELinux",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/SELinux",
     "url": "/#/LZone Cheat Sheets/Security/SELinux"
   },
-  "208": {
+  "209": {
     "doc": "LZone Cheat Sheets",
-    "id": 208,
+    "id": 209,
     "title": "Security/SIEM",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/SIEM",
     "url": "/#/LZone Cheat Sheets/Security/SIEM"
   },
-  "209": {
+  "210": {
     "doc": "LZone Cheat Sheets",
-    "id": 209,
+    "id": 210,
     "title": "Security/SSL-Certificates",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/SSL-Certificates",
     "url": "/#/LZone Cheat Sheets/Security/SSL-Certificates"
   },
-  "210": {
+  "211": {
     "doc": "LZone Cheat Sheets",
-    "id": 210,
+    "id": 211,
     "title": "Security/Security Auditing",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/Security Auditing",
     "url": "/#/LZone Cheat Sheets/Security/Security Auditing"
   },
-  "211": {
+  "212": {
     "doc": "LZone Cheat Sheets",
-    "id": 211,
+    "id": 212,
     "title": "Security/Security-News-Feeds",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/Security-News-Feeds",
     "url": "/#/LZone Cheat Sheets/Security/Security-News-Feeds"
   },
-  "212": {
+  "213": {
     "doc": "LZone Cheat Sheets",
-    "id": 212,
+    "id": 213,
     "title": "Security/Security",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Security/Security",
     "url": "/#/LZone Cheat Sheets/Security/Security"
   },
-  "213": {
+  "214": {
     "doc": "LZone Cheat Sheets",
-    "id": 213,
+    "id": 214,
     "title": "Solutions/SaaS Dev Tools",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/SaaS Dev Tools",
     "url": "/#/LZone Cheat Sheets/Solutions/SaaS Dev Tools"
   },
-  "214": {
+  "215": {
     "doc": "LZone Cheat Sheets",
-    "id": 214,
+    "id": 215,
     "title": "Solutions/Service Architecture",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Service Architecture",
     "url": "/#/LZone Cheat Sheets/Solutions/Service Architecture"
   },
-  "215": {
+  "216": {
     "doc": "LZone Cheat Sheets",
-    "id": 215,
+    "id": 216,
     "title": "Solutions/Solutions Auth",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Auth",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Auth"
   },
-  "216": {
+  "217": {
     "doc": "LZone Cheat Sheets",
-    "id": 216,
+    "id": 217,
     "title": "Solutions/Solutions Automation",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Automation",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Automation"
   },
-  "217": {
+  "218": {
     "doc": "LZone Cheat Sheets",
-    "id": 217,
+    "id": 218,
     "title": "Solutions/Solutions CICD",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions CICD",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions CICD"
   },
-  "218": {
+  "219": {
     "doc": "LZone Cheat Sheets",
-    "id": 218,
+    "id": 219,
     "title": "Solutions/Solutions Firewall",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Firewall",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Firewall"
   },
-  "219": {
+  "220": {
     "doc": "LZone Cheat Sheets",
-    "id": 219,
+    "id": 220,
     "title": "Solutions/Solutions Hosting",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Hosting",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Hosting"
   },
-  "220": {
+  "221": {
     "doc": "LZone Cheat Sheets",
-    "id": 220,
+    "id": 221,
     "title": "Solutions/Solutions Install Server",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Install Server",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Install Server"
   },
-  "221": {
+  "222": {
     "doc": "LZone Cheat Sheets",
-    "id": 221,
+    "id": 222,
     "title": "Solutions/Solutions Loadbalancing",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Loadbalancing",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Loadbalancing"
   },
-  "222": {
+  "223": {
     "doc": "LZone Cheat Sheets",
-    "id": 222,
+    "id": 223,
     "title": "Solutions/Solutions Monitoring",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Monitoring",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Monitoring"
   },
-  "223": {
+  "224": {
     "doc": "LZone Cheat Sheets",
-    "id": 223,
+    "id": 224,
     "title": "Solutions/Solutions NoSQL",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions NoSQL",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions NoSQL"
   },
-  "224": {
+  "225": {
     "doc": "LZone Cheat Sheets",
-    "id": 224,
+    "id": 225,
     "title": "Solutions/Solutions Orchestration",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Orchestration",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Orchestration"
   },
-  "225": {
+  "226": {
     "doc": "LZone Cheat Sheets",
-    "id": 225,
+    "id": 226,
     "title": "Solutions/Solutions Virtualization",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Solutions/Solutions Virtualization",
     "url": "/#/LZone Cheat Sheets/Solutions/Solutions Virtualization"
   },
-  "226": {
+  "227": {
     "doc": "LZone Cheat Sheets",
-    "id": 226,
+    "id": 227,
     "title": "Windows/PowerShell",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Windows/PowerShell",
     "url": "/#/LZone Cheat Sheets/Windows/PowerShell"
   },
-  "227": {
+  "228": {
     "doc": "LZone Cheat Sheets",
-    "id": 227,
+    "id": 228,
     "title": "Windows/WSL",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Windows/WSL",
     "url": "/#/LZone Cheat Sheets/Windows/WSL"
   },
-  "228": {
+  "229": {
     "doc": "LZone Cheat Sheets",
-    "id": 228,
+    "id": 229,
     "title": "Windows/netsh",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Windows/netsh",
     "url": "/#/LZone Cheat Sheets/Windows/netsh"
   },
-  "229": {
+  "230": {
     "doc": "LZone Cheat Sheets",
-    "id": 229,
+    "id": 230,
     "title": "Windows/registry",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Windows/registry",
     "url": "/#/LZone Cheat Sheets/Windows/registry"
   },
-  "230": {
+  "231": {
     "doc": "LZone Cheat Sheets",
-    "id": 230,
+    "id": 231,
     "title": "Windows/wmic",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/Windows/wmic",
     "url": "/#/LZone Cheat Sheets/Windows/wmic"
   },
-  "231": {
+  "232": {
     "doc": "LZone Cheat Sheets",
-    "id": 231,
+    "id": 232,
     "title": "kubernetes/Helm Templates",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Helm Templates",
     "url": "/#/LZone Cheat Sheets/kubernetes/Helm Templates"
   },
-  "232": {
+  "233": {
     "doc": "LZone Cheat Sheets",
-    "id": 232,
+    "id": 233,
     "title": "kubernetes/Helm",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Helm",
     "url": "/#/LZone Cheat Sheets/kubernetes/Helm"
   },
-  "233": {
+  "234": {
     "doc": "LZone Cheat Sheets",
-    "id": 233,
+    "id": 234,
     "title": "kubernetes/Minikube",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Minikube",
     "url": "/#/LZone Cheat Sheets/kubernetes/Minikube"
   },
-  "234": {
+  "235": {
     "doc": "LZone Cheat Sheets",
-    "id": 234,
+    "id": 235,
     "title": "kubernetes/Minishift",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Minishift",
     "url": "/#/LZone Cheat Sheets/kubernetes/Minishift"
   },
-  "235": {
+  "236": {
     "doc": "LZone Cheat Sheets",
-    "id": 235,
+    "id": 236,
     "title": "kubernetes/Openshift",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Openshift",
     "url": "/#/LZone Cheat Sheets/kubernetes/Openshift"
   },
-  "236": {
+  "237": {
     "doc": "LZone Cheat Sheets",
-    "id": 236,
+    "id": 237,
     "title": "kubernetes/PKS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/PKS",
     "url": "/#/LZone Cheat Sheets/kubernetes/PKS"
   },
-  "237": {
+  "238": {
     "doc": "LZone Cheat Sheets",
-    "id": 237,
+    "id": 238,
     "title": "kubernetes/Tekton",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/Tekton",
     "url": "/#/LZone Cheat Sheets/kubernetes/Tekton"
   },
-  "238": {
+  "239": {
     "doc": "LZone Cheat Sheets",
-    "id": 238,
+    "id": 239,
     "title": "kubernetes/kops",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kops",
     "url": "/#/LZone Cheat Sheets/kubernetes/kops"
   },
-  "239": {
+  "240": {
     "doc": "LZone Cheat Sheets",
-    "id": 239,
+    "id": 240,
     "title": "kubernetes/kubectl",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kubectl",
     "url": "/#/LZone Cheat Sheets/kubernetes/kubectl"
   },
-  "240": {
+  "241": {
     "doc": "LZone Cheat Sheets",
-    "id": 240,
+    "id": 241,
     "title": "kubernetes/kubernetes ConfigMap",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kubernetes ConfigMap",
     "url": "/#/LZone Cheat Sheets/kubernetes/kubernetes ConfigMap"
   },
-  "241": {
+  "242": {
     "doc": "LZone Cheat Sheets",
-    "id": 241,
+    "id": 242,
     "title": "kubernetes/kubernetes DNS",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kubernetes DNS",
     "url": "/#/LZone Cheat Sheets/kubernetes/kubernetes DNS"
   },
-  "242": {
+  "243": {
     "doc": "LZone Cheat Sheets",
-    "id": 242,
+    "id": 243,
     "title": "kubernetes/kubernetes StorageClass",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kubernetes StorageClass",
     "url": "/#/LZone Cheat Sheets/kubernetes/kubernetes StorageClass"
   },
-  "243": {
+  "244": {
     "doc": "LZone Cheat Sheets",
-    "id": 243,
+    "id": 244,
     "title": "kubernetes/kubernetes",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/kubernetes",
     "url": "/#/LZone Cheat Sheets/kubernetes/kubernetes"
   },
-  "244": {
+  "245": {
     "doc": "LZone Cheat Sheets",
-    "id": 244,
+    "id": 245,
     "title": "kubernetes/nginx-ingress",
     "content": "",
     "relUrl": "/#/LZone Cheat Sheets/kubernetes/nginx-ingress",
     "url": "/#/LZone Cheat Sheets/kubernetes/nginx-ingress"
   },
-  "245": {
+  "246": {
     "doc": "WurmTerm Runbooks",
-    "id": 245,
+    "id": 246,
     "title": "WurmTerm Runbooks",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks",
     "url": "/#/WurmTerm Runbooks"
   },
-  "246": {
+  "247": {
     "doc": "WurmTerm Runbooks",
-    "id": 246,
+    "id": 247,
     "title": "Mail",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/Mail",
     "url": "/#/WurmTerm Runbooks/Mail"
   },
-  "247": {
+  "248": {
     "doc": "WurmTerm Runbooks",
-    "id": 247,
+    "id": 248,
     "title": "System Log",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/System Log",
     "url": "/#/WurmTerm Runbooks/System Log"
   },
-  "248": {
+  "249": {
     "doc": "WurmTerm Runbooks",
-    "id": 248,
+    "id": 249,
     "title": "arp",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/arp",
     "url": "/#/WurmTerm Runbooks/arp"
   },
-  "249": {
+  "250": {
     "doc": "WurmTerm Runbooks",
-    "id": 249,
+    "id": 250,
     "title": "bluetooth",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/bluetooth",
     "url": "/#/WurmTerm Runbooks/bluetooth"
   },
-  "250": {
+  "251": {
     "doc": "WurmTerm Runbooks",
-    "id": 250,
+    "id": 251,
     "title": "df - Inodes",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/df - Inodes",
     "url": "/#/WurmTerm Runbooks/df - Inodes"
   },
-  "251": {
+  "252": {
     "doc": "WurmTerm Runbooks",
-    "id": 251,
+    "id": 252,
     "title": "df",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/df",
     "url": "/#/WurmTerm Runbooks/df"
   },
-  "252": {
+  "253": {
     "doc": "WurmTerm Runbooks",
-    "id": 252,
+    "id": 253,
     "title": "dpkg",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/dpkg",
     "url": "/#/WurmTerm Runbooks/dpkg"
   },
-  "253": {
+  "254": {
     "doc": "WurmTerm Runbooks",
-    "id": 253,
+    "id": 254,
     "title": "ps Container",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/ps Container",
     "url": "/#/WurmTerm Runbooks/ps Container"
   },
-  "254": {
+  "255": {
     "doc": "WurmTerm Runbooks",
-    "id": 254,
+    "id": 255,
     "title": "systemd",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/systemd",
     "url": "/#/WurmTerm Runbooks/systemd"
   },
-  "255": {
+  "256": {
     "doc": "WurmTerm Runbooks",
-    "id": 255,
+    "id": 256,
     "title": "who",
     "content": "",
     "relUrl": "/#/WurmTerm Runbooks/who",
     "url": "/#/WurmTerm Runbooks/who"
   },
-  "256": {
+  "257": {
     "doc": "LZone Examples",
-    "id": 256,
+    "id": 257,
     "title": "LZone Examples",
     "content": "",
     "relUrl": "/#/LZone Examples",
     "url": "/#/LZone Examples"
   },
-  "257": {
+  "258": {
     "doc": "LZone Examples",
-    "id": 257,
+    "id": 258,
     "title": "Glib Examples/GObject",
     "content": "",
     "relUrl": "/#/LZone Examples/Glib Examples/GObject",
     "url": "/#/LZone Examples/Glib Examples/GObject"
   },
-  "258": {
+  "259": {
     "doc": "LZone Examples",
-    "id": 258,
+    "id": 259,
     "title": "Glib Examples/Glib GRegex",
     "content": "",
     "relUrl": "/#/LZone Examples/Glib Examples/Glib GRegex",
     "url": "/#/LZone Examples/Glib Examples/Glib GRegex"
   },
-  "259": {
+  "260": {
     "doc": "LZone Examples",
-    "id": 259,
+    "id": 260,
     "title": "Glib Examples/Glib Testing",
     "content": "",
     "relUrl": "/#/LZone Examples/Glib Examples/Glib Testing",
     "url": "/#/LZone Examples/Glib Examples/Glib Testing"
   },
-  "260": {
+  "261": {
     "doc": "LZone Examples",
-    "id": 260,
+    "id": 261,
     "title": "Glib Examples/Glib XDG Migration",
     "content": "",
     "relUrl": "/#/LZone Examples/Glib Examples/Glib XDG Migration",
     "url": "/#/LZone Examples/Glib Examples/Glib XDG Migration"
   },
-  "261": {
+  "262": {
     "doc": "LZone Examples",
-    "id": 261,
+    "id": 262,
     "title": "Glib Examples/Glib",
     "content": "",
     "relUrl": "/#/LZone Examples/Glib Examples/Glib",
     "url": "/#/LZone Examples/Glib Examples/Glib"
   },
-  "262": {
+  "263": {
     "doc": "LZone Examples",
-    "id": 262,
+    "id": 263,
     "title": "Javascript Examples/GraphQL",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/GraphQL",
     "url": "/#/LZone Examples/Javascript Examples/GraphQL"
   },
-  "263": {
+  "264": {
     "doc": "LZone Examples",
-    "id": 263,
+    "id": 264,
     "title": "Javascript Examples/Handlebars",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Handlebars",
     "url": "/#/LZone Examples/Javascript Examples/Handlebars"
   },
-  "264": {
+  "265": {
     "doc": "LZone Examples",
-    "id": 264,
+    "id": 265,
     "title": "Javascript Examples/Javascript Modules",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Javascript Modules",
     "url": "/#/LZone Examples/Javascript Examples/Javascript Modules"
   },
-  "265": {
+  "266": {
     "doc": "LZone Examples",
-    "id": 265,
+    "id": 266,
     "title": "Javascript Examples/Javascript RegExp",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Javascript RegExp",
     "url": "/#/LZone Examples/Javascript Examples/Javascript RegExp"
   },
-  "266": {
+  "267": {
     "doc": "LZone Examples",
-    "id": 266,
+    "id": 267,
     "title": "Javascript Examples/Javascript strptime",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Javascript strptime",
     "url": "/#/LZone Examples/Javascript Examples/Javascript strptime"
   },
-  "267": {
+  "268": {
     "doc": "LZone Examples",
-    "id": 267,
+    "id": 268,
     "title": "Javascript Examples/Javascript void0",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Javascript void0",
     "url": "/#/LZone Examples/Javascript Examples/Javascript void0"
   },
-  "268": {
+  "269": {
     "doc": "LZone Examples",
-    "id": 268,
+    "id": 269,
     "title": "Javascript Examples/Nodejs Express",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/Nodejs Express",
     "url": "/#/LZone Examples/Javascript Examples/Nodejs Express"
   },
-  "269": {
+  "270": {
     "doc": "LZone Examples",
-    "id": 269,
+    "id": 270,
     "title": "Javascript Examples/README",
     "content": "",
     "relUrl": "/#/LZone Examples/Javascript Examples/README",
     "url": "/#/LZone Examples/Javascript Examples/README"
   },
-  "270": {
+  "271": {
     "doc": "LZone Examples",
-    "id": 270,
+    "id": 271,
     "title": "PHP Examples/PHP Arrays",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP Arrays",
     "url": "/#/LZone Examples/PHP Examples/PHP Arrays"
   },
-  "271": {
+  "272": {
     "doc": "LZone Examples",
-    "id": 271,
+    "id": 272,
     "title": "PHP Examples/PHP curl_setopt",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP curl_setopt",
     "url": "/#/LZone Examples/PHP Examples/PHP curl_setopt"
   },
-  "272": {
+  "273": {
     "doc": "LZone Examples",
-    "id": 272,
+    "id": 273,
     "title": "PHP Examples/PHP date",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP date",
     "url": "/#/LZone Examples/PHP Examples/PHP date"
   },
-  "273": {
+  "274": {
     "doc": "LZone Examples",
-    "id": 273,
+    "id": 274,
     "title": "PHP Examples/PHP explode",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP explode",
     "url": "/#/LZone Examples/PHP Examples/PHP explode"
   },
-  "274": {
+  "275": {
     "doc": "LZone Examples",
-    "id": 274,
+    "id": 275,
     "title": "PHP Examples/PHP file_get_contents",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP file_get_contents",
     "url": "/#/LZone Examples/PHP Examples/PHP file_get_contents"
   },
-  "275": {
+  "276": {
     "doc": "LZone Examples",
-    "id": 275,
+    "id": 276,
     "title": "PHP Examples/PHP implode",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP implode",
     "url": "/#/LZone Examples/PHP Examples/PHP implode"
   },
-  "276": {
+  "277": {
     "doc": "LZone Examples",
-    "id": 276,
+    "id": 277,
     "title": "PHP Examples/PHP in_array",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP in_array",
     "url": "/#/LZone Examples/PHP Examples/PHP in_array"
   },
-  "277": {
+  "278": {
     "doc": "LZone Examples",
-    "id": 277,
+    "id": 278,
     "title": "PHP Examples/PHP ini_set",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP ini_set",
     "url": "/#/LZone Examples/PHP Examples/PHP ini_set"
   },
-  "278": {
+  "279": {
     "doc": "LZone Examples",
-    "id": 278,
+    "id": 279,
     "title": "PHP Examples/PHP preg_match",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP preg_match",
     "url": "/#/LZone Examples/PHP Examples/PHP preg_match"
   },
-  "279": {
+  "280": {
     "doc": "LZone Examples",
-    "id": 279,
+    "id": 280,
     "title": "PHP Examples/PHP preg_replace",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP preg_replace",
     "url": "/#/LZone Examples/PHP Examples/PHP preg_replace"
   },
-  "280": {
+  "281": {
     "doc": "LZone Examples",
-    "id": 280,
+    "id": 281,
     "title": "PHP Examples/PHP str_replace",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP str_replace",
     "url": "/#/LZone Examples/PHP Examples/PHP str_replace"
   },
-  "281": {
+  "282": {
     "doc": "LZone Examples",
-    "id": 281,
+    "id": 282,
     "title": "PHP Examples/PHP stripos",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP stripos",
     "url": "/#/LZone Examples/PHP Examples/PHP stripos"
   },
-  "282": {
+  "283": {
     "doc": "LZone Examples",
-    "id": 282,
+    "id": 283,
     "title": "PHP Examples/PHP strpos",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP strpos",
     "url": "/#/LZone Examples/PHP Examples/PHP strpos"
   },
-  "283": {
+  "284": {
     "doc": "LZone Examples",
-    "id": 283,
+    "id": 284,
     "title": "PHP Examples/PHP strripos",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP strripos",
     "url": "/#/LZone Examples/PHP Examples/PHP strripos"
   },
-  "284": {
+  "285": {
     "doc": "LZone Examples",
-    "id": 284,
+    "id": 285,
     "title": "PHP Examples/PHP strrpos",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP strrpos",
     "url": "/#/LZone Examples/PHP Examples/PHP strrpos"
   },
-  "285": {
+  "286": {
     "doc": "LZone Examples",
-    "id": 285,
+    "id": 286,
     "title": "PHP Examples/PHP ternary operator",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP ternary operator",
     "url": "/#/LZone Examples/PHP Examples/PHP ternary operator"
   },
-  "286": {
+  "287": {
     "doc": "LZone Examples",
-    "id": 286,
+    "id": 287,
     "title": "PHP Examples/PHP unserialize",
     "content": "",
     "relUrl": "/#/LZone Examples/PHP Examples/PHP unserialize",
     "url": "/#/LZone Examples/PHP Examples/PHP unserialize"
   },
-  "287": {
+  "288": {
     "doc": "LZone Examples",
-    "id": 287,
+    "id": 288,
     "title": "Python Examples/PyGI GStreamer",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/PyGI GStreamer",
     "url": "/#/LZone Examples/Python Examples/PyGI GStreamer"
   },
-  "288": {
+  "289": {
     "doc": "LZone Examples",
-    "id": 288,
+    "id": 289,
     "title": "Python Examples/PyGI GnomeKeyring",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/PyGI GnomeKeyring",
     "url": "/#/LZone Examples/Python Examples/PyGI GnomeKeyring"
   },
-  "289": {
+  "290": {
     "doc": "LZone Examples",
-    "id": 289,
+    "id": 290,
     "title": "Python Examples/PyGI GtkStatusIcon",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/PyGI GtkStatusIcon",
     "url": "/#/LZone Examples/Python Examples/PyGI GtkStatusIcon"
   },
-  "290": {
+  "291": {
     "doc": "LZone Examples",
-    "id": 290,
+    "id": 291,
     "title": "Python Examples/Python Dictionary",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python Dictionary",
     "url": "/#/LZone Examples/Python Examples/Python Dictionary"
   },
-  "291": {
+  "292": {
     "doc": "LZone Examples",
-    "id": 291,
+    "id": 292,
     "title": "Python Examples/Python Syntax",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python Syntax",
     "url": "/#/LZone Examples/Python Examples/Python Syntax"
   },
-  "292": {
+  "293": {
     "doc": "LZone Examples",
-    "id": 292,
+    "id": 293,
     "title": "Python Examples/Python argparse",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python argparse",
     "url": "/#/LZone Examples/Python Examples/Python argparse"
   },
-  "293": {
+  "294": {
     "doc": "LZone Examples",
-    "id": 293,
+    "id": 294,
     "title": "Python Examples/Python re.match",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python re.match",
     "url": "/#/LZone Examples/Python Examples/Python re.match"
   },
-  "294": {
+  "295": {
     "doc": "LZone Examples",
-    "id": 294,
+    "id": 295,
     "title": "Python Examples/Python re",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python re",
     "url": "/#/LZone Examples/Python Examples/Python re"
   },
-  "295": {
+  "296": {
     "doc": "LZone Examples",
-    "id": 295,
+    "id": 296,
     "title": "Python Examples/Python re.sub",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python re.sub",
     "url": "/#/LZone Examples/Python Examples/Python re.sub"
   },
-  "296": {
+  "297": {
     "doc": "LZone Examples",
-    "id": 296,
+    "id": 297,
     "title": "Python Examples/Python simplehttpserver",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python simplehttpserver",
     "url": "/#/LZone Examples/Python Examples/Python simplehttpserver"
   },
-  "297": {
+  "298": {
     "doc": "LZone Examples",
-    "id": 297,
+    "id": 298,
     "title": "Python Examples/Python split",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python split",
     "url": "/#/LZone Examples/Python Examples/Python split"
   },
-  "298": {
+  "299": {
     "doc": "LZone Examples",
-    "id": 298,
+    "id": 299,
     "title": "Python Examples/Python string concat",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python string concat",
     "url": "/#/LZone Examples/Python Examples/Python string concat"
   },
-  "299": {
+  "300": {
     "doc": "LZone Examples",
-    "id": 299,
+    "id": 300,
     "title": "Python Examples/Python subprocess",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python subprocess",
     "url": "/#/LZone Examples/Python Examples/Python subprocess"
   },
-  "300": {
+  "301": {
     "doc": "LZone Examples",
-    "id": 300,
+    "id": 301,
     "title": "Python Examples/Python",
     "content": "",
     "relUrl": "/#/LZone Examples/Python Examples/Python",
     "url": "/#/LZone Examples/Python Examples/Python"
   },
-  "301": {
+  "302": {
     "doc": "LZone Examples",
-    "id": 301,
+    "id": 302,
     "title": "README",
     "content": "",
     "relUrl": "/#/LZone Examples/README",
     "url": "/#/LZone Examples/README"
   },
-  "302": {
+  "303": {
     "doc": "LZone Examples",
-    "id": 302,
+    "id": 303,
     "title": "Regex Examples/Go Regex",
     "content": "",
     "relUrl": "/#/LZone Examples/Regex Examples/Go Regex",
     "url": "/#/LZone Examples/Regex Examples/Go Regex"
   },
-  "303": {
+  "304": {
     "doc": "LZone Examples",
-    "id": 303,
+    "id": 304,
     "title": "Regex Examples/Regex Overview",
     "content": "",
     "relUrl": "/#/LZone Examples/Regex Examples/Regex Overview",
     "url": "/#/LZone Examples/Regex Examples/Regex Overview"
   },
-  "304": {
+  "305": {
     "doc": "LZone Examples",
-    "id": 304,
+    "id": 305,
     "title": "Regex Examples/Ruby Regex",
     "content": "",
     "relUrl": "/#/LZone Examples/Regex Examples/Ruby Regex",
     "url": "/#/LZone Examples/Regex Examples/Ruby Regex"
   },
-  "305": {
+  "306": {
     "doc": "Video Tutorials",
-    "id": 305,
+    "id": 306,
     "title": "Video Tutorials",
     "content": "",
     "relUrl": "/#/Video Tutorials",
     "url": "/#/Video Tutorials"
   },
-  "306": {
+  "307": {
     "doc": "Video Tutorials",
-    "id": 306,
+    "id": 307,
     "title": "README",
     "content": "",
     "relUrl": "/#/Video Tutorials/README",
     "url": "/#/Video Tutorials/README"
   },
-  "307": {
+  "308": {
     "doc": "Visual Ops",
-    "id": 307,
+    "id": 308,
     "title": "Visual Ops",
     "content": "",
     "relUrl": "/#/Visual Ops",
     "url": "/#/Visual Ops"
   },
-  "308": {
+  "309": {
     "doc": "Visual Ops",
-    "id": 308,
+    "id": 309,
     "title": "README",
     "content": "",
     "relUrl": "/#/Visual Ops/README",
     "url": "/#/Visual Ops/README"
   },
-  "309": {
+  "310": {
     "doc": "Visual Ops",
-    "id": 309,
+    "id": 310,
     "title": "du Radial Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Radial Map",
     "url": "/#/Visual Ops/du Radial Map"
   },
-  "310": {
+  "311": {
     "doc": "Visual Ops",
-    "id": 310,
+    "id": 311,
     "title": "du Tree Map",
     "content": "",
     "relUrl": "/#/Visual Ops/du Tree Map",
     "url": "/#/Visual Ops/du Tree Map"
   },
-  "311": {
+  "312": {
     "doc": "Visual Ops",
-    "id": 311,
+    "id": 312,
     "title": "netstat Dendrogram",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Dendrogram",
     "url": "/#/Visual Ops/netstat Dendrogram"
   },
-  "312": {
+  "313": {
     "doc": "Visual Ops",
-    "id": 312,
+    "id": 313,
     "title": "netstat Force Graph",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Force Graph",
     "url": "/#/Visual Ops/netstat Force Graph"
   },
-  "313": {
+  "314": {
     "doc": "Visual Ops",
-    "id": 313,
+    "id": 314,
     "title": "netstat Services",
     "content": "",
     "relUrl": "/#/Visual Ops/netstat Services",
     "url": "/#/Visual Ops/netstat Services"
   },
-  "314": {
+  "315": {
     "doc": "Unicorn Arcology",
-    "id": 314,
+    "id": 315,
     "title": "Unicorn Arcology",
     "content": "",
     "relUrl": "/#/Unicorn Arcology",
     "url": "/#/Unicorn Arcology"
   },
-  "315": {
+  "316": {
     "doc": "Unicorn Arcology",
-    "id": 315,
+    "id": 316,
     "title": "CERN/Monitoring/2024 Grafana and Mimir",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/CERN/Monitoring/2024 Grafana and Mimir",
     "url": "/#/Unicorn Arcology/CERN/Monitoring/2024 Grafana and Mimir"
   },
-  "316": {
+  "317": {
     "doc": "Unicorn Arcology",
-    "id": 316,
+    "id": 317,
     "title": "Hulu/NoSQL/2012 memcached",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached"
   },
-  "317": {
+  "318": {
     "doc": "Unicorn Arcology",
-    "id": 317,
+    "id": 318,
     "title": "Hulu/NoSQL/2013 Redis Multi-DC",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC"
   },
-  "318": {
+  "319": {
     "doc": "Unicorn Arcology",
-    "id": 318,
+    "id": 319,
     "title": "Netflix/Data Platform/2013 Genie1",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1"
   },
-  "319": {
+  "320": {
     "doc": "Unicorn Arcology",
-    "id": 319,
+    "id": 320,
     "title": "Netflix/Data Platform/2014 Genie2",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2"
   },
-  "320": {
+  "321": {
     "doc": "Unicorn Arcology",
-    "id": 320,
+    "id": 321,
     "title": "Netflix/Data Platform/2017 Genie3",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3"
   },
-  "321": {
+  "322": {
     "doc": "Unicorn Arcology",
-    "id": 321,
+    "id": 322,
     "title": "README",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/README",
     "url": "/#/Unicorn Arcology/README"
   },
-  "322": {
+  "323": {
     "doc": "Unicorn Arcology",
-    "id": 322,
+    "id": 323,
     "title": "Reddit/2019",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Reddit/2019",
     "url": "/#/Unicorn Arcology/Reddit/2019"
   },
-  "323": {
+  "324": {
     "doc": "Unicorn Arcology",
-    "id": 323,
+    "id": 324,
     "title": "Uber/Data Platform/2014 RDBMs",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs"
   },
-  "324": {
+  "325": {
     "doc": "Unicorn Arcology",
-    "id": 324,
+    "id": 325,
     "title": "Uber/Data Platform/2015 DWH data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake"
   },
-  "325": {
+  "326": {
     "doc": "Unicorn Arcology",
-    "id": 325,
+    "id": 326,
     "title": "Uber/Data Platform/2016 Hadoop data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake"
   },
-  "326": {
+  "327": {
     "doc": "Unicorn Arcology",
-    "id": 326,
+    "id": 327,
     "title": "Uber/Data Platform/2017 Big data platform",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform"
   },
-  "327": {
+  "328": {
     "doc": "Unicorn Arcology",
-    "id": 327,
+    "id": 328,
     "title": "Uber/Monitoring/2018 M3DB",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Monitoring/2018 M3DB",

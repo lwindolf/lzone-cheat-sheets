@@ -227,6 +227,10 @@
         "path": "Cheat Sheets/DevOps Linux/GPG.md"
       },
       {
+        "name": "DevOps Linux/GPU",
+        "path": "Cheat Sheets/DevOps Linux/GPU.md"
+      },
+      {
         "name": "DevOps Linux/Grub",
         "path": "Cheat Sheets/DevOps Linux/Grub.md"
       },
