@@ -1,6 +1,23 @@
 ## Check for GPU on server
 
+General GPU support is easy to check via Vulkan
+
     vulkaninfo --summary
+
+For NVidia you can also check with
+
+    nvidia-smi
+
+For AMD
+
+    aticonfig --odgc --odgt
+
+## GPU Monitoring
+
+For load monitoring
+
+    nvtop
+    radeontop
 
 ## Check for GPU on laptop
 
