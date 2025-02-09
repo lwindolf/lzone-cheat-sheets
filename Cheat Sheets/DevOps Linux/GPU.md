@@ -19,3 +19,5 @@ Use one of the options
 - In browser console:
 
       navigator.gpu.requestAdapter().then((res) => { console.log(res)})
+
+For performance and feature completeness tests use the WebGPU demo page https://webgpu.github.io/webgpu-samples/
