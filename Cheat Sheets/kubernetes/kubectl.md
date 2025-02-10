@@ -230,7 +230,7 @@ you can do stuff like
 
       kubectl get svc --all-namespaces -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}{{end}}'
 
-      
+- [Howto: Nightly pod restarts](https://stackoverflow.com/questions/52422300/how-to-schedule-pods-restart)
 
 <?speakerdeck,d25dce78d1d64f039b7e23bedd95d4f6,Security Best Practices?>
 <?speakerdeck,ee213c61e742426693f965ba13850bd8,Multi-Tenancy?>
