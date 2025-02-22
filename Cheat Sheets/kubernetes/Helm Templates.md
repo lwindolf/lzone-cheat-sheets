@@ -2,7 +2,6 @@
 related:
   cheat-sheet: ['Helm']
 ---
-{% raw %}
 
 Note that while Helm uses Go templates it does so by using the 
 [Sprig templating library](https://masterminds.github.io/sprig/) 
@@ -125,4 +124,8 @@ our pass values
     {{ myOtherFunc "scalar" }}
     {{ myOtherFunc 64 }}
     {{ myOtherFunc . }}           # Provide current context to pass multiple values
-{% endraw %}
+
+## Misc
+
+- [Helm Playground](https://helm-playground.com/)
+- [Helm Template Cheat Sheet](https://helm-playground.com/cheatsheet.html)
