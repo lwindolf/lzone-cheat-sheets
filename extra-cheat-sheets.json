@@ -399,7 +399,13 @@
     "type": "Awesome",
     "category": "Cloud"
   },
-  "MS Azure Security": {
+  "Azure Monitoring Baseline": {
+    "github": "Azure/azure-monitor-baseline-alerts",
+    "filePattern": "^docs/content/(.+)\\.md$",
+    "type": "Documentation",
+    "category": "Cloud"
+  },
+  "Azure Security": {
     "github": "MicrosoftDocs/security",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
