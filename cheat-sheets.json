@@ -911,6 +911,10 @@
         "path": "Cheat Sheets/Solutions/Solutions Virtualization.md"
       },
       {
+        "name": "Windows/Edge",
+        "path": "Cheat Sheets/Windows/Edge.md"
+      },
+      {
         "name": "Windows/PowerShell",
         "path": "Cheat Sheets/Windows/PowerShell.md"
       },
