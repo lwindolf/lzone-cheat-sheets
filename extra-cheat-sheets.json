@@ -1331,5 +1331,10 @@
     "github": "hendricius/the-bread-code",
     "type": "Book",
     "category": "DevOps"
+  },
+  "Terraform Zero to Hero": {
+    "github": "iam-veeramalla/terraform-zero-to-hero",
+    "type": "Documentation",
+    "category": "DevOps"
   }
 }
