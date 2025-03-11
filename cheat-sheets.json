@@ -307,6 +307,10 @@
         "path": "Cheat Sheets/DevOps Linux/cgroups.md"
       },
       {
+        "name": "DevOps Linux/fontconfig",
+        "path": "Cheat Sheets/DevOps Linux/fontconfig.md"
+      },
+      {
         "name": "DevOps Linux/kerberos",
         "path": "Cheat Sheets/DevOps Linux/kerberos.md"
       },
