@@ -195,6 +195,10 @@
         "path": "Cheat Sheets/Container/runc.md"
       },
       {
+        "name": "Container/skopeo",
+        "path": "Cheat Sheets/Container/skopeo.md"
+      },
+      {
         "name": "DevOps Linux/Architecture",
         "path": "Cheat Sheets/DevOps Linux/Architecture.md"
       },
