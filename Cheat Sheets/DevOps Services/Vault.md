@@ -2,10 +2,14 @@ This cheat sheet is about Hashicorp Vault
 
 ## CLI
 
+    VAULT_ADDR=https://<server> vault login
+    vault login -address=https://<server>
+
     vault status
-    vault login
     vault auth list
     vault token renew
+
+    vault -autocomplete-install
 
     vault policy list
     vault policy read <name>
@@ -16,6 +20,11 @@ This cheat sheet is about Hashicorp Vault
     vault kv get <path>
     vault kv get --field <name> <path> 
     vault kv get -version <path>
-    vault kv put <path> <key>=<value>
+    vault kv put <path> <key>=<value> [<key>=<value> [...]]
+    vault kv put <path> @data.json
+    echo <value> | vault kv put <path> <key>=-
+    
+    vault kv patch <path> <key>=<value>
     vault kv delete <path>
+    
     
