@@ -13,6 +13,10 @@ Matching for Conditions
 
     awk '{if($1 ~ /pattern) { ... }}' infile
 
+Negative Pattern
+
+    !/abc/ { print }
+
 ## Blocks
 
     BEGIN { print("only run at start") }
