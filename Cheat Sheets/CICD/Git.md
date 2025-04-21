@@ -205,6 +205,10 @@ Disable proxy for a given URL
 
 ## Misc
 
+### Run pre-commit hook (e.g. in CICD pipeline)
+
+    git hook run pre-commit
+
 ### Update submodules
 
     git submodule update --init --recursive
