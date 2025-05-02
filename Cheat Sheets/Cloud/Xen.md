@@ -4,8 +4,7 @@
 
         cat /sys/hypervisor/properties/capabilities 
 
--   [Xen vs. Xen
-    Server](http://virtually-a-machine.blogspot.de/2009/09/open-source-xen-vs-xenserver.html)
+-   [Xen vs. Xen Server](http://virtually-a-machine.blogspot.de/2009/09/open-source-xen-vs-xenserver.html)
 -   [Xen - Commands](http://www.debian-administration.org/articles/533)
 
         xm list           # List all domains
