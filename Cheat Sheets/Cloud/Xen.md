@@ -1,4 +1,4 @@
-### Xen
+## CLI
 
 -   Test if you are running a Xen kernel:
 
@@ -48,16 +48,13 @@
         xm list -l <VM name> | grep mac
         arp -a | grep -i <MAC address>
 
-### Xen Server
+## Xen Server
 
--   [Feature Matrix XenServer Free vs.
-    Enterprise](http://wiki.xensource.com/xenwiki/XCP/XenServer_Feature_Matrix):
+-   [Feature Matrix XenServer Free vs. Enterprise](http://wiki.xensource.com/xenwiki/XCP/XenServer_Feature_Matrix):
     Whats the difference and what features are provided by "xe" what
     "xm" doesn't have...
--   [XenServer GUI Comparison Free vs.
-    Enterprise](http://www.dabcc.com/article.aspx?id=11045)
--   [Xen Server - Hanging Operation on
-    Shutdown](http://hafizpariabi.blogspot.com/2011/09/unable-to-shutdown-hang-vm-on-xenserver.html):
+-   [XenServer GUI Comparison Free vs. Enterprise](http://www.dabcc.com/article.aspx?id=11045)
+-   [Xen Server - Hanging Operation on Shutdown](http://hafizpariabi.blogspot.com/2011/09/unable-to-shutdown-hang-vm-on-xenserver.html):
     This happens when for example a reboot doesn't work and you want to
     perform a shutdown to quickly restore an unresponding VM. The first
     task (reboot) is ineffective and won't complete and thereby will
@@ -76,15 +73,13 @@
         xe task-list                          # Get task uid
         xe task-cancel uuid=<task uuid>       # And cancel it
 
--   [XenServer - Add Another Physical
-    Disk](http://www.xendesktopmaster.com/how-to-add-an-additional-local-disk-to-your-xenserver-5-5-host/):
+-   [XenServer - Add Another Physical Disk](http://www.xendesktopmaster.com/how-to-add-an-additional-local-disk-to-your-xenserver-5-5-host/):
 
         xe host-list                         # to get host UUID
         xe sr-create host-uuid=<host UUID> shared=false type=lvm \
            content-type=user device-config:device=/dev/sdb1 name-label="Another disk"
 
--   [XenServer - VM
-    Paravirtualization](http://wiki.univention.de/index.php?title=Citrix_Xen_Server):
+-   [XenServer - VM Paravirtualization](http://wiki.univention.de/index.php?title=Citrix_Xen_Server):
     How to configure a single VM to be paravirtualized:
 
         # Configure boot
@@ -120,12 +115,10 @@
         # Also try
         ovs-appctl bond/show bond0
 
--   [XenServer - Restore VM from
-    Image](http://support.citrix.com/servlet/KbServlet/download/17141-102-671564/XenServer_Pool_Replication_-_Disaster_Recovery.pdf):
+-   [XenServer - Restore VM from Image](http://support.citrix.com/servlet/KbServlet/download/17141-102-671564/XenServer_Pool_Replication_-_Disaster_Recovery.pdf):
     Use "xe vm-import" to create a new VM with a new UUID:
 
         xe vm-import filename=image.xva preserve=true
 
--   [Xen Server - Ubuntu bug: read-only
-    filesystem](/blkfront+barrier+empty+write+xvda+op+failed)
+-   [Xen Server - Ubuntu bug: read-only filesystem](/blkfront+barrier+empty+write+xvda+op+failed)
 
