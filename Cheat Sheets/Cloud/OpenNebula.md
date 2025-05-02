@@ -1,4 +1,4 @@
-### VM Commands
+## VM Commands
 
     onevm list            # List running instances
     onevm show <id>       # Info on running instance
@@ -25,7 +25,7 @@
     onetemplate instantiate "CentOS-6.4" --name "somename"
     onetemplate instantiate <id> --name <name> --memory 1024 --cpu 1 --vcpu 2 --nic <nic name>
 
-### Host Commands
+## Host Commands
 
     onehost list
     onehost top
@@ -33,12 +33,12 @@
 
     onehost create <host> -i kvm -v kvm -n <id>
 
-### Network Commands
+## Network Commands
 
     onevnet list
     onevnet show <nr>
 
-### Template Commands
+## Template Commands
 
     onetemplate list
     onetemplate clone <id> <name>
