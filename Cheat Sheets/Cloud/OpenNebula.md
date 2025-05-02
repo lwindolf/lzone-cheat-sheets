@@ -1,6 +1,6 @@
 ### VM Commands
 
-    onevm list          # List running instances
+    onevm list            # List running instances
     onevm show <id>       # Info on running instance
 
     onevm stop <id(s)>
