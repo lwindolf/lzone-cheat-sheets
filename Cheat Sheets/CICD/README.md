@@ -10,6 +10,8 @@
 
 ## Quality Gates as Contracts
 
+- FIXME
+
 ## Mocking Solutions for Unit/Integration-Testing
 
 - WireMock: mock server (JUnit, Servlet, Replays)
