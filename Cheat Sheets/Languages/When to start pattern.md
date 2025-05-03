@@ -37,3 +37,16 @@ caused by not abstracting.
 ### Plugins
 
 - When you want you end-users to extend you application
+
+### Clients
+
+- When there are multiple execution interfaces for your frontend
+
+### API
+
+- when you have multiple clients with different needs
+- when you have a distributed architecture
+
+### API Gateway
+
+- once you want to impose non-functional requirements on your API
