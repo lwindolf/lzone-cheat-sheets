@@ -25,6 +25,10 @@ caused by not abstracting.
   you need to configure them
 - When you have >2-3 independent use cases operating modes of your application
 
+### Router
+
+- when you need to extract+validate parameters from route endpoints
+
 ### Commands (aka actions / event-driven)
 
 - When you have more than 2 listeners you some change
