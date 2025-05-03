@@ -10,6 +10,12 @@ caused by not abstracting.
 
 ## When to introduce ...
 
+### Application
+
+This is about having an instance managing application setup and teardown
+
+- once you have 2-3 stateful classes that need sequential initialization on startup
+
 ### Views
 
 - as soon as you want to dynamically update a part of your app GUI
