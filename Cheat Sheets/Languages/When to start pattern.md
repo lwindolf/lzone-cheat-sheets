@@ -63,7 +63,11 @@ This is about introducing build time configuration and software+config stack man
 
 ### Plugins
 
-- When you want you end-users to extend you application
+- When you want you end-users to extend your application
+
+### Package Manager
+
+- Once people start building "distributions" of your software parts
 
 ### Clients
 
