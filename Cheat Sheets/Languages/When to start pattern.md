@@ -2,7 +2,7 @@ This is a decision collection on when to start which listed pattern when you
 are working without a framework library (like React) and are free to choose the
 complexity thresholds.
 
-The goal of course is to not misapply pattern below the right complexity threshold
+The goal of course is to not misapply any pattern below the specific complexity threshold
 to avoid overengineering and to apply them at the threshold to avoid code complexity
 caused by not abstracting.
 
