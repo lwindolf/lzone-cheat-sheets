@@ -19,19 +19,26 @@ caused by not abstracting.
 - Your code has 2-3 data sources
 - Access to a single data source is spread over classes that have nothing to do with each other
 
-### Datasources
-
-- When the same model can "plug-in" multiple data source (e.g. based on the runtime env)
-
-### Datasource Schema
-
-- as soon as possible
-
 ### Controllers
 
 - If you have more than one input data source (mouse, keyboard, touch) and multiple views where
   you need to configure them
 - When you have >2-3 independent use cases operating modes of your application
+
+### Data sources
+
+- When the same model can "plug-in" multiple data source (e.g. based on the runtime env)
+
+### Data source schemata
+
+This means having an explicit and versione data source schema and migration handling.
+
+- as soon as possible
+
+### Transaction Manager
+
+- as soon as you have non-functional requirements on data sources
+- if you need to coordinate consistency between multiple data sources
 
 ### Router
 
