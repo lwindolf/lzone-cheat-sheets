@@ -19,6 +19,10 @@ caused by not abstracting.
 - Your code has 2-3 data sources
 - Access to a single data source is spread over classes that have nothing to do with each other
 
+### Datasource Schema
+
+- as soon as possible
+
 ### Controllers
 
 - If you have more than one input data source (mouse, keyboard, touch) and multiple views where
@@ -33,6 +37,11 @@ caused by not abstracting.
 
 - When you have more than 2 listeners you some change
 - When you plan a complex composable GUI
+
+### Config Management
+
+- when you need to merge multiple sources of configuration
+- when you different config source have different lifecycles
 
 ### Plugins
 
