@@ -52,7 +52,14 @@ This means having an explicit and versione data source schema and migration hand
 ### Config Management
 
 - when you need to merge multiple sources of configuration
-- when you different config source have different lifecycles
+- when your different config source have different lifecycles
+- when you have config inheritance (and need to merge configs)
+
+### Variant Management
+
+This is about introducing build time configuration and software+config stack management
+
+- once you have >2-3 customers with alternatives in the software stack or configuration complexity
 
 ### Plugins
 
