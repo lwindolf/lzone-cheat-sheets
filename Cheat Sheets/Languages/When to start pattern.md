@@ -19,6 +19,10 @@ caused by not abstracting.
 - Your code has 2-3 data sources
 - Access to a single data source is spread over classes that have nothing to do with each other
 
+### Datasources
+
+- When the same model can "plug-in" multiple data source (e.g. based on the runtime env)
+
 ### Datasource Schema
 
 - as soon as possible
