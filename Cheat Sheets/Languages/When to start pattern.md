@@ -31,7 +31,7 @@ caused by not abstracting.
 
 ### Data source schemata
 
-This means having an explicit and versione data source schema and migration handling.
+This means having an explicit and versioned data source schema and migration handling.
 
 - as soon as possible
 
