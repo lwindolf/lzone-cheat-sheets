@@ -61,6 +61,17 @@ This is about introducing build time configuration and software+config stack man
 
 - once you have >2-3 customers with alternatives in the software stack or configuration complexity
 
+### Batch System
+
+- when you need to continue data processing over restarts
+- when you have parallel data processing
+- when the execution state is non-trivial (follows a state machine)
+- when you have concurreny limits
+
+### Workflow Manager
+
+- once you want end users to customize your business logic
+
 ### Plugins
 
 - When you want you end-users to extend your application
@@ -81,3 +92,9 @@ This is about introducing build time configuration and software+config stack man
 ### API Gateway
 
 - once you want to impose non-functional requirements on your API
+
+### Metrics
+
+This is about explicitely tracking and exposing monitoring metrics
+
+- once you need to proof objectives from non-functional requirements for your business logic
