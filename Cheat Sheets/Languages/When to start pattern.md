@@ -43,6 +43,7 @@ This means having an explicit and versione data source schema and migration hand
 ### Router
 
 - when you need to extract+validate parameters from route endpoints
+- when you want to annotate multiple routes with non-functional requirements
 
 ### Commands (aka actions / event-driven)
 
