@@ -44,11 +44,6 @@ Note: you can install even more cheat sheets in your local browser using the
 ## Visual Ops Index
 
 
-<br/><b>du Radial Map</b> | <a href='https://lzone.de/#/LZone Visual Ops/du Radial Map'>du Radial Map</a>
-<br/><b>du Tree Map</b> | <a href='https://lzone.de/#/LZone Visual Ops/du Tree Map'>du Tree Map</a>
-<br/><b>netstat Dendrogram</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Dendrogram'>netstat Dendrogram</a>
-<br/><b>netstat Force Graph</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Force Graph'>netstat Force Graph</a>
-<br/><b>netstat Services</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Services'>netstat Services</a>
 
 ## Installable External Cheat Sheets
 

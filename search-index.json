@@ -2504,160 +2504,112 @@
     "url": "/#/Visual Ops"
   },
   "313": {
-    "doc": "Visual Ops",
-    "id": 313,
-    "title": "README",
-    "content": "",
-    "relUrl": "/#/Visual Ops/README",
-    "url": "/#/Visual Ops/README"
-  },
-  "314": {
-    "doc": "Visual Ops",
-    "id": 314,
-    "title": "du Radial Map",
-    "content": "",
-    "relUrl": "/#/Visual Ops/du Radial Map",
-    "url": "/#/Visual Ops/du Radial Map"
-  },
-  "315": {
-    "doc": "Visual Ops",
-    "id": 315,
-    "title": "du Tree Map",
-    "content": "",
-    "relUrl": "/#/Visual Ops/du Tree Map",
-    "url": "/#/Visual Ops/du Tree Map"
-  },
-  "316": {
-    "doc": "Visual Ops",
-    "id": 316,
-    "title": "netstat Dendrogram",
-    "content": "",
-    "relUrl": "/#/Visual Ops/netstat Dendrogram",
-    "url": "/#/Visual Ops/netstat Dendrogram"
-  },
-  "317": {
-    "doc": "Visual Ops",
-    "id": 317,
-    "title": "netstat Force Graph",
-    "content": "",
-    "relUrl": "/#/Visual Ops/netstat Force Graph",
-    "url": "/#/Visual Ops/netstat Force Graph"
-  },
-  "318": {
-    "doc": "Visual Ops",
-    "id": 318,
-    "title": "netstat Services",
-    "content": "",
-    "relUrl": "/#/Visual Ops/netstat Services",
-    "url": "/#/Visual Ops/netstat Services"
-  },
-  "319": {
     "doc": "Unicorn Arcology",
-    "id": 319,
+    "id": 313,
     "title": "Unicorn Arcology",
     "content": "",
     "relUrl": "/#/Unicorn Arcology",
     "url": "/#/Unicorn Arcology"
   },
-  "320": {
+  "314": {
     "doc": "Unicorn Arcology",
-    "id": 320,
+    "id": 314,
     "title": "CERN/Monitoring/2024 Grafana and Mimir",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/CERN/Monitoring/2024 Grafana and Mimir",
     "url": "/#/Unicorn Arcology/CERN/Monitoring/2024 Grafana and Mimir"
   },
-  "321": {
+  "315": {
     "doc": "Unicorn Arcology",
-    "id": 321,
+    "id": 315,
     "title": "Hulu/NoSQL/2012 memcached",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2012 memcached"
   },
-  "322": {
+  "316": {
     "doc": "Unicorn Arcology",
-    "id": 322,
+    "id": 316,
     "title": "Hulu/NoSQL/2013 Redis Multi-DC",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC",
     "url": "/#/Unicorn Arcology/Hulu/NoSQL/2013 Redis Multi-DC"
   },
-  "323": {
+  "317": {
     "doc": "Unicorn Arcology",
-    "id": 323,
+    "id": 317,
     "title": "Netflix/Data Platform/2013 Genie1",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2013 Genie1"
   },
-  "324": {
+  "318": {
     "doc": "Unicorn Arcology",
-    "id": 324,
+    "id": 318,
     "title": "Netflix/Data Platform/2014 Genie2",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2014 Genie2"
   },
-  "325": {
+  "319": {
     "doc": "Unicorn Arcology",
-    "id": 325,
+    "id": 319,
     "title": "Netflix/Data Platform/2017 Genie3",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3",
     "url": "/#/Unicorn Arcology/Netflix/Data Platform/2017 Genie3"
   },
-  "326": {
+  "320": {
     "doc": "Unicorn Arcology",
-    "id": 326,
+    "id": 320,
     "title": "README",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/README",
     "url": "/#/Unicorn Arcology/README"
   },
-  "327": {
+  "321": {
     "doc": "Unicorn Arcology",
-    "id": 327,
+    "id": 321,
     "title": "Reddit/2019",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Reddit/2019",
     "url": "/#/Unicorn Arcology/Reddit/2019"
   },
-  "328": {
+  "322": {
     "doc": "Unicorn Arcology",
-    "id": 328,
+    "id": 322,
     "title": "Uber/Data Platform/2014 RDBMs",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2014 RDBMs"
   },
-  "329": {
+  "323": {
     "doc": "Unicorn Arcology",
-    "id": 329,
+    "id": 323,
     "title": "Uber/Data Platform/2015 DWH data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2015 DWH data lake"
   },
-  "330": {
+  "324": {
     "doc": "Unicorn Arcology",
-    "id": 330,
+    "id": 324,
     "title": "Uber/Data Platform/2016 Hadoop data lake",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2016 Hadoop data lake"
   },
-  "331": {
+  "325": {
     "doc": "Unicorn Arcology",
-    "id": 331,
+    "id": 325,
     "title": "Uber/Data Platform/2017 Big data platform",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform",
     "url": "/#/Unicorn Arcology/Uber/Data Platform/2017 Big data platform"
   },
-  "332": {
+  "326": {
     "doc": "Unicorn Arcology",
-    "id": 332,
+    "id": 326,
     "title": "Uber/Monitoring/2018 M3DB",
     "content": "",
     "relUrl": "/#/Unicorn Arcology/Uber/Monitoring/2018 M3DB",

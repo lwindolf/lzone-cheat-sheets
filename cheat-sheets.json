@@ -1269,32 +1269,7 @@
     "base": "https://raw.githubusercontent.com/lwindolf/lzone-cheat-sheets/master/",
     "category": "SRE",
     "filePattern": "^Visual Ops/(.+)\\.md$",
-    "documents": [
-      {
-        "name": "README",
-        "path": "Visual Ops/README.md"
-      },
-      {
-        "name": "du Radial Map",
-        "path": "Visual Ops/du Radial Map.md"
-      },
-      {
-        "name": "du Tree Map",
-        "path": "Visual Ops/du Tree Map.md"
-      },
-      {
-        "name": "netstat Dendrogram",
-        "path": "Visual Ops/netstat Dendrogram.md"
-      },
-      {
-        "name": "netstat Force Graph",
-        "path": "Visual Ops/netstat Force Graph.md"
-      },
-      {
-        "name": "netstat Services",
-        "path": "Visual Ops/netstat Services.md"
-      }
-    ]
+    "documents": []
   },
   "Unicorn Arcology": {
     "github": "lwindolf/unicorn-arcology",
