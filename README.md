@@ -7,10 +7,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 
 <!-- marker -->
 
-## Cheat Index
-
-
-## Sheets Index
+## Cheat Sheets Index
 
 <br/><span class='group'><b>Agile</b></span>
  | <a class='topic' href='Cheat Sheets/README'>README</a>
