@@ -28,7 +28,7 @@ readme_update() {
           oldgroup="$group"
         fi
 
-        echo " | <a class='topic' href='$directory/$group/$name'>$name</a>"
+        echo " | <a class='topic' href='$directory/$group/$name.md'>$name</a>"
       done < <(cd "$directory/" && find . -mindepth 2 -name "*.md" | LANG=C sort)
     done
 
