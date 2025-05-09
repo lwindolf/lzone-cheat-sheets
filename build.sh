@@ -58,16 +58,12 @@ EOT
   ) | node >>README.md
 }
 
-cheat_sheets
-build_search_index
 readme_update
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
-  git add -u
-  git add search-index.json
-	git commit -m "Update index." README.md cheat-sheets.json search-index.json || exit 0
+	git commit -m "Update index." README.md || exit 0
 	git push
 fi
 
