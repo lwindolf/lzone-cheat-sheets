@@ -1,19 +1,13 @@
 # LZone Cheat Sheet Collection
 
-Markdown sources for all the cheat sheets found at https://lzone.de/
+Markdown sources for the default cheat sheets accessible at https://lzone.de/
 
 - If you find this helpful consider giving a :star:
 - If you miss a topic suggest it by opening an issue
 
-Note: you can install even more cheat sheets in your local browser using the
-[Additional Cheat Sheets](https://lzone.de/#/settings) feature!
-
 <!-- marker -->
 
-
-
 ## LZone Cheat Sheets Index
-
 
 <br/><b>Automation</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Ansible'>Ansible</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Chef'>Chef</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Jinja'>Jinja</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Mcollective'>Mcollective</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Puppet'>Puppet</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Puppet - Hiera'>Puppet - Hiera</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/SaltStack'>SaltStack</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Swagger'>Swagger</a>
 <br/><b>CICD</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/ArgoCD'>ArgoCD</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Gerrit'>Gerrit</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Git'>Git</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Github Actions'>Github Actions</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Gradle'>Gradle</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins'>Jenkins</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins Docs'>Jenkins Docs</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins Pipeline DSL'>Jenkins Pipeline DSL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/JenkinsX'>JenkinsX</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/JFrog CLI'>JFrog CLI</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Maven'>Maven</a>
