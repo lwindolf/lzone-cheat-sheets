@@ -5,6 +5,8 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 - If you find this helpful consider giving a :star:
 - If you miss a topic suggest it by opening an issue
 
+[![Build](https://github.com/lwindolf/lzone-cheat-sheets/actions/workflows/create-index.yml/badge.svg)](https://github.com/lwindolf/lzone-cheat-sheets/actions/workflows/create-index.yml)
+
 <!-- marker -->
 
 ## Cheat Sheets Index
