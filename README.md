@@ -10,320 +10,320 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 ## Cheat Sheets Index
 
 <br/><span class='group'><b>Agile</b></span>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Agile/README'>README</a>
 <br/><span class='group'><b>Automation</b></span>
- | <a class='topic' href='Cheat Sheets/Ansible'>Ansible</a>
- | <a class='topic' href='Cheat Sheets/Chef'>Chef</a>
- | <a class='topic' href='Cheat Sheets/Jinja'>Jinja</a>
- | <a class='topic' href='Cheat Sheets/Mcollective'>Mcollective</a>
- | <a class='topic' href='Cheat Sheets/Puppet - Hiera'>Puppet - Hiera</a>
- | <a class='topic' href='Cheat Sheets/Puppet'>Puppet</a>
- | <a class='topic' href='Cheat Sheets/SaltStack'>SaltStack</a>
- | <a class='topic' href='Cheat Sheets/Swagger'>Swagger</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Ansible'>Ansible</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Chef'>Chef</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Jinja'>Jinja</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Mcollective'>Mcollective</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Puppet - Hiera'>Puppet - Hiera</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Puppet'>Puppet</a>
+ | <a class='topic' href='Cheat Sheets/Automation/SaltStack'>SaltStack</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Swagger'>Swagger</a>
 <br/><span class='group'><b>CICD</b></span>
- | <a class='topic' href='Cheat Sheets/ArgoCD'>ArgoCD</a>
- | <a class='topic' href='Cheat Sheets/Gerrit'>Gerrit</a>
- | <a class='topic' href='Cheat Sheets/Git'>Git</a>
- | <a class='topic' href='Cheat Sheets/Github Actions'>Github Actions</a>
- | <a class='topic' href='Cheat Sheets/Gradle'>Gradle</a>
- | <a class='topic' href='Cheat Sheets/JFrog CLI'>JFrog CLI</a>
- | <a class='topic' href='Cheat Sheets/Jenkins Docs'>Jenkins Docs</a>
- | <a class='topic' href='Cheat Sheets/Jenkins Pipeline DSL'>Jenkins Pipeline DSL</a>
- | <a class='topic' href='Cheat Sheets/Jenkins'>Jenkins</a>
- | <a class='topic' href='Cheat Sheets/JenkinsX'>JenkinsX</a>
- | <a class='topic' href='Cheat Sheets/Maven'>Maven</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/CICD/ArgoCD'>ArgoCD</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Gerrit'>Gerrit</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Git'>Git</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Github Actions'>Github Actions</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Gradle'>Gradle</a>
+ | <a class='topic' href='Cheat Sheets/CICD/JFrog CLI'>JFrog CLI</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins Docs'>Jenkins Docs</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins Pipeline DSL'>Jenkins Pipeline DSL</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins'>Jenkins</a>
+ | <a class='topic' href='Cheat Sheets/CICD/JenkinsX'>JenkinsX</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Maven'>Maven</a>
+ | <a class='topic' href='Cheat Sheets/CICD/README'>README</a>
 <br/><span class='group'><b>Cloud</b></span>
- | <a class='topic' href='Cheat Sheets/ARM'>ARM</a>
- | <a class='topic' href='Cheat Sheets/AWS Lamba'>AWS Lamba</a>
- | <a class='topic' href='Cheat Sheets/AWS'>AWS</a>
- | <a class='topic' href='Cheat Sheets/Azure Devops'>Azure Devops</a>
- | <a class='topic' href='Cheat Sheets/Azure'>Azure</a>
- | <a class='topic' href='Cheat Sheets/KVM'>KVM</a>
- | <a class='topic' href='Cheat Sheets/LXC'>LXC</a>
- | <a class='topic' href='Cheat Sheets/OpenNebula'>OpenNebula</a>
- | <a class='topic' href='Cheat Sheets/OpenVZ'>OpenVZ</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/S3'>S3</a>
- | <a class='topic' href='Cheat Sheets/Terraform'>Terraform</a>
- | <a class='topic' href='Cheat Sheets/VM Tuning'>VM Tuning</a>
- | <a class='topic' href='Cheat Sheets/Vagrant'>Vagrant</a>
- | <a class='topic' href='Cheat Sheets/VirtualBox'>VirtualBox</a>
- | <a class='topic' href='Cheat Sheets/Xen'>Xen</a>
- | <a class='topic' href='Cheat Sheets/packer'>packer</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/ARM'>ARM</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/AWS Lamba'>AWS Lamba</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/AWS'>AWS</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Azure Devops'>Azure Devops</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Azure'>Azure</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/KVM'>KVM</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/LXC'>LXC</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/OpenNebula'>OpenNebula</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/OpenVZ'>OpenVZ</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/S3'>S3</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Terraform'>Terraform</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/VM Tuning'>VM Tuning</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Vagrant'>Vagrant</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/VirtualBox'>VirtualBox</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Xen'>Xen</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/packer'>packer</a>
 <br/><span class='group'><b>Container</b></span>
- | <a class='topic' href='Cheat Sheets/Buildah'>Buildah</a>
- | <a class='topic' href='Cheat Sheets/Container Orchestration'>Container Orchestration</a>
- | <a class='topic' href='Cheat Sheets/Docker Compose'>Docker Compose</a>
- | <a class='topic' href='Cheat Sheets/Docker Swarm'>Docker Swarm</a>
- | <a class='topic' href='Cheat Sheets/Docker'>Docker</a>
- | <a class='topic' href='Cheat Sheets/Dockerfile'>Dockerfile</a>
- | <a class='topic' href='Cheat Sheets/Podman'>Podman</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/runc'>runc</a>
- | <a class='topic' href='Cheat Sheets/skopeo'>skopeo</a>
+ | <a class='topic' href='Cheat Sheets/Container/Buildah'>Buildah</a>
+ | <a class='topic' href='Cheat Sheets/Container/Container Orchestration'>Container Orchestration</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker Compose'>Docker Compose</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker Swarm'>Docker Swarm</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker'>Docker</a>
+ | <a class='topic' href='Cheat Sheets/Container/Dockerfile'>Dockerfile</a>
+ | <a class='topic' href='Cheat Sheets/Container/Podman'>Podman</a>
+ | <a class='topic' href='Cheat Sheets/Container/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Container/runc'>runc</a>
+ | <a class='topic' href='Cheat Sheets/Container/skopeo'>skopeo</a>
 <br/><span class='group'><b>DevOps Linux</b></span>
- | <a class='topic' href='Cheat Sheets/Architecture'>Architecture</a>
- | <a class='topic' href='Cheat Sheets/DBUS'>DBUS</a>
- | <a class='topic' href='Cheat Sheets/DKMS'>DKMS</a>
- | <a class='topic' href='Cheat Sheets/DRBD'>DRBD</a>
- | <a class='topic' href='Cheat Sheets/DXVK'>DXVK</a>
- | <a class='topic' href='Cheat Sheets/Debugging'>Debugging</a>
- | <a class='topic' href='Cheat Sheets/Filesystem'>Filesystem</a>
- | <a class='topic' href='Cheat Sheets/GPG'>GPG</a>
- | <a class='topic' href='Cheat Sheets/GPU'>GPU</a>
- | <a class='topic' href='Cheat Sheets/Grub'>Grub</a>
- | <a class='topic' href='Cheat Sheets/IPMI'>IPMI</a>
- | <a class='topic' href='Cheat Sheets/Kernel Tracing'>Kernel Tracing</a>
- | <a class='topic' href='Cheat Sheets/LVM'>LVM</a>
- | <a class='topic' href='Cheat Sheets/Linux-Commands'>Linux-Commands</a>
- | <a class='topic' href='Cheat Sheets/Linux-HA'>Linux-HA</a>
- | <a class='topic' href='Cheat Sheets/Linux-Sysadmin'>Linux-Sysadmin</a>
- | <a class='topic' href='Cheat Sheets/Linux-Virtualization'>Linux-Virtualization</a>
- | <a class='topic' href='Cheat Sheets/PKI'>PKI</a>
- | <a class='topic' href='Cheat Sheets/Partitioning'>Partitioning</a>
- | <a class='topic' href='Cheat Sheets/Printing'>Printing</a>
- | <a class='topic' href='Cheat Sheets/RAID'>RAID</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/Wifi'>Wifi</a>
- | <a class='topic' href='Cheat Sheets/X11'>X11</a>
- | <a class='topic' href='Cheat Sheets/XDG'>XDG</a>
- | <a class='topic' href='Cheat Sheets/ZFS'>ZFS</a>
- | <a class='topic' href='Cheat Sheets/auditd'>auditd</a>
- | <a class='topic' href='Cheat Sheets/cgroups'>cgroups</a>
- | <a class='topic' href='Cheat Sheets/fontconfig'>fontconfig</a>
- | <a class='topic' href='Cheat Sheets/kerberos'>kerberos</a>
- | <a class='topic' href='Cheat Sheets/mokutil'>mokutil</a>
- | <a class='topic' href='Cheat Sheets/nohup'>nohup</a>
- | <a class='topic' href='Cheat Sheets/perf'>perf</a>
- | <a class='topic' href='Cheat Sheets/screen'>screen</a>
- | <a class='topic' href='Cheat Sheets/socat'>socat</a>
- | <a class='topic' href='Cheat Sheets/sops'>sops</a>
- | <a class='topic' href='Cheat Sheets/strace'>strace</a>
- | <a class='topic' href='Cheat Sheets/sudo'>sudo</a>
- | <a class='topic' href='Cheat Sheets/supervisor'>supervisor</a>
- | <a class='topic' href='Cheat Sheets/systemd'>systemd</a>
- | <a class='topic' href='Cheat Sheets/systemtap'>systemtap</a>
- | <a class='topic' href='Cheat Sheets/ulimit'>ulimit</a>
- | <a class='topic' href='Cheat Sheets/vi'>vi</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Architecture'>Architecture</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DBUS'>DBUS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DKMS'>DKMS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DRBD'>DRBD</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DXVK'>DXVK</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Debugging'>Debugging</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Filesystem'>Filesystem</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/GPG'>GPG</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/GPU'>GPU</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Grub'>Grub</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/IPMI'>IPMI</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Kernel Tracing'>Kernel Tracing</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/LVM'>LVM</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Commands'>Linux-Commands</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-HA'>Linux-HA</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Sysadmin'>Linux-Sysadmin</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Virtualization'>Linux-Virtualization</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/PKI'>PKI</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Partitioning'>Partitioning</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Printing'>Printing</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/RAID'>RAID</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Wifi'>Wifi</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/X11'>X11</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/XDG'>XDG</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/ZFS'>ZFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/auditd'>auditd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/cgroups'>cgroups</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/fontconfig'>fontconfig</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/kerberos'>kerberos</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/mokutil'>mokutil</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/nohup'>nohup</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/perf'>perf</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/screen'>screen</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/socat'>socat</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/sops'>sops</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/strace'>strace</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/sudo'>sudo</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/supervisor'>supervisor</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/systemd'>systemd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/systemtap'>systemtap</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/ulimit'>ulimit</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/vi'>vi</a>
 <br/><span class='group'><b>DevOps Services</b></span>
- | <a class='topic' href='Cheat Sheets/Apache'>Apache</a>
- | <a class='topic' href='Cheat Sheets/Ceph'>Ceph</a>
- | <a class='topic' href='Cheat Sheets/Consul'>Consul</a>
- | <a class='topic' href='Cheat Sheets/CouchDB'>CouchDB</a>
- | <a class='topic' href='Cheat Sheets/Couchbase'>Couchbase</a>
- | <a class='topic' href='Cheat Sheets/ElasticSearch'>ElasticSearch</a>
- | <a class='topic' href='Cheat Sheets/F5'>F5</a>
- | <a class='topic' href='Cheat Sheets/GlusterFS'>GlusterFS</a>
- | <a class='topic' href='Cheat Sheets/Graphite'>Graphite</a>
- | <a class='topic' href='Cheat Sheets/Java'>Java</a>
- | <a class='topic' href='Cheat Sheets/Kafka'>Kafka</a>
- | <a class='topic' href='Cheat Sheets/LDAP'>LDAP</a>
- | <a class='topic' href='Cheat Sheets/MongoDB'>MongoDB</a>
- | <a class='topic' href='Cheat Sheets/MySQL'>MySQL</a>
- | <a class='topic' href='Cheat Sheets/NFS'>NFS</a>
- | <a class='topic' href='Cheat Sheets/NTP'>NTP</a>
- | <a class='topic' href='Cheat Sheets/Nodejs'>Nodejs</a>
- | <a class='topic' href='Cheat Sheets/OAuth'>OAuth</a>
- | <a class='topic' href='Cheat Sheets/PgBouncer'>PgBouncer</a>
- | <a class='topic' href='Cheat Sheets/Postgres'>Postgres</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/RabbitMQ'>RabbitMQ</a>
- | <a class='topic' href='Cheat Sheets/Redis Sentinel'>Redis Sentinel</a>
- | <a class='topic' href='Cheat Sheets/Redis'>Redis</a>
- | <a class='topic' href='Cheat Sheets/Samba'>Samba</a>
- | <a class='topic' href='Cheat Sheets/Splunk'>Splunk</a>
- | <a class='topic' href='Cheat Sheets/Squid'>Squid</a>
- | <a class='topic' href='Cheat Sheets/Tomcat'>Tomcat</a>
- | <a class='topic' href='Cheat Sheets/Vault'>Vault</a>
- | <a class='topic' href='Cheat Sheets/Webserver'>Webserver</a>
- | <a class='topic' href='Cheat Sheets/Zookeeper'>Zookeeper</a>
- | <a class='topic' href='Cheat Sheets/etcd'>etcd</a>
- | <a class='topic' href='Cheat Sheets/etcdv2'>etcdv2</a>
- | <a class='topic' href='Cheat Sheets/htaccess'>htaccess</a>
- | <a class='topic' href='Cheat Sheets/memcached'>memcached</a>
- | <a class='topic' href='Cheat Sheets/nginx'>nginx</a>
- | <a class='topic' href='Cheat Sheets/sqlite'>sqlite</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Apache'>Apache</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Ceph'>Ceph</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Consul'>Consul</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/CouchDB'>CouchDB</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Couchbase'>Couchbase</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/ElasticSearch'>ElasticSearch</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/F5'>F5</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/GlusterFS'>GlusterFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Graphite'>Graphite</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Java'>Java</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Kafka'>Kafka</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/LDAP'>LDAP</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/MongoDB'>MongoDB</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/MySQL'>MySQL</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/NFS'>NFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/NTP'>NTP</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Nodejs'>Nodejs</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/OAuth'>OAuth</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/PgBouncer'>PgBouncer</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Postgres'>Postgres</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/RabbitMQ'>RabbitMQ</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Redis Sentinel'>Redis Sentinel</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Redis'>Redis</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Samba'>Samba</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Splunk'>Splunk</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Squid'>Squid</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Tomcat'>Tomcat</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Vault'>Vault</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Webserver'>Webserver</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Zookeeper'>Zookeeper</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/etcd'>etcd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/etcdv2'>etcdv2</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/htaccess'>htaccess</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/memcached'>memcached</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/nginx'>nginx</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/sqlite'>sqlite</a>
 <br/><span class='group'><b>Languages</b></span>
- | <a class='topic' href='Cheat Sheets/CSS'>CSS</a>
- | <a class='topic' href='Cheat Sheets/GCC'>GCC</a>
- | <a class='topic' href='Cheat Sheets/JSONPath'>JSONPath</a>
- | <a class='topic' href='Cheat Sheets/Linux HTML Widgets'>Linux HTML Widgets</a>
- | <a class='topic' href='Cheat Sheets/Misc'>Misc</a>
- | <a class='topic' href='Cheat Sheets/PHP'>PHP</a>
- | <a class='topic' href='Cheat Sheets/Perl'>Perl</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/Ruby'>Ruby</a>
- | <a class='topic' href='Cheat Sheets/SQL'>SQL</a>
- | <a class='topic' href='Cheat Sheets/Syndication'>Syndication</a>
- | <a class='topic' href='Cheat Sheets/Vala'>Vala</a>
- | <a class='topic' href='Cheat Sheets/When to start pattern'>When to start pattern</a>
- | <a class='topic' href='Cheat Sheets/XML'>XML</a>
- | <a class='topic' href='Cheat Sheets/XPath'>XPath</a>
- | <a class='topic' href='Cheat Sheets/XSLT'>XSLT</a>
- | <a class='topic' href='Cheat Sheets/YAML'>YAML</a>
- | <a class='topic' href='Cheat Sheets/autotools'>autotools</a>
- | <a class='topic' href='Cheat Sheets/gdb'>gdb</a>
- | <a class='topic' href='Cheat Sheets/meson'>meson</a>
- | <a class='topic' href='Cheat Sheets/valgrind'>valgrind</a>
+ | <a class='topic' href='Cheat Sheets/Languages/CSS'>CSS</a>
+ | <a class='topic' href='Cheat Sheets/Languages/GCC'>GCC</a>
+ | <a class='topic' href='Cheat Sheets/Languages/JSONPath'>JSONPath</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Linux HTML Widgets'>Linux HTML Widgets</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Misc'>Misc</a>
+ | <a class='topic' href='Cheat Sheets/Languages/PHP'>PHP</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Perl'>Perl</a>
+ | <a class='topic' href='Cheat Sheets/Languages/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Ruby'>Ruby</a>
+ | <a class='topic' href='Cheat Sheets/Languages/SQL'>SQL</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Syndication'>Syndication</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Vala'>Vala</a>
+ | <a class='topic' href='Cheat Sheets/Languages/When to start pattern'>When to start pattern</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XML'>XML</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XPath'>XPath</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XSLT'>XSLT</a>
+ | <a class='topic' href='Cheat Sheets/Languages/YAML'>YAML</a>
+ | <a class='topic' href='Cheat Sheets/Languages/autotools'>autotools</a>
+ | <a class='topic' href='Cheat Sheets/Languages/gdb'>gdb</a>
+ | <a class='topic' href='Cheat Sheets/Languages/meson'>meson</a>
+ | <a class='topic' href='Cheat Sheets/Languages/valgrind'>valgrind</a>
 <br/><span class='group'><b>Mobile</b></span>
- | <a class='topic' href='Cheat Sheets/adb'>adb</a>
+ | <a class='topic' href='Cheat Sheets/Mobile/adb'>adb</a>
 <br/><span class='group'><b>Monitoring</b></span>
- | <a class='topic' href='Cheat Sheets/Grafana'>Grafana</a>
- | <a class='topic' href='Cheat Sheets/Graphite'>Graphite</a>
- | <a class='topic' href='Cheat Sheets/Loki'>Loki</a>
- | <a class='topic' href='Cheat Sheets/Munin'>Munin</a>
- | <a class='topic' href='Cheat Sheets/Nagios'>Nagios</a>
- | <a class='topic' href='Cheat Sheets/Prometheus'>Prometheus</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Grafana'>Grafana</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Graphite'>Graphite</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Loki'>Loki</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Munin'>Munin</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Nagios'>Nagios</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Prometheus'>Prometheus</a>
 <br/><span class='group'><b>Network</b></span>
- | <a class='topic' href='Cheat Sheets/Linux-Networking'>Linux-Networking</a>
- | <a class='topic' href='Cheat Sheets/Mail'>Mail</a>
- | <a class='topic' href='Cheat Sheets/Network'>Network</a>
- | <a class='topic' href='Cheat Sheets/SMB'>SMB</a>
- | <a class='topic' href='Cheat Sheets/SSH'>SSH</a>
- | <a class='topic' href='Cheat Sheets/curl'>curl</a>
- | <a class='topic' href='Cheat Sheets/iptables'>iptables</a>
- | <a class='topic' href='Cheat Sheets/mDNS'>mDNS</a>
- | <a class='topic' href='Cheat Sheets/netfilter'>netfilter</a>
- | <a class='topic' href='Cheat Sheets/netrc'>netrc</a>
- | <a class='topic' href='Cheat Sheets/rsync'>rsync</a>
- | <a class='topic' href='Cheat Sheets/tcpdump'>tcpdump</a>
- | <a class='topic' href='Cheat Sheets/unbound'>unbound</a>
- | <a class='topic' href='Cheat Sheets/wget'>wget</a>
+ | <a class='topic' href='Cheat Sheets/Network/Linux-Networking'>Linux-Networking</a>
+ | <a class='topic' href='Cheat Sheets/Network/Mail'>Mail</a>
+ | <a class='topic' href='Cheat Sheets/Network/Network'>Network</a>
+ | <a class='topic' href='Cheat Sheets/Network/SMB'>SMB</a>
+ | <a class='topic' href='Cheat Sheets/Network/SSH'>SSH</a>
+ | <a class='topic' href='Cheat Sheets/Network/curl'>curl</a>
+ | <a class='topic' href='Cheat Sheets/Network/iptables'>iptables</a>
+ | <a class='topic' href='Cheat Sheets/Network/mDNS'>mDNS</a>
+ | <a class='topic' href='Cheat Sheets/Network/netfilter'>netfilter</a>
+ | <a class='topic' href='Cheat Sheets/Network/netrc'>netrc</a>
+ | <a class='topic' href='Cheat Sheets/Network/rsync'>rsync</a>
+ | <a class='topic' href='Cheat Sheets/Network/tcpdump'>tcpdump</a>
+ | <a class='topic' href='Cheat Sheets/Network/unbound'>unbound</a>
+ | <a class='topic' href='Cheat Sheets/Network/wget'>wget</a>
 <br/><span class='group'><b>Packaging</b></span>
- | <a class='topic' href='Cheat Sheets/Bower'>Bower</a>
- | <a class='topic' href='Cheat Sheets/Conan'>Conan</a>
- | <a class='topic' href='Cheat Sheets/Ruby Bundler'>Ruby Bundler</a>
- | <a class='topic' href='Cheat Sheets/apt'>apt</a>
- | <a class='topic' href='Cheat Sheets/cargo'>cargo</a>
- | <a class='topic' href='Cheat Sheets/dpkg'>dpkg</a>
- | <a class='topic' href='Cheat Sheets/flatpak'>flatpak</a>
- | <a class='topic' href='Cheat Sheets/gem'>gem</a>
- | <a class='topic' href='Cheat Sheets/golang'>golang</a>
- | <a class='topic' href='Cheat Sheets/gradle'>gradle</a>
- | <a class='topic' href='Cheat Sheets/maven'>maven</a>
- | <a class='topic' href='Cheat Sheets/npm'>npm</a>
- | <a class='topic' href='Cheat Sheets/pacman'>pacman</a>
- | <a class='topic' href='Cheat Sheets/pip'>pip</a>
- | <a class='topic' href='Cheat Sheets/rvm'>rvm</a>
- | <a class='topic' href='Cheat Sheets/snap'>snap</a>
- | <a class='topic' href='Cheat Sheets/yum'>yum</a>
- | <a class='topic' href='Cheat Sheets/zypper'>zypper</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/Bower'>Bower</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/Conan'>Conan</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/Ruby Bundler'>Ruby Bundler</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/apt'>apt</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/cargo'>cargo</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/dpkg'>dpkg</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/flatpak'>flatpak</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/gem'>gem</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/golang'>golang</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/gradle'>gradle</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/maven'>maven</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/npm'>npm</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/pacman'>pacman</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/pip'>pip</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/rvm'>rvm</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/snap'>snap</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/yum'>yum</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/zypper'>zypper</a>
 <br/><span class='group'><b>Scripting Examples</b></span>
- | <a class='topic' href='Cheat Sheets/GObject'>GObject</a>
- | <a class='topic' href='Cheat Sheets/Glib GRegex'>Glib GRegex</a>
- | <a class='topic' href='Cheat Sheets/Glib Testing'>Glib Testing</a>
- | <a class='topic' href='Cheat Sheets/Glib XDG Migration'>Glib XDG Migration</a>
- | <a class='topic' href='Cheat Sheets/Glib'>Glib</a>
- | <a class='topic' href='Cheat Sheets/GraphQL'>GraphQL</a>
- | <a class='topic' href='Cheat Sheets/Handlebars'>Handlebars</a>
- | <a class='topic' href='Cheat Sheets/Javascript Modules'>Javascript Modules</a>
- | <a class='topic' href='Cheat Sheets/Javascript RegExp'>Javascript RegExp</a>
- | <a class='topic' href='Cheat Sheets/Javascript strptime'>Javascript strptime</a>
- | <a class='topic' href='Cheat Sheets/Javascript void0'>Javascript void0</a>
- | <a class='topic' href='Cheat Sheets/Nodejs Express'>Nodejs Express</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/PHP Arrays'>PHP Arrays</a>
- | <a class='topic' href='Cheat Sheets/PHP curl_setopt'>PHP curl_setopt</a>
- | <a class='topic' href='Cheat Sheets/PHP date'>PHP date</a>
- | <a class='topic' href='Cheat Sheets/PHP explode'>PHP explode</a>
- | <a class='topic' href='Cheat Sheets/PHP file_get_contents'>PHP file_get_contents</a>
- | <a class='topic' href='Cheat Sheets/PHP implode'>PHP implode</a>
- | <a class='topic' href='Cheat Sheets/PHP in_array'>PHP in_array</a>
- | <a class='topic' href='Cheat Sheets/PHP ini_set'>PHP ini_set</a>
- | <a class='topic' href='Cheat Sheets/PHP preg_match'>PHP preg_match</a>
- | <a class='topic' href='Cheat Sheets/PHP preg_replace'>PHP preg_replace</a>
- | <a class='topic' href='Cheat Sheets/PHP str_replace'>PHP str_replace</a>
- | <a class='topic' href='Cheat Sheets/PHP stripos'>PHP stripos</a>
- | <a class='topic' href='Cheat Sheets/PHP strpos'>PHP strpos</a>
- | <a class='topic' href='Cheat Sheets/PHP strripos'>PHP strripos</a>
- | <a class='topic' href='Cheat Sheets/PHP strrpos'>PHP strrpos</a>
- | <a class='topic' href='Cheat Sheets/PHP ternary operator'>PHP ternary operator</a>
- | <a class='topic' href='Cheat Sheets/PHP unserialize'>PHP unserialize</a>
- | <a class='topic' href='Cheat Sheets/PyGI GStreamer'>PyGI GStreamer</a>
- | <a class='topic' href='Cheat Sheets/PyGI GnomeKeyring'>PyGI GnomeKeyring</a>
- | <a class='topic' href='Cheat Sheets/PyGI GtkStatusIcon'>PyGI GtkStatusIcon</a>
- | <a class='topic' href='Cheat Sheets/Python Dictionary'>Python Dictionary</a>
- | <a class='topic' href='Cheat Sheets/Python Syntax'>Python Syntax</a>
- | <a class='topic' href='Cheat Sheets/Python argparse'>Python argparse</a>
- | <a class='topic' href='Cheat Sheets/Python re.match'>Python re.match</a>
- | <a class='topic' href='Cheat Sheets/Python re'>Python re</a>
- | <a class='topic' href='Cheat Sheets/Python re.sub'>Python re.sub</a>
- | <a class='topic' href='Cheat Sheets/Python simplehttpserver'>Python simplehttpserver</a>
- | <a class='topic' href='Cheat Sheets/Python split'>Python split</a>
- | <a class='topic' href='Cheat Sheets/Python string concat'>Python string concat</a>
- | <a class='topic' href='Cheat Sheets/Python subprocess'>Python subprocess</a>
- | <a class='topic' href='Cheat Sheets/Python'>Python</a>
- | <a class='topic' href='Cheat Sheets/README'>README</a>
- | <a class='topic' href='Cheat Sheets/Go Regex'>Go Regex</a>
- | <a class='topic' href='Cheat Sheets/Regex Overview'>Regex Overview</a>
- | <a class='topic' href='Cheat Sheets/Ruby Regex'>Ruby Regex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/GObject'>GObject</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib GRegex'>Glib GRegex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib Testing'>Glib Testing</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib XDG Migration'>Glib XDG Migration</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib'>Glib</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/GraphQL'>GraphQL</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Handlebars'>Handlebars</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript Modules'>Javascript Modules</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript RegExp'>Javascript RegExp</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript strptime'>Javascript strptime</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript void0'>Javascript void0</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Nodejs Express'>Nodejs Express</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP Arrays'>PHP Arrays</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP curl_setopt'>PHP curl_setopt</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP date'>PHP date</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP explode'>PHP explode</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP file_get_contents'>PHP file_get_contents</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP implode'>PHP implode</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP in_array'>PHP in_array</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP ini_set'>PHP ini_set</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP preg_match'>PHP preg_match</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP preg_replace'>PHP preg_replace</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP str_replace'>PHP str_replace</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP stripos'>PHP stripos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strpos'>PHP strpos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strripos'>PHP strripos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strrpos'>PHP strrpos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP ternary operator'>PHP ternary operator</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP unserialize'>PHP unserialize</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GStreamer'>PyGI GStreamer</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GnomeKeyring'>PyGI GnomeKeyring</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GtkStatusIcon'>PyGI GtkStatusIcon</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python Dictionary'>Python Dictionary</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python Syntax'>Python Syntax</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python argparse'>Python argparse</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re.match'>Python re.match</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re'>Python re</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re.sub'>Python re.sub</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python simplehttpserver'>Python simplehttpserver</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python split'>Python split</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python string concat'>Python string concat</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python subprocess'>Python subprocess</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python'>Python</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/README'>README</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Go Regex'>Go Regex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Regex Overview'>Regex Overview</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Ruby Regex'>Ruby Regex</a>
 <br/><span class='group'><b>Scripting</b></span>
- | <a class='topic' href='Cheat Sheets/APIs'>APIs</a>
- | <a class='topic' href='Cheat Sheets/Bash Associative Array'>Bash Associative Array</a>
- | <a class='topic' href='Cheat Sheets/Bash Functions'>Bash Functions</a>
- | <a class='topic' href='Cheat Sheets/Bash Regex'>Bash Regex</a>
- | <a class='topic' href='Cheat Sheets/Bash'>Bash</a>
- | <a class='topic' href='Cheat Sheets/Images'>Images</a>
- | <a class='topic' href='Cheat Sheets/Locking'>Locking</a>
- | <a class='topic' href='Cheat Sheets/Scripting'>Scripting</a>
- | <a class='topic' href='Cheat Sheets/Shell-Scripting'>Shell-Scripting</a>
- | <a class='topic' href='Cheat Sheets/awk'>awk</a>
- | <a class='topic' href='Cheat Sheets/ffmpeg'>ffmpeg</a>
- | <a class='topic' href='Cheat Sheets/jq'>jq</a>
- | <a class='topic' href='Cheat Sheets/sed'>sed</a>
- | <a class='topic' href='Cheat Sheets/xargs'>xargs</a>
- | <a class='topic' href='Cheat Sheets/yq'>yq</a>
- | <a class='topic' href='Cheat Sheets/zenity'>zenity</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/APIs'>APIs</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Associative Array'>Bash Associative Array</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Functions'>Bash Functions</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Regex'>Bash Regex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash'>Bash</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Images'>Images</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Locking'>Locking</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Scripting'>Scripting</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Shell-Scripting'>Shell-Scripting</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/awk'>awk</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/ffmpeg'>ffmpeg</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/jq'>jq</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/sed'>sed</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/xargs'>xargs</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/yq'>yq</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/zenity'>zenity</a>
 <br/><span class='group'><b>Security</b></span>
- | <a class='topic' href='Cheat Sheets/AppArmor'>AppArmor</a>
- | <a class='topic' href='Cheat Sheets/HTTPS'>HTTPS</a>
- | <a class='topic' href='Cheat Sheets/Incident Handling'>Incident Handling</a>
- | <a class='topic' href='Cheat Sheets/OpenSCAP'>OpenSCAP</a>
- | <a class='topic' href='Cheat Sheets/OpenSSL'>OpenSSL</a>
- | <a class='topic' href='Cheat Sheets/Package Vulnerabilities'>Package Vulnerabilities</a>
- | <a class='topic' href='Cheat Sheets/SELinux'>SELinux</a>
- | <a class='topic' href='Cheat Sheets/SIEM'>SIEM</a>
- | <a class='topic' href='Cheat Sheets/SSL-Certificates'>SSL-Certificates</a>
- | <a class='topic' href='Cheat Sheets/Security Auditing'>Security Auditing</a>
- | <a class='topic' href='Cheat Sheets/Security-News-Feeds'>Security-News-Feeds</a>
- | <a class='topic' href='Cheat Sheets/Security'>Security</a>
+ | <a class='topic' href='Cheat Sheets/Security/AppArmor'>AppArmor</a>
+ | <a class='topic' href='Cheat Sheets/Security/HTTPS'>HTTPS</a>
+ | <a class='topic' href='Cheat Sheets/Security/Incident Handling'>Incident Handling</a>
+ | <a class='topic' href='Cheat Sheets/Security/OpenSCAP'>OpenSCAP</a>
+ | <a class='topic' href='Cheat Sheets/Security/OpenSSL'>OpenSSL</a>
+ | <a class='topic' href='Cheat Sheets/Security/Package Vulnerabilities'>Package Vulnerabilities</a>
+ | <a class='topic' href='Cheat Sheets/Security/SELinux'>SELinux</a>
+ | <a class='topic' href='Cheat Sheets/Security/SIEM'>SIEM</a>
+ | <a class='topic' href='Cheat Sheets/Security/SSL-Certificates'>SSL-Certificates</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security Auditing'>Security Auditing</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security-News-Feeds'>Security-News-Feeds</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security'>Security</a>
 <br/><span class='group'><b>Solutions</b></span>
- | <a class='topic' href='Cheat Sheets/SaaS Dev Tools'>SaaS Dev Tools</a>
- | <a class='topic' href='Cheat Sheets/Service Architecture'>Service Architecture</a>
- | <a class='topic' href='Cheat Sheets/Solutions Auth'>Solutions Auth</a>
- | <a class='topic' href='Cheat Sheets/Solutions Automation'>Solutions Automation</a>
- | <a class='topic' href='Cheat Sheets/Solutions CICD'>Solutions CICD</a>
- | <a class='topic' href='Cheat Sheets/Solutions Firewall'>Solutions Firewall</a>
- | <a class='topic' href='Cheat Sheets/Solutions Hosting'>Solutions Hosting</a>
- | <a class='topic' href='Cheat Sheets/Solutions Install Server'>Solutions Install Server</a>
- | <a class='topic' href='Cheat Sheets/Solutions Loadbalancing'>Solutions Loadbalancing</a>
- | <a class='topic' href='Cheat Sheets/Solutions Monitoring'>Solutions Monitoring</a>
- | <a class='topic' href='Cheat Sheets/Solutions NoSQL'>Solutions NoSQL</a>
- | <a class='topic' href='Cheat Sheets/Solutions Orchestration'>Solutions Orchestration</a>
- | <a class='topic' href='Cheat Sheets/Solutions Virtualization'>Solutions Virtualization</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/SaaS Dev Tools'>SaaS Dev Tools</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Service Architecture'>Service Architecture</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Auth'>Solutions Auth</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Automation'>Solutions Automation</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions CICD'>Solutions CICD</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Firewall'>Solutions Firewall</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Hosting'>Solutions Hosting</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Install Server'>Solutions Install Server</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Loadbalancing'>Solutions Loadbalancing</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Monitoring'>Solutions Monitoring</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions NoSQL'>Solutions NoSQL</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Orchestration'>Solutions Orchestration</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Virtualization'>Solutions Virtualization</a>
 <br/><span class='group'><b>Windows</b></span>
- | <a class='topic' href='Cheat Sheets/Edge'>Edge</a>
- | <a class='topic' href='Cheat Sheets/PowerShell'>PowerShell</a>
- | <a class='topic' href='Cheat Sheets/WSL'>WSL</a>
- | <a class='topic' href='Cheat Sheets/netsh'>netsh</a>
- | <a class='topic' href='Cheat Sheets/registry'>registry</a>
- | <a class='topic' href='Cheat Sheets/wmic'>wmic</a>
+ | <a class='topic' href='Cheat Sheets/Windows/Edge'>Edge</a>
+ | <a class='topic' href='Cheat Sheets/Windows/PowerShell'>PowerShell</a>
+ | <a class='topic' href='Cheat Sheets/Windows/WSL'>WSL</a>
+ | <a class='topic' href='Cheat Sheets/Windows/netsh'>netsh</a>
+ | <a class='topic' href='Cheat Sheets/Windows/registry'>registry</a>
+ | <a class='topic' href='Cheat Sheets/Windows/wmic'>wmic</a>
 <br/><span class='group'><b>kubernetes</b></span>
- | <a class='topic' href='Cheat Sheets/Helm Templates'>Helm Templates</a>
- | <a class='topic' href='Cheat Sheets/Helm'>Helm</a>
- | <a class='topic' href='Cheat Sheets/Minikube'>Minikube</a>
- | <a class='topic' href='Cheat Sheets/Minishift'>Minishift</a>
- | <a class='topic' href='Cheat Sheets/Openshift'>Openshift</a>
- | <a class='topic' href='Cheat Sheets/PKS'>PKS</a>
- | <a class='topic' href='Cheat Sheets/Tekton'>Tekton</a>
- | <a class='topic' href='Cheat Sheets/kops'>kops</a>
- | <a class='topic' href='Cheat Sheets/kubectl'>kubectl</a>
- | <a class='topic' href='Cheat Sheets/kubernetes ConfigMap'>kubernetes ConfigMap</a>
- | <a class='topic' href='Cheat Sheets/kubernetes DNS'>kubernetes DNS</a>
- | <a class='topic' href='Cheat Sheets/kubernetes StorageClass'>kubernetes StorageClass</a>
- | <a class='topic' href='Cheat Sheets/kubernetes'>kubernetes</a>
- | <a class='topic' href='Cheat Sheets/nginx-ingress'>nginx-ingress</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Helm Templates'>Helm Templates</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Helm'>Helm</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Minikube'>Minikube</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Minishift'>Minishift</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Openshift'>Openshift</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/PKS'>PKS</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Tekton'>Tekton</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kops'>kops</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubectl'>kubectl</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes ConfigMap'>kubernetes ConfigMap</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes DNS'>kubernetes DNS</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes StorageClass'>kubernetes StorageClass</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes'>kubernetes</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/nginx-ingress'>nginx-ingress</a>
 
 ## Installable External Cheat Sheets
 
