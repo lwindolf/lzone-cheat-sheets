@@ -13,49 +13,34 @@ fi
 # Update README with a list of all cheat sheets defined
 readme_update() {
   sed -i '/<!-- marker -->/,$ d' README.md
-
   (
-  cat <<'EOT'
-  var cheatsheets = require('./cheat-sheets.json');
-  var extra = require('./extra-cheat-sheets.json');
-  var result = '<!-- marker -->\n\n';
+    echo '<!-- marker -->'
+            
+    for directory in "Cheat Sheets"; do
+      oldgroup=
+      printf "\n## %s Index\n\n" $(echo "$directory" | sed -e "s/\b\(.\)/\u\1/g")
 
-  for(const name of ["Cheat Sheets"]) {
-    let repo = cheatsheets[name];
-    let oldgroup = "";
-    let docs = {};
+      while IFS=/ read -r dot group file; do
+        name="$(basename "$file" .md)"
 
-    result += `\n\n## ${name} Index\n\n`;
+        if [ "$oldgroup" != "$group" ]; then
+          echo "<br/><span class='group'><b>$group</b></span>"
+          oldgroup="$group"
+        fi
 
-    for(let d of repo.documents) {
-      d.path = d.path.replace(/\.md$/, '');
-      let tmp = d.path.split(/\//);
+        echo " | <a class='topic' href='$directory/$name'>$name</a>"
+      done < <(cd "$directory/" && find . -mindepth 2 -name "*.md" | LANG=C sort)
+    done
 
-      const dname = tmp[tmp.length-1];
-      if(dname === 'README')
-        continue;
-      docs[dname] = { path: d.path, group: tmp[1] };
-    }
-    for(const dname of Object.keys(docs).sort((a,b) => {
-	return docs[a].path.localeCompare(docs[b].path);
-    })) {
-      if (docs[dname].group !== oldgroup) {
-        result += `\n<br/><b>${docs[dname].group}</b>`;
-        oldgroup = docs[dname].group;
-      }
-      result += ` | <a href='https://lzone.de/#/LZone ${docs[dname].path}'>${dname}</a>`;
-    }
-  }
+    # Append extra sheet sheets
+    printf "\n## Installable External Cheat Sheets\n\n"
 
-  result += '\n\n## Installable External Cheat Sheets\n\n';
+    while read extra; do
+      repo="https://github.com/$(jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value.github' extra-cheat-sheets.json)"
+      printf " - [$extra]($repo)\n"
+    done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort)
 
-  for(const dname of Object.keys(extra).sort()) {
-    result += `- [${dname}](https://github.com/${extra[dname].github})\n`;
-  }
-
-  console.log(result);
-EOT
-  ) | node >>README.md
+  ) >>README.md
 }
 
 readme_update
