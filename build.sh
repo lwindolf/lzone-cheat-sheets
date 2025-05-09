@@ -99,7 +99,7 @@ readme_update() {
   var extra = require('./extra-cheat-sheets.json');
   var result = '<!-- marker -->\n\n';
 
-  for(const name of ["LZone Cheat Sheets","LZone Examples","Visual Ops"]) {
+  for(const name of ["Cheat Sheets"]) {
     let repo = cheatsheets[name];
     let oldgroup = "";
     let docs = {};
