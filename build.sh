@@ -18,7 +18,7 @@ readme_update() {
             
     for directory in "Cheat Sheets"; do
       oldgroup=
-      printf "\n## %s Index\n\n" $(echo "$directory" | sed -e "s/\b\(.\)/\u\1/g")
+      printf "\n## %s Index\n\n" "$(echo "$directory" | sed -e "s/\b\(.\)/\u\1/g")"
 
       while IFS=/ read -r dot group file; do
         name="$(basename "$file" .md)"
