@@ -159,6 +159,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Languages/SQL.md'>SQL</a>
  | <a class='topic' href='Cheat Sheets/Languages/Syndication.md'>Syndication</a>
  | <a class='topic' href='Cheat Sheets/Languages/Vala.md'>Vala</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Web PWAs.md'>Web PWAs</a>
  | <a class='topic' href='Cheat Sheets/Languages/When to start pattern.md'>When to start pattern</a>
  | <a class='topic' href='Cheat Sheets/Languages/XML.md'>XML</a>
  | <a class='topic' href='Cheat Sheets/Languages/XPath.md'>XPath</a>
