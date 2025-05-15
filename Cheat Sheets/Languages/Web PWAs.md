@@ -12,6 +12,8 @@ PWAs (and other apps/applications) both on mobile and desktop OS can trigger eac
 using custom registered URI schemes: 
 See https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/URLProtocolHandler/explainer.md
 
+URI schemes are registered in manifest.json
+
 ## Testing the PWA
 
 1. [Chrome](https://developer.chrome.com/docs/devtools/progressive-web-apps/) is better at checking stuff than Firefox
