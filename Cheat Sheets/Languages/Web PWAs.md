@@ -6,6 +6,12 @@ Stuff to know when writing PWAs without a framework.
 - manifest.json
 - worker.js
 
+## Using URI schemas to combine apps
+
+PWAs (and other apps/applications) both on mobile and desktop OS can trigger each other
+using custom registered URI schemes: 
+See https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/URLProtocolHandler/explainer.md
+
 ## Testing the PWA
 
 1. [Chrome](https://developer.chrome.com/docs/devtools/progressive-web-apps/) is better at checking stuff than Firefox
