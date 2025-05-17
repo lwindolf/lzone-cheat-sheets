@@ -21,7 +21,9 @@ Here are some criteria for the switch:
 
 - In the short interval incident sync meeting everyone is spechless about what to do
 - There is a lot of infighting about what to do
-- You executed you incident handling reponse playbook without any good results
+- People arguing over suggesting solutions/actions not making sense
+- Multiple teams are in the loop and blaming is heavy
+- You exhausted all the options from your incident handling reponse playbook
 
 ## How to "do" OPA?
 
