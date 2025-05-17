@@ -11,14 +11,32 @@ Hold a blameless post mortem after each incident, even when you customer didn't 
 
 ## Post mortem templates
 
-There are different post mortem templates that you can use
-
-- ...
-- ...
+There are different [post mortem templates](https://github.com/dastergon/postmortem-templates) that you can use.
 
 ## Measurements
 
+There are a variety of measurements out their. You should do a consistent measurement of your choice.
+The naming doesn't matter much, as long as you measure per incident the time spans between:
 
+- start of failure
+- detection
+- start of repair work
+- fix
+
+Over all your incident history you want to calculate the mean values to check for improvement.
+
+Here is an example for measuring on a time axis:
+
+     |<--- TTD --->|<--- TTR --->|<--- TTF --->|
+     
+     ^---------------------------------------------- something breaks
+                   ^-------------------------------- problem gets detected (by human or monitoring)
+                                 ^------------------ someone starts working on it
+                                               ^---- problem is fixed
+
+Note how some people prefer to measure relative times and some absolute times. But again, it doesn't matter
+as the change in the measurements over time is the important thing. So for the above measurements you
+want to calculate corresponding mean values MTTD, MTTR, MTTF over all your recent incidents.
 
 ## Important Points
 
