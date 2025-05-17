@@ -33,6 +33,7 @@ How documentation should focus on being actionable that means
 - deep links into infrastructure GUIs to access
 - hints on credentials needed
 - troubleshooting sections
+- maybe even use runbooks / ChatOps to directly execute actionable commands
 
 To further motivate the documentation to be actionable
 
