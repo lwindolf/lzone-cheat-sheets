@@ -15,15 +15,13 @@ There are different [post mortem templates](https://github.com/dastergon/postmor
 
 ## Measurements
 
-There are a variety of measurements out their. You should do a consistent measurement of your choice.
+There are a variety of measurements out there. You should do a consistent measurement of your choice.
 The naming doesn't matter much, as long as you measure per incident the time spans between:
 
 - start of failure
 - detection
 - start of repair work
 - fix
-
-Over all your incident history you want to calculate the mean values to check for improvement.
 
 Here is an example for measuring on a time axis:
 
