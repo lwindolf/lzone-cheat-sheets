@@ -25,25 +25,27 @@ Here are some criteria for the switch:
 ## How to "do" OPA?
 
 You simple use your periodic incident standups differently. If you do not have such, start immediately.
-Have a meeting every 30min / 45min / 1h depending on your business and urgency.
+Have a meeting every 15min to 1h depending on your business and urgency.
 
 Start OPA by
 
-1. Explaining what it is and why you are switching
-2. Setting up a digital / analog whiteboard
-3. Add 3 sections "Observations", "Presumptions", "Actions"
-4. Nominate a moderator / organizer
+1. Invite people by phone/chat to a meeting
+2. Get management buy-in for the method
+3. Nominate a moderator / organizer
+4. Setting up a whiteboard (physical if possible)
+5. Explaining what OPA is and why you are switching
+6. Add the 3 sections "Observations", "Presumptions", "Actions"
 
 Hold the meeting
 
 1. Updating the "Observations"
-   - add all known details
-   - cross out (do not delete) incorrect/unrelated stuff
+   - add all not yet listed known possibly relevant facts
+   - cross out incorrect/unrelated stuff
    - ensure there are only facts in "Observations" never "Presumptions"
 
 2. Updating the "Actions" and "Presumptions"
    - starting with the 2nd meeting 
-     - cross out (do not delete) all falsified "Presumptions"
+     - cross out all falsified "Presumptions"
      - note the results of all performed "Actions" and cross them out
    - add new actions and presumptions
      - every action should prove/falsify a presumption
@@ -54,9 +56,125 @@ Hold the meeting
    - set the next meeting time
 
 General hints
-- stop people from immediately working/checking stuff during the OPA meeting
-- train them to follow the OPA distinctions
-- allow for contradicting "Presumptions", you falsify them anyway, showing the contradiction
-  can help laying open how we have different understanding of the system
-- allow and encourage for "Observations" not matching current "Presumptions" and "Actions"
-- after everything is done us the falsifaction results for the post mortem
+- during OPA
+  - stop people from immediately working/checking stuff during the OPA meeting
+  - train them to follow the OPA distinctions
+  - allow for contradicting "Presumptions", you falsify them anyway, showing the contradiction
+    can help laying open how we have different understanding of the system
+  - allow and encourage for "Observations" not matching current "Presumptions" and "Actions"
+  - if possible never delete stuff from the whiteboard (only cross out)
+- after successful resolution of the incident
+  - use the falsifaction results for the post mortem
+  - do not skip the final meeting, show everyone
+    - how the incident was resolved
+    - what were the correct presumptions
+    - what were the incorrect presumptions and why
+    - but defer all learnings to the postmortem as it needs good preparation
+
+## OPA Example
+
+This is an example how a OPA meeting series could go. The different dashboard contents for each
+meeting are shown. Changed points are marked bold.
+
+For the first meeting note how it is visible that there were solution attempts before and how
+often presumptions do hide in the initial observations "identical cluster". 
+
+### Meeting 1
+
+_Observations_
+- Customers cannot access the website
+- Monitoring shows 90% CPU utilization
+- Rollback did not solve the problem
+- Simple restart did not help
+- Platform team says no chances today
+- Other system in identical cluster B doesn't have the issue
+
+_Presumptions_
+1. Cluster A is identical to cluster B
+2. Scale out could help
+
+_Actions_
+- Check for differences in cluster A to cluster B setup (P1)
+- Perform scale out, double resources (P2)
+
+## Meeting 2
+
+_Observations_
+- Customers cannot access the website
+- Monitoring shows 90% CPU utilization
+- Rollback did not solve the problem
+- Simple restart did not help
+- Platform team says no chances today
+- Other system in identical cluster B doesn't have the issue
+- **Scale out did not help**
+- **Cluster A has a different SAN storage**
+
+_Presumptions_
+1. **~~Cluster A is identical to cluster B~~** (false)
+2. **~~Scale out could help~~** (false)
+3. **Cluster A SAN storage is faulty**
+4. **High CPU utilization is caused by retries against the storage**
+
+_Actions_
+- **~~Check for differences in cluster A to cluster B setup (P1)~~**
+- **~~Perform scale out, double resources (P2)~~**
+- **Check with storage team if there is a SAN problem (P3)**
+- **Check log metrics for storage access duration (P4)**
+
+## Meeting 3
+
+_Observations_
+- Customers cannot access the website
+- Monitoring shows 90% CPU utilization
+- Rollback did not solve the problem
+- Simple restart did not help
+- Platform team says no chances today
+- Other system in identical cluster B doesn't have the issue
+- Scale out did not help
+- Cluster A has a different SAN storage
+- **Cluster A SAN storage works properly**
+- **High CPU is caused by storage access**
+
+_Presumptions_
+1. ~~Cluster A is identical to cluster B~~ (false)
+2. ~~Scale out could help~~ (false)
+3. **~~Cluster A SAN storage is faulty~~** (false)
+4. **~~High CPU utilization is caused by retries against the storage~~** (true)
+5. **Cluster A SAN storage behaviour has changed**
+
+_Actions_
+- ~~Check for differences in cluster A to cluster B setup (P1)~~
+- ~~Perform scale out, double resources (P2)~~
+- **~~Check with storage team if there is a SAN problem (P3)~~**
+- **~~Check log metrics for storage access duration (P4)~~**
+- **Check for changes to SAN config/firmware (P5)**
+
+## Meeting 4
+
+_Observations_
+- Customers cannot access the website
+- Monitoring shows 90% CPU utilization
+- Rollback did not solve the problem
+- Simple restart did not help
+- Platform team says no chances today
+- Other system in identical cluster B doesn't have the issue
+- Scale out did not help
+- Cluster A has a different SAN storage
+- Cluster A SAN storage works properly
+- High CPU is caused by storage access
+- **Cluster A SAN storage had a firmware update yesterday**
+
+_Presumptions_
+1. ~~Cluster A is identical to cluster B~~ (false)
+2. ~~Scale out could help~~ (false)
+3. ~~Cluster A SAN storage is faulty~~ (false)
+4. ~~High CPU utilization is caused by retries against the storage~~ (true)
+5. **~~Cluster A SAN storage behaviour has changed~~** (true)
+
+_Actions_
+- ~~Check for differences in cluster A to cluster B setup (P1)~~
+- ~~Perform scale out, double resources (P2)~~
+- ~~Check with storage team if there is a SAN problem (P3)~~
+- ~~Check log metrics for storage access duration (P4)~~
+- **~~Check for changes to SAN config/firmware (P5)~~**
+- **Check Changelog of SAN firmware upgrade + contact support (P5)** 
