@@ -25,8 +25,9 @@ Here are some criteria for the switch:
 
 ## How to "do" OPA?
 
-You simple use your periodic incident standups differently. If you do not have such, start immediately.
-Have a meeting every 15min to 1h depending on your business and urgency.
+Any longer running incident should have regular sync meetings. OPA means you simple run
+those periodic incident meetings differently. Have a meeting every 15min to 1h depending 
+on your business, urgency and time needed to execute action points.
 
 Start OPA by
 
