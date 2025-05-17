@@ -19,7 +19,7 @@ Splitting your documentation into "What?", "How?" and "Why?" helps keeping docum
 You gain the maximum benefit from the documentation split by stopping to try to update the "What?"
 documentation type. Only keep the "How?" up-to-date at all times.
 
-## Instead update the "How?" all the time
+## Update the "How?" all the time
 
 The best way to do this is to work documentation driven. When you work on a system/component/...
 open up it's documentation first and copy&paste commands from the documentation. Even do this when
