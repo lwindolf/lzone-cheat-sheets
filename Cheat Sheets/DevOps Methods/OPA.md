@@ -123,12 +123,13 @@ _Actions_
 
 ## Meeting 3
 
+*Note the productive blaming on the SAN storage that is possible because it is formulated as presumption that 
+is intended to be falsified. This way it is no blaming on team members.
+
+Also observations are truncated here for brevity.*
+
 _Observations_
-- Customers cannot access the website
-- Monitoring shows 90% CPU utilization
-- Rollback did not solve the problem
-- Simple restart did not help
-- Platform team says no chances today
+- \[...]
 - Other system in identical cluster B doesn't have the issue
 - Scale out did not help
 - Cluster A has a different SAN storage
@@ -152,13 +153,7 @@ _Actions_
 ## Meeting 4
 
 _Observations_
-- Customers cannot access the website
-- Monitoring shows 90% CPU utilization
-- Rollback did not solve the problem
-- Simple restart did not help
-- Platform team says no chances today
-- Other system in identical cluster B doesn't have the issue
-- Scale out did not help
+- \[...]
 - Cluster A has a different SAN storage
 - Cluster A SAN storage works properly
 - High CPU is caused by storage access
@@ -178,3 +173,60 @@ _Actions_
 - ~~Check log metrics for storage access duration (P4)~~
 - **~~Check for changes to SAN config/firmware (P5)~~**
 - **Check Changelog of SAN firmware upgrade + contact support (P5)** 
+
+## Meeting 5
+
+_Observations_
+- \[...]
+- Cluster A SAN storage works properly
+- High CPU is caused by storage access
+- Cluster A SAN storage had a firmware update yesterday
+- **Cluster A SAN storage new firmware has introduced some suspect changes**
+
+_Presumptions_
+1. ~~Cluster A is identical to cluster B~~ (false)
+2. ~~Scale out could help~~ (false)
+3. ~~Cluster A SAN storage is faulty~~ (false)
+4. ~~High CPU utilization is caused by retries against the storage~~ (true)
+5. ~~Cluster A SAN storage behaviour has changed~~ (true)
+6. **The way our code uses the SAN is not compatible anymore**
+
+_Actions_
+- ~~Check for differences in cluster A to cluster B setup (P1)~~
+- ~~Perform scale out, double resources (P2)~~
+- ~~Check with storage team if there is a SAN problem (P3)~~
+- ~~Check log metrics for storage access duration (P4)~~
+- ~~Check for changes to SAN config/firmware (P5)~~
+- **~~Check Changelog of SAN firmware upgrade + contact support (P5)~~**
+- **Try adapting the storage client config to the settings required by the firmware version (P6)**
+- **Clarify wether the storage team can revert the update**
+
+## Meeting 5
+
+_Observations_
+- \[...]
+- High CPU is caused by storage access
+- Cluster A SAN storage had a firmware update yesterday
+- Cluster A SAN storage new firmware has introduced some supspect changes
+- **Storage teams says rollback is not supported**
+- **CPU usage down to normal levels after storage client config change** -> SOLUTION
+
+_Presumptions_
+1. ~~Cluster A is identical to cluster B~~ (false)
+2. ~~Scale out could help~~ (false)
+3. ~~Cluster A SAN storage is faulty~~ (false)
+4. ~~High CPU utilization is caused by retries against the storage~~ (true)
+5. ~~Cluster A SAN storage behaviour has changed~~ (true)
+6. **~~The way our code uses the SAN is not compatible anymore~~** (true)
+
+_Actions_
+- ~~Check for differences in cluster A to cluster B setup (P1)~~
+- ~~Perform scale out, double resources (P2)~~
+- ~~Check with storage team if there is a SAN problem (P3)~~
+- ~~Check log metrics for storage access duration (P4)~~
+- ~~Check for changes to SAN config/firmware (P5)~~
+- **~~Check Changelog of SAN firmware upgrade + contact support (P5)~~**
+- **~~Try adapting the storage client config to the settings required by the firmware version (P6)~~**
+- **~~Clarify wether the storage team can revert the update~~**
+
+*With the solution found the meeting series ends.*
