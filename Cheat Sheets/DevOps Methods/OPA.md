@@ -6,9 +6,15 @@ This is about an IT ops incident reponse method called "OPA" short for
 
 Please note, that I do not know whom to credit for this. If you know please let me know or create a PR!
 
+## Background
+
+The philosophy of the method is to do scientific falsification (see Karl Popper). Actions are more or
+less experiments to prove/disprove presumptions. The idea behind OPA is that you cannot solve the current
+incident because your presumptions are lacking and it helps you to do better.
+
 ## When to use it?
 
-In generel this is a complementary method that you use when your normal incident playbook does not work.
+In general this is a complementary method that you use when your normal incident playbook does not work.
 I suggest to always start with the normal incident response playbook and only later on to switch to this.
 Here are some criteria for the switch:
 
