@@ -25,6 +25,23 @@ The best way to do this is to work documentation driven. When you work on a syst
 open up it's documentation first and copy&paste commands from the documentation. Even do this when
 you are a senior because it ensures the documentation is correct and any colleguage can do it.
 
+## Make the "How?" actionable
+
+How documentation should focus on being actionable that means
+
+- CLI commands you can copy from the documentation
+- deep links into infrastructure GUIs to access
+- hints on credentials needed
+- troubleshooting sections
+
+To further motivate the documentation to be actionable
+
+- Link the documentation from the monitoring
+- Optimal the monitoring component/server/application/... name is identical 
+  to the documentation page, so you can define monitoring links generically
+- Have a on-call policy to create tickets if a monitoring link leads to an empty/missing page
+- Have all DevOps on-call
+
 ## Impact on onboarding
 
 Once your documentation is structured like this one of the first tasks in the onboading can be a first
