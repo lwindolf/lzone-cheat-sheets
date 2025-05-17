@@ -76,10 +76,10 @@ General hints
 This is an example how a OPA meeting series could go. The different dashboard contents for each
 meeting are shown. Changed points are marked bold.
 
-For the first meeting note how it is visible that there were solution attempts before and how
-often presumptions do hide in the initial observations "identical cluster". 
-
 ### Meeting 1
+
+*For the first meeting note how it is visible that there were failed solution attempts before and how
+often presumptions do hide in the initial observations like in "identical cluster".*
 
 _Observations_
 - Customers cannot access the website
