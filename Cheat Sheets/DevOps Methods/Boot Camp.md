@@ -1,4 +1,4 @@
-Having a DevOps boot camp is a good way to introduce and scale DevOps practices in a large organization.
+Having a DevOps boot camp is a good way to introduce and scale DevOps practices in a large organization (>100 developers).
 
 ## Background
 
