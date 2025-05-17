@@ -9,8 +9,9 @@ Please note, that I do not know whom to credit for this. If you know please let 
 ## Background
 
 The philosophy of the method is to do scientific falsification (see Karl Popper). Actions are more or
-less experiments to prove/disprove presumptions. The idea behind OPA is that you cannot solve the current
-incident because your presumptions are lacking and it helps you to do better.
+less experiments to prove/disprove presumptions. The assumption is that the reason why you cannot solve 
+the current incident is that your presumptions are lacking and switching to the OPA methods helps you to 
+fix this and solve the incident.
 
 ## When to use it?
 
