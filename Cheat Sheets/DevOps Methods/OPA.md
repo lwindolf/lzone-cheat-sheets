@@ -47,7 +47,7 @@ Hold the meeting by doing these steps
 
 2. Updating the "Actions" and "Presumptions"
    - starting with the 2nd meeting 
-     - cross out all falsified presumptions
+     - cross out all falsified presumptions and add a result marker (true/false)
      - cross out all executed actions and add observations for the results
    - add new actions and presumptions
      - every action should prove/falsify a presumption
