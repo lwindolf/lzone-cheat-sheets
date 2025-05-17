@@ -109,6 +109,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/ulimit.md'>ulimit</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/vi.md'>vi</a>
 <br/><span class='group'><b>DevOps Methods</b></span>
+ | <a class='topic' href='Cheat Sheets/DevOps Methods/ADRs.md'>ADRs</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/Boot Camp.md'>Boot Camp</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/OPA.md'>OPA</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/Post Mortem.md'>Post Mortem</a>
