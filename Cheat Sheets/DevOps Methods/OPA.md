@@ -37,21 +37,21 @@ Start OPA by
 Hold the meeting
 
 1. Updating the "Observations"
-  - add all known details
-  - cross out (do not delete) incorrect/unrelated stuff
-  - ensure there are only facts in "Observations" never "Presumptions"
+   - add all known details
+   - cross out (do not delete) incorrect/unrelated stuff
+   - ensure there are only facts in "Observations" never "Presumptions"
 
 2. Updating the "Actions" and "Presumptions"
-  - starting with the 2nd meeting 
-    - cross out (do not delete) all falsified "Presumptions"
-    - note the results of all performed "Actions" and cross them out
-  - add new actions and presumptions
-    - every action should prove/falsify a presumption
-    - add the presumption number to the action
+   - starting with the 2nd meeting 
+     - cross out (do not delete) all falsified "Presumptions"
+     - note the results of all performed "Actions" and cross them out
+   - add new actions and presumptions
+     - every action should prove/falsify a presumption
+     - add the presumption number to the action
 
 3. Plan next iteration
-  - select actions to perform, assign responsible people
-  - set the next meeting time
+   - select actions to perform, assign responsible people
+   - set the next meeting time
 
 General hints
 - stop people from immediately working/checking stuff during the OPA meeting
