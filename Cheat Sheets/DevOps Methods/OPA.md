@@ -31,14 +31,14 @@ on your business, urgency and time needed to execute action points.
 
 Start OPA by
 
-1. Invite people by phone/chat to a meeting
-2. Get management buy-in for the method
+1. Invite any missing experts by phone/chat to the next incident meeting
+2. (Optional) Get buy-in by the responsible manager for the method
 3. Nominate a moderator / organizer
 4. Setting up a whiteboard (physical if possible)
-5. Explaining what OPA is and why you are switching
+5. Explain why you are switching to OPA and explain by simply doing it
 6. Add the 3 sections "Observations", "Presumptions", "Actions"
 
-Hold the meeting
+Hold the meeting by doing these steps
 
 1. Updating the "Observations"
    - add all not yet listed known possibly relevant facts
@@ -47,8 +47,8 @@ Hold the meeting
 
 2. Updating the "Actions" and "Presumptions"
    - starting with the 2nd meeting 
-     - cross out all falsified "Presumptions"
-     - note the results of all performed "Actions" and cross them out
+     - cross out all falsified presumptions
+     - cross out all executed actions and add observations for the results
    - add new actions and presumptions
      - every action should prove/falsify a presumption
      - add the presumption number to the action
