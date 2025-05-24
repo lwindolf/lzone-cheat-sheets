@@ -13,6 +13,14 @@
         somekey does exist!
     {{/if}}
 
+Also with else
+
+    {{#if somekey}}
+        somekey does exist!
+    {{else}}
+        no it does not
+    {{/if}}
+
 ## Comments
 
 Choose one of the two comment variants depending on wether your comment includes the literal " }}" or "--}}":
