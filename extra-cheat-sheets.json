@@ -1341,5 +1341,10 @@
     "github": "thewhitetulip/awk-anti-textbook",
     "type": "Tutorial",
     "category": "DevOps"
+  },
+  "Learn sed": {
+    "github": "dohlee/learn-sed",
+    "type": "Tutorial",
+    "category": "DevOps"
   }
 }
