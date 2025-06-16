@@ -1346,5 +1346,10 @@
     "github": "dohlee/learn-sed",
     "type": "Tutorial",
     "category": "DevOps"
+  },
+  "Learn CLI text processing": {
+    "github": "learnbyexample/Command-line-text-processing",
+    "type": "Tutorial",
+    "category": "DevOps"
   }
 }
