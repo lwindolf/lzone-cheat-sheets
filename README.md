@@ -476,6 +476,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
  - [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules)
  - [Kafka Architecture](https://github.com/anhthii/kafka-notes)
+ - [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing)
  - [Learn Regex](https://github.com/ziishaned/learn-regex)
  - [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud)
  - [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
