@@ -480,6 +480,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud)
  - [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
  - [Learn Vim](https://github.com/iggredible/Learn-Vim)
+ - [Learn sed](https://github.com/dohlee/learn-sed)
  - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
  - [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
  - [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path)
