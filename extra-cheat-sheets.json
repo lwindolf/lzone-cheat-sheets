@@ -1336,5 +1336,10 @@
     "github": "iam-veeramalla/terraform-zero-to-hero",
     "type": "Documentation",
     "category": "DevOps"
+  },
+  "AWK anti-textbook": {
+    "github": "thewhitetulip/awk-anti-textbook",
+    "type": "Tutorial",
+    "category": "DevOps"
   }
 }
