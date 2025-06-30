@@ -1351,5 +1351,11 @@
     "github": "learnbyexample/Command-line-text-processing",
     "type": "Tutorial",
     "category": "DevOps"
+  },
+  "Tutorial RabbitMQ": {
+    "github": "Frodo-Web/frodo-tips",
+    "type": "Tutorial",
+    "category": "DevOps",
+    "filePattern": "blob/main/linux-admin/(rabbitmq).md"
   }
 }
