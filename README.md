@@ -566,6 +566,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero)
  - [The Bread Code](https://github.com/hendricius/the-bread-code)
  - [The JS Way](https://github.com/thejsway/thejsway)
+ - [Tutorial RabbitMQ](https://github.com/Frodo-Web/frodo-tips)
  - [TypeSpec API Generator](https://github.com/microsoft/typespec)
  - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
  - [WTFJS](https://github.com/denysdovhan/wtfjs)
