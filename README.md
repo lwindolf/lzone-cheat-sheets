@@ -185,6 +185,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Monitoring/Nagios.md'>Nagios</a>
  | <a class='topic' href='Cheat Sheets/Monitoring/Prometheus.md'>Prometheus</a>
 <br/><span class='group'><b>Network</b></span>
+ | <a class='topic' href='Cheat Sheets/Network/CORS Proxies.md'>CORS Proxies</a>
  | <a class='topic' href='Cheat Sheets/Network/Linux-Networking.md'>Linux-Networking</a>
  | <a class='topic' href='Cheat Sheets/Network/Mail.md'>Mail</a>
  | <a class='topic' href='Cheat Sheets/Network/Network.md'>Network</a>
