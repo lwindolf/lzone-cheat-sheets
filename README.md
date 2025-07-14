@@ -97,6 +97,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/kerberos.md'>kerberos</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/mokutil.md'>mokutil</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/nohup.md'>nohup</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/ollama.md'>ollama</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/perf.md'>perf</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/screen.md'>screen</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/socat.md'>socat</a>
