@@ -6,6 +6,10 @@
 
 ## Simple usage with curl
 
+Get available model names with
+
+    curl http://localhost:11434/api/tags
+
 For a local installation you can use curl like this
 
     curl http://localhost:11434/api/generate -d '{
