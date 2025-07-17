@@ -1357,5 +1357,15 @@
     "type": "Tutorial",
     "category": "DevOps",
     "filePattern": "blob/main/linux-admin/(rabbitmq).md"
+  },
+  "ArchiMate Intro": {
+    "github": "yasenstar/ArchiMetal_Practice",
+    "type": "Tutorial",
+    "category": "Architecture"
+  },
+  "ArchiMate CheatSheet": {
+    "github": "SixArm/archimate-examples",
+    "type": "CheatSheet",
+    "category": "Architecture"
   }
 }
