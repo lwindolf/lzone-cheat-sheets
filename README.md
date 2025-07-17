@@ -350,6 +350,8 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops)
  - [AWSCookbook Security](https://github.com/AWSCookbook/Security)
  - [Ansible Tutorial](https://github.com/leucos/ansible-tuto)
+ - [ArchiMate CheatSheet](https://github.com/SixArm/archimate-examples)
+ - [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice)
  - [Architecture Books](https://github.com/mhadidg/software-architecture-books)
  - [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
  - [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
