@@ -361,6 +361,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture)
  - [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses)
  - [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet)
+ - [Awesome Clean Architecture](https://github.com/dgomezs/awesome-clean-architecture)
  - [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security)
  - [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
  - [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql)
