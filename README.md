@@ -578,6 +578,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [TypeSpec API Generator](https://github.com/microsoft/typespec)
  - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
  - [WTFJS](https://github.com/denysdovhan/wtfjs)
+ - [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture)
  - [Xapax Security](https://github.com/xapax/security)
  - [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site)
  - [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture)
