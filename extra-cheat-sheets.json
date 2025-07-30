@@ -1382,5 +1382,10 @@
     "github": "stemmlerjs/software-design-and-architecture-roadmap",
     "type": "Tutorial",
     "category": "Development"
+  },
+  "Solution Architecture Links": {
+    "github": "unlight/solution-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
   }
 }
