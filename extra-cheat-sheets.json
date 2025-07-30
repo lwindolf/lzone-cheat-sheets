@@ -1372,5 +1372,10 @@
     "github": "arc42/docs.arc42.org-site",
     "type": "Documentation",
     "category": "Architecture"
+  },
+  "awesome Architecture": {
+    "github": "mehdihadeli/awesome-software-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
   }
 }
