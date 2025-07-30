@@ -575,6 +575,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
  - [WTFJS](https://github.com/denysdovhan/wtfjs)
  - [Xapax Security](https://github.com/xapax/security)
+ - [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site)
  - [devhints.io](https://github.com/rstacruz/cheatsheets)
  - [eg Cheat Sheets](https://github.com/srsudar/eg)
  - [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
