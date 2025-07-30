@@ -1397,5 +1397,11 @@
     "github": "dgomezs/awesome-clean-architecture",
     "type": "Awesome",
     "category": "Architecture"
+  },
+  "Feature Sliced Frontend Design": {
+    "github": "feature-sliced/documentation",
+    "type": "Tutorial",
+    "category": "Architecture",
+    "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$"
   }
 }
