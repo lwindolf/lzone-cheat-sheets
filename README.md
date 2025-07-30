@@ -589,5 +589,6 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [k8s Tekton Tutorial](https://github.com/harbur/tekton-tutorial)
  - [k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
  - [nginx Admin Handbook](https://github.com/trimstray/nginx-admins-handbook)
+ - [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook)
  - [reactnative.guide](https://github.com/react-made-native-easy/book)
  - [rsync Tutorial](https://github.com/johnjung/rsync_tutorial)
