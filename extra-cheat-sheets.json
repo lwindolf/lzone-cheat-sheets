@@ -1387,5 +1387,10 @@
     "github": "unlight/solution-architecture",
     "type": "Awesome",
     "category": "Architecture"
+  },
+  "nocomplexity Architecture Playbook": {
+    "github": "nocomplexity/ArchitecturePlaybook",
+    "type": "Documentation",
+    "category": "Architecture"
   }
 }
