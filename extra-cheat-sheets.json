@@ -1403,5 +1403,10 @@
     "type": "Tutorial",
     "category": "Architecture",
     "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$"
+  },
+  "What is Enterprise Architecture": {
+    "github": "justinamiller/EnterpriseArchitecture",
+    "type": "Documentation",
+    "category": "Architecture"
   }
 }
