@@ -450,6 +450,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Excel Cheat Sheet](https://github.com/emanuelefavero/excel)
  - [FastAI Fastbook](https://github.com/fastai/fastbook)
  - [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet)
+ - [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation)
  - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
  - [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev)
  - [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101)
