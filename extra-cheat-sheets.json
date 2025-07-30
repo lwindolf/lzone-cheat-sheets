@@ -1377,5 +1377,10 @@
     "github": "mehdihadeli/awesome-software-architecture",
     "type": "Awesome",
     "category": "Architecture"
+  },
+  "Learning Path Software Design": {
+    "github": "stemmlerjs/software-design-and-architecture-roadmap",
+    "type": "Tutorial",
+    "category": "Development"
   }
 }
