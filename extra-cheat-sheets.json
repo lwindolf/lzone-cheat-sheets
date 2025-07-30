@@ -1367,5 +1367,10 @@
     "github": "SixArm/archimate-examples",
     "type": "CheatSheet",
     "category": "Architecture"
+  },
+  "arc42 Documentation": {
+    "github": "arc42/docs.arc42.org-site",
+    "type": "Documentation",
+    "category": "Architecture"
   }
 }
