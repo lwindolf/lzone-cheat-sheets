@@ -492,6 +492,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
  - [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
  - [Learning Path Senior Developer](https://github.com/joebew42/study-path)
+ - [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
  - [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
  - [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design)
  - [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
