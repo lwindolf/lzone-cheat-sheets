@@ -1408,5 +1408,10 @@
     "github": "justinamiller/EnterpriseArchitecture",
     "type": "Documentation",
     "category": "Architecture"
+  },
+  "Tomato SW Architecture": {
+    "github": "sivaprasadreddy/tomato-architecture",
+    "type": "Tutorial",
+    "category": "Architecture"
   }
 }
