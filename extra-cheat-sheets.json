@@ -1392,5 +1392,10 @@
     "github": "nocomplexity/ArchitecturePlaybook",
     "type": "Documentation",
     "category": "Architecture"
+  },
+  "Awesome Clean Architecture": {
+    "github": "dgomezs/awesome-clean-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
   }
 }
