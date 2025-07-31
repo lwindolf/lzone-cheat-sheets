@@ -1418,5 +1418,10 @@
     "github": "psibi/prometheus",
     "type": "Book",
     "category": "DevOps"
+  },
+  "Zabbix Book": {
+    "github": "Trikke76/Zabbix-Book",
+    "type": "Book",
+    "category": "DevOps"
   }
 }
