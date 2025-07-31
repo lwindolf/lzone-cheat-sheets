@@ -338,7 +338,7 @@
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Interview"
   },
