@@ -537,6 +537,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Markdown Architecture Decision Records](https://github.com/adr/madr)
  - [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
  - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
+ - [Monitoring with Prometheus](https://github.com/psibi/prometheus)
  - [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet)
  - [Nature of Code](https://github.com/nature-of-code/noc-book-2023)
  - [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
