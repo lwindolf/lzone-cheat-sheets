@@ -327,18 +327,26 @@
   },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
-    "filePattern": "^([^/]+)/README.md$"
+    "filePattern": "^([^/]+)/README.md$",
+    "category": "ML",
+    "type": "Book"
   },
   "IMDB Data in the Terminal": {
-    "github": "vvijayan1/imdb_data_on_terminal"
+    "github": "vvijayan1/imdb_data_on_terminal",
+    "category": "ML",
+    "type": "Tutorial"
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
     "filePattern": "^(README)\\.md$"
+    "category": "DevOps",
+    "type": "Interview"
   },
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
-    "filePattern": "^(README.*)\\.md$"
+    "filePattern": "^(README.*)\\.md$",
+    "categor": "DevOps",
+    "type": "Interview"
   },
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
@@ -347,7 +355,9 @@
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
-    "filePattern": "^docs/(.*)/README.md$"
+    "filePattern": "^docs/(.*)/README.md$",
+    "type": "Tutorial",
+    "category": "DevOps"
   },
   "Google Cloud Guide": {
     "github": "mikeroyal/Google-Cloud-Guide",
@@ -387,7 +397,9 @@
   },
   "Xapax Security": {
     "github": "xapax/security",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "type": "Cheat Sheet",
+    "category": "Security"
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
