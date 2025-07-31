@@ -1413,5 +1413,10 @@
     "github": "sivaprasadreddy/tomato-architecture",
     "type": "Tutorial",
     "category": "Architecture"
+  },
+  "Monitoring with Prometheus": {
+    "github": "psibi/prometheus",
+    "type": "Book",
+    "category": "DevOps"
   }
 }
