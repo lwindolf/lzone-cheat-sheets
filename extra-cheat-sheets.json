@@ -128,13 +128,13 @@
     "github": "OWASP/CheatSheetSeries",
     "filePattern": "^cheatsheets/(.+)\\.md$",
     "category": "Security",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "eg Cheat Sheets": {
     "github": "srsudar/eg",
     "filePattern": "^eg/examples/([^/]+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "Free Programming Books": {
     "github": "EbookFoundation/free-programming-books",
@@ -767,12 +767,12 @@
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "MDN accessibility": {
     "github": "mdn/content",
