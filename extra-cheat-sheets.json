@@ -1462,5 +1462,10 @@
     "github": "https://github.com/Devinterview-io/xml-interview-questions",
     "type": "Interview",
     "category": "DevOps"
+  },
+  "devinterview.io Architecture": {
+    "github": "Devinterview-io/software-architecture-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
   }
 }
