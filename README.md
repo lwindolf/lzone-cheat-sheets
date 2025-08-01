@@ -498,7 +498,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
  - [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design)
  - [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
- - [Learning Path by Role](https://github.com/belatrix/learningPaths)
+ - [Learning Path by Role](https://github.com/belatrix/Learning Paths)
  - [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
  - [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path)
  - [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
