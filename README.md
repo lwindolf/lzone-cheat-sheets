@@ -587,6 +587,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  - [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture)
  - [devhints.io](https://github.com/rstacruz/cheatsheets)
  - [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions)
+ - [devinterview.io Architecture](https://github.com/Devinterview-io/software-architecture-interview-questions)
  - [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions)
  - [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions)
  - [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions)
