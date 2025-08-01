@@ -1467,5 +1467,55 @@
     "github": "Devinterview-io/software-architecture-interview-questions",
     "type": "Interview",
     "category": "Architecture"
+  },
+  "devinterview.io SOA": {
+    "github": "Devinterview-io/service-oriented-architecture-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io Microservices": {
+    "github": "Devinterview-io/microservices-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io NOSQL": {
+    "github": "Devinterview-io/nosql-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Loadbalancing": {
+    "github": "Devinterview-io/load-balancing-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Middleware": {
+    "github": "Devinterview-io/layering-and-middleware-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io Docker": {
+    "github": "Devinterview-io/docker-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  }, 
+  "devinterview.io DDD": {
+    "github": "Devinterview-io/domain-driven-design-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io kubernetes": {
+    "github": "Devinterview-io/kubernetes-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io CAP theorem": {
+    "github": "Devinterview-io/cap-theorem-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io availability": {
+    "github": "Devinterview-io/availability-and-reliability-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
   }
 }
