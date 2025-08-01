@@ -345,7 +345,7 @@
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
     "filePattern": "^(README.*)\\.md$",
-    "categor": "DevOps",
+    "category": "DevOps",
     "type": "Interview"
   },
   "Cloud Outages Index": {
@@ -756,7 +756,8 @@
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
-    "type": "Documentation"
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
@@ -1174,64 +1175,65 @@
   },
   "Learning Path k8s": {
     "github": "techiescamp/kubernetes-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "DevOps"
   },
   "Learning Path k8s (Microsoft)": {
     "github": "microsoft/kubernetes-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "DevOps"
   },
   "Learning Path FullStack Web Dev": {
     "github": "shovanch/fullstack-web-developer-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Functional Programming": {
     "github": "imteekay/functional-programming-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Springboot Microservices": {
     "github": "TechPrimers/learning-path-spring-boot-microservices",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Thinkerhub": {
     "github": "tinkerhub/TinkerHub-Learning-Paths",
     "filePattern": "^content/(.+)\\.md$",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path by Role": {
-    "github": "belatrix/learningPaths",
-    "type": "LearningPath",
+    "github": "belatrix/Learning Paths",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path System Design": {
     "github": "TechPrimers/learning-path-system-design",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Architecture"
   },
   "Learning Path Senior Developer": {
     "github": "joebew42/study-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Data Science": {
     "github": "myarist/Data-Science-Learning-Path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path AI Expert": {
     "github": "AMAI-GmbH/AI-Expert-Roadmap",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Documentation TravisCI": {
     "github": "travis-ci/docs-travis-ci-com",
     "filePattern": "^user/(.+).md$",
-    "type": "Documentation"
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Documentation CloudFoundry Bosh": {
     "github": "cloudfoundry/docs-bosh",
@@ -1377,7 +1379,7 @@
   },
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
-    "type": "CheatSheet",
+    "type": "Cheat Sheet",
     "category": "Architecture"
   },
   "arc42 Documentation": {
@@ -1392,7 +1394,7 @@
   },
   "Learning Path Software Design": {
     "github": "stemmlerjs/software-design-and-architecture-roadmap",
-    "type": "Tutorial",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Solution Architecture Links": {
