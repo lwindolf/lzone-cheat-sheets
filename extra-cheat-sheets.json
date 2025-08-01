@@ -1517,5 +1517,15 @@
     "github": "Devinterview-io/availability-and-reliability-interview-questions",
     "type": "Interview",
     "category": "DevOps"
+  },
+  "devinterview.io AWS": {
+    "github": "Devinterview-io/aws-interview-questions",
+    "type": "Interview",
+    "category": "Cloud"
+  },
+  "devinterview.io Azure": {
+    "github": "Devinterview-io/azure-interview-questions",
+    "type": "Interview",
+    "category": "Cloud"
   }
 }
