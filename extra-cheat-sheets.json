@@ -1437,5 +1437,30 @@
     "github": "Trikke76/Zabbix-Book",
     "type": "Book",
     "category": "DevOps"
+  },
+  "devinterview.io Data Engineer": {
+    "github": "Devinterview-io/data-engineer-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Data Analyst": {
+    "github": "Devinterview-io/data-analyst-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io Dimensionality": {
+    "github": "Devinterview-io/curse-of-dimensionality-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io Apache Spark": {
+    "github": "Devinterview-io/apache-spark-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io XML": {
+    "github": "https://github.com/Devinterview-io/xml-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
   }
 }
