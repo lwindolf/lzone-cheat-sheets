@@ -494,18 +494,18 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learn Vim](iggredible/Learn-Vim) | 💡 Tutorial | DevOps | 
 | [Learn sed](dohlee/learn-sed) | 💡 Tutorial | DevOps | 
 | [LearnXinYMinutes](adambard/learnxinyminutes-docs) | 💡 Tutorial | Programming | 
-| [Learning Path AI Expert](AMAI-GmbH/AI-Expert-Roadmap) | Learning Path | Development | 
-| [Learning Path Data Science](myarist/Data-Science-Learning-Path) | Learning Path | Development | 
-| [Learning Path FullStack Web Dev](shovanch/fullstack-web-developer-path) | Learning Path | Development | 
-| [Learning Path Functional Programming](imteekay/functional-programming-learning-path) | Learning Path | Development | 
-| [Learning Path Senior Developer](joebew42/study-path) | Learning Path | Development | 
-| [Learning Path Software Design](stemmlerjs/software-design-and-architecture-roadmap) | Learning Path | Development | 
-| [Learning Path Springboot Microservices](TechPrimers/learning-path-spring-boot-microservices) | Learning Path | Development | 
-| [Learning Path System Design](TechPrimers/learning-path-system-design) | Learning Path | Architecture | 
-| [Learning Path Thinkerhub](tinkerhub/TinkerHub-Learning-Paths) | Learning Path | Development | 
-| [Learning Path by Role](belatrix/Learning Paths) | Learning Path | Development | 
-| [Learning Path k8s](techiescamp/kubernetes-learning-path) | Learning Path | DevOps | 
-| [Learning Path k8s (Microsoft)](microsoft/kubernetes-learning-path) | Learning Path | DevOps | 
+| [Learning Path AI Expert](AMAI-GmbH/AI-Expert-Roadmap) | 📚 Learning Path | Development | 
+| [Learning Path Data Science](myarist/Data-Science-Learning-Path) | 📚 Learning Path | Development | 
+| [Learning Path FullStack Web Dev](shovanch/fullstack-web-developer-path) | 📚 Learning Path | Development | 
+| [Learning Path Functional Programming](imteekay/functional-programming-learning-path) | 📚 Learning Path | Development | 
+| [Learning Path Senior Developer](joebew42/study-path) | 📚 Learning Path | Development | 
+| [Learning Path Software Design](stemmlerjs/software-design-and-architecture-roadmap) | 📚 Learning Path | Development | 
+| [Learning Path Springboot Microservices](TechPrimers/learning-path-spring-boot-microservices) | 📚 Learning Path | Development | 
+| [Learning Path System Design](TechPrimers/learning-path-system-design) | 📚 Learning Path | Architecture | 
+| [Learning Path Thinkerhub](tinkerhub/TinkerHub-Learning-Paths) | 📚 Learning Path | Development | 
+| [Learning Path by Role](belatrix/Learning Paths) | 📚 Learning Path | Development | 
+| [Learning Path k8s](techiescamp/kubernetes-learning-path) | 📚 Learning Path | DevOps | 
+| [Learning Path k8s (Microsoft)](microsoft/kubernetes-learning-path) | 📚 Learning Path | DevOps | 
 | [Learning freeCodeCamp](freeCodeCamp/freeCodeCamp) | 💡 Tutorial | Programming | 
 | [Linux XDP Tutorial](xdp-project/xdp-tutorial) | 📄 Documentation | Programming | 
 | [Little Go Book](karlseguin/the-little-go-book) | 📕 Book | Development | 
