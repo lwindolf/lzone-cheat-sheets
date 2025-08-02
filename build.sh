@@ -34,6 +34,7 @@ readme_update() {
 
     # Append extra sheet sheets
     printf "\n## Installable External Cheat Sheets\n\n"
+    printf "\nIt is impossible to cover all important topics, so [lzone.de](https://lzone.de) supports adding all the following content too.\n\n"
     printf "| Cheat Sheet | Type | Category |\n"
     printf "| --- | --- | --- |\n"
 
