@@ -48,7 +48,7 @@ readme_update() {
         -e "s/| Cheat Sheet |/| 📓 Cheat Sheet |/g" \
         -e "s/| Interview |/| 💬 Interview |/g" \
         -e "s/| Runbook |/| 🤖 Runbook |/g" \
-        -e "s/| Learning Path |/| 📚 Learning Path |/g"F
+        -e "s/| Learning Path |/| 📚 Learning Path |/g"
   ) >>README.md
 }
 
