@@ -503,7 +503,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learning Path Springboot Microservices](TechPrimers/learning-path-spring-boot-microservices) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path System Design](TechPrimers/learning-path-system-design) | ⭐unknown | 📚 Learning Path | Architecture | 
 | [Learning Path Thinkerhub](tinkerhub/TinkerHub-Learning-Paths) | ⭐unknown | 📚 Learning Path | Development | 
-| [Learning Path by Role](belatrix/Learning Paths) | ⭐unknown | 📚 Learning Path | Development | 
+| [Learning Path by Role](https://github.com/belatrix/Learning Paths) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path k8s](techiescamp/kubernetes-learning-path) | ⭐unknown | 📚 Learning Path | DevOps | 
 | [Learning Path k8s (Microsoft)](microsoft/kubernetes-learning-path) | ⭐unknown | 📚 Learning Path | DevOps | 
 | [Learning freeCodeCamp](freeCodeCamp/freeCodeCamp) | ⭐424924 | 💡 Tutorial | Programming | 
