@@ -70,7 +70,7 @@ readme_update() {
     printf "| --- | --- | --- | --- |\n"
 
     while read extra; do
-      jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value | "| ['"$extra"']("+(.github)+") | ⭐"+(.stars // "unknown" | tostring)+" | "+(.type)+" | "+(.category)+" | "' extra-cheat-sheets.json || true
+      jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value | "| ['"$extra"'](https://github.com/"+(.github)+") | ⭐"+(.stars // "unknown" | tostring)+" | "+(.type)+" | "+(.category)+" | "' extra-cheat-sheets.json || true
     done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort) |\
     sed -e "s/| Tutorial |/| 💡 Tutorial |/g" \
         -e "s/| Book |/| 📕 Book |/g" \
