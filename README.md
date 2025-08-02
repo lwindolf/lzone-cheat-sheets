@@ -338,6 +338,9 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 
 ## Installable External Cheat Sheets
 
+
+It is impossible to cover all important topics, so [lzone.de](https://lzone.de) supports adding all the following content too.
+
 | Cheat Sheet | Type | Category |
 | --- | --- | --- |
 | [30s-of-code CSS](30-seconds/30-seconds-of-css) | 📓 Cheat Sheet | Development | 
