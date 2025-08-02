@@ -34,12 +34,19 @@ readme_update() {
 
     # Append extra sheet sheets
     printf "\n## Installable External Cheat Sheets\n\n"
+    printf "| Cheat Sheet | Type | Category |\n"
+    printf "| --- | --- | --- |\n"
 
     while read extra; do
-      repo="https://github.com/$(jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value.github' extra-cheat-sheets.json)"
-      printf " - [$extra]($repo)\n"
-    done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort)
-
+      jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value | "| ['"$extra"']("+(.github)+") | "+(.type)+" | "+(.category)+" | "' extra-cheat-sheets.json || true
+    done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort) |\
+    sed -e "s/| Tutorial |/| 💡 Tutorial |/g" \
+        -e "s/| Book |/| 📕 Book |/g" \
+        -e "s/| Awesome |/| 👍 Awesome |/g" \
+        -e "s/| Documentation |/| 📄 Documentation |/g" \
+        -e "s/| Cheat Sheet |/| 📓 Cheat Sheet |/g" \
+        -e "s/| Interview |/| 💬 Interview |/g" \
+        -e "s/| Runbook |/| 🤖 Runbook |/g"
   ) >>README.md
 }
 
