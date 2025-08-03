@@ -14,7 +14,7 @@ jq . extra-cheat-sheets.json >/dev/null
 readme_update() {
 
   # Check "last_updated" field to update stars/forks in extra-cheat-sheets.json
-  max_updates=15
+  max_updates=50
   jq -c '. | to_entries[]' extra-cheat-sheets.json | while read -r entry; do
     # Eventual consistency, do no update to much to not hit GitHub API quota
     if [ "$max_updates" -le 0 ]; then
