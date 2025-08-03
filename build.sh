@@ -84,11 +84,14 @@ readme_update() {
 }
 
 readme_update
+
+# Validate JSON again
+jq . extra-cheat-sheets.json >/dev/null
           
 if [ "${GITHUB_RUN_NUMBER-}" != "" ]; then
 	git config user.email "noreply@example.com"
 	git config user.name "Create Index Workflow"
-	git commit -m "Update index." README.md || exit 0
+	git commit -m "Update index." README.md extra-cheat-sheets.json || exit 0
 	git push
 fi
 
