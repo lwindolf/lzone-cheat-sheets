@@ -2,82 +2,127 @@
   "Cognitive Load": {
     "github": "zakirullin/cognitive-load",
     "type": "Tutorial",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 7204,
+    "forks": 164,
+    "last_updated": "2025-08-03"
   },
   "LearnXinYMinutes": {
     "github": "adambard/learnxinyminutes-docs",
     "type": "Tutorial",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 11948,
+    "forks": 3469,
+    "last_updated": "2025-08-03"
   },
   "Awesome Python": {
     "github": "vinta/awesome-python",
     "filePattern": "^(README)\\.md$",
     "type": "Awesome",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 253269,
+    "forks": 26054,
+    "last_updated": "2025-08-03"
   },
   "Awesome GraphQL": {
     "github": "chentsulin/awesome-graphql",
     "type": "Awesome",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 14785,
+    "forks": 1232,
+    "last_updated": "2025-08-03"
   },
   "Awesome Cheat Sheets": {
     "github": "detailyang/awesome-cheatsheet",
     "type": "Awesome",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 7877,
+    "forks": 1037,
+    "last_updated": "2025-08-03"
   },
   "Awesome CS Courses": {
     "github": "prakhar1989/awesome-courses",
     "type": "Awesome",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 61918,
+    "forks": 8226,
+    "last_updated": "2025-08-03"
   },
   "Awesome Public Datasets": {
     "github": "awesomedata/awesome-public-datasets",
     "type": "Awesome",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 63963,
+    "forks": 10179,
+    "last_updated": "2025-08-03"
   },
   "Awesome OSINT": {
     "github": "jivoi/awesome-osint",
     "type": "Awesome",
-    "category": "Security"
+    "category": "Security",
+    "stars": 22180,
+    "forks": 3137,
+    "last_updated": "2025-08-03"
   },
   "Awesome OpenPolicyAgent": {
     "github": "StyraInc/awesome-opa",
     "type": "Awesome",
-    "category": "Security"
+    "category": "Security",
+    "stars": 830,
+    "forks": 78,
+    "last_updated": "2025-08-03"
   },
   "Awesome Design Patterns": {
     "github": "DovAmir/awesome-design-patterns",
     "type": "Awesome",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 43591,
+    "forks": 3107,
+    "last_updated": "2025-08-03"
   },
   "Awesome Scalability": {
     "github": "binhnguyennus/awesome-scalability",
     "filePattern": "^(README)\\.md$",
     "type": "Awesome",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 63655,
+    "forks": 6496,
+    "last_updated": "2025-08-03"
   },
   "Learning freeCodeCamp": {
     "github": "freeCodeCamp/freeCodeCamp",
     "filePattern": "^(README)\\.md$",
     "category": "Programming",
-    "type": "Tutorial"
+    "type": "Tutorial",
+    "stars": 424996,
+    "forks": 41067,
+    "last_updated": "2025-08-03"
   },
   "Learn Regex": {
     "github": "ziishaned/learn-regex",
     "filePattern": "^(README)\\.md$",
     "category": "Programming",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 46049,
+    "forks": 6270,
+    "last_updated": "2025-08-03"
   },
   "Github Cheat Sheet": {
     "github": "tiimgreen/github-cheat-sheet",
     "filePattern": "^(README)\\.md$",
     "category": "Programming",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 51836,
+    "forks": 5331,
+    "last_updated": "2025-08-03"
   },
   "devhints.io": {
     "github": "rstacruz/cheatsheets",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 14147,
+    "forks": 3618,
+    "last_updated": "2025-08-03"
   },
   "WTFJS": {
     "github": "denysdovhan/wtfjs",
@@ -726,7 +771,7 @@
     "github": "prometheus-operator/prometheus-operator",
     "filePattern": "^Documentation/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"    
+    "type": "Documentation"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
@@ -742,7 +787,7 @@
   "CSS Architecture": {
     "github": "jareware/css-architecture",
     "category": "Architecture",
-    "type": "Cheat Sheet"    
+    "type": "Cheat Sheet"
   },
   "Architecture Decision Records": {
     "github": "joelparkerhenderson/architecture-decision-record",
@@ -1497,7 +1542,7 @@
     "github": "Devinterview-io/docker-interview-questions",
     "type": "Interview",
     "category": "DevOps"
-  }, 
+  },
   "devinterview.io DDD": {
     "github": "Devinterview-io/domain-driven-design-interview-questions",
     "type": "Interview",
