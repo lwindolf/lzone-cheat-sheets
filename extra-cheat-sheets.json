@@ -694,279 +694,429 @@
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+)\\.md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 104,
+    "forks": 197,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
     "filePattern": "^alerts/(.+)\\.md$",
     "type": "Runbook",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 82,
+    "forks": 124,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
     "filePattern": "^content/posts/(.+)\\.md$",
     "type": "Runbook",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 126,
+    "forks": 48,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
     "type": "Runbook",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 31,
+    "forks": 43,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
     "type": "Runbook",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 1,
+    "forks": 0,
+    "last_updated": "2025-08-03"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book",
     "type": "Book",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 31,
+    "forks": 14,
+    "last_updated": "2025-08-03"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Cloud"
+    "category": "Cloud",
+    "stars": 4248,
+    "forks": 2635,
+    "last_updated": "2025-08-03"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
     "filePattern": "^website/docs/(.+)\\.md$",
     "type": "Documentation",
-    "category": "Cloud"
+    "category": "Cloud",
+    "stars": 547,
+    "forks": 528,
+    "last_updated": "2025-08-03"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "filePattern": "^playbooks/(.+)\\.md$",
     "type": "Runbook",
-    "category": "Cloud"
+    "category": "Cloud",
+    "stars": 1006,
+    "forks": 207,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
     "type": "Runbook",
-    "category": "Security"
+    "category": "Security",
+    "stars": 51,
+    "forks": 8,
+    "last_updated": "2025-08-03"
   },
   "Runbooks Pentesting": {
     "github": "IlyasKadi/runbook",
     "type": "Runbook",
-    "category": "Security"
+    "category": "Security",
+    "stars": 1,
+    "forks": 3,
+    "last_updated": "2025-08-03"
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 28608,
+    "forks": 3426,
+    "last_updated": "2025-08-03"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 237683,
+    "forks": 31102,
+    "last_updated": "2025-08-03"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 6796,
+    "forks": 3579,
+    "last_updated": "2025-08-03"
   },
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 976,
+    "forks": 778,
+    "last_updated": "2025-08-03"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 16766,
+    "forks": 4034,
+    "last_updated": "2025-08-03"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 24983,
+    "forks": 3059,
+    "last_updated": "2025-08-03"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 23738,
+    "forks": 1894,
+    "last_updated": "2025-08-03"
   },
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 75,
+    "forks": 10,
+    "last_updated": "2025-08-03"
   },
   "Javascript ES6 Cheatsheet": {
     "github": "DrkSephy/es6-cheatsheet",
     "type": "Cheat Sheet",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 13367,
+    "forks": 1120,
+    "last_updated": "2025-08-03"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 4092,
+    "forks": 2835,
+    "last_updated": "2025-08-03"
   },
   "Ansible Tutorial": {
     "github": "leucos/ansible-tuto",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 2280,
+    "forks": 700,
+    "last_updated": "2025-08-03"
   },
   "SAP Tutorials": {
     "github": "sap-tutorials/Tutorials",
     "filePattern": "^tutorials/(.+)\\.md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 810,
+    "forks": 815,
+    "last_updated": "2025-08-03"
   },
   "Linux XDP Tutorial": {
     "github": "xdp-project/xdp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 2718,
+    "forks": 625,
+    "last_updated": "2025-08-03"
   },
   "Bayesian Modelling in Python": {
     "github": "markdregan/Bayesian-Modelling-in-Python",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
-    "category": "Programming"
+    "category": "Programming",
+    "stars": 2505,
+    "forks": 412,
+    "last_updated": "2025-08-03"
   },
   "Docker Getting Started": {
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md",
     "type": "Cheat Sheet",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 3009,
+    "forks": 6435,
+    "last_updated": "2025-08-03"
   },
   "Documentation Docker": {
     "github": "docker/docs",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 4366,
+    "forks": 7789,
+    "last_updated": "2025-08-03"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 22329,
+    "forks": 4650,
+    "last_updated": "2025-08-03"
   },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 874,
+    "forks": 103,
+    "last_updated": "2025-08-03"
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 17,
+    "forks": 7,
+    "last_updated": "2025-08-03"
   },
   "DevSecOps SLSA Framework": {
     "github": "slsa-framework/slsa",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 1703,
+    "forks": 247,
+    "last_updated": "2025-08-03"
   },
   "DevSecOps Maturity Model": {
     "github": "devsecopsmaturitymodel/DevSecOps-MaturityModel",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 531,
+    "forks": 319,
+    "last_updated": "2025-08-03"
   },
   "Network Segmentation Cheat Sheet": {
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 3380,
+    "forks": 273,
+    "last_updated": "2025-08-03"
   },
   "Kafka Architecture": {
     "github": "anhthii/kafka-notes",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 102,
+    "forks": 50,
+    "last_updated": "2025-08-03"
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
     "filePattern": "^(.+)\\.md$",
     "category": "Architecture",
-    "type": "Book"
+    "type": "Book",
+    "stars": 55,
+    "forks": 21,
+    "last_updated": "2025-08-03"
   },
   "ElasticSearch Examples": {
     "github": "elastic/examples",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 2644,
+    "forks": 1233,
+    "last_updated": "2025-08-03"
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 4,
+    "forks": 3,
+    "last_updated": "2025-08-03"
   },
   "Elastic Data Lake Architecture": {
     "github": "gose/elastic-data-lake",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 23,
+    "forks": 2,
+    "last_updated": "2025-08-03"
   },
   "Architecture Domain Driven Hexagon": {
     "github": "Sairyss/domain-driven-hexagon",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 13670,
+    "forks": 1414,
+    "last_updated": "2025-08-03"
   },
   "Architecture Microservices": {
     "github": "rodrigorodrigues/microservices-design-patterns",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 169,
+    "forks": 62,
+    "last_updated": "2025-08-03"
   },
   "DDD by Examples": {
     "github": "ddd-by-examples/library",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 5398,
+    "forks": 779,
+    "last_updated": "2025-08-03"
   },
   "DDD Starter Modelling": {
     "github": "ddd-crew/ddd-starter-modelling-process",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 5287,
+    "forks": 490,
+    "last_updated": "2025-08-03"
   },
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 1674,
+    "forks": 143,
+    "last_updated": "2025-08-03"
   },
   "DDD Miro Templates": {
     "github": "ddd-crew/virtual-modelling-templates",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 83,
+    "forks": 10,
+    "last_updated": "2025-08-03"
   },
   "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 772,
+    "forks": 73,
+    "last_updated": "2025-08-03"
   },
   "Design: Bounded Context Canvas": {
     "github": "ddd-crew/bounded-context-canvas",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 1948,
+    "forks": 183,
+    "last_updated": "2025-08-03"
   },
   "Design: Core Domain Charts": {
     "github": "core-domain-charts",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 0,
+    "forks": 0,
+    "last_updated": "2025-08-03"
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",
     "filePattern": "^content/docs/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 692,
+    "forks": 1051,
+    "last_updated": "2025-08-03"
   },
   "Documentation Prometheus Alertmanager": {
     "github": "prometheus/alertmanager",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 7124,
+    "forks": 2242,
+    "last_updated": "2025-08-03"
   },
   "Documentation Prometheus Operator": {
     "github": "prometheus-operator/prometheus-operator",
     "filePattern": "^Documentation/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9574,
+    "forks": 3785,
+    "last_updated": "2025-08-03"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
