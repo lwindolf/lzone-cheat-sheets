@@ -128,88 +128,133 @@
     "github": "denysdovhan/wtfjs",
     "filePattern": "^(README)\\.md$",
     "category": "Programming",
-    "type": "Book"
+    "type": "Book",
+    "stars": 36726,
+    "forks": 2620,
+    "last_updated": "2025-08-03"
   },
   "JS Promise Cookbook": {
     "github": "mattdesl/promise-cookbook",
     "filePattern": "^(README)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 1615,
+    "forks": 193,
+    "last_updated": "2025-08-03"
   },
   "Typescript Handbook": {
     "github": "microsoft/TypeScript-Website",
     "filePattern": "^packages/documentation/copy/en/handbook-v2/(.+)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 2361,
+    "forks": 1440,
+    "last_updated": "2025-08-03"
   },
   "Pure Bash Bible": {
     "github": "dylanaraps/pure-bash-bible",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
-    "type": "Book"
+    "type": "Book",
+    "stars": 39791,
+    "forks": 3550,
+    "last_updated": "2025-08-03"
   },
   "Bash Handbook": {
     "github": "denysdovhan/bash-handbook",
     "category": "DevOps",
-    "type": "Book"
+    "type": "Book",
+    "stars": 5883,
+    "forks": 759,
+    "last_updated": "2025-08-03"
   },
   "Bash Streams Handbook": {
     "github": "miguelmota/bash-streams-handbook",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 254,
+    "forks": 19,
+    "last_updated": "2025-08-03"
   },
   "Learn Vim": {
     "github": "iggredible/Learn-Vim",
     "category": "DevOps",
-    "type": "Tutorial"
+    "type": "Tutorial",
+    "stars": 14573,
+    "forks": 1115,
+    "last_updated": "2025-08-03"
   },
   "FastAI Fastbook": {
     "github": "fastai/fastbook",
     "filePattern": "^(README)\\.md$",
     "category": "ML",
-    "type": "Book"
+    "type": "Book",
+    "stars": 23512,
+    "forks": 9047,
+    "last_updated": "2025-08-03"
   },
   "OWASP Cheat Sheets Series": {
     "github": "OWASP/CheatSheetSeries",
     "filePattern": "^cheatsheets/(.+)\\.md$",
     "category": "Security",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 30003,
+    "forks": 4193,
+    "last_updated": "2025-08-03"
   },
   "eg Cheat Sheets": {
     "github": "srsudar/eg",
     "filePattern": "^eg/examples/([^/]+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 1929,
+    "forks": 107,
+    "last_updated": "2025-08-03"
   },
   "Free Programming Books": {
     "github": "EbookFoundation/free-programming-books",
     "filePattern": "^books/free-programming-books-(langs|subjects)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 364343,
+    "forks": 63864,
+    "last_updated": "2025-08-03"
   },
   "How Programming Works": {
     "github": "HowProgrammingWorks/Book",
     "filePattern": "^content/en/([^/]+)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 489,
+    "forks": 82,
+    "last_updated": "2025-08-03"
   },
   "The JS Way": {
     "github": "thejsway/thejsway",
     "filePattern": "^manuscript/([^/]+)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 7907,
+    "forks": 800,
+    "last_updated": "2025-08-03"
   },
   "reactnative.guide": {
     "github": "react-made-native-easy/book",
     "filePattern": "^[^/]+/([^/]+)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 0,
+    "forks": 0,
+    "last_updated": "2025-08-03"
   },
   "Little Go Book": {
     "github": "karlseguin/the-little-go-book",
     "filePattern": "^en/(go)\\.md$",
     "category": "Development",
-    "type": "Book"
+    "type": "Book",
+    "stars": 2258,
+    "forks": 278,
+    "last_updated": "2025-08-03"
   },
   "Little MongoDB Book": {
     "github": "karlseguin/the-little-mongodb-book",
