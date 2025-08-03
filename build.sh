@@ -2,13 +2,13 @@
 
 set -euo pipefail
 
-# Validate JSON
-jq . extra-cheat-sheets.json >/dev/null
-
 # Reset stuff we want to modify
 if [ "${GITHUB_RUN_NUMBER-}" = "" ]; then
-	git checkout README.md
+	git checkout README.md extra-cheat-sheets.json
 fi
+
+# Validate JSON
+jq . extra-cheat-sheets.json >/dev/null
 
 # Update README with a list of all cheat sheets defined
 readme_update() {
