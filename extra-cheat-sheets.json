@@ -1122,284 +1122,434 @@
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 20263,
+    "forks": 6239,
+    "last_updated": "2025-08-04"
   },
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture",
     "category": "Architecture",
-    "type": "Awesome"
+    "type": "Awesome",
+    "stars": 2066,
+    "forks": 415,
+    "last_updated": "2025-08-04"
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture",
     "category": "Architecture",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 2584,
+    "forks": 132,
+    "last_updated": "2025-08-04"
   },
   "Architecture Decision Records": {
     "github": "joelparkerhenderson/architecture-decision-record",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 13766,
+    "forks": 2570,
+    "last_updated": "2025-08-04"
   },
   "Markdown Architecture Decision Records": {
     "github": "adr/madr",
     "category": "Architecture",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 1767,
+    "forks": 429,
+    "last_updated": "2025-08-04"
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 16072,
+    "forks": 5683,
+    "last_updated": "2025-08-04"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
     "filePattern": "^docs/sources/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 26128,
+    "forks": 3735,
+    "last_updated": "2025-08-04"
   },
   "Documentation Grafana LokiStack Operator": {
     "github": "grafana/loki",
     "filePattern": "^operator/docs/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 26128,
+    "forks": 3735,
+    "last_updated": "2025-08-04"
   },
   "Documentation kubernetes": {
     "github": "kubernetes/website",
     "filePattern": "^content/en/docs/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 4956,
+    "forks": 14952,
+    "last_updated": "2025-08-04"
   },
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 4,
+    "forks": 1,
+    "last_updated": "2025-08-04"
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 54,
+    "forks": 13,
+    "last_updated": "2025-08-04"
   },
   "MDN accessibility": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/accessibility/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN api": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/api/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN css": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/css/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN demos": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/demos/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN events": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/events/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN exslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/exslt/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN guide": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/guide/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN html": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/html/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN http": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/http/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN javascript": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/javascript/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN manifest": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/manifest/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN mathml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/mathml/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN media": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/media/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN opensearch": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/opensearch/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN performance": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/performance/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN privacy": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/privacy/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN progressive_web_apps": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/progressive_web_apps/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN security": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/security/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN svg": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/svg/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN text_fragments": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/text_fragments/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN tutorials": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/tutorials/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN webdriver": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/webdriver/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN xml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xml/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN xpath": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xpath/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "MDN xslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xslt/(.+)\\.md$",
     "category": "Web",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9666,
+    "forks": 22786,
+    "last_updated": "2025-08-04"
   },
   "Documentation docker-bench-security": {
     "github": "docker/docker-bench-security",
     "category": "Security",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 9444,
+    "forks": 1032,
+    "last_updated": "2025-08-04"
   },
   "Documentation kubebench": {
     "github": "aquasecurity/kube-bench",
     "category": "Security",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 7619,
+    "forks": 1289,
+    "last_updated": "2025-08-04"
   },
   "Free Tier SaaS List": {
     "github": "ripienaar/free-for-dev",
     "category": "SaaS",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 108556,
+    "forks": 11220,
+    "last_updated": "2025-08-04"
   },
   "Favicon Cheat Sheet": {
     "github": "audreyfeldroy/favicon-cheat-sheet",
     "category": "Web",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 9887,
+    "forks": 404,
+    "last_updated": "2025-08-04"
   },
   "Documentation Linode": {
     "github": "linode/docs",
     "filePatern": "^doc/(.+)/index.md",
     "category": "SaaS",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 1386,
+    "forks": 1215,
+    "last_updated": "2025-08-04"
   },
   "Nature of Code": {
     "github": "nature-of-code/noc-book-2023",
     "filePattern": "^content/(.+).html$",
     "category": "Programming",
-    "type": "Book"
+    "type": "Book",
+    "stars": 0,
+    "forks": 0,
+    "last_updated": "2025-08-04"
   },
   "C4-PlantUML Documentation": {
     "github": "plantuml-stdlib/C4-PlantUML",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 6843,
+    "forks": 1142,
+    "last_updated": "2025-08-04"
   },
   "SysML v2 Documentation": {
     "github": "Systems-Modeling/SysML-v2-Release",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 620,
+    "forks": 79,
+    "last_updated": "2025-08-04"
   },
   "Learn UML2": {
     "github": "imalitavakoli/learn-uml2",
     "category": "Architecture",
-    "type": "Book"
+    "type": "Book",
+    "stars": 120,
+    "forks": 28,
+    "last_updated": "2025-08-04"
   },
   "Cloud Provider Cheat Sheets": {
     "github": "JeffDeCola/my-cheat-sheets",
     "filePattern": "^software/(service-.+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 128,
+    "forks": 41,
+    "last_updated": "2025-08-04"
   },
   "Documentation juju": {
     "github": "juju/juju",
     "filePattern": "^doc/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 2527,
+    "forks": 550,
+    "last_updated": "2025-08-04"
   },
   "Naming Cheat Sheet": {
     "github": "kettanaito/naming-cheatsheet",
     "category": "Programming",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 14135,
+    "forks": 927,
+    "last_updated": "2025-08-04"
   },
   "nginx Admin Handbook": {
     "github": "trimstray/nginx-admins-handbook",
     "category": "DevOps",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 13721,
+    "forks": 1107,
+    "last_updated": "2025-08-04"
   },
   "golang Cheat Sheet": {
     "github": "a8m/golang-cheat-sheet",
     "category": "Programming",
-    "type": "Cheat Sheet"
+    "type": "Cheat Sheet",
+    "stars": 8681,
+    "forks": 1117,
+    "last_updated": "2025-08-04"
   },
   "Python Tutorial": {
     "github": "Akuli/python-tutorial",
