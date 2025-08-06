@@ -24,3 +24,7 @@ Limit interface to max bandwith (from https://unix.stackexchange.com/questions/3
 Check default qdisc
 
     sysctl -a | grep qdisc
+
+Make a qdisc permanent with NetworkManager
+
+    nmcli connection modify eth0 tc.qdiscs 'root pfifo_fast'
