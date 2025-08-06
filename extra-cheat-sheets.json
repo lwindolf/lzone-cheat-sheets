@@ -2067,5 +2067,10 @@
     "github": "Devinterview-io/azure-interview-questions",
     "type": "Interview",
     "category": "Cloud"
+  },
+  "Everything curl": {
+    "github": "curl/everything-curl",
+    "type": "Book",
+    "category": "DevOps"
   }
 }
