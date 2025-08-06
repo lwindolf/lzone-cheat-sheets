@@ -242,10 +242,7 @@
     "github": "react-made-native-easy/book",
     "filePattern": "^[^/]+/([^/]+)\\.md$",
     "category": "Development",
-    "type": "Book",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Book"
   },
   "Little Go Book": {
     "github": "karlseguin/the-little-go-book",
@@ -278,55 +275,37 @@
     "github": "30-seconds/30-seconds-of-code",
     "filePattern": "^snippets/js/s/(.+)\\.md$",
     "category": "Development",
-    "type": "Cheat Sheet",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Cheat Sheet"
   },
   "Interview Questions: 30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-interviews",
     "filePattern": "^questions/(.+)\\.md$",
     "category": "Development",
-    "type": "Cheat Sheet",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Cheat Sheet"
   },
   "30s-of-code Python": {
     "github": "30-seconds/30-seconds-of-python",
     "filePattern": "^snippets/(.+)\\.md$",
     "category": "Development",
-    "type": "Cheat Sheet",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Cheat Sheet"
   },
   "30s-of-code CSS": {
     "github": "30-seconds/30-seconds-of-css",
     "filePattern": "^snippets/(.+)\\.md$",
     "category": "Development",
-    "type": "Cheat Sheet",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Cheat Sheet"
   },
   "30s-of-code Git": {
     "github": "30-seconds/30-seconds-of-git",
     "filePattern": "^snippets/(.+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheet",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Cheat Sheet"
   },
   "Puppet Handbook": {
     "github": "abhishekjt/puppet-handbook",
     "filePattern": "^(README)\\.md$",
     "type": "Book",
-    "category": "DevOps",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "category": "DevOps"
   },
   "Documentation Puppet": {
     "github": "puppetlabs/puppet-docs",
@@ -534,10 +513,7 @@
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
     "type": "Documentation",
-    "category": "DevOps",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "category": "DevOps"
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
@@ -600,10 +576,7 @@
   "Reverse Shells": {
     "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
     "type": "Cheat Sheet",
-    "category": "Security",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "category": "Security"
   },
   "Xapax Security": {
     "github": "xapax/security",
@@ -1086,10 +1059,7 @@
   "Design: Core Domain Charts": {
     "github": "core-domain-charts",
     "category": "Architecture",
-    "type": "Documentation",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-03"
+    "type": "Documentation"
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",
@@ -1480,10 +1450,7 @@
     "github": "nature-of-code/noc-book-2023",
     "filePattern": "^content/(.+).html$",
     "category": "Programming",
-    "type": "Book",
-    "stars": 0,
-    "forks": 0,
-    "last_updated": "2025-08-04"
+    "type": "Book"
   },
   "C4-PlantUML Documentation": {
     "github": "plantuml-stdlib/C4-PlantUML",
