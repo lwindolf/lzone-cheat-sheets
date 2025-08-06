@@ -2,6 +2,8 @@ tc is to set network traffic control settings
 
 A good guide can be found at https://linuxvox.com/blog/linux-tc-qdisc/
 
+Additionally there is a [Redhat documentation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_networking/linux-traffic-control_configuring-and-managing-networking)
+
 ## qdisc
 
 Add a PFIFO to drop after queue reaches 1000 packets
