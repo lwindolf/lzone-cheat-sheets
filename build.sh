@@ -14,7 +14,7 @@ jq . extra-cheat-sheets.json >/dev/null
 readme_update() {
 
   # Check "last_updated" field to update stars/forks in extra-cheat-sheets.json
-  max_updates=50
+  max_updates=25
   jq -c '. | to_entries[]' extra-cheat-sheets.json | while read -r entry; do
     # Eventual consistency, do no update to much to not hit GitHub API quota
     if [ "$max_updates" -le 0 ]; then
@@ -28,6 +28,7 @@ readme_update() {
     if [ -z "$last_updated" ] || [ "$(date -d "$last_updated" +%s 2>/dev/null || echo 0)" -lt "$(date -d '30 days ago' +%s)" ]; then
       echo "Updating stats for $key"
       max_updates=$((max_updates - 1))
+      sleep 1
 
       repo=$(echo "$value" | jq -r '.github')
       if [ -n "$repo" ]; then
@@ -35,6 +36,10 @@ readme_update() {
         repo_data=$(curl -s "$repo_api_url")
         stars=$(echo "$repo_data" | jq -r '.stargazers_count // 0')
         forks=$(echo "$repo_data" | jq -r '.forks_count // 0')
+        if [ $stars -eq 0 ]; then
+           echo "ERROR: Fail to fetch stars"
+           continue
+        fi
 
         jq --arg key "$key" --arg stars "$stars" --arg forks "$forks" --arg date "$(date -I)" \
             '.[$key] |= . + {stars: ($stars | tonumber), forks: ($forks | tonumber), last_updated: $date}' extra-cheat-sheets.json >tmp.json && mv tmp.json extra-cheat-sheets.json
