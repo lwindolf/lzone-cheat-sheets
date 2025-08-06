@@ -30,3 +30,13 @@ Check default qdisc
 Make a qdisc permanent with NetworkManager
 
     nmcli connection modify eth0 tc.qdiscs 'root pfifo_fast'
+
+## filter
+
+You need filters for example for classifying traffic to do traffic priorisation
+
+    tc filter add dev enp1s0 parent ffff: protocol ip u32 match u32 0 0 action ctinfo cpmark 100 action mirred egress redirect dev ifb4eth0
+
+Show configured filters
+
+    tc filter show dev enp1s0
