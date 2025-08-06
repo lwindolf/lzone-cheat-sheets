@@ -20,3 +20,7 @@ Limit interface to max bandwith (from https://unix.stackexchange.com/questions/3
 
     tc qdisc add dev eth0 root handle 1:0 netem delay 100ms
     tc qdisc add dev eth0 parent 1:1 handle 10: tbf rate 256kbit buffer 1600 limit 3000
+
+Check default qdisc
+
+    sysctl -a | grep qdisc
