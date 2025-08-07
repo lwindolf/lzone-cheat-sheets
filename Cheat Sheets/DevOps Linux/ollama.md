@@ -22,7 +22,7 @@ Check for AVX 512 support
 
     cat /proc/cpuinfo | grep avx512
 
-General performance to decide which models to run locally
+Ressource threshold to decide which models to run locally
 
 | GPU         | RAM   | VRAM        | Models / Quantization               |
 |-------------|-------|-------------|-------------------------------------|
