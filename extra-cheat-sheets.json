@@ -2111,5 +2111,11 @@
     "github": "curl/everything-curl",
     "type": "Book",
     "category": "DevOps"
+  },
+  "Linux Kernel Docs": {
+    "github": "bryancandi/LinuxKernelDocs",
+    "type": "Documentation",
+    "category": "Development".
+    "filePattern": "^assetpack/src/main/assets/(.+\.html)$"
   }
 }
