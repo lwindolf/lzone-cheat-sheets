@@ -2115,7 +2115,7 @@
   "Linux Kernel Docs": {
     "github": "bryancandi/LinuxKernelDocs",
     "type": "Documentation",
-    "category": "Development".
-    "filePattern": "^assetpack/src/main/assets/(.+\.html)$"
+    "category": "Development",
+    "filePattern": "^assetpack/src/main/assets/(.+\\.html)$"
   }
 }
