@@ -5,10 +5,16 @@ Commands to manage swap files
     swapon <file>            # Mount unmount swap
     swapoff <file>
 
-    mkswap /dev/xxx          # Create swap file / device
-    mkswap --size 8GiB <file>
+    mkswap /dev/xxx                # Create swap partition
+    mkswap -F --size 8GiB <file>   # Create swap file
 
-    free | grep Swap         # Show active/used swap space
+Show active/used swap space
+
+    free | grep Swap         
+    cat /proc/meminfo
+
+For detailed per process swap usage analysis start `top` press `f` and enable 
+the `SWAP` column and press `s` to mark it as sort field.
 
 ## Permanent mount in /etc/fstab
 
