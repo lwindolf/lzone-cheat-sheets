@@ -2117,5 +2117,11 @@
     "type": "Documentation",
     "category": "Development",
     "filePattern": "^assetpack/src/main/assets/(.+\\.html)$"
+  },
+  "Documentation Ansible": {
+    "github": "ansible/ansible-documentation",
+    "type": "Documentation",
+    "category": "DevOps",
+    "filePattern": "docs/docsite/rst/(.+\\.rst)$"
   }
 }
