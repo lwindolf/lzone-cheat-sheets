@@ -3,13 +3,19 @@
     "github": "lwindolf/lzone-cheat-sheets",
     "filePattern": "^Cheat Sheets/(.*)\\.md$",
     "type": "CheatSheet",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 316,
+    "forks": 529,
+    "last_updated": "2025-08-10"
   },
   "Video Tutorials": {
     "github": "lwindolf/lzone-cheat-sheets",
     "filePattern": "^Video Tutorials/(.*)\\.md$",
     "type": "Tutorial",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 316,
+    "forks": 529,
+    "last_updated": "2025-08-10"
   },
   "Cognitive Load": {
     "github": "zakirullin/cognitive-load",
@@ -525,7 +531,10 @@
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 2,
+    "forks": 0,
+    "last_updated": "2025-08-10"
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
@@ -1740,60 +1749,93 @@
     "github": "open-telemetry/opentelemetry.io",
     "filePattern": "^content/en/(.+)\\.md",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 743,
+    "forks": 1481,
+    "last_updated": "2025-08-10"
   },
   "Documentation Openshift": {
     "github": "openshift/openshift-docs",
     "filePattern": "^([^_].+).adoc$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 826,
+    "forks": 1828,
+    "last_updated": "2025-08-10"
   },
   "Documentation CircleCI": {
     "github": "circleci/circleci-docs",
     "filePattern": "^jekyll/_cci2/(.+).adoc$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 814,
+    "forks": 1317,
+    "last_updated": "2025-08-10"
   },
   "Documentation cfengine": {
     "github": "cfengine/documentation",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 36,
+    "forks": 75,
+    "last_updated": "2025-08-10"
   },
   "Documentation Cacti": {
     "github": "Cacti/documentation",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 63,
+    "forks": 54,
+    "last_updated": "2025-08-10"
   },
   "Learning Path k8s": {
     "github": "techiescamp/kubernetes-learning-path",
     "type": "Learning Path",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 7154,
+    "forks": 936,
+    "last_updated": "2025-08-10"
   },
   "Learning Path k8s (Microsoft)": {
     "github": "microsoft/kubernetes-learning-path",
     "type": "Learning Path",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 386,
+    "forks": 132,
+    "last_updated": "2025-08-10"
   },
   "Learning Path FullStack Web Dev": {
     "github": "shovanch/fullstack-web-developer-path",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 3457,
+    "forks": 628,
+    "last_updated": "2025-08-10"
   },
   "Learning Path Functional Programming": {
     "github": "imteekay/functional-programming-learning-path",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 1019,
+    "forks": 85,
+    "last_updated": "2025-08-10"
   },
   "Learning Path Springboot Microservices": {
     "github": "TechPrimers/learning-path-spring-boot-microservices",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 292,
+    "forks": 155,
+    "last_updated": "2025-08-10"
   },
   "Learning Path Thinkerhub": {
     "github": "tinkerhub/TinkerHub-Learning-Paths",
     "filePattern": "^content/(.+)\\.md$",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 64,
+    "forks": 66,
+    "last_updated": "2025-08-10"
   },
   "Learning Path by Role": {
     "github": "belatrix/Learning Paths",
