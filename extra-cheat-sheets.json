@@ -1,4 +1,16 @@
 {
+  "LZone Cheat Sheets": {
+    "github": "lwindolf/lzone-cheat-sheets",
+    "filePattern": "^Cheat Sheets/(.*)\\.md$",
+    "type": "CheatSheet",
+    "category": "DevOps"
+  },
+  "Video Tutorials": {
+    "github": "lwindolf/lzone-cheat-sheets",
+    "filePattern": "^Video Tutorials/(.*)\\.md$",
+    "type": "Tutorial",
+    "category": "DevOps"
+  },
   "Cognitive Load": {
     "github": "zakirullin/cognitive-load",
     "type": "Tutorial",
