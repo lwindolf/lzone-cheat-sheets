@@ -21,3 +21,8 @@ Enter package environment with a shell:
 In the started shell you can start the flatpak'ed binary with gdb for example.
 
 See also https://docs.flatpak.org/en/latest/debugging.html
+
+## Core Dumps
+
+    flatpak install <myapp>.Debug
+    flatpak-coredumpctl <myapp>
