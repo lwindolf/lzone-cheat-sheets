@@ -22,6 +22,12 @@ Note: for redirection you need to pass a filter too to avoid a syntax error:
 jq . my.json > output.json
 ```
 
+To minify JSON
+
+```sh
+jq -c . my.json
+```
+
 ## jq Extraction Examples
 
 Consider this example document
