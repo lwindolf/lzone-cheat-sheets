@@ -66,6 +66,11 @@ Print startup time per service
 
     systemd-analyze blame
 
+## Security
+
+    systemd-analyze security 
+    systemd-analyze security <service>
+
 ## Logging
 
     journalctl -xe                   # List recent errors
