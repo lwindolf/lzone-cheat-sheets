@@ -299,3 +299,12 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 ### Ignore invalid certificates
 
     git -c http.sslVerify=false <command> 
+
+### Setup LFS
+
+    apt install git-lfs
+    git-lfs install
+    git lfs track <file>
+    git add .gitattributes
+    git commit -m "Add file to LFS" <file> .gitattributes
+    git push
