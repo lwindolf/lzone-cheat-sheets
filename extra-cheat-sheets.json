@@ -2181,6 +2181,6 @@
   "Embedded New Testament": {
     "github": "theEmbeddedGeorge/theEmbeddedNewTestament.github.io",
     "type": "Documentation",
-    "category": "Development",
+    "category": "Development"
   }
 }
