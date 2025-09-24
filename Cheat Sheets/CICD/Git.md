@@ -213,6 +213,10 @@ Disable proxy for a given URL
 
     git submodule update --init --recursive
 
+For automatic updating on `git pull`
+
+    git config submodule.recurse true
+
 ### Remove all repo files from a directory
 
 If you ever need to remove all git related files from a local working
