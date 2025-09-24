@@ -698,18 +698,18 @@
     "filePattern": "^alerts/(.+)\\.md$",
     "type": "Runbook",
     "category": "DevOps",
-    "stars": 82,
-    "forks": 124,
-    "last_updated": "2025-08-03"
+    "stars": 86,
+    "forks": 125,
+    "last_updated": "2025-09-24"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
     "filePattern": "^content/posts/(.+)\\.md$",
     "type": "Runbook",
     "category": "DevOps",
-    "stars": 126,
+    "stars": 127,
     "forks": 48,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
@@ -717,7 +717,7 @@
     "category": "DevOps",
     "stars": 31,
     "forks": 43,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
@@ -725,7 +725,7 @@
     "category": "DevOps",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book",
@@ -733,7 +733,7 @@
     "category": "DevOps",
     "stars": 31,
     "forks": 14,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
@@ -741,26 +741,26 @@
     "type": "Documentation",
     "category": "Cloud",
     "stars": 4248,
-    "forks": 2635,
-    "last_updated": "2025-08-03"
+    "forks": 2640,
+    "last_updated": "2025-09-24"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
     "filePattern": "^website/docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 547,
-    "forks": 528,
-    "last_updated": "2025-08-03"
+    "stars": 557,
+    "forks": 540,
+    "last_updated": "2025-09-24"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "filePattern": "^playbooks/(.+)\\.md$",
     "type": "Runbook",
     "category": "Cloud",
-    "stars": 1006,
-    "forks": 207,
-    "last_updated": "2025-08-03"
+    "stars": 1015,
+    "forks": 212,
+    "last_updated": "2025-09-24"
   },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
@@ -768,7 +768,7 @@
     "category": "Security",
     "stars": 51,
     "forks": 8,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "Runbooks Pentesting": {
     "github": "IlyasKadi/runbook",
@@ -776,61 +776,61 @@
     "category": "Security",
     "stars": 1,
     "forks": 3,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 28608,
-    "forks": 3426,
-    "last_updated": "2025-08-03"
+    "stars": 28829,
+    "forks": 3441,
+    "last_updated": "2025-09-24"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 237683,
-    "forks": 31102,
-    "last_updated": "2025-08-03"
+    "stars": 244355,
+    "forks": 31942,
+    "last_updated": "2025-09-24"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 6796,
+    "stars": 6809,
     "forks": 3579,
-    "last_updated": "2025-08-03"
+    "last_updated": "2025-09-24"
   },
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 976,
-    "forks": 778,
-    "last_updated": "2025-08-03"
+    "stars": 1011,
+    "forks": 784,
+    "last_updated": "2025-09-24"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 16766,
-    "forks": 4034,
-    "last_updated": "2025-08-03"
+    "stars": 16775,
+    "forks": 4031,
+    "last_updated": "2025-09-24"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 24983,
-    "forks": 3059,
-    "last_updated": "2025-08-03"
+    "stars": 25096,
+    "forks": 3069,
+    "last_updated": "2025-09-24"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
