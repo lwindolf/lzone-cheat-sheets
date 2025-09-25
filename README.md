@@ -361,9 +361,9 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice) | ⭐unknown | 💡 Tutorial | Architecture | 
 | [Architecture Books](https://github.com/mhadidg/software-architecture-books) | ⭐10383 | 👍 Awesome | Architecture | 
 | [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐13766 | 📄 Documentation | Architecture | 
-| [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon) | ⭐13670 | 📄 Documentation | Architecture | 
+| [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon) | ⭐13884 | 📄 Documentation | Architecture | 
 | [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns) | ⭐3423 | 📄 Documentation | Architecture | 
-| [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐169 | 📄 Documentation | Architecture | 
+| [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐171 | 📄 Documentation | Architecture | 
 | [Awesome AWS Security](https://github.com/jassics/awesome-aws-security) | ⭐1450 | 👍 Awesome | Security | 
 | [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture) | ⭐1627 | 👍 Awesome | Cloud | 
 | [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses) | ⭐62573 | 👍 Awesome | Programming | 
@@ -394,13 +394,13 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐128 | 📓 Cheat Sheet | DevOps | 
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐unknown | 📄 Documentation | Development | 
 | [Cognitive Load](https://github.com/zakirullin/cognitive-load) | ⭐10196 | 💡 Tutorial | Programming | 
-| [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1674 | 📄 Documentation | Architecture | 
+| [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1705 | 📄 Documentation | Architecture | 
 | [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates) | ⭐83 | 📄 Documentation | Architecture | 
-| [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process) | ⭐5287 | 📄 Documentation | Architecture | 
-| [DDD by Examples](https://github.com/ddd-by-examples/library) | ⭐5398 | 📄 Documentation | Architecture | 
-| [Databases Introduction](https://github.com/anhthii/database-notes) | ⭐55 | 📕 Book | Architecture | 
-| [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) | ⭐772 | 📄 Documentation | Architecture | 
-| [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | ⭐1948 | 📄 Documentation | Architecture | 
+| [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process) | ⭐5348 | 📄 Documentation | Architecture | 
+| [DDD by Examples](https://github.com/ddd-by-examples/library) | ⭐5435 | 📄 Documentation | Architecture | 
+| [Databases Introduction](https://github.com/anhthii/database-notes) | ⭐56 | 📕 Book | Architecture | 
+| [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) | ⭐784 | 📄 Documentation | Architecture | 
+| [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | ⭐1972 | 📄 Documentation | Architecture | 
 | [Design: Core Domain Charts](https://github.com/core-domain-charts) | ⭐unknown | 📄 Documentation | Architecture | 
 | [DevOps Video Tutorials](https://github.com/antonputra/tutorials) | ⭐4179 | 📄 Documentation | DevOps | 
 | [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel) | ⭐539 | 📄 Documentation | DevOps | 
@@ -434,8 +434,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐743 | 📄 Documentation | DevOps | 
 | [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐826 | 📄 Documentation | DevOps | 
 | [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2267 | 📄 Documentation | DevOps | 
-| [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐692 | 📄 Documentation | DevOps | 
-| [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐7124 | 📄 Documentation | DevOps | 
+| [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐696 | 📄 Documentation | DevOps | 
+| [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐7212 | 📄 Documentation | DevOps | 
 | [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9574 | 📄 Documentation | DevOps | 
 | [Documentation Puppet](https://github.com/puppetlabs/puppet-docs) | ⭐221 | 📄 Documentation | DevOps | 
 | [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website) | ⭐1011 | 📄 Documentation | DevOps | 
@@ -454,7 +454,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation rundeck](https://github.com/rundeck/docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐23 | 📄 Documentation | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐4 | 📄 Documentation | Architecture | 
-| [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2644 | 📄 Documentation | DevOps | 
+| [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2642 | 📄 Documentation | DevOps | 
 | [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐unknown | 📄 Documentation | Development | 
 | [Everything curl](https://github.com/curl/everything-curl) | ⭐unknown | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
@@ -491,7 +491,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Javascript ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet) | ⭐13373 | 📓 Cheat Sheet | Programming | 
 | [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) | ⭐23767 | 📄 Documentation | Programming | 
 | [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules) | ⭐75 | 📄 Documentation | Programming | 
-| [Kafka Architecture](https://github.com/anhthii/kafka-notes) | ⭐102 | 📄 Documentation | Architecture | 
+| [Kafka Architecture](https://github.com/anhthii/kafka-notes) | ⭐105 | 📄 Documentation | Architecture | 
 | [LZone Cheat Sheets](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐320 | CheatSheet | DevOps | 
 | [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing) | ⭐unknown | 💡 Tutorial | DevOps | 
 | [Learn Regex](https://github.com/ziishaned/learn-regex) | ⭐46082 | 📓 Cheat Sheet | Programming | 
