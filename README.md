@@ -411,26 +411,26 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐20757 | 📄 Documentation | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐63 | 📄 Documentation | DevOps | 
-| [Documentation Certbot](https://github.com/certbot/certbot) | ⭐32370 | 📄 Documentation | DevOps | 
+| [Documentation Certbot](https://github.com/certbot/certbot) | ⭐32486 | 📄 Documentation | DevOps | 
 | [Documentation Chef](https://github.com/chef/chef-web-docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation CircleCI](https://github.com/circleci/circleci-docs) | ⭐814 | 📄 Documentation | DevOps | 
 | [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium) | ⭐unknown | 👍 Awesome | DevOps | 
 | [Documentation CoreDNS](https://github.com/coredns/coredns.io) | ⭐181 | 📄 Documentation | DevOps | 
-| [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐530 | 📄 Documentation | DevOps | 
+| [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐546 | 📄 Documentation | DevOps | 
 | [Documentation Docker](https://github.com/docker/docs) | ⭐4402 | 📄 Documentation | DevOps | 
 | [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation Flux](https://github.com/fluxcd/website) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Documentation GRR](https://github.com/google/grr-doc) | ⭐306 | 📄 Documentation | Security | 
-| [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐16798 | 📄 Documentation | Security | 
-| [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐108 | 📄 Documentation | Security | 
+| [Documentation GRR](https://github.com/google/grr-doc) | ⭐308 | 📄 Documentation | Security | 
+| [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐17019 | 📄 Documentation | Security | 
+| [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐117 | 📄 Documentation | Security | 
 | [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐26597 | 📄 Documentation | DevOps | 
 | [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐26597 | 📄 Documentation | DevOps | 
 | [Documentation Helm](https://github.com/helm/helm-www) | ⭐221 | 📄 Documentation | DevOps | 
-| [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐6557 | 📄 Documentation | Security | 
+| [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐6788 | 📄 Documentation | Security | 
 | [Documentation Linode](https://github.com/linode/docs) | ⭐1386 | 📄 Documentation | SaaS | 
-| [Documentation OSV Scanner](https://github.com/google/osv-scanner) | ⭐7593 | 📄 Documentation | Security | 
+| [Documentation OSV Scanner](https://github.com/google/osv-scanner) | ⭐7811 | 📄 Documentation | Security | 
 | [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐743 | 📄 Documentation | DevOps | 
 | [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐826 | 📄 Documentation | DevOps | 
 | [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2267 | 📄 Documentation | DevOps | 
@@ -450,7 +450,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5014 | 📄 Documentation | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Documentation pprof](https://github.com/google/pprof) | ⭐8646 | 📄 Documentation | Programming | 
+| [Documentation pprof](https://github.com/google/pprof) | ⭐8776 | 📄 Documentation | Programming | 
 | [Documentation rundeck](https://github.com/rundeck/docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐23 | 📄 Documentation | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐4 | 📄 Documentation | Architecture | 
@@ -463,7 +463,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐unknown | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐367217 | 📕 Book | Development | 
 | [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐112775 | 📓 Cheat Sheet | SaaS | 
-| [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3547 | 📄 Documentation | Security | 
+| [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3599 | 📄 Documentation | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐118 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐17 | 📓 Cheat Sheet | DevOps | 
 | [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐unknown | 📄 Documentation | DevOps | 
@@ -472,7 +472,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Globbing Cheat Sheet](https://github.com/begin/globbing) | ⭐159 | 📓 Cheat Sheet | DevOps | 
 | [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide) | ⭐172 | 📓 Cheat Sheet | DevOps | 
 | [Google DevOps Governance](https://github.com/google/devops-governance) | ⭐83 | 📄 Documentation | DevOps | 
-| [Google Engineering Practices](https://github.com/google/eng-practices) | ⭐20243 | 📓 Cheat Sheet | DevOps | 
+| [Google Engineering Practices](https://github.com/google/eng-practices) | ⭐20306 | 📓 Cheat Sheet | DevOps | 
 | [How Programming Works](https://github.com/HowProgrammingWorks/Book) | ⭐489 | 📕 Book | Development | 
 | [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐unknown | 📄 Documentation | Security | 
 | [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal) | ⭐7 | 💡 Tutorial | ML | 
@@ -554,9 +554,9 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Nature of Code](https://github.com/nature-of-code/noc-book-2023) | ⭐unknown | 📕 Book | Programming | 
 | [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet) | ⭐3396 | 📓 Cheat Sheet | DevOps | 
 | [OS Tutorial](https://github.com/cfenollosa/os-tutorial) | ⭐28829 | 📄 Documentation | Programming | 
-| [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide) | ⭐137 | 📓 Cheat Sheet | Security | 
+| [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide) | ⭐138 | 📓 Cheat Sheet | Security | 
 | [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries) | ⭐30194 | 📓 Cheat Sheet | Security | 
-| [OpenSSL Architecture](https://github.com/openssl/web) | ⭐54 | 📄 Documentation | Architecture | 
+| [OpenSSL Architecture](https://github.com/openssl/web) | ⭐65 | 📄 Documentation | Architecture | 
 | [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook) | ⭐unknown | 📕 Book | DevOps | 
 | [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) | ⭐40082 | 📕 Book | DevOps | 
 | [Python Introcution: Byte of Python](https://github.com/swaroopch/byte-of-python) | ⭐2403 | 📕 Book | DevOps | 
