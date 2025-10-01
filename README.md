@@ -413,7 +413,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐63 | 📄 Documentation | DevOps | 
 | [Documentation Certbot](https://github.com/certbot/certbot) | ⭐32486 | 📄 Documentation | DevOps | 
 | [Documentation Chef](https://github.com/chef/chef-web-docs) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Documentation CircleCI](https://github.com/circleci/circleci-docs) | ⭐814 | 📄 Documentation | DevOps | 
+| [Documentation CircleCI](https://github.com/circleci/circleci-docs) | ⭐822 | 📄 Documentation | DevOps | 
 | [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium) | ⭐unknown | 👍 Awesome | DevOps | 
 | [Documentation CoreDNS](https://github.com/coredns/coredns.io) | ⭐181 | 📄 Documentation | DevOps | 
@@ -431,8 +431,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐6788 | 📄 Documentation | Security | 
 | [Documentation Linode](https://github.com/linode/docs) | ⭐1386 | 📄 Documentation | SaaS | 
 | [Documentation OSV Scanner](https://github.com/google/osv-scanner) | ⭐7811 | 📄 Documentation | Security | 
-| [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐743 | 📄 Documentation | DevOps | 
-| [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐826 | 📄 Documentation | DevOps | 
+| [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐779 | 📄 Documentation | DevOps | 
+| [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐836 | 📄 Documentation | DevOps | 
 | [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2267 | 📄 Documentation | DevOps | 
 | [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐696 | 📄 Documentation | DevOps | 
 | [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐7212 | 📄 Documentation | DevOps | 
@@ -445,7 +445,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Documentation | DevOps | 
 | [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9490 | 📄 Documentation | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2545 | 📄 Documentation | DevOps | 
-| [Documentation knative](https://github.com/knative/docs) | ⭐4815 | 📄 Documentation | DevOps | 
+| [Documentation knative](https://github.com/knative/docs) | ⭐4882 | 📄 Documentation | DevOps | 
 | [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7731 | 📄 Documentation | Security | 
 | [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5014 | 📄 Documentation | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐unknown | 📄 Documentation | DevOps | 
@@ -502,15 +502,15 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs) | ⭐11991 | 💡 Tutorial | Programming | 
 | [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path) | ⭐unknown | 📚 Learning Path | Development | 
-| [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3457 | 📚 Learning Path | Development | 
-| [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1019 | 📚 Learning Path | Development | 
+| [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3464 | 📚 Learning Path | Development | 
+| [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1027 | 📚 Learning Path | Development | 
 | [Learning Path Senior Developer](https://github.com/joebew42/study-path) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐unknown | 📚 Learning Path | Development | 
-| [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐292 | 📚 Learning Path | Development | 
+| [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐295 | 📚 Learning Path | Development | 
 | [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design) | ⭐unknown | 📚 Learning Path | Architecture | 
 | [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths) | ⭐64 | 📚 Learning Path | Development | 
 | [Learning Path by Role](https://github.com/belatrix/Learning Paths) | ⭐unknown | 📚 Learning Path | Development | 
-| [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path) | ⭐7154 | 📚 Learning Path | DevOps | 
+| [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path) | ⭐7204 | 📚 Learning Path | DevOps | 
 | [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path) | ⭐386 | 📚 Learning Path | DevOps | 
 | [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐426964 | 💡 Tutorial | Programming | 
 | [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) | ⭐unknown | 📄 Documentation | Development | 
