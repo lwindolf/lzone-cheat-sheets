@@ -37,18 +37,23 @@ work.
 
     ffmpeg -i file.mp4 -vn -acodec copy output.aac 
     
-    
 ### Creating Thumbnails
 
 To create a single thumb at 10s
 
     ffmpeg -ss 10 -i <input file> -vframes 1 -vcodec png -an thumb.png
 
-
 To create thumbnails every n seconds use "-vf fps=1/n" for example
 
     ffmpeg -i <input file> -vf fps=1/60 thumbnails/thumb%03d.png
-    
+
+### Make MP4 video faststart
+
+For an MP4 to fast start the metadata must be at the start of the file. To enable
+this use `-movflags faststart` during encoding or repack with
+
+    ffmpeg -i <input MP4> -movflags faststart -vcodec copy -acodec copy <output MP4>
+
 ### Handling id3 tags
 
 Extracting
