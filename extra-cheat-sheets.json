@@ -975,27 +975,27 @@
     "github": "anhthii/kafka-notes",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 105,
-    "forks": 52,
-    "last_updated": "2025-09-25"
+    "stars": 106,
+    "forks": 53,
+    "last_updated": "2025-10-27"
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
     "filePattern": "^(.+)\\.md$",
     "category": "Architecture",
     "type": "Book",
-    "stars": 56,
+    "stars": 57,
     "forks": 20,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "ElasticSearch Examples": {
     "github": "elastic/examples",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 2642,
-    "forks": 1232,
-    "last_updated": "2025-09-25"
+    "stars": 2644,
+    "forks": 1229,
+    "last_updated": "2025-10-27"
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures",
@@ -1003,7 +1003,7 @@
     "type": "Documentation",
     "stars": 4,
     "forks": 3,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "Elastic Data Lake Architecture": {
     "github": "gose/elastic-data-lake",
@@ -1011,71 +1011,71 @@
     "type": "Documentation",
     "stars": 23,
     "forks": 2,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "Architecture Domain Driven Hexagon": {
     "github": "Sairyss/domain-driven-hexagon",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 13884,
-    "forks": 1424,
-    "last_updated": "2025-09-25"
+    "stars": 14001,
+    "forks": 1432,
+    "last_updated": "2025-10-27"
   },
   "Architecture Microservices": {
     "github": "rodrigorodrigues/microservices-design-patterns",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 171,
+    "stars": 172,
     "forks": 63,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "DDD by Examples": {
     "github": "ddd-by-examples/library",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 5435,
-    "forks": 792,
-    "last_updated": "2025-09-25"
+    "stars": 5455,
+    "forks": 796,
+    "last_updated": "2025-10-27"
   },
   "DDD Starter Modelling": {
     "github": "ddd-crew/ddd-starter-modelling-process",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 5348,
-    "forks": 499,
-    "last_updated": "2025-09-25"
+    "stars": 5390,
+    "forks": 506,
+    "last_updated": "2025-10-27"
   },
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 1705,
-    "forks": 145,
-    "last_updated": "2025-09-25"
+    "stars": 1723,
+    "forks": 144,
+    "last_updated": "2025-10-27"
   },
   "DDD Miro Templates": {
     "github": "ddd-crew/virtual-modelling-templates",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 83,
+    "stars": 84,
     "forks": 10,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 784,
-    "forks": 74,
-    "last_updated": "2025-09-25"
+    "stars": 786,
+    "forks": 75,
+    "last_updated": "2025-10-27"
   },
   "Design: Bounded Context Canvas": {
     "github": "ddd-crew/bounded-context-canvas",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 1972,
+    "stars": 1980,
     "forks": 184,
-    "last_updated": "2025-09-25"
+    "last_updated": "2025-10-27"
   },
   "Design: Core Domain Charts": {
     "github": "core-domain-charts",
@@ -1087,18 +1087,18 @@
     "filePattern": "^content/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 696,
-    "forks": 1059,
-    "last_updated": "2025-09-25"
+    "stars": 700,
+    "forks": 1066,
+    "last_updated": "2025-10-27"
   },
   "Documentation Prometheus Alertmanager": {
     "github": "prometheus/alertmanager",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 7212,
-    "forks": 2269,
-    "last_updated": "2025-09-25"
+    "stars": 7279,
+    "forks": 2276,
+    "last_updated": "2025-10-27"
   },
   "Documentation Prometheus Operator": {
     "github": "prometheus-operator/prometheus-operator",
