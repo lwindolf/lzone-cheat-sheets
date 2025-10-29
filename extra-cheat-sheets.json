@@ -1368,104 +1368,104 @@
     "filePattern": "^files/en-us/web/svg/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN text_fragments": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/text_fragments/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN tutorials": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/tutorials/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN webdriver": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/webdriver/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN xml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xml/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN xpath": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xpath/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "MDN xslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/xslt/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 9760,
-    "forks": 22864,
-    "last_updated": "2025-09-28"
+    "stars": 9797,
+    "forks": 22900,
+    "last_updated": "2025-10-29"
   },
   "Documentation docker-bench-security": {
     "github": "docker/docker-bench-security",
     "category": "Security",
     "type": "Documentation",
-    "stars": 9490,
-    "forks": 1038,
-    "last_updated": "2025-09-28"
+    "stars": 9510,
+    "forks": 1041,
+    "last_updated": "2025-10-29"
   },
   "Documentation kubebench": {
     "github": "aquasecurity/kube-bench",
     "category": "Security",
     "type": "Documentation",
-    "stars": 7731,
-    "forks": 1299,
-    "last_updated": "2025-09-28"
+    "stars": 7779,
+    "forks": 1307,
+    "last_updated": "2025-10-29"
   },
   "Free Tier SaaS List": {
     "github": "ripienaar/free-for-dev",
     "category": "SaaS",
     "type": "Cheat Sheet",
-    "stars": 112775,
-    "forks": 11570,
-    "last_updated": "2025-09-28"
+    "stars": 114171,
+    "forks": 11689,
+    "last_updated": "2025-10-29"
   },
   "Favicon Cheat Sheet": {
     "github": "audreyfeldroy/favicon-cheat-sheet",
     "category": "Web",
     "type": "Cheat Sheet",
     "stars": 9882,
-    "forks": 403,
-    "last_updated": "2025-09-28"
+    "forks": 402,
+    "last_updated": "2025-10-29"
   },
   "Documentation Linode": {
     "github": "linode/docs",
     "filePatern": "^doc/(.+)/index.md",
     "category": "SaaS",
     "type": "Documentation",
-    "stars": 1386,
-    "forks": 1216,
-    "last_updated": "2025-09-28"
+    "stars": 1387,
+    "forks": 1213,
+    "last_updated": "2025-10-29"
   },
   "Nature of Code": {
     "github": "nature-of-code/noc-book-2023",
@@ -1477,17 +1477,17 @@
     "github": "plantuml-stdlib/C4-PlantUML",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 6928,
-    "forks": 1145,
-    "last_updated": "2025-09-28"
+    "stars": 6992,
+    "forks": 1151,
+    "last_updated": "2025-10-29"
   },
   "SysML v2 Documentation": {
     "github": "Systems-Modeling/SysML-v2-Release",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 658,
-    "forks": 84,
-    "last_updated": "2025-09-28"
+    "stars": 670,
+    "forks": 89,
+    "last_updated": "2025-10-29"
   },
   "Learn UML2": {
     "github": "imalitavakoli/learn-uml2",
