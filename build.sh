@@ -37,6 +37,7 @@ readme_update() {
         stars=$(echo "$repo_data" | jq -r '.stargazers_count // 0')
         forks=$(echo "$repo_data" | jq -r '.forks_count // 0')
         if [ $stars -eq 0 ]; then
+		   echo "JSON: $repo_data"
            echo "ERROR: Fail to fetch stars"
            continue
         fi
