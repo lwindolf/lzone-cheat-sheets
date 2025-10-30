@@ -1493,9 +1493,9 @@
     "github": "imalitavakoli/learn-uml2",
     "category": "Architecture",
     "type": "Book",
-    "stars": 121,
-    "forks": 29,
-    "last_updated": "2025-09-29"
+    "stars": 122,
+    "forks": 30,
+    "last_updated": "2025-10-30"
   },
   "Cloud Provider Cheat Sheets": {
     "github": "JeffDeCola/my-cheat-sheets",
@@ -1503,105 +1503,105 @@
     "category": "DevOps",
     "type": "Cheat Sheet",
     "stars": 128,
-    "forks": 41,
-    "last_updated": "2025-09-29"
+    "forks": 42,
+    "last_updated": "2025-10-30"
   },
   "Documentation juju": {
     "github": "juju/juju",
     "filePattern": "^doc/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 2545,
-    "forks": 558,
-    "last_updated": "2025-09-29"
+    "stars": 2555,
+    "forks": 564,
+    "last_updated": "2025-10-30"
   },
   "Naming Cheat Sheet": {
     "github": "kettanaito/naming-cheatsheet",
     "category": "Programming",
     "type": "Cheat Sheet",
-    "stars": 14159,
-    "forks": 927,
-    "last_updated": "2025-09-29"
+    "stars": 14176,
+    "forks": 928,
+    "last_updated": "2025-10-30"
   },
   "nginx Admin Handbook": {
     "github": "trimstray/nginx-admins-handbook",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 13739,
-    "forks": 1101,
-    "last_updated": "2025-09-29"
+    "stars": 14017,
+    "forks": 1117,
+    "last_updated": "2025-10-30"
   },
   "golang Cheat Sheet": {
     "github": "a8m/golang-cheat-sheet",
     "category": "Programming",
     "type": "Cheat Sheet",
-    "stars": 8721,
-    "forks": 1118,
-    "last_updated": "2025-09-29"
+    "stars": 8742,
+    "forks": 1116,
+    "last_updated": "2025-10-30"
   },
   "Python Tutorial": {
     "github": "Akuli/python-tutorial",
     "category": "DevOps",
     "type": "Book",
-    "stars": 1491,
-    "forks": 628,
-    "last_updated": "2025-09-29"
+    "stars": 1503,
+    "forks": 634,
+    "last_updated": "2025-10-30"
   },
   "Python Introcution: Byte of Python": {
     "github": "swaroopch/byte-of-python",
     "category": "DevOps",
     "type": "Book",
-    "stars": 2403,
-    "forks": 1091,
-    "last_updated": "2025-09-29"
+    "stars": 2418,
+    "forks": 1090,
+    "last_updated": "2025-10-30"
   },
   "Bash by Example": {
     "github": "cheatsnake/bash-scripts-by-example",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 45,
+    "stars": 47,
     "forks": 17,
-    "last_updated": "2025-09-29"
+    "last_updated": "2025-10-30"
   },
   "Backend Development Whitepaper": {
     "github": "cheatsnake/backend-cheats",
     "category": "Programming",
     "type": "Book",
-    "stars": 3869,
-    "forks": 386,
-    "last_updated": "2025-09-29"
+    "stars": 3948,
+    "forks": 390,
+    "last_updated": "2025-10-30"
   },
   "MITM Cheat Sheet": {
     "github": "frostbits-security/MITM-cheatsheet",
     "category": "Security",
     "type": "Cheat Sheet",
-    "stars": 994,
-    "forks": 149,
-    "last_updated": "2025-09-29"
+    "stars": 1005,
+    "forks": 150,
+    "last_updated": "2025-10-30"
   },
   "Globbing Cheat Sheet": {
     "github": "begin/globbing",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 159,
+    "stars": 158,
     "forks": 19,
-    "last_updated": "2025-09-29"
+    "last_updated": "2025-10-30"
   },
   "GCP Cheat Sheet": {
     "github": "dennyzhang/cheatsheet-gcp-A4",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 118,
+    "stars": 119,
     "forks": 131,
-    "last_updated": "2025-09-29"
+    "last_updated": "2025-10-30"
   },
   "Documentation CoreDNS": {
     "github": "coredns/coredns.io",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 181,
+    "stars": 183,
     "forks": 146,
-    "last_updated": "2025-09-29"
+    "last_updated": "2025-10-30"
   },
   "OpenSSL Architecture": {
     "github": "openssl/web",
