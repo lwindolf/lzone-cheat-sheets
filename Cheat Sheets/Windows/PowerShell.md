@@ -83,6 +83,8 @@ Removing files/directories
 
     $env:https_proxy='<server>:<port>'
 
-## Search AD user
+## AD user
 
     Get-ADUser -Filter 'Name -like ".*Smith.*"' | Format-Table Name,SamAccountName -A
+    Get-ADUser -Identity <objectGuid> -Property departmentNr
+    Set-ADUser -Identity <objectGuid> -Add @{extensionAttribute1="abc"}
