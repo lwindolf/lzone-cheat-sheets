@@ -1938,29 +1938,44 @@
     "github": "chef/chef-web-docs",
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 140,
+    "forks": 437,
+    "last_updated": "2025-10-31"
   },
   "Documentation FluentBit": {
     "github": "fluent/fluent-bit-docs",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 146,
+    "forks": 539,
+    "last_updated": "2025-10-31"
   },
   "Documentation Apache CloudStack": {
     "github": "apache/cloudstack-docs",
     "filePattern": "^source/(.+).rst$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 15,
+    "forks": 57,
+    "last_updated": "2025-10-31"
   },
   "Documentation Flux": {
     "github": "fluxcd/website",
     "filePattern": "content/en/flux/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 60,
+    "forks": 368,
+    "last_updated": "2025-10-31"
   },
   "Coding Interview University": {
     "github": "jwasham/coding-interview-university",
     "type": "Documentation",
-    "category": "Development"
+    "category": "Development",
+    "stars": 332058,
+    "forks": 81071,
+    "last_updated": "2025-10-31"
   },
   "rsync Tutorial": {
     "github": "johnjung/rsync_tutorial",
@@ -1970,23 +1985,35 @@
   "TypeSpec API Generator": {
     "github": "microsoft/typespec",
     "type": "Documentation",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 5443,
+    "forks": 317,
+    "last_updated": "2025-10-31"
   },
   "Generating Flamegraphs": {
     "github": "brendangregg/FlameGraph",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 18871,
+    "forks": 2056,
+    "last_updated": "2025-10-31"
   },
   "SprintBoot Best Practices": {
     "github": "AnghelLeonard/Hibernate-SpringBoot",
     "type": "Documentation",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 1362,
+    "forks": 539,
+    "last_updated": "2025-10-31"
   },
   "AWS EKS Best Practices": {
     "github": "aws/aws-eks-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 2135,
+    "forks": 543,
+    "last_updated": "2025-10-31"
   },
   "AWS ELB Best Practices": {
     "github": "aws-elb-best-practices",
