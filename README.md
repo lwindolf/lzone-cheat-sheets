@@ -408,7 +408,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa) | ⭐1743 | 📄 Docs | DevOps | 
 | [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) | ⭐22437 | 📓 Cheat Sheet | DevOps | 
 | [Docker Getting Started](https://github.com/docker/getting-started) | ⭐3021 | 📓 Cheat Sheet | DevOps | 
-| [Documentation Ansible](https://github.com/ansible/ansible-documentation) |  | 📄 Docs | DevOps | 
+| [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐138 | 📄 Docs | DevOps | 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐15 | 📄 Docs | DevOps | 
 | [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐21061 | 📄 Docs | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐62 | 📄 Docs | DevOps | 
@@ -456,8 +456,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐23 | 📄 Docs | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐4 | 📄 Docs | Architecture | 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2644 | 📄 Docs | DevOps | 
-| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) |  | 📄 Docs | Development | 
-| [Everything curl](https://github.com/curl/everything-curl) |  | 📕 Book | DevOps | 
+| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐551 | 📄 Docs | Development | 
+| [Everything curl](https://github.com/curl/everything-curl) | ⭐2178 | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐23851 | 📕 Book | ML | 
 | [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9882 | 📓 Cheat Sheet | Web | 
@@ -514,7 +514,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path) | ⭐7237 | 📚 Learning Path | DevOps | 
 | [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path) | ⭐387 | 📚 Learning Path | DevOps | 
 | [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐429578 | 💡 Tutorial | Programming | 
-| [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) |  | 📄 Docs | Development | 
+| [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) | ⭐1 | 📄 Docs | Development | 
 | [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial) | ⭐2779 | 📄 Docs | Programming | 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2280 | 📕 Book | Development | 
 | [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1498 | 📕 Book | Development | 
@@ -600,12 +600,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐53 | 📄 Docs | Architecture | 
 | [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10013 | 👍 Awesome | Architecture | 
 | [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14261 | 📓 Cheat Sheet | DevOps | 
-| [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) |  | 💬 Interview | Cloud | 
+| [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐45 | 💬 Interview | Cloud | 
 | [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐25 | 💬 Interview | ML | 
 | [devinterview.io Architecture](https://github.com/Devinterview-io/software-architecture-interview-questions) | ⭐130 | 💬 Interview | Architecture | 
-| [devinterview.io Azure](https://github.com/Devinterview-io/azure-interview-questions) |  | 💬 Interview | Cloud | 
-| [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) |  | 💬 Interview | Architecture | 
-| [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) |  | 💬 Interview | Architecture | 
+| [devinterview.io Azure](https://github.com/Devinterview-io/azure-interview-questions) | ⭐9 | 💬 Interview | Cloud | 
+| [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) | ⭐20 | 💬 Interview | Architecture | 
+| [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) | ⭐14 | 💬 Interview | Architecture | 
 | [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions) | ⭐34 | 💬 Interview | ML | 
 | [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) | ⭐41 | 💬 Interview | DevOps | 
 | [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) | ⭐8 | 💬 Interview | ML | 
@@ -616,8 +616,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [devinterview.io NOSQL](https://github.com/Devinterview-io/nosql-interview-questions) | ⭐28 | 💬 Interview | DevOps | 
 | [devinterview.io SOA](https://github.com/Devinterview-io/service-oriented-architecture-interview-questions) | ⭐12 | 💬 Interview | Architecture | 
 | [devinterview.io XML](https://github.com/https://github.com/Devinterview-io/xml-interview-questions) |  | 💬 Interview | DevOps | 
-| [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) |  | 💬 Interview | DevOps | 
-| [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) |  | 💬 Interview | DevOps | 
+| [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) | ⭐11 | 💬 Interview | DevOps | 
+| [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) | ⭐28 | 💬 Interview | DevOps | 
 | [eg Cheat Sheets](https://github.com/srsudar/eg) | ⭐1947 | 📓 Cheat Sheet | DevOps | 
 | [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet) | ⭐8742 | 📓 Cheat Sheet | Programming | 
 | [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad) | ⭐28 | 💡 Tutorial | DevOps | 
@@ -630,4 +630,4 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook) | ⭐731 | 📄 Docs | Architecture | 
 | [reactnative.guide](https://github.com/react-made-native-easy/book) |  | 📕 Book | Development | 
 | [rsync Tutorial](https://github.com/johnjung/rsync_tutorial) |  | 📓 Cheat Sheet | DevOps | 
-| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) |  | 💡 Tutorial | Development | 
+| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5144 | 💡 Tutorial | Development | 
