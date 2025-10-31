@@ -2167,37 +2167,58 @@
   "Tomato SW Architecture": {
     "github": "sivaprasadreddy/tomato-architecture",
     "type": "Tutorial",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 786,
+    "forks": 38,
+    "last_updated": "2025-10-31"
   },
   "Monitoring with Prometheus": {
     "github": "psibi/prometheus",
     "type": "Book",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 4,
+    "forks": 2,
+    "last_updated": "2025-10-31"
   },
   "Zabbix Book": {
     "github": "Trikke76/Zabbix-Book",
     "type": "Book",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 36,
+    "forks": 7,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Data Engineer": {
     "github": "Devinterview-io/data-engineer-interview-questions",
     "type": "Interview",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 41,
+    "forks": 14,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Data Analyst": {
     "github": "Devinterview-io/data-analyst-interview-questions",
     "type": "Interview",
-    "category": "ML"
+    "category": "ML",
+    "stars": 34,
+    "forks": 6,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Dimensionality": {
     "github": "Devinterview-io/curse-of-dimensionality-interview-questions",
     "type": "Interview",
-    "category": "ML"
+    "category": "ML",
+    "stars": 8,
+    "forks": 1,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Apache Spark": {
     "github": "Devinterview-io/apache-spark-interview-questions",
     "type": "Interview",
-    "category": "ML"
+    "category": "ML",
+    "stars": 25,
+    "forks": 13,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io XML": {
     "github": "https://github.com/Devinterview-io/xml-interview-questions",

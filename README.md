@@ -550,7 +550,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐1866 | 📓 Cheat Sheet | Architecture | 
 | [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2899 | 📄 Docs | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25155 | 📄 Docs | Programming | 
-| [Monitoring with Prometheus](https://github.com/psibi/prometheus) |  | 📕 Book | DevOps | 
+| [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐4 | 📕 Book | DevOps | 
 | [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet) | ⭐14176 | 📓 Cheat Sheet | Programming | 
 | [Nature of Code](https://github.com/nature-of-code/noc-book-2023) |  | 📕 Book | Programming | 
 | [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet) | ⭐3404 | 📓 Cheat Sheet | DevOps | 
@@ -588,7 +588,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) | ⭐3516 | 📄 Docs | DevOps | 
 | [The Bread Code](https://github.com/hendricius/the-bread-code) | ⭐4121 | 📕 Book | DevOps | 
 | [The JS Way](https://github.com/thejsway/thejsway) | ⭐7910 | 📕 Book | Development | 
-| [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) |  | 💡 Tutorial | Architecture | 
+| [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) | ⭐786 | 💡 Tutorial | Architecture | 
 | [Tutorial RabbitMQ](https://github.com/Frodo-Web/frodo-tips) | ⭐2 | 💡 Tutorial | DevOps | 
 | [TypeSpec API Generator](https://github.com/microsoft/typespec) | ⭐5443 | 📄 Docs | Architecture | 
 | [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2399 | 📕 Book | Development | 
@@ -596,19 +596,19 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐37250 | 📕 Book | Programming | 
 | [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐244 | 📄 Docs | Architecture | 
 | [Xapax Security](https://github.com/xapax/security) | ⭐1020 | 📓 Cheat Sheet | Security | 
-| [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) |  | 📕 Book | DevOps | 
+| [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐36 | 📕 Book | DevOps | 
 | [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐53 | 📄 Docs | Architecture | 
 | [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10013 | 👍 Awesome | Architecture | 
 | [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14261 | 📓 Cheat Sheet | DevOps | 
 | [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) |  | 💬 Interview | Cloud | 
-| [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) |  | 💬 Interview | ML | 
+| [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐25 | 💬 Interview | ML | 
 | [devinterview.io Architecture](https://github.com/Devinterview-io/software-architecture-interview-questions) |  | 💬 Interview | Architecture | 
 | [devinterview.io Azure](https://github.com/Devinterview-io/azure-interview-questions) |  | 💬 Interview | Cloud | 
 | [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) |  | 💬 Interview | Architecture | 
 | [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) |  | 💬 Interview | Architecture | 
-| [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions) |  | 💬 Interview | ML | 
-| [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) |  | 💬 Interview | DevOps | 
-| [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) |  | 💬 Interview | ML | 
+| [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions) | ⭐34 | 💬 Interview | ML | 
+| [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) | ⭐41 | 💬 Interview | DevOps | 
+| [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) | ⭐8 | 💬 Interview | ML | 
 | [devinterview.io Docker](https://github.com/Devinterview-io/docker-interview-questions) |  | 💬 Interview | DevOps | 
 | [devinterview.io Loadbalancing](https://github.com/Devinterview-io/load-balancing-interview-questions) |  | 💬 Interview | DevOps | 
 | [devinterview.io Microservices](https://github.com/Devinterview-io/microservices-interview-questions) |  | 💬 Interview | Architecture | 
