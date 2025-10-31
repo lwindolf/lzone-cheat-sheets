@@ -16,4 +16,4 @@ jobs:
       - name: update
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: ./build.sh
+        run: bash -x ./build.sh
