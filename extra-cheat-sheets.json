@@ -1080,7 +1080,10 @@
   "Design: Core Domain Charts": {
     "github": "ddd-crew/core-domain-charts",
     "category": "Architecture",
-    "type": "Documentation"
+    "type": "Documentation",
+    "stars": 592,
+    "forks": 43,
+    "last_updated": "2025-10-31"
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",

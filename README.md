@@ -402,7 +402,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Databases Introduction](https://github.com/anhthii/database-notes) | ⭐57 | 📕 Book | Architecture | 
 | [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) | ⭐786 | 📄 Docs | Architecture | 
 | [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | ⭐1980 | 📄 Docs | Architecture | 
-| [Design: Core Domain Charts](https://github.com/core-domain-charts) |  | 📄 Docs | Architecture | 
+| [Design: Core Domain Charts](https://github.com/ddd-crew/core-domain-charts) | ⭐592 | 📄 Docs | Architecture | 
 | [DevOps Video Tutorials](https://github.com/antonputra/tutorials) | ⭐4245 | 📄 Docs | DevOps | 
 | [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel) | ⭐542 | 📄 Docs | DevOps | 
 | [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa) | ⭐1743 | 📄 Docs | DevOps | 
