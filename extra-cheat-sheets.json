@@ -2022,7 +2022,7 @@
     "last_updated": "2025-10-31"
   },
   "AWS ELB Best Practices": {
-    "github": "aws-elb-best-practices",
+    "github": "aws/aws-elb-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps"
