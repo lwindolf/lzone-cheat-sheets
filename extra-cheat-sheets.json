@@ -1923,7 +1923,7 @@
     "last_updated": "2025-10-31"
   },
   "Runbooks PagerDuty Incident Response": {
-    "github": "PagerDuty/incident-response-doc",
+    "github": "PagerDuty/incident-response-docs",
     "filePattern": "^docs/(.+).md$",
     "type": "Runbook",
     "category": "DevOps"
