@@ -2228,37 +2228,58 @@
   "devinterview.io Architecture": {
     "github": "Devinterview-io/software-architecture-interview-questions",
     "type": "Interview",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 130,
+    "forks": 40,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io SOA": {
     "github": "Devinterview-io/service-oriented-architecture-interview-questions",
     "type": "Interview",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 12,
+    "forks": 4,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Microservices": {
     "github": "Devinterview-io/microservices-interview-questions",
     "type": "Interview",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 113,
+    "forks": 47,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io NOSQL": {
     "github": "Devinterview-io/nosql-interview-questions",
     "type": "Interview",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 28,
+    "forks": 9,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Loadbalancing": {
     "github": "Devinterview-io/load-balancing-interview-questions",
     "type": "Interview",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 20,
+    "forks": 5,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Middleware": {
     "github": "Devinterview-io/layering-and-middleware-interview-questions",
     "type": "Interview",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 14,
+    "forks": 3,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Docker": {
     "github": "Devinterview-io/docker-interview-questions",
     "type": "Interview",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 78,
+    "forks": 38,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io DDD": {
     "github": "Devinterview-io/domain-driven-design-interview-questions",
