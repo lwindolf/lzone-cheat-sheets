@@ -1926,7 +1926,10 @@
     "github": "PagerDuty/incident-response-docs",
     "filePattern": "^docs/(.+).md$",
     "type": "Runbook",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 1033,
+    "forks": 224,
+    "last_updated": "2025-10-31"
   },
   "Documentation RedisLabs": {
     "github": "RedisLabs/redislabs-docs",
