@@ -88,3 +88,5 @@ Removing files/directories
     Get-ADUser -Filter 'Name -like ".*Smith.*"' | Format-Table Name,SamAccountName -A
     Get-ADUser -Identity <objectGuid> -Property departmentNr
     Set-ADUser -Identity <objectGuid> -Add @{extensionAttribute1="abc"}
+    Set-ADUser -Identity <objectGuid> -Replace @{extensionAttribute1="def"}
+    Set-ADUser -Identity <objectGuid> -Clear extensionAttribute1
