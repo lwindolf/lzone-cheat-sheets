@@ -1078,7 +1078,7 @@
     "last_updated": "2025-10-27"
   },
   "Design: Core Domain Charts": {
-    "github": "core-domain-charts",
+    "github": "ddd-crew/core-domain-charts",
     "category": "Architecture",
     "type": "Documentation"
   },
