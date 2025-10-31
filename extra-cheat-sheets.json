@@ -2025,7 +2025,10 @@
     "github": "aws/aws-elb-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 29,
+    "forks": 5,
+    "last_updated": "2025-10-31"
   },
   "Documentation kubeseal": {
     "github": "bitnami-labs/sealed-secrets",

@@ -353,7 +353,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [AWK anti-textbook](https://github.com/thewhitetulip/awk-anti-textbook) | ⭐742 | 💡 Tutorial | DevOps | 
 | [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices) | ⭐2135 | 📄 Docs | DevOps | 
 | [AWS EKS Workshop](https://github.com/aws-samples/eks-workshop-v2) | ⭐563 | 📄 Docs | Cloud | 
-| [AWS ELB Best Practices](https://github.com/aws-elb-best-practices) |  | 📄 Docs | DevOps | 
+| [AWS ELB Best Practices](https://github.com/aws/aws-elb-best-practices) | ⭐29 | 📄 Docs | DevOps | 
 | [AWS S3 Python](https://github.com/nagwww/aws-s3-book) | ⭐31 | 📕 Book | DevOps | 
 | [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops) | ⭐4252 | 📄 Docs | Cloud | 
 | [AWSCookbook Security](https://github.com/AWSCookbook/Security) | ⭐48 | 📄 Docs | Security | 
