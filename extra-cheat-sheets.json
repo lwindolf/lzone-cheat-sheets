@@ -1833,24 +1833,33 @@
     "filePattern": "^content/(.+)\\.md$",
     "type": "Learning Path",
     "category": "Development",
-    "stars": 64,
-    "forks": 66,
-    "last_updated": "2025-08-10"
+    "stars": 65,
+    "forks": 67,
+    "last_updated": "2025-10-31"
   },
   "Learning Path by Role": {
     "github": "belatrix/learningPaths",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 30,
+    "forks": 29,
+    "last_updated": "2025-10-31"
   },
   "Learning Path System Design": {
     "github": "TechPrimers/learning-path-system-design",
     "type": "Learning Path",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 85,
+    "forks": 35,
+    "last_updated": "2025-10-31"
   },
   "Learning Path Senior Developer": {
     "github": "joebew42/study-path",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 2975,
+    "forks": 359,
+    "last_updated": "2025-10-31"
   },
   "Learning Path Data Science": {
     "github": "myarist/Data-Science-Learning-Path",
@@ -1860,37 +1869,55 @@
   "Learning Path AI Expert": {
     "github": "AMAI-GmbH/AI-Expert-Roadmap",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 30441,
+    "forks": 2547,
+    "last_updated": "2025-10-31"
   },
   "Documentation TravisCI": {
     "github": "travis-ci/docs-travis-ci-com",
     "filePattern": "^user/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 622,
+    "forks": 3359,
+    "last_updated": "2025-10-31"
   },
   "Documentation CloudFoundry Bosh": {
     "github": "cloudfoundry/docs-bosh",
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 37,
+    "forks": 272,
+    "last_updated": "2025-10-31"
   },
   "Documentation FreeBSD": {
     "github": "freebsd/freebsd-doc",
     "filePattern": "^documentation/content/en/(.+).adoc$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 357,
+    "forks": 372,
+    "last_updated": "2025-10-31"
   },
   "Documentation pfsense (legacy)": {
     "github": "pfsense/docs",
     "filePattern": "^source/(.+).rst$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 124,
+    "forks": 102,
+    "last_updated": "2025-10-31"
   },
   "Documentation rundeck": {
     "github": "rundeck/docs",
     "filePattern": "^docs/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 81,
+    "forks": 165,
+    "last_updated": "2025-10-31"
   },
   "Runbooks PagerDuty Incident Response": {
     "github": "PagerDuty/incident-response-doc",
@@ -1902,7 +1929,10 @@
     "github": "RedisLabs/redislabs-docs",
     "filePattern": "^content/(.+).md$",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 66,
+    "forks": 466,
+    "last_updated": "2025-10-31"
   },
   "Documentation Chef": {
     "github": "chef/chef-web-docs",
