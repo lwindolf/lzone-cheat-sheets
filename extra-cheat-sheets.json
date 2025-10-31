@@ -2024,48 +2024,75 @@
   "Documentation kubeseal": {
     "github": "bitnami-labs/sealed-secrets",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 8658,
+    "forks": 741,
+    "last_updated": "2025-10-31"
   },
   "How to secure a Linux Server": {
     "github": "imthenachoman/How-To-Secure-A-Linux-Server",
     "type": "Documentation",
-    "category": "Security"
+    "category": "Security",
+    "stars": 20304,
+    "forks": 1282,
+    "last_updated": "2025-10-31"
   },
   "The Bread Code": {
     "github": "hendricius/the-bread-code",
     "type": "Book",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 4121,
+    "forks": 180,
+    "last_updated": "2025-10-31"
   },
   "Terraform Zero to Hero": {
     "github": "iam-veeramalla/terraform-zero-to-hero",
     "type": "Documentation",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 3516,
+    "forks": 16019,
+    "last_updated": "2025-10-31"
   },
   "AWK anti-textbook": {
     "github": "thewhitetulip/awk-anti-textbook",
     "type": "Tutorial",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 742,
+    "forks": 39,
+    "last_updated": "2025-10-31"
   },
   "Learn sed": {
     "github": "dohlee/learn-sed",
     "type": "Tutorial",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 2,
+    "forks": 1,
+    "last_updated": "2025-10-31"
   },
   "Learn CLI text processing": {
     "github": "learnbyexample/Command-line-text-processing",
     "type": "Tutorial",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 10187,
+    "forks": 709,
+    "last_updated": "2025-10-31"
   },
   "Tutorial RabbitMQ": {
     "github": "Frodo-Web/frodo-tips",
     "type": "Tutorial",
     "category": "DevOps",
-    "filePattern": "blob/main/linux-admin/(rabbitmq).md"
+    "filePattern": "blob/main/linux-admin/(rabbitmq).md",
+    "stars": 2,
+    "forks": 0,
+    "last_updated": "2025-10-31"
   },
   "ArchiMate Intro": {
     "github": "yasenstar/ArchiMetal_Practice",
     "type": "Tutorial",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 32,
+    "forks": 20,
+    "last_updated": "2025-10-31"
   },
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
