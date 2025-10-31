@@ -2182,5 +2182,10 @@
     "github": "theEmbeddedGeorge/theEmbeddedNewTestament.github.io",
     "type": "Documentation",
     "category": "Development"
+  },
+  "x86 bare metal examples": {
+    "github": "cirosantilli/x86-bare-metal-examples",
+    "type": "Tutorial",
+    "category": "Development"
   }
 }
