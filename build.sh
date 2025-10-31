@@ -78,14 +78,15 @@ readme_update() {
     while read extra; do
       jq -r '. | to_entries[] | select(.key == "'"$extra"'") | .value | "| ['"$extra"'](https://github.com/"+(.github)+") | ⭐"+(.stars // "unknown" | tostring)+" | "+(.type)+" | "+(.category)+" | "' extra-cheat-sheets.json || true
     done < <(jq -r ". | to_entries[] | .key" extra-cheat-sheets.json | LANG=C sort) |\
-    sed -e "s/| Tutorial |/| 💡 Tutorial |/g" \
-        -e "s/| Book |/| 📕 Book |/g" \
-        -e "s/| Awesome |/| 👍 Awesome |/g" \
-        -e "s/| Documentation |/| 📄 Documentation |/g" \
-        -e "s/| Cheat Sheet |/| 📓 Cheat Sheet |/g" \
-        -e "s/| Interview |/| 💬 Interview |/g" \
-        -e "s/| Runbook |/| 🤖 Runbook |/g" \
-        -e "s/| Learning Path |/| 📚 Learning Path |/g"
+    sed -e "s/| Tutorial |/| 💡 Tutorial |/" \
+        -e "s/| Book |/| 📕 Book |/" \
+        -e "s/| Awesome |/| 👍 Awesome |/" \
+        -e "s/| Documentation |/| 📄 Docs |/" \
+        -e "s/| Cheat Sheet |/| 📓 Cheat Sheet |/" \
+        -e "s/| Interview |/| 💬 Interview |/" \
+        -e "s/| Runbook |/| 🤖 Runbook |/" \
+        -e "s/| Learning Path |/| 📚 Learning Path |/" \
+		-e "s/⭐unknown//"
   ) >>README.md
 }
 
