@@ -2232,7 +2232,10 @@
   "devinterview.io XML": {
     "github": "Devinterview-io/xml-interview-questions",
     "type": "Interview",
-    "category": "DevOps"
+    "category": "DevOps",
+    "stars": 3,
+    "forks": 1,
+    "last_updated": "2025-10-31"
   },
   "devinterview.io Architecture": {
     "github": "Devinterview-io/software-architecture-interview-questions",

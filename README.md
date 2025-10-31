@@ -615,7 +615,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [devinterview.io Middleware](https://github.com/Devinterview-io/layering-and-middleware-interview-questions) | ⭐14 | 💬 Interview | Architecture | 
 | [devinterview.io NOSQL](https://github.com/Devinterview-io/nosql-interview-questions) | ⭐28 | 💬 Interview | DevOps | 
 | [devinterview.io SOA](https://github.com/Devinterview-io/service-oriented-architecture-interview-questions) | ⭐12 | 💬 Interview | Architecture | 
-| [devinterview.io XML](https://github.com/https://github.com/Devinterview-io/xml-interview-questions) |  | 💬 Interview | DevOps | 
+| [devinterview.io XML](https://github.com/Devinterview-io/xml-interview-questions) | ⭐3 | 💬 Interview | DevOps | 
 | [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) | ⭐11 | 💬 Interview | DevOps | 
 | [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) | ⭐28 | 💬 Interview | DevOps | 
 | [eg Cheat Sheets](https://github.com/srsudar/eg) | ⭐1947 | 📓 Cheat Sheet | DevOps | 
