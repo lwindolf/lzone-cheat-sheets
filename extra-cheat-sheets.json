@@ -1838,7 +1838,7 @@
     "last_updated": "2025-08-10"
   },
   "Learning Path by Role": {
-    "github": "belatrix/Learning Paths",
+    "github": "belatrix/learningPaths",
     "type": "Learning Path",
     "category": "Development"
   },
