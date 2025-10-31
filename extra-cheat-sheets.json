@@ -2097,32 +2097,50 @@
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
     "type": "Cheat Sheet",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 4,
+    "forks": 1,
+    "last_updated": "2025-10-31"
   },
   "arc42 Documentation": {
     "github": "arc42/docs.arc42.org-site",
     "type": "Documentation",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 53,
+    "forks": 26,
+    "last_updated": "2025-10-31"
   },
   "awesome Architecture": {
     "github": "mehdihadeli/awesome-software-architecture",
     "type": "Awesome",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 10013,
+    "forks": 838,
+    "last_updated": "2025-10-31"
   },
   "Learning Path Software Design": {
     "github": "stemmlerjs/software-design-and-architecture-roadmap",
     "type": "Learning Path",
-    "category": "Development"
+    "category": "Development",
+    "stars": 3357,
+    "forks": 419,
+    "last_updated": "2025-10-31"
   },
   "Solution Architecture Links": {
     "github": "unlight/solution-architecture",
     "type": "Awesome",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 684,
+    "forks": 281,
+    "last_updated": "2025-10-31"
   },
   "nocomplexity Architecture Playbook": {
     "github": "nocomplexity/ArchitecturePlaybook",
     "type": "Documentation",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 731,
+    "forks": 67,
+    "last_updated": "2025-10-31"
   },
   "Awesome Clean Architecture": {
     "github": "dgomezs/awesome-clean-architecture",
@@ -2133,12 +2151,18 @@
     "github": "feature-sliced/documentation",
     "type": "Tutorial",
     "category": "Architecture",
-    "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$"
+    "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$",
+    "stars": 2047,
+    "forks": 213,
+    "last_updated": "2025-10-31"
   },
   "What is Enterprise Architecture": {
     "github": "justinamiller/EnterpriseArchitecture",
     "type": "Documentation",
-    "category": "Architecture"
+    "category": "Architecture",
+    "stars": 244,
+    "forks": 57,
+    "last_updated": "2025-10-31"
   },
   "Tomato SW Architecture": {
     "github": "sivaprasadreddy/tomato-architecture",
