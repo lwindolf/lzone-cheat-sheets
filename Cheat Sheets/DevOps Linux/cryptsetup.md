@@ -1,10 +1,10 @@
 ## CLI
 
-cryptsetup open <device> <mapper name>
-cryptsetup status <mapper name>
-cryptsetup close <mapper name>
-
-cryptsetup luksFormat /dev/sdb1
+    cryptsetup luksFormat <device>
+    cryptsetup open <device> <mapper name>
+    cryptsetup status <mapper name>
+    cryptsetup close <mapper name>
+    
 
 ## Encrypting USB stick/SD card
 
