@@ -93,6 +93,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/ZFS.md'>ZFS</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/auditd.md'>auditd</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/cgroups.md'>cgroups</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/cryptsetup.md'>cryptsetup</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/fontconfig.md'>fontconfig</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/kerberos.md'>kerberos</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/mokutil.md'>mokutil</a>
