@@ -312,3 +312,7 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
     git add .gitattributes
     git commit -m "Add file to LFS" <file> .gitattributes
     git push
+
+Cleanup local LFS checkout
+
+    git-lfs prune
