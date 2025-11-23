@@ -180,8 +180,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Linux Home/DLNA.md'>DLNA</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/DXVK.md'>DXVK</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/X11.md'>X11</a>
-<br/><span class='group'><b>Mobile</b></span>
- | <a class='topic' href='Cheat Sheets/Mobile/adb.md'>adb</a>
+ | <a class='topic' href='Cheat Sheets/Linux Home/adb.md'>adb</a>
 <br/><span class='group'><b>Monitoring</b></span>
  | <a class='topic' href='Cheat Sheets/Monitoring/Grafana.md'>Grafana</a>
  | <a class='topic' href='Cheat Sheets/Monitoring/Graphite.md'>Graphite</a>
