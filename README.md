@@ -94,7 +94,6 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/kerberos.md'>kerberos</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/mokutil.md'>mokutil</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/nohup.md'>nohup</a>
- | <a class='topic' href='Cheat Sheets/DevOps Linux/ollama.md'>ollama</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/perf.md'>perf</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/screen.md'>screen</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/socat.md'>socat</a>
@@ -180,6 +179,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Linux Home/DXVK.md'>DXVK</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/X11.md'>X11</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/adb.md'>adb</a>
+ | <a class='topic' href='Cheat Sheets/Linux Home/ollama.md'>ollama</a>
 <br/><span class='group'><b>Monitoring</b></span>
  | <a class='topic' href='Cheat Sheets/Monitoring/Grafana.md'>Grafana</a>
  | <a class='topic' href='Cheat Sheets/Monitoring/Graphite.md'>Graphite</a>
