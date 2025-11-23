@@ -109,6 +109,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/vi.md'>vi</a>
 <br/><span class='group'><b>DevOps Methods</b></span>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/ADRs.md'>ADRs</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Methods/Agile.md'>Agile</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/Boot Camp.md'>Boot Camp</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/OPA.md'>OPA</a>
  | <a class='topic' href='Cheat Sheets/DevOps Methods/Post Mortem.md'>Post Mortem</a>
@@ -151,8 +152,6 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Services/memcached.md'>memcached</a>
  | <a class='topic' href='Cheat Sheets/DevOps Services/nginx.md'>nginx</a>
  | <a class='topic' href='Cheat Sheets/DevOps Services/sqlite.md'>sqlite</a>
-<br/><span class='group'><b>Devops Methods</b></span>
- | <a class='topic' href='Cheat Sheets/Devops Methods/Agile.md'>Agile</a>
 <br/><span class='group'><b>Languages</b></span>
  | <a class='topic' href='Cheat Sheets/Languages/CSS.md'>CSS</a>
  | <a class='topic' href='Cheat Sheets/Languages/GCC.md'>GCC</a>
