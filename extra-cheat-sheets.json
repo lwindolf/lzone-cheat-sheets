@@ -557,25 +557,25 @@
     "github": "zbetcheckin/Security_list",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1824,
-    "forks": 346,
-    "last_updated": "2025-10-24"
+    "stars": 1834,
+    "forks": 345,
+    "last_updated": "2025-11-23"
   },
   "Awesome Cloud Security": {
     "github": "4ndersonLin/awesome-cloud-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 2297,
+    "stars": 2311,
     "forks": 341,
-    "last_updated": "2025-10-24"
+    "last_updated": "2025-11-23"
   },
   "Awesome AWS Security": {
     "github": "jassics/awesome-aws-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1458,
-    "forks": 312,
-    "last_updated": "2025-10-24"
+    "stars": 1468,
+    "forks": 313,
+    "last_updated": "2025-11-23"
   },
   "AWSCookbook Security": {
     "github": "AWSCookbook/Security",
@@ -583,16 +583,16 @@
     "type": "Documentation",
     "category": "Security",
     "stars": 48,
-    "forks": 43,
-    "last_updated": "2025-10-24"
+    "forks": 41,
+    "last_updated": "2025-11-23"
   },
   "Awesome k8s Security": {
     "github": "magnologan/awesome-k8s-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1984,
-    "forks": 291,
-    "last_updated": "2025-10-24"
+    "stars": 1985,
+    "forks": 292,
+    "last_updated": "2025-11-23"
   },
   "Reverse Shells": {
     "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
@@ -604,85 +604,85 @@
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Cheat Sheet",
     "category": "Security",
-    "stars": 1020,
-    "forks": 512,
-    "last_updated": "2025-10-24"
+    "stars": 1022,
+    "forks": 513,
+    "last_updated": "2025-11-23"
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 112,
-    "forks": 147,
-    "last_updated": "2025-10-24"
+    "stars": 115,
+    "forks": 146,
+    "last_updated": "2025-11-23"
   },
   "Awesome Azure Architecture": {
     "github": "lukemurraynz/awesome-azure-architecture",
     "type": "Awesome",
     "category": "Cloud",
-    "stars": 1641,
-    "forks": 337,
-    "last_updated": "2025-10-24"
+    "stars": 1649,
+    "forks": 340,
+    "last_updated": "2025-11-23"
   },
   "Azure Monitoring Baseline": {
     "github": "Azure/azure-monitor-baseline-alerts",
     "filePattern": "^docs/content/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 272,
-    "forks": 320,
-    "last_updated": "2025-10-24"
+    "stars": 279,
+    "forks": 323,
+    "last_updated": "2025-11-23"
   },
   "Azure Security": {
     "github": "MicrosoftDocs/security",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Security",
-    "stars": 237,
-    "forks": 178,
-    "last_updated": "2025-10-24"
+    "stars": 239,
+    "forks": 179,
+    "last_updated": "2025-11-23"
   },
   "MS Architecture Center": {
     "github": "MicrosoftDocs/architecture-center",
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 1944,
-    "forks": 1809,
-    "last_updated": "2025-10-24"
+    "stars": 1955,
+    "forks": 1811,
+    "last_updated": "2025-11-23"
   },
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2292,
-    "forks": 1662,
-    "last_updated": "2025-10-24"
+    "stars": 2309,
+    "forks": 1671,
+    "last_updated": "2025-11-23"
   },
   "MS Virtualization": {
     "github": "MicrosoftDocs/Virtualization-Documentation",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1874,
-    "forks": 1535,
-    "last_updated": "2025-10-24"
+    "stars": 1883,
+    "forks": 1534,
+    "last_updated": "2025-11-23"
   },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books",
     "type": "Awesome",
     "category": "Architecture",
-    "stars": 10428,
-    "forks": 821,
-    "last_updated": "2025-10-24"
+    "stars": 10470,
+    "forks": 825,
+    "last_updated": "2025-11-23"
   },
   "Architecture Enterprise Patterns": {
     "github": "chanakaudaya/solution-architecture-patterns",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 3426,
+    "stars": 3430,
     "forks": 668,
-    "last_updated": "2025-10-24"
+    "last_updated": "2025-11-23"
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
@@ -690,8 +690,8 @@
     "type": "Documentation",
     "category": "DevOps",
     "stars": 108,
-    "forks": 207,
-    "last_updated": "2025-10-24"
+    "forks": 210,
+    "last_updated": "2025-11-23"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
