@@ -87,7 +87,6 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Linux/RAID.md'>RAID</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/README.md'>README</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/Wifi.md'>Wifi</a>
- | <a class='topic' href='Cheat Sheets/DevOps Linux/X11.md'>X11</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/XDG.md'>XDG</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/ZFS.md'>ZFS</a>
  | <a class='topic' href='Cheat Sheets/DevOps Linux/auditd.md'>auditd</a>
@@ -180,6 +179,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 <br/><span class='group'><b>Linux Home</b></span>
  | <a class='topic' href='Cheat Sheets/Linux Home/DLNA.md'>DLNA</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/DXVK.md'>DXVK</a>
+ | <a class='topic' href='Cheat Sheets/Linux Home/X11.md'>X11</a>
 <br/><span class='group'><b>Mobile</b></span>
  | <a class='topic' href='Cheat Sheets/Mobile/adb.md'>adb</a>
 <br/><span class='group'><b>Monitoring</b></span>
