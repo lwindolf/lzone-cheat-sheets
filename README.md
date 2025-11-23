@@ -11,8 +11,6 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
 
 ## Cheat Sheets Index
 
-<br/><span class='group'><b>Agile</b></span>
- | <a class='topic' href='Cheat Sheets/Agile/README.md'>README</a>
 <br/><span class='group'><b>Automation</b></span>
  | <a class='topic' href='Cheat Sheets/Automation/Ansible.md'>Ansible</a>
  | <a class='topic' href='Cheat Sheets/Automation/Chef.md'>Chef</a>
@@ -153,6 +151,8 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/DevOps Services/memcached.md'>memcached</a>
  | <a class='topic' href='Cheat Sheets/DevOps Services/nginx.md'>nginx</a>
  | <a class='topic' href='Cheat Sheets/DevOps Services/sqlite.md'>sqlite</a>
+<br/><span class='group'><b>Devops Methods</b></span>
+ | <a class='topic' href='Cheat Sheets/Devops Methods/Agile.md'>Agile</a>
 <br/><span class='group'><b>Languages</b></span>
  | <a class='topic' href='Cheat Sheets/Languages/CSS.md'>CSS</a>
  | <a class='topic' href='Cheat Sheets/Languages/GCC.md'>GCC</a>
