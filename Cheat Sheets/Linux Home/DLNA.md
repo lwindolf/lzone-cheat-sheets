@@ -4,6 +4,11 @@
 - [Kodi](https://kodi.wiki/view/Settings/Services/UPnP_DLNA)
 - [Rygel](https://gnome.pages.gitlab.gnome.org/rygel/index.html)
 
+## DLNA desktop clients
+
+- VLC (with correct plugins installed)
+- Home Assistant
+
 ## Check if DLNA services are visible
 
      apt install gupnp-tools
