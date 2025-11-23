@@ -2,6 +2,7 @@
 
 - [minidnla](https://wiki.debianforum.de/DLNA_mit_minidlna)
 - [Kodi](https://kodi.wiki/view/Settings/Services/UPnP_DLNA)
+- [Rygel](https://gnome.pages.gitlab.gnome.org/rygel/index.html)
 
 ## Check if DLNA services are visible
 
