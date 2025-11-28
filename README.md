@@ -447,10 +447,10 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16536 | 📄 Docs | DevOps | 
 | [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐622 | 📄 Docs | DevOps | 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Docs | DevOps | 
-| [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9510 | 📄 Docs | Security | 
+| [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9545 | 📄 Docs | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2555 | 📄 Docs | DevOps | 
 | [Documentation knative](https://github.com/knative/docs) | ⭐4913 | 📄 Docs | DevOps | 
-| [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7779 | 📄 Docs | Security | 
+| [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7821 | 📄 Docs | Security | 
 | [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5085 | 📄 Docs | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐8658 | 📄 Docs | DevOps | 
 | [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐124 | 📄 Docs | DevOps | 
@@ -463,10 +463,10 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Everything curl](https://github.com/curl/everything-curl) | ⭐2178 | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐24020 | 📕 Book | ML | 
-| [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9882 | 📓 Cheat Sheet | Web | 
+| [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9886 | 📓 Cheat Sheet | Web | 
 | [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2047 | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐375910 | 📕 Book | Development | 
-| [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐114171 | 📓 Cheat Sheet | SaaS | 
+| [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐115814 | 📓 Cheat Sheet | SaaS | 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3609 | 📄 Docs | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐119 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐21 | 📓 Cheat Sheet | DevOps | 
@@ -531,22 +531,22 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MDN guide](https://github.com/mdn/content) | ⭐9853 | 📄 Docs | Web | 
 | [MDN html](https://github.com/mdn/content) | ⭐9853 | 📄 Docs | Web | 
 | [MDN http](https://github.com/mdn/content) | ⭐9853 | 📄 Docs | Web | 
-| [MDN javascript](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN manifest](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN mathml](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN media](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN opensearch](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN performance](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN privacy](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN security](https://github.com/mdn/content) | ⭐9795 | 📄 Docs | Web | 
-| [MDN svg](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN text_fragments](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN tutorials](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN webdriver](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN xml](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN xpath](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
-| [MDN xslt](https://github.com/mdn/content) | ⭐9797 | 📄 Docs | Web | 
+| [MDN javascript](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN manifest](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN mathml](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN media](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN opensearch](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN performance](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN privacy](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN security](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN svg](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN text_fragments](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN tutorials](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN webdriver](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN xml](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN xpath](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
+| [MDN xslt](https://github.com/mdn/content) | ⭐9855 | 📄 Docs | Web | 
 | [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet) | ⭐1005 | 📓 Cheat Sheet | Security | 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1955 | 📄 Docs | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1883 | 📄 Docs | DevOps | 
