@@ -25,6 +25,8 @@ To quickly compare times
 
     ntpq -p
 
+Note: the asterisk indicates which timeserver is currently used
+
 ## VMs: use hypervisor clock with chrony
 
     timedatectl set-ntp false
