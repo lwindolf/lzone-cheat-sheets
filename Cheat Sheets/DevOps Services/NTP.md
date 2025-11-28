@@ -21,7 +21,7 @@ To quickly compare times
     timedatectl timesync-status           # Show current clock status (human readable)
     timedatectl set-ntp false             # disable time sync
 
-## NTP check for time drift
+## NTPd check for time drift
 
     ntpq -p
 
