@@ -1480,17 +1480,17 @@
     "github": "plantuml-stdlib/C4-PlantUML",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 6992,
-    "forks": 1151,
-    "last_updated": "2025-10-29"
+    "stars": 7051,
+    "forks": 1156,
+    "last_updated": "2025-11-28"
   },
   "SysML v2 Documentation": {
     "github": "Systems-Modeling/SysML-v2-Release",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 670,
-    "forks": 89,
-    "last_updated": "2025-10-29"
+    "stars": 696,
+    "forks": 96,
+    "last_updated": "2025-11-28"
   },
   "Learn UML2": {
     "github": "imalitavakoli/learn-uml2",
