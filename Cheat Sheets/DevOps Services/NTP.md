@@ -1,20 +1,36 @@
-## Misc
+## Manage HW clock
 
-- Using hypervisor clock in VMs 
+    hwclock -a          # adjust
+    hwclock -r          # show current HW time
 
-      timedatectl set-ntp false
-      modprobe ptp
-      apt-get install chrony
-      echo "refclock PHC /dev/ptp0 poll 3 dpoll -2 offset 0" >> /etc/chrony/chrony.conf
-      sed -i '/ntp/s/^/#/g' /etc/chrony/chrony.conf
-      sed -i "/makestep 0.1 3/c\makestep 0.1 -1" /etc/chrony/chrony.conf
-      systemctl restart chronyd
+## systemd timesync
+
+    cat /etc/systemd/timesyncd.conf
+    timedatectl show-timesync --all       # Show settings and latest NTP message
+    timedatectl timesync-status           # Show current clock status (human readable)
+    timedatectl set-ntp false             # disable time sync
+
+## NTP check for time drift
+
+    ntpq -p
+
+## VMs: use hypervisor clock with chrony
+
+    timedatectl set-ntp false
+    modprobe ptp
+    apt-get install chrony
+    echo "refclock PHC /dev/ptp0 poll 3 dpoll -2 offset 0" >> /etc/chrony/chrony.conf
+    sed -i '/ntp/s/^/#/g' /etc/chrony/chrony.conf
+    sed -i "/makestep 0.1 3/c\makestep 0.1 -1" /etc/chrony/chrony.conf
+    systemctl restart chronyd
 
 ## Leap Seconds
       
 ### Check for pending leap seconds
 
     ntpq -c"rv 0 leap"
+
+    timedatectl show-timesync | grep NTPMessage | grep -v "Leap=0"
 
 ### Avoid leap second problems
 
