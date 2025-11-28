@@ -21,9 +21,18 @@ To quickly compare times
     timedatectl timesync-status           # Show current clock status (human readable)
     timedatectl set-ntp false             # disable time sync
 
-## NTPd check for time drift
+## Fix time with ntpdate
 
-    ntpq -p
+Before using ntpdate always stop ntpd if running.
+
+    ntpdate <time server>                 # Update time with slew
+    ntpdate -b <time server>              # Update time without slew
+    ntpdate -q                            # Show clock skew
+
+## Fix time with ntpd
+
+    ntpd -gq -u             # Fix time with ntpd (immediately quits)
+    ntpq -p                 # Show clock skew
 
 Note: the asterisk indicates which timeserver is currently used
 
