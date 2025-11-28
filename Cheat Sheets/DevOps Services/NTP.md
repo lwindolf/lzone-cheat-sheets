@@ -34,7 +34,7 @@ Before using ntpdate always stop ntpd if running.
     ntpd -gq -u             # Fix time with ntpd (immediately quits)
     ntpq -p                 # Show clock skew
 
-Note: the asterisk indicates which timeserver is currently used
+Note: with `ntpq -p` output the asterisk indicates which timeserver is currently used
 
 ## VMs: use hypervisor clock with chrony
 
