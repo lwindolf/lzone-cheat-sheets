@@ -3,6 +3,13 @@
     hwclock -a          # adjust
     hwclock -r          # show current HW time
 
+    hwclock --get                 # display drift corrected time
+    hwclock --set --date <time>   # set RTC to specified time
+
+To quickly compare times
+
+    hwclock && date +"%F %T"
+
 ## systemd timesync
 
     cat /etc/systemd/timesyncd.conf
