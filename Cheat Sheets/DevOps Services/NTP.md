@@ -13,6 +13,9 @@ To quickly compare times
 ## systemd timesync
 
     cat /etc/systemd/timesyncd.conf
+
+    systemctl status systemd-timesyncd.service
+    
     timedatectl show-timesync --all       # Show settings and latest NTP message
     timedatectl timesync-status           # Show current clock status (human readable)
     timedatectl set-ntp false             # disable time sync
