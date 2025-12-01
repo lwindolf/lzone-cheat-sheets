@@ -1971,17 +1971,17 @@
     "filePattern": "content/en/flux/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 60,
-    "forks": 368,
-    "last_updated": "2025-10-31"
+    "stars": 61,
+    "forks": 370,
+    "last_updated": "2025-12-01"
   },
   "Coding Interview University": {
     "github": "jwasham/coding-interview-university",
     "type": "Documentation",
     "category": "Development",
-    "stars": 332058,
-    "forks": 81071,
-    "last_updated": "2025-10-31"
+    "stars": 334327,
+    "forks": 81379,
+    "last_updated": "2025-12-01"
   },
   "rsync Tutorial": {
     "github": "johnjung/rsync_tutorial",
@@ -1992,34 +1992,34 @@
     "github": "microsoft/typespec",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 5443,
-    "forks": 317,
-    "last_updated": "2025-10-31"
+    "stars": 5475,
+    "forks": 324,
+    "last_updated": "2025-12-01"
   },
   "Generating Flamegraphs": {
     "github": "brendangregg/FlameGraph",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 18871,
-    "forks": 2056,
-    "last_updated": "2025-10-31"
+    "stars": 19013,
+    "forks": 2066,
+    "last_updated": "2025-12-01"
   },
   "SprintBoot Best Practices": {
     "github": "AnghelLeonard/Hibernate-SpringBoot",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 1362,
+    "stars": 1365,
     "forks": 539,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "AWS EKS Best Practices": {
     "github": "aws/aws-eks-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2135,
-    "forks": 543,
-    "last_updated": "2025-10-31"
+    "stars": 2141,
+    "forks": 548,
+    "last_updated": "2025-12-01"
   },
   "AWS ELB Best Practices": {
     "github": "aws/aws-elb-best-practices",
@@ -2028,39 +2028,39 @@
     "category": "DevOps",
     "stars": 29,
     "forks": 5,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "Documentation kubeseal": {
     "github": "bitnami-labs/sealed-secrets",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 8658,
-    "forks": 741,
-    "last_updated": "2025-10-31"
+    "stars": 8731,
+    "forks": 746,
+    "last_updated": "2025-12-01"
   },
   "How to secure a Linux Server": {
     "github": "imthenachoman/How-To-Secure-A-Linux-Server",
     "type": "Documentation",
     "category": "Security",
-    "stars": 20304,
-    "forks": 1282,
-    "last_updated": "2025-10-31"
+    "stars": 23578,
+    "forks": 1512,
+    "last_updated": "2025-12-01"
   },
   "The Bread Code": {
     "github": "hendricius/the-bread-code",
     "type": "Book",
     "category": "DevOps",
-    "stars": 4121,
+    "stars": 4124,
     "forks": 180,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "Terraform Zero to Hero": {
     "github": "iam-veeramalla/terraform-zero-to-hero",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 3516,
-    "forks": 16019,
-    "last_updated": "2025-10-31"
+    "stars": 3576,
+    "forks": 16355,
+    "last_updated": "2025-12-01"
   },
   "AWK anti-textbook": {
     "github": "thewhitetulip/awk-anti-textbook",
@@ -2068,7 +2068,7 @@
     "category": "DevOps",
     "stars": 742,
     "forks": 39,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "Learn sed": {
     "github": "dohlee/learn-sed",
@@ -2076,15 +2076,15 @@
     "category": "DevOps",
     "stars": 2,
     "forks": 1,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "Learn CLI text processing": {
     "github": "learnbyexample/Command-line-text-processing",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 10187,
-    "forks": 709,
-    "last_updated": "2025-10-31"
+    "stars": 10188,
+    "forks": 706,
+    "last_updated": "2025-12-01"
   },
   "Tutorial RabbitMQ": {
     "github": "Frodo-Web/frodo-tips",
@@ -2093,7 +2093,7 @@
     "filePattern": "blob/main/linux-admin/(rabbitmq).md",
     "stars": 2,
     "forks": 0,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "ArchiMate Intro": {
     "github": "yasenstar/ArchiMetal_Practice",
@@ -2101,7 +2101,7 @@
     "category": "Architecture",
     "stars": 32,
     "forks": 20,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
@@ -2109,7 +2109,7 @@
     "category": "Architecture",
     "stars": 4,
     "forks": 1,
-    "last_updated": "2025-10-31"
+    "last_updated": "2025-12-01"
   },
   "arc42 Documentation": {
     "github": "arc42/docs.arc42.org-site",
