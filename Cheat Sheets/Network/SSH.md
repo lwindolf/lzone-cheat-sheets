@@ -30,21 +30,21 @@ Using SSH Agent
 
 Start a SOCKS proxy with
 
-    ssh -D 44444 <remote host>
+    ssh -D 1234 <remote host>
     
 For a reverse SOCKS proxy run
 
-    # OpenSSH >7.6
-    ssh myserver -R44445:localhost:44444
-    
-    # OpenSSH <7.6
     ssh -f -N -D 44444 localhost           # Start proxy locally
     ssh myserver -R44445:localhost:44444   # Connect it via remote port-forwarding
 
 To use a socks proxy configure env
 
-    export HTTPS_PROXY=socks5://localhost:4445/   # Configure remote host to use the SOCKS forwarding
-    export HTTP_PROXY=socks5://localhost:4445/
+    export HTTPS_PROXY=socks5://localhost:1234/   # Configure remote host to use the SOCKS forwarding
+    export HTTP_PROXY=socks5://localhost:1234/
+
+To proxy DNS resolving also use `socks5h://` protocol prefix e.g.
+
+    export HTTPS_PROXY=socks5h://localhost:1234/
 
 ## ssh\_keygen
 
