@@ -17,6 +17,11 @@ related:
 
         openssl pkcs7 -in <file> -print_certs
 
+- Export from PKCS12 (.pfx)
+
+        openssl pkcs12 -info -in INFILE.p12 -nodes -nocerts    # Keys
+        openssl pkcs12 -info -in INFILE.p12 -nokeys            # Certificates
+
 - Checking Files
 
         openssl req -text -noout -verify -in csr.pem
