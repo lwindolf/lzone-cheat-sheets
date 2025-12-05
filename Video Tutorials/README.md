@@ -100,6 +100,8 @@ videoEmbed: true
 
 [helmfile --- Introduction, 2020](https://www.youtube.com/watch?v=jl13ixzteWs)
 
+[Helm --- Umbrella Charts, 2025](https://www.youtube.com/watch?v=Ps_IdnfVO7k)
+
 ## Monitoring
 
 [Otterize - k8s Observability](https://www.youtube.com/watch?v=P-F2KTW9l4o)
