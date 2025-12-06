@@ -54,6 +54,13 @@ this use `-movflags faststart` during encoding or repack with
 
     ffmpeg -i <input MP4> -movflags faststart -vcodec copy -acodec copy <output MP4>
 
+If you want to know whether a video is already faststart run
+
+    ffmpeg -v trace -i <input> 2>&1 | grep -e type:\'mdat\' -e type:\'moov\'
+
+And check if the `moov` atom is reported before the `mdat` line. If not the video is not faststart.
+
+
 ### Handling id3 tags
 
 Extracting
