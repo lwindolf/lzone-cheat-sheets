@@ -89,6 +89,10 @@ Print startup time per service
     journalctl --vacuum-size=100M    # Drop all logs until only 100MB are used
     journalctl --vacuum-files=3      # Drop all rotations older than 3
 
+Run a script and pass all output to systemd
+
+    systemd-run -u myscript --quiet --wait -G /some/script
+
 ## Other systemd tools
 
     hostnamectl
