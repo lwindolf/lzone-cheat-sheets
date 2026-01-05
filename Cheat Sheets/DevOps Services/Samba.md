@@ -45,3 +45,5 @@ Short functional test
     wbinfo g
     getent passwd
     getent group
+
+    smbclient //localhost/netlogon -UAdministrator -c 'ls'
