@@ -47,3 +47,7 @@ Short functional test
     getent group
 
     smbclient //localhost/netlogon -UAdministrator -c 'ls'
+
+## Links
+
+- Samba Troubleshooting https://wiki.samba.org/index.php/Samba_AD_DC_Troubleshooting
