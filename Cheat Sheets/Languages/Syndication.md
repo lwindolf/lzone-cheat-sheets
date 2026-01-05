@@ -12,6 +12,7 @@ This is a summary of the existing syndication standards and links to the standar
 *   [OPML 1.0](http://dev.opml.org/spec1.html)
 *   [OPML 2.0](http://dev.opml.org/spec2.html)
 *   [Apple Podcast Howto](http://www.apple.com/itunes/podcasts/specs.html)
+*   [JSON Feed](https://www.jsonfeed.org/)
 
 ### Namespaces
 
