@@ -35,5 +35,13 @@
     
     samba-tool group listmembers <group>
     samba-tool group addmembers <group> <sid>
-   
+
+Short functional test
      
+    kinit administrator@MYDOMAIN.ORG
+    klist
+    
+    wbinfo u
+    wbinfo g
+    getent passwd
+    getent group
