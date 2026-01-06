@@ -319,6 +319,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Solutions/Solutions Orchestration.md'>Solutions Orchestration</a>
  | <a class='topic' href='Cheat Sheets/Solutions/Solutions Virtualization.md'>Solutions Virtualization</a>
 <br/><span class='group'><b>Windows</b></span>
+ | <a class='topic' href='Cheat Sheets/Windows/AD.md'>AD</a>
  | <a class='topic' href='Cheat Sheets/Windows/Edge.md'>Edge</a>
  | <a class='topic' href='Cheat Sheets/Windows/GPO.md'>GPO</a>
  | <a class='topic' href='Cheat Sheets/Windows/Link Collection.md'>Link Collection</a>
