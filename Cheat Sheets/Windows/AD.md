@@ -2,7 +2,12 @@
 
     Get-ComputerInfo | Select-Object CsDomain, CsPartOfDomain
 
-    dsregcmd /status       # detailed join state
+    Test-ComputerSecureChannel
+    Test-ComputerSecureChannel -Repair
+
+Get a detailed join state summary
+
+    dsregcmd /status
 
 ## Join domain
 
