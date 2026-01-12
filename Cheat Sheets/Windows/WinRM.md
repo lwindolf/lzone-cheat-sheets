@@ -25,4 +25,4 @@ Simply python3 script to run commands:
 
 When running complex scripts copy a .ps1 file first and run it using above script
 
-   smbclient '//<IP>/C$' -U "<user>%<password>" -c "put script.ps1 script.ps1"
+    smbclient '//<IP>/C$' -U "<user>%<password>" -c "put script.ps1 script.ps1"
