@@ -500,7 +500,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) | ⭐23811 | 📄 Docs | Programming | 
 | [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules) | ⭐75 | 📄 Docs | Programming | 
 | [Kafka Architecture](https://github.com/anhthii/kafka-notes) | ⭐110 | 📄 Docs | Architecture | 
-| [LZone Cheat Sheets](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐320 | CheatSheet | DevOps | 
+| [LZone Cheat Sheets](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐320 | 📓 Cheat Sheet | DevOps | 
 | [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing) | ⭐10188 | 💡 Tutorial | DevOps | 
 | [Learn Regex](https://github.com/ziishaned/learn-regex) | ⭐46164 | 📓 Cheat Sheet | Programming | 
 | [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud) | ⭐5482 | 💡 Tutorial | DevOps | 
