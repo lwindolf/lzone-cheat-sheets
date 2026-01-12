@@ -2,6 +2,8 @@
 
     Get-ComputerInfo | Select-Object CsDomain, CsPartOfDomain
 
+    dsregcmd /status       # detailed join state
+
 ## Join domain
 
     Add-Computer -DomainName my-domain.com -Credential $cred -Restart
