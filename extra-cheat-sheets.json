@@ -2,7 +2,7 @@
   "LZone Cheat Sheets": {
     "github": "lwindolf/lzone-cheat-sheets",
     "filePattern": "^Cheat Sheets/(.*)\\.md$",
-    "type": "CheatSheet",
+    "type": "Cheat Sheet",
     "category": "DevOps",
     "stars": 320,
     "forks": 528,
