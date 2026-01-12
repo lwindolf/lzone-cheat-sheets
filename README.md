@@ -323,6 +323,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Windows/Edge.md'>Edge</a>
  | <a class='topic' href='Cheat Sheets/Windows/GPO.md'>GPO</a>
  | <a class='topic' href='Cheat Sheets/Windows/Link Collection.md'>Link Collection</a>
+ | <a class='topic' href='Cheat Sheets/Windows/Network.md'>Network</a>
  | <a class='topic' href='Cheat Sheets/Windows/PowerShell.md'>PowerShell</a>
  | <a class='topic' href='Cheat Sheets/Windows/WSL.md'>WSL</a>
  | <a class='topic' href='Cheat Sheets/Windows/WinRM.md'>WinRM</a>
