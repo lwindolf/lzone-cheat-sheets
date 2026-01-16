@@ -15,3 +15,9 @@ Connect with special CA cert
 To debug connection or query errors set a trace level with `-d`
 
     ldapsearch -d 5 [...]
+
+## Schema
+
+Dump schema with
+
+    ldapsearch -H ldapi:/// -Y EXTERNAL -b cn=config
