@@ -783,63 +783,63 @@
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 29938,
-    "forks": 3509,
-    "last_updated": "2025-12-25"
+    "stars": 30109,
+    "forks": 3530,
+    "last_updated": "2026-01-25"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 253447,
-    "forks": 33113,
-    "last_updated": "2025-12-25"
+    "stars": 256606,
+    "forks": 33494,
+    "last_updated": "2026-01-25"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 6850,
-    "forks": 3576,
-    "last_updated": "2025-12-25"
+    "stars": 6853,
+    "forks": 3575,
+    "last_updated": "2026-01-25"
   },
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1064,
-    "forks": 799,
-    "last_updated": "2025-12-25"
+    "stars": 1088,
+    "forks": 806,
+    "last_updated": "2026-01-25"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 16779,
-    "forks": 4023,
-    "last_updated": "2025-12-25"
+    "stars": 16777,
+    "forks": 4021,
+    "last_updated": "2026-01-25"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 25257,
-    "forks": 3086,
-    "last_updated": "2025-12-25"
+    "stars": 25298,
+    "forks": 3091,
+    "last_updated": "2026-01-25"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 23811,
-    "forks": 1902,
-    "last_updated": "2025-12-25"
+    "stars": 23825,
+    "forks": 1900,
+    "last_updated": "2026-01-25"
   },
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules",
@@ -847,94 +847,94 @@
     "category": "Programming",
     "stars": 75,
     "forks": 10,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "Javascript ES6 Cheatsheet": {
     "github": "DrkSephy/es6-cheatsheet",
     "type": "Cheat Sheet",
     "category": "Programming",
-    "stars": 13359,
-    "forks": 1122,
-    "last_updated": "2025-12-25"
+    "stars": 13354,
+    "forks": 1120,
+    "last_updated": "2026-01-25"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 4347,
-    "forks": 2985,
-    "last_updated": "2025-12-25"
+    "stars": 4403,
+    "forks": 3008,
+    "last_updated": "2026-01-25"
   },
   "Ansible Tutorial": {
     "github": "leucos/ansible-tuto",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2288,
+    "stars": 2290,
     "forks": 703,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "SAP Tutorials": {
     "github": "sap-tutorials/Tutorials",
     "filePattern": "^tutorials/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 843,
-    "forks": 823,
-    "last_updated": "2025-12-25"
+    "stars": 847,
+    "forks": 828,
+    "last_updated": "2026-01-25"
   },
   "Linux XDP Tutorial": {
     "github": "xdp-project/xdp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 2827,
+    "stars": 2857,
     "forks": 642,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "Bayesian Modelling in Python": {
     "github": "markdregan/Bayesian-Modelling-in-Python",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 2508,
+    "stars": 2509,
     "forks": 410,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "Docker Getting Started": {
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 3035,
+    "stars": 3043,
     "forks": 6401,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "Documentation Docker": {
     "github": "docker/docs",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 4447,
-    "forks": 8110,
-    "last_updated": "2025-12-25"
+    "stars": 4475,
+    "forks": 8152,
+    "last_updated": "2026-01-25"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 22473,
-    "forks": 4657,
-    "last_updated": "2025-12-25"
+    "stars": 22493,
+    "forks": 4655,
+    "last_updated": "2026-01-25"
   },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 880,
-    "forks": 105,
-    "last_updated": "2025-12-25"
+    "stars": 889,
+    "forks": 106,
+    "last_updated": "2026-01-25"
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet",
@@ -942,25 +942,25 @@
     "type": "Cheat Sheet",
     "stars": 22,
     "forks": 7,
-    "last_updated": "2025-12-25"
+    "last_updated": "2026-01-25"
   },
   "DevSecOps SLSA Framework": {
     "github": "slsa-framework/slsa",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 1786,
-    "forks": 273,
-    "last_updated": "2025-12-25"
+    "stars": 1798,
+    "forks": 276,
+    "last_updated": "2026-01-25"
   },
   "DevSecOps Maturity Model": {
     "github": "devsecopsmaturitymodel/DevSecOps-MaturityModel",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 552,
-    "forks": 329,
-    "last_updated": "2025-12-25"
+    "stars": 557,
+    "forks": 334,
+    "last_updated": "2026-01-25"
   },
   "Network Segmentation Cheat Sheet": {
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
