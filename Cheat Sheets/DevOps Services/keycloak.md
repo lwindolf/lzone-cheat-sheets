@@ -26,7 +26,9 @@ In case you want have a single command follow this syntax
     kcadm.sh get -r master clients
     kcadm.sh get -r master identity-provider/instances
 
-    kcadm.sh create clients -f - <<EOT
+To create a client
+
+    kcadm.sh create -r myrealm clients -f - <<EOT
         {
                 "clientId": "client-1234567890",
                 "secret": "$CLIENT_SECRET",
@@ -37,3 +39,23 @@ In case you want have a single command follow this syntax
                 "enabled": true
         }
     EOT
+
+To create an OIDC IDP
+
+    kcadm create -r myrealm identity-provider/instances -f - <<EOT
+    {
+      "alias"       : "idp-alias",
+      "displayName" : "my special idc",
+      "providerId"  : "keycloak-oidc",
+      "config" : {
+        "tokenUrl"         : "https://$DOMAIN/realms/$REALM/protocol/openid-connect/token",
+        "issuer"           : "https://$DOMAIN/realms/$REALM",
+        "userInfoUrl"      : "https://$DOMAIN/realms/$REALM/protocol/openid-connect/userinfo",
+        "authorizationUrl" : "https://$DOMAIN/realms/$REALM/protocol/openid-connect/auth",
+        "logoutUrl"        : "https://$DOMAIN/realms/$REALM/protocol/openid-connect/logout",
+        "clientId"         : "$CLIENT_ID",
+        "clientSecret"     : "$CLIENT_SECRET"
+      }
+    }
+    EOT
+
