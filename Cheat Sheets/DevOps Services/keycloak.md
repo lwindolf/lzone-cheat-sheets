@@ -1,17 +1,21 @@
-## kcadm CLI
+## kcadm oddities
 
 Note: kcadm CLI parameters are a bit odd:
 
 1. the object for "create" operation is always plural!
 2. default parameters for "get"/"create"/... need to come directly after the verb
 
-Commands
+## Login
+
+It is important to distinguish the `--realm` value given on login from the realm passed to commands, because the `admin` in realm master has (by default) permissions on all realms.
 
     kcadm.sh config credentials \
       --server http://127.0.0.1:8080/auth \
       --realm master \
       --user admin \
       --password admin
+
+## CLI
 
     kcadm.sh get realms
     kcadm.sh get -r master clients
