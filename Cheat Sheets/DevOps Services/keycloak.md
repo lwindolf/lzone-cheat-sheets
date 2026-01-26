@@ -4,6 +4,7 @@ Note: kcadm CLI parameters are a bit odd:
 
 1. the object for "create" operation is always plural!
 2. default parameters for "get"/"create"/... need to come directly after the verb
+3. `--realm` is for authentication only while `-r` speficies the realm to perform actions against
 
 ## Login
 
@@ -14,6 +15,10 @@ It is important to distinguish the `--realm` value given on login from the realm
       --realm master \
       --user admin \
       --password admin
+
+In case you want have a single command follow this syntax
+
+    kcadm.sh <command> --realm master --user ... --password ... --server ... -r <other realm> <params>
 
 ## CLI
 
