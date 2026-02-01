@@ -1659,76 +1659,76 @@
     "filePattern": "^docs/(.+)\\.md",
     "type": "Documentation",
     "category": "Security",
-    "stars": 7208,
-    "forks": 1232,
-    "last_updated": "2026-01-02"
+    "stars": 7348,
+    "forks": 1251,
+    "last_updated": "2026-02-01"
   },
   "Google Engineering Practices": {
     "github": "google/eng-practices",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 20402,
-    "forks": 1996,
-    "last_updated": "2026-01-02"
+    "stars": 20423,
+    "forks": 2003,
+    "last_updated": "2026-02-01"
   },
   "Documentation Google GVisor": {
     "github": "google/gvisor",
     "filePattern": "^g3doc/(.+)\\.md",
     "type": "Documentation",
     "category": "Security",
-    "stars": 17462,
-    "forks": 1484,
-    "last_updated": "2026-01-02"
+    "stars": 17631,
+    "forks": 1499,
+    "last_updated": "2026-02-01"
   },
   "Documentation GRR": {
     "github": "google/grr-doc",
     "type": "Documentation",
     "category": "Security",
     "stars": 309,
-    "forks": 152,
-    "last_updated": "2026-01-02"
+    "forks": 153,
+    "last_updated": "2026-02-01"
   },
   "Documentation Google OSFIR": {
     "github": "google/osdfir-infrastructure",
     "filePattern": "^docs/(.+)\\.md",
     "type": "Documentation",
     "category": "Security",
-    "stars": 176,
-    "forks": 19,
-    "last_updated": "2026-01-02"
+    "stars": 181,
+    "forks": 21,
+    "last_updated": "2026-02-01"
   },
   "Documentation OSV Scanner": {
     "github": "google/osv-scanner",
     "filePattern": "^docs/(.+)\\.md",
     "type": "Documentation",
     "category": "Security",
-    "stars": 8295,
-    "forks": 508,
-    "last_updated": "2026-01-02"
+    "stars": 8405,
+    "forks": 517,
+    "last_updated": "2026-02-01"
   },
   "Documentation pprof": {
     "github": "google/pprof",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 8975,
-    "forks": 645,
-    "last_updated": "2026-01-02"
+    "stars": 9035,
+    "forks": 649,
+    "last_updated": "2026-02-01"
   },
   "OSS Vulnerability Guide": {
     "github": "google/oss-vulnerability-guide",
     "type": "Cheat Sheet",
     "category": "Security",
-    "stars": 140,
+    "stars": 141,
     "forks": 42,
-    "last_updated": "2026-01-02"
+    "last_updated": "2026-02-01"
   },
   "Google DevOps Governance": {
     "github": "google/devops-governance",
     "type": "Documentation",
     "category": "DevOps",
     "stars": 83,
-    "forks": 24,
-    "last_updated": "2026-01-02"
+    "forks": 23,
+    "last_updated": "2026-02-01"
   },
   "Jaeger Distributed Tracing": {
     "github": "jaegertracing/documentation",
@@ -1736,44 +1736,44 @@
     "type": "Documentation",
     "category": "DevOps",
     "stars": 80,
-    "forks": 183,
-    "last_updated": "2026-01-02"
+    "forks": 184,
+    "last_updated": "2026-02-01"
   },
   "Documentation knative": {
     "github": "knative/docs",
     "filePattern": "^docs/docs/(.+)\\.md",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 4969,
-    "forks": 1279,
-    "last_updated": "2026-01-02"
+    "stars": 4986,
+    "forks": 1280,
+    "last_updated": "2026-02-01"
   },
   "Documentation OpenTelemetry": {
     "github": "open-telemetry/opentelemetry.io",
     "filePattern": "^content/en/(.+)\\.md",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 823,
-    "forks": 1620,
-    "last_updated": "2026-01-02"
+    "stars": 841,
+    "forks": 1645,
+    "last_updated": "2026-02-01"
   },
   "Documentation Openshift": {
     "github": "openshift/openshift-docs",
     "filePattern": "^([^_].+).adoc$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 844,
-    "forks": 1849,
-    "last_updated": "2026-01-02"
+    "stars": 851,
+    "forks": 1856,
+    "last_updated": "2026-02-01"
   },
   "Documentation CircleCI": {
     "github": "circleci/circleci-docs",
     "filePattern": "^jekyll/_cci2/(.+).adoc$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 830,
-    "forks": 1463,
-    "last_updated": "2026-01-02"
+    "stars": 839,
+    "forks": 1481,
+    "last_updated": "2026-02-01"
   },
   "Documentation cfengine": {
     "github": "cfengine/documentation",
@@ -1781,7 +1781,7 @@
     "category": "DevOps",
     "stars": 36,
     "forks": 74,
-    "last_updated": "2026-01-02"
+    "last_updated": "2026-02-01"
   },
   "Documentation Cacti": {
     "github": "Cacti/documentation",
@@ -1789,31 +1789,31 @@
     "category": "DevOps",
     "stars": 63,
     "forks": 51,
-    "last_updated": "2026-01-02"
+    "last_updated": "2026-02-01"
   },
   "Learning Path k8s": {
     "github": "techiescamp/kubernetes-learning-path",
     "type": "Learning Path",
     "category": "DevOps",
-    "stars": 7407,
-    "forks": 976,
-    "last_updated": "2026-01-02"
+    "stars": 7418,
+    "forks": 975,
+    "last_updated": "2026-02-01"
   },
   "Learning Path k8s (Microsoft)": {
     "github": "microsoft/kubernetes-learning-path",
     "type": "Learning Path",
     "category": "DevOps",
-    "stars": 389,
-    "forks": 132,
-    "last_updated": "2026-01-02"
+    "stars": 392,
+    "forks": 131,
+    "last_updated": "2026-02-01"
   },
   "Learning Path FullStack Web Dev": {
     "github": "shovanch/fullstack-web-developer-path",
     "type": "Learning Path",
     "category": "Development",
     "stars": 3472,
-    "forks": 625,
-    "last_updated": "2026-01-02"
+    "forks": 623,
+    "last_updated": "2026-02-01"
   },
   "Learning Path Functional Programming": {
     "github": "imteekay/functional-programming-learning-path",
