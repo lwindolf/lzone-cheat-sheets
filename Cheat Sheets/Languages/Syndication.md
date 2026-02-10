@@ -29,8 +29,10 @@ This is a summary of the existing syndication standards and links to the standar
 *   [iTunes](http://www.apple.com/itunes/store/podcaststechspecs.html) (rich media spec by Apple)
 *   [Media RSS](http://search.yahoo.com/mrss) (rich media spec by Yahoo)
 *   [pb](http://snaplog.com/backend/PhotoBlog.html) (photo blog namespace)
+*   [podcast](https://github.com/Podcastindex-org/podcast-namespace)
 *   [RSS 1.0 Module Syndication](http://web.resource.org/rss/1.0/modules/syndication/) (defines update period or frequency)
 *   [RSS 1.0 Module Slash](http://web.resource.org/rss/1.0/modules/slash/) (Slashdot style meta data)
+*   [source](https://source.scripting.com/) (blogroll, markdown...)
 *   [Well Formed Web](http://wellformedweb.org/news/wfw_namespace_elements) (per item comment feeds)
 *   [Webfeeds](https://webfeeds.org/rss/1.0) (icons for feeds)
 
