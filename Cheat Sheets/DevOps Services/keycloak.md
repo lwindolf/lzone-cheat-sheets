@@ -59,3 +59,16 @@ To create an OIDC IDP
     }
     EOT
 
+## Enable audit logs
+
+First you need to enable audit events (which are stored in the keycloak DB and can be viewed under "Events" in the main menu):
+
+    kcadm.sh update events/config -r <your_realm> \
+      -s "adminEventsEnabled=true" \
+      -s "eventsEnabled=true" \
+      -s 'enabledEventTypes=["LOGIN", "LOGIN_ERROR", "REGISTER"]'
+
+Next you need to ensure to make them visible in the log. Per default events are logged at DEBUG which is too high volume. So you need to pass ENV vars or CLI params to change the severity level (from [see also](https://www.n-k.de/2023/09/keycloak-events-logging-revised.html)):
+
+    KC_SPI_EVENTS_LISTENER_JBOSS_LOGGING_SUCCESS_LEVEL=info
+    KC_SPI_EVENTS_LISTENER_JBOSS_LOGGING_ERROR_LEVEL=warn
