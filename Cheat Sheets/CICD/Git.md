@@ -304,7 +304,7 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 
     git -c http.sslVerify=false <command> 
 
-### Setup LFS
+### Working with LFS
 
     apt install git-lfs
     git-lfs install
@@ -316,3 +316,7 @@ with now "git bp" pulling, pushing and opening the PR for further review work.
 Cleanup local LFS checkout
 
     git-lfs prune
+
+Troubleshoot LFS errors
+
+    git lfs logs last
