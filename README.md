@@ -428,8 +428,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐576 | 📄 Docs | DevOps | 
 | [Documentation Docker](https://github.com/docker/docs) | ⭐4510 | 📄 Docs | DevOps | 
 | [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs) | ⭐148 | 📄 Docs | DevOps | 
-| [Documentation Flux](https://github.com/fluxcd/website) | ⭐62 | 📄 Docs | DevOps | 
-| [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc) | ⭐371 | 📄 Docs | DevOps | 
+| [Documentation Flux](https://github.com/fluxcd/website) | ⭐64 | 📄 Docs | DevOps | 
+| [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc) | ⭐372 | 📄 Docs | DevOps | 
 | [Documentation GRR](https://github.com/google/grr-doc) | ⭐312 | 📄 Docs | Security | 
 | [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐17819 | 📄 Docs | Security | 
 | [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐184 | 📄 Docs | Security | 
@@ -449,7 +449,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website) | ⭐1109 | 📄 Docs | DevOps | 
 | [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs) | ⭐67 | 📄 Docs | DevOps | 
 | [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16727 | 📄 Docs | DevOps | 
-| [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐628 | 📄 Docs | DevOps | 
+| [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐630 | 📄 Docs | DevOps | 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Docs | DevOps | 
 | [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9599 | 📄 Docs | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2602 | 📄 Docs | DevOps | 
@@ -457,9 +457,9 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7950 | 📄 Docs | Security | 
 | [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5173 | 📄 Docs | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐8884 | 📄 Docs | DevOps | 
-| [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐124 | 📄 Docs | DevOps | 
+| [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐125 | 📄 Docs | DevOps | 
 | [Documentation pprof](https://github.com/google/pprof) | ⭐9072 | 📄 Docs | Programming | 
-| [Documentation rundeck](https://github.com/rundeck/docs) | ⭐81 | 📄 Docs | DevOps | 
+| [Documentation rundeck](https://github.com/rundeck/docs) | ⭐84 | 📄 Docs | DevOps | 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐23 | 📄 Docs | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐5 | 📄 Docs | Architecture | 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2650 | 📄 Docs | DevOps | 
@@ -508,15 +508,15 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learn Vim](https://github.com/iggredible/Learn-Vim) | ⭐14947 | 💡 Tutorial | DevOps | 
 | [Learn sed](https://github.com/dohlee/learn-sed) | ⭐2 | 💡 Tutorial | DevOps | 
 | [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs) | ⭐12182 | 💡 Tutorial | Programming | 
-| [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | ⭐30725 | 📚 Learning Path | Development | 
+| [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | ⭐30776 | 📚 Learning Path | Development | 
 | [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path) |  | 📚 Learning Path | Development | 
 | [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3471 | 📚 Learning Path | Development | 
-| [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1037 | 📚 Learning Path | Development | 
-| [Learning Path Senior Developer](https://github.com/joebew42/study-path) | ⭐2983 | 📚 Learning Path | Development | 
+| [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1039 | 📚 Learning Path | Development | 
+| [Learning Path Senior Developer](https://github.com/joebew42/study-path) | ⭐2984 | 📚 Learning Path | Development | 
 | [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐3378 | 📚 Learning Path | Development | 
-| [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐295 | 📚 Learning Path | Development | 
+| [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐296 | 📚 Learning Path | Development | 
 | [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design) | ⭐84 | 📚 Learning Path | Architecture | 
-| [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths) | ⭐64 | 📚 Learning Path | Development | 
+| [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths) | ⭐65 | 📚 Learning Path | Development | 
 | [Learning Path by Role](https://github.com/belatrix/learningPaths) | ⭐30 | 📚 Learning Path | Development | 
 | [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path) | ⭐7440 | 📚 Learning Path | DevOps | 
 | [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path) | ⭐393 | 📚 Learning Path | DevOps | 
@@ -578,7 +578,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Runbooks Container Solutions](https://github.com/ContainerSolutions/runbooks) | ⭐128 | 🤖 Runbook | DevOps | 
 | [Runbooks Example](https://github.com/sstafford/ops_runbook) | ⭐31 | 🤖 Runbook | DevOps | 
 | [Runbooks Openshift](https://github.com/openshift/runbooks) | ⭐92 | 🤖 Runbook | DevOps | 
-| [Runbooks PagerDuty Incident Response](https://github.com/PagerDuty/incident-response-docs) | ⭐1035 | 🤖 Runbook | DevOps | 
+| [Runbooks PagerDuty Incident Response](https://github.com/PagerDuty/incident-response-docs) | ⭐1034 | 🤖 Runbook | DevOps | 
 | [Runbooks Pentesting](https://github.com/IlyasKadi/runbook) | ⭐1 | 🤖 Runbook | Security | 
 | [Runbooks Prometheus Operator](https://github.com/prometheus-operator/runbooks) | ⭐113 | 📄 Docs | DevOps | 
 | [Runbooks Security Incident](https://github.com/redar0n/incident-runbook) | ⭐52 | 🤖 Runbook | Security | 
