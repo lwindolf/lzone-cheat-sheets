@@ -2235,15 +2235,15 @@
     "category": "DevOps",
     "stars": 3,
     "forks": 1,
-    "last_updated": "2026-02-05"
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Architecture": {
     "github": "Devinterview-io/software-architecture-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 139,
-    "forks": 42,
-    "last_updated": "2026-02-05"
+    "stars": 141,
+    "forks": 43,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io SOA": {
     "github": "Devinterview-io/service-oriented-architecture-interview-questions",
@@ -2251,15 +2251,15 @@
     "category": "Architecture",
     "stars": 12,
     "forks": 4,
-    "last_updated": "2026-02-05"
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Microservices": {
     "github": "Devinterview-io/microservices-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 123,
-    "forks": 50,
-    "last_updated": "2026-02-06"
+    "stars": 127,
+    "forks": 52,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io NOSQL": {
     "github": "Devinterview-io/nosql-interview-questions",
@@ -2267,15 +2267,15 @@
     "category": "DevOps",
     "stars": 28,
     "forks": 9,
-    "last_updated": "2026-02-06"
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Loadbalancing": {
     "github": "Devinterview-io/load-balancing-interview-questions",
     "type": "Interview",
     "category": "DevOps",
     "stars": 21,
-    "forks": 5,
-    "last_updated": "2026-02-06"
+    "forks": 10,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Middleware": {
     "github": "Devinterview-io/layering-and-middleware-interview-questions",
@@ -2283,31 +2283,31 @@
     "category": "Architecture",
     "stars": 14,
     "forks": 3,
-    "last_updated": "2026-02-06"
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Docker": {
     "github": "Devinterview-io/docker-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 85,
-    "forks": 40,
-    "last_updated": "2026-02-06"
+    "stars": 86,
+    "forks": 45,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io DDD": {
     "github": "Devinterview-io/domain-driven-design-interview-questions",
     "type": "Interview",
     "category": "Architecture",
     "stars": 17,
-    "forks": 4,
-    "last_updated": "2026-02-06"
+    "forks": 5,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io kubernetes": {
     "github": "Devinterview-io/kubernetes-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 35,
-    "forks": 27,
-    "last_updated": "2026-02-06"
+    "stars": 39,
+    "forks": 32,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io CAP theorem": {
     "github": "Devinterview-io/cap-theorem-interview-questions",
@@ -2315,39 +2315,39 @@
     "category": "Architecture",
     "stars": 21,
     "forks": 9,
-    "last_updated": "2026-02-06"
+    "last_updated": "2026-03-08"
   },
   "devinterview.io availability": {
     "github": "Devinterview-io/availability-and-reliability-interview-questions",
     "type": "Interview",
     "category": "DevOps",
     "stars": 12,
-    "forks": 4,
-    "last_updated": "2026-02-06"
+    "forks": 5,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io AWS": {
     "github": "Devinterview-io/aws-interview-questions",
     "type": "Interview",
     "category": "Cloud",
-    "stars": 51,
-    "forks": 23,
-    "last_updated": "2026-02-06"
+    "stars": 192,
+    "forks": 139,
+    "last_updated": "2026-03-08"
   },
   "devinterview.io Azure": {
     "github": "Devinterview-io/azure-interview-questions",
     "type": "Interview",
     "category": "Cloud",
-    "stars": 13,
-    "forks": 5,
-    "last_updated": "2026-02-06"
+    "stars": 27,
+    "forks": 29,
+    "last_updated": "2026-03-08"
   },
   "Everything curl": {
     "github": "curl/everything-curl",
     "type": "Book",
     "category": "DevOps",
-    "stars": 2217,
-    "forks": 334,
-    "last_updated": "2026-02-06"
+    "stars": 2221,
+    "forks": 333,
+    "last_updated": "2026-03-08"
   },
   "Linux Kernel Docs": {
     "github": "bryancandi/LinuxKernelDocs",
@@ -2356,7 +2356,7 @@
     "filePattern": "^assetpack/src/main/assets/(.+\\.html)$",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2026-02-06"
+    "last_updated": "2026-03-08"
   },
   "Documentation Ansible": {
     "github": "ansible/ansible-documentation",
