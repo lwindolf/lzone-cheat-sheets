@@ -415,7 +415,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa) | ⭐1814 | 📄 Docs | DevOps | 
 | [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) | ⭐22499 | 📓 Cheat Sheet | DevOps | 
 | [Docker Getting Started](https://github.com/docker/getting-started) | ⭐3047 | 📓 Cheat Sheet | DevOps | 
-| [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐149 | 📄 Docs | DevOps | 
+| [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐154 | 📄 Docs | DevOps | 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐15 | 📄 Docs | DevOps | 
 | [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐22142 | 📄 Docs | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐62 | 📄 Docs | DevOps | 
@@ -463,7 +463,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐23 | 📄 Docs | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐5 | 📄 Docs | Architecture | 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2650 | 📄 Docs | DevOps | 
-| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐648 | 📄 Docs | Development | 
+| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐683 | 📄 Docs | Development | 
 | [Everything curl](https://github.com/curl/everything-curl) | ⭐2221 | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐24643 | 📕 Book | ML | 
@@ -637,4 +637,4 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook) | ⭐735 | 📄 Docs | Architecture | 
 | [reactnative.guide](https://github.com/react-made-native-easy/book) |  | 📕 Book | Development | 
 | [rsync Tutorial](https://github.com/johnjung/rsync_tutorial) |  | 📓 Cheat Sheet | DevOps | 
-| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5228 | 💡 Tutorial | Development | 
+| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5235 | 💡 Tutorial | Development | 

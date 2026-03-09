@@ -2363,24 +2363,24 @@
     "type": "Documentation",
     "category": "DevOps",
     "filePattern": "docs/docsite/rst/(.+\\.rst)$",
-    "stars": 149,
-    "forks": 785,
-    "last_updated": "2026-02-06"
+    "stars": 154,
+    "forks": 801,
+    "last_updated": "2026-03-09"
   },
   "Embedded New Testament": {
     "github": "theEmbeddedGeorge/theEmbeddedNewTestament.github.io",
     "type": "Documentation",
     "category": "Development",
-    "stars": 648,
-    "forks": 153,
-    "last_updated": "2026-02-06"
+    "stars": 683,
+    "forks": 162,
+    "last_updated": "2026-03-09"
   },
   "x86 bare metal examples": {
     "github": "cirosantilli/x86-bare-metal-examples",
     "type": "Tutorial",
     "category": "Development",
-    "stars": 5228,
-    "forks": 416,
-    "last_updated": "2026-02-06"
+    "stars": 5235,
+    "forks": 418,
+    "last_updated": "2026-03-09"
   }
 }
