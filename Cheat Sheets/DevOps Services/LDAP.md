@@ -21,3 +21,9 @@ To debug connection or query errors set a trace level with `-d`
 Dump schema with
 
     ldapsearch -H ldapi:/// -Y EXTERNAL -b cn=config
+
+## Replication
+
+Check OpenLDAP replication with
+
+    ldapsearch -H ldapi:/// -Y EXTERNAL -s base -b "<base DN>" contextCSN
