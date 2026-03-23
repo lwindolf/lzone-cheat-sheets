@@ -343,3 +343,12 @@ Run
     ' --tag-name-filter cat -- --branches --tags
 
 and force push afterwards
+
+### Auto-switching git identities
+
+In `~/.gitconfig` you can pattern match on e.g. remotes like this:
+
+    [includeIf "hasconfig:remote.*.url:*example.com:*/**"]
+    	path = ~/.config/git/specialidentity
+
+and then provide the identity details in the referenced file.
