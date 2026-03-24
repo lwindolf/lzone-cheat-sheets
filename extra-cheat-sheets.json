@@ -4,18 +4,18 @@
     "filePattern": "^Cheat Sheets/(.*)\\.md$",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 322,
+    "stars": 323,
     "forks": 526,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Video Tutorials": {
     "github": "lwindolf/lzone-cheat-sheets",
     "filePattern": "^Video Tutorials/(.*)\\.md$",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 322,
+    "stars": 323,
     "forks": 526,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Cognitive Load": {
     "github": "zakirullin/cognitive-load",
@@ -428,18 +428,18 @@
     "filePattern": "^content/en/docs/(.+).md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 225,
-    "forks": 596,
-    "last_updated": "2026-02-22"
+    "stars": 226,
+    "forks": 600,
+    "last_updated": "2026-03-24"
   },
   "k8s the hard way": {
     "github": "kelseyhightower/kubernetes-the-hard-way",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Tutorial",
-    "stars": 47434,
-    "forks": 15500,
-    "last_updated": "2026-02-22"
+    "stars": 47827,
+    "forks": 15583,
+    "last_updated": "2026-03-24"
   },
   "k8s NetworkPolicy Tutorial": {
     "github": "networkpolicy/tutorial",
@@ -448,7 +448,7 @@
     "type": "Tutorial",
     "stars": 150,
     "forks": 32,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "k8s Istio Tutorial": {
     "github": "kelseyhightower/istio-ingress-tutorial",
@@ -457,16 +457,16 @@
     "type": "Tutorial",
     "stars": 322,
     "forks": 54,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "k8s Nomand Tutorial": {
     "github": "kelseyhightower/nomad-on-kubernetes",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Tutorial",
-    "stars": 353,
+    "stars": 354,
     "forks": 49,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "k8s Tekton Tutorial": {
     "github": "harbur/tekton-tutorial",
@@ -475,7 +475,7 @@
     "type": "Tutorial",
     "stars": 9,
     "forks": 13,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Tekton 101": {
     "github": "dewan-ahmed/Tekton101",
@@ -483,7 +483,7 @@
     "type": "Tutorial",
     "stars": 9,
     "forks": 26,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "k8s CKAD Tutorial": {
     "github": "madhank93/learn-k8s-ckad",
@@ -491,16 +491,16 @@
     "type": "Tutorial",
     "stars": 28,
     "forks": 13,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
     "filePattern": "^([^/]+)/README.md$",
     "category": "ML",
     "type": "Book",
-    "stars": 4989,
-    "forks": 2071,
-    "last_updated": "2026-02-22"
+    "stars": 5003,
+    "forks": 2072,
+    "last_updated": "2026-03-24"
   },
   "IMDB Data in the Terminal": {
     "github": "vvijayan1/imdb_data_on_terminal",
@@ -508,25 +508,25 @@
     "type": "Tutorial",
     "stars": 7,
     "forks": 0,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 79756,
-    "forks": 8741,
-    "last_updated": "2026-02-22"
+    "stars": 81354,
+    "forks": 8918,
+    "last_updated": "2026-03-24"
   },
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
     "filePattern": "^(README.*)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 336219,
-    "forks": 54540,
-    "last_updated": "2026-02-22"
+    "stars": 340093,
+    "forks": 55017,
+    "last_updated": "2026-03-24"
   },
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
@@ -534,48 +534,48 @@
     "category": "DevOps",
     "stars": 3,
     "forks": 0,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
     "filePattern": "^docs/(.*)/README.md$",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 5740,
-    "forks": 908,
-    "last_updated": "2026-02-22"
+    "stars": 5756,
+    "forks": 912,
+    "last_updated": "2026-03-24"
   },
   "Google Cloud Guide": {
     "github": "mikeroyal/Google-Cloud-Guide",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 185,
+    "stars": 192,
     "forks": 61,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Awesome Security": {
     "github": "zbetcheckin/Security_list",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1853,
-    "forks": 351,
-    "last_updated": "2026-02-22"
+    "stars": 1861,
+    "forks": 349,
+    "last_updated": "2026-03-24"
   },
   "Awesome Cloud Security": {
     "github": "4ndersonLin/awesome-cloud-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 2357,
-    "forks": 348,
-    "last_updated": "2026-02-22"
+    "stars": 2377,
+    "forks": 355,
+    "last_updated": "2026-03-24"
   },
   "Awesome AWS Security": {
     "github": "jassics/awesome-aws-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1522,
-    "forks": 318,
-    "last_updated": "2026-02-22"
+    "stars": 1533,
+    "forks": 322,
+    "last_updated": "2026-03-24"
   },
   "AWSCookbook Security": {
     "github": "AWSCookbook/Security",
@@ -584,15 +584,15 @@
     "category": "Security",
     "stars": 50,
     "forks": 42,
-    "last_updated": "2026-02-22"
+    "last_updated": "2026-03-24"
   },
   "Awesome k8s Security": {
     "github": "magnologan/awesome-k8s-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1989,
-    "forks": 295,
-    "last_updated": "2026-02-22"
+    "stars": 1993,
+    "forks": 298,
+    "last_updated": "2026-03-24"
   },
   "Reverse Shells": {
     "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
