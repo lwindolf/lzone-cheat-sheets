@@ -1108,93 +1108,93 @@
     "filePattern": "^Documentation/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 9853,
-    "forks": 3844,
-    "last_updated": "2026-02-26"
+    "stars": 9867,
+    "forks": 3847,
+    "last_updated": "2026-03-28"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 22142,
-    "forks": 6870,
-    "last_updated": "2026-02-26"
+    "stars": 22402,
+    "forks": 6982,
+    "last_updated": "2026-03-28"
   },
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture",
     "category": "Architecture",
     "type": "Awesome",
-    "stars": 2201,
-    "forks": 451,
-    "last_updated": "2026-02-26"
+    "stars": 2221,
+    "forks": 460,
+    "last_updated": "2026-03-28"
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture",
     "category": "Architecture",
     "type": "Cheat Sheet",
-    "stars": 2579,
+    "stars": 2577,
     "forks": 129,
-    "last_updated": "2026-02-26"
+    "last_updated": "2026-03-28"
   },
   "Architecture Decision Records": {
     "github": "joelparkerhenderson/architecture-decision-record",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 15148,
-    "forks": 2682,
-    "last_updated": "2026-02-26"
+    "stars": 15457,
+    "forks": 2691,
+    "last_updated": "2026-03-28"
   },
   "Markdown Architecture Decision Records": {
     "github": "adr/madr",
     "category": "Architecture",
     "type": "Cheat Sheet",
-    "stars": 2029,
-    "forks": 445,
-    "last_updated": "2026-02-26"
+    "stars": 2092,
+    "forks": 450,
+    "last_updated": "2026-03-28"
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 16727,
-    "forks": 5763,
-    "last_updated": "2026-02-26"
+    "stars": 16789,
+    "forks": 5770,
+    "last_updated": "2026-03-28"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
     "filePattern": "^docs/sources/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 27705,
-    "forks": 3940,
-    "last_updated": "2026-02-26"
+    "stars": 27890,
+    "forks": 3965,
+    "last_updated": "2026-03-28"
   },
   "Documentation Grafana LokiStack Operator": {
     "github": "grafana/loki",
     "filePattern": "^operator/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 27705,
-    "forks": 3940,
-    "last_updated": "2026-02-26"
+    "stars": 27890,
+    "forks": 3965,
+    "last_updated": "2026-03-28"
   },
   "Documentation kubernetes": {
     "github": "kubernetes/website",
     "filePattern": "^content/en/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 5173,
-    "forks": 15288,
-    "last_updated": "2026-02-26"
+    "stars": 5197,
+    "forks": 15353,
+    "last_updated": "2026-03-28"
   },
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel",
     "category": "DevOps",
     "type": "Cheat Sheet",
     "stars": 4,
-    "forks": 1,
-    "last_updated": "2026-02-26"
+    "forks": 2,
+    "last_updated": "2026-03-28"
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet",
@@ -1202,79 +1202,79 @@
     "type": "Cheat Sheet",
     "stars": 58,
     "forks": 15,
-    "last_updated": "2026-02-26"
+    "last_updated": "2026-03-28"
   },
   "MDN accessibility": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/accessibility/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN api": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/api/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN css": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/css/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN demos": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/demos/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN events": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/events/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN exslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/exslt/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN guide": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/guide/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN html": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/html/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10547,
-    "forks": 23116,
-    "last_updated": "2026-02-26"
+    "stars": 10620,
+    "forks": 23147,
+    "last_updated": "2026-03-28"
   },
   "MDN http": {
     "github": "mdn/content",
