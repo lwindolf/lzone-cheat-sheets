@@ -151,6 +151,15 @@ returns
      34 / 1024 saslauthd (PID 3156)
      34 / 1024 saslauthd (PID 3146)
 
+### 4.1 Checking without lsof
+
+     for pid in /proc/[0-9]*; do
+         p=$(basename $pid);
+         count=$(ls $pid/fd 2>/dev/null | wc -l);
+         name=$(cat $pid/comm 2>/dev/null);
+         echo "$count $p ($name)";
+     done | sort -nr | head -5
+
 ## 5. Consider Typical Pitfalls with Limits
 
 ### Systemd ignores `/etc/security/limits.conf`
