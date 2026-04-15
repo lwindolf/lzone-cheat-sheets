@@ -2225,9 +2225,9 @@
     "github": "Devinterview-io/apache-spark-interview-questions",
     "type": "Interview",
     "category": "ML",
-    "stars": 32,
-    "forks": 14,
-    "last_updated": "2026-03-07"
+    "stars": 33,
+    "forks": 15,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io XML": {
     "github": "Devinterview-io/xml-interview-questions",
@@ -2235,15 +2235,15 @@
     "category": "DevOps",
     "stars": 3,
     "forks": 1,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Architecture": {
     "github": "Devinterview-io/software-architecture-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 141,
+    "stars": 148,
     "forks": 43,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io SOA": {
     "github": "Devinterview-io/service-oriented-architecture-interview-questions",
@@ -2251,23 +2251,23 @@
     "category": "Architecture",
     "stars": 12,
     "forks": 4,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Microservices": {
     "github": "Devinterview-io/microservices-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 127,
-    "forks": 52,
-    "last_updated": "2026-03-08"
+    "stars": 132,
+    "forks": 55,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io NOSQL": {
     "github": "Devinterview-io/nosql-interview-questions",
     "type": "Interview",
     "category": "DevOps",
     "stars": 28,
-    "forks": 9,
-    "last_updated": "2026-03-08"
+    "forks": 10,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Loadbalancing": {
     "github": "Devinterview-io/load-balancing-interview-questions",
@@ -2275,7 +2275,7 @@
     "category": "DevOps",
     "stars": 21,
     "forks": 10,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Middleware": {
     "github": "Devinterview-io/layering-and-middleware-interview-questions",
@@ -2283,39 +2283,39 @@
     "category": "Architecture",
     "stars": 14,
     "forks": 3,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Docker": {
     "github": "Devinterview-io/docker-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 86,
-    "forks": 45,
-    "last_updated": "2026-03-08"
+    "stars": 87,
+    "forks": 47,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io DDD": {
     "github": "Devinterview-io/domain-driven-design-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 17,
+    "stars": 18,
     "forks": 5,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io kubernetes": {
     "github": "Devinterview-io/kubernetes-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 39,
-    "forks": 32,
-    "last_updated": "2026-03-08"
+    "stars": 46,
+    "forks": 33,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io CAP theorem": {
     "github": "Devinterview-io/cap-theorem-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 21,
+    "stars": 22,
     "forks": 9,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io availability": {
     "github": "Devinterview-io/availability-and-reliability-interview-questions",
@@ -2323,23 +2323,23 @@
     "category": "DevOps",
     "stars": 12,
     "forks": 5,
-    "last_updated": "2026-03-08"
+    "last_updated": "2026-04-15"
   },
   "devinterview.io AWS": {
     "github": "Devinterview-io/aws-interview-questions",
     "type": "Interview",
     "category": "Cloud",
-    "stars": 192,
-    "forks": 139,
-    "last_updated": "2026-03-08"
+    "stars": 230,
+    "forks": 188,
+    "last_updated": "2026-04-15"
   },
   "devinterview.io Azure": {
     "github": "Devinterview-io/azure-interview-questions",
     "type": "Interview",
     "category": "Cloud",
-    "stars": 27,
-    "forks": 29,
-    "last_updated": "2026-03-08"
+    "stars": 29,
+    "forks": 32,
+    "last_updated": "2026-04-15"
   },
   "Everything curl": {
     "github": "curl/everything-curl",
