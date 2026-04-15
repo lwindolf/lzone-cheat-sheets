@@ -216,15 +216,48 @@ you can do stuff like
 
       kubectl patch <crd type>/<name> -p '{"metadata":{"finalizers":[]}}' --type=merge 
 
-- [Debugging pods without netstat](https://staaldraad.github.io/2017/12/20/netstat-without-netstat/)
+- Debugging pods without netstat
 
-      cat /proc/net/tcp             # gives you raw data with hex numbers :-(
-      
-      # Local endpoints
-      grep -v "rem_address" /proc/net/tcp  | gawk  '{x=strtonum("0x"substr($2,index($2,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($2,i,2))}{print x":"strtonum("0x"substr($2,index($2,":")+1,4))}'
-      
-      # Remote clients
-      grep -v "rem_address" /proc/net/tcp  | gawk  '{x=strtonum("0x"substr($3,index($3,":")-2,2)); for (i=5; i>0; i-=2) x = x"."strtonum("0x"substr($3,i,2))}{print x":"strtonum("0x"substr($3,index($3,":")+1,4))}'
+      #!/bin/bash
+        
+      printf "%-5s %-21s %-21s %-10s\n" "ID" "Local Address" "Remote Address" "State"
+      echo "-----------------------------------------------------------------------"
+        
+      while read -r sl local remote state rest; do
+        # Strip the colon from the ID (e.g., "0:" becomes "0")
+        id=${sl%:}
+    
+        # Robust header skip: if 'id' isn't a decimal number, skip the line
+        [[ ! "$id" =~ ^[0-9]+$ ]] && continue
+    
+        decode_hex() {
+            local hex_addr=${1%:*}
+            local hex_port=${1#*:}
+            
+            # Convert 2-char hex chunks to decimal (Little Endian)
+            # Using 16# prefix for base conversion
+            local ip_d=$((16#${hex_addr:0:2}))
+            local ip_c=$((16#${hex_addr:2:2}))
+            local ip_b=$((16#${hex_addr:4:2}))
+            local ip_a=$((16#${hex_addr:6:2}))
+            
+            local port=$((16#$hex_port))
+            
+            echo "$ip_a.$ip_b.$ip_c.$ip_d:$port"
+        }
+    
+        case "$state" in
+            01) s="ESTAB" ;; 02) s="SYN_SENT" ;; 03) s="SYN_RECV" ;;
+            04) s="FIN_WAIT1" ;; 05) s="FIN_WAIT2" ;; 06) s="TIME_WAIT" ;;
+            07) s="CLOSE" ;; 08) s="CLOSE_WAIT" ;; 09) s="LAST_ACK" ;;
+            0A) s="LISTEN" ;; 0B) s="CLOSING" ;; *) s="UNKNOWN" ;;
+        esac
+    
+        printf "%-5s %-21s %-21s %-10s\n" \
+            "$id" "$(decode_hex $local)" "$(decode_hex $remote)" "$s"
+    
+      done < /proc/net/tcp
+
   
 - Print all node ports using a Go template
 
