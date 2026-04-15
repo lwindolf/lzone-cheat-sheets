@@ -216,6 +216,10 @@ you can do stuff like
 
       kubectl patch <crd type>/<name> -p '{"metadata":{"finalizers":[]}}' --type=merge 
 
+- Debugging open files without lsof
+
+      ls -l /proc/1/fd            # Replace "1" with the PID you need
+  
 - Debugging pods without netstat
 
       #!/bin/bash
