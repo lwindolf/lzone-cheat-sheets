@@ -468,7 +468,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐24829 | 📕 Book | ML | 
 | [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9886 | 📓 Cheat Sheet | Web | 
-| [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2205 | 💡 Tutorial | Architecture | 
+| [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2237 | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐384820 | 📕 Book | Development | 
 | [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐120403 | 📓 Cheat Sheet | SaaS | 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3750 | 📄 Docs | Security | 
@@ -513,7 +513,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3472 | 📚 Learning Path | Development | 
 | [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1041 | 📚 Learning Path | Development | 
 | [Learning Path Senior Developer](https://github.com/joebew42/study-path) | ⭐2983 | 📚 Learning Path | Development | 
-| [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐3381 | 📚 Learning Path | Development | 
+| [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐3387 | 📚 Learning Path | Development | 
 | [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐297 | 📚 Learning Path | Development | 
 | [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design) | ⭐84 | 📚 Learning Path | Architecture | 
 | [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths) | ⭐66 | 📚 Learning Path | Development | 
@@ -586,7 +586,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐58 | 📓 Cheat Sheet | DevOps | 
 | [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2221 | 👍 Awesome | Architecture | 
 | [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4642 | 📄 Docs | Security | 
-| [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐691 | 👍 Awesome | Architecture | 
+| [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐692 | 👍 Awesome | Architecture | 
 | [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | ⭐1372 | 📄 Docs | Architecture | 
 | [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release) | ⭐791 | 📄 Docs | Architecture | 
 | [System Design 101](https://github.com/ByteByteGoHq/system-design-101) | ⭐81354 | 💬 Interview | DevOps | 
@@ -595,7 +595,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) | ⭐3952 | 📄 Docs | DevOps | 
 | [The Bread Code](https://github.com/hendricius/the-bread-code) | ⭐4131 | 📕 Book | DevOps | 
 | [The JS Way](https://github.com/thejsway/thejsway) | ⭐7892 | 📕 Book | Development | 
-| [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) | ⭐810 | 💡 Tutorial | Architecture | 
+| [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) | ⭐812 | 💡 Tutorial | Architecture | 
 | [Tutorial RabbitMQ](https://github.com/Frodo-Web/frodo-tips) | ⭐2 | 💡 Tutorial | DevOps | 
 | [TypeSpec API Generator](https://github.com/microsoft/typespec) | ⭐5687 | 📄 Docs | Architecture | 
 | [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2494 | 📕 Book | Development | 
@@ -604,8 +604,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐250 | 📄 Docs | Architecture | 
 | [Xapax Security](https://github.com/xapax/security) | ⭐1029 | 📓 Cheat Sheet | Security | 
 | [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐37 | 📕 Book | DevOps | 
-| [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐61 | 📄 Docs | Architecture | 
-| [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10339 | 👍 Awesome | Architecture | 
+| [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐65 | 📄 Docs | Architecture | 
+| [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10932 | 👍 Awesome | Architecture | 
 | [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14404 | 📓 Cheat Sheet | DevOps | 
 | [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐192 | 💬 Interview | Cloud | 
 | [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐32 | 💬 Interview | ML | 
@@ -614,8 +614,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) | ⭐21 | 💬 Interview | Architecture | 
 | [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) | ⭐17 | 💬 Interview | Architecture | 
 | [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions) | ⭐45 | 💬 Interview | ML | 
-| [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) | ⭐57 | 💬 Interview | DevOps | 
-| [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) | ⭐9 | 💬 Interview | ML | 
+| [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) | ⭐61 | 💬 Interview | DevOps | 
+| [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) | ⭐8 | 💬 Interview | ML | 
 | [devinterview.io Docker](https://github.com/Devinterview-io/docker-interview-questions) | ⭐86 | 💬 Interview | DevOps | 
 | [devinterview.io Loadbalancing](https://github.com/Devinterview-io/load-balancing-interview-questions) | ⭐21 | 💬 Interview | DevOps | 
 | [devinterview.io Microservices](https://github.com/Devinterview-io/microservices-interview-questions) | ⭐127 | 💬 Interview | Architecture | 
