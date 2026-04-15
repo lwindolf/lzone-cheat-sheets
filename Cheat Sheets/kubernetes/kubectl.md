@@ -216,6 +216,11 @@ you can do stuff like
 
       kubectl patch <crd type>/<name> -p '{"metadata":{"finalizers":[]}}' --type=merge 
 
+- Resolving DNS without nslookup / dig
+
+      getent hosts example.com
+      getent ahostsv4 example.com    # IPv4 only
+  
 - Debugging open files without lsof
 
       ls -l /proc/1/fd            # Replace "1" with the PID you need
