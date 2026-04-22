@@ -22,6 +22,12 @@ Dump schema with
 
     ldapsearch -H ldapi:/// -Y EXTERNAL -b cn=config
 
+or as root with slapcat
+
+    slapcat | less -i
+    slapcat | grep "^dn: cn=.*schema"          # Get installed schemata
+    slapcat -b <schema dn>                     # Print schema only
+
 ## Replication
 
 Check OpenLDAP replication with
