@@ -7,6 +7,7 @@ Standard build commands
      
      meson compile
      meson test
+     meson test --print-errorlogs      # To get details on failed tests
      meson install
      
      ninja
