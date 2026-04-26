@@ -4,18 +4,18 @@
     "filePattern": "^Cheat Sheets/(.*)\\.md$",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 323,
+    "stars": 328,
     "forks": 526,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Video Tutorials": {
     "github": "lwindolf/lzone-cheat-sheets",
     "filePattern": "^Video Tutorials/(.*)\\.md$",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 323,
+    "stars": 328,
     "forks": 526,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Cognitive Load": {
     "github": "zakirullin/cognitive-load",
@@ -428,27 +428,27 @@
     "filePattern": "^content/en/docs/(.+).md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 226,
-    "forks": 600,
-    "last_updated": "2026-03-24"
+    "stars": 229,
+    "forks": 604,
+    "last_updated": "2026-04-26"
   },
   "k8s the hard way": {
     "github": "kelseyhightower/kubernetes-the-hard-way",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Tutorial",
-    "stars": 47827,
-    "forks": 15583,
-    "last_updated": "2026-03-24"
+    "stars": 48058,
+    "forks": 15635,
+    "last_updated": "2026-04-26"
   },
   "k8s NetworkPolicy Tutorial": {
     "github": "networkpolicy/tutorial",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Tutorial",
-    "stars": 150,
+    "stars": 151,
     "forks": 32,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "k8s Istio Tutorial": {
     "github": "kelseyhightower/istio-ingress-tutorial",
@@ -457,16 +457,16 @@
     "type": "Tutorial",
     "stars": 322,
     "forks": 54,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "k8s Nomand Tutorial": {
     "github": "kelseyhightower/nomad-on-kubernetes",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Tutorial",
-    "stars": 354,
+    "stars": 355,
     "forks": 49,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "k8s Tekton Tutorial": {
     "github": "harbur/tekton-tutorial",
@@ -475,7 +475,7 @@
     "type": "Tutorial",
     "stars": 9,
     "forks": 13,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Tekton 101": {
     "github": "dewan-ahmed/Tekton101",
@@ -483,7 +483,7 @@
     "type": "Tutorial",
     "stars": 9,
     "forks": 26,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "k8s CKAD Tutorial": {
     "github": "madhank93/learn-k8s-ckad",
@@ -491,16 +491,16 @@
     "type": "Tutorial",
     "stars": 28,
     "forks": 13,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
     "filePattern": "^([^/]+)/README.md$",
     "category": "ML",
     "type": "Book",
-    "stars": 5003,
-    "forks": 2072,
-    "last_updated": "2026-03-24"
+    "stars": 5014,
+    "forks": 2063,
+    "last_updated": "2026-04-26"
   },
   "IMDB Data in the Terminal": {
     "github": "vvijayan1/imdb_data_on_terminal",
@@ -508,25 +508,25 @@
     "type": "Tutorial",
     "stars": 7,
     "forks": 0,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 81354,
-    "forks": 8918,
-    "last_updated": "2026-03-24"
+    "stars": 82150,
+    "forks": 9057,
+    "last_updated": "2026-04-26"
   },
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
     "filePattern": "^(README.*)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 340093,
-    "forks": 55017,
-    "last_updated": "2026-03-24"
+    "stars": 344551,
+    "forks": 55672,
+    "last_updated": "2026-04-26"
   },
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
@@ -534,48 +534,48 @@
     "category": "DevOps",
     "stars": 3,
     "forks": 0,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
     "filePattern": "^docs/(.*)/README.md$",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 5756,
-    "forks": 912,
-    "last_updated": "2026-03-24"
+    "stars": 5759,
+    "forks": 911,
+    "last_updated": "2026-04-26"
   },
   "Google Cloud Guide": {
     "github": "mikeroyal/Google-Cloud-Guide",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 192,
+    "stars": 194,
     "forks": 61,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Awesome Security": {
     "github": "zbetcheckin/Security_list",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1861,
+    "stars": 1866,
     "forks": 349,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Awesome Cloud Security": {
     "github": "4ndersonLin/awesome-cloud-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 2377,
-    "forks": 355,
-    "last_updated": "2026-03-24"
+    "stars": 2400,
+    "forks": 359,
+    "last_updated": "2026-04-26"
   },
   "Awesome AWS Security": {
     "github": "jassics/awesome-aws-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1533,
+    "stars": 1549,
     "forks": 322,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "AWSCookbook Security": {
     "github": "AWSCookbook/Security",
@@ -584,15 +584,15 @@
     "category": "Security",
     "stars": 50,
     "forks": 42,
-    "last_updated": "2026-03-24"
+    "last_updated": "2026-04-26"
   },
   "Awesome k8s Security": {
     "github": "magnologan/awesome-k8s-security",
     "type": "Awesome",
     "category": "Security",
-    "stars": 1993,
-    "forks": 298,
-    "last_updated": "2026-03-24"
+    "stars": 1998,
+    "forks": 297,
+    "last_updated": "2026-04-26"
   },
   "Reverse Shells": {
     "github": "d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet",
