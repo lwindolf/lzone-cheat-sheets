@@ -18,6 +18,10 @@ When using Oracle Java
     jcmd <pid> JFR.start       # Start flight recorder trace
     jcmd <pid> JFR.dump        # Dump flight recorder trace
 
+List installed Java versions on Debian/Ubuntu
+
+    update-java-alternatives --list
+
 ## Legacy CLI
 
     jps                        # Java7 print all processes
