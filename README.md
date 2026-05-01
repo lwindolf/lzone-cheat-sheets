@@ -368,7 +368,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [ArchiMate CheatSheet](https://github.com/SixArm/archimate-examples) | ⭐6 | 📓 Cheat Sheet | Architecture | 
 | [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice) | ⭐36 | 💡 Tutorial | Architecture | 
 | [Architecture Books](https://github.com/mhadidg/software-architecture-books) | ⭐10848 | 👍 Awesome | Architecture | 
-| [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐15457 | 📄 Docs | Architecture | 
+| [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐15737 | 📄 Docs | Architecture | 
 | [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon) | ⭐14606 | 📄 Docs | Architecture | 
 | [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns) | ⭐3441 | 📄 Docs | Architecture | 
 | [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐185 | 📄 Docs | Architecture | 
@@ -433,8 +433,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation GRR](https://github.com/google/grr-doc) | ⭐312 | 📄 Docs | Security | 
 | [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐18085 | 📄 Docs | Security | 
 | [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐188 | 📄 Docs | Security | 
-| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐27890 | 📄 Docs | DevOps | 
-| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐27890 | 📄 Docs | DevOps | 
+| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐28123 | 📄 Docs | DevOps | 
+| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐28123 | 📄 Docs | DevOps | 
 | [Documentation Helm](https://github.com/helm/helm-www) | ⭐229 | 📄 Docs | DevOps | 
 | [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐7756 | 📄 Docs | Security | 
 | [Documentation Linode](https://github.com/linode/docs) | ⭐1396 | 📄 Docs | SaaS | 
@@ -448,14 +448,14 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Puppet](https://github.com/puppetlabs/puppet-docs) | ⭐221 | 📄 Docs | DevOps | 
 | [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website) | ⭐1165 | 📄 Docs | DevOps | 
 | [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs) | ⭐67 | 📄 Docs | DevOps | 
-| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16789 | 📄 Docs | DevOps | 
+| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16857 | 📄 Docs | DevOps | 
 | [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐631 | 📄 Docs | DevOps | 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Docs | DevOps | 
 | [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9607 | 📄 Docs | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2609 | 📄 Docs | DevOps | 
 | [Documentation knative](https://github.com/knative/docs) | ⭐5024 | 📄 Docs | DevOps | 
 | [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7995 | 📄 Docs | Security | 
-| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5197 | 📄 Docs | DevOps | 
+| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5220 | 📄 Docs | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐9037 | 📄 Docs | DevOps | 
 | [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐125 | 📄 Docs | DevOps | 
 | [Documentation pprof](https://github.com/google/pprof) | ⭐9127 | 📄 Docs | Programming | 
@@ -526,17 +526,17 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2323 | 📕 Book | Development | 
 | [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1493 | 📕 Book | Development | 
 | [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1462 | 📕 Book | Development | 
-| [MDN accessibility](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN api](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN css](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN demos](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN events](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN exslt](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN guide](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN html](https://github.com/mdn/content) | ⭐10620 | 📄 Docs | Web | 
-| [MDN http](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
-| [MDN javascript](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
-| [MDN manifest](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
+| [MDN accessibility](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN api](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN css](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN demos](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN events](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN exslt](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN guide](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN html](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN http](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN javascript](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
+| [MDN manifest](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
 | [MDN mathml](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
 | [MDN media](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
 | [MDN opensearch](https://github.com/mdn/content) | ⭐10626 | 📄 Docs | Web | 
@@ -554,7 +554,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet) | ⭐1022 | 📓 Cheat Sheet | Security | 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1987 | 📄 Docs | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1909 | 📄 Docs | DevOps | 
-| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2092 | 📓 Cheat Sheet | Architecture | 
+| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2172 | 📓 Cheat Sheet | Architecture | 
 | [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2931 | 📄 Docs | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25408 | 📄 Docs | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐5 | 📕 Book | DevOps | 
