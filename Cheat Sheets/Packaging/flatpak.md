@@ -18,7 +18,7 @@ This can only be done by installing by commit hash. So first find out the commit
 	
 Then install by commit:
 
-	flatpak update --commit=<commit> <package>
+	sudo flatpak update --commit=<commit> <package>
 
 ## Debugging
 
