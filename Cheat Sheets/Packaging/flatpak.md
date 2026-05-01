@@ -10,6 +10,16 @@
     
     flatpak run <package>
 
+## Install specific versions
+
+This can only be done by installing by commit hash. So first find out the commit:
+
+ 	flatpak remote-info --log flathub <package>
+	
+Then install by commit:
+
+	flatpak update --commit=<commit> <package>
+
 ## Debugging
 
 Enter package environment with a shell:
