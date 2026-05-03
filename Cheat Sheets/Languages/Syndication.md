@@ -35,6 +35,7 @@ This is a summary of the existing syndication standards and links to the standar
 *   [source](https://source.scripting.com/) (blogroll, markdown...)
 *   [Well Formed Web](http://wellformedweb.org/news/wfw_namespace_elements) (per item comment feeds)
 *   [Webfeeds](https://webfeeds.org/rss/1.0) (icons for feeds)
+*   [Bylines](https://github.com/tgodier/byline) (authorship details)
 
 ### MicroFormats
 
