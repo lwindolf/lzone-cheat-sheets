@@ -27,7 +27,7 @@ This is a summary of the existing syndication standards and links to the standar
 *   [RSS 1.0 Module Dublin Core](http://web.resource.org/rss/1.0/modules/dc/) (rich item and feed meta data)
 *   [GeoRSS](http://georss.org/model) (defines location of item)
 *   [iTunes](http://www.apple.com/itunes/store/podcaststechspecs.html) (rich media spec by Apple)
-*   [Media RSS](http://search.yahoo.com/mrss) (rich media spec by Yahoo)
+*   [Media RSS](http://search.yahoo.com/mrss) ([spec](https://www.rssboard.org/media-rss)) (rich media spec by Yahoo)
 *   [pb](http://snaplog.com/backend/PhotoBlog.html) (photo blog namespace)
 *   [podcast](https://github.com/Podcastindex-org/podcast-namespace)
 *   [RSS 1.0 Module Syndication](http://web.resource.org/rss/1.0/modules/syndication/) (defines update period or frequency)
