@@ -131,6 +131,9 @@ General usage:
     # Print a key value
     gsettings get org.gnome.liferea browser
 
+    # Print a tree
+    gsettings list-recursively org.gnome.system.proxy
+
     # Set a key value
     gsettings set net.sf.liferea browser 'firefox %s'
 
