@@ -276,18 +276,18 @@
     "filePattern": "^en/(.+).markdown$",
     "category": "Development",
     "type": "Book",
-    "stars": 1494,
+    "stars": 1491,
     "forks": 350,
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-06-08"
   },
   "Little Redis Book": {
     "github": "karlseguin/the-little-redis-book",
     "filePattern": "^en/(.+)\\.md$",
     "category": "Development",
     "type": "Book",
-    "stars": 1461,
+    "stars": 1458,
     "forks": 485,
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-06-08"
   },
   "30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-code",
@@ -332,96 +332,96 @@
     "category": "DevOps",
     "stars": 221,
     "forks": 299,
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-06-08"
   },
   "Geo Data Science Book": {
     "github": "gdsbook/book",
     "filePattern": "^notebooks/(.+)\\.md$",
     "category": "ML",
     "type": "Book",
-    "stars": 359,
-    "forks": 104,
-    "last_updated": "2026-05-08"
+    "stars": 360,
+    "forks": 103,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: Android": {
     "github": "amitshekhariitbhu/android-interview-questions",
     "filePattern": "^(README)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 12319,
-    "forks": 2385,
-    "last_updated": "2026-05-08"
+    "stars": 12332,
+    "forks": 2381,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: Data Science": {
     "github": "alexeygrigorev/data-science-interviews",
     "filePattern": "^(.+)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 9990,
-    "forks": 2140,
-    "last_updated": "2026-05-08"
+    "stars": 10033,
+    "forks": 2147,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: Linux Sysadmin": {
     "github": "chassing/linux-sysadmin-interview-questions",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 5305,
-    "forks": 1204,
-    "last_updated": "2026-05-08"
+    "stars": 5315,
+    "forks": 1205,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: FAANG": {
     "github": "ombharatiya/FAANG-Coding-Interview-Questions",
     "filePattern": "^(.+)\\.md$",
     "category": "Development",
     "type": "Interview",
-    "stars": 4850,
-    "forks": 1249,
-    "last_updated": "2026-05-08"
+    "stars": 5103,
+    "forks": 1285,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: ML": {
     "github": "Sroy20/machine-learning-interview-questions",
     "filePattern": "^(.+)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 1637,
+    "stars": 1642,
     "forks": 399,
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: System Design": {
     "github": "shashank88/system_design",
     "filePattern": "^(.+)\\.md$",
     "category": "Architecture",
     "type": "Interview",
-    "stars": 9200,
-    "forks": 2488,
-    "last_updated": "2026-05-08"
+    "stars": 9208,
+    "forks": 2489,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: System Design and Architecture": {
     "github": "puncsky/system-design-and-architecture",
     "category": "Architecture",
     "type": "Interview",
-    "stars": 3397,
-    "forks": 665,
-    "last_updated": "2026-05-08"
+    "stars": 3425,
+    "forks": 670,
+    "last_updated": "2026-06-08"
   },
   "Interview Questions: Java": {
     "github": "in28minutes/interview-guide",
     "filePattern": "^(.+)\\.md$",
     "category": "Development",
     "type": "Interview",
-    "stars": 309,
-    "forks": 232,
-    "last_updated": "2026-05-08"
+    "stars": 311,
+    "forks": 233,
+    "last_updated": "2026-06-08"
   },
   "Meta Checklist": {
     "github": "huyingjie/Checklist-Checklist",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 2937,
+    "stars": 2945,
     "forks": 137,
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-06-08"
   },
   "Documentation Helm": {
     "github": "helm/helm-www",
@@ -783,63 +783,63 @@
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 30372,
-    "forks": 3538,
-    "last_updated": "2026-04-30"
+    "stars": 30486,
+    "forks": 3537,
+    "last_updated": "2026-06-08"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 264444,
-    "forks": 34370,
-    "last_updated": "2026-04-30"
+    "stars": 268165,
+    "forks": 34759,
+    "last_updated": "2026-06-08"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 6884,
-    "forks": 3562,
-    "last_updated": "2026-04-30"
+    "stars": 6890,
+    "forks": 3557,
+    "last_updated": "2026-06-08"
   },
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1165,
-    "forks": 813,
-    "last_updated": "2026-04-30"
+    "stars": 1189,
+    "forks": 817,
+    "last_updated": "2026-06-08"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 16755,
-    "forks": 4007,
-    "last_updated": "2026-04-30"
+    "stars": 16734,
+    "forks": 4005,
+    "last_updated": "2026-06-08"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 25408,
-    "forks": 3096,
-    "last_updated": "2026-04-30"
+    "stars": 25558,
+    "forks": 3097,
+    "last_updated": "2026-06-08"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 23840,
-    "forks": 1888,
-    "last_updated": "2026-04-30"
+    "stars": 23839,
+    "forks": 1883,
+    "last_updated": "2026-06-08"
   },
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules",
@@ -847,7 +847,7 @@
     "category": "Programming",
     "stars": 75,
     "forks": 10,
-    "last_updated": "2026-04-30"
+    "last_updated": "2026-06-08"
   },
   "Javascript ES6 Cheatsheet": {
     "github": "DrkSephy/es6-cheatsheet",
