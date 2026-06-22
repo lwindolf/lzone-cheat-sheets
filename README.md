@@ -397,19 +397,19 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Bash by Example](https://github.com/cheatsnake/bash-scripts-by-example) | ⭐59 | 📓 Cheat Sheet | DevOps | 
 | [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | ⭐2504 | 📄 Docs | Programming | 
 | [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML) | ⭐7266 | 📄 Docs | Architecture | 
-| [CSS Architecture](https://github.com/jareware/css-architecture) | ⭐2577 | 📓 Cheat Sheet | Architecture | 
+| [CSS Architecture](https://github.com/jareware/css-architecture) | ⭐2570 | 📓 Cheat Sheet | Architecture | 
 | [Cloud Outages Index](https://github.com/lwindolf/cloud-outages) | ⭐3 | 📄 Docs | DevOps | 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐129 | 📓 Cheat Sheet | DevOps | 
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐340957 | 📄 Docs | Development | 
 | [Cognitive Load](https://github.com/zakirullin/cognitive-load) | ⭐12254 | 💡 Tutorial | Programming | 
-| [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1789 | 📄 Docs | Architecture | 
-| [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates) | ⭐85 | 📄 Docs | Architecture | 
-| [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process) | ⭐5796 | 📄 Docs | Architecture | 
-| [DDD by Examples](https://github.com/ddd-by-examples/library) | ⭐5781 | 📄 Docs | Architecture | 
+| [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1815 | 📄 Docs | Architecture | 
+| [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates) | ⭐84 | 📄 Docs | Architecture | 
+| [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process) | ⭐5886 | 📄 Docs | Architecture | 
+| [DDD by Examples](https://github.com/ddd-by-examples/library) | ⭐5804 | 📄 Docs | Architecture | 
 | [Databases Introduction](https://github.com/anhthii/database-notes) | ⭐63 | 📕 Book | Architecture | 
-| [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) | ⭐808 | 📄 Docs | Architecture | 
-| [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | ⭐2023 | 📄 Docs | Architecture | 
-| [Design: Core Domain Charts](https://github.com/ddd-crew/core-domain-charts) | ⭐610 | 📄 Docs | Architecture | 
+| [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) | ⭐813 | 📄 Docs | Architecture | 
+| [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) | ⭐2037 | 📄 Docs | Architecture | 
+| [Design: Core Domain Charts](https://github.com/ddd-crew/core-domain-charts) | ⭐612 | 📄 Docs | Architecture | 
 | [DevOps Video Tutorials](https://github.com/antonputra/tutorials) | ⭐4599 | 📄 Docs | DevOps | 
 | [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel) | ⭐577 | 📄 Docs | DevOps | 
 | [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa) | ⭐1881 | 📄 Docs | DevOps | 
@@ -417,7 +417,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Docker Getting Started](https://github.com/docker/getting-started) | ⭐3066 | 📓 Cheat Sheet | DevOps | 
 | [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐158 | 📄 Docs | DevOps | 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐15 | 📄 Docs | DevOps | 
-| [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐22772 | 📄 Docs | DevOps | 
+| [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐23227 | 📄 Docs | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐63 | 📄 Docs | DevOps | 
 | [Documentation Certbot](https://github.com/certbot/certbot) | ⭐33026 | 📄 Docs | DevOps | 
 | [Documentation Chef](https://github.com/chef/chef-web-docs) | ⭐140 | 📄 Docs | DevOps | 
@@ -433,8 +433,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation GRR](https://github.com/google/grr-doc) | ⭐312 | 📄 Docs | Security | 
 | [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐18314 | 📄 Docs | Security | 
 | [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐196 | 📄 Docs | Security | 
-| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐28123 | 📄 Docs | DevOps | 
-| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐28123 | 📄 Docs | DevOps | 
+| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐28423 | 📄 Docs | DevOps | 
+| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐28423 | 📄 Docs | DevOps | 
 | [Documentation Helm](https://github.com/helm/helm-www) | ⭐228 | 📄 Docs | DevOps | 
 | [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐7922 | 📄 Docs | Security | 
 | [Documentation Linode](https://github.com/linode/docs) | ⭐1394 | 📄 Docs | SaaS | 
@@ -442,20 +442,20 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐894 | 📄 Docs | DevOps | 
 | [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐856 | 📄 Docs | DevOps | 
 | [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2469 | 📄 Docs | DevOps | 
-| [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐708 | 📄 Docs | DevOps | 
-| [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐8449 | 📄 Docs | DevOps | 
-| [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9910 | 📄 Docs | DevOps | 
+| [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐712 | 📄 Docs | DevOps | 
+| [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐8516 | 📄 Docs | DevOps | 
+| [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9941 | 📄 Docs | DevOps | 
 | [Documentation Puppet](https://github.com/puppetlabs/puppet-docs) | ⭐221 | 📄 Docs | DevOps | 
 | [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website) | ⭐1189 | 📄 Docs | DevOps | 
 | [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs) | ⭐67 | 📄 Docs | DevOps | 
-| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16857 | 📄 Docs | DevOps | 
+| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐17640 | 📄 Docs | DevOps | 
 | [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐630 | 📄 Docs | DevOps | 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Docs | DevOps | 
 | [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9629 | 📄 Docs | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2625 | 📄 Docs | DevOps | 
 | [Documentation knative](https://github.com/knative/docs) | ⭐5040 | 📄 Docs | DevOps | 
 | [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐8037 | 📄 Docs | Security | 
-| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5220 | 📄 Docs | DevOps | 
+| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5281 | 📄 Docs | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐9037 | 📄 Docs | DevOps | 
 | [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐125 | 📄 Docs | DevOps | 
 | [Documentation pprof](https://github.com/google/pprof) | ⭐9174 | 📄 Docs | Programming | 
@@ -554,7 +554,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet) | ⭐1028 | 📓 Cheat Sheet | Security | 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1998 | 📄 Docs | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1914 | 📄 Docs | DevOps | 
-| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2172 | 📓 Cheat Sheet | Architecture | 
+| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2278 | 📓 Cheat Sheet | Architecture | 
 | [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2945 | 📄 Docs | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25558 | 📄 Docs | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐5 | 📕 Book | DevOps | 
@@ -584,7 +584,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Runbooks Security Incident](https://github.com/redar0n/incident-runbook) | ⭐52 | 🤖 Runbook | Security | 
 | [SAP Tutorials](https://github.com/sap-tutorials/Tutorials) | ⭐884 | 📄 Docs | DevOps | 
 | [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐58 | 📓 Cheat Sheet | DevOps | 
-| [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2235 | 👍 Awesome | Architecture | 
+| [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2249 | 👍 Awesome | Architecture | 
 | [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4646 | 📄 Docs | Security | 
 | [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐692 | 👍 Awesome | Architecture | 
 | [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | ⭐1372 | 📄 Docs | Architecture | 

@@ -1033,109 +1033,109 @@
     "github": "ddd-by-examples/library",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 5781,
-    "forks": 821,
-    "last_updated": "2026-05-01"
+    "stars": 5804,
+    "forks": 823,
+    "last_updated": "2026-06-22"
   },
   "DDD Starter Modelling": {
     "github": "ddd-crew/ddd-starter-modelling-process",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 5796,
-    "forks": 548,
-    "last_updated": "2026-05-01"
+    "stars": 5886,
+    "forks": 560,
+    "last_updated": "2026-06-22"
   },
   "DDD Context Mapping": {
     "github": "ddd-crew/context-mapping",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 1789,
-    "forks": 152,
-    "last_updated": "2026-05-01"
+    "stars": 1815,
+    "forks": 154,
+    "last_updated": "2026-06-22"
   },
   "DDD Miro Templates": {
     "github": "ddd-crew/virtual-modelling-templates",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 85,
+    "stars": 84,
     "forks": 12,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-22"
   },
   "Design: Aggregate Design Canvas": {
     "github": "ddd-crew/aggregate-design-canvas",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 808,
+    "stars": 813,
     "forks": 76,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-22"
   },
   "Design: Bounded Context Canvas": {
     "github": "ddd-crew/bounded-context-canvas",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 2023,
+    "stars": 2037,
     "forks": 191,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-22"
   },
   "Design: Core Domain Charts": {
     "github": "ddd-crew/core-domain-charts",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 610,
+    "stars": 612,
     "forks": 47,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-22"
   },
   "Documentation Prometheus": {
     "github": "prometheus/docs",
     "filePattern": "^content/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 708,
-    "forks": 1112,
-    "last_updated": "2026-05-01"
+    "stars": 712,
+    "forks": 1121,
+    "last_updated": "2026-06-22"
   },
   "Documentation Prometheus Alertmanager": {
     "github": "prometheus/alertmanager",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 8449,
-    "forks": 2417,
-    "last_updated": "2026-05-01"
+    "stars": 8516,
+    "forks": 2430,
+    "last_updated": "2026-06-22"
   },
   "Documentation Prometheus Operator": {
     "github": "prometheus-operator/prometheus-operator",
     "filePattern": "^Documentation/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 9910,
-    "forks": 3848,
-    "last_updated": "2026-05-01"
+    "stars": 9941,
+    "forks": 3856,
+    "last_updated": "2026-06-22"
   },
   "Documentation ArgoCD": {
     "github": "argoproj/argo-cd",
     "filePattern": "^docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 22772,
-    "forks": 7144,
-    "last_updated": "2026-05-01"
+    "stars": 23227,
+    "forks": 7358,
+    "last_updated": "2026-06-22"
   },
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture",
     "category": "Architecture",
     "type": "Awesome",
-    "stars": 2235,
-    "forks": 464,
-    "last_updated": "2026-05-01"
+    "stars": 2249,
+    "forks": 466,
+    "last_updated": "2026-06-22"
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture",
     "category": "Architecture",
     "type": "Cheat Sheet",
-    "stars": 2577,
-    "forks": 129,
-    "last_updated": "2026-05-01"
+    "stars": 2570,
+    "forks": 128,
+    "last_updated": "2026-06-22"
   },
   "Architecture Decision Records": {
     "github": "joelparkerhenderson/architecture-decision-record",
@@ -1149,44 +1149,44 @@
     "github": "adr/madr",
     "category": "Architecture",
     "type": "Cheat Sheet",
-    "stars": 2172,
-    "forks": 455,
-    "last_updated": "2026-05-01"
+    "stars": 2278,
+    "forks": 462,
+    "last_updated": "2026-06-22"
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 16857,
-    "forks": 5770,
-    "last_updated": "2026-05-01"
+    "stars": 17640,
+    "forks": 5820,
+    "last_updated": "2026-06-22"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
     "filePattern": "^docs/sources/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 28123,
-    "forks": 3982,
-    "last_updated": "2026-05-01"
+    "stars": 28423,
+    "forks": 4030,
+    "last_updated": "2026-06-22"
   },
   "Documentation Grafana LokiStack Operator": {
     "github": "grafana/loki",
     "filePattern": "^operator/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 28123,
-    "forks": 3982,
-    "last_updated": "2026-05-01"
+    "stars": 28423,
+    "forks": 4030,
+    "last_updated": "2026-06-22"
   },
   "Documentation kubernetes": {
     "github": "kubernetes/website",
     "filePattern": "^content/en/docs/(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 5220,
-    "forks": 15391,
-    "last_updated": "2026-05-01"
+    "stars": 5281,
+    "forks": 15473,
+    "last_updated": "2026-06-22"
   },
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel",
@@ -1194,7 +1194,7 @@
     "type": "Cheat Sheet",
     "stars": 4,
     "forks": 2,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-22"
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet",
