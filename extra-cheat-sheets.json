@@ -2382,5 +2382,10 @@
     "stars": 5259,
     "forks": 421,
     "last_updated": "2026-04-22"
+  },
+  "CSS Profile": {
+    "github": "apleasantview/css-profile",
+    "type": "Tutorial",
+    "category": "Development"
   }
 }
