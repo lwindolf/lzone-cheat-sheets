@@ -1202,169 +1202,169 @@
     "type": "Cheat Sheet",
     "stars": 58,
     "forks": 15,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-06-26"
   },
   "MDN accessibility": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/accessibility/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN api": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/api/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN css": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/css/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN demos": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/demos/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN events": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/events/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN exslt": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/exslt/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN guide": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/guide/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN html": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/html/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN http": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/http/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN javascript": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/javascript/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN manifest": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/manifest/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10729,
-    "forks": 23188,
-    "last_updated": "2026-05-01"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN mathml": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/mathml/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN media": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/media/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN opensearch": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/opensearch/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN performance": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/performance/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN privacy": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/privacy/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN progressive_web_apps": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/progressive_web_apps/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN security": {
     "github": "mdn/content",
     "filePattern": "^files/en-us/web/security/(.+)\\.md$",
     "category": "Web",
     "type": "Documentation",
-    "stars": 10731,
-    "forks": 23190,
-    "last_updated": "2026-05-03"
+    "stars": 10831,
+    "forks": 23201,
+    "last_updated": "2026-06-26"
   },
   "MDN svg": {
     "github": "mdn/content",

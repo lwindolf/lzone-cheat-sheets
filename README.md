@@ -398,6 +398,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | ⭐2504 | 📄 Docs | Programming | 
 | [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML) | ⭐7266 | 📄 Docs | Architecture | 
 | [CSS Architecture](https://github.com/jareware/css-architecture) | ⭐2570 | 📓 Cheat Sheet | Architecture | 
+| [CSS Profile](https://github.com/apleasantview/css-profile) |  | 💡 Tutorial | Development | 
 | [Cloud Outages Index](https://github.com/lwindolf/cloud-outages) | ⭐3 | 📄 Docs | DevOps | 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐129 | 📓 Cheat Sheet | DevOps | 
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐340957 | 📄 Docs | Development | 
@@ -526,24 +527,24 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2328 | 📕 Book | Development | 
 | [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1491 | 📕 Book | Development | 
 | [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1458 | 📕 Book | Development | 
-| [MDN accessibility](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN api](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN css](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN demos](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN events](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN exslt](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN guide](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN html](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN http](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN javascript](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN manifest](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
-| [MDN mathml](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN media](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN opensearch](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN performance](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN privacy](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
-| [MDN security](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
+| [MDN accessibility](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN api](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN css](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN demos](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN events](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN exslt](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN guide](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN html](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN http](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN javascript](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN manifest](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN mathml](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN media](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN opensearch](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN performance](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN privacy](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN security](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
 | [MDN svg](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MDN text_fragments](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MDN tutorials](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
