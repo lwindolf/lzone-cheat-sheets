@@ -672,35 +672,35 @@
     "github": "mhadidg/software-architecture-books",
     "type": "Awesome",
     "category": "Architecture",
-    "stars": 11030,
-    "forks": 866,
-    "last_updated": "2026-06-02"
+    "stars": 11264,
+    "forks": 888,
+    "last_updated": "2026-08-01"
   },
   "Architecture Enterprise Patterns": {
     "github": "chanakaudaya/solution-architecture-patterns",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 3448,
-    "forks": 674,
-    "last_updated": "2026-06-02"
+    "stars": 3460,
+    "forks": 677,
+    "last_updated": "2026-08-01"
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 116,
+    "stars": 119,
     "forks": 208,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
     "filePattern": "^alerts/(.+)\\.md$",
     "type": "Runbook",
     "category": "DevOps",
-    "stars": 98,
-    "forks": 147,
-    "last_updated": "2026-06-02"
+    "stars": 103,
+    "forks": 151,
+    "last_updated": "2026-08-01"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
@@ -709,7 +709,7 @@
     "category": "DevOps",
     "stars": 128,
     "forks": 48,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
@@ -717,7 +717,7 @@
     "category": "DevOps",
     "stars": 32,
     "forks": 43,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
@@ -725,7 +725,7 @@
     "category": "DevOps",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book",
@@ -733,34 +733,34 @@
     "category": "DevOps",
     "stars": 31,
     "forks": 14,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 4265,
-    "forks": 2615,
-    "last_updated": "2026-06-02"
+    "stars": 4262,
+    "forks": 2604,
+    "last_updated": "2026-08-01"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
     "filePattern": "^website/docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 602,
-    "forks": 578,
-    "last_updated": "2026-06-02"
+    "stars": 620,
+    "forks": 604,
+    "last_updated": "2026-08-01"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "filePattern": "^playbooks/(.+)\\.md$",
     "type": "Runbook",
     "category": "Cloud",
-    "stars": 1059,
-    "forks": 225,
-    "last_updated": "2026-06-02"
+    "stars": 1088,
+    "forks": 232,
+    "last_updated": "2026-08-01"
   },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
@@ -768,7 +768,7 @@
     "category": "Security",
     "stars": 52,
     "forks": 8,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "Runbooks Pentesting": {
     "github": "IlyasKadi/runbook",
@@ -776,70 +776,70 @@
     "category": "Security",
     "stars": 1,
     "forks": 3,
-    "last_updated": "2026-06-02"
+    "last_updated": "2026-08-01"
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 30486,
-    "forks": 3537,
-    "last_updated": "2026-06-08"
+    "stars": 30630,
+    "forks": 3556,
+    "last_updated": "2026-08-01"
   },
   "Awesome Programming Projects": {
     "github": "practical-tutorials/project-based-learning",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 268165,
-    "forks": 34759,
-    "last_updated": "2026-06-08"
+    "stars": 276117,
+    "forks": 35546,
+    "last_updated": "2026-08-01"
   },
   "RabbitMQ Client Tutorials": {
     "github": "rabbitmq/rabbitmq-tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 6890,
-    "forks": 3557,
-    "last_updated": "2026-06-08"
+    "stars": 6891,
+    "forks": 3551,
+    "last_updated": "2026-08-01"
   },
   "Documentation RabbitMQ": {
     "github": "rabbitmq/rabbitmq-website",
     "filePattern": "^site/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1189,
-    "forks": 817,
-    "last_updated": "2026-06-08"
+    "stars": 1212,
+    "forks": 819,
+    "last_updated": "2026-08-01"
   },
   "Java 8 Tutorial": {
     "github": "winterbe/java8-tutorial",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 16734,
-    "forks": 4005,
-    "last_updated": "2026-06-08"
+    "stars": 16727,
+    "forks": 3999,
+    "last_updated": "2026-08-01"
   },
   "Modern C++ Tutorial": {
     "github": "changkun/modern-cpp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 25558,
-    "forks": 3097,
-    "last_updated": "2026-06-08"
+    "stars": 25696,
+    "forks": 3112,
+    "last_updated": "2026-08-01"
   },
   "Javascript Functional Programming": {
     "github": "MostlyAdequate/mostly-adequate-guide",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 23839,
-    "forks": 1883,
-    "last_updated": "2026-06-08"
+    "stars": 23835,
+    "forks": 1880,
+    "last_updated": "2026-08-01"
   },
   "Javascript NPM with ES Modules": {
     "github": "transitive-bullshit/npm-es-modules",
@@ -847,7 +847,7 @@
     "category": "Programming",
     "stars": 75,
     "forks": 10,
-    "last_updated": "2026-06-08"
+    "last_updated": "2026-08-01"
   },
   "Javascript ES6 Cheatsheet": {
     "github": "DrkSephy/es6-cheatsheet",
