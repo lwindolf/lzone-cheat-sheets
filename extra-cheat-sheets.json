@@ -853,140 +853,140 @@
     "github": "DrkSephy/es6-cheatsheet",
     "type": "Cheat Sheet",
     "category": "Programming",
-    "stars": 13329,
-    "forks": 1116,
-    "last_updated": "2026-06-15"
+    "stars": 13324,
+    "forks": 1113,
+    "last_updated": "2026-08-22"
   },
   "DevOps Video Tutorials": {
     "github": "antonputra/tutorials",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 4599,
-    "forks": 3084,
-    "last_updated": "2026-06-15"
+    "stars": 4673,
+    "forks": 3107,
+    "last_updated": "2026-08-22"
   },
   "Ansible Tutorial": {
     "github": "leucos/ansible-tuto",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2297,
-    "forks": 704,
-    "last_updated": "2026-06-15"
+    "stars": 2294,
+    "forks": 707,
+    "last_updated": "2026-08-22"
   },
   "SAP Tutorials": {
     "github": "sap-tutorials/Tutorials",
     "filePattern": "^tutorials/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 884,
-    "forks": 839,
-    "last_updated": "2026-06-15"
+    "stars": 901,
+    "forks": 843,
+    "last_updated": "2026-08-22"
   },
   "Linux XDP Tutorial": {
     "github": "xdp-project/xdp-tutorial",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 2939,
-    "forks": 659,
-    "last_updated": "2026-06-15"
+    "stars": 2960,
+    "forks": 666,
+    "last_updated": "2026-08-22"
   },
   "Bayesian Modelling in Python": {
     "github": "markdregan/Bayesian-Modelling-in-Python",
     "filePattern": "^(README)\\.md$",
     "type": "Documentation",
     "category": "Programming",
-    "stars": 2504,
-    "forks": 406,
-    "last_updated": "2026-06-15"
+    "stars": 2502,
+    "forks": 405,
+    "last_updated": "2026-08-22"
   },
   "Docker Getting Started": {
     "github": "docker/getting-started",
     "filePattern": "^docs/tutorial/(.+).md",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 3066,
-    "forks": 6375,
-    "last_updated": "2026-06-15"
+    "stars": 3081,
+    "forks": 6362,
+    "last_updated": "2026-08-22"
   },
   "Documentation Docker": {
     "github": "docker/docs",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 4595,
-    "forks": 8358,
-    "last_updated": "2026-06-15"
+    "stars": 4636,
+    "forks": 8435,
+    "last_updated": "2026-08-22"
   },
   "Docker Cheat Sheet": {
     "github": "wsargent/docker-cheat-sheet",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 22528,
-    "forks": 4613,
-    "last_updated": "2026-06-15"
+    "stars": 22542,
+    "forks": 4607,
+    "last_updated": "2026-08-22"
   },
   "Python pdb Tutorial": {
     "github": "spiside/pdb-tutorial",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 917,
-    "forks": 111,
-    "last_updated": "2026-06-15"
+    "stars": 921,
+    "forks": 113,
+    "last_updated": "2026-08-22"
   },
   "GDB Cheat Sheet": {
     "github": "reveng007/GDB-Cheat-Sheet",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 29,
+    "stars": 30,
     "forks": 8,
-    "last_updated": "2026-06-15"
+    "last_updated": "2026-08-22"
   },
   "DevSecOps SLSA Framework": {
     "github": "slsa-framework/slsa",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 1881,
-    "forks": 284,
-    "last_updated": "2026-06-15"
+    "stars": 1912,
+    "forks": 290,
+    "last_updated": "2026-08-22"
   },
   "DevSecOps Maturity Model": {
     "github": "devsecopsmaturitymodel/DevSecOps-MaturityModel",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 577,
+    "stars": 583,
     "forks": 353,
-    "last_updated": "2026-06-15"
+    "last_updated": "2026-08-22"
   },
   "Network Segmentation Cheat Sheet": {
     "github": "sergiomarotco/Network-segmentation-cheat-sheet",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Cheat Sheet",
-    "stars": 3467,
-    "forks": 283,
-    "last_updated": "2026-06-15"
+    "stars": 3492,
+    "forks": 284,
+    "last_updated": "2026-08-22"
   },
   "Kafka Architecture": {
     "github": "anhthii/kafka-notes",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 125,
-    "forks": 66,
-    "last_updated": "2026-06-15"
+    "stars": 126,
+    "forks": 65,
+    "last_updated": "2026-08-22"
   },
   "Databases Introduction": {
     "github": "anhthii/database-notes",
     "filePattern": "^(.+)\\.md$",
     "category": "Architecture",
     "type": "Book",
-    "stars": 63,
+    "stars": 62,
     "forks": 22,
-    "last_updated": "2026-06-15"
+    "last_updated": "2026-08-22"
   },
   "ElasticSearch Examples": {
     "github": "elastic/examples",
@@ -994,8 +994,8 @@
     "category": "DevOps",
     "type": "Documentation",
     "stars": 2649,
-    "forks": 1214,
-    "last_updated": "2026-06-15"
+    "forks": 1211,
+    "last_updated": "2026-08-22"
   },
   "ElasticSearch Architecture": {
     "github": "gose/elastic-architectures",
@@ -1009,25 +1009,25 @@
     "github": "gose/elastic-data-lake",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 24,
+    "stars": 25,
     "forks": 2,
-    "last_updated": "2026-06-15"
+    "last_updated": "2026-08-22"
   },
   "Architecture Domain Driven Hexagon": {
     "github": "Sairyss/domain-driven-hexagon",
     "category": "Architecture",
     "type": "Documentation",
-    "stars": 14714,
-    "forks": 1556,
-    "last_updated": "2026-06-15"
+    "stars": 14880,
+    "forks": 1560,
+    "last_updated": "2026-08-22"
   },
   "Architecture Microservices": {
     "github": "rodrigorodrigues/microservices-design-patterns",
     "category": "Architecture",
     "type": "Documentation",
     "stars": 186,
-    "forks": 67,
-    "last_updated": "2026-06-15"
+    "forks": 70,
+    "last_updated": "2026-08-22"
   },
   "DDD by Examples": {
     "github": "ddd-by-examples/library",
