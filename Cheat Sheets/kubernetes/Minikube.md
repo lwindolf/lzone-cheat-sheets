@@ -19,3 +19,9 @@ In general check start status with
     minikube status
 
 If docker is unreachable check if TCP port 2375 is open on localhost.
+
+## Using local images
+
+    minikube image load localhost:5000/my-image:tag
+    minikube image rm   localhost:5000/my-image:tag
+    minikube image ls
