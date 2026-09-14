@@ -528,24 +528,24 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2344 | 📕 Book | Development | 
 | [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1487 | 📕 Book | Development | 
 | [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1461 | 📕 Book | Development | 
-| [MDN accessibility](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN api](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN css](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN demos](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN events](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN exslt](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN guide](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN html](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN http](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN javascript](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN manifest](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN mathml](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN media](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN opensearch](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN performance](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN privacy](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
-| [MDN security](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
+| [MDN accessibility](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN api](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN css](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN demos](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN events](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN exslt](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN guide](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN html](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN http](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN javascript](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN manifest](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN mathml](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN media](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN opensearch](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN performance](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN privacy](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
+| [MDN security](https://github.com/mdn/content) | ⭐10984 | 📄 Docs | Web | 
 | [MDN svg](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MDN text_fragments](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MDN tutorials](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
@@ -585,7 +585,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Runbooks Prometheus Operator](https://github.com/prometheus-operator/runbooks) | ⭐121 | 📄 Docs | DevOps | 
 | [Runbooks Security Incident](https://github.com/redar0n/incident-runbook) | ⭐52 | 🤖 Runbook | Security | 
 | [SAP Tutorials](https://github.com/sap-tutorials/Tutorials) | ⭐901 | 📄 Docs | DevOps | 
-| [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐58 | 📓 Cheat Sheet | DevOps | 
+| [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐57 | 📓 Cheat Sheet | DevOps | 
 | [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2263 | 👍 Awesome | Architecture | 
 | [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4646 | 📄 Docs | Security | 
 | [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐692 | 👍 Awesome | Architecture | 
