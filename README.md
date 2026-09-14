@@ -180,6 +180,7 @@ Markdown sources for the default cheat sheets accessible at https://lzone.de/
  | <a class='topic' href='Cheat Sheets/Linux Home/DXVK.md'>DXVK</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/X11.md'>X11</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/adb.md'>adb</a>
+ | <a class='topic' href='Cheat Sheets/Linux Home/mcp.json.md'>mcp.json</a>
  | <a class='topic' href='Cheat Sheets/Linux Home/ollama.md'>ollama</a>
 <br/><span class='group'><b>Monitoring</b></span>
  | <a class='topic' href='Cheat Sheets/Monitoring/Grafana.md'>Grafana</a>
@@ -373,7 +374,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns) | ⭐3466 | 📄 Docs | Architecture | 
 | [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐186 | 📄 Docs | Architecture | 
 | [Awesome AWS Security](https://github.com/jassics/awesome-aws-security) | ⭐1585 | 👍 Awesome | Security | 
-| [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture) | ⭐1720 | 👍 Awesome | Cloud | 
+| [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture) | ⭐1724 | 👍 Awesome | Cloud | 
 | [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses) | ⭐70979 | 👍 Awesome | Programming | 
 | [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet) | ⭐8551 | 👍 Awesome | Programming | 
 | [Awesome Clean Architecture](https://github.com/dgomezs/awesome-clean-architecture) |  | 👍 Awesome | Architecture | 
@@ -388,9 +389,9 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) | ⭐73810 | 👍 Awesome | Architecture | 
 | [Awesome Security](https://github.com/zbetcheckin/Security_list) | ⭐1881 | 👍 Awesome | Security | 
 | [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security) | ⭐2009 | 👍 Awesome | Security | 
-| [Azure Monitoring Baseline](https://github.com/Azure/azure-monitor-baseline-alerts) | ⭐317 | 📄 Docs | Cloud | 
-| [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet) | ⭐120 | 📓 Cheat Sheet | DevOps | 
-| [Azure Security](https://github.com/MicrosoftDocs/security) | ⭐264 | 📄 Docs | Security | 
+| [Azure Monitoring Baseline](https://github.com/Azure/azure-monitor-baseline-alerts) | ⭐322 | 📄 Docs | Cloud | 
+| [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet) | ⭐121 | 📓 Cheat Sheet | DevOps | 
+| [Azure Security](https://github.com/MicrosoftDocs/security) | ⭐268 | 📄 Docs | Security | 
 | [Backend Development Whitepaper](https://github.com/cheatsnake/backend-cheats) | ⭐4472 | 📕 Book | Programming | 
 | [Bash Handbook](https://github.com/denysdovhan/bash-handbook) | ⭐6084 | 📕 Book | DevOps | 
 | [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook) | ⭐263 | 📓 Cheat Sheet | DevOps | 
@@ -442,7 +443,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation OSV Scanner](https://github.com/google/osv-scanner) | ⭐10194 | 📄 Docs | Security | 
 | [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io) | ⭐894 | 📄 Docs | DevOps | 
 | [Documentation Openshift](https://github.com/openshift/openshift-docs) | ⭐856 | 📄 Docs | DevOps | 
-| [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2519 | 📄 Docs | DevOps | 
+| [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2542 | 📄 Docs | DevOps | 
 | [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐719 | 📄 Docs | DevOps | 
 | [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐8602 | 📄 Docs | DevOps | 
 | [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9977 | 📄 Docs | DevOps | 
@@ -476,7 +477,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐118 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐30 | 📓 Cheat Sheet | DevOps | 
 | [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐19413 | 📄 Docs | DevOps | 
-| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐365 | 📕 Book | ML | 
+| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐367 | 📕 Book | ML | 
 | [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) | ⭐58941 | 📓 Cheat Sheet | Programming | 
 | [Globbing Cheat Sheet](https://github.com/begin/globbing) | ⭐154 | 📓 Cheat Sheet | DevOps | 
 | [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide) | ⭐206 | 📓 Cheat Sheet | DevOps | 
@@ -486,14 +487,14 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐25940 | 📄 Docs | Security | 
 | [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal) | ⭐7 | 💡 Tutorial | ML | 
 | [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews) |  | 📓 Cheat Sheet | Development | 
-| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12363 | 💬 Interview | ML | 
-| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐10113 | 💬 Interview | ML | 
-| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐5726 | 💬 Interview | Development | 
+| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12372 | 💬 Interview | ML | 
+| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐10141 | 💬 Interview | ML | 
+| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐5930 | 💬 Interview | Development | 
 | [Interview Questions: Java](https://github.com/in28minutes/interview-guide) | ⭐309 | 💬 Interview | Development | 
-| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5328 | 💬 Interview | DevOps | 
-| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1657 | 💬 Interview | ML | 
-| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9244 | 💬 Interview | Architecture | 
-| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐3545 | 💬 Interview | Architecture | 
+| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5337 | 💬 Interview | DevOps | 
+| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1663 | 💬 Interview | ML | 
+| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9256 | 💬 Interview | Architecture | 
+| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐3569 | 💬 Interview | Architecture | 
 | [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook) | ⭐1612 | 📕 Book | Development | 
 | [Jaeger Distributed Tracing](https://github.com/jaegertracing/documentation) | ⭐83 | 📄 Docs | DevOps | 
 | [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial) | ⭐16723 | 📄 Docs | Programming | 
@@ -525,8 +526,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) | ⭐1 | 📄 Docs | Development | 
 | [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial) | ⭐2960 | 📄 Docs | Programming | 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2344 | 📕 Book | Development | 
-| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1488 | 📕 Book | Development | 
-| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1460 | 📕 Book | Development | 
+| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1487 | 📕 Book | Development | 
+| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1461 | 📕 Book | Development | 
 | [MDN accessibility](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
 | [MDN api](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
 | [MDN css](https://github.com/mdn/content) | ⭐10831 | 📄 Docs | Web | 
@@ -553,10 +554,10 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MDN xpath](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MDN xslt](https://github.com/mdn/content) | ⭐10731 | 📄 Docs | Web | 
 | [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet) | ⭐1028 | 📓 Cheat Sheet | Security | 
-| [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐2014 | 📄 Docs | Architecture | 
-| [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1921 | 📄 Docs | DevOps | 
+| [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐2020 | 📄 Docs | Architecture | 
+| [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1923 | 📄 Docs | DevOps | 
 | [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2442 | 📓 Cheat Sheet | Architecture | 
-| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2959 | 📄 Docs | DevOps | 
+| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2969 | 📄 Docs | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25789 | 📄 Docs | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐5 | 📕 Book | DevOps | 
 | [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet) | ⭐14199 | 📓 Cheat Sheet | Programming | 
@@ -603,7 +604,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Video Tutorials](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐339 | 💡 Tutorial | DevOps | 
 | [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐37677 | 📕 Book | Programming | 
 | [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐250 | 📄 Docs | Architecture | 
-| [Xapax Security](https://github.com/xapax/security) | ⭐1044 | 📓 Cheat Sheet | Security | 
+| [Xapax Security](https://github.com/xapax/security) | ⭐1046 | 📓 Cheat Sheet | Security | 
 | [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐37 | 📕 Book | DevOps | 
 | [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐65 | 📄 Docs | Architecture | 
 | [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10932 | 👍 Awesome | Architecture | 

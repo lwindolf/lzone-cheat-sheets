@@ -276,18 +276,18 @@
     "filePattern": "^en/(.+).markdown$",
     "category": "Development",
     "type": "Book",
-    "stars": 1488,
-    "forks": 348,
-    "last_updated": "2026-08-15"
+    "stars": 1487,
+    "forks": 347,
+    "last_updated": "2026-09-14"
   },
   "Little Redis Book": {
     "github": "karlseguin/the-little-redis-book",
     "filePattern": "^en/(.+)\\.md$",
     "category": "Development",
     "type": "Book",
-    "stars": 1460,
+    "stars": 1461,
     "forks": 485,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "30s-of-code JS": {
     "github": "30-seconds/30-seconds-of-code",
@@ -332,78 +332,78 @@
     "category": "DevOps",
     "stars": 221,
     "forks": 299,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Geo Data Science Book": {
     "github": "gdsbook/book",
     "filePattern": "^notebooks/(.+)\\.md$",
     "category": "ML",
     "type": "Book",
-    "stars": 365,
-    "forks": 104,
-    "last_updated": "2026-08-15"
+    "stars": 367,
+    "forks": 105,
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: Android": {
     "github": "amitshekhariitbhu/android-interview-questions",
     "filePattern": "^(README)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 12363,
-    "forks": 2387,
-    "last_updated": "2026-08-15"
+    "stars": 12372,
+    "forks": 2385,
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: Data Science": {
     "github": "alexeygrigorev/data-science-interviews",
     "filePattern": "^(.+)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 10113,
-    "forks": 2154,
-    "last_updated": "2026-08-15"
+    "stars": 10141,
+    "forks": 2153,
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: Linux Sysadmin": {
     "github": "chassing/linux-sysadmin-interview-questions",
     "filePattern": "^(README)\\.md$",
     "category": "DevOps",
     "type": "Interview",
-    "stars": 5328,
-    "forks": 1209,
-    "last_updated": "2026-08-15"
+    "stars": 5337,
+    "forks": 1216,
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: FAANG": {
     "github": "ombharatiya/FAANG-Coding-Interview-Questions",
     "filePattern": "^(.+)\\.md$",
     "category": "Development",
     "type": "Interview",
-    "stars": 5726,
-    "forks": 1390,
-    "last_updated": "2026-08-15"
+    "stars": 5930,
+    "forks": 1417,
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: ML": {
     "github": "Sroy20/machine-learning-interview-questions",
     "filePattern": "^(.+)\\.md$",
     "category": "ML",
     "type": "Interview",
-    "stars": 1657,
+    "stars": 1663,
     "forks": 398,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: System Design": {
     "github": "shashank88/system_design",
     "filePattern": "^(.+)\\.md$",
     "category": "Architecture",
     "type": "Interview",
-    "stars": 9244,
+    "stars": 9256,
     "forks": 2489,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: System Design and Architecture": {
     "github": "puncsky/system-design-and-architecture",
     "category": "Architecture",
     "type": "Interview",
-    "stars": 3545,
+    "stars": 3569,
     "forks": 692,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Interview Questions: Java": {
     "github": "in28minutes/interview-guide",
@@ -412,16 +412,16 @@
     "type": "Interview",
     "stars": 309,
     "forks": 231,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Meta Checklist": {
     "github": "huyingjie/Checklist-Checklist",
     "filePattern": "^(.+)\\.md$",
     "category": "DevOps",
     "type": "Documentation",
-    "stars": 2959,
+    "stars": 2969,
     "forks": 138,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "Documentation Helm": {
     "github": "helm/helm-www",
@@ -604,69 +604,69 @@
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Cheat Sheet",
     "category": "Security",
-    "stars": 1044,
-    "forks": 519,
-    "last_updated": "2026-08-15"
+    "stars": 1046,
+    "forks": 518,
+    "last_updated": "2026-09-14"
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 120,
-    "forks": 153,
-    "last_updated": "2026-08-15"
+    "stars": 121,
+    "forks": 154,
+    "last_updated": "2026-09-14"
   },
   "Awesome Azure Architecture": {
     "github": "lukemurraynz/awesome-azure-architecture",
     "type": "Awesome",
     "category": "Cloud",
-    "stars": 1720,
-    "forks": 355,
-    "last_updated": "2026-08-15"
+    "stars": 1724,
+    "forks": 356,
+    "last_updated": "2026-09-14"
   },
   "Azure Monitoring Baseline": {
     "github": "Azure/azure-monitor-baseline-alerts",
     "filePattern": "^docs/content/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 317,
-    "forks": 344,
-    "last_updated": "2026-08-15"
+    "stars": 322,
+    "forks": 348,
+    "last_updated": "2026-09-14"
   },
   "Azure Security": {
     "github": "MicrosoftDocs/security",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Security",
-    "stars": 264,
+    "stars": 268,
     "forks": 181,
-    "last_updated": "2026-08-15"
+    "last_updated": "2026-09-14"
   },
   "MS Architecture Center": {
     "github": "MicrosoftDocs/architecture-center",
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 2014,
-    "forks": 1832,
-    "last_updated": "2026-08-15"
+    "stars": 2020,
+    "forks": 1839,
+    "last_updated": "2026-09-14"
   },
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2519,
-    "forks": 1711,
-    "last_updated": "2026-08-15"
+    "stars": 2542,
+    "forks": 1719,
+    "last_updated": "2026-09-14"
   },
   "MS Virtualization": {
     "github": "MicrosoftDocs/Virtualization-Documentation",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1921,
-    "forks": 1511,
-    "last_updated": "2026-08-15"
+    "stars": 1923,
+    "forks": 1506,
+    "last_updated": "2026-09-14"
   },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books",
