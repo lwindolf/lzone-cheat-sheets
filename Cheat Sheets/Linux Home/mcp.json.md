@@ -3,7 +3,7 @@
 ### Access via stdio
 
 	{
-	  "mcpServers": {
+	  "servers": {
 	    "my-mcp-server": {
 	      "command": "node",
 	      "args": ["./mcp.js"]
@@ -14,18 +14,18 @@
 ### Access via HTTP
 
 	{
-		"mcpServers": {
+		"servers": {
 			"my-mcp-server": {
 				"url": "http://localhost:3000/mcp",
 				"type": "http"
-	    }
+	    	}
 		}
 	}
 
 ### Other options
 
 	{
-	  "mcpServers": {
+	  "servers": {
 	    "staging-db": {
 				"url": "http://localhost:3000/mcp",
 				"type": "http",
