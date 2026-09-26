@@ -14,3 +14,6 @@ Here is a winget based k8s tooling suggestion for Windows:
 4. Install login provider, e.g Entra ID
     
        winget install --id=Microsoft.Azure.Kubelogin
+
+With this installation you can start Visual Studio Code and switch the terminal to "Git Bash"
+and work with `git`, `k9s`, `kubectl` and `kubelogin` as you need.
