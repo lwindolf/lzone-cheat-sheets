@@ -3,8 +3,9 @@ Here is a winget based k8s tooling suggestion for Windows:
 1. Setup base tooling
 
        winget install --id=Kubernetes.kubectl
-       winget install Microsoft.VisualStudioCode
-       winget install Derailed.k9s
+       winget install --id=Microsoft.VisualStudioCode
+       winget install --id=Derailed.k9s
+       winget install --id=Git.Git
 
 3. Setup login support
 
