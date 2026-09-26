@@ -2099,57 +2099,57 @@
     "github": "yasenstar/ArchiMetal_Practice",
     "type": "Tutorial",
     "category": "Architecture",
-    "stars": 36,
-    "forks": 23,
-    "last_updated": "2026-04-15"
+    "stars": 40,
+    "forks": 25,
+    "last_updated": "2026-09-26"
   },
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
     "type": "Cheat Sheet",
     "category": "Architecture",
-    "stars": 6,
-    "forks": 2,
-    "last_updated": "2026-04-15"
+    "stars": 12,
+    "forks": 4,
+    "last_updated": "2026-09-26"
   },
   "arc42 Documentation": {
     "github": "arc42/docs.arc42.org-site",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 65,
-    "forks": 28,
-    "last_updated": "2026-04-15"
+    "stars": 71,
+    "forks": 30,
+    "last_updated": "2026-09-26"
   },
   "awesome Architecture": {
     "github": "mehdihadeli/awesome-software-architecture",
     "type": "Awesome",
     "category": "Architecture",
-    "stars": 10932,
-    "forks": 949,
-    "last_updated": "2026-04-15"
+    "stars": 11693,
+    "forks": 1023,
+    "last_updated": "2026-09-26"
   },
   "Learning Path Software Design": {
     "github": "stemmlerjs/software-design-and-architecture-roadmap",
     "type": "Learning Path",
     "category": "Development",
-    "stars": 3387,
-    "forks": 419,
-    "last_updated": "2026-04-15"
+    "stars": 3408,
+    "forks": 416,
+    "last_updated": "2026-09-26"
   },
   "Solution Architecture Links": {
     "github": "unlight/solution-architecture",
     "type": "Awesome",
     "category": "Architecture",
-    "stars": 692,
-    "forks": 280,
-    "last_updated": "2026-04-15"
+    "stars": 698,
+    "forks": 282,
+    "last_updated": "2026-09-26"
   },
   "nocomplexity Architecture Playbook": {
     "github": "nocomplexity/ArchitecturePlaybook",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 735,
+    "stars": 738,
     "forks": 70,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "Awesome Clean Architecture": {
     "github": "dgomezs/awesome-clean-architecture",
@@ -2161,17 +2161,17 @@
     "type": "Tutorial",
     "category": "Architecture",
     "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$",
-    "stars": 2237,
-    "forks": 218,
-    "last_updated": "2026-04-15"
+    "stars": 2370,
+    "forks": 224,
+    "last_updated": "2026-09-26"
   },
   "What is Enterprise Architecture": {
     "github": "justinamiller/EnterpriseArchitecture",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 250,
-    "forks": 57,
-    "last_updated": "2026-04-15"
+    "stars": 259,
+    "forks": 58,
+    "last_updated": "2026-09-26"
   },
   "Tomato SW Architecture": {
     "github": "sivaprasadreddy/tomato-architecture",
@@ -2179,7 +2179,7 @@
     "category": "Architecture",
     "stars": 812,
     "forks": 37,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "Monitoring with Prometheus": {
     "github": "psibi/prometheus",
@@ -2187,15 +2187,15 @@
     "category": "DevOps",
     "stars": 5,
     "forks": 2,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "Zabbix Book": {
     "github": "Trikke76/Zabbix-Book",
     "type": "Book",
     "category": "DevOps",
-    "stars": 37,
-    "forks": 7,
-    "last_updated": "2026-04-15"
+    "stars": 38,
+    "forks": 6,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Data Engineer": {
     "github": "Devinterview-io/data-engineer-interview-questions",

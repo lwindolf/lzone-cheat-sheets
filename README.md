@@ -368,8 +368,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops) | ⭐4257 | 📄 Docs | Cloud | 
 | [AWSCookbook Security](https://github.com/AWSCookbook/Security) | ⭐50 | 📄 Docs | Security | 
 | [Ansible Tutorial](https://github.com/leucos/ansible-tuto) | ⭐2295 | 📄 Docs | DevOps | 
-| [ArchiMate CheatSheet](https://github.com/SixArm/archimate-examples) | ⭐6 | 📓 Cheat Sheet | Architecture | 
-| [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice) | ⭐36 | 💡 Tutorial | Architecture | 
+| [ArchiMate CheatSheet](https://github.com/SixArm/archimate-examples) | ⭐12 | 📓 Cheat Sheet | Architecture | 
+| [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice) | ⭐40 | 💡 Tutorial | Architecture | 
 | [Architecture Books](https://github.com/mhadidg/software-architecture-books) | ⭐11325 | 👍 Awesome | Architecture | 
 | [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐15737 | 📄 Docs | Architecture | 
 | [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon) | ⭐14944 | 📄 Docs | Architecture | 
@@ -472,7 +472,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐25272 | 📕 Book | ML | 
 | [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9907 | 📓 Cheat Sheet | Web | 
-| [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2237 | 💡 Tutorial | Architecture | 
+| [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2370 | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐396291 | 📕 Book | Development | 
 | [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐137508 | 📓 Cheat Sheet | SaaS | 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3892 | 📄 Docs | Security | 
@@ -517,7 +517,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3472 | 📚 Learning Path | Development | 
 | [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path) | ⭐1043 | 📚 Learning Path | Development | 
 | [Learning Path Senior Developer](https://github.com/joebew42/study-path) | ⭐3003 | 📚 Learning Path | Development | 
-| [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐3387 | 📚 Learning Path | Development | 
+| [Learning Path Software Design](https://github.com/stemmlerjs/software-design-and-architecture-roadmap) | ⭐3408 | 📚 Learning Path | Development | 
 | [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices) | ⭐299 | 📚 Learning Path | Development | 
 | [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design) | ⭐83 | 📚 Learning Path | Architecture | 
 | [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths) | ⭐67 | 📚 Learning Path | Development | 
@@ -590,7 +590,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐57 | 📓 Cheat Sheet | DevOps | 
 | [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2263 | 👍 Awesome | Architecture | 
 | [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4651 | 📄 Docs | Security | 
-| [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐692 | 👍 Awesome | Architecture | 
+| [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐698 | 👍 Awesome | Architecture | 
 | [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | ⭐1372 | 📄 Docs | Architecture | 
 | [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release) | ⭐915 | 📄 Docs | Architecture | 
 | [System Design 101](https://github.com/ByteByteGoHq/system-design-101) | ⭐87717 | 💬 Interview | DevOps | 
@@ -605,11 +605,11 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2553 | 📕 Book | Development | 
 | [Video Tutorials](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐339 | 💡 Tutorial | DevOps | 
 | [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐37677 | 📕 Book | Programming | 
-| [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐250 | 📄 Docs | Architecture | 
+| [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐259 | 📄 Docs | Architecture | 
 | [Xapax Security](https://github.com/xapax/security) | ⭐1046 | 📓 Cheat Sheet | Security | 
-| [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐37 | 📕 Book | DevOps | 
-| [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐65 | 📄 Docs | Architecture | 
-| [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐10932 | 👍 Awesome | Architecture | 
+| [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐38 | 📕 Book | DevOps | 
+| [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐71 | 📄 Docs | Architecture | 
+| [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐11693 | 👍 Awesome | Architecture | 
 | [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14456 | 📓 Cheat Sheet | DevOps | 
 | [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐230 | 💬 Interview | Cloud | 
 | [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐33 | 💬 Interview | ML | 
@@ -638,7 +638,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [k8s Tekton Tutorial](https://github.com/harbur/tekton-tutorial) | ⭐9 | 💡 Tutorial | DevOps | 
 | [k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | ⭐49580 | 💡 Tutorial | DevOps | 
 | [nginx Admin Handbook](https://github.com/trimstray/nginx-admins-handbook) | ⭐14311 | 📄 Docs | DevOps | 
-| [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook) | ⭐735 | 📄 Docs | Architecture | 
+| [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook) | ⭐738 | 📄 Docs | Architecture | 
 | [reactnative.guide](https://github.com/react-made-native-easy/book) |  | 📕 Book | Development | 
 | [rsync Tutorial](https://github.com/johnjung/rsync_tutorial) |  | 📓 Cheat Sheet | DevOps | 
 | [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5259 | 💡 Tutorial | Development | 
