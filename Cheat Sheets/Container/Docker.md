@@ -142,6 +142,15 @@ container to be debugged to a new container with a shell:
 So should you want to debug the network of the other container ensure to add `--network container:<id>`
 to the `docker run` command.
 
+## Cleanup
+
+     docker image prune           # Clean unused images
+     docker image prune -a        # Clean all images
+     
+     docker buildx prune                       # Clean unused content in buildx cache
+     docker buildx prune -a                    # Clean all buildx cache
+     docker buildx prune --max-used-space 2gb  # Ensure only 2GB are used
+
 ## Security
 
 ### Scanner
