@@ -2201,17 +2201,17 @@
     "github": "Devinterview-io/data-engineer-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 61,
-    "forks": 15,
-    "last_updated": "2026-04-15"
+    "stars": 103,
+    "forks": 26,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Data Analyst": {
     "github": "Devinterview-io/data-analyst-interview-questions",
     "type": "Interview",
     "category": "ML",
-    "stars": 45,
-    "forks": 8,
-    "last_updated": "2026-04-15"
+    "stars": 91,
+    "forks": 13,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Dimensionality": {
     "github": "Devinterview-io/curse-of-dimensionality-interview-questions",
@@ -2219,79 +2219,79 @@
     "category": "ML",
     "stars": 8,
     "forks": 1,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Apache Spark": {
     "github": "Devinterview-io/apache-spark-interview-questions",
     "type": "Interview",
     "category": "ML",
-    "stars": 33,
-    "forks": 15,
-    "last_updated": "2026-04-15"
+    "stars": 40,
+    "forks": 20,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io XML": {
     "github": "Devinterview-io/xml-interview-questions",
     "type": "Interview",
     "category": "DevOps",
     "stars": 3,
-    "forks": 1,
-    "last_updated": "2026-04-15"
+    "forks": 2,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Architecture": {
     "github": "Devinterview-io/software-architecture-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 148,
-    "forks": 43,
-    "last_updated": "2026-04-15"
+    "stars": 169,
+    "forks": 44,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io SOA": {
     "github": "Devinterview-io/service-oriented-architecture-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 12,
-    "forks": 4,
-    "last_updated": "2026-04-15"
+    "stars": 15,
+    "forks": 5,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Microservices": {
     "github": "Devinterview-io/microservices-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 132,
-    "forks": 55,
-    "last_updated": "2026-04-15"
+    "stars": 146,
+    "forks": 60,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io NOSQL": {
     "github": "Devinterview-io/nosql-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 28,
+    "stars": 31,
     "forks": 10,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Loadbalancing": {
     "github": "Devinterview-io/load-balancing-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 21,
-    "forks": 10,
-    "last_updated": "2026-04-15"
+    "stars": 23,
+    "forks": 11,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Middleware": {
     "github": "Devinterview-io/layering-and-middleware-interview-questions",
     "type": "Interview",
     "category": "Architecture",
-    "stars": 14,
+    "stars": 16,
     "forks": 3,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "devinterview.io Docker": {
     "github": "Devinterview-io/docker-interview-questions",
     "type": "Interview",
     "category": "DevOps",
-    "stars": 87,
-    "forks": 47,
-    "last_updated": "2026-04-15"
+    "stars": 106,
+    "forks": 48,
+    "last_updated": "2026-09-26"
   },
   "devinterview.io DDD": {
     "github": "Devinterview-io/domain-driven-design-interview-questions",
