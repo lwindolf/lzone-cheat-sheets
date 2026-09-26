@@ -2,6 +2,7 @@
 
     winget search <string>
     winget install <package>
+    winget install --id=<package>
 
 ## Installation methods
 
