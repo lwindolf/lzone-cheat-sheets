@@ -8,6 +8,10 @@ Using your local docker daemon
 
     minikube start --driver=docker
 
+Rootless with podman
+
+    minikube start --driver=podman --container-runtime=containerd
+
 Starting with special kubernetes version
 
     minikube start --kubernetes-version=1.19.0
@@ -25,3 +29,9 @@ If docker is unreachable check if TCP port 2375 is open on localhost.
     minikube image load localhost:5000/my-image:tag
     minikube image rm   localhost:5000/my-image:tag
     minikube image ls
+
+## Debugging
+
+    minikube ssh       # To enter the VM per shell
+    minikube logs
+    
