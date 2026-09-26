@@ -360,10 +360,10 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [30s-of-code Git](https://github.com/30-seconds/30-seconds-of-git) |  | 📓 Cheat Sheet | DevOps | 
 | [30s-of-code JS](https://github.com/30-seconds/30-seconds-of-code) |  | 📓 Cheat Sheet | Development | 
 | [30s-of-code Python](https://github.com/30-seconds/30-seconds-of-python) |  | 📓 Cheat Sheet | Development | 
-| [AWK anti-textbook](https://github.com/thewhitetulip/awk-anti-textbook) | ⭐743 | 💡 Tutorial | DevOps | 
-| [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices) | ⭐2150 | 📄 Docs | DevOps | 
+| [AWK anti-textbook](https://github.com/thewhitetulip/awk-anti-textbook) | ⭐741 | 💡 Tutorial | DevOps | 
+| [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices) | ⭐2160 | 📄 Docs | DevOps | 
 | [AWS EKS Workshop](https://github.com/aws-samples/eks-workshop-v2) | ⭐624 | 📄 Docs | Cloud | 
-| [AWS ELB Best Practices](https://github.com/aws/aws-elb-best-practices) | ⭐33 | 📄 Docs | DevOps | 
+| [AWS ELB Best Practices](https://github.com/aws/aws-elb-best-practices) | ⭐34 | 📄 Docs | DevOps | 
 | [AWS S3 Python](https://github.com/nagwww/aws-s3-book) | ⭐31 | 📕 Book | DevOps | 
 | [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops) | ⭐4257 | 📄 Docs | Cloud | 
 | [AWSCookbook Security](https://github.com/AWSCookbook/Security) | ⭐50 | 📄 Docs | Security | 
@@ -404,7 +404,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [CSS Profile](https://github.com/apleasantview/css-profile) |  | 💡 Tutorial | Development | 
 | [Cloud Outages Index](https://github.com/lwindolf/cloud-outages) | ⭐3 | 📄 Docs | DevOps | 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐130 | 📓 Cheat Sheet | DevOps | 
-| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐340957 | 📄 Docs | Development | 
+| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐361907 | 📄 Docs | Development | 
 | [Cognitive Load](https://github.com/zakirullin/cognitive-load) | ⭐12496 | 💡 Tutorial | Programming | 
 | [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1849 | 📄 Docs | Architecture | 
 | [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates) | ⭐84 | 📄 Docs | Architecture | 
@@ -432,7 +432,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐619 | 📄 Docs | DevOps | 
 | [Documentation Docker](https://github.com/docker/docs) | ⭐4658 | 📄 Docs | DevOps | 
 | [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs) | ⭐150 | 📄 Docs | DevOps | 
-| [Documentation Flux](https://github.com/fluxcd/website) | ⭐64 | 📄 Docs | DevOps | 
+| [Documentation Flux](https://github.com/fluxcd/website) | ⭐65 | 📄 Docs | DevOps | 
 | [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc) | ⭐387 | 📄 Docs | DevOps | 
 | [Documentation GRR](https://github.com/google/grr-doc) | ⭐313 | 📄 Docs | Security | 
 | [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐19422 | 📄 Docs | Security | 
@@ -478,7 +478,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3892 | 📄 Docs | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐119 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐33 | 📓 Cheat Sheet | DevOps | 
-| [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐19413 | 📄 Docs | DevOps | 
+| [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐19772 | 📄 Docs | DevOps | 
 | [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐367 | 📕 Book | ML | 
 | [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) | ⭐58941 | 📓 Cheat Sheet | Programming | 
 | [Globbing Cheat Sheet](https://github.com/begin/globbing) | ⭐157 | 📓 Cheat Sheet | DevOps | 
@@ -486,7 +486,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Google DevOps Governance](https://github.com/google/devops-governance) | ⭐84 | 📄 Docs | DevOps | 
 | [Google Engineering Practices](https://github.com/google/eng-practices) | ⭐23300 | 📓 Cheat Sheet | DevOps | 
 | [How Programming Works](https://github.com/HowProgrammingWorks/Book) | ⭐499 | 📕 Book | Development | 
-| [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐25940 | 📄 Docs | Security | 
+| [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐31473 | 📄 Docs | Security | 
 | [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal) | ⭐7 | 💡 Tutorial | ML | 
 | [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews) |  | 📓 Cheat Sheet | Development | 
 | [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12372 | 💬 Interview | ML | 
@@ -505,7 +505,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules) | ⭐75 | 📄 Docs | Programming | 
 | [Kafka Architecture](https://github.com/anhthii/kafka-notes) | ⭐128 | 📄 Docs | Architecture | 
 | [LZone Cheat Sheets](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐339 | 📓 Cheat Sheet | DevOps | 
-| [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing) | ⭐10176 | 💡 Tutorial | DevOps | 
+| [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing) | ⭐10185 | 💡 Tutorial | DevOps | 
 | [Learn Regex](https://github.com/ziishaned/learn-regex) | ⭐46089 | 📓 Cheat Sheet | Programming | 
 | [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud) | ⭐5774 | 💡 Tutorial | DevOps | 
 | [Learn UML2](https://github.com/imalitavakoli/learn-uml2) | ⭐125 | 📕 Book | Architecture | 
@@ -596,12 +596,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [System Design 101](https://github.com/ByteByteGoHq/system-design-101) | ⭐87717 | 💬 Interview | DevOps | 
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | ⭐366739 | 💬 Interview | DevOps | 
 | [Tekton 101](https://github.com/dewan-ahmed/Tekton101) | ⭐9 | 💡 Tutorial | DevOps | 
-| [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) | ⭐3952 | 📄 Docs | DevOps | 
-| [The Bread Code](https://github.com/hendricius/the-bread-code) | ⭐4131 | 📕 Book | DevOps | 
+| [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) | ⭐4289 | 📄 Docs | DevOps | 
+| [The Bread Code](https://github.com/hendricius/the-bread-code) | ⭐4141 | 📕 Book | DevOps | 
 | [The JS Way](https://github.com/thejsway/thejsway) | ⭐7879 | 📕 Book | Development | 
 | [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) | ⭐812 | 💡 Tutorial | Architecture | 
 | [Tutorial RabbitMQ](https://github.com/Frodo-Web/frodo-tips) | ⭐2 | 💡 Tutorial | DevOps | 
-| [TypeSpec API Generator](https://github.com/microsoft/typespec) | ⭐5687 | 📄 Docs | Architecture | 
+| [TypeSpec API Generator](https://github.com/microsoft/typespec) | ⭐5872 | 📄 Docs | Architecture | 
 | [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2553 | 📕 Book | Development | 
 | [Video Tutorials](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐339 | 💡 Tutorial | DevOps | 
 | [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐37677 | 📕 Book | Programming | 

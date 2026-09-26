@@ -1964,24 +1964,24 @@
     "category": "DevOps",
     "stars": 15,
     "forks": 55,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "Documentation Flux": {
     "github": "fluxcd/website",
     "filePattern": "content/en/flux/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 64,
-    "forks": 387,
-    "last_updated": "2026-04-15"
+    "stars": 65,
+    "forks": 402,
+    "last_updated": "2026-09-26"
   },
   "Coding Interview University": {
     "github": "jwasham/coding-interview-university",
     "type": "Documentation",
     "category": "Development",
-    "stars": 340957,
-    "forks": 81913,
-    "last_updated": "2026-04-15"
+    "stars": 361907,
+    "forks": 84895,
+    "last_updated": "2026-09-26"
   },
   "rsync Tutorial": {
     "github": "johnjung/rsync_tutorial",
@@ -1992,43 +1992,43 @@
     "github": "microsoft/typespec",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 5687,
-    "forks": 353,
-    "last_updated": "2026-04-15"
+    "stars": 5872,
+    "forks": 399,
+    "last_updated": "2026-09-26"
   },
   "Generating Flamegraphs": {
     "github": "brendangregg/FlameGraph",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 19413,
-    "forks": 2097,
-    "last_updated": "2026-04-15"
+    "stars": 19772,
+    "forks": 2109,
+    "last_updated": "2026-09-26"
   },
   "SprintBoot Best Practices": {
     "github": "AnghelLeonard/Hibernate-SpringBoot",
     "type": "Documentation",
     "category": "Architecture",
     "stars": 1372,
-    "forks": 537,
-    "last_updated": "2026-04-15"
+    "forks": 535,
+    "last_updated": "2026-09-26"
   },
   "AWS EKS Best Practices": {
     "github": "aws/aws-eks-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2150,
-    "forks": 558,
-    "last_updated": "2026-04-15"
+    "stars": 2160,
+    "forks": 567,
+    "last_updated": "2026-09-26"
   },
   "AWS ELB Best Practices": {
     "github": "aws/aws-elb-best-practices",
     "filePattern": "content/(.+).md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 33,
-    "forks": 5,
-    "last_updated": "2026-04-15"
+    "stars": 34,
+    "forks": 6,
+    "last_updated": "2026-09-26"
   },
   "Documentation kubeseal": {
     "github": "bitnami-labs/sealed-secrets",
@@ -2042,33 +2042,33 @@
     "github": "imthenachoman/How-To-Secure-A-Linux-Server",
     "type": "Documentation",
     "category": "Security",
-    "stars": 25940,
-    "forks": 1690,
-    "last_updated": "2026-04-15"
+    "stars": 31473,
+    "forks": 2120,
+    "last_updated": "2026-09-26"
   },
   "The Bread Code": {
     "github": "hendricius/the-bread-code",
     "type": "Book",
     "category": "DevOps",
-    "stars": 4131,
-    "forks": 182,
-    "last_updated": "2026-04-15"
+    "stars": 4141,
+    "forks": 181,
+    "last_updated": "2026-09-26"
   },
   "Terraform Zero to Hero": {
     "github": "iam-veeramalla/terraform-zero-to-hero",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 3952,
-    "forks": 18070,
-    "last_updated": "2026-04-15"
+    "stars": 4289,
+    "forks": 19645,
+    "last_updated": "2026-09-26"
   },
   "AWK anti-textbook": {
     "github": "thewhitetulip/awk-anti-textbook",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 743,
-    "forks": 39,
-    "last_updated": "2026-04-15"
+    "stars": 741,
+    "forks": 37,
+    "last_updated": "2026-09-26"
   },
   "Learn sed": {
     "github": "dohlee/learn-sed",
@@ -2076,15 +2076,15 @@
     "category": "DevOps",
     "stars": 2,
     "forks": 1,
-    "last_updated": "2026-04-15"
+    "last_updated": "2026-09-26"
   },
   "Learn CLI text processing": {
     "github": "learnbyexample/Command-line-text-processing",
     "type": "Tutorial",
     "category": "DevOps",
-    "stars": 10176,
-    "forks": 705,
-    "last_updated": "2026-04-15"
+    "stars": 10185,
+    "forks": 700,
+    "last_updated": "2026-09-26"
   },
   "Tutorial RabbitMQ": {
     "github": "Frodo-Web/frodo-tips",
