@@ -17,6 +17,7 @@ Handling units
     
     systemctl --failed                  # Show all failed units (short)
     systemctl --state=failed            # Show all failed units
+    systemctl status --user             # Show all user defined units
     
     systemctl reset-failed [<unit>]
     
@@ -41,7 +42,11 @@ Manage targets
     systemctl get-default               # Print currently active target
     systemctl set-default <target>      # Change target
     systemctl list-units --type=target  # Print all units for active target
-    
+
+Manage timers
+
+    systemctl list-timers --all
+
 Manage control groups
 
     systemd-cgls                     # Show all control groups
