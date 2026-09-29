@@ -419,7 +419,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa) | ⭐1931 | 📄 Docs | DevOps | 
 | [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) | ⭐22546 | 📓 Cheat Sheet | DevOps | 
 | [Docker Getting Started](https://github.com/docker/getting-started) | ⭐3088 | 📓 Cheat Sheet | DevOps | 
-| [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐158 | 📄 Docs | DevOps | 
+| [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐181 | 📄 Docs | DevOps | 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐15 | 📄 Docs | DevOps | 
 | [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐24067 | 📄 Docs | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐62 | 📄 Docs | DevOps | 
@@ -467,8 +467,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake) | ⭐25 | 📄 Docs | Architecture | 
 | [ElasticSearch Architecture](https://github.com/gose/elastic-architectures) | ⭐5 | 📄 Docs | Architecture | 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2647 | 📄 Docs | DevOps | 
-| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐750 | 📄 Docs | Development | 
-| [Everything curl](https://github.com/curl/everything-curl) | ⭐2233 | 📕 Book | DevOps | 
+| [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐994 | 📄 Docs | Development | 
+| [Everything curl](https://github.com/curl/everything-curl) | ⭐2266 | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐25272 | 📕 Book | ML | 
 | [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9907 | 📓 Cheat Sheet | Web | 
@@ -611,12 +611,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐71 | 📄 Docs | Architecture | 
 | [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐11693 | 👍 Awesome | Architecture | 
 | [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14456 | 📓 Cheat Sheet | DevOps | 
-| [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐230 | 💬 Interview | Cloud | 
+| [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐351 | 💬 Interview | Cloud | 
 | [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐40 | 💬 Interview | ML | 
 | [devinterview.io Architecture](https://github.com/Devinterview-io/software-architecture-interview-questions) | ⭐169 | 💬 Interview | Architecture | 
-| [devinterview.io Azure](https://github.com/Devinterview-io/azure-interview-questions) | ⭐29 | 💬 Interview | Cloud | 
-| [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) | ⭐22 | 💬 Interview | Architecture | 
-| [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) | ⭐18 | 💬 Interview | Architecture | 
+| [devinterview.io Azure](https://github.com/Devinterview-io/azure-interview-questions) | ⭐37 | 💬 Interview | Cloud | 
+| [devinterview.io CAP theorem](https://github.com/Devinterview-io/cap-theorem-interview-questions) | ⭐24 | 💬 Interview | Architecture | 
+| [devinterview.io DDD](https://github.com/Devinterview-io/domain-driven-design-interview-questions) | ⭐22 | 💬 Interview | Architecture | 
 | [devinterview.io Data Analyst](https://github.com/Devinterview-io/data-analyst-interview-questions) | ⭐91 | 💬 Interview | ML | 
 | [devinterview.io Data Engineer](https://github.com/Devinterview-io/data-engineer-interview-questions) | ⭐103 | 💬 Interview | DevOps | 
 | [devinterview.io Dimensionality](https://github.com/Devinterview-io/curse-of-dimensionality-interview-questions) | ⭐8 | 💬 Interview | ML | 
@@ -627,8 +627,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [devinterview.io NOSQL](https://github.com/Devinterview-io/nosql-interview-questions) | ⭐31 | 💬 Interview | DevOps | 
 | [devinterview.io SOA](https://github.com/Devinterview-io/service-oriented-architecture-interview-questions) | ⭐15 | 💬 Interview | Architecture | 
 | [devinterview.io XML](https://github.com/Devinterview-io/xml-interview-questions) | ⭐3 | 💬 Interview | DevOps | 
-| [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) | ⭐12 | 💬 Interview | DevOps | 
-| [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) | ⭐46 | 💬 Interview | DevOps | 
+| [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) | ⭐15 | 💬 Interview | DevOps | 
+| [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) | ⭐66 | 💬 Interview | DevOps | 
 | [eg Cheat Sheets](https://github.com/srsudar/eg) | ⭐2041 | 📓 Cheat Sheet | DevOps | 
 | [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet) | ⭐8830 | 📓 Cheat Sheet | Programming | 
 | [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad) | ⭐29 | 💡 Tutorial | DevOps | 
@@ -641,4 +641,4 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [nocomplexity Architecture Playbook](https://github.com/nocomplexity/ArchitecturePlaybook) | ⭐738 | 📄 Docs | Architecture | 
 | [reactnative.guide](https://github.com/react-made-native-easy/book) |  | 📕 Book | Development | 
 | [rsync Tutorial](https://github.com/johnjung/rsync_tutorial) |  | 📓 Cheat Sheet | DevOps | 
-| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5259 | 💡 Tutorial | Development | 
+| [x86 bare metal examples](https://github.com/cirosantilli/x86-bare-metal-examples) | ⭐5373 | 💡 Tutorial | Development | 
