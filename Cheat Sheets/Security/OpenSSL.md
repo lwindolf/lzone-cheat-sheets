@@ -17,6 +17,11 @@ related:
 
         openssl pkcs7 -in <file> -print_certs
 
+- Print alle issuer names from a PEM bundle
+
+        openssl crl2pkcs7 -nocrl -certfile ca-bundle.pem |\
+        openssl pkcs7 -print_certs -noout
+  
 - Export from PKCS12 (.pfx)
 
         openssl pkcs12 -info -in INFILE.p12 -nodes -nocerts    # Keys
