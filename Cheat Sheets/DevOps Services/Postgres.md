@@ -178,6 +178,14 @@ Mode](http://www.postgresql.org/docs/9.1/static/continuous-archiving.html#BACKUP
 - [repmgr](http://www.repmgr.org/) which manages and monitors replication and 
   has automatic slave promotion on master failure.
 
+## pgdump
+
+    pg_dump \
+      -h $DBHOST \
+      -U postgres \
+      -d <database> \
+      > dump.sql
+
 ## Log Analysis
 
 - [pgFouine](http://pgfouine.projects.pgfoundry.org/)
